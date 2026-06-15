@@ -131,6 +131,11 @@ Cada medio tiene esta forma:
 - **`limit`** — número de titulares a mostrar de ese medio.
 - **`color`** — variante de color de la tarjeta (ver paleta en
   `src/styles/global.css`, clases `.outlet--*`).
+- **`"language": "en"`** — marca medios en inglés (The Guardian, NYT,
+  Washington Post, The Economist). Sus titulares y resúmenes se traducen
+  automáticamente al español con IA al obtener las noticias (requiere
+  `ANTHROPIC_API_KEY`); si no hay clave o falla la traducción, se muestran en
+  inglés.
 
 Para agregar, quitar o reemplazar un medio, edita el arreglo correspondiente
 (`colombia`, `mundo` o `recomendados`) y vuelve a correr

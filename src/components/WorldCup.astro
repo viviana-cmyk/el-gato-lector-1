@@ -6,27 +6,50 @@ function shortDay(date: string): string {
   const [day, number] = date.split(" ");
   return `${day.slice(0, 3).toUpperCase()} ${number}`;
 }
+
+const days = worldcup.days ?? [];
+const maxMatches = days.reduce((max, day) => Math.max(max, day.matches?.length ?? 0), 0);
+const slots = Array.from({ length: maxMatches }, (_, i) => i);
 ---
 
 <div class="worldcup">
   <p class="worldcup__label">{worldcup.label}</p>
-  {
-    worldcup.days?.map((day) => (
-      <div class="worldcup-day">
-        <span class="worldcup-day__title">{shortDay(day.date)}</span>
-        <div class="worldcup-list">
-          {day.matches?.map((match) => (
-            <span class="match-pill">
-              <span class="match-pill__teams">
-                {flagEmoji(match.home)} {match.home}
-                <span class="match-pill__vs">vs</span>
-                {flagEmoji(match.away)} {match.away}
-              </span>
-              <span class="match-pill__time">{match.time}</span>
-            </span>
-          ))}
-        </div>
-      </div>
-    ))
-  }
+  <div class="worldcup-table-wrap">
+    <table class="worldcup-table">
+      <thead>
+        <tr>
+          <th scope="col">Día</th>
+          {slots.map((i) => <th scope="col">Partido {i + 1}</th>)}
+        </tr>
+      </thead>
+      <tbody>
+        {
+          days.map((day) => (
+            <tr>
+              <th scope="row">{shortDay(day.date)}</th>
+              {slots.map((i) => {
+                const match = day.matches?.[i];
+                return (
+                  <td>
+                    {match ? (
+                      <div class="worldcup-match">
+                        <span class="worldcup-match__teams">
+                          {flagEmoji(match.home)} {match.home}
+                          <span class="worldcup-match__vs">vs</span>
+                          {flagEmoji(match.away)} {match.away}
+                        </span>
+                        <span class="worldcup-match__time">{match.time}</span>
+                      </div>
+                    ) : (
+                      <span class="worldcup-match--empty">—</span>
+                    )}
+                  </td>
+                );
+              })}
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
 </div>

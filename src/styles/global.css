@@ -582,60 +582,84 @@ img {
   margin: 0 0 10px;
 }
 
-.worldcup-day {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 6px;
+.worldcup-table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
-.worldcup-day:last-child {
-  margin-bottom: 0;
+.worldcup-table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+  background: var(--paper);
 }
 
-.worldcup-day__title {
+.worldcup-table thead th {
+  background: var(--ink);
+  color: #fff;
   font-family: var(--font-display);
+  font-weight: 700;
   font-size: 0.68rem;
-  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
-  opacity: 0.5;
-  flex: none;
-  width: 56px;
-}
-
-.worldcup-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  flex: 1;
-  min-width: 0;
-}
-
-.match-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--c-green);
-  border-radius: 999px;
-  padding: 3px 10px;
-  font-size: 0.7rem;
-  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding: 10px 14px;
   white-space: nowrap;
 }
 
-.match-pill__vs {
-  font-weight: 600;
-  opacity: 0.5;
-  font-size: 0.62rem;
-  margin: 0 2px;
+.worldcup-table tbody th[scope="row"] {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.75rem;
+  text-align: left;
+  padding: 10px 14px;
+  white-space: nowrap;
 }
 
-.match-pill__time {
+.worldcup-table tbody tr:nth-child(odd) {
+  background: var(--c-mint);
+}
+
+.worldcup-table tbody tr:nth-child(even) {
+  background: var(--c-sky);
+}
+
+.worldcup-table td {
+  padding: 8px 14px;
+  vertical-align: middle;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.worldcup-match {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.worldcup-match__teams {
+  font-weight: 700;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.worldcup-match__vs {
+  font-weight: 600;
+  opacity: 0.5;
+  font-size: 0.66rem;
+  margin: 0 3px;
+}
+
+.worldcup-match__time {
   font-weight: 600;
   opacity: 0.6;
-  font-size: 0.65rem;
+  font-size: 0.68rem;
+}
+
+.worldcup-match--empty {
+  display: block;
+  text-align: center;
+  opacity: 0.25;
 }
 
 /* ---------- Recomendados cards ---------- */

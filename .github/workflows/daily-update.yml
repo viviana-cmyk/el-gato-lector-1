@@ -43,6 +43,8 @@ jobs:
 
       - name: Obtener noticias e indicadores
         run: node scripts/fetch-news.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Generar análisis con IA
         run: node scripts/generate-analysis.mjs

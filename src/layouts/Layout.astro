@@ -5,11 +5,13 @@ import { withBase } from "../lib/url";
 interface Props {
   title: string;
   description?: string;
+  hideTopbar?: boolean;
 }
 
 const {
   title,
   description = "Recopilación sin ánimo de lucro de noticias de Colombia y el mundo, indicadores económicos y recomendados sobre seguridad, justicia y paz.",
+  hideTopbar = false,
 } = Astro.props;
 ---
 
@@ -29,21 +31,23 @@ const {
     <title>{title} · El Gato Lector</title>
   </head>
   <body>
-    <header class="topbar">
-      <div class="topbar__inner">
-        <a class="topbar__brand" href={withBase("/")}>
-          <img src={withBase("/cat-logo.png")} alt="" />
-          El Gato Lector
-        </a>
-        <nav class="topbar__nav">
-          <a class="pill" href={withBase("/colombia")}>Colombia</a>
-          <a class="pill" href={withBase("/mundo")}>El Mundo</a>
-          <a class="pill" href={withBase("/tendencias")}>Tendencias</a>
-          <a class="pill" href={withBase("/reflexiones")}>Reflexiones del Gato</a>
-          <a class="pill pill--ghost" href={withBase("/recomendados")}>Recomendados</a>
-        </nav>
-      </div>
-    </header>
+    {!hideTopbar && (
+      <header class="topbar">
+        <div class="topbar__inner">
+          <a class="topbar__brand" href={withBase("/")}>
+            <img src={withBase("/cat-logo.png")} alt="" />
+            El Gato Lector
+          </a>
+          <nav class="topbar__nav">
+            <a class="pill" href={withBase("/colombia")}>Colombia</a>
+            <a class="pill" href={withBase("/mundo")}>El Mundo</a>
+            <a class="pill" href={withBase("/tendencias")}>Tendencias</a>
+            <a class="pill" href={withBase("/reflexiones")}>Reflexiones del Gato</a>
+            <a class="pill pill--ghost" href={withBase("/recomendados")}>Recomendados</a>
+          </nav>
+        </div>
+      </header>
+    )}
 
     <main>
       <slot />

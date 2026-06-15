@@ -1,5 +1,5 @@
 {
-  "_comment": "Cada medio tiene una fuente RSS directa (tipo 'rss') o, si el medio no publica RSS estable, una busqueda de Google Noticias restringida a su dominio (tipo 'google'). 'limit' = numero de titulares a mostrar por medio.",
+  "_comment": "Cada medio tiene una fuente RSS directa (tipo 'rss') o, si el medio no publica RSS estable, una busqueda de Google Noticias restringida a su dominio (tipo 'google'). 'limit' = numero de titulares a mostrar por medio. 'language': 'en' marca medios en ingles; sus titulares y resumenes se traducen automaticamente al espanol con IA al momento de obtener las noticias (requiere ANTHROPIC_API_KEY).",
   "colombia": [
     {
       "name": "Semana",
@@ -87,6 +87,7 @@
       "name": "The Guardian",
       "color": "yellow",
       "limit": 5,
+      "language": "en",
       "feeds": [
         { "type": "rss", "url": "https://www.theguardian.com/world/rss" }
       ]
@@ -95,6 +96,7 @@
       "name": "The New York Times",
       "color": "mint",
       "limit": 4,
+      "language": "en",
       "feeds": [
         { "type": "rss", "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml" }
       ]
@@ -103,6 +105,7 @@
       "name": "The Washington Post",
       "color": "green",
       "limit": 4,
+      "language": "en",
       "feeds": [
         { "type": "google", "query": "site:washingtonpost.com", "locale": "en" }
       ]
@@ -111,6 +114,7 @@
       "name": "The Economist",
       "color": "lilac",
       "limit": 4,
+      "language": "en",
       "feeds": [
         { "type": "google", "query": "site:economist.com", "locale": "en" }
       ]

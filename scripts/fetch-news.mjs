@@ -7,9 +7,11 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Parser from "rss-parser";
+import Anthropic from "@anthropic-ai/sdk";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "..", "src", "data");
+const TRANSLATE_MODEL = process.env.ANTHROPIC_MODEL || "claude-haiku-4-5-20251001";
 
 const parser = new Parser({
   timeout: 15000,
@@ -101,6 +103,50 @@ async function buildSection(outlets) {
     result.push({ name: outlet.name, color: outlet.color, items });
   }
   return result;
+}
+
+// Traduce al espanol los titulares/resumenes de los medios marcados con
+// "language": "en" en feeds.config.json, usando la API de Anthropic. Si no hay
+// clave configurada, o la traduccion falla, se dejan los textos originales en
+// ingles (el sitio sigue funcionando, solo sin traduccion ese dia).
+async function translateEnglishOutlets(apiKey, outletConfigs, builtOutlets) {
+  if (!apiKey) return;
+
+  const items = [];
+  outletConfigs.forEach((config, i) => {
+    if (config.language === "en") items.push(...builtOutlets[i].items);
+  });
+  if (items.length === 0) return;
+
+  const payload = items.map((item) => ({ title: item.title, snippet: item.snippet }));
+  const prompt = `Traduce al español estos titulares y resúmenes de noticias (estan en formato JSON). Conserva nombres propios, lugares, organizaciones, cifras y el significado exacto; no agregues comentarios ni texto adicional.
+
+${JSON.stringify(payload)}
+
+Responde ÚNICAMENTE con un array JSON del mismo tamaño y en el mismo orden, con el formato {"title": "<titulo traducido>", "snippet": "<resumen traducido>" o null}, sin texto adicional ni bloques de código.`;
+
+  try {
+    const client = new Anthropic({ apiKey });
+    const response = await client.messages.create({
+      model: TRANSLATE_MODEL,
+      max_tokens: 4096,
+      messages: [{ role: "user", content: prompt }],
+    });
+    const text = response.content.find((block) => block.type === "text")?.text || "";
+    const match = text.match(/\[[\s\S]*\]/);
+    if (!match) throw new Error("la respuesta no contiene un array JSON");
+    const translated = JSON.parse(match[0]);
+    if (!Array.isArray(translated) || translated.length !== items.length) {
+      throw new Error("la traduccion no coincide con la cantidad de titulares");
+    }
+    translated.forEach((t, i) => {
+      if (t.title) items[i].title = t.title;
+      if (items[i].snippet) items[i].snippet = t.snippet ?? items[i].snippet;
+    });
+    console.log(`  - Traducidos ${items.length} titular(es) del inglés`);
+  } catch (err) {
+    console.warn(`  [aviso] traduccion: ${err.message}`);
+  }
 }
 
 // Elige "la noticia del dia": la mas reciente entre los medios que traen
@@ -306,6 +352,9 @@ async function main() {
 
   console.log("Obteniendo noticias del mundo...");
   const mundo = await buildSection(config.mundo);
+
+  console.log("Traduciendo medios en inglés...");
+  await translateEnglishOutlets(process.env.ANTHROPIC_API_KEY, config.mundo, mundo);
 
   console.log("Obteniendo investigaciones recomendadas...");
   const recomendados = await buildSection(config.recomendados);
