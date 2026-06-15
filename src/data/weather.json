@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-06-15T19:55:18.033Z",
+  "generatedAt": "2026-06-15T20:24:32.343Z",
   "colombia": [
     {
       "city": "Bogotá",
       "temp": 16,
-      "description": "Tormenta",
-      "icon": "⛈️"
+      "description": "Lluvias dispersas",
+      "icon": "🌦️"
     },
     {
       "city": "Medellín",
-      "temp": 27,
+      "temp": 26,
       "description": "Llovizna ligera",
       "icon": "🌦️"
     },
     {
       "city": "Cali",
       "temp": 26,
-      "description": "Llovizna ligera",
-      "icon": "🌦️"
+      "description": "Nublado",
+      "icon": "☁️"
     },
     {
       "city": "Cartagena",
       "temp": 31,
-      "description": "Despejado",
-      "icon": "☀️"
+      "description": "Llovizna ligera",
+      "icon": "🌦️"
     },
     {
       "city": "Barranquilla",
-      "temp": 32,
-      "description": "Tormenta",
-      "icon": "⛈️"
+      "temp": 31,
+      "description": "Nublado",
+      "icon": "☁️"
     }
   ],
   "mundo": [
@@ -41,15 +41,15 @@
     },
     {
       "city": "Londres",
-      "temp": 19,
+      "temp": 18,
       "description": "Nublado",
       "icon": "☁️"
     },
     {
       "city": "Madrid",
-      "temp": 28,
-      "description": "Nublado",
-      "icon": "☁️"
+      "temp": 27,
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     },
     {
       "city": "Tokio",

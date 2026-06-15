@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-06-15T19:55:18.033Z",
+  "generatedAt": "2026-06-15T20:24:32.343Z",
   "outlets": [
     {
       "name": "CNN en Español",
       "color": "grey",
       "items": [
+        {
+          "title": "Indignación en Colombia: detienen a un estadounidense por presunta violencia sexual contra un menor de edad",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdElZc0UxVWtwS2xKOW55WmEwWEV4RXQ0OWxhY2FhZDdxS2lHbW9CQVBXcnk5Tjh4d2dOYmFLRlFUYVE5LTl1VlVWU3VndUIwWF8zcDBfZmQ1eF96MGY1SWp4d216OC1MWEdIUXBUcl9qT01nQlRueGJ5eDJrTnJpZ013aFJoSjlwakZMTVhjQVdOM2s?oc=5",
+          "pubDate": "2026-06-15T20:02:00.000Z",
+          "snippet": null
+        },
         {
           "title": "Mujer muere tras un accidente de salto de \"bungee\" en Brasil",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY0ZsVzFoWG5IMUtRNm5wSTVVRkwxb0JVZzRnaGM4STF2OExhaFJ6TTlsWGtmWEhWcXRzUXhVMzJST0tkSU45YlRyQW5YaU0yaVkwSWhfdEcwUnc0R0tVcWRnVWxHX0pyU3RCa1NOa21sQzZmenRicWQwdFZ3aTRTRENqLUFMT2dvOEU1dA?oc=5",
@@ -27,12 +33,6 @@
           "title": "SpaceX salió a la bolsa y podría llegar a tu plan de jubilación 401(k)",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUm1WNDBvcTBDRmdwMEIzRmN3Q2cyZkdtZVFhRk1iTXQxalViZ0g0WVhoMnM4eUtNM0lPaXJwUzVlZFoteGFrUEdqRzdMUm1QQ2dKWE9BMDExTVozei0zZVlMYk11VGJrVzQ3NmhaRVlteTAtaGxyYmFBWF85X0diOGV5RkxNZ1Jm?oc=5",
           "pubDate": "2026-06-15T19:15:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "El gobernador de California, Gavin Newsom, dice que el Departamento de Justicia de Trump lo está investigando",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ1N4b2QxVjQ0RGJWWWlXRzNEa1AzVkV5b2FWNzFJVmRNN05MenIzWWdwRkxBZWs4VVFKdWNYbXM3Q05DV0REaG1Za25pMDJDb1dTd0k4cTRqTGR5NG9jVUdERUFmT3p5ZllrYUkxdjN4VExjX1d3LWktblBneFdKZ2ltZG9WbFk?oc=5",
-          "pubDate": "2026-06-15T19:05:00.000Z",
           "snippet": null
         }
       ]
@@ -78,34 +78,34 @@
       "color": "yellow",
       "items": [
         {
+          "title": "International African American Museum in South Carolina to furlough all its staff",
+          "link": "https://www.theguardian.com/news/2026/jun/15/international-african-american-museum-furlough-staff",
+          "pubDate": "2026-06-15T20:04:01.000Z",
+          "snippet": "Decision comes as the museum in Charleston says it faces a ‘shift in the political and funding environment’ The International African American Museum (IAAM) in Charleston, South Carolina, announced on Wednesday that, beginning in July and lasting through 31 December, all of its s…"
+        },
+        {
+          "title": "B-52 bomber crashes after takeoff at US military base in southern California",
+          "link": "https://www.theguardian.com/us-news/2026/jun/15/b52-bomber-crash-california-military-base",
+          "pubDate": "2026-06-15T19:59:14.000Z",
+          "snippet": "B-52 crashed shortly after takeoff on Monday at Edwards air force base in California's Mojave Desert, officials say Sign up for the Breaking News US newsletter email A B-52 bomber crashed shortly after takeoff on Monday morning at a US air force base in California’s Mojave Desert…"
+        },
+        {
+          "title": "California governor Gavin Newsom accuses Donald Trump of directing DoJ to investigate him and his wife – US politics live",
+          "link": "https://www.theguardian.com/us-news/live/2026/jun/15/donald-trump-ufc-white-house-michelle-obama-g7-iran-peace-deal-us-politics-latest-news-updates",
+          "pubDate": "2026-06-15T19:48:48.000Z",
+          "snippet": "Newsom accuses president of ‘coming after me because I am considering running for president’; justice department has yet to comment on claim Gavin Newsom says Trump directed DoJ to investigate him and his wife Sign up for the Breaking News US email JD Vance also dodged the questi…"
+        },
+        {
           "title": "Behind the facade of Jamie Varley, the ‘wicked, arrogant liar’ who abused and murdered his baby son",
           "link": "https://www.theguardian.com/uk-news/2026/jun/15/jamie-varley-abused-murdered-baby-son-preston-davey",
           "pubDate": "2026-06-15T19:39:20.000Z",
-          "snippet": "Varley presented himself in court as a doting dad to Preston Davey but prosecution said he used adopted boy as a sexual ‘plaything’ “They were an ordinary couple,” said one neighbour. Their baby “was happy, he was smiley, he was beautiful,” said a friend. There were nobig concern…"
+          "snippet": "Varley presented himself in court as a doting dad to Preston Davey but prosecution said he used adopted boy as a sexual ‘plaything’ ‘They were an ordinary couple,” said one neighbour. Their baby “was happy, he was smiley, he was beautiful,” said a friend. There were nobig concern…"
         },
         {
           "title": "King tides along California coast prompt advisories following two deaths",
           "link": "https://www.theguardian.com/us-news/2026/jun/15/king-tides-warning-california-coast",
           "pubDate": "2026-06-15T19:38:32.000Z",
           "snippet": "A five-year-old girl was swept away and a woman was pulled into the water, prompting authorities to urge precaution Massive waves, coastal flooding and dangerous rip currents are roiling the California coastline this week as authorities advise people to take precautions while vis…"
-        },
-        {
-          "title": "California governor Gavin Newsom accuses Donald Trump of directing DoJ to investigate him and his wife – US politics live",
-          "link": "https://www.theguardian.com/us-news/live/2026/jun/15/donald-trump-ufc-white-house-michelle-obama-g7-iran-peace-deal-us-politics-latest-news-updates",
-          "pubDate": "2026-06-15T19:35:17.000Z",
-          "snippet": "Newsom accuses president of ‘coming after me because I am considering running for president’; justice department has yet to comment on claim Gavin Newsom says Trump directed DoJ to investigate him and his wife Sign up for the Breaking News US email JD Vance also dodged the questi…"
-        },
-        {
-          "title": "Defence secretary questioned by MPs over timing of Healey quitting and tanker seizure",
-          "link": "https://www.theguardian.com/politics/2026/jun/15/defence-secretary-dan-jarvis-healey-quitting-tanker-seizure",
-          "pubDate": "2026-06-15T19:29:20.000Z",
-          "snippet": "Dan Jarvis under pressure about why Russian oil tanker in Channel was captured days after his predecessor resigned Dan Jarvis has told MPs that the Russian oil tanker seized on Sunday had been monitored for several days as he deflected suggestions that its seizure had been ordere…"
-        },
-        {
-          "title": "Gavin Newsom says Trump directed DoJ to investigate him and his wife",
-          "link": "https://www.theguardian.com/us-news/2026/jun/15/gavin-newsom-doj-investigation",
-          "pubDate": "2026-06-15T19:13:32.000Z",
-          "snippet": "California governor says Trump is ‘coming after me because I am considering running for president’ Gavin Newsom said on Monday that Donald Trump directed the US Department of Justice (DoJ) to investigate him and his wife Jennifer Siebel Newsom. The California governor said in a v…"
         }
       ]
     },
@@ -114,28 +114,28 @@
       "color": "mint",
       "items": [
         {
+          "title": "As Russia Strikes Ukraine, a Cultural Symbol Catches Fire",
+          "link": "https://www.nytimes.com/2026/06/15/world/europe/ukraine-dormition-cathedral-strike.html",
+          "pubDate": "2026-06-15T20:16:50.000Z",
+          "snippet": "The latest casualty in the war is a centuries-old cathedral. President Volodymyr Zelensky called it “one of the largest Russian crimes against Christian culture.”"
+        },
+        {
           "title": "Iran War Live Updates: U.S. and Iran Sign Preliminary Deal, but Its Terms Remain Secret",
           "link": "https://www.nytimes.com/live/2026/06/15/world/iran-war-trump-us-deal",
-          "pubDate": "2026-06-15T19:48:33.000Z",
-          "snippet": "President Trump and Iran’s lead negotiator have signed an agreement that was expected to open the Strait of Hormuz. But the deal’s specific terms have not been released, and the countries have pushed their biggest disagreements to later talks."
+          "pubDate": "2026-06-15T20:13:34.000Z",
+          "snippet": "President Trump and Iran’s lead negotiator have signed an agreement that was expected to open the Strait of Hormuz. But the specific terms of the deal have not been released, and Israel’s leader appears not to be fully on board."
         },
         {
           "title": "Here’s the latest.",
           "link": "https://www.nytimes.com/live/2026/06/15/world/iran-war-trump-us-deal/heres-the-latest",
-          "pubDate": "2026-06-15T19:48:27.000Z",
+          "pubDate": "2026-06-15T20:04:01.000Z",
           "snippet": null
         },
         {
-          "title": "Convicted Leader of Greek Militant Group Ordered Back to Prison",
-          "link": "https://www.nytimes.com/2026/06/15/world/europe/november-17-giotopoulos-prison-release.html",
-          "pubDate": "2026-06-15T19:35:19.000Z",
-          "snippet": "Alexandros Giotopoulos, 82, had been serving 17 life sentences for leading November 17, a leftist group blamed for a wave of bombings and assassinations."
-        },
-        {
-          "title": "With Its Biggest E.U. Opponent Gone, Ukraine Is Advancing in Its Bid to Join",
-          "link": "https://www.nytimes.com/2026/06/15/world/europe/ukraine-eu-membership.html",
-          "pubDate": "2026-06-15T19:14:31.000Z",
-          "snippet": "Even though negotiations are beginning for Ukraine to join the bloc, the path ahead is a long one."
+          "title": "In France, Justice System Faces Public Anger After 11-Year-Old Girl’s Killing",
+          "link": "https://www.nytimes.com/2026/06/15/world/europe/france-lyhanna-protests.html",
+          "pubDate": "2026-06-15T19:56:06.000Z",
+          "snippet": "Protests have erupted across France after authorities revealed that a man accused of kidnapping Lyhanna Rameau Bernard, a French schoolgirl found dead this month, had previously been flagged to law enforcement."
         }
       ]
     },
@@ -144,21 +144,21 @@
       "color": "green",
       "items": [
         {
+          "title": "Israelis denounce Trump’s deal with Iran",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMjVMbmFQZzVkZ3M1bDNVc1ZPdVhhY29TUy1OYTZ3emRhcFY0MWN4eEk3YWsyVGwyalNQV2RMdnNVSldrNDR2ZEVNeDRRVkRnZWoxekY1T1pCdDk1bXRkeE1xeDNKQ0d0LXBDakpzX05yWGdSMXVWZXItV3pjb0xUS0hfZjhHZTF3Q0wxR2lVSU10UQ?oc=5",
+          "pubDate": "2026-06-15T20:16:52.000Z",
+          "snippet": null
+        },
+        {
           "title": "Democrats have a one-word defense for supporting Graham Platner: Trump",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU3R3cXd5eV96ck1NZWJYazJYOTliZ2ViWnhZaGREQlloX3dtOXZERlJEYnZTQjV0MjlZWEl1bXBxTnQwUVBhOXVPNk1YWnlMQVZYTUw0RlVRclFjbjljdlJIMGRwRmlIZUpwMEpRV1BkSlRzZG1YQVN3XzkzVTdmTS1YQUQ4cHhjQlhlYUpscngxNkY0eDdwNVJsbHYwc3hhRkp0Sg?oc=5",
-          "pubDate": "2026-06-15T19:47:25.000Z",
+          "pubDate": "2026-06-15T20:08:58.000Z",
           "snippet": null
         },
         {
           "title": "World Cup racism monitor urges FIFA to remove match official over hand gesture on TV broadcast",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLUs0eGVTRElPNDdyaGxhY2x1djhyaG14UGZSZjlydWhfcndZUktRaUdrLVMtX040Yng0UVZoXzVEdVI2OFJqQW5DOWhjLUF1eDQwWmtwX0E2dDlBMjJDaWpzOTQyU1JyZEdqRjkxd1dReF9KaVNSYS1UM2J4bW5DTDBsdUI4aXZnWVlhNWo3ZUEyeUIxV19hY3lCZE1QbDd4dWFWQVFXNTJwSzlxZ1pwcVBndzlRUUxTUHh2VlRZWHQ1N011Z3Z3NFJpbGJaMl9FX3FLT1hDYTc?oc=5",
           "pubDate": "2026-06-15T19:24:23.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Israelis denounce Trump’s deal with Iran",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMjVMbmFQZzVkZ3M1bDNVc1ZPdVhhY29TUy1OYTZ3emRhcFY0MWN4eEk3YWsyVGwyalNQV2RMdnNVSldrNDR2ZEVNeDRRVkRnZWoxekY1T1pCdDk1bXRkeE1xeDNKQ0d0LXBDakpzX05yWGdSMXVWZXItV3pjb0xUS0hfZjhHZTF3Q0wxR2lVSU10UQ?oc=5",
-          "pubDate": "2026-06-15T19:08:37.000Z",
           "snippet": null
         },
         {
@@ -174,12 +174,6 @@
       "color": "lilac",
       "items": [
         {
-          "title": "Meet the world’s top AI-pilled economists",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT2NBMEVVTG5NdjZjdkZGaGU5YV9fUHVnSktMcmdJU2lzSUQ3RTVXZTQtc3dXODAzSVROM1NSN041UDgyX01sQ0NVRTFqWXlicnZfREhJb3VBblFPM01zV3VBWFFaMDA1akh4dVo3TXhqWVFhSUo3RHhmYS0yVzJIb0Fuc0FfVkp4Mk5DTnJUUjlQVUU2YnVlZzVOWmVDNHVJ?oc=5",
-          "pubDate": "2026-06-15T19:04:42.000Z",
-          "snippet": null
-        },
-        {
           "title": "The War Room newsletter: What eight years as defence editor looks like",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUEVUd1lKUE9GV1lXQVV4Y1hSdmd5MlNYQWd0b0gyMFV5dUtIQzEwWlVOaWQ5aWVwaHBkMks0dUpnZy1xcjZiQXFxcnBQQnpxQnpYNV9BSmhaaDBwWVVXOUxmcXNPNHJ1LUlzcXZReU5VV2R5SmJJU2REMWthUXhBOFo5NEpvTzhFODVFbC1nMmh6ZnBtd240VXZ2M2xvaWJFNUR3NU1fUnBBcmF2cS01T2Z2WQ?oc=5",
           "pubDate": "2026-06-15T18:26:19.000Z",
@@ -189,6 +183,12 @@
           "title": "The terrifying new air war in Ukraine",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTWdwMnY0S2dETk45dW1TS2M4MXRNSXRWN2RwVVlaeWstTWJkWUdyLVo2b1FNdzhPUm9aWVUtV3p1ZDdpdFVWZHBWb2pRS1U3MVNEYVVaWk8zSzhaMDdlTEt5Y0NIMHhvcFFEdktUYTltMFZXT1FtclZrX2tKczhfbGdFM2dELTN1?oc=5",
           "pubDate": "2026-06-15T15:00:35.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Culture",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSksxbVdhU0JDRFZIeHlkUV9wbWpRMjU3ZkxlQ1JOakl1YUFoUThycTNOTVhHZHNWOFUxV0ZBT2FJYnh6SWJiR2lYcFJhVEpKX1BFZkdYUmp5NUpva0FJMjMyYV9sN3lBVUVuRmtjZDZaZmNLV0Jsc1Z4OXZXeXBfUG9IWHAxS0lZRUxZ?oc=5",
+          "pubDate": "2026-06-15T14:39:31.000Z",
           "snippet": null
         },
         {
@@ -204,27 +204,27 @@
       "color": "peach",
       "items": [
         {
-          "title": "Mini Cooper Paul Smith Edition llega a México con variantes eléctricas y de combustión",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQ0NnWU53Qjh4aXpRb1oxVllTTVpOMGdST3VhSlJMMDB0dDBLWDlZczRKbFpRdV9GUjJMMTE3Q2t2bTZhcWt4MzZuZk5DRklVLVFPaHBaUUFiR0NITXE1RXB0UmpEZzFyUjdRMzRwRWttZktLeXNQSWN3ZGlOQi13T2l0WGNTSGZEcFZyblo2SHk2YlJzUXFZZXhaMnJvdXdQZWp3MGJBS3BxbFZyeHpObHU2N0lET21OV0hrWkR5cFRjMzBwd3JiVmt0ZVhkSlQ2R2laMndoY1FtTE550gHcAUFVX3lxTE1DQ2dZTndCOHhpelFvWjFWWVNNWk4wZ1JPdWFKUkwwMHR0MEtYOVlzNEpsWlF1X0ZSMkwxMTdDa3ZtNmFxa3gzNm5mTkNGSVUtUU9ocFpRQWJHQ0hNcTVFcHRSakRnMXJSN1EzNHBFa21mS0t5c1BJY3dkaU5CLXdPaXRYY1NIZkRwVnJuWjZIeTZiUnNRcVlleFoycm91d1BlancwYkFLcHFsVnJ4ek5sdTY3SURPbU5XSGtaRHlwVGMzMHB3cmJWa3RlWGRKVDZHaVoyd2hjUW1MTnk?oc=5",
-          "pubDate": "2026-06-15T18:14:10.000Z",
-          "snippet": null
-        },
-        {
           "title": "Pese a designación de Laura Itzel Castillo, Secretaría de las Mujeres seguirá acéfala hasta septiembre",
           "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOcFJKX2F0bDZxamswa2VXSHFuZVQzWmJHVmNidFlnWFJCcWprWFprS2ZLMHNuUUtReUxUWjFyXzN4Ni1LMG05ZlhIVGZDLUllOVVNaE1sT2FfNTk3M0p1aTdMMTdCWDREekZ1VXdzdjFuTEhXS3U1eGdWTFFYeXpJZm1pcXcyRkZBMzV6b3ZSQTRoTHdhMl94Q0JkTXMzUE1NYk1UeUNrNkhHQ1oxM1VyS2pPWk9EaE1JeEc5NXEyTXlSVE54NFVjVjM3NDdpaDZtbUJCamxKMm9ZY21wT2pNanFxNGEtNjRvMGNfZUJNMkRubXNqMmRJaWpiUdIBjwJBVV95cUxQRWNiR2pNTWNOSUF2TXdKSktHZEZ3ZzJ3THBWeEVaUFBIQ1ZoQjZhcFRnZTgxRGZ1RmU4ZDVoN0lTdGFLTXpBY2I1ekJjUGFSSkRuX1ZUZE5NbHVaOEN3U3NZM2daaDVEZ0ZoOC1fcnl4WldqcXgyWTZMMWcwZG1TUjdHa25vNWFUTjhWNmZHTmFUS0JVT0s3aHNUZGtxQ2k3NFNfNVUyMjhQMzU2UFJqcWt4Q1lXUGpuZHh6T3diaG9LUnFVMjl4UjUwTWNqNGx1ZlZpSzV4ZlRqNjFYQzVLVEUyX3NuN2hsM2M1eUlGc2NRMjR2RUhkZFo3Tlp0Y2JHLVhvbEk5cU92V3Z2Y0FN?oc=5",
           "pubDate": "2026-06-15T17:17:42.000Z",
           "snippet": null
         },
         {
-          "title": "Estrecho de Ormuz estará \"completamente abierto\" el viernes, afirma Trump",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeVhOT0lOWUFILTdmQ3RmdDhmN0N1Vm82SUEyc3d4bDQzTzF3dVo2VUNZMzdCTDM2YVJtOWMxTUUySXlHdVJqa2dVemh1UUlSYnJGcDVrdlozakxxeW95VVc0NDlRMFFyUk5XWXh2czE3czlrb01pTlpCLWM0cnZLNnZ5bS1SREE0QkNOTXVTY0QzU3IyWS1XdTJwaUpVZTA2SURuQW1fbmQ2Z1BHQ09Tb2NJUlVyU1o3LVVVYi14emd1OFFCZWRlS1hWRkhETWRiRU9rR2VtVFBILXBTWXfSAfIBQVVfeXFMUEtoM091YTJwWkRDYXp5NVY0d280SUtqRHhtR0NWRlZ4d2RCeTZfZUFnaGJJWkljUmhQM0Z4dmJJWFJydG1ac3RBUk5nNnZmQVlKSml0dDk2RUJrVXpwTDRub3RsVmNxenJ1RElyekFSQzQxQlgtTG1yYnkxMWFoQjRURl8yOEJwVTV1MDdET01fODQ1SVlNLTR3TXdKYlpXekRqRWdLdmdFV2plRzc3Um01eTVhRFA4TzdUUWlZbHRETDJzc2EtMGt5d2U0YnV5VG9IRDRaWERFTF9IWENqRDlJT0RkcVR5cHEyX0x1XzNkckE?oc=5",
-          "pubDate": "2026-06-15T16:48:19.000Z",
-          "snippet": null
-        },
-        {
           "title": "Morena va por anular 16 diputaciones locales de Coahuila ganadas por el PRI",
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPekZySnlZNW85ekxSR0l4dlNkUnFld1pSZENhMnNxXzA3UFQyTFpfZGZUUEdON0xDekVHWVdKb2xkNHdBb1B3SDBKS0Q1dndld05QeVhlc2xBUTJPREtmelAwUVRETVN0V1A2RFBYMmhJUnV6YUtzZHFNRzV5ZmdQVUl1RTlWOHdtMUJJanRRbVZjb2N5dS02b3dkSVdRVEMzdGo3ekgtcC12bEp2OURZeTBJTWh0T0xKcWFva2FLb2xRX3BwNEJBaHRYd21fVGIt0gHkAUFVX3lxTE41S3RpX1pWaEJlRHdXYXFJMlQ5QmtmQ1pzTWVnT2I1RXdVVnpKMTdvakNJcHQ3bmdDRmFsYmhieEhKcEgyM0liU2xyVy1tSDNzWERYYkE0OExNZnJ5eVlLYWt2MDlGd0dqNnpRaXNTZTRvRklMTGhOdDFVNHc4Tlg5UlZxbTRoRDFXd1BTWmxvZ1pxaUhpZlhESG5maVhJZzE2eElqdkhybWNRU19VaDlGb3ltRUY5TVpheHYtUnFuZlRVdDZiWWYzOEpyS2FJWjJYbTJOQk5nY1EwRkJMUzVfcVV4RA?oc=5",
           "pubDate": "2026-06-15T16:29:54.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Yi He, la mujer que desafía el status quo: \"Ya que estamos aquí, construyamos algo más grande\"",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSlEwalNOMW1jS3h0YXltbUxOaWdjSVBfSmxQSFM0ZjhPcVVIOGFGbDRHQ09TVVZPNDRRWDhTLVJqTldwZy0wX216dnVaRXJzOFV6bjBNZ1hSZmZsMkFLNG15cmRCcXNMVFIwNXpFY3haSTRCM2hRc18yWlZ4ZWJ2dGJJWEN5dUNXVk5KZmRCbnFPZHYwZGlSUjNQOU9ZaFRMMVNkLTR4VUJySnZ2YW5VWHZtTDREZHlUeEVDenlsRThwQ1NtdVVFaDVBTHc?oc=5",
+          "pubDate": "2026-06-15T11:51:45.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Regulación en EU impulsa remesas digitales; migrantes reducen uso de efectivo, explica Grupo Elektra",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVDdEa3F4N2hNdXNhOFpFOHcyaFc0a0lUa1RMMUV3OUFWbGxud2pjN0ZEUEp0NWFLTEpYUmF2LXRtMm9OZzhEZmZSNGRKeUNCRE44Q0x5N0Q5aDJScHpfZ2EzVFVDZmJYa2wzZVlIQWFCeDRwT09WY21aWUJQWGhsRW5VajQ5d2tDaThHb09DbGVGaGxGTHVoaFpzUGEtaVhSLWdYY1Y1Z1kzQzhMNlJTbmFjTWdOZ0xjWHFEOHVBcnFkeFlQSGd5SUtUVVVpVkNVWkVpbNIB6AFBVV95cUxNaE1ocWxlTXF3RmF5ME1KTVhHOTVjNlZYcFM1bFBrZVdiS3doMGg3QndMeV91dmM4Rlh1c21odnZpOGJGWjd2UUNpZmdDaWFidHhqcGxuSzhHYmRpQzlZSHdpWXYzNmdHajFBTm9OdFU4RXlVZmY0bTU5Uk5CSnN0MFZvYVRMUkNWTU45Wm1uY0N0NHFjX1l6ZVpCMGJVNWFrOVdfVDNSSUtFeGx0Zmo4bHJTVzJVa1FGaXFHQTZpZE5vdkV2cFE5dnU0VXU0RzF1LU1wRy1pRGJ5dDFwdEdPblpPUFNvYXB5?oc=5",
+          "pubDate": "2026-06-15T11:50:44.000Z",
           "snippet": null
         }
       ]

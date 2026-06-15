@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-06-15T19:55:21.118Z",
+  "generatedAt": "2026-06-15T20:24:35.447Z",
   "colombia": {
     "intro": "Lectura cruzada desde lo político, social, económico y cultural.",
     "items": [
       {
         "category": "Política",
-        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+        "text": "Las elecciones presidenciales de 2026 muestran una polarización clara entre Iván Cepeda y Abelardo de la Espriella, con denuncias cruzadas sobre gestión de salud que evidencian el desgaste de la contienda electoral. La interferencia de actores armados ilegales —como el anuncio de cese al fuego del ELN y la declaración del Clan del Golfo de no interferir— refleja la persistente influencia de grupos criminales en la política nacional. La inversión en nuevas tecnologías como la IA para hacer campaña y la participación de congresistas estadounidenses en la contienda subrayan la internacionalización y modernización de los procesos electorales colombianos."
       },
       {
         "category": "Económica",
-        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+        "text": "La crisis de infraestructura energética —con la propuesta presidencial de fusionar Air-e y Gecelca— y las tensiones geopolíticas en el estrecho de Ormuz generan incertidumbre en sectores clave como transporte y servicios públicos. La reducción de jornada laboral de 48 a 42 horas representa un cambio estructural en las condiciones laborales, aunque con excepciones que fragmentan su aplicación. El crecimiento esperado del 30% en electrónica de consumo durante el Mundial 2026 y las iniciativas de infraestructura local en ciudades como Medellín sugieren apuestas por dinamismo económico sectorial, contrastando con vulnerabilidades en servicios básicos como agua y energía."
       },
       {
         "category": "Social",
-        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+        "text": "Los enfrentamientos entre fuerzas militares y grupos armados en la Sierra Nevada, que han bloqueado la Troncal del Caribe y afectado turismo y movilidad, evidencian la persistencia de conflictividad territorial que impacta directamente a comunidades locales e indígenas. La crisis de agua en Buenaventura y temblores reportados en junio subrayan vulnerabilidades en servicios básicos y gestión de desastres naturales en regiones específicas. Casos de delitos contra menores y homicidios continúan reportándose, indicando desafíos no resueltos en seguridad ciudadana y protección de poblaciones vulnerables."
       },
       {
         "category": "Cultural",
-        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+        "text": "La intervención artística en Barranquilla inspirada en Shakira y eventos como el Festival SENA Cocina 2026 en La Guajira representan apuestas por reafirmar identidades locales y patrimonio cultural durante un año de visibilidad global por el Mundial. El interés mediático en deportes —con amplia cobertura del fútbol mundial— y en celebraciones privadas de personajes públicos refleja la persistencia del entretenimiento como factor de cohesión social. Sin embargo, la cobertura desproporcionada de eventos lúdicos frente a problemáticas estructurales sugiere una fragmentación en las narrativas culturales que circulan en medios masivos."
       }
     ]
   },
@@ -26,19 +26,19 @@
     "items": [
       {
         "category": "Geopolítica",
-        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+        "text": "Los conflictos internacionales muestran patrones de escalada y negociación simultáneas: mientras se reporta una guerra aérea intensificada en Ucrania con símbolos culturales bajo fuego, EE.UU. e Irán anuncian un acuerdo preliminar cuyas condiciones permanecen secretas, lo que genera escepticismo entre aliados como Israel. La designación de responsables en crisis globales—como Trump asumiendo liderazgo en la pandemia de coronavirus—refleja cómo los gobiernos responden a amenazas transnacionales, aunque sus declaraciones minimicen riesgos reales."
       },
       {
         "category": "Económica",
-        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+        "text": "La entrada de SpaceX a la bolsa representa la expansión del capital privado en sectores estratégicos y su penetración en instrumentos de ahorro masivo como los planes 401(k), democratizando pero también volatilizando el acceso a tecnología aeroespacial. Simultáneamente, la regulación en EE.UU. impulsa remesas digitales que transforman patrones migratorios y financieros en América Latina, mientras presupuestos nacionales—como en España—enfrentan obstáculos políticos que ralentizan inversión pública en crisis sociales."
       },
       {
         "category": "Tecnológica",
-        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+        "text": "La incidencia de accidentes tecnológicos de alto perfil—como el estrellamiento del bombardero B-52 y la muerte por fallo en equipamiento de bungee en Brasil—expone vulnerabilidades en sistemas críticos y de ocio a pesar del avance técnico. La pandemia de coronavirus, declarada sin magnitud diferente a la gripe por autoridades, subraya cómo la tecnología médica y de información enfrenta desafíos comunicacionales cuando los datos no se traducen adecuadamente en políticas públicas."
       },
       {
         "category": "Social",
-        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+        "text": "La violencia sexual contra menores en contextos transnacionales—como la detención de un estadounidense en Colombia—revela redes de explotación que trascienden fronteras y sistemas judiciales débiles. Crímenes domésticos extremos, injusticia en sistemas penales europeos tras el asesinato de una niña en Francia, y la cancelación de representaciones culturales por denuncias de abuso reflejan un creciente cuestionamiento social de estructuras de poder que históricamente protegieron perpetradores, mientras museos dedicados a narrativas de resistencia—como el African American Museum—se ven comprometidos por crisis económicas."
       }
     ]
   }
