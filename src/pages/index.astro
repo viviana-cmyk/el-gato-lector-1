@@ -1,0 +1,56 @@
+---
+import Layout from "../layouts/Layout.astro";
+import IndicatorsBar from "../components/IndicatorsBar.astro";
+import UpdatedNote from "../components/UpdatedNote.astro";
+import FeaturedStory from "../components/FeaturedStory.astro";
+import WeatherSection from "../components/WeatherSection.astro";
+import WorldCup from "../components/WorldCup.astro";
+import { withBase } from "../lib/url";
+import featured from "../data/featured.json";
+---
+
+<Layout title="Inicio">
+  <section class="hero">
+    <img class="hero__cat" src={withBase("/cat-logo.png")} alt="El Gato Lector" />
+    <h1>El Gato Lector</h1>
+    <p class="subtitle">Noticias, indicadores y más....</p>
+    <nav class="hero__nav">
+      <a class="pill" href={withBase("/colombia")}>Colombia</a>
+      <a class="pill" href={withBase("/mundo")}>El Mundo</a>
+      <a class="pill" href={withBase("/tendencias")}>Tendencias</a>
+      <a class="pill" href={withBase("/reflexiones")}>Reflexiones del Gato</a>
+      <a class="pill pill--ghost" href={withBase("/recomendados")}>Recomendados</a>
+    </nav>
+    <div class="hero__meta">
+      <span class="hero__date">🗓 Se actualiza todos los días a las 6:00 a.m. (Colombia)</span>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <h2 class="section__title">La noticia del día</h2>
+    <p class="section__byline">El Gato Lector</p>
+    <FeaturedStory />
+  </section>
+
+  <section class="section wrap">
+    <h2 class="section__title">Indicadores económicos</h2>
+    <p class="section__byline">El Gato Lector</p>
+    <IndicatorsBar />
+  </section>
+
+  <section class="section wrap">
+    <h2 class="section__title">Clima · principales ciudades</h2>
+    <p class="section__byline">El Gato Lector</p>
+    <WeatherSection />
+  </section>
+
+  <section class="section wrap">
+    <h2 class="section__title">Mundial 2026 · Partidos</h2>
+    <p class="section__byline">El Gato Lector</p>
+    <WorldCup />
+  </section>
+
+  <div class="wrap">
+    <UpdatedNote generatedAt={featured.generatedAt} />
+  </div>
+</Layout>

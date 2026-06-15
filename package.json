@@ -1,0 +1,22 @@
+{
+  "name": "el-gato-lector",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.1",
+    "astro": "^6.4.6",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}

@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import AnalysisGrid from "../components/AnalysisGrid.astro";
+import UpdatedNote from "../components/UpdatedNote.astro";
+import analisis from "../data/analisis.json";
+---
+
+<Layout
+  title="Reflexiones del Gato"
+  description="Análisis diario generado por El Gato Lector sobre Colombia y el mundo, a partir de los titulares del día."
+>
+  <section class="section wrap">
+    <h2 class="section__title">Reflexiones del Gato</h2>
+    <p class="section__byline">El Gato Lector</p>
+    <AnalysisGrid />
+    <UpdatedNote generatedAt={analisis.generatedAt} />
+  </section>
+</Layout>

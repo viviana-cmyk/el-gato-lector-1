@@ -1,0 +1,73 @@
+---
+import Layout from "../layouts/Layout.astro";
+import RankList from "../components/RankList.astro";
+import UpdatedNote from "../components/UpdatedNote.astro";
+import curated from "../data/curated.json";
+import featured from "../data/featured.json";
+
+const { redes, podcasts } = curated.tendencias;
+
+const platformIcons: Record<string, string> = {
+  TikTok: "🎵",
+  Instagram: "📸",
+  X: "#️⃣",
+};
+
+function hashtagUrl(platform: string, tag: string): string {
+  const clean = tag.replace(/^#/, "");
+  if (platform === "TikTok") return `https://www.tiktok.com/tag/${encodeURIComponent(clean)}`;
+  if (platform === "Instagram")
+    return `https://www.instagram.com/explore/tags/${encodeURIComponent(clean)}/`;
+  if (platform === "X") return `https://x.com/hashtag/${encodeURIComponent(clean)}`;
+  return "#";
+}
+
+function podcastUrl(title: string): string {
+  return `https://open.spotify.com/search/${encodeURIComponent(title)}`;
+}
+
+const redesLists = redes.map((red) => ({
+  title: `${red.platform} · Top 5`,
+  icon: platformIcons[red.platform] ?? "📈",
+  items: red.top5.map((tag) => ({ primary: tag, url: hashtagUrl(red.platform, tag) })),
+}));
+
+const podcastLists = [
+  { label: "Colombia", icon: "🎙️", items: podcasts.colombia },
+  { label: "Mundo", icon: "🌍", items: podcasts.mundo },
+].map((group) => ({
+  title: `Ranking podcasts · ${group.label}`,
+  icon: group.icon,
+  items: group.items.map((podcast) => ({
+    primary: podcast.title,
+    secondary: podcast.host,
+    url: podcastUrl(podcast.title),
+  })),
+}));
+---
+
+<Layout
+  title="Tendencias"
+  description="Top 5 tendencias del día en TikTok, Instagram y X, y el ranking de podcasts más escuchados en Colombia y el mundo."
+>
+  <section class="section wrap">
+    <h2 class="section__title">Tendencias</h2>
+    <p class="section__byline">El Gato Lector</p>
+
+    <div class="trends">
+      <div class="trends__header">
+        <span class="trends__live">● EN VIVO</span>
+        <span class="trends__subtitle">
+          Lo que se conversa hoy en redes sobre Colombia y el mundo
+        </span>
+      </div>
+
+      <div class="rank-sections">
+        {redesLists.map((list) => <RankList title={list.title} icon={list.icon} items={list.items} />)}
+        {podcastLists.map((list) => <RankList title={list.title} icon={list.icon} items={list.items} />)}
+      </div>
+    </div>
+
+    <UpdatedNote generatedAt={featured.generatedAt} />
+  </section>
+</Layout>

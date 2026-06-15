@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-06-14T23:11:14.584Z",
+  "colombia": {
+    "intro": "Lectura cruzada desde lo político, social, económico y cultural.",
+    "items": [
+      {
+        "category": "Política",
+        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+      },
+      {
+        "category": "Económica",
+        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+      },
+      {
+        "category": "Social",
+        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+      },
+      {
+        "category": "Cultural",
+        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+      }
+    ]
+  },
+  "mundo": {
+    "intro": "Geopolítica, economía global, sociedad y tecnología en diálogo.",
+    "items": [
+      {
+        "category": "Geopolítica",
+        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+      },
+      {
+        "category": "Económica",
+        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+      },
+      {
+        "category": "Tecnológica",
+        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+      },
+      {
+        "category": "Social",
+        "text": "Análisis pendiente: configura ANTHROPIC_API_KEY para generar este contenido automáticamente."
+      }
+    ]
+  }
+}

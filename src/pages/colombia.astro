@@ -1,0 +1,17 @@
+---
+import Layout from "../layouts/Layout.astro";
+import IndicatorsBar from "../components/IndicatorsBar.astro";
+import NewsGrid from "../components/NewsGrid.astro";
+import UpdatedNote from "../components/UpdatedNote.astro";
+import colombiaData from "../data/news-colombia.json";
+---
+
+<Layout title="Colombia" description="Titulares de Semana, El Espectador, El Tiempo, El Colombiano, Blu Radio, Caracol Radio, RCN Radio y Portafolio, actualizados a diario.">
+  <section class="section wrap">
+    <h2 class="section__title">Noticias de Colombia</h2>
+    <p class="section__byline">El Gato Lector</p>
+    <IndicatorsBar />
+    <NewsGrid outlets={colombiaData.outlets} />
+    <UpdatedNote generatedAt={colombiaData.generatedAt} />
+  </section>
+</Layout>

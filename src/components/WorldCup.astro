@@ -1,0 +1,32 @@
+---
+import worldcup from "../data/worldcup.json";
+import { flagEmoji } from "../lib/flags";
+
+function shortDay(date: string): string {
+  const [day, number] = date.split(" ");
+  return `${day.slice(0, 3).toUpperCase()} ${number}`;
+}
+---
+
+<div class="worldcup">
+  <p class="worldcup__label">{worldcup.label}</p>
+  {
+    worldcup.days?.map((day) => (
+      <div class="worldcup-day">
+        <span class="worldcup-day__title">{shortDay(day.date)}</span>
+        <div class="worldcup-list">
+          {day.matches?.map((match) => (
+            <span class="match-pill">
+              <span class="match-pill__teams">
+                {flagEmoji(match.home)} {match.home}
+                <span class="match-pill__vs">vs</span>
+                {flagEmoji(match.away)} {match.away}
+              </span>
+              <span class="match-pill__time">{match.time}</span>
+            </span>
+          ))}
+        </div>
+      </div>
+    ))
+  }
+</div>

@@ -1,0 +1,65 @@
+---
+import "../styles/global.css";
+import { withBase } from "../lib/url";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "Recopilación sin ánimo de lucro de noticias de Colombia y el mundo, indicadores económicos y recomendados sobre seguridad, justicia y paz.",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" href={withBase("/cat-logo.png")} type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins:wght@700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title} · El Gato Lector</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar__inner">
+        <a class="topbar__brand" href={withBase("/")}>
+          <img src={withBase("/cat-logo.png")} alt="" />
+          El Gato Lector
+        </a>
+        <nav class="topbar__nav">
+          <a class="pill" href={withBase("/colombia")}>Colombia</a>
+          <a class="pill" href={withBase("/mundo")}>El Mundo</a>
+          <a class="pill" href={withBase("/tendencias")}>Tendencias</a>
+          <a class="pill" href={withBase("/reflexiones")}>Reflexiones del Gato</a>
+          <a class="pill pill--ghost" href={withBase("/recomendados")}>Recomendados</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <span class="pin">📍</span>
+        <div class="footer__brand">El Gato Lector</div>
+        <p>
+          Recopilación sin ánimo de lucro en temas de seguridad, justicia y paz, realizada
+          desde la curiosidad innata de los gatos. <strong>Lee, actualízate y edifica</strong>
+          tus propias conjeturas a partir de datos, tendencias y contemporaneidad.
+        </p>
+        <img class="footer__cat" src={withBase("/cat-logo.png")} alt="El Gato Lector" />
+      </div>
+    </footer>
+  </body>
+</html>

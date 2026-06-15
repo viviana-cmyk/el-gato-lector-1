@@ -1,0 +1,30 @@
+---
+import weather from "../data/weather.json";
+
+const groups = [
+  { key: "colombia", label: "Colombia", cities: weather.colombia },
+  { key: "mundo", label: "Mundo", cities: weather.mundo },
+];
+---
+
+<div class="weather-groups">
+  {
+    groups.map((group) => (
+      <div class="weather-group">
+        <h3 class="weather-group__title">{group.label}</h3>
+        <div class="weather-cards">
+          {
+            group.cities?.map((city) => (
+              <div class="weather-card">
+                <span class="weather-card__icon">{city.icon}</span>
+                <span class="weather-card__city">{city.city}</span>
+                <span class="weather-card__temp">{city.temp}°C</span>
+                <span class="weather-card__desc">{city.description}</span>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    ))
+  }
+</div>

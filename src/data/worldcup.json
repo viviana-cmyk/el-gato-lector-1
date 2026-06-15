@@ -1,0 +1,63 @@
+{
+  "_comment": "Datos manuales del calendario del Mundial 2026. Esta seccion no se actualiza sola: edita 'days' con la programacion de la semana (fecha, hora local de referencia y equipos). Las horas son de referencia (zona horaria del este de EE.UU./Canada) y pueden ajustarse a la hora de Colombia si se desea.",
+  "label": "Programación de la semana · 15-21 de junio",
+  "days": [
+    {
+      "date": "Lunes 15 de jun",
+      "matches": [
+        { "home": "España", "away": "Cabo Verde", "time": "12:00" },
+        { "home": "Bélgica", "away": "Egipto", "time": "15:00" },
+        { "home": "Arabia Saudita", "away": "Uruguay", "time": "18:00" },
+        { "home": "Irán", "away": "Nueva Zelanda", "time": "21:00" }
+      ]
+    },
+    {
+      "date": "Martes 16 de jun",
+      "matches": [
+        { "home": "Francia", "away": "Senegal", "time": "15:00" },
+        { "home": "Irak", "away": "Noruega", "time": "18:00" },
+        { "home": "Argentina", "away": "Argelia", "time": "21:00" }
+      ]
+    },
+    {
+      "date": "Miércoles 17 de jun",
+      "matches": [
+        { "home": "Portugal", "away": "RD Congo", "time": "13:00" },
+        { "home": "Inglaterra", "away": "Croacia", "time": "16:00" },
+        { "home": "Ghana", "away": "Panamá", "time": "19:00" },
+        { "home": "Uzbekistán", "away": "Colombia", "time": "22:00" }
+      ]
+    },
+    {
+      "date": "Jueves 18 de jun",
+      "matches": [
+        { "home": "Chequia", "away": "Sudáfrica", "time": "12:00" },
+        { "home": "Suiza", "away": "Bosnia y Herzegovina", "time": "15:00" },
+        { "home": "Canadá", "away": "Catar", "time": "18:00" },
+        { "home": "México", "away": "Corea del Sur", "time": "21:00" }
+      ]
+    },
+    {
+      "date": "Viernes 19 de jun",
+      "matches": [
+        { "home": "Estados Unidos", "away": "Australia", "time": "15:00" },
+        { "home": "Escocia", "away": "Marruecos", "time": "18:00" },
+        { "home": "Brasil", "away": "Haití", "time": "21:00" }
+      ]
+    },
+    {
+      "date": "Sábado 20 de jun",
+      "matches": [
+        { "home": "Países Bajos", "away": "Suecia", "time": "13:00" },
+        { "home": "Alemania", "away": "Costa de Marfil", "time": "16:00" },
+        { "home": "Ecuador", "away": "Curazao", "time": "20:00" }
+      ]
+    },
+    {
+      "date": "Domingo 21 de jun",
+      "matches": [
+        { "home": "España", "away": "Arabia Saudita", "time": "12:00" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import NewsGrid from "../components/NewsGrid.astro";
+import UpdatedNote from "../components/UpdatedNote.astro";
+import mundoData from "../data/news-mundo.json";
+---
+
+<Layout title="El Mundo" description="Titulares de CNN, El País, The Guardian, The New York Times, The Washington Post, The Economist, El Universal y Diario Las Américas, actualizados a diario.">
+  <section class="section wrap">
+    <h2 class="section__title">Noticias del Mundo</h2>
+    <p class="section__byline">El Gato Lector</p>
+    <NewsGrid outlets={mundoData.outlets} />
+    <UpdatedNote generatedAt={mundoData.generatedAt} />
+  </section>
+</Layout>

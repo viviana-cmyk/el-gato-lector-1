@@ -1,0 +1,35 @@
+---
+import { formatDateTime } from "../lib/format";
+
+interface NewsItem {
+  title: string;
+  link: string;
+  pubDate: string | null;
+}
+
+interface Props {
+  name: string;
+  color: string;
+  items: NewsItem[];
+}
+
+const { name, color, items } = Astro.props;
+---
+
+<div class={`outlet outlet--${color}`}>
+  <div class="outlet__logo">{name}</div>
+  {items.length === 0 && <p class="empty-note">Sin titulares disponibles por ahora.</p>}
+  {
+    items.map((item, i) => (
+      <div class="outlet__item">
+        <span class="outlet__bullet">{i + 1}</span>
+        <div>
+          <a href={item.link} target="_blank" rel="noopener noreferrer">
+            {item.title}
+          </a>
+          {item.pubDate && <span class="outlet__time">{formatDateTime(item.pubDate)}</span>}
+        </div>
+      </div>
+    ))
+  }
+</div>

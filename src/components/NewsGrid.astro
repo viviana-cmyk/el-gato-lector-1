@@ -1,0 +1,25 @@
+---
+import OutletColumn from "./OutletColumn.astro";
+
+interface NewsItem {
+  title: string;
+  link: string;
+  pubDate: string | null;
+}
+
+interface Outlet {
+  name: string;
+  color: string;
+  items: NewsItem[];
+}
+
+interface Props {
+  outlets: Outlet[];
+}
+
+const { outlets } = Astro.props;
+---
+
+<div class="outlets">
+  {outlets.map((outlet) => <OutletColumn name={outlet.name} color={outlet.color} items={outlet.items} />)}
+</div>

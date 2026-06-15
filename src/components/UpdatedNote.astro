@@ -1,0 +1,15 @@
+---
+interface Props {
+  generatedAt: string;
+}
+
+const { generatedAt } = Astro.props;
+
+const formatted = new Intl.DateTimeFormat("es-CO", {
+  timeZone: "America/Bogota",
+  dateStyle: "long",
+  timeStyle: "short",
+}).format(new Date(generatedAt));
+---
+
+<p class="updated-note">Última actualización: {formatted} (hora de Colombia)</p>

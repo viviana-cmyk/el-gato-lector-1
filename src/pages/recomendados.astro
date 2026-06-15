@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro";
+import NewsGrid from "../components/NewsGrid.astro";
+import UpdatedNote from "../components/UpdatedNote.astro";
+import recomendadosData from "../data/news-recomendados.json";
+import curated from "../data/curated.json";
+---
+
+<Layout title="Recomendados" description="Investigaciones de InSight Crime, International Crisis Group y el World Economic Forum, más libros recomendados por El Gato Lector.">
+  <section class="section wrap">
+    <h2 class="section__title">Investigaciones</h2>
+    <p class="section__byline">El Gato Lector</p>
+    <NewsGrid outlets={recomendadosData.outlets} />
+    <UpdatedNote generatedAt={recomendadosData.generatedAt} />
+  </section>
+
+  <section class="section wrap">
+    <h2 class="section__title">Libros</h2>
+    <p class="section__byline">El Gato Lector</p>
+    <div class="reco-grid">
+      {
+        curated.books.map((book) => (
+          <div class={`reco-card outlet--${book.color}`}>
+            <h3>{book.title}</h3>
+            <p><strong>{book.author}</strong></p>
+            <p>{book.description}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</Layout>

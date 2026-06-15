@@ -1,0 +1,74 @@
+{
+  "_comment": "Contenido editorial curado a mano (no se actualiza automaticamente). Edita libremente estas listas para cambiar los libros recomendados y las tendencias.",
+  "books": [
+    {
+      "title": "El poder de la geografía",
+      "author": "Tim Marshall",
+      "color": "sky",
+      "description": "Diez territorios que desafían nuestro futuro. La esperada secuela de 'Prisioneros de la geografía' analiza cómo Australia, Irán, Arabia Saudí, Reino Unido, Grecia, Turquía, el Sahel, Etiopía, España y el espacio juegan un papel fundamental en una era de creciente rivalidad política."
+    },
+    {
+      "title": "El eclipse de la sociedad israelí",
+      "author": "Meir Margalit",
+      "color": "slate",
+      "description": "Un ensayo político escrito desde el desgarro de un académico, político y pacifista judío exiliado en su propia ciudad, que busca desentrañar las claves del punto de vista israelí tras el 7 de octubre de 2024."
+    },
+    {
+      "title": "Dime qué comes y te diré cómo duermes",
+      "author": "Fundación Alícia / Dr. Antoni Esteve",
+      "color": "mint",
+      "description": "Una guía para comer bien y adoptar buenos hábitos para dormir más y mejor, uno de los pilares fundamentales de la salud."
+    }
+  ],
+  "tendencias": {
+    "_comment": "Contenido editorial de la pagina Tendencias (no se actualiza solo, editalo a mano). 'redes.top5' son los 5 temas/hashtags mas comentados de ese dia en cada red. 'podcasts.colombia' y 'podcasts.mundo' son los 5 podcasts mas escuchados en cada region. Los valores de ejemplo deben reemplazarse por las tendencias reales.",
+    "redes": [
+      {
+        "platform": "TikTok",
+        "top5": [
+          "#Mundial2026",
+          "#ColombiaVsUzbekistan",
+          "#NoticiasColombia",
+          "#RetoViral",
+          "#MusicaNueva"
+        ]
+      },
+      {
+        "platform": "Instagram",
+        "top5": [
+          "#Mundial2026",
+          "#ModaVerano",
+          "#ViajesColombia",
+          "#Gastronomia",
+          "#ReelsDelDia"
+        ]
+      },
+      {
+        "platform": "X",
+        "top5": [
+          "#MundialCanadaMexicoUSA",
+          "#Colombia",
+          "#Petro",
+          "#EconomiaCO",
+          "#UltimaHora"
+        ]
+      }
+    ],
+    "podcasts": {
+      "colombia": [
+        { "title": "Conclusiones", "host": "Fernando del Rincón · CNN" },
+        { "title": "A Fondo con María Jimena Duzán", "host": "María Jimena Duzán" },
+        { "title": "Vox Populi", "host": "La Silla Vacía" },
+        { "title": "Semana en Vivo", "host": "Revista Semana" },
+        { "title": "Hoy por Hoy", "host": "Caracol Radio" }
+      ],
+      "mundo": [
+        { "title": "The Daily", "host": "The New York Times" },
+        { "title": "Global News Podcast", "host": "BBC World Service" },
+        { "title": "Aprendemos Juntos", "host": "BBVA" },
+        { "title": "El Mundo Hoy", "host": "El País" },
+        { "title": "The Economist: Editor's Picks", "host": "The Economist" }
+      ]
+    }
+  }
+}

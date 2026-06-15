@@ -1,0 +1,19 @@
+---
+import featured from "../data/featured.json";
+
+const story = featured.story;
+---
+
+{
+  story && (
+    <div class="featured">
+      <span class="featured__source">{story.source}</span>
+      <h3 class="featured__title">{story.title}</h3>
+      {story.snippet && <p class="featured__snippet">{story.snippet}</p>}
+      <a class="pill featured__cta" href={story.link} target="_blank" rel="noopener noreferrer">
+        Leer artículo completo →
+      </a>
+    </div>
+  )
+}
+{!story && <p class="empty-note">No hay una noticia destacada por ahora.</p>}

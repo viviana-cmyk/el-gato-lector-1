@@ -1,0 +1,42 @@
+---
+interface RankItem {
+  primary: string;
+  secondary?: string;
+  url: string;
+}
+
+interface Props {
+  title: string;
+  icon?: string;
+  items: RankItem[];
+}
+
+const { title, icon, items } = Astro.props;
+
+const palette = ["rose", "peach", "yellow", "mint", "sky"];
+---
+
+<div class="rank-section">
+  <h3 class="rank-section__title">
+    {icon && <span class="rank-section__icon">{icon}</span>}
+    {title}
+  </h3>
+  <div class="rank-list">
+    {
+      items.map((item, i) => (
+        <a
+          class={`rank-item outlet--${palette[i % palette.length]}`}
+          href={item.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="rank-item__num">{String(i + 1).padStart(2, "0")}</span>
+          <span class="rank-item__body">
+            <span class="rank-item__title">{item.primary}</span>
+            {item.secondary && <span class="rank-item__meta">{item.secondary}</span>}
+          </span>
+        </a>
+      ))
+    }
+  </div>
+</div>
