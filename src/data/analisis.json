@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-06-16T13:17:58.693Z",
+  "generatedAt": "2026-06-16T21:37:48.181Z",
   "colombia": {
     "intro": "Lectura cruzada desde lo político, social, económico y cultural.",
     "items": [
       {
         "category": "Política",
-        "text": "Colombia se encuentra en una etapa electoral crítica con apenas cinco días para las urnas, marcada por tensiones internas en coaliciones progresistas y disputas judiciales de último momento. La advertencia del directivo de la Alianza Verde sobre Gustavo Petro refleja fracturas en la base de apoyo gubernamental, mientras que las denuncias de compra de votos y manipulación electoral evidencian el deterioro del proceso democrático. La incorporación de inteligencia artificial en campañas políticas representa un giro tecnológico sin regulación clara que afecta la transparencia electoral."
+        "text": "Colombia enfrenta una coyuntura electoral sensible marcada por tensiones institucionales y riesgos para la integridad democrática. La suspensión de Gloria Arizabaleta por intentar remover al presidente, sumada a acusaciones de compra de votos entre gobernadores y la imposición de restricciones al voto por grupos armados ilegales en Nariño, revelan fracturas profundas en la legitimidad del proceso político. Mientras tanto, figuras como Carlos Carrillo anuncian aspiraciones para 2027, sugiriendo una clase política enfocada en próximas contiendas mientras persisten amenazas a líderes sociales y control territorial ejercido por actores ilegales."
       },
       {
         "category": "Económica",
-        "text": "La economía colombiana enfrenta volatilidad cambiaria y presiones estructurales, con variaciones en la cotización del dólar que impactan especialmente a poblaciones vulnerables durante períodos de cobro de prestaciones. Las políticas del gobierno Petro sobre fusiones empresariales estratégicas, como la controvertida propuesta de fusionar Air-e con Gecelca, generan preocupaciones sobre eficiencia operacional y riesgo de desabastecimiento energético. En el contexto internacional, los acuerdos geopolíticos entre potencias afectan directamente los flujos de capital y comercio hacia Colombia."
+        "text": "El sector económico colombiano muestra dinámicas contradictorias: regulaciones como la reducción de cobros de operadores móviles apuntan a proteger consumidores, mientras que el sector constructor experimenta volatilidad con subida de precios en materiales y caída en edificaciones, aunque las licencias se duplican. La incertidumbre institucional y los riesgos de seguridad evidenciados en titulares sobre control territorial por grupos armados generan externalidades negativas para la inversión y la competencia leal, como se refleja en casos como Telecall que debe pagar multas sustanciales."
       },
       {
         "category": "Social",
-        "text": "Colombia enfrenta una crisis de seguridad y violencia compleja: combates activos entre fuerzas militares y grupos armados como las Autodefensas Conquistadoras generan pánico en corredores comerciales clave, mientras que secuestros masivos en Buenaventura evidencian el control territorial de actores ilegales. Los delitos contra menores, inseguridad ciudadana en cobros de servicios financieros y ahogamientos en espacios públicos exponen vulnerabilidades estructurales de protección a la población. Los beneficios estatales para madres cabeza de hogar reflejan intentos de política social, pero insuficientes frente a la magnitud de la crisis de orden público."
+        "text": "La seguridad ciudadana continúa siendo crítica: denuncias de amenazas de muerte contra líderes sociales en Córdoba, control de territorios por alias 'Rottweiler' en Medellín mediante terror, y violencia contra menores en Bogotá ilustran un panorama de vulnerabilidad generalizada. Paralelamente, titulares sobre salud mental en tiempos de campaña y la experiencia traumática de una joven víctima de disparos reflejan costos psicosociales profundos de la violencia estructural que afecta especialmente a poblaciones vulnerables."
       },
       {
         "category": "Cultural",
-        "text": "El contexto cultural colombiano se refleja en debates sobre moralidad pública y diversidad de criterios, como la polémica sobre fotografías en espacios religiosos que generó tensión entre figuras públicas. La masiva cobertura mediática del Mundial 2026 y conflictos entre hinchas de selecciones nacionales evidencian cómo el deporte sigue siendo un vehículo de identidad colectiva, aunque con episodios de violencia asociada. La desaparición del periodista Cristian Herrera y el ocultamiento de sus colegas reflejan un clima de autocensura e intimidación que amenaza la libertad de expresión como valor cultural fundamental."
+        "text": "En un contexto de volatilidad política y seguridad comprometida, el consumo cultural y deportivo emerge como espacio de cohesión social, evidenciado por la cobertura masiva del Mundial 2026 y el interés en figuras como Falcao y Neymar. Sin embargo, la preocupación por bienestar animal reflejada en alertas sobre paseo de perros, así como iniciativas como la denominación de origen del café colombiano, sugieren una sociedad que intenta mantener espacios de normalidad y identidad cultural pese a las turbulencias políticas y de seguridad."
       }
     ]
   },
@@ -26,19 +26,19 @@
     "items": [
       {
         "category": "Geopolítica",
-        "text": "La tensión con Irán permanece como eje central de la política exterior estadounidense, con Trump reafirmando posiciones duras sobre armas nucleares mientras se reportan movimientos navales de potencias occidentales en el Estrecho de Ormuz, señalando una escalada de presencia militar. Paralelamente, el conflicto ucraniano genera divisiones en la respuesta occidental, con Trump sugiriendo negociaciones mientras el G7 busca coordinar estrategias para \"obligar a Rusia a hacer la paz\". La geopolítica global refleja un orden multipolar donde las potencias tradicionales intentan mantener influencia en regiones críticas, aunque con respuestas inconsistentes y frecuentemente contradictorias."
+        "text": "La tensión entre Estados Unidos e Irán persiste en múltiples frentes: mientras se reporta un acuerdo para terminar la guerra que permitiría a Teherán vender petróleo, simultáneamente Irán despliega propaganda digital sofisticada en eventos internacionales como el Mundial. En paralelo, la presencia militar estadounidense se fortalece en la región del Pacífico con planes de almacenamiento permanente de armas en Australia, mientras Rusia mantiene una postura provocadora en aguas británicas, evidenciando una competencia geopolítica que trasciende conflictos bilaterales tradicionales."
       },
       {
         "category": "Económica",
-        "text": "Los titulares económicos revelan dinámicas de inversión y control de recursos: Trump rechaza invertir en Irán mientras se reporta que el salvavidas petrolero iraní se fortaleció frente a presiones estadounidenses, sugiriendo una mayor autonomía económica relativa. Japón implementa nuevos aumentos de tasas de interés en un contexto de presiones inflacionarias globales, mientras que la CEPAL advierte sobre cómo el narcotráfico y la corrupción deterioran la gobernanza económica en América Latina. Estos movimientos indican una economía global fragmentada donde sanciones, tasas y criminalidad transnacional generan volatilidad e incertidumbre."
+        "text": "Los mercados financieros estadounidenses muestran signos de especulación excesiva con un mercado alcista en fase maníaca, mientras que empresas tecnológicas como SpaceX alcanzan valuaciones que las posicionan entre las mayores del mundo. En contraste, la región latinoamericana enfrenta desafíos estructurales donde la corrupción y el crimen organizado deterioran la gobernanza según la CEPAL, comprometiendo la estabilidad económica y social de la región."
       },
       {
         "category": "Tecnológica",
-        "text": "Aunque los titulares no reflejan desarrollos tecnológicos específicos, The Economist reporta sobre la inteligencia artificial en economía, sugiriendo que las nuevas tecnologías están permeando sectores clave de decisión política y económica global. La ausencia de análisis profundo sobre tecnología en estos titulares puede reflejar una brecha en la cobertura de cómo la innovación digital está redefiniendo seguridad, vigilancia y capacidades militares en conflictos actuales."
+        "text": "La generación de contenido por inteligencia artificial ha alcanzado un nivel de sofisticación que permite a Estados crear propaganda visual convincente, como demostró Irán antes del Mundial, planteando desafíos sin precedentes para la autenticidad de la información pública. Simultáneamente, la tecnología espacial privada experimenta un crecimiento exponencial con SpaceX superando a gigantes tradicionales, mientras que estafadores explotan vulnerabilidades digitales para defraudar a poblaciones migrantes en Estados Unidos."
       },
       {
         "category": "Social",
-        "text": "La movilización social emerge en múltiples contextos: manifestantes se reúnen antes del partido de Irán en el Mundial, utilizando eventos deportivos como plataforma para expresión política, mientras que en Estados Unidos los votantes independientes alcanzan su nivel más alto en una década, indicando fragmentación del voto tradicional. Casos como la detención de un estadounidense por violencia sexual contra menores en Colombia visibilizan crímenes transnacionales que afectan poblaciones vulnerables. Estas dinámicas reflejan una sociedad civil más activa pero también más polarizada, donde la confianza en instituciones tradicionales disminuye."
+        "text": "Las tensiones sociales en América Latina se agudizan con paros educativos que afectan directamente a 1.4 millones de estudiantes de primaria en México, evidenciando conflictos laborales no resueltos que impactan el derecho a la educación. En Estados Unidos, iniciativas progresistas como centros de salud mental en Miami-Dade buscan reducir encarcelamientos y abordar adicciones, reflejando un giro hacia respuestas más humanitarias a problemas de seguridad pública, aunque coexisten con uso desproporcionado de la fuerza policial en comunidades vulnerables."
       }
     ]
   }
