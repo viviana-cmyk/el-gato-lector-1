@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-06-15T20:24:32.343Z",
+  "generatedAt": "2026-06-16T13:17:55.683Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "The InSight Take: El futuro del Tren de Aragua tras la muerte de Niño Guerrero",
+          "link": "https://insightcrime.org/es/noticias/the-insight-take-futuro-tren-de-aragua-muerte-nino-guerrero/",
+          "pubDate": "2026-06-15T23:36:50.000Z",
+          "snippet": "The InSight Take: El futuro del Tren de Aragua tras la muerte de Niño Guerrero Deborah Bonello, editora ejecutiva y el codirector Jeremy McDermott analizan qué significa la caída de Niño Guerrero para el Tren de Aragua. The post The InSight Take: El futuro del Tren de Aragua tras…"
+        },
+        {
+          "title": "Niño Guerrero ha muerto. Así construyó la franquicia criminal más conocida de América Latina",
+          "link": "https://insightcrime.org/es/noticias/nino-guerrero-muerto-construyo-franquicia-criminal-mas-conocida-america-latina/",
+          "pubDate": "2026-06-15T20:08:48.000Z",
+          "snippet": "Niño Guerrero ha muerto. Así construyó la franquicia criminal más conocida de América Latina Héctor Guerrero Flores, alias “Niño Guerrero”, murió en una operación. Así hizo de Tren de Aragua una franquicia criminal regional. The post Niño Guerrero ha muerto. Así construyó la fran…"
+        },
         {
           "title": "Líder del Tren de Aragua ‘Niño Guerrero’ muere en Venezuela",
           "link": "https://insightcrime.org/es/noticias/lider-tren-de-aragua-nino-guerrero-muerto-venezuela/",
@@ -22,18 +34,6 @@
           "link": "https://insightcrime.org/es/investigaciones/dia-cayeron-bombas-cuando-fuerzas-seguridad-venezolanas-actuaron-sin-limites/",
           "pubDate": "2026-06-12T15:19:14.000Z",
           "snippet": "El día que cayeron las bombas: cuando las fuerzas de seguridad venezolanas actuaron sin límites Durante la Operación Zaraza contra el Tren del Llano, fuerzas de seguridad de Venezuela bombardearon un poblado y cometieron abusos. The post El día que cayeron las bombas: cuando las…"
-        },
-        {
-          "title": "The InSight Take: Los verdaderos riesgos del Mundial en México",
-          "link": "https://insightcrime.org/es/noticias/the-insight-take-verdaderos-riesgos-mundial-mexico/",
-          "pubDate": "2026-06-11T15:53:02.000Z",
-          "snippet": "The InSight Take: Los verdaderos riesgos del Mundial en México En el InSight Take de esta semana, la editora ejecutiva Deborah Bonello y el codirector Steven Dudley separan la realidad de la ficción alrededor de los riesgos de seguridad que enfrentan los turistas que viajan a Méx…"
-        },
-        {
-          "title": "On the Radar: Colombia condena a ‘Otoniel’, Venezuela se despliega contra la minería ilegal y riesgos del Mundial en México",
-          "link": "https://insightcrime.org/es/noticias/colombia-condena-otoniel-venezuela-acciona-contra-mineria-ilegal-inicio-mundial-mexico/",
-          "pubDate": "2026-06-11T15:43:07.000Z",
-          "snippet": "On the Radar: Colombia condena a ‘Otoniel’, Venezuela se despliega contra la minería ilegal y riesgos del Mundial en México Esta semana, On The Radar analiza las acciones de Venezuela contra la minería ilegal, la condena de “Otoniel\" y los riesgos del Mundial en México. The post…"
         }
       ]
     },
@@ -46,6 +46,12 @@
       "name": "World Economic Forum",
       "color": "yellow",
       "items": [
+        {
+          "title": "US and China: From Here to Where? > Annual Meeting of the New Champions",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTDdGYUxwaFQ1TFJoMmUtZ3hsNkZ2RDZVM0Y2SGR5VkZHQ1Mzd3hBSFhKUTB2R3NVZlRNRUQ3MzU4dVZUcmFkNlFJQTdkVmVaZmJYcGRSUVFINzJGZUJYd2FJYXdac1BLTEg5OFBBYXE2eEhHcDVGRy1zV1RRZG1RaVVjQjVfLTI4Q3lFejNhbEpOaHdIUmhQRGtsdUdVVXBwMl9aNUtHVkVkVU9DcXBrOUtTZmk?oc=5",
+          "pubDate": "2026-06-16T12:34:28.000Z",
+          "snippet": null
+        },
         {
           "title": "¿Qué es el \"Davos de Verano\"?",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WS21xcGduY2hNSVJWdjg4ZVMzWFNyeVpvcGo1NWhvWDFBOVBlU2lFd2R2TENHUXQ2YWxKZjBJVzMycTBpNEFyQUU2NVN1Tk50anVOb2pDTDZnRmZDc01pRGpTWUQxTTA?oc=5",
@@ -68,12 +74,6 @@
           "title": "Esta plataforma conecta a estudiantes de idiomas con profesores refugiados",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLXBTZ3cxWnpRZU5IRVFMTHRLTFhsdGdwU1M0QjNJUkoyZE1hYjBYWjB4UG1JYVhpMkxRQl8zQ2d6cXlqV3djUDJ2V0RnV3ZFSldPcTR4VFN5QUdoY2VJd2NXWFFGZ1o1S3B6SVNMcFhJRmZvUmZoQ2NSZUJEeFdvaE1XM3dUajF3UXZBcDFmWGlPVk1oeTk3UFFqR2s5Ti1oZXdmblVmdVo3QQ?oc=5",
           "pubDate": "2026-06-11T07:00:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "How to navigate a crisis: lessons from a chief investment officer",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZTA3Snk5dklDNWVZVGRCU014MDdJb2NIYUFKemlDNUl4VUNoZmxuVWNUV25jVjZVWUNkWi1kc3R4bWF5cnozZHU4MFVMQk5NTjBtVFZxdF85OWotYmkxa0hFMEltX0hud2w5eTRTLW5zN0lad1F6cDlSZTdRRUlPMUhNUlhEWGFFZlRHRkw4dGtnSTZiVE54aw?oc=5",
-          "pubDate": "2026-06-10T07:00:00.000Z",
           "snippet": null
         }
       ]
