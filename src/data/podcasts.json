@@ -1,47 +1,57 @@
 {
-  "generatedAt": "2026-06-17T13:28:19.461Z",
+  "generatedAt": "2026-06-17T13:43:22.745Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
-      "host": "Con William Arana                                          ROKA STEREO"
+      "host": "Con William Arana                                          ROKA STEREO",
+      "url": "https://podcasts.apple.com/co/podcast/la-dosis-diaria-roka/id1405708885"
     },
     {
       "title": "365 con Dios",
-      "host": "Wenddy Neciosup | Genuina Media"
+      "host": "Wenddy Neciosup | Genuina Media",
+      "url": "https://podcasts.apple.com/co/podcast/365-con-dios/id1546917854"
     },
     {
       "title": "Estoicismo Filosofia",
-      "host": "Estoicismo Filosofia"
+      "host": "Estoicismo Filosofia",
+      "url": "https://podcasts.apple.com/co/podcast/estoicismo-filosofia/id1740616448"
     },
     {
       "title": "Seminario Fenix | Brian Tracy",
-      "host": "matiasmartinez16"
+      "host": "matiasmartinez16",
+      "url": "https://podcasts.apple.com/co/podcast/seminario-fenix-brian-tracy/id1735157109"
     },
     {
       "title": "DianaUribe.fm",
-      "host": "Diana Uribe"
+      "host": "Diana Uribe",
+      "url": "https://podcasts.apple.com/co/podcast/dianauribe-fm/id1440323217"
     }
   ],
   "mundo": [
     {
       "title": "The Daily",
-      "host": "The New York Times"
+      "host": "The New York Times",
+      "url": "https://podcasts.apple.com/us/podcast/the-daily/id1200361736"
     },
     {
       "title": "Crime Junkie",
-      "host": "Audiochuck"
+      "host": "Audiochuck",
+      "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
     },
     {
       "title": "Dateline NBC",
-      "host": "NBC News"
+      "host": "NBC News",
+      "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
     },
     {
       "title": "Pod Save America",
-      "host": "Pod Save America"
+      "host": "Pod Save America",
+      "url": "https://podcasts.apple.com/us/podcast/pod-save-america/id1192761536"
     },
     {
       "title": "The Joe Rogan Experience",
-      "host": "Joe Rogan"
+      "host": "Joe Rogan",
+      "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272"
     }
   ]
 }

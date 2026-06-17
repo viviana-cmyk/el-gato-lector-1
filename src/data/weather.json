@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T13:28:19.461Z",
+  "generatedAt": "2026-06-17T13:43:22.745Z",
   "colombia": [
     {
       "city": "Bogotá",
@@ -10,8 +10,8 @@
     {
       "city": "Medellín",
       "temp": 21,
-      "description": "Nublado",
-      "icon": "☁️"
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     },
     {
       "city": "Cali",
@@ -27,7 +27,7 @@
     },
     {
       "city": "Barranquilla",
-      "temp": 30,
+      "temp": 31,
       "description": "Nublado",
       "icon": "☁️"
     }
@@ -47,7 +47,7 @@
     },
     {
       "city": "Madrid",
-      "temp": 33,
+      "temp": 34,
       "description": "Despejado",
       "icon": "☀️"
     },
@@ -59,7 +59,7 @@
     },
     {
       "city": "Ciudad de México",
-      "temp": 15,
+      "temp": 16,
       "description": "Nublado",
       "icon": "☁️"
     }
