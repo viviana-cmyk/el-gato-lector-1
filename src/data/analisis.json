@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-06-16T21:37:48.181Z",
+  "generatedAt": "2026-06-17T12:50:41.061Z",
   "colombia": {
     "intro": "Lectura cruzada desde lo político, social, económico y cultural.",
     "items": [
       {
         "category": "Política",
-        "text": "Colombia enfrenta una coyuntura electoral sensible marcada por tensiones institucionales y riesgos para la integridad democrática. La suspensión de Gloria Arizabaleta por intentar remover al presidente, sumada a acusaciones de compra de votos entre gobernadores y la imposición de restricciones al voto por grupos armados ilegales en Nariño, revelan fracturas profundas en la legitimidad del proceso político. Mientras tanto, figuras como Carlos Carrillo anuncian aspiraciones para 2027, sugiriendo una clase política enfocada en próximas contiendas mientras persisten amenazas a líderes sociales y control territorial ejercido por actores ilegales."
+        "text": "Colombia se encuentra en plena campaña de segunda vuelta presidencial, con candidatos movilizando recursos y estrategias regionales intensamente. La gobernadora del Valle del Cauca ha anunciado un blindaje electoral para garantizar el orden público, reflejando preocupaciones sobre posibles alteraciones durante el proceso. Un escándalo de pasaportes implicó al exsecretario de la Cancillería, evidenciando vulnerabilidades institucionales que afectan la confianza en aparatos del Estado. La suspensión de servicios de Migración Colombia durante la segunda vuelta subraya la relevancia de este evento electoral en la agenda nacional."
       },
       {
         "category": "Económica",
-        "text": "El sector económico colombiano muestra dinámicas contradictorias: regulaciones como la reducción de cobros de operadores móviles apuntan a proteger consumidores, mientras que el sector constructor experimenta volatilidad con subida de precios en materiales y caída en edificaciones, aunque las licencias se duplican. La incertidumbre institucional y los riesgos de seguridad evidenciados en titulares sobre control territorial por grupos armados generan externalidades negativas para la inversión y la competencia leal, como se refleja en casos como Telecall que debe pagar multas sustanciales."
+        "text": "El mercado de divisas muestra volatilidad, con titulares recurrentes sobre fluctuaciones del dólar en Colombia y Venezuela, reflejando presiones macroeconómicas regionales. Instituciones financieras como Bancolombia introducen nuevas herramientas digitales para comercio de divisas, sugiriendo adaptación a contextos de incertidumbre económica. Organismos multilaterales como Mercosur continuarán negociaciones internacionales, mientras economías vecinas como Panamá reportan crecimiento relativo del 4,8%, contrastando con dinámicas internas."
       },
       {
         "category": "Social",
-        "text": "La seguridad ciudadana continúa siendo crítica: denuncias de amenazas de muerte contra líderes sociales en Córdoba, control de territorios por alias 'Rottweiler' en Medellín mediante terror, y violencia contra menores en Bogotá ilustran un panorama de vulnerabilidad generalizada. Paralelamente, titulares sobre salud mental en tiempos de campaña y la experiencia traumática de una joven víctima de disparos reflejan costos psicosociales profundos de la violencia estructural que afecta especialmente a poblaciones vulnerables."
+        "text": "Los indicadores de violencia son alarmantes: se reportan 68 líderes asesinados en lo que va de 2026, incluyendo el homicidio de un indígena Awá en Nariño, evidenciando la persistencia de vulnerabilidades en territorios específicos. Cali implementa programas integrales de atención a población en situación de calle, reconociendo necesidades históricas de grupos marginalizados. La delincuencia urbana persiste con reportes de fleteos en Bogotá, mientras fenómenos naturales como sismos de magnitud 5.1 generan vulnerabilidades adicionales en poblaciones urbanas y rurales."
       },
       {
         "category": "Cultural",
-        "text": "En un contexto de volatilidad política y seguridad comprometida, el consumo cultural y deportivo emerge como espacio de cohesión social, evidenciado por la cobertura masiva del Mundial 2026 y el interés en figuras como Falcao y Neymar. Sin embargo, la preocupación por bienestar animal reflejada en alertas sobre paseo de perros, así como iniciativas como la denominación de origen del café colombiano, sugieren una sociedad que intenta mantener espacios de normalidad y identidad cultural pese a las turbulencias políticas y de seguridad."
+        "text": "La participación en eventos deportivos internacionales como el Mundial 2026 genera espacios de movilización social y entretenimiento colectivo, con iniciativas de casas comunitarias para ver a la selección nacional. Historias de figuras públicas, como el cantante Blessd, circulan ampliamente en medios de comunicación, reflejando la influencia de celebridades en narrativas culturales. Sin embargo, la cobertura mediática dominante enfatiza espectáculo sobre análisis profundo de problemáticas estructurales de seguridad y justicia que afectan territorios específicos del país."
       }
     ]
   },
@@ -26,19 +26,19 @@
     "items": [
       {
         "category": "Geopolítica",
-        "text": "La tensión entre Estados Unidos e Irán persiste en múltiples frentes: mientras se reporta un acuerdo para terminar la guerra que permitiría a Teherán vender petróleo, simultáneamente Irán despliega propaganda digital sofisticada en eventos internacionales como el Mundial. En paralelo, la presencia militar estadounidense se fortalece en la región del Pacífico con planes de almacenamiento permanente de armas en Australia, mientras Rusia mantiene una postura provocadora en aguas británicas, evidenciando una competencia geopolítica que trasciende conflictos bilaterales tradicionales."
+        "text": "Los titulares revelan tensiones multilaterales persistentes: mientras Estados Unidos negocia un acuerdo de 14 puntos con Irán, Trump simultáneamente advierte que volverá a disparar si Irán «no se comporta», evidenciando una diplomacia inconsistente. La cumbre del G7 expone divisiones sobre cómo presionar a Rusia y abordar el Líbano, mientras aliados asiáticos se ven obligados a abrirse camino hacia Trump. Además, el incidente del buque ruso disparando advertencias cerca de un velero británico subraya la escalada de confrontaciones navales en zonas de disputa."
       },
       {
         "category": "Económica",
-        "text": "Los mercados financieros estadounidenses muestran signos de especulación excesiva con un mercado alcista en fase maníaca, mientras que empresas tecnológicas como SpaceX alcanzan valuaciones que las posicionan entre las mayores del mundo. En contraste, la región latinoamericana enfrenta desafíos estructurales donde la corrupción y el crimen organizado deterioran la gobernanza según la CEPAL, comprometiendo la estabilidad económica y social de la región."
+        "text": "Los precios del petróleo se mantendrán elevados durante meses independientemente del acuerdo con Irán, reflejo de la volatilidad geopolítica que domina los mercados energéticos globales. El mercado alcista estadounidense ha entrado en su «fase maníaca», según análisis económico, sugiriendo posible sobrevaloración y vulnerabilidad a correcciones. La controversia sobre contaminación en centros de datos de Musk y la invocación de seguridad nacional en demandas corporativas muestran cómo consideraciones políticas intersectan decisiones económicas y regulatorias."
       },
       {
         "category": "Tecnológica",
-        "text": "La generación de contenido por inteligencia artificial ha alcanzado un nivel de sofisticación que permite a Estados crear propaganda visual convincente, como demostró Irán antes del Mundial, planteando desafíos sin precedentes para la autenticidad de la información pública. Simultáneamente, la tecnología espacial privada experimenta un crecimiento exponencial con SpaceX superando a gigantes tradicionales, mientras que estafadores explotan vulnerabilidades digitales para defraudar a poblaciones migrantes en Estados Unidos."
+        "text": "Directores ejecutivos de tecnología discutirán inteligencia artificial con líderes del G7, indicando que la gobernanza de IA se ha convertido en asunto de seguridad nacional y diplomacia internacional. El caso de Musk ilustra cómo reguladores estatales utilizan argumentos de seguridad nacional para intervenir en operaciones corporativas tecnológicas, estableciendo precedentes sobre supervisión estatal de infraestructuras críticas digitales."
       },
       {
         "category": "Social",
-        "text": "Las tensiones sociales en América Latina se agudizan con paros educativos que afectan directamente a 1.4 millones de estudiantes de primaria en México, evidenciando conflictos laborales no resueltos que impactan el derecho a la educación. En Estados Unidos, iniciativas progresistas como centros de salud mental en Miami-Dade buscan reducir encarcelamientos y abordar adicciones, reflejando un giro hacia respuestas más humanitarias a problemas de seguridad pública, aunque coexisten con uso desproporcionado de la fuerza policial en comunidades vulnerables."
+        "text": "La crisis de salud pública del coronavirus genera respuestas dispares: mientras autoridades minimizan su magnitud comparándola con gripe, se implementan estructuras de crisis con nombramientos ejecutivos, reflejando descoordinación en comunicación de riesgos. El acoso sexista contra pasajeras de tranvía en Milán, documentado a través de WhatsApp, expone sistemas de violencia cotidiana contra mujeres y la persistencia de dinámicas discriminatorias en espacios públicos. Iniciativas como el Centro de Salud Mental en Miami-Dade buscan alternativas al encarcelamiento, aunque estos esfuerzos puntuales contrastan con patrones más amplios de criminalización política documentados en casos como la acusación de antifa en Minnesota."
       }
     ]
   }
