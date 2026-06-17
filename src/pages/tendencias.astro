@@ -27,8 +27,9 @@ function hashtagUrl(platform: string, tag: string): string {
   return "#";
 }
 
-function podcastUrl(title: string): string {
-  return `https://open.spotify.com/search/${encodeURIComponent(title)}`;
+function podcastUrl(title: string, url?: string): string {
+  if (url) return url;
+  return `https://podcasts.apple.com/search?term=${encodeURIComponent(title)}`;
 }
 
 const redesLists = redes.map((red) => ({
@@ -46,7 +47,7 @@ const podcastLists = [
   items: group.items.map((podcast) => ({
     primary: podcast.title,
     secondary: podcast.host,
-    url: podcastUrl(podcast.title),
+    url: podcastUrl(podcast.title, podcast.url),
   })),
 }));
 ---

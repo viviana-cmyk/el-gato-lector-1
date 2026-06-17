@@ -140,7 +140,14 @@ img {
 }
 
 .pill--ghost {
-  background: rgba(255, 255, 255, 0.08);
+  background: transparent;
+  color: #e6b300;
+  box-shadow: inset 0 0 0 2px #e6b300;
+}
+
+.pill--ghost:hover {
+  background: rgba(230, 179, 0, 0.12);
+  color: #e6b300;
 }
 
 /* ---------- Hero ---------- */

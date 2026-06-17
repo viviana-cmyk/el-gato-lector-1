@@ -299,7 +299,7 @@ async function fetchApplePodcasts(country, limit = 5) {
   );
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const json = await res.json();
-  return (json?.feed?.results || []).map((p) => ({ title: p.name, host: p.artistName }));
+  return (json?.feed?.results || []).map((p) => ({ title: p.name, host: p.artistName, url: p.url }));
 }
 
 async function fetchWeather() {
