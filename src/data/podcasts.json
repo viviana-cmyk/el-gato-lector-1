@@ -1,17 +1,47 @@
 {
-  "generatedAt": "2026-06-17T00:00:00.000Z",
+  "generatedAt": "2026-06-17T13:28:19.461Z",
   "colombia": [
-    { "title": "Conclusiones", "host": "Fernando del Rincón · CNN" },
-    { "title": "A Fondo con María Jimena Duzán", "host": "María Jimena Duzán" },
-    { "title": "Vox Populi", "host": "La Silla Vacía" },
-    { "title": "Semana en Vivo", "host": "Revista Semana" },
-    { "title": "Hoy por Hoy", "host": "Caracol Radio" }
+    {
+      "title": "LA DOSIS DIARIA ROKA",
+      "host": "Con William Arana                                          ROKA STEREO"
+    },
+    {
+      "title": "365 con Dios",
+      "host": "Wenddy Neciosup | Genuina Media"
+    },
+    {
+      "title": "Estoicismo Filosofia",
+      "host": "Estoicismo Filosofia"
+    },
+    {
+      "title": "Seminario Fenix | Brian Tracy",
+      "host": "matiasmartinez16"
+    },
+    {
+      "title": "DianaUribe.fm",
+      "host": "Diana Uribe"
+    }
   ],
   "mundo": [
-    { "title": "The Daily", "host": "The New York Times" },
-    { "title": "Global News Podcast", "host": "BBC World Service" },
-    { "title": "Aprendemos Juntos", "host": "BBVA" },
-    { "title": "El Mundo Hoy", "host": "El País" },
-    { "title": "The Economist: Editor's Picks", "host": "The Economist" }
+    {
+      "title": "The Daily",
+      "host": "The New York Times"
+    },
+    {
+      "title": "Crime Junkie",
+      "host": "Audiochuck"
+    },
+    {
+      "title": "Dateline NBC",
+      "host": "NBC News"
+    },
+    {
+      "title": "Pod Save America",
+      "host": "Pod Save America"
+    },
+    {
+      "title": "The Joe Rogan Experience",
+      "host": "Joe Rogan"
+    }
   ]
 }

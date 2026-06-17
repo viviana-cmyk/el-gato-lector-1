@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-06-17T12:50:41.061Z",
+  "generatedAt": "2026-06-17T13:28:23.082Z",
   "colombia": {
     "intro": "Lectura cruzada desde lo político, social, económico y cultural.",
     "items": [
       {
         "category": "Política",
-        "text": "Colombia se encuentra en plena campaña de segunda vuelta presidencial, con candidatos movilizando recursos y estrategias regionales intensamente. La gobernadora del Valle del Cauca ha anunciado un blindaje electoral para garantizar el orden público, reflejando preocupaciones sobre posibles alteraciones durante el proceso. Un escándalo de pasaportes implicó al exsecretario de la Cancillería, evidenciando vulnerabilidades institucionales que afectan la confianza en aparatos del Estado. La suspensión de servicios de Migración Colombia durante la segunda vuelta subraya la relevancia de este evento electoral en la agenda nacional."
+        "text": "Colombia se encuentra a cuatro días de una segunda vuelta presidencial con movimientos intensos de candidatos y recursos en disputa regional. Mientras Cepeda y De la Espriella movilizan sus campañas en territorios clave, la detención de Beto Coral—activista y excandidato—en Arizona por autoridades estadounidenses ha generado intervención del gobierno nacional, con el presidente Petro pidiendo gestiones consulares y solicitud de retorno. La gobernadora del Valle anticipa blindaje electoral mediante control del orden público, mientras Migración Colombia suspende atención en Bogotá durante la jornada de votación."
       },
       {
         "category": "Económica",
-        "text": "El mercado de divisas muestra volatilidad, con titulares recurrentes sobre fluctuaciones del dólar en Colombia y Venezuela, reflejando presiones macroeconómicas regionales. Instituciones financieras como Bancolombia introducen nuevas herramientas digitales para comercio de divisas, sugiriendo adaptación a contextos de incertidumbre económica. Organismos multilaterales como Mercosur continuarán negociaciones internacionales, mientras economías vecinas como Panamá reportan crecimiento relativo del 4,8%, contrastando con dinámicas internas."
+        "text": "El dólar colombiano experimenta movimientos reportados el 17 de junio, con el Banrep registrando fluctuaciones diarias. En contexto regional, Panamá registró crecimiento de 4.8% en el primer trimestre, mientras mercados internacionales enfrentan volatilidad: Japón elevó tasas al nivel más alto en 31 años y las reservas de crudo estadounidenses cayeron a mínimos de 40 años. Mercosur negocia acuerdos comerciales con Japón, señalando presiones competitivas en la región."
       },
       {
         "category": "Social",
-        "text": "Los indicadores de violencia son alarmantes: se reportan 68 líderes asesinados en lo que va de 2026, incluyendo el homicidio de un indígena Awá en Nariño, evidenciando la persistencia de vulnerabilidades en territorios específicos. Cali implementa programas integrales de atención a población en situación de calle, reconociendo necesidades históricas de grupos marginalizados. La delincuencia urbana persiste con reportes de fleteos en Bogotá, mientras fenómenos naturales como sismos de magnitud 5.1 generan vulnerabilidades adicionales en poblaciones urbanas y rurales."
+        "text": "Colombia enfrenta múltiples crisis concurrentes: sismos de 5.1 de magnitud registrados el 17 de junio en varias ciudades, con verificación de afectaciones en Los Santos; sequía prolongada que amenaza 20 municipios de Cundinamarca hasta 2027 por efectos de El Niño. La violencia contra líderes sociales alcanzó 68 asesinatos en lo que va de 2026, incluyendo el homicidio del líder indígena Awá Dairo Padilla en Nariño. Simultáneamente, Cali implementa programas de atención integral para población en situación de calle, y se ofrecen capacitaciones gratuitas en Bogotá."
       },
       {
         "category": "Cultural",
-        "text": "La participación en eventos deportivos internacionales como el Mundial 2026 genera espacios de movilización social y entretenimiento colectivo, con iniciativas de casas comunitarias para ver a la selección nacional. Historias de figuras públicas, como el cantante Blessd, circulan ampliamente en medios de comunicación, reflejando la influencia de celebridades en narrativas culturales. Sin embargo, la cobertura mediática dominante enfatiza espectáculo sobre análisis profundo de problemáticas estructurales de seguridad y justicia que afectan territorios específicos del país."
+        "text": "La participación nacional en el Mundial 2026 genera movilización ciudadana masiva: Colombia debuta el 17 de junio contra Uzbekistán, con múltiples espacios públicos habilitados para transmisiones en pantalla gigante, especialmente en Medellín donde se concentran puntos de reunión. Paralelamente, la lesión de un ciclista favorito impide su participación en el Tour de Francia 2026, reflejando el espectro deportivo nacional. Los medios generan cobertura simultánea de estos eventos con alcance territorial extendido."
       }
     ]
   },
@@ -26,19 +26,19 @@
     "items": [
       {
         "category": "Geopolítica",
-        "text": "Los titulares revelan tensiones multilaterales persistentes: mientras Estados Unidos negocia un acuerdo de 14 puntos con Irán, Trump simultáneamente advierte que volverá a disparar si Irán «no se comporta», evidenciando una diplomacia inconsistente. La cumbre del G7 expone divisiones sobre cómo presionar a Rusia y abordar el Líbano, mientras aliados asiáticos se ven obligados a abrirse camino hacia Trump. Además, el incidente del buque ruso disparando advertencias cerca de un velero británico subraya la escalada de confrontaciones navales en zonas de disputa."
+        "text": "Los titulares revelan tensiones simultáneas en múltiples frentes. El acuerdo de 14 puntos entre Estados Unidos e Irán contrasta con amenazas posteriores de Trump contra Irán, mientras líderes del G7 solicitan un alto al fuego en Líbano. En paralelo, Trump reitera su posición dominante en la cumbre del G7 y advierte sobre presionar a Rusia, configurando un escenario donde los acuerdos coexisten con confrontación retórica. Las protestas en Albania dirigidas al yerno de Trump sugieren divisiones políticas internas que trascienden fronteras nacionales."
       },
       {
         "category": "Económica",
-        "text": "Los precios del petróleo se mantendrán elevados durante meses independientemente del acuerdo con Irán, reflejo de la volatilidad geopolítica que domina los mercados energéticos globales. El mercado alcista estadounidense ha entrado en su «fase maníaca», según análisis económico, sugiriendo posible sobrevaloración y vulnerabilidad a correcciones. La controversia sobre contaminación en centros de datos de Musk y la invocación de seguridad nacional en demandas corporativas muestran cómo consideraciones políticas intersectan decisiones económicas y regulatorias."
+        "text": "Los analistas proyectan que los precios del petróleo se mantendrán elevados durante meses independientemente de acuerdos diplomáticos, reflejando volatilidad estructural en mercados de energía. El mercado alcista estadounidense ha entrado en su fase maníaca según reportes, mientras que los aliados asiáticos enfrentan presiones para alinearse más estrechamente con la política de Trump. A nivel local, Miami-Dade aprueba un centro de salud mental que podría impactar presupuestos públicos al reducir gastos de encarcelamiento."
       },
       {
         "category": "Tecnológica",
-        "text": "Directores ejecutivos de tecnología discutirán inteligencia artificial con líderes del G7, indicando que la gobernanza de IA se ha convertido en asunto de seguridad nacional y diplomacia internacional. El caso de Musk ilustra cómo reguladores estatales utilizan argumentos de seguridad nacional para intervenir en operaciones corporativas tecnológicas, estableciendo precedentes sobre supervisión estatal de infraestructuras críticas digitales."
+        "text": "Ejecutivos de tecnología se reunirán con líderes del G7 para discutir inteligencia artificial, indicando que gobiernos buscan involucramiento directo en regulación de esta tecnología emergente. El Departamento de Justicia estadounidense intenta bloquear una demanda sobre contaminación del centro de datos de Musk mediante argumentos de seguridad nacional, lo que evidencia fricciones entre operaciones corporativas de infraestructura tecnológica y supervisión estatal."
       },
       {
         "category": "Social",
-        "text": "La crisis de salud pública del coronavirus genera respuestas dispares: mientras autoridades minimizan su magnitud comparándola con gripe, se implementan estructuras de crisis con nombramientos ejecutivos, reflejando descoordinación en comunicación de riesgos. El acoso sexista contra pasajeras de tranvía en Milán, documentado a través de WhatsApp, expone sistemas de violencia cotidiana contra mujeres y la persistencia de dinámicas discriminatorias en espacios públicos. Iniciativas como el Centro de Salud Mental en Miami-Dade buscan alternativas al encarcelamiento, aunque estos esfuerzos puntuales contrastan con patrones más amplios de criminalización política documentados en casos como la acusación de antifa en Minnesota."
+        "text": "Los titulares deportivos documentan celebraciones significativas alrededor de eventos internacionales: Argentina celebra el debut de Messi en Kansas y la victoria sobre Argelia, mientras Congo regresa a la Copa Mundial después de 52 años ausente. En contextos de justicia criminal, un tribunal condena a Eduardo Bolsonaro a cuatro años por lobby político, y se reportan acciones contra conspiración para bloquear ICE en Minnesota. Casos individuales como Plácido Domingo y George Pino reflejan procesos legales en curso en espacios culturales y empresariales."
       }
     ]
   }

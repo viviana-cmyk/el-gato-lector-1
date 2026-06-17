@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-06-17T12:50:39.008Z",
+  "generatedAt": "2026-06-17T13:28:19.461Z",
   "outlets": [
     {
       "name": "CNN en Español",
       "color": "grey",
       "items": [
+        {
+          "title": "Estudio de CNN revela por qué el estanque reflectante de Washington se tiñe de verde",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNG9fcjNJU1c1clRIemVjN21QdUNQRzkyNVcyU0ZXY0pGSVU2RHNfQmktbk9mbnROVllLRU0xWk1JYjJZQVNHcXpveG0zLVNSYlUzZW5vbU90bUh0UEkwR1BFZHZ5M3hFTjl4YTcyVEhtM1ZuMkhUMEZDdi15MDk5N3JNT1hzdVhmS2tUTTVn?oc=5",
+          "pubDate": "2026-06-17T13:02:16.000Z",
+          "snippet": null
+        },
         {
           "title": "Hinchas argentinos celebran victoria sobre Argelia con los tres goles de Messi",
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd052clhFdHdIUXVtOWhzMzRLNEo3NDFOb3dQU0lFQlUxa29NQmNnZ1BlSUc3VW13dmdmUXgtZVhRSk1PVGZ1MEI4MDJuZW9zNGNwaHlMR0t0V05OYXdnMjhmdXhwYXdUQU0xQlZDMmJmNVdmNklrNW82QVowc29XMlNfamVOYXdNcUdTOVMxOXdkWnR2cEI0bWJCdlROMFpDMXF6TnZJTlRGNGFwNEd4SUwwUlNYQkZlOEE?oc=5",
@@ -27,12 +33,6 @@
           "title": "Una noche de Messi, récords y euforia: así se vivió el debut de Argentina en Kansas",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdjBBX2JkQ0tRLWpBam9VenVMMmRTeG52dWRMdWxnWEVYdmlpeHBINHFyeDVfaU9DNi1zenQ5azlvWmJKSEdHMnBER3FHX2ZnY1ZiZXJ2QzRONVo4UGwxRXlyTEZ6a2hpNGREa2o4ODFPaTBsdldPV0JrSW1MSjFSalQ2Z2I4ZU5SZUUxYnpoVVFoUUFHVTFVVVFxYzJmUG9zRTRHaUV3?oc=5",
           "pubDate": "2026-06-17T08:42:34.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Se espera un brote de tormentas severas en el Medio Oeste de EE.UU. este miércoles, con posibilidad de tornados intensos",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTm9TRmhUR1h0d3ZMYU5jUkllM2FnTjZYTnpkNXN2LXBicHhmazQyWVlnbWh6R1ZycUNhc3NfZ3VuMkdfZ0hWVHQyQ0FUX0xKQTNDZHpJSDRWaXNlZWNuX0h5MnpuRloyeXNneUoxUFNGMlBLc3c0T1JmUFdNN2VwMHliVkRURFdDRy0tdG9MdDJ3VHRyTWwzWA?oc=5",
-          "pubDate": "2026-06-17T08:26:00.000Z",
           "snippet": null
         }
       ]
@@ -78,34 +78,34 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Lammy le dice al vicepresidente del Partido Conservador que se disculpe por bromear en TV sobre ataque incendiario a la casa de Starmer – En vivo política del Reino Unido",
+          "title": "El aumento de temperaturas puede aumentar el riesgo de inundaciones a través del 'efecto látigo' fluvial, según un estudio",
+          "link": "https://www.theguardian.com/environment/2026/jun/17/rising-temperatures-may-increase-flood-risk-through-river-whiplash-study-finds",
+          "pubDate": "2026-06-17T13:24:00.000Z",
+          "snippet": "Los cambios repentinos de clima húmedo a seco, o viceversa, pueden obstaculizar las medidas típicas de prevención de sequías e inundaciones. El aumento de temperaturas puede desencadenar un peligroso incremento en el 'efecto látigo hidroclimatico' en ríos que haría insuficientes los enfoques tradicionales para la planificación de inundaciones y sequías..."
+        },
+        {
+          "title": "Lammy le dice al viceprésidente del Partido Conservador que se disculpe por bromear en televisión sobre ataque incendiario a casa de Starmer – Política del Reino Unido en directo",
           "link": "https://www.theguardian.com/politics/live/2026/jun/17/keir-starmer-labour-leadership-contest-andy-burnham-makerfield-byelection-wes-streeting-latest-news-updates",
-          "pubDate": "2026-06-17T12:40:02.000Z",
-          "snippet": "David Lammy acusó a Matt Vickers de 'promover conspiraciones' sobre la naturaleza del ataque Andy Burnham puede tener dificultades para comunicarse con Keir Starmer si intenta llamarlo después de las elecciones parciales de Makerfield para instarlo a establecer un cronograma para su partida. Se informó que Burnham w…"
+          "pubDate": "2026-06-17T13:23:58.000Z",
+          "snippet": "David Lammy acusó a Matt Vickers de 'promover conspiraciones', mientras que un portavoz conservador afirma que estaba 'intentando ser educado'. Andy Burnham podría tener dificultades para comunicarse con Keir Starmer si intenta llamarlo después de las elecciones complementarias de Makerfield para instarle a que establezca un calendario..."
         },
         {
-          "title": "Trump retrasa nominación de Clayton como director de inteligencia en intento de obligar al Congreso a aprobar proyecto de ley de identificación de votantes – En vivo política de EE.UU.",
+          "title": "Trump retrasa la nominación de Clayton para director de inteligencia en intento de obligar al Congreso a aprobar ley de identificación de votantes – Política de EE.UU. en directo",
           "link": "https://www.theguardian.com/us-news/live/2026/jun/17/trump-georgia-primary-mike-collins-jon-ossoff-midterms-g7-us-politics-latest-news-updates",
-          "pubDate": "2026-06-17T12:39:53.000Z",
-          "snippet": "El presidente dice que mantendrá a Bill Pulte como director interino y 'no aprobará Fisa sin la Ley Save America acompañándolo' Regístrate para el correo electrónico Breaking News US Donald Trump llegó casi una hora tarde a la primera sesión de trabajo del día en la cumbre del G7 en Évian-les-Bains…"
+          "pubDate": "2026-06-17T13:23:05.000Z",
+          "snippet": "El presidente dice que mantendrá a Bill Pulte como director en funciones y 'no aprobará Fisa sin que la Ley Save America vaya junto con ella'. Trump detiene abruptamente la confirmación de Jay Clayton como jefe de inteligencia de EE.UU. Suscríbete al correo Breaking News US. Hablando esta mañana en CBS, J..."
         },
         {
-          "title": "Trump dice 'Yo soy el jefe' en cumbre del G7 mientras líderes acuerdan 'nuevas medidas para presionar' a Rusia – En vivo Europa",
+          "title": "Trump dice 'yo soy el jefe' en cumbre del G7 mientras líderes acuerdan 'nuevos pasos para presionar' a Rusia – Europa en directo",
           "link": "https://www.theguardian.com/world/live/2026/jun/17/g7-leaders-evian-donald-trump-ukraine-russia-war-iran-latest-news-updates",
-          "pubDate": "2026-06-17T12:37:07.000Z",
-          "snippet": "El momento fue publicado por la Casa Blanca después de que el presidente de EE.UU. ingresara a la cumbre para la sesión de la mañana del miércoles Rutte dice que el ajuste en el compromiso de EE.UU. al Modelo de Fuerza de la OTAN 'no se trata principalmente de dónde se encuentran actualmente las fuerzas y activos, sino de quién haría qué…"
+          "pubDate": "2026-06-17T13:17:44.000Z",
+          "snippet": "El momento fue publicado por la Casa Blanca después de que el presidente estadounidense entrara en la cumbre para la sesión de la mañana del miércoles. Rutte dice que el ajuste en el compromiso de EE.UU. con el Modelo de Fuerza de la OTAN 'no es principalmente sobre dónde están actualmente las fuerzas y activos, sino sobre quién haría qué..."
         },
         {
-          "title": "Crisis de Oriente Medio en vivo: Trump advierte que EE.UU. 'volverá a disparar' si Irán 'no se comporta', mientras líderes del G7 piden alto el fuego en el Líbano",
+          "title": "Crisis de Oriente Medio en directo: Trump advierte que EE.UU. 'volverá a disparar' si Irán 'no se comporta', mientras líderes del G7 piden alto al fuego en Líbano",
           "link": "https://www.theguardian.com/world/live/2026/jun/17/middle-east-war-iran-israel-us-donald-trump-hezbollah-lebanon-peace-deal-netanyahu-latest-news-updated",
-          "pubDate": "2026-06-17T12:35:26.000Z",
-          "snippet": "El presidente de EE.UU. dice que el acuerdo 'no es definitivo' y respalda los llamados de los líderes para conversaciones más amplias sobre el programa de misiles de Teherán Trump respalda el llamado de líderes del G7 para conversaciones más amplias sobre el programa de misiles iraní Análisis: ¿A dónde deja el acuerdo con Irán la relación entre EE.UU. e Israel? Trump también se dirigió a reporteros…"
-        },
-        {
-          "title": "Conductores de tranvía de Milán 'utilizaron WhatsApp para chat sexista sobre pasajeras'",
-          "link": "https://www.theguardian.com/world/2026/jun/17/milan-tram-drivers-used-whatsapp-for-sexist-chat-about-female-passengers",
-          "pubDate": "2026-06-17T12:34:17.000Z",
-          "snippet": "Conductores suspendidos mientras fiscales investigan grupo que se dice fue utilizado para compartir y comentar imágenes de CCTV Un grupo de conductores de tranvía en Milán han sido suspendidos de sus trabajos en medio de una investigación sobre un grupo de WhatsApp en el cual supuestamente intercambiaban comentarios sexistas y vulgares…"
+          "pubDate": "2026-06-17T13:17:33.000Z",
+          "snippet": "El presidente estadounidense dice que el acuerdo 'no es final' y respalda los llamados de los líderes para conversaciones más amplias sobre el programa de misiles de Teherán. Trump respalda el llamado de líderes del G7 para conversaciones más amplias sobre el programa de misiles iraní. Análisis: ¿Dónde deja el acuerdo con Irán la relación entre EE.UU. e Israel? Trump también se dirigió a reporteros..."
         }
       ]
     },
@@ -114,28 +114,28 @@
       "color": "mint",
       "items": [
         {
-          "title": "Actualizaciones en vivo: Después de que líderes del G7 elogian acuerdo entre EE.UU. e Irán, Trump advierte a Irán nuevamente",
+          "title": "Actualizaciones en Directo: Después de que Líderes del G7 Elogien el Acuerdo entre EE.UU. e Irán, Trump Amenaza a Irán de Nuevo",
           "link": "https://www.nytimes.com/live/2026/06/17/world/g7-summit-trump-france",
-          "pubDate": "2026-06-17T12:38:39.000Z",
-          "snippet": "El presidente Trump dijo que Estados Unidos reanudaría los bombardeos contra Irán si no le gustaba el acuerdo preliminar, horas después de que líderes del Grupo de 7 naciones llamaran al acuerdo un 'avance'."
+          "pubDate": "2026-06-17T13:23:22.000Z",
+          "snippet": "El presidente Trump dijo que Estados Unidos reanudaría los bombardeos contra Irán si no le agradaba cómo se ejecutaba el acuerdo preliminar, horas después de que líderes del Grupo de los 7 nations llamaran al acuerdo un 'avance'."
         },
         {
-          "title": "Aquí están las últimas noticias.",
+          "title": "Aquí están las últimas novedades.",
           "link": "https://www.nytimes.com/live/2026/06/17/world/g7-summit-trump-france/g7-evian-summit",
-          "pubDate": "2026-06-17T12:12:34.000Z",
-          "snippet": "Los líderes del Grupo de 7 discutirán Inteligencia Artificial y desequilibrios globales el miércoles, incluso mientras persisten preguntas sobre Irán."
+          "pubDate": "2026-06-17T13:23:20.000Z",
+          "snippet": "Los líderes del Grupo de los 7 discutirán Inteligencia Artificial y desequilibrios globales el miércoles, mientras persisten las preguntas sobre Irán."
         },
         {
-          "title": "Directores ejecutivos de tecnología discutirán I.A. con líderes del G7",
+          "title": "Congo Regresa a la Copa Mundial con Gran Estilo Después de 52 Años Ausente",
+          "link": "https://www.nytimes.com/2026/06/17/world/africa/congo-team-world-cup-soccer-leopard-fashion-sapeur.html",
+          "pubDate": "2026-06-17T12:56:39.000Z",
+          "snippet": "Los trajes negros elegantes de las estrellas del fútbol con detalles de estampado de leopardo son un tributo a una larga historia de moda 'sapeur'."
+        },
+        {
+          "title": "Ejecutivos de Tecnología Discutirán I.A. con Líderes del G7",
           "link": "https://www.nytimes.com/2026/06/17/world/europe/g7-summit-ai-tech-leaders-openai-anthropic.html",
           "pubDate": "2026-06-17T12:08:10.000Z",
-          "snippet": "Ejecutivos de Anthropic, OpenAI y Mistral estarán entre los asistentes a una comida de trabajo con líderes de muchas de las naciones más ricas del mundo."
-        },
-        {
-          "title": "Buque de la Armada Rusa disparó disparos de advertencia cerca del velero de una pareja británica",
-          "link": "https://www.nytimes.com/2026/06/16/world/europe/russian-navy-english-channel-yacht-uk.html",
-          "pubDate": "2026-06-17T11:10:10.000Z",
-          "snippet": "El Ministerio de Defensa de Gran Bretaña dijo que el buque ruso parecía estar intentando evitar una colisión en el Canal de la Mancha."
+          "snippet": "Ejecutivos de Anthropic, OpenAI y Mistral estarán entre los asistentes a un almuerzo con líderes de muchas de las naciones más ricas del mundo."
         }
       ]
     },
@@ -146,7 +146,13 @@
         {
           "title": "Estos 3 perros de refugio ganaron un concurso de cambio de imagen por sus transformaciones dramáticas",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV1JHcnJ3dUtUM0lwS3BwY0xrbU1hOVZPVzRmQzREMFl6aDVvTVJzdDQ1aEh0eFAxRE1HYVpfWl9qRFNrNVI5aHRZNVRZVGNFdE5TRkstNS15VGZ2ZTFqYmVwckFVYVctZHJpU0hlMHZoOGNxZTBBRDh1a0xGVEViRUthTVVkVDJxaEkxd0lXRTM4NkgtMGg4YTg4b01PMHpfd2xEWDBkanJ5ek5HaTduVjYzaUZoSldX?oc=5",
-          "pubDate": "2026-06-17T12:02:06.000Z",
+          "pubDate": "2026-06-17T13:09:04.000Z",
+          "snippet": null
+        },
+        {
+          "title": "5 formas de mejorar tu salud intestinal comiendo más alimentos fermentados",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPckRMVXJMVVVsOWxrY3gyU1h4d1FkZXlqRS14TUNWMEU1YmNvR1IwYzBBQXhPN0F3Y21Gc2JWbXJfR0FBQzlheDcyRTdDcUg2SC1qbnhoQmNLR3VTRHZjNks4aGRIVnhmMGxtMnRsa0VwU2trUzM0Um5NeTFDZk5pcHBzUW9FZFQzdHMwZGJzcUNScGIyT3NYZ0JTN2ZDald4WW84d0l0TldIczZha3lSVA?oc=5",
+          "pubDate": "2026-06-17T12:49:20.000Z",
           "snippet": null
         },
         {
@@ -160,12 +166,6 @@
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMUpMRnd4RzNxTDdiWld1THdKRmJvLWtRSFpYR1BaWG8td2hncHBaZVBMUDJvUGt3ck9KRE84Y05PbThPSmhNQ05Td2l6ZExBcG0wRGV2azZkRmRFaTA3MGxGMDlhVXQtU3ZnT3lsNmpsemNlM1hwRGMwUDZkemVXZVVlR3YxNlZ2Rl9NcXd6OHdidExYMm1sLW1BWmswTnA1QXc3NmtHZ3dreTRXX3AtNnh2dmMxbkp1X1J2OG5n?oc=5",
           "pubDate": "2026-06-17T06:23:18.000Z",
           "snippet": null
-        },
-        {
-          "title": "Hillary Clinton dice que Joe Biden cometió un 'terrible error' al buscar reelección",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNREZ1aXFURGh1U2RvdDgxTGZjV3A3SXoyQlpMRktyMXBKUDRnNXBSbTN2YWJUWkZwdE13bUVNalVsdXNHdEdWUUVkSkR6ZmRSeF84OWZTb2hxdm9SemZvNThabnhmTlNLQ1Zza0x5cm9NS1NaSm1DeXh0RHNCUVhqN0FWYzZQTTRfTGZFWUgwT1ViUzBQV1B3VERkVFhZNWEzYXpWZER0NG1SdWQzckJFNVMyQjFGTDBtUU1fWExZaEJCWGJk?oc=5",
-          "pubDate": "2026-06-17T06:16:09.000Z",
-          "snippet": null
         }
       ]
     },
@@ -174,7 +174,7 @@
       "color": "lilac",
       "items": [
         {
-          "title": "Protestas de flamencos en Albania apuntan al yerno de Donald Trump",
+          "title": "Las protestas de flamencos de Albania apuntan al yerno de Donald Trump",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUXhnaW9sWmlwa2FFelBYWGRIVDJEWWdST3B5VUNoOFVPZmdzU3RNQU5HRU1SamhiZlE2clB6Sko5VV9GLVVBMVdPV1poOVc3cFY2ZUZIZ0N3aHRHTnJZdHpQM3M0QndULWY0empsYXY5V2kyOF8zNkdYcnZ5cWdObDZ3N2NWVGdUbkpZcWZzWk1mWTVtX0dzOHB6OERrVzdtUDRocA?oc=5",
           "pubDate": "2026-06-16T20:42:37.000Z",
           "snippet": null
@@ -186,13 +186,13 @@
           "snippet": null
         },
         {
-          "title": "Los aliados asiáticos están condenados a abrazar a Donald Trump de cerca",
+          "title": "Los aliados asiáticos están condenados a abrazar de cerca a Donald Trump",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYTctZEtmYUNzck9NUEJsb1BvT25zUVpnU0UzczNUenpva2VWUjNhQklEeUcxWnNiakZkaHAtVnpaOVQ4bUFBQzNOMVVNNTh6d0lfRTR0NDRUdDQwZFhOT0t1SUNHTDBDRXY3cXY5eTFHajBSUzRSSEVMWC04SklKdnUwenRXVlgzUWk0VkdtM3ppYXV2dGVNSGoyck1Ra1ZJeHc?oc=5",
           "pubDate": "2026-06-16T18:30:20.000Z",
           "snippet": null
         },
         {
-          "title": "El mercado alcista de Estados Unidos ha entrado en su fase maníaca",
+          "title": "El mercado alcista de América ha entrado en su fase maníaca",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMFFRZEEyVEk2T0pzT2ZTNHhlaEEwOU9abExrWENSdGttRDlFX2YxdW9GWkpSZTh1R0xkTjNhVkNkMlVwM3NpS0Q5eTN0eWtKNjlmYXRvMkctZ0gzNjNNLXVfY3dCM0lfNWlCUUtOZzVSUFNUeTBhcFA4ejhWRWgzMnZHT0I2UkxZUlA3Uy0wWmdfUTJtUlZwbkFuSXF5VUlMbjZ6a2k1LUx2cHM?oc=5",
           "pubDate": "2026-06-16T18:19:00.000Z",
           "snippet": null
@@ -203,12 +203,6 @@
       "name": "El Universal (México)",
       "color": "peach",
       "items": [
-        {
-          "title": "Portada impresa del 17 de junio de 2026",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQT0tVdWYtNFVXN0ZHVGc5Q0l6TzZCZEJRa21vdjhuSmliV09xLU9rTVVEQ2N5ekNBbWJHOUtHWkVVby1lWGNNSG8wclRoMVhnUGRqSVBjdGdxdkljcG5qVUJhTEJDdzJ1NHkxOFplZDYzWVJ0bHR6TjFLT09fejh2UVpUQmZIMzZWak0zX0FVQVA?oc=5",
-          "pubDate": "2026-06-17T11:41:19.000Z",
-          "snippet": null
-        },
         {
           "title": "Toy Story, la revancha del aburrimiento",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVTh2WDMweTFZZXI0R3BuVVFHQlU1NTVidjBWQ0ZPN1otUl9uNUZHWlRpVHlBRi1qbDhZNDNPSjJTazEwMnRqTkc3VG9JdE9MZkprUGloNGNHTE9jNE5xQ3ZEaExSNUZUc1o2RWt4SE52SThwRGpYMzEtMFNwVnRpbXlhVUViM2ZpX01Z?oc=5",
@@ -225,6 +219,12 @@
           "title": "“Se llevan al baile” a la diputada Nayeli Salvatori",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUXJOZjZ4U21ZSzZiZ011Q19qZEY0UzFzT0xGUmN3djhZdDlYNlpxbUlQeWlfVWdtX0RvYW9oQ1E3MHZ0dmlrYl9rdFp6aVdjMmZ4d05UYS1KTDcwRnNLdHJlM0NLcHdROF9waS14bXoxTEl2UmJaV2Z2OWlhTDg3Tko1Q0JPZlJzeWNJd2tfZDRxR1dRVk9wNVRqaVU?oc=5",
           "pubDate": "2026-06-17T09:16:06.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Derriban en Juárez casas cercanas al muro de Trump",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQmdtNUlVQTJQdXJUcGxqbjYxdlYxR1h0OFB2MzJGODVTZ1dib2FwNU1rUV9rSGlLZTVhRGJaSnJWckk3UTFDT2JYY2tUcVFnOWF3UWJKcFVja1VJc2VhemFnSEwwN2F5cTFFSU0xQ2x6ZkVJd1ZyZnpfZDNiVjhiMUpXcjdOaWdiMEh0blZ6N3d0YVZw0gGoAUFVX3lxTE4xS29XYjFGSy1VallWQy1wWXZFRUhwR0ZOVkw5dElyMm5zWWhyVkxHWHFNSW9PdGJ6U3VCVkJoVXlDQnduVjBOMk95dmRuUm1QT0xkTVRvM3Awd3VkUnNXU01SWkJ6RWdRUzJVUm5wSV9hU21LY1NqX2tyMG16NEh4QlNOM1llRWJCcjM4ZGdQYkRHMU4yclk3NXNjNHFZb1paalRHNHFlZA?oc=5",
+          "pubDate": "2026-06-17T08:38:47.000Z",
           "snippet": null
         }
       ]
