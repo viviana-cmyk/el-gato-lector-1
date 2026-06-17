@@ -4,8 +4,13 @@ import RankList from "../components/RankList.astro";
 import UpdatedNote from "../components/UpdatedNote.astro";
 import curated from "../data/curated.json";
 import featured from "../data/featured.json";
+import podcastData from "../data/podcasts.json";
 
-const { redes, podcasts } = curated.tendencias;
+const { redes } = curated.tendencias;
+const podcasts = {
+  colombia: podcastData.colombia?.length ? podcastData.colombia : curated.tendencias.podcasts.colombia,
+  mundo: podcastData.mundo?.length ? podcastData.mundo : curated.tendencias.podcasts.mundo,
+};
 
 const platformIcons: Record<string, string> = {
   TikTok: "🎵",

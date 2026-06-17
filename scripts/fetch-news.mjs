@@ -46,6 +46,14 @@ function looksLikeAuthorName(title) {
   return AUTHOR_NAME_RE.test(title);
 }
 
+// Descarta contenido de baja relevancia informativa: astrología, horóscopos,
+// predicciones esotéricas, numerología y similares.
+const LOW_QUALITY_RE =
+  /\b(hor[oó]scopos?|astrolog[ií]a|zodiac[ao]l?|tarot|ni[ñn]o prodigio|carta astral|numerolog[ií]a|esot[eé]ric[ao]|feng shui|chakras?|or[aá]culo|rituales? de|predicciones? del ni[ñn]o)\b/i;
+function isLowQualityContent(title) {
+  return LOW_QUALITY_RE.test(title);
+}
+
 // Recorta un resumen a una longitud razonable para tarjetas destacadas.
 function truncateSnippet(text, maxLength = 280) {
   const clean = text.replace(/\s+/g, " ").trim();
@@ -67,6 +75,7 @@ async function fetchOutletItems(outlet) {
         const title = feed.type === "google" ? cleanGoogleTitle(rawTitle) : rawTitle;
         if (!title) continue;
         if (feed.type === "google" && looksLikeAuthorName(title)) continue;
+        if (isLowQualityContent(title)) continue;
         // Los resultados de Google Noticias no traen un resumen util (solo
         // enlaces relacionados), asi que el snippet solo se usa para RSS directo.
         const rawSnippet = feed.type === "rss" ? item.contentSnippet || item.summary : null;
@@ -283,6 +292,16 @@ async function fetchCityWeather({ city, lat, lon }) {
   return { city, temp: Math.round(current.temperature), description, icon };
 }
 
+async function fetchApplePodcasts(country, limit = 5) {
+  const res = await fetch(
+    `https://rss.applemarketingtools.com/api/v2/${country}/podcasts/top/${limit}/podcasts.json`,
+    { signal: AbortSignal.timeout(15000) },
+  );
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const json = await res.json();
+  return (json?.feed?.results || []).map((p) => ({ title: p.name, host: p.artistName }));
+}
+
 async function fetchWeather() {
   const result = { colombia: [], mundo: [] };
   for (const region of ["colombia", "mundo"]) {
@@ -392,6 +411,25 @@ async function main() {
   await writeFile(
     path.join(DATA_DIR, "weather.json"),
     JSON.stringify({ generatedAt, ...weather }, null, 2) + "\n",
+  );
+
+  console.log("Obteniendo ranking de podcasts de Apple Podcasts...");
+  let prevPodcasts = { colombia: [], mundo: [] };
+  try {
+    prevPodcasts = JSON.parse(await readFile(path.join(DATA_DIR, "podcasts.json"), "utf-8"));
+  } catch { /* primera ejecución */ }
+  const podcasts = { colombia: prevPodcasts.colombia || [], mundo: prevPodcasts.mundo || [] };
+  try {
+    const co = await fetchApplePodcasts("co");
+    if (co.length > 0) { podcasts.colombia = co; console.log(`  - Apple Podcasts Colombia: ${co.length} podcasts`); }
+  } catch (err) { console.warn(`  [aviso] Apple Podcasts Colombia: ${err.message}`); }
+  try {
+    const us = await fetchApplePodcasts("us");
+    if (us.length > 0) { podcasts.mundo = us; console.log(`  - Apple Podcasts Mundo: ${us.length} podcasts`); }
+  } catch (err) { console.warn(`  [aviso] Apple Podcasts Mundo: ${err.message}`); }
+  await writeFile(
+    path.join(DATA_DIR, "podcasts.json"),
+    JSON.stringify({ generatedAt, ...podcasts }, null, 2) + "\n",
   );
 
   console.log("Listo.");

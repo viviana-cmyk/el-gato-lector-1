@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-06-17T00:00:00.000Z",
+  "colombia": [
+    { "title": "Conclusiones", "host": "Fernando del Rincón · CNN" },
+    { "title": "A Fondo con María Jimena Duzán", "host": "María Jimena Duzán" },
+    { "title": "Vox Populi", "host": "La Silla Vacía" },
+    { "title": "Semana en Vivo", "host": "Revista Semana" },
+    { "title": "Hoy por Hoy", "host": "Caracol Radio" }
+  ],
+  "mundo": [
+    { "title": "The Daily", "host": "The New York Times" },
+    { "title": "Global News Podcast", "host": "BBC World Service" },
+    { "title": "Aprendemos Juntos", "host": "BBVA" },
+    { "title": "El Mundo Hoy", "host": "El País" },
+    { "title": "The Economist: Editor's Picks", "host": "The Economist" }
+  ]
+}

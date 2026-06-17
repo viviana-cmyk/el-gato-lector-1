@@ -57,14 +57,19 @@ async function generateSection(client, key) {
   const headlines = buildHeadlinesList(news.outlets);
 
   const categoryList = categories.map((c) => `"${c}"`).join(", ");
-  const prompt = `Eres un analista que escribe para "El Gato Lector", un boletín de noticias sin ánimo de lucro sobre seguridad, justicia y paz.
+  const prompt = `Eres un analista experto que escribe para "El Gato Lector", un boletín de noticias sin ánimo de lucro sobre seguridad, justicia y paz.
 
-A partir de estos titulares recientes sobre ${label}, escribe un breve análisis cruzado organizado en estas categorías exactas: ${categoryList}.
+A partir de los titulares recientes sobre ${label}, escribe un análisis cruzado organizado en estas categorías exactas: ${categoryList}.
 
 Titulares:
 ${headlines}
 
-Para cada categoría escribe entre 2 y 4 oraciones en español, con tono analítico y sobrio, conectando los titulares relevantes con su posible contexto o implicaciones. No inventes datos que no estén respaldados por los titulares; si una categoría no tiene titulares relacionados, ofrece una reflexión general breve sobre esa dimensión en el contexto actual.
+Instrucciones de fondo y estilo:
+- Postura estrictamente neutral y objetiva. No emitas juicios de valor, opiniones personales ni conclusiones subjetivas. Cíñete a hechos observables, evidencia disponible en los titulares y análisis técnico.
+- Escritura natural y fluida, al estilo de un analista humano experto. Evita estructuras repetitivas, frases genéricas o lenguaje que suene a texto generado por IA ("es importante destacar", "en este contexto", "cabe señalar", "sin lugar a dudas", "en definitiva", etc.).
+- Para cada categoría: 2 a 4 oraciones en español, conectando los titulares relevantes con su contexto o posibles implicaciones sin ir más allá de lo que los datos permiten inferir.
+- Si una categoría no tiene titulares directamente relacionados, ofrece una observación breve y factual sobre esa dimensión en el panorama actual.
+- No inventes datos, cifras ni fuentes que no estén en los titulares.
 
 Responde ÚNICAMENTE con un objeto JSON con esta forma exacta, sin texto adicional ni bloques de código:
 {"items": [{"category": "<categoría>", "text": "<análisis>"}, ...]}`;
