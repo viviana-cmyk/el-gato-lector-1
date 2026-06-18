@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-06-18T16:16:13.195Z",
+  "generatedAt": "2026-06-18T19:35:43.998Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "¿Podría el ELN ser el próximo objetivo en Venezuela?",
+          "link": "https://insightcrime.org/es/noticias/podria-eln-ser-proximo-objetivo-venezuela/",
+          "pubDate": "2026-06-18T19:05:54.000Z",
+          "snippet": "¿Podría el ELN ser el próximo objetivo en Venezuela? Tras la muerte del líder del Tren de Aragua, alias \"Niño Guerrero\", en Venezuela, surge la pregunta de si el ELN podría ser el próximo objetivo de operaciones conjuntas con Estados Unidos. The post ¿Podría el ELN ser el próximo…"
+        },
+        {
+          "title": "On the Radar: Reacomodos criminales en Ecuador y Venezuela, y  segunda vuelta electoral en Colombia",
+          "link": "https://insightcrime.org/es/noticias/on-the-radar-reacomodos-criminales-ecuador-y-venezuela-y-segunda-vuelta-marcada-por-seguridad-colombia/",
+          "pubDate": "2026-06-18T16:00:03.000Z",
+          "snippet": "On the Radar: Reacomodos criminales en Ecuador y Venezuela, y segunda vuelta electoral en Colombia La captura en Ecuador del hermano de alias “Fito”, la muerte de “Niño Guerrero” en Venezuela y las propuestas de seguridad que atraviesan la segunda vuelta presidencial en Colombia…"
+        },
         {
           "title": "The InSight Take: El futuro del Tren de Aragua tras la muerte de Niño Guerrero",
           "link": "https://insightcrime.org/es/noticias/the-insight-take-futuro-tren-de-aragua-muerte-nino-guerrero/",
@@ -22,25 +34,44 @@
           "link": "https://insightcrime.org/es/noticias/lider-tren-de-aragua-nino-guerrero-muerto-venezuela/",
           "pubDate": "2026-06-13T16:50:41.000Z",
           "snippet": "Líder del Tren de Aragua ‘Niño Guerrero’ muere en Venezuela El líder del Tren de Aragua, Héctor Rusthenford Guerrero Flores, alias “Niño Guerrero”, murió durante operaciones conjuntas entre Estados Unidos y Venezuela, según declaraciones del presidente de Estados Unidos, Donald T…"
-        },
-        {
-          "title": "Cuando el Tren del Llano fue a la guerra: fraude electoral y venganza en Venezuela",
-          "link": "https://insightcrime.org/es/investigaciones/cuando-tren-del-llano-fue-guerra-fraude-electoral-venganza-venezuela/",
-          "pubDate": "2026-06-12T15:20:01.000Z",
-          "snippet": "Cuando el Tren del Llano fue a la guerra: fraude electoral y venganza en Venezuela El asalto del Tren del Llano a un centro de votación constituyó una intervención criminal extraordinaria en medio de una crisis política. Pero la historia detrás de ese hecho era tan política como…"
-        },
-        {
-          "title": "El día que cayeron las bombas: cuando las fuerzas de seguridad venezolanas actuaron sin límites",
-          "link": "https://insightcrime.org/es/investigaciones/dia-cayeron-bombas-cuando-fuerzas-seguridad-venezolanas-actuaron-sin-limites/",
-          "pubDate": "2026-06-12T15:19:14.000Z",
-          "snippet": "El día que cayeron las bombas: cuando las fuerzas de seguridad venezolanas actuaron sin límites Durante la Operación Zaraza contra el Tren del Llano, fuerzas de seguridad de Venezuela bombardearon un poblado y cometieron abusos. The post El día que cayeron las bombas: cuando las…"
         }
       ]
     },
     {
       "name": "International Crisis Group",
       "color": "teal",
-      "items": []
+      "items": [
+        {
+          "title": "Washington 5 June 2026 #2",
+          "link": "https://www.crisisgroup.org/content/washington-5-june-2026-2",
+          "pubDate": "2026-06-05T15:53:07.000Z",
+          "snippet": "Washington 5 June 2026 #2 lalasor Fri, 06/05/2026 - 17:53 Washington Fri, 06/05/2026 - 12:00 5 June 2026 The U.S. announced sanctions against \"a network of individuals, entities and vessels responsible for shipping hundreds of millions of dollars’ worth of Iranian-origin liquid p…"
+        },
+        {
+          "title": "Hormuz 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/hormuz-5-june-2026-1",
+          "pubDate": "2026-06-05T15:52:12.000Z",
+          "snippet": "Hormuz 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:52 Strait of Hormuz Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA…"
+        },
+        {
+          "title": "Tehran 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/tehran-5-june-2026-1",
+          "pubDate": "2026-06-05T15:50:10.000Z",
+          "snippet": "Tehran 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:50 Tehran Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA located in…"
+        },
+        {
+          "title": "Washington 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/washington-5-june-2026-1",
+          "pubDate": "2026-06-05T15:49:23.000Z",
+          "snippet": "Washington 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:49 Washington Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA lo…"
+        },
+        {
+          "title": "Lebanon 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/lebanon-5-june-2026-1",
+          "pubDate": "2026-06-05T15:47:48.000Z",
+          "snippet": "Lebanon 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:47 Lebanon Fri, 06/05/2026 - 12:00 5 June 2026 Hizbollah reported conducting approximately 20 attacks on Israeli troops in southern Lebanon, while the Israeli military tallied that over the previous week, “650-plus Hizbollah tar…"
+        }
+      ]
     },
     {
       "name": "World Economic Forum",
