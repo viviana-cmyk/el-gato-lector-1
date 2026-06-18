@@ -31,6 +31,8 @@ jobs:
     steps:
       - name: Clonar repositorio
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configurar Node.js
         uses: actions/setup-node@v4
@@ -60,9 +62,7 @@ jobs:
             echo "Sin cambios en los datos de hoy."
           else
             git commit -m "chore: actualizar noticias e indicadores ($(date -u +'%Y-%m-%d %H:%M UTC'))"
-            git fetch origin main
-            git rebase origin/main
-            git push
+            git push || (git pull --rebase && git push)
           fi
 
   build-and-deploy:
