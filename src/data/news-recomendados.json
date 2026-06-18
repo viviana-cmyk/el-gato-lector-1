@@ -1,15 +1,21 @@
 {
-  "generatedAt": "2026-06-18T19:35:43.998Z",
+  "generatedAt": "2026-06-18T22:02:29.369Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
         {
+          "title": "Tercer Comando Puro",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-brasil/tercer-comando-puro/",
+          "pubDate": "2026-06-18T21:08:01.000Z",
+          "snippet": "Tercer Comando Puro El Tercer Comando Puro (Terceiro Comando Puro – TCP) es una poderosa banda criminal de Brasil dedicada al tráfico de drogas, armas y lavado de dinero. The post Tercer Comando Puro appeared first on InSight Crime."
+        },
+        {
           "title": "¿Podría el ELN ser el próximo objetivo en Venezuela?",
           "link": "https://insightcrime.org/es/noticias/podria-eln-ser-proximo-objetivo-venezuela/",
           "pubDate": "2026-06-18T19:05:54.000Z",
-          "snippet": "¿Podría el ELN ser el próximo objetivo en Venezuela? Tras la muerte del líder del Tren de Aragua, alias \"Niño Guerrero\", en Venezuela, surge la pregunta de si el ELN podría ser el próximo objetivo de operaciones conjuntas con Estados Unidos. The post ¿Podría el ELN ser el próximo…"
+          "snippet": "¿Podría el ELN ser el próximo objetivo en Venezuela? Tras la muerte del líder del Tren de Aragua, alias ”Niño Guerrero”, en Venezuela, surge la pregunta de si el ELN podría ser el próximo objetivo de operaciones conjuntas con Estados Unidos. The post ¿Podría el ELN ser el próximo…"
         },
         {
           "title": "On the Radar: Reacomodos criminales en Ecuador y Venezuela, y  segunda vuelta electoral en Colombia",
@@ -28,12 +34,6 @@
           "link": "https://insightcrime.org/es/noticias/nino-guerrero-muerto-construyo-franquicia-criminal-mas-conocida-america-latina/",
           "pubDate": "2026-06-15T20:08:48.000Z",
           "snippet": "Niño Guerrero ha muerto. Así construyó la franquicia criminal más conocida de América Latina Héctor Guerrero Flores, alias “Niño Guerrero”, murió en una operación. Así hizo de Tren de Aragua una franquicia criminal regional. The post Niño Guerrero ha muerto. Así construyó la fran…"
-        },
-        {
-          "title": "Líder del Tren de Aragua ‘Niño Guerrero’ muere en Venezuela",
-          "link": "https://insightcrime.org/es/noticias/lider-tren-de-aragua-nino-guerrero-muerto-venezuela/",
-          "pubDate": "2026-06-13T16:50:41.000Z",
-          "snippet": "Líder del Tren de Aragua ‘Niño Guerrero’ muere en Venezuela El líder del Tren de Aragua, Héctor Rusthenford Guerrero Flores, alias “Niño Guerrero”, murió durante operaciones conjuntas entre Estados Unidos y Venezuela, según declaraciones del presidente de Estados Unidos, Donald T…"
         }
       ]
     },
