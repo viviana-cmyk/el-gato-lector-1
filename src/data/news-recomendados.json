@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T13:43:22.745Z",
+  "generatedAt": "2026-06-18T15:38:56.270Z",
   "outlets": [
     {
       "name": "InSight Crime",
@@ -47,6 +47,12 @@
       "color": "yellow",
       "items": [
         {
+          "title": "Energy Transition Index 2026",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xNGZ1c1JiWnRnX1pqRTdOVnJ4NmxrZldZOGs3cDZ3Zk14ck1fanIzNzc5RWVxWm9MMFZTWGNDY1oyLUNtc2pXRTR3Qm9kV2JJai1SSGNPc0QyMXlTR1ZMU2xVRnZoTzFVWjhkaVdObTQ2MkE?oc=5",
+          "pubDate": "2026-06-18T09:12:55.000Z",
+          "snippet": null
+        },
+        {
           "title": "Esta empresa está combatiendo el aislamiento y el agotamiento entre el personal médico en Ucrania",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yUENaLXA3emlrLWRYTXY1bzVtZ0ppelZCWGJ0MDZ1SmxlUTQ3bUNkNnYyMWNHY2NPbi1Xc3JQOEo3Sl9YT2NRaVU1eVRmMFMzaWVkTWRXbXFVaUNOZkE2MV9nTzZ0WDZiTy1OV3QzdVpmY0E?oc=5",
           "pubDate": "2026-06-16T12:56:28.000Z",
@@ -68,12 +74,6 @@
           "title": "Update on Iran > Annual Meeting of the New Champions",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ1Q4bjBLam1kb19hdkJ5YVhDeE9HeUJ1Q3hTcEZIMW5yaXhRbXVhd3M0eXZyT1pYRmwwOEtnUWUzT1lfUFVPREowdUo4ZTJvNUJsMEVsNUdNNURQSVRTdEoxZi1OOGRCWnJPU2prLTBwSThXaUllOUxzWGZhVnh5NnZpc2p4OTFjb0NMd2x2QWtiWTdiR1puckNVYXUxUQ?oc=5",
           "pubDate": "2026-06-15T19:21:21.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Ghana acaba de declarar su primera área marina protegida",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjUmJKRFVkb29qWlNmNDBfRUR3Yk1hMDkzb01pWU5wZ2F3ZmVheTJSUlRfYXdXbjBSeEdMSlJRcFNXV2hQdGcxUkpQcG9VN0Z6NkdWRTBxOFltUGp1ak5Gd1BOYkFKVGc?oc=5",
-          "pubDate": "2026-06-15T13:00:36.000Z",
           "snippet": null
         }
       ]
