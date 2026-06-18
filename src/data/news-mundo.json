@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T15:42:18.486Z",
+  "generatedAt": "2026-06-18T16:16:13.195Z",
   "outlets": [
     {
       "name": "CNN en Español",
@@ -9,6 +9,12 @@
           "title": "Arrestan en Florida a Faizon Love, actor de la película \"Elf\"",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNjBUZ3FZUWk5b0JxTWtZMi1rUjNHY3dOalRfVFZTeXVTLUMwUG1JdDROR0NncV8wZ1kxOUtfMW5zdzM1c2N1UlRsTVJRbW1FNHlSMV9LVXRGOWs3ajhTdC15QU5sa2QteEFfa1MxeDNvTW84RXltMkJ1ZXZPMEtTb1FHTVhnclp5c0U3aDlRc0lSSVFaSTJN?oc=5",
           "pubDate": "2026-06-18T14:36:00.000Z",
+          "snippet": null
+        },
+        {
+          "title": "De símbolo nacional a polémica electoral: la camiseta de la selección de Colombia entra en disputa política",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUjY5RHh3a0wxaVB0ZVFiR0htUlUyMk1oQk1ibTRZQzV2MEJmRmM2Y2JZVUM4eklFcFE5SGN3WGlfUnN5cXlJR1YwQjFvUnp5Q1VlQ005cW90UVBTWUNMNlZOUW1wd0FwZmJKS2VHcVJLQXN2RV9UenRiRDhhVnZWZGFjTHQ0blQ1dW4wazJ6QjF0c3h4LWc?oc=5",
+          "pubDate": "2026-06-18T14:26:39.000Z",
           "snippet": null
         },
         {
@@ -27,12 +33,6 @@
           "title": "Los estadounidenses ven a Obama de forma mucho más positiva que a Trump o Biden, según una encuesta de CNN",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCaldlckk2Wm9HaE1WLTkzU2hzNndKeGd0NUFZQnlId0xkN0p3YVdQNzIyQ1Q3SzY3WmJfb2ZuRXotM3RqM2lKek1vajA2VFo5RVd0S2NwWTJ5YUtTb0FWdHZZeWl6V2VYYW5GQk9GVEFBcWJvdTJDb3d5b3h4TlE?oc=5",
           "pubDate": "2026-06-18T13:43:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Esta ciudad tenía un problema de inundaciones. Así que recurrió a un animal que se había extinguido allí hacía 400 años",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMEpJNWc5eUo2aVNqZGNKZGQ0NGlmendXRFVYZUpSNl9kT3FLeS1CVHA0MTNKZ2Q5ckZCUFZ2X3lIcGJfc2tUWWx1QzhpRjdNY3VuRGNVS0dwNTcwbnNDV2pQamFQOFVVbTQ4N3hKU2ZmZkJDNjJlUUxXeEU3VnItUmtfV2hDdHFI?oc=5",
-          "pubDate": "2026-06-18T13:16:00.000Z",
           "snippet": null
         }
       ]
@@ -78,34 +78,34 @@
       "color": "yellow",
       "items": [
         {
-          "title": "La Corte Suprema se pone del lado de un usuario de marihuana de Texas que quiere poseer un arma de fuego en el último caso que expande los derechos de armas – en vivo",
-          "link": "https://www.theguardian.com/us-news/live/2026/jun/18/supreme-court-birthright-citizenship-ruling-tps-mangione-iran-latest-updates",
-          "pubDate": "2026-06-18T15:39:02.000Z",
-          "snippet": "En un fallo raro unánime, la corte respalda un desafío a las leyes de armas de Texas de Ali Danial Hemani Regístrese para el correo electrónico Breaking News US Él llama a la situación un \"ganar-ganar\" para EE.UU. Vance está aquí, y comienza afirmando que el acuerdo de paz de Trump con Irán \"ya está…"
-        },
-        {
-          "title": "No tan vacíos los nidos: un número récord de adultos estadounidenses menores de 35 años viven en casa, dicen nuevos datos",
-          "link": "https://www.theguardian.com/society/2026/jun/18/us-adults-under-35-living-at-home",
-          "pubDate": "2026-06-18T15:33:53.000Z",
-          "snippet": "Los datos muestran que el aumento de la vida en el hogar proviene de costos de vivienda altos en lugar de condiciones del mercado laboral Un número récord de jóvenes adultos estadounidenses vivía con sus padres el año pasado, según nuevos datos de Realtor.com, ya que los altos costos de vivienda empujaron el hito o…"
-        },
-        {
-          "title": "El IVA en las cuotas de escuelas privadas no ha causado un éxodo de alumnos, dice Bridget Phillipson",
-          "link": "https://www.theguardian.com/education/2026/jun/18/vat-private-school-fees-not-caused-pupil-exodus-bridget-phillipson",
-          "pubDate": "2026-06-18T15:30:26.000Z",
-          "snippet": "La secretaria de Educación cita datos de admisiones en Inglaterra desde que se impuso el impuesto mostrando solicitudes decrecientes al sector estatal El IVA sobre las cuotas de escuelas privadas no ha logrado desencadenar un éxodo de alumnos hacia el sector estatal a pesar de la especulación generalizada de que lo haría, dice la secretaria de educación…"
-        },
-        {
-          "title": "Crisis de Oriente Medio en vivo: Líbano dice que tres fueron asesinados en ataques israelíes mientras EE.UU. advierte que la acción militar se reanudará si Irán no cumple el acuerdo",
+          "title": "Crisis en Oriente Medio en directo: Vance dice que el período de 60 días para alcanzar el acuerdo final con Irán comienza hoy",
           "link": "https://www.theguardian.com/world/live/2026/jun/18/middle-east-crisis-live-us-iran-presidents-sign-peace-deal-mou-trump-tehran-strait-of-hormuz-toll-lebanon-israel",
-          "pubDate": "2026-06-18T15:29:51.000Z",
-          "snippet": "Medios estatales informan de ataques en el sur del Líbano; Hegseth dice que EE.UU. está preparado para reimplantir un bloqueo contra Irán si no cumple con sus compromisos Reacción: El acuerdo de Irán de Donald Trump se encontró con enojo, alivio e incredulidad Análisis: El acuerdo de Irán de Trump es resultado de expectativas poco realistas…"
+          "pubDate": "2026-06-18T16:08:26.000Z",
+          "snippet": "Los comentarios del vicepresidente estadounidense significarían que la fecha límite para el acuerdo final entre Irán y EE.UU. es el 17 de agosto Reacción: El acuerdo con Irán de Donald Trump se recibe con ira, alivio e incredulidad Análisis: El acuerdo con Irán de Trump es resultado de ambiciones poco realistas para una guerra insostenible Donald Trump…"
         },
         {
-          "title": "Zack Polanski absuelto por investigación de ética sobre queja de pago de impuesto municipal",
-          "link": "https://www.theguardian.com/politics/2026/jun/18/zack-polanski-cleared-ethics-inquiry-council-tax-houseboat",
-          "pubDate": "2026-06-18T15:25:41.000Z",
-          "snippet": "Labour y Tories afirmaron que el líder del Partido Verde incumplió el código de ética de la asamblea de Londres por falta de pago de impuesto municipal Zack Polanski ha sido absuelto por una investigación de ética que analiza denuncias de que no pagó el impuesto municipal mientras vivía en una casa flotante. Un informe de la autoridad del Gran Londres…"
+          "title": "El IVA en las cuotas de escuelas privadas no causó un éxodo hacia el sector estatal, dice Bridget Phillipson",
+          "link": "https://www.theguardian.com/education/2026/jun/18/vat-private-school-fees-not-caused-pupil-exodus-bridget-phillipson",
+          "pubDate": "2026-06-18T16:07:29.000Z",
+          "snippet": "La secretaria de Educación cita datos de admisiones para Inglaterra, diciendo que el Partido Laborista está 'reequilibrando el sistema para enfocarse en el 94% de niños en escuelas estatales' Añadir IVA a las cuotas de escuelas privadas no ha logrado desencadenar un éxodo de estudiantes al sector estatal a pesar de la amplia especulación de que lo haría…"
+        },
+        {
+          "title": "La Corte Suprema respalda a un usuario de marihuana de Texas que quiere poseer un arma de fuego en el último caso que expande los derechos de armas – en directo",
+          "link": "https://www.theguardian.com/us-news/live/2026/jun/18/supreme-court-birthright-citizenship-ruling-tps-mangione-iran-latest-updates",
+          "pubDate": "2026-06-18T16:05:51.000Z",
+          "snippet": "En un fallo raro unánime, la corte resaldó un desafío a las leyes de armas de Texas respaldando a Ali Danial Hemani Regístrate para recibir el correo electrónico Últimas noticias de EE.UU. Él llama a la situación una 'situación ganadora' para EE.UU. Vance está aquí, y comienza afirmando que el acuerdo de paz de Trump con Irán 'ya…"
+        },
+        {
+          "title": "Los hombres jóvenes en el Reino Unido no son más de derechas que los grupos más antiguos, según un estudio",
+          "link": "https://www.theguardian.com/politics/2026/jun/18/uk-young-men-not-more-rightwing-than-older-groups",
+          "pubDate": "2026-06-18T15:55:21.000Z",
+          "snippet": "Exclusiva: El análisis muestra que los hombres de 18 a 25 años tienen menos probabilidades de votar por partidos de derechas que otros grupos de edad de hombres Los hombres jóvenes no se están inclinando hacia la política de derechas más que ningún otro grupo demográfico, según un estudio de datos electorales, lo que socava las afirmaciones de que este grupo…"
+        },
+        {
+          "title": "Se abren las urnas en la histórica elección parcial en Makerfield que podría determinar el futuro de Keir Starmer – política del Reino Unido en directo",
+          "link": "https://www.theguardian.com/politics/live/2026/jun/18/makerfield-byelection-polls-open-labour-leadership-andy-burnham-keir-starmer-latest-news-updates",
+          "pubDate": "2026-06-18T15:50:50.000Z",
+          "snippet": "Andy Burnham espera que una elección parcial exitosa signifique que pueda animar a Keir Starmer a dejar su cargo como primer ministro El juicio de dos pirómanos vinculados a Rusia que se dirigieron a propiedades conectadas a Keir Starmer muestra que el Reino Unido está bajo ataque de actores maliciosos que quieren 'explotar divi…"
         }
       ]
     },
@@ -114,28 +114,28 @@
       "color": "mint",
       "items": [
         {
-          "title": "Actualizaciones en vivo de la Guerra con Irán: Vance defiende el acuerdo con Irán mientras crece la crítica",
+          "title": "Actualizaciones en Vivo de la Guerra con Irán: Vance Defiende el Acuerdo con Irán mientras Crece la Crítica",
           "link": "https://www.nytimes.com/live/2026/06/18/world/iran-war-trump-us-deal",
-          "pubDate": "2026-06-18T15:36:42.000Z",
-          "snippet": "El vicepresidente dijo a reporteros que el programa nuclear de Irán \"ha sido completamente destruido\" y su capacidad de amenazar a sus vecinos es \"en gran medida desaparecida\". Dijo que Irán solo recibirá beneficios económicos si cumple con los términos."
+          "pubDate": "2026-06-18T16:13:15.000Z",
+          "snippet": "El vicepresidente dijo a los reporteros que el programa nuclear de Irán 'ha sido completamente destruido' y su capacidad de amenazar a sus vecinos está 'prácticamente desaparecida'. Sostuvo que Irán solo recibirá beneficios económicos si sus líderes 'cambian su comportamiento'."
         },
         {
-          "title": "En pozos antiguos cerca de Stonehenge, los científicos ven indicios de ritual del solsticio",
-          "link": "https://www.nytimes.com/2026/06/18/world/europe/uk-pits-stonehenge-britain-discovery.html",
-          "pubDate": "2026-06-18T15:35:35.000Z",
-          "snippet": "Los arqueólogos británicos pueden haber encontrado los restos de un sitio donde la gente celebraba el solsticio hace miles de años, a pocos kilómetros del famoso círculo de piedra."
+          "title": "Aquí están las últimas novedades.",
+          "link": "https://www.nytimes.com/live/2026/06/18/world/iran-war-trump-us-deal/heres-the-latest",
+          "pubDate": "2026-06-18T16:13:14.000Z",
+          "snippet": null
         },
         {
-          "title": "El arzobispo de Canterbury se disculpa por el papel de la Iglesia de Inglaterra en las adopciones forzadas",
-          "link": "https://www.nytimes.com/2026/06/18/world/europe/church-england-apology-forced-adoptions-uk.html",
-          "pubDate": "2026-06-18T15:33:15.000Z",
-          "snippet": "Decenas de miles de bebés fueron separados de mujeres y niñas solteras de los años 50 a los 80. La Iglesia de Inglaterra se disculpó por el \"dolor, vergüenza e indignidad\" que la práctica infligió."
+          "title": "Ucrania Ataca una Refinería de Moscú en un Ataque Masivo con Drones",
+          "link": "https://www.nytimes.com/2026/06/18/world/europe/moscow-ukraine-drone-attack-fire.html",
+          "pubDate": "2026-06-18T16:11:41.000Z",
+          "snippet": "El ataque, que cerró los aeropuertos de la capital durante varias horas, fue parte de una campaña de escalada para llevar el conflicto a casa de los rusos."
         },
         {
-          "title": "Israel sorprendido por el acuerdo de Irán de Trump",
-          "link": "https://www.nytimes.com/2026/06/18/world/middleeast/israel-iran-deal-reaction-netanyahu.html",
-          "pubDate": "2026-06-18T15:13:32.000Z",
-          "snippet": "El acuerdo no logra ninguno de los objetivos de guerra declarados de Israel y posiblemente deja al país en peor situación en cada uno de ellos."
+          "title": "El Roble Mayor, Árbol Antiguo de la Leyenda de Robin Hood, Ha Fallecido",
+          "link": "https://www.nytimes.com/2026/06/18/world/europe/major-oak-tree-dies.html",
+          "pubDate": "2026-06-18T16:09:38.000Z",
+          "snippet": "El Roble Mayor en el Bosque de Sherwood tenía entre 800 y 1.200 años de antigüedad. Sucumbió a una combinación de turismo excesivo, cambio climático y esfuerzos mal orientados para salvarlo."
         }
       ]
     },
@@ -146,25 +146,25 @@
         {
           "title": "Trump recibirá a los Knicks en la Casa Blanca, dice el dueño",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTVLNkppa05hTnhUU1NiUGtsUGw0UklhX3ExQWMwS3NiYUZXNkdSWFhNSWtBbzR6YUFwaTRyVmY5bzJVVXBIeWNyaTRXazJKOFIyMVE1c0JKTUZBRHFGTm5qY0UyR1NZYTNMRTk0T2Jwdm93THpoZkhieUhGM25QSVc1NDhoQ3pfQUJhTmVPMlRBaTBY?oc=5",
-          "pubDate": "2026-06-18T15:39:04.000Z",
+          "pubDate": "2026-06-18T16:11:47.000Z",
+          "snippet": null
+        },
+        {
+          "title": "The Washington Post - Noticias de última hora y titulares más recientes, noticias de EE.UU., noticias del mundo y video",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5FY012cFVxaU5UdGRUdGtSUmFuYW5KLV9DUFFQd1F4SVY0ZEJ6dl8tbnBXaDc4aklNbTZxQkpZcEhuRHdlVXc?oc=5",
+          "pubDate": "2026-06-18T16:03:52.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Con hambre de un verdadero 'día de divulgación', algunos observadores de OVNIS están molestos con Trump",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVTNtekxUcG9GR3BKYW44ZG9LUVNOcEpJSVdqdUE1anU5ckZBTV85elVhc19kc1hpSnJVUEVrd2VUdTVQZ09SZzB2LUtYUFp4TmJhNG1seHJNUmZJY2U2NzlpbUlpRGczXy1lczVyY0R1SUhwWE5zWGE5Wk1VY3VCWDk2V1VQMUdzb3Y4am5xVnN2TGNEckxYdUdraXlzYkNPSDBnMVBsbmctc0xkazY0?oc=5",
+          "pubDate": "2026-06-18T16:02:02.000Z",
           "snippet": null
         },
         {
           "title": "Cómo el mercado de valores se convirtió en el asesor más favorito de Trump",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNXE3Z3pOWVZHNnViVUx0eTR4VEhYaXVlbjZRMjNRRVFzV29jamJfNUFCRkRERnNOeXQ0cmJoRlZmVE1Cbm9ReTFRUm1oa0RBNFlOSzM1ZjNUNktNcy1TOHJPa0duaV9OQUJtV3BhVnREYnppWDdZbzhrMVNyajlFbkVwVHh4R091N1hjel82REp1dGp1RTZENzJjWDlzSnhDbTd4Y3VIcW11OWJGaXc?oc=5",
-          "pubDate": "2026-06-18T14:31:59.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Citas después de la muerte de la pareja y agotamiento. Dar consejo a esta pregunta de Hax.",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaVN0OHNBS1R4dkNYSmZDVll3TGMxWVdVZ0ZKMFZWeHNGUWdnVTVSdUlPVUc0SjVSV3JVbTNyUGFHT1VJTHZ6QkREdUREXzBzOGtUcmQ4bDAwVHJQcm5OY1I5QnYtb0ZSZDNta3FJUWZRSkpldzRTaFNLelY1NTZqdXY3ZGpkdlUzNXNQb1l6eUFYTjltWUNuQUNSV2U3NVRZckRTU1R6NTE0TUNyeUVad2xkbllKYWRkZ3ZN?oc=5",
-          "pubDate": "2026-06-18T11:00:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Columna | Miss Manners: Soy una joven abogada. Algunos clientes piensan que soy una asistente legal.",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSVowcThhZW1GdG1aNlA3azlRU2hnOEdxMFdKOUxhaUVuLVRvWXc0RnBTdDB0cGtQU29QWHVXRlJ1SnNFclZXNk5VYmFzSkdiYlp3YlBpUWlGRDdnREc4TGxWb2E5SUJhVGVkamxQdkxWMVltYXdGU29hRGJVSVlBY2lXbFNTcjFqdUVfS1JLYzhwQURCRzQ2X25lang5V09QaDY4Q3A3NU1hVE03STdj?oc=5",
-          "pubDate": "2026-06-18T11:00:00.000Z",
+          "pubDate": "2026-06-18T16:01:59.000Z",
           "snippet": null
         }
       ]
@@ -174,26 +174,26 @@
       "color": "lilac",
       "items": [
         {
-          "title": "El poder de IA de Estados Unidos toma el control",
+          "title": "El poder de la IA en América",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tS3FKWnoyOElfNEdOZlVnMDRwUnRYTHhqY1lwSlktQjV5d0pvbGVxZTQ3OWsyclFzOThTOEtaSnpNZEcyNG5zYlU0a0dDMzN5eTBTNTNPdzhOYkxTYkZ3?oc=5",
-          "pubDate": "2026-06-18T14:16:38.000Z",
+          "pubDate": "2026-06-18T15:46:38.000Z",
           "snippet": null
         },
         {
-          "title": "¿Fuimos demasiado rápidos al atacar el \"socialismo de la Gen Z\"?",
+          "title": "Negocios",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aWXVxZDA0dFdJVFV6SjFTWXlYbklpRmZqRnRpQmhwcS1aQVhjRGpYTEJCQi1KODRNSF84WG1TMnFqOG13TlJJNW92T3F6MElOY3h5STFvMTRrdjJVZy0wTURidGJHS0ZhQW5ZUUd2bmpOTWM?oc=5",
+          "pubDate": "2026-06-18T12:45:58.000Z",
+          "snippet": null
+        },
+        {
+          "title": "¿Fuimos demasiado rápidos en atacar el 'socialismo de la Generación Z'?",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOG0wWlZnMWVSOWl2Zk1nd2cya1dCdGxRRXpldm54WWY0R3ppX0RyNjVOWnl2WGZVdUFvVmFJMXY2Y0xKQWpRcFhraGxmaFdnV0RFZS10S0VvQm9GdXRady1jTml0ZXlJMTZtVFNuYWZmMXZwMTIwUERiS2dURUVPVUc3eGNXdkZaVnluWVEwTHZqQQ?oc=5",
           "pubDate": "2026-06-18T12:45:58.000Z",
           "snippet": null
         },
         {
-          "title": "La izquierda viene por los titulares demócratas",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORGpIcUEtS2p1SkdyZG9naGQ2OFZTTm1tdVAxc1JRZTE5SWVKem5kOVgwV2JFR0MzVXNMVFoxbWZSajQ2Y3RnTUNVelRnRFR1VjF3ampvOFpYMnBLYjBqN0NSaHRpUHZUODNwUXNMVW1UbXdla1Myd2NNbEJPeTllc0o3S1ZheEVmTVVYdGZDR0R5TmxySFRKRnZnYw?oc=5",
-          "pubDate": "2026-06-18T12:45:58.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Conozca a los nuevos constructores de paz del mundo",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNUVWLUcxNUFDeTEzLUNVZmg4Q080Rlk0OWV1S0NTYndCZ3Q4QWhsaFZQWWdIdEMxeHkzbzNMc2tjdXNLNnh2UVlNUWVhaHV6ZXk2MVdFVFhhLUNmM0VyQ05GM1o4NTJ5d1F3SHZ6VnpuVzY0V1ZMZlRuOHJZWDFyMXNhSVNyRTRncGc?oc=5",
+          "title": "Los adultos regresan a campamentos de verano",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQXzZjSWlta3ppWlBOSnlJd1pfQ3dXdXFma203X3BRZm5kNWVrSWZfTk56bDZqQWlveFV5ZnhQei1lVFNkVkt5amRZUDVpbEdES25IMGtGMDFTVnRXc1l4dlZna1BfVUlwYkZzMkxDeENpM1RfUXNLblA0M2J0LVBiZFNnenVOaHND?oc=5",
           "pubDate": "2026-06-18T12:45:58.000Z",
           "snippet": null
         }
@@ -211,20 +211,20 @@
         },
         {
           "title": "10 funciones nuevas que llegan con Siri AI",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRDZ4RnlRMVZxYjdneHBwZXdIekdtSGZKTTl4d0R5ZkFqakE1cl9hTzdrT2xjUVNwdzhGMllmakhRWFJJeVRxX0JzYUZXeGtqdUU5dUNwRnhaRUt2eGNnTUg4YjFXMDFCd1E2eFctZmpHa1dZM3ZNbTVoRFJIZnFSYWJ6cWk4eE1aWXfSAZ4BQVVfeXFMUGhMTGJ4RHR5NzBIc1ozZlc2b2NhRUxQSU03aVZtaWNtTV85bnNSa3VLaHBoci1RcDZMZk1wd01oOHg3aVBGRG9tT19vNjhoV1VabjFDcVhiVWxMNDB2NXdkSzdndkVmd3kzZEdqYTRycTcwb2hLSndVbmVPOTNua0c5bEotb09GZGpnVkV0V3g3U0hyQmNvTDlwSVBBcXc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaExMYnhEdHk3MEhzWjNmVzZvY2FFTFBJTTdpVm1pY21NXzluc1JrdUtocGhyLVFwNkxmTXB3TWg4eDdpUEZEb21PX282OGhXVVpuMUNxWGJVbEw0MHY1d2RLN2d2RWZ3eTNkR2phNHJxNzBvaEtKd1VuZU85M25rRzlsSi1vT0ZkamdWRXRXeDdTSHJCY29MOXBJUEFxd9IBngFBVV95cUxQaExMYnhEdHk3MEhzWjNmVzZvY2FFTFBJTTdpVm1pY21NXzluc1JrdUtocGhyLVFwNkxmTXB3TWg4eDdpUEZEb21PX282OGhXVVpuMUNxWGJVbEw0MHY1d2RLN2d2RWZ3eTNkR2phNHJxNzBvaEtKd1VuZU85M25rRzlsSi1vT0ZkamdWRXRXeDdTSHJCY29MOXBJUEFxdw?oc=5",
           "pubDate": "2026-06-18T14:00:00.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Donde termina el odio y empieza el otro, escribe Jorge Gaviño",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV2ZaVkp2Z3lkMHIyblRESVZOMUZjTWp0RDRYTy1oVTkzd3VRdXN6ODRUY1I3b2xrUkhoTGxvYmE5QVZ1ZnpHVDVLMlA0LW9ucmZ0ZUdSYmpkazlqZVVKazZUbFBNYno3OXZ2aEJRb3JabWVQVDVEWjd1aFZQZVFxYXVLcWd5akMxRlE3WXBfdFNrMFFqbENV?oc=5",
+          "pubDate": "2026-06-18T13:09:13.000Z",
           "snippet": null
         },
         {
           "title": "Mundial 2026: 10 curiosidades de Corea del Sur",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQnp5ZDc1dnB3MENkeEdOazdYd2JpTUtRczdaMHg2OThlQ1RUYmo0R1U1TVBrOU9VZlN2VTVFVzZ3QWs5blRrRHVjd28yYXFwUDNUaUJZRG5XVHBNSmF6aXlYQW4wcXROVlpFcEotc2VHR3h2bG1jRThCWGVFeFJoZUszbTJwR2hodi02MFM4NHNVcFRhYXY1aHFnZ0VtSm9seHRZ0gGjAUFVX3lxTE5CenlkNzV2cHcwQ2R4R05rN1h3YmlNS1FzN1oweDY5OGVDVFRiajRHVTVNUGs5T1VmU3ZVNUVXNndBazluVGtEdWN3bzJhcXBQM1RpQllEbldUcE1KYXppeVhBbjBxdE5WWkVwSi1zZUdHeHZsbWNFOEJYZUV4UmhlSzNtMnBHaGh2LTYwUzg0c1VwVGFhdjVocWdnRW1Kb2x4dFk?oc=5",
           "pubDate": "2026-06-18T13:00:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Portada impresa del 18 de junio de 2026",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMWhlVGhkajV2RFNJd1dQWFhXTGMxaFhSWlZLbndRY3N1UExzU3JBNUdKNWRtaXRTSVBEdlMzaFdJQUttOGRDRzJlLVNkdDlfMXM5M3ZoSmw4cFRESzVnbVlDUFd2RzhOcEFGWFJFZ0dLd183ZVhIZWloTG8wTzFXek12UURiVEdTeElHNzJtS3rSAaQBQVVfeXFMTlJPUy1ySEVLM3BzNWNIX3EtbjVrUVRmVzZoSkxicTBhZU43dzRpenlmWU1PUXJQaWhOeGtWbXZ5ZXZzV3JBYjA4dzNyd0oxQjZaQUdDeUVFOXgwYUtRb3FXYVpDRFhoZHU2SEI1WkV5aE11TGlXTi1MZ0llendLZ1FqMHJhM0FuZHF5b2w0SG5xanBvLWMzakFKTlUxYWhLZVB5ZDI?oc=5",
-          "pubDate": "2026-06-18T12:34:11.000Z",
           "snippet": null
         }
       ]
