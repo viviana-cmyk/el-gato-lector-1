@@ -47,9 +47,9 @@ function looksLikeAuthorName(title) {
 }
 
 // Descarta contenido de baja relevancia informativa: astrología, horóscopos,
-// predicciones esotéricas, numerología y similares.
+// farándula, gossip de celebridades y contenido sin valor analítico.
 const LOW_QUALITY_RE =
-  /\b(hor[oó]scopos?|astrolog[ií]a|zodiac[ao]l?|tarot|ni[ñn]o prodigio|carta astral|numerolog[ií]a|esot[eé]ric[ao]|feng shui|chakras?|or[aá]culo|rituales? de|predicciones? del ni[ñn]o)\b/i;
+  /\b(hor[oó]scopos?|astrolog[ií]a|zodiac[ao]l?|tarot|ni[ñn]o prodigio|carta astral|numerolog[ií]a|esot[eé]ric[ao]|feng shui|chakras?|or[aá]culo|rituales? de|predicciones? del ni[ñn]o|farand[uú]la|c[íi]rculo [íi]ntimo|vida amorosa|romance (secreto|de |entre )|spice girl|conquist[oó] (el )?coraz[oó]n|novio? (secreto?|de )|vida sentimental|escand[aá]lo amoroso|beso rob[aá]do|infidelidad|separaci[oó]n amorosa|look del d[íi]a|outfit|mejor vestida|peor vestida|secreto de belleza|dieta (milagro|de ))\b/i;
 function isLowQualityContent(title) {
   return LOW_QUALITY_RE.test(title);
 }
