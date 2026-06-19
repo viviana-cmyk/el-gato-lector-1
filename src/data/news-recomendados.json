@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-06-19T13:24:13.178Z",
+  "generatedAt": "2026-06-19T17:32:10.618Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Dos extremos: las opciones de seguridad que enfrentan los votantes colombianos",
+          "link": "https://insightcrime.org/es/noticias/dos-extremos-opciones-materia-seguridad-que-se-enfrentan-votantes-colombianos/",
+          "pubDate": "2026-06-19T16:59:27.000Z",
+          "snippet": "Dos extremos: las opciones de seguridad que enfrentan los votantes colombianos Iván Cepeda y Abelardo de la Espriella llegan a la segunda vuelta presidencial con propuestas opuestas sobre seguridad, drogas y paz en Colombia. The post Dos extremos: las opciones de seguridad que en…"
+        },
         {
           "title": "Tercer Comando Puro",
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-brasil/tercer-comando-puro/",
@@ -28,12 +34,6 @@
           "link": "https://insightcrime.org/es/noticias/the-insight-take-futuro-tren-de-aragua-muerte-nino-guerrero/",
           "pubDate": "2026-06-15T23:36:50.000Z",
           "snippet": "The InSight Take: El futuro del Tren de Aragua tras la muerte de Niño Guerrero Deborah Bonello, editora ejecutiva y el codirector Jeremy McDermott analizan qué significa la caída de Niño Guerrero para el Tren de Aragua. The post The InSight Take: El futuro del Tren de Aragua tras…"
-        },
-        {
-          "title": "Niño Guerrero ha muerto. Así construyó la franquicia criminal más conocida de América Latina",
-          "link": "https://insightcrime.org/es/noticias/nino-guerrero-muerto-construyo-franquicia-criminal-mas-conocida-america-latina/",
-          "pubDate": "2026-06-15T20:08:48.000Z",
-          "snippet": "Niño Guerrero ha muerto. Así construyó la franquicia criminal más conocida de América Latina Héctor Guerrero Flores, alias “Niño Guerrero”, murió en una operación. Así hizo de Tren de Aragua una franquicia criminal regional. The post Niño Guerrero ha muerto. Así construyó la fran…"
         }
       ]
     },
@@ -84,6 +84,12 @@
           "snippet": null
         },
         {
+          "title": "Estos países lideran la transición energética en 2026",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43alg4RnNpUlVMdXVkOVMyTlI0VXpXMGxkaGJaMWVERmpDaWhNUHJGRGVnOXlQenRCZ3psTDhERmJicVpkMkJ6TVlsd25TREV0a3hwdWFJYUIxQk9IeFhPN3JmXzlxZVFoWUNqS1lfYlVIeHBIU0E?oc=5",
+          "pubDate": "2026-06-18T07:00:00.000Z",
+          "snippet": null
+        },
+        {
           "title": "Esta empresa está combatiendo el aislamiento y el agotamiento entre el personal médico en Ucrania",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yUENaLXA3emlrLWRYTXY1bzVtZ0ppelZCWGJ0MDZ1SmxlUTQ3bUNkNnYyMWNHY2NPbi1Xc3JQOEo3Sl9YT2NRaVU1eVRmMFMzaWVkTWRXbXFVaUNOZkE2MV9nTzZ0WDZiTy1OV3QzdVpmY0E?oc=5",
           "pubDate": "2026-06-16T12:56:28.000Z",
@@ -99,12 +105,6 @@
           "title": "Innovating at Scale > Annual Meeting of the New Champions",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaE5IUFFNTzZaNkxsUWJVOC1oSWtwaXhQaGlHUXUtTmFmaTVtTnMtdnE2ekZPZ0ZSTnZvRnUxM1UwQXZkSFFfZ0xKZEtSclE4NGZVWWFtOFNGYW1ubjRaRjVtR011MWZlVE5GUVJuY2Q5VHBOVXl1ZExvZ2wyeHVuU3ZHc3ZpcTB3TmRZRUh1OHpOQ1VZTTNKMlVDX3FSMnd4bVdNTw?oc=5",
           "pubDate": "2026-06-16T12:34:27.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Update on Iran > Annual Meeting of the New Champions",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ1Q4bjBLam1kb19hdkJ5YVhDeE9HeUJ1Q3hTcEZIMW5yaXhRbXVhd3M0eXZyT1pYRmwwOEtnUWUzT1lfUFVPREowdUo4ZTJvNUJsMEVsNUdNNURQSVRTdEoxZi1OOGRCWnJPU2prLTBwSThXaUllOUxzWGZhVnh5NnZpc2p4OTFjb0NMd2x2QWtiWTdiR1puckNVYXUxUQ?oc=5",
-          "pubDate": "2026-06-15T19:21:21.000Z",
           "snippet": null
         }
       ]

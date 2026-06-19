@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T13:24:13.178Z",
+  "generatedAt": "2026-06-19T17:32:10.618Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -17,14 +17,14 @@
       "url": "https://podcasts.apple.com/co/podcast/estoicismo-filosofia/id1740616448"
     },
     {
-      "title": "DianaUribe.fm",
-      "host": "Diana Uribe",
-      "url": "https://podcasts.apple.com/co/podcast/dianauribe-fm/id1440323217"
-    },
-    {
       "title": "Seminario Fenix | Brian Tracy",
       "host": "matiasmartinez16",
       "url": "https://podcasts.apple.com/co/podcast/seminario-fenix-brian-tracy/id1735157109"
+    },
+    {
+      "title": "DianaUribe.fm",
+      "host": "Diana Uribe",
+      "url": "https://podcasts.apple.com/co/podcast/dianauribe-fm/id1440323217"
     }
   ],
   "mundo": [
@@ -39,14 +39,14 @@
       "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
     },
     {
-      "title": "Dateline NBC",
-      "host": "NBC News",
-      "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
-    },
-    {
       "title": "The Joe Rogan Experience",
       "host": "Joe Rogan",
       "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272"
+    },
+    {
+      "title": "Dateline NBC",
+      "host": "NBC News",
+      "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
     },
     {
       "title": "Mick Unplugged",
