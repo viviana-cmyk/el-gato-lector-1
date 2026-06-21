@@ -94,9 +94,25 @@ const LOW_QUALITY_RE = new RegExp(
     "curioso(a)? viral", "video viral", "\\bviral\\b.*tierno",
     "\\btierno\\b", "\\badorable\\b", "\\bcute\\b",
     "accidente de tr[aá]nsito$", "choque (de autos?|de carros?|de motos?)",
-    // Moda / vestuario / crítica de imagen
+    // Moda / vestuario / belleza / cuidado personal
     "vestido (de |que )", "cr[ií]tica (al|de) vestuario",
     "qué llevó", "cómo fue el look",
+    "diseños? de (uñas|cabello|maquillaje|peinados?)",
+    "colores? de (labiales?|sombras|esmaltes?)",
+    "labiales? (para|de |en )", "esmaltes? para",
+    "maquillaje (de |para |en )", "skincare", "rutina de belleza",
+    // Listicles de lifestyle / consejos sin valor informativo
+    "\\d+ (planes?|tips?|ideas?|maneras?|formas?|razones?) para",
+    "planes? para festejar", "planes? para celebrar",
+    "cómo celebrar", "qué hacer (este|en) ",
+    // Loterías y juegos de azar
+    "loter[ií]a de ", "resultados (de la )?loter[ií]a",
+    "n[uú]meros? ganadores?", "premio mayor de",
+    "chance del d[ií]a", "baloto", "super astro",
+    // Celebraciones personales de celebridades
+    "celebra el aniversario", "fotos in[eé]ditas de",
+    "aniversario de (su |el |la )", "cumplea[ñn]os de ",
+    "karol g ", "maluma ", "j balvin ", "shakira (celebra|comparte|publica)",
   ].map(p => `(${p})`).join("|"),
   "i"
 );
