@@ -43,6 +43,13 @@ const FLAGS: Record<string, string> = {
   "Costa de Marfil": "🇨🇮",
   Ecuador: "🇪🇨",
   Curazao: "🇨🇼",
+  Paraguay: "🇵🇾",
+  "Japón": "🇯🇵",
+  "Túnez": "🇹🇳",
+  Austria: "🇦🇹",
+  Jordania: "🇯🇴",
+  Noruega: "🇳🇴",
+  Argelia: "🇩🇿",
 };
 
 export function flagEmoji(team: string): string {

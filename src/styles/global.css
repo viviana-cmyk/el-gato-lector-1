@@ -598,92 +598,109 @@ img {
   font-weight: 600;
 }
 
-/* ---------- Mundial 2026 ---------- */
-.worldcup__label {
-  font-weight: 700;
-  font-size: 0.85rem;
-  opacity: 0.7;
-  margin: 0 0 10px;
+/* ---------- Mundial 2026 – Calendario por día ---------- */
+.wc__note {
+  font-size: 0.78rem;
+  opacity: 0.55;
+  margin: 0 0 18px;
+  font-weight: 500;
 }
 
-.worldcup-table-wrap {
-  overflow-x: auto;
-  border-radius: var(--radius);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+.wc__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
 }
 
-.worldcup-table {
-  width: 100%;
-  min-width: 640px;
-  border-collapse: collapse;
+@media (max-width: 860px) {
+  .wc__grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 520px) {
+  .wc__grid { grid-template-columns: 1fr; }
+}
+
+.wc__day {
   background: var(--paper);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
-.worldcup-table thead th {
+.wc__day-head {
   background: var(--ink);
-  color: #fff;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.68rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  text-align: left;
-  padding: 10px 14px;
-  white-space: nowrap;
-}
-
-.worldcup-table tbody th[scope="row"] {
+  color: #e6b300;
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: 0.75rem;
-  text-align: left;
-  padding: 10px 14px;
-  white-space: nowrap;
-}
-
-.worldcup-table tbody tr:nth-child(odd) {
-  background: var(--c-mint);
-}
-
-.worldcup-table tbody tr:nth-child(even) {
-  background: var(--c-sky);
-}
-
-.worldcup-table td {
-  padding: 8px 14px;
-  vertical-align: middle;
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
-}
-
-.worldcup-match {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.worldcup-match__teams {
-  font-weight: 700;
-  font-size: 0.78rem;
-  white-space: nowrap;
-}
-
-.worldcup-match__vs {
-  font-weight: 600;
-  opacity: 0.5;
-  font-size: 0.66rem;
-  margin: 0 3px;
-}
-
-.worldcup-match__time {
-  font-weight: 600;
-  opacity: 0.6;
-  font-size: 0.68rem;
-}
-
-.worldcup-match--empty {
-  display: block;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 9px 14px;
   text-align: center;
-  opacity: 0.25;
+}
+
+.wc__match {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 9px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.wc__match:last-child {
+  border-bottom: none;
+}
+
+.wc__group {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #e6b300;
+  color: #111;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.65rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.wc__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.wc__teams {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.wc__team {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.wc__vs {
+  font-size: 0.65rem;
+  font-weight: 600;
+  opacity: 0.4;
+}
+
+.wc__meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+  font-size: 0.68rem;
+  opacity: 0.55;
+  font-weight: 500;
 }
 
 /* ---------- Recomendados cards ---------- */

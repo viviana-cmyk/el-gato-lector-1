@@ -1,62 +1,119 @@
 {
-  "_comment": "Datos manuales del calendario del Mundial 2026. Esta seccion no se actualiza sola: edita 'days' con la programacion de la semana (fecha, hora local de referencia y equipos). Las horas son de referencia (zona horaria del este de EE.UU./Canada) y pueden ajustarse a la hora de Colombia si se desea.",
-  "label": "Programación de la semana · 15-21 de junio",
+  "_comment": "Calendario del Mundial 2026. Horarios en hora Colombia (Tiempo del Este − 1 hora). Editar manualmente cada semana.",
+  "label": "Fase de grupos · Mundial 2026",
+  "note": "Horarios hora Colombia · Tiempo del Este − 1 h",
   "days": [
     {
-      "date": "Lunes 15 de jun",
+      "date": "11 JUN",
       "matches": [
-        { "home": "España", "away": "Cabo Verde", "time": "12:00" },
-        { "home": "Bélgica", "away": "Egipto", "time": "15:00" },
-        { "home": "Arabia Saudita", "away": "Uruguay", "time": "18:00" },
-        { "home": "Irán", "away": "Nueva Zelanda", "time": "21:00" }
+        { "group": "A", "home": "México",        "away": "Sudáfrica",    "time": "14:00", "city": "CDMX" },
+        { "group": "A", "home": "Corea del Sur", "away": "Repechaje",    "time": "21:00", "city": "Guadalajara" }
       ]
     },
     {
-      "date": "Martes 16 de jun",
+      "date": "12 JUN",
       "matches": [
-        { "home": "Francia", "away": "Senegal", "time": "15:00" },
-        { "home": "Irak", "away": "Noruega", "time": "18:00" },
-        { "home": "Argentina", "away": "Argelia", "time": "21:00" }
+        { "group": "B", "home": "Canadá",         "away": "Repechaje",   "time": "14:00", "city": "Toronto" },
+        { "group": "D", "home": "Estados Unidos", "away": "Paraguay",    "time": "21:00", "city": "Los Ángeles" }
       ]
     },
     {
-      "date": "Miércoles 17 de jun",
+      "date": "13 JUN",
       "matches": [
-        { "home": "Portugal", "away": "RD Congo", "time": "13:00" },
-        { "home": "Inglaterra", "away": "Croacia", "time": "16:00" },
-        { "home": "Ghana", "away": "Panamá", "time": "19:00" },
-        { "home": "Uzbekistán", "away": "Colombia", "time": "22:00" }
+        { "group": "C", "home": "Brasil",     "away": "Marruecos", "time": "17:00", "city": "NY/NJ" },
+        { "group": "B", "home": "Catar",      "away": "Suiza",     "time": "14:00", "city": "San Francisco" },
+        { "group": "C", "home": "Haití",      "away": "Escocia",   "time": "20:00", "city": "Boston" },
+        { "group": "D", "home": "Australia",  "away": "Repechaje", "time": "23:00", "city": "Vancouver" }
       ]
     },
     {
-      "date": "Jueves 18 de jun",
+      "date": "14 JUN",
       "matches": [
-        { "home": "Chequia", "away": "Sudáfrica", "time": "12:00" },
-        { "home": "Suiza", "away": "Bosnia y Herzegovina", "time": "15:00" },
-        { "home": "Canadá", "away": "Catar", "time": "18:00" },
-        { "home": "México", "away": "Corea del Sur", "time": "21:00" }
+        { "group": "E", "home": "Alemania",       "away": "Curazao",  "time": "12:00", "city": "Houston" },
+        { "group": "F", "home": "Países Bajos",   "away": "Japón",    "time": "15:00", "city": "Dallas" },
+        { "group": "E", "home": "Costa de Marfil","away": "Ecuador",  "time": "18:00", "city": "Philadelphia" },
+        { "group": "F", "home": "Repechaje",      "away": "Túnez",    "time": "21:00", "city": "Monterrey" }
       ]
     },
     {
-      "date": "Viernes 19 de jun",
+      "date": "15 JUN",
       "matches": [
-        { "home": "Estados Unidos", "away": "Australia", "time": "15:00" },
-        { "home": "Escocia", "away": "Marruecos", "time": "18:00" },
-        { "home": "Brasil", "away": "Haití", "time": "21:00" }
+        { "group": "H", "home": "España",       "away": "Cabo Verde",   "time": "11:00", "city": "Atlanta" },
+        { "group": "G", "home": "Bélgica",      "away": "Egipto",       "time": "14:00", "city": "Seattle" },
+        { "group": "H", "home": "Arabia Saudita","away": "Uruguay",     "time": "17:00", "city": "Miami" },
+        { "group": "G", "home": "Irán",         "away": "Nueva Zelanda","time": "20:00", "city": "Los Ángeles" }
       ]
     },
     {
-      "date": "Sábado 20 de jun",
+      "date": "16 JUN",
       "matches": [
-        { "home": "Países Bajos", "away": "Suecia", "time": "13:00" },
-        { "home": "Alemania", "away": "Costa de Marfil", "time": "16:00" },
-        { "home": "Ecuador", "away": "Curazao", "time": "20:00" }
+        { "group": "I", "home": "Francia",   "away": "Senegal",  "time": "14:00", "city": "NY/NJ" },
+        { "group": "I", "home": "Repechaje", "away": "Noruega",  "time": "17:00", "city": "Boston" },
+        { "group": "J", "home": "Argentina", "away": "Argelia",  "time": "20:00", "city": "Kansas City" },
+        { "group": "J", "home": "Austria",   "away": "Jordania", "time": "23:00", "city": "San Francisco" }
       ]
     },
     {
-      "date": "Domingo 21 de jun",
+      "date": "17 JUN",
       "matches": [
-        { "home": "España", "away": "Arabia Saudita", "time": "12:00" }
+        { "group": "K", "home": "Portugal",  "away": "Repechaje", "time": "12:00", "city": "Houston" },
+        { "group": "L", "home": "Inglaterra","away": "Croacia",   "time": "15:00", "city": "Dallas" },
+        { "group": "L", "home": "Ghana",     "away": "Panamá",    "time": "18:00", "city": "Toronto" },
+        { "group": "K", "home": "Uzbekistán","away": "Colombia",  "time": "21:00", "city": "CDMX" }
+      ]
+    },
+    {
+      "date": "18 JUN",
+      "matches": [
+        { "group": "A", "home": "Repechaje",     "away": "Sudáfrica",    "time": "11:00", "city": "Atlanta" },
+        { "group": "B", "home": "Suiza",         "away": "Repechaje",    "time": "14:00", "city": "Los Ángeles" },
+        { "group": "B", "home": "Canadá",        "away": "Catar",        "time": "17:00", "city": "Vancouver" },
+        { "group": "A", "home": "México",        "away": "Corea del Sur","time": "20:00", "city": "Guadalajara" }
+      ]
+    },
+    {
+      "date": "19 JUN",
+      "matches": [
+        { "group": "D", "home": "Estados Unidos","away": "Australia", "time": "14:00", "city": "Seattle" },
+        { "group": "C", "home": "Escocia",       "away": "Marruecos", "time": "17:00", "city": "Boston" },
+        { "group": "C", "home": "Brasil",        "away": "Haití",     "time": "20:00", "city": "Philadelphia" },
+        { "group": "D", "home": "Repechaje",     "away": "Paraguay",  "time": "23:00", "city": "San Francisco" }
+      ]
+    },
+    {
+      "date": "20 JUN",
+      "matches": [
+        { "group": "F", "home": "Países Bajos",  "away": "Repechaje",    "time": "12:00", "city": "Houston" },
+        { "group": "E", "home": "Alemania",      "away": "Costa de Marfil","time": "15:00", "city": "Toronto" },
+        { "group": "E", "home": "Ecuador",       "away": "Curazao",      "time": "19:00", "city": "Kansas City" },
+        { "group": "F", "home": "Túnez",         "away": "Japón",        "time": "23:00", "city": "Monterrey" }
+      ]
+    },
+    {
+      "date": "21 JUN",
+      "matches": [
+        { "group": "H", "home": "España",       "away": "Arabia Saudita","time": "11:00", "city": "Atlanta" },
+        { "group": "G", "home": "Bélgica",      "away": "Irán",          "time": "14:00", "city": "Los Ángeles" },
+        { "group": "H", "home": "Uruguay",      "away": "Cabo Verde",    "time": "17:00", "city": "Miami" },
+        { "group": "G", "home": "Nueva Zelanda","away": "Egipto",        "time": "20:00", "city": "Vancouver" }
+      ]
+    },
+    {
+      "date": "22 JUN",
+      "matches": [
+        { "group": "J", "home": "Argentina", "away": "Austria",   "time": "12:00", "city": "Dallas" },
+        { "group": "I", "home": "Francia",   "away": "Repechaje", "time": "16:00", "city": "Philadelphia" },
+        { "group": "I", "home": "Noruega",   "away": "Senegal",   "time": "19:00", "city": "NY/NJ" },
+        { "group": "J", "home": "Jordania",  "away": "Argelia",   "time": "22:00", "city": "San Francisco" }
+      ]
+    },
+    {
+      "date": "23 JUN",
+      "matches": [
+        { "group": "K", "home": "Portugal",  "away": "Uzbekistán", "time": "12:00", "city": "Houston" },
+        { "group": "L", "home": "Inglaterra","away": "Ghana",      "time": "15:00", "city": "Boston" },
+        { "group": "L", "home": "Panamá",    "away": "Croacia",    "time": "18:00", "city": "Toronto" },
+        { "group": "K", "home": "Colombia",  "away": "Repechaje",  "time": "21:00", "city": "Guadalajara" }
       ]
     }
   ]

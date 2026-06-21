@@ -2,54 +2,48 @@
 import worldcup from "../data/worldcup.json";
 import { flagEmoji } from "../lib/flags";
 
-function shortDay(date: string): string {
-  const [day, number] = date.split(" ");
-  return `${day.slice(0, 3).toUpperCase()} ${number}`;
-}
+const SHORT: Record<string, string> = {
+  "Corea del Sur":  "Corea Sur",
+  "Costa de Marfil":"C. Marfil",
+  "Países Bajos":   "P. Bajos",
+  "Estados Unidos": "EE.UU.",
+  "Arabia Saudita": "Arabia S.",
+  "Nueva Zelanda":  "N. Zelanda",
+};
+function short(team: string) { return SHORT[team] ?? team; }
 
 const days = worldcup.days ?? [];
-const maxMatches = days.reduce((max, day) => Math.max(max, day.matches?.length ?? 0), 0);
-const slots = Array.from({ length: maxMatches }, (_, i) => i);
 ---
 
-<div class="worldcup">
-  <p class="worldcup__label">{worldcup.label}</p>
-  <div class="worldcup-table-wrap">
-    <table class="worldcup-table">
-      <thead>
-        <tr>
-          <th scope="col">Día</th>
-          {slots.map((i) => <th scope="col">Partido {i + 1}</th>)}
-        </tr>
-      </thead>
-      <tbody>
-        {
-          days.map((day) => (
-            <tr>
-              <th scope="row">{shortDay(day.date)}</th>
-              {slots.map((i) => {
-                const match = day.matches?.[i];
-                return (
-                  <td>
-                    {match ? (
-                      <div class="worldcup-match">
-                        <span class="worldcup-match__teams">
-                          {flagEmoji(match.home)} {match.home}
-                          <span class="worldcup-match__vs">vs</span>
-                          {flagEmoji(match.away)} {match.away}
-                        </span>
-                        <span class="worldcup-match__time">{match.time}</span>
-                      </div>
-                    ) : (
-                      <span class="worldcup-match--empty">—</span>
-                    )}
-                  </td>
-                );
-              })}
-            </tr>
-          ))
-        }
-      </tbody>
-    </table>
+<div class="wc">
+  {worldcup.note && <p class="wc__note">⏰ {worldcup.note}</p>}
+  <div class="wc__grid">
+    {days.map((day) => (
+      <div class="wc__day">
+        <div class="wc__day-head">{day.date}</div>
+        {day.matches.map((match) => (
+          <div class="wc__match">
+            <span class="wc__group">{(match as any).group ?? ""}</span>
+            <div class="wc__body">
+              <div class="wc__teams">
+                <span class="wc__team">
+                  <span>{flagEmoji(match.home)}</span>
+                  <span>{short(match.home)}</span>
+                </span>
+                <span class="wc__vs">vs</span>
+                <span class="wc__team">
+                  <span>{flagEmoji(match.away)}</span>
+                  <span>{short(match.away)}</span>
+                </span>
+              </div>
+              <div class="wc__meta">
+                <span>🕐 {match.time}</span>
+                {(match as any).city && <span>📍 {(match as any).city}</span>}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    ))}
   </div>
 </div>
