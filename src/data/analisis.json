@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-06-21T10:00:45.920Z",
+  "generatedAt": "2026-06-21T15:56:02.562Z",
   "colombia": {
     "intro": "Lectura cruzada desde lo político, social, económico y cultural.",
     "items": [
       {
         "category": "Política",
-        "text": "Colombia se prepara para una segunda vuelta presidencial entre Abelardo De la Espriella e Iván Cepeda en medio de tensiones que trascienden lo electoral. La violencia en la Troncal del Caribe amenaza la realización de votaciones en Magdalena y La Guajira, mientras reportes de intentos de secuestro a alcaldes y presiones armadas en el Meta evidencian un contexto de seguridad crítico horas antes de los comicios. Las auditorías poselectorales de la primera vuelta confirmaron integridad en los resultados, pero las restricciones implementadas—ley seca, toques de queda y medidas especiales—reflejan preocupaciones institucionales sobre el orden público durante el proceso. Analistas señalan a Antioquia como región clave para definir el resultado final."
+        "text": "Colombia realizó una segunda vuelta presidencial el 21 de junio de 2026 con despliegue institucional significativo: más de 9.200 efectivos de la Armada Nacional custodian 238 puestos de votación en la región Caribe, mientras la Defensoría movilizó 2.300 funcionarios adicionales para garantizar la jornada. El proceso estuvo regulado bajo medidas como ley seca y toques de queda en varios municipios. El presidente Petro anunció previamente que no buscará reelección y no volverá a ser candidato tras terminar su mandato, marcando una posición sobre su futuro político."
       },
       {
         "category": "Económica",
-        "text": "El tráfico de cocaína ha superado al petróleo como fuente de ingresos para Colombia, representando el 4,4% del PIB nacional según reportes recientes, lo que refleja la magnitud de la economía ilegal en el país. Simultáneamente, el sector logístico enfrenta desafíos inmediatos: transportadores han activado planes de contingencia ante posibles bloqueos tras las elecciones, mientras la oferta limitada de bodegas continúa presionando al alza los costos de arriendo. Estas dinámicas sugieren vulnerabilidades estructurales tanto en seguridad como en infraestructura comercial que trascenderán el ciclo electoral."
+        "text": "El tráfico de cocaína genera actualmente el 4,4% del PIB nacional colombiano, superando los ingresos del sector petrolero como fuente económica. Simultáneamente, el mercado inmobiliario enfrenta presiones de oferta limitada, con arriendos de bodegas en aumento por escasez de disponibilidad. La inteligencia artificial emerge como factor disruptivo en el mercado laboral, generando inquietud sobre empleabilidad en sectores tradicionales."
       },
       {
         "category": "Social",
-        "text": "El abatimiento de alias Marlon, cabecilla de disidencias de las Farc en el Cauca, fue celebrado por autoridades locales como un golpe contra estructuras que sembraban miedo en Valle del Cauca y Cauca. Sin embargo, la persistencia de intentos de secuestro a funcionarios públicos y presiones armadas coordinadas en Meta y otras regiones indica que la vulnerabilidad territorial en zonas estratégicas permanece operativa. La restricción de movilidad electoral y medidas de seguridad excepcionales revelan que poblaciones en zonas afectadas enfrentan barreras reales para participar en procesos democráticos. Más de 300.000 colombianos habilitados para votar en España durante esta segunda vuelta subrayan también la diáspora política del país."
+        "text": "Actos de violencia marcaron la jornada electoral: en Santander de Quilichao se registraron bloqueos en la vía Panamericana y quema de un autobús vinculados a la captura de un cabecilla criminal. En Mesetas, Meta, se denunció la liberación de tres disidentes capturados por intento de secuestro de la autoridad local, generando preocupación por seguridad en zonas territoriales específicas. Las instituciones hicieron llamados públicos a la tranquilidad y sabiduría durante el proceso electoral."
       },
       {
         "category": "Cultural",
-        "text": "Los medios de comunicación colombianos mantienen cobertura diversificada de los eventos electorales, aunque la presencia de titulares sobre espectáculos y deportes (incluido el Mundial 2026 y estrenos cinematográficos) indica que la vida cultural nacional continúa su ritmo paralelo a la intensidad política. Esta dualidad refleja un tejido social que coexiste entre crisis de seguridad y normalidad cotidiana, sin que las dinámicas de entretenimiento se interrumpan completamente por el contexto electoral."
+        "text": "El ciclismo colombiano mantiene presencia internacional destacada con Nairo Quintana compitiendo competitivamente en la etapa reina del Tour de Suiza contra corredores de élite mundial. El fútbol sigue siendo referente mediático central, con cobertura masiva del Mundial 2026 y partidos transmitidos en vivo simultáneamente a la jornada electoral. La industria musical registra movimientos comerciales, como el aniversario de iniciativas culturales como Tropicoqueta."
       }
     ]
   },
@@ -26,19 +26,19 @@
     "items": [
       {
         "category": "Geopolítica",
-        "text": "Las conversaciones nucleares entre Estados Unidos e Irán avanzan en territorio neutral suizo, mientras Teherán simultanea estas negociaciones con declaraciones sobre el cierre del Estrecho de Ormuz, una de las rutas comerciales marítimas más críticas a nivel mundial. El posicionamiento dual sugiere una estrategia de presión diplomática durante las negociaciones. En paralelo, se reporta un acuerdo de alto el fuego entre Israel e Hizbulá, indicando movimientos significativos en la estabilidad regional de Oriente Medio."
+        "text": "Las tensiones en Oriente Medio muestran signos de desescalada con conversaciones entre EE.UU. e Irán en curso, mientras persisten restricciones operacionales como el cierre del estrecho de Ormuz y límites ordenados a operaciones militares israelíes en Líbano. Simultáneamente, se registran tensiones diplomáticas en otras regiones, como los desacuerdos entre Trump y líderes europeos durante encuentros multilaterales, reflejando fricciones en alianzas tradicionales. El panorama geopolítico actual se caracteriza por negociaciones paralelas sobre conflictos regionales y realineamientos en relaciones bilaterales entre potencias."
       },
       {
         "category": "Económica",
-        "text": "El anuncio de iniciativas de SpaceX de Elon Musk genera movimientos en mercados financieros, reflejando la influencia que decisiones en sectores tecnológicos avanzados ejercen sobre instrumentos de inversión. En México, reportes señalan investigaciones sobre redes financieras sospechosas vinculadas a lavado de dinero, evidenciando preocupaciones persistentes sobre integridad en sistemas económicos de la región. La dimensión económica de conflictos geopolíticos se materializa en amenazas a choques de suministro relacionados con rutas marítimas estratégicas."
+        "text": "Las políticas migratorias estadounidenses generan impactos mesurables en flujos financieros hacia Latinoamérica a través de la reducción de remesas, afectando economías dependientes de estas transferencias. El sector agrícola estadounidense experimenta presiones económicas crónicas que no se resuelven con acuerdos comerciales recientes, mientras que la industria automotriz mexicana enfrenta contracciones severas con pérdida de 107 mil empleos en dos años. En paralelo, reportes sobre volatilidad del consumidor estadounidense y dinámicas de financiamiento político vinculadas a intereses geoeconómicos sugieren tensiones estructurales en mercados internacionales."
       },
       {
         "category": "Tecnológica",
-        "text": "Incidentes de seguridad cibernética emergen en Brasil donde se sospecha que actores no autorizados enviaron alertas masivas a teléfonos celulares, exponiendo vulnerabilidades en infraestructuras de comunicación críticas. Simultáneamente, un casi accidente aéreo en Boston entre dos aeronaves en pistas que se cruzan revela riesgos potenciales en sistemas de navegación y control de tráfico aéreo. En el sector de inteligencia artificial, se documentan movimientos de consolidación tecnológica estadounidense que alteran dinámicas competitivas globales."
+        "text": "La expansión de infraestructura 5G en México redefine patrones de consumo de datos en América Latina, indicando avances en conectividad regional. Los desarrollos en inteligencia artificial muestran concentración de capacidades en actores estadounidenses, con implicaciones para competencia global en este sector. Iniciativas privadas en exploración espacial, como las de SpaceX, generan volatilidad en mercados financieros y establecen nuevas dinámicas en sectores de tecnología avanzada."
       },
       {
         "category": "Social",
-        "text": "Eventos deportivos masivos como la ultramaratón mundial con 20.000 participantes y la participación significativa de aficiones en competiciones internacionales demuestran la capacidad de actividades lúdicas para mobilizar poblaciones y crear cohesión social. En contextos políticos, transiciones de liderazgo en Reino Bretaña y cambios administrativos en gobiernos locales mexicanos reflejan dinámicas de participación ciudadana y reorganización de estructuras de poder. Simultaneamente, movimientos sindicales en México mantienen demandas sobre reformas laborales, indicando tensiones persistentes en negociaciones entre actores colectivos y autoridades."
+        "text": "Fenómenos climáticos extremos como olas de calor en Europa occidental están generando restricciones públicas en consumo de alcohol y cancelación de eventos, indicando respuestas administrativas a riesgos ambientales inmediatos. Iniciativas comunitarias dirigidas a población masculina y programas de reintegración social en sistemas carcelarios documentan intentos de abordaje de problemáticas conductuales específicas. A nivel histórico, se registran reconocimientos oficiales sobre maltratos sistemáticos en contextos postcoloniales, reflejando revisiones de memoria institucional en democracias establecidas."
       }
     ]
   }
