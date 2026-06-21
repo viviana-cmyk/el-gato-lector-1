@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T16:21:34.305Z",
+  "generatedAt": "2026-06-21T16:42:57.034Z",
   "outlets": [
     {
       "name": "CNN en Español",
@@ -9,31 +9,22 @@
           "title": "Políticas de Trump reducen el envío de remesas a Latinoamérica",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV2N5MlEwM0YtYkZaZzBmaDg4U0N5UXZoeHVlWWtsM2hEaTVZS3d0T01nS1ZFaFNPVGNGdFF4ZVE0eWhUTWV4bk5jUkszcm8ycmgtSDZFbEEtY0EyVFlNQ3NNZEw1VlY1Wm91N0M1N1d1VlUxQTBxemVnZUJCcWU3bllrQnhnWUZ4anlqQkFmNnpsSjF2R3o2SGx0SHdOV25sdm91Q2JydWFqN3hEQ2tFc1U5OA?oc=5",
           "pubDate": "2026-06-21T13:13:42.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Dentro de un exclusivo “campamento para hombres”, donde una mujer intenta salvar a los hombres de sí mismos",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUDkyaC1ScW11ZDl4dlgtZzZ0dkpuRHMzOTNiN201R2pfSkl2UXE4UzhwNzJxVk5hMHVfZ0p3NmhwSlBYSGt3NzhCY21jbjRiZ3VlRFhnUnJMRnJMcmlSX1JQQ3hPX0pkdGhONEQxTWh6VGllTTlyZ0JydG10QlRTeXdOVDdIY05rUktXMThSR2hKQjRV?oc=5",
-          "pubDate": "2026-06-21T12:46:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Mundial 2026: ¿qué partidos se juegan hoy, 21 de junio? Horarios y enfrentamientos",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVnFBazJaanBvYjZIdnhoU2p0U3gwbTFpMjM5cjc2M3RzN1RFeUpfeEtza18xTmJLaF9Za2xNMGZLMHhENkxpUmZXUHd3LVhoa2M2UF85amptSWRydHIxWVl3TmF3aDBMV19sUFRvVEtMNlYzS1FYd0JLU3E5ZnkzR2ZMeV9xZFNFaUE?oc=5",
-          "pubDate": "2026-06-21T11:05:24.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Trump redobla la apuesta contra Meloni: insiste en que ella le pidió una foto en el G7",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRXUzenE3NDdOaThHWk40YlgxNnhqUFBzSHd3VFJKV1ZZS0M5S1d0aGpmc2dqTUg2YUdBREQ0LWExT2k0Zms5M1YxdXBRNkFKV0ZZdzB0dGlXdjA5cHNFQzdHTDlpa2pnQXhndnJoZXF2Q0VmbEdkSlJRVDNkTE1UNmwtMTFVMHQ2WG9B?oc=5",
-          "pubDate": "2026-06-21T10:02:00.000Z",
-          "snippet": null
+          "snippet": null,
+          "_priority": "ALTA"
         },
         {
           "title": "Se sospecha que hackers están detrás de la alerta no autorizada enviada a teléfonos celulares en todo Brasil",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUDlZZmk0LUQxaUhhZnBLSXVGRnhwZlNVVHZmMFN0am9jejZ5ekVCTGZtX3h3bzhNdjV4YVRfLVRMekxjNzNPYy05UGhnWU9qNlVvNWpqMmdNSTBZMTVCR2xDakF6YlV6TTEzUTd5YXpHSzcwa2NnY0xlVzN4QkVkTEJKU2gtNjVmUE5Odg?oc=5",
           "pubDate": "2026-06-21T07:33:00.000Z",
-          "snippet": null
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Mundial 2026: ¿qué partidos se juegan hoy, 21 de junio? Horarios y enfrentamientos",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVnFBazJaanBvYjZIdnhoU2p0U3gwbTFpMjM5cjc2M3RzN1RFeUpfeEtza18xTmJLaF9Za2xNMGZLMHhENkxpUmZXUHd3LVhoa2M2UF85amptSWRydHIxWVl3TmF3aDBMV19sUFRvVEtMNlYzS1FYd0JLU3E5ZnkzR2ZMeV9xZFNFaUE?oc=5",
+          "pubDate": "2026-06-21T11:05:24.000Z",
+          "snippet": null,
+          "_priority": "DEPORTES"
         }
       ]
     },
@@ -45,31 +36,29 @@
           "title": "Mapa de la expansión y claves para entender el coronavirus de Wuhan",
           "link": "https://elpais.com/sociedad/2020/02/26/actualidad/1582712658_011286.html#?ref=rss&format=simple&link=link",
           "pubDate": "2020-03-01T13:16:43.000Z",
-          "snippet": "Qué es, cómo se transmite, cuál es la población más vulnerable y dimensiones del contagio en el mundo"
-        },
-        {
-          "title": "Plácido Domingo anula sus representaciones en el Real antes de que el teatro las cancelara",
-          "link": "https://elpais.com/cultura/2020/02/27/actualidad/1582789321_585769.html#?ref=rss&format=simple&link=link",
-          "pubDate": "2020-02-28T07:33:16.000Z",
-          "snippet": "El festival de Úbeda tampoco recibirá al tenor y el Palau de les Arts quita su nombre a un centro"
+          "snippet": "Qué es, cómo se transmite, cuál es la población más vulnerable y dimensiones del contagio en el mundo",
+          "_priority": "ALTA"
         },
         {
           "title": "El Gobierno salva el primer escollo de los Presupuestos gracias a ERC",
           "link": "https://elpais.com/politica/2020/02/27/actualidad/1582790343_062149.html#?ref=rss&format=simple&link=link",
           "pubDate": "2020-02-28T06:19:36.000Z",
-          "snippet": "El voto en contra de Junts per Catalunya indigna a los republicanos"
+          "snippet": "El voto en contra de Junts per Catalunya indigna a los republicanos",
+          "_priority": "ALTA"
         },
         {
           "title": "Trump nombra al vicepresidente Pence a cargo de la crisis del coronavirus",
           "link": "https://elpais.com/sociedad/2020/02/27/actualidad/1582762594_400436.html#?ref=rss&format=simple&link=link",
           "pubDate": "2020-02-27T17:26:58.000Z",
-          "snippet": "El CDC confirma el primer caso de origen desconocido en Northern California. El infectado no ha viajado recientemente al extranjero ni ha tenido contacto con un caso confirmado"
+          "snippet": "El CDC confirma el primer caso de origen desconocido en Northern California. El infectado no ha viajado recientemente al extranjero ni ha tenido contacto con un caso confirmado",
+          "_priority": "ALTA"
         },
         {
           "title": "“La magnitud del problema del coronavirus no será diferente a una gripe”",
           "link": "https://elpais.com/sociedad/2020/02/26/actualidad/1582744701_468958.html#?ref=rss&format=simple&link=link",
           "pubDate": "2020-02-27T17:26:43.000Z",
-          "snippet": "Ángel Gil de Miguel, catedrático de Medicina Preventiva y Salud Pública de la Universidad Rey Juan Carlos, lanza un mensaje de tranquilidad"
+          "snippet": "Ángel Gil de Miguel, catedrático de Medicina Preventiva y Salud Pública de la Universidad Rey Juan Carlos, lanza un mensaje de tranquilidad",
+          "_priority": "ALTA"
         }
       ]
     },
@@ -78,34 +67,32 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Oriente Medio en directo: conversaciones de paz entre EE.UU. e Irán en curso mientras el estrecho de Ormuz permanece cerrado",
+          "title": "Oriente Medio en vivo: conversaciones de paz entre EE.UU. e Irán en curso mientras el Estrecho de Ormuz permanece cerrado",
           "link": "https://www.theguardian.com/world/live/2026/jun/21/iran-us-israel-war-middle-east-lebanon-peace-talks-switzerland-vance-trump-strait-of-hormuz-latest-news-updates",
           "pubDate": "2026-06-21T16:09:45.000Z",
-          "snippet": "El presidente de EE.UU. dice en una publicación en redes sociales que 'golpearemos a Irán muy duro de nuevo' si no detiene sus 'proxies en Líbano' Conversaciones EE.UU.-Irán en Suiza a punto de comenzar mientras el estrecho de Ormuz permanece cerrado No había ni hay 'ninguna restricción' para que los soldados israelíes actúen para eliminar…"
+          "snippet": "El presidente estadounidense dice en una publicación en redes sociales 'volveremos a golpear a Irán muy duramente' si no detiene sus 'proxies en Líbano' Las conversaciones entre EE.UU. e Irán en Suiza están a punto de comenzar mientras el Estrecho de Ormuz permanece cerrado No había ni hay 'restricción' en los soldados israelíes para actuar para eliminar la...",
+          "_priority": "ALTA"
         },
         {
-          "title": "Aliado de Burnham presentará plan ambicioso para revertir décadas de privatización",
+          "title": "Aliado de Burnham revelará plan ambicioso para revertir décadas de privatización",
           "link": "https://www.theguardian.com/politics/2026/jun/21/burnham-ally-to-unveil-ambitious-plan-to-reverse-decades-of-privatisation",
           "pubDate": "2026-06-21T16:00:34.000Z",
-          "snippet": "Exclusiva: el documento de política del Estado Productivo prevé que el estado recupere el control de servicios básicos para hacer la vida asequible, en la elaboración del Mancunianismo El gobierno de Andy Burnham debería revertir 40 años de privatización con un plan a largo plazo para hacerse cargo de servicios públicos en quiebra…"
+          "snippet": "Exclusiva: el documento de política de Estado Productivo prevé que el estado recupere el control de lo básico para hacer la vida asequible, en la concreción del Manquesterismo El gobierno de Andy Burnham debería revertir 40 años de privatización con un plan a largo plazo para hacerse cargo de los servicios fallidos en administración...",
+          "_priority": "ALTA"
         },
         {
-          "title": "Se espera que Starmer anuncie su partida el lunes mientras crece el apoyo de diputados a Burnham para primer ministro – política del Reino Unido en directo",
+          "title": "Se espera que Starmer anuncie su partida el lunes mientras un número creciente de diputados respaldan a Burnham para PM – En vivo política del Reino Unido",
           "link": "https://www.theguardian.com/politics/live/2026/jun/21/keir-starmer-expected-resign-resignation-monday--andy-burnham-makerfield-labour-uk-politics-latest-news-updates",
           "pubDate": "2026-06-21T15:59:47.000Z",
-          "snippet": "Se dice que el primer ministro reflexiona sobre las 'realidades políticas', mientras el presidente Trump se suma a las críticas de su liderazgo diciendo que ha 'fracasado estrepitosamente' Se espera que Keir Starmer anuncie su partida como primer ministro el lunes Algunos comentaristas han dicho que Andy Burnham es un mejor comunicador que K…"
+          "snippet": "Se dice que el PM está reflexionando sobre las 'realidades políticas', mientras que el presidente Trump se suma a las críticas de su liderazgo diciendo que ha 'fracasado rotundamente' Se espera que Keir Starmer anuncie su partida como primer ministro el lunes Algunos comentaristas han dicho que Andy Burnham es un comunicador mejor que K...",
+          "_priority": "ALTA"
         },
         {
-          "title": "Correspondencia secreta sugiere tensiones en la cúpula del gobierno iraní",
+          "title": "La correspondencia secreta sugiere tensiones en la cúpula del gobierno iraní",
           "link": "https://www.theguardian.com/world/2026/jun/21/secret-correspondence-iranian-government-tensions-supreme-leader",
           "pubDate": "2026-06-21T15:56:15.000Z",
-          "snippet": "Antiguo miembro del equipo negociador da una entrevista sorpresiva afirmando que las instrucciones del líder supremo no fueron seguidas Crisis de Oriente Medio – actualizaciones en directo Un antiguo miembro del equipo negociador de Irán en la ronda anterior de conversaciones con EE.UU. en Islamabad enfrenta la amenaza de procesamiento…"
-        },
-        {
-          "title": "Preocupaciones por hurones de terapia utilizados para matar ratas en la mayor prisión de menores del Reino Unido",
-          "link": "https://www.theguardian.com/society/2026/jun/21/therapy-ferrets-kill-rats-uk-largest-children-prison-wetherby",
-          "pubDate": "2026-06-21T15:34:56.000Z",
-          "snippet": "El sindicato de oficiales de prisiones pide el cese inmediato de la práctica en HMYOI Wetherby por temores al bienestar de menores y animales Hurones domésticos mantenidos como animales de terapia en la mayor prisión de menores del Reino Unido han sido reclutados por gestores para matar ratas, resultando en un incidente sangriento y preocupaciones…"
+          "snippet": "Miembro antiguo del equipo negociador otorga una entrevista impactante alegando que las instrucciones del líder supremo no fueron seguidas Crisis de Oriente Medio – actualizaciones en vivo Un antiguo miembro del equipo negociador de Irán en la ronda anterior de conversaciones con EE.UU. en Islamabad enfrenta la amenaza de ser procesado...",
+          "_priority": "ALTA"
         }
       ]
     },
@@ -114,28 +101,25 @@
       "color": "mint",
       "items": [
         {
-          "title": "Actualizaciones en Vivo de Oriente Medio: Nueva Ronda de Conversaciones entre EE.UU. e Irán en Suiza",
+          "title": "Actualizaciones en Vivo de Oriente Medio: Nueva ronda de conversaciones entre EE.UU. e Irán en curso en Suiza",
           "link": "https://www.nytimes.com/live/2026/06/21/world/iran-us-trump-lebanon",
-          "pubDate": "2026-06-21T16:10:47.000Z",
-          "snippet": "Una delegación estadounidense, liderada por el vicepresidente JD Vance, se reunía con negociadores iraníes. El conflicto en Líbano está complicando los esfuerzos para alcanzar una paz más amplia y mantener abierto el Estrecho de Ormuz."
+          "pubDate": "2026-06-21T16:27:03.000Z",
+          "snippet": "Una delegación estadounidense, liderada por el Vicepresidente JD Vance, se estaba reuniendo con negociadores iraníes. El conflicto en Líbano está complicando los esfuerzos para llegar a una paz más amplia y mantener el Estrecho de Ormuz abierto.",
+          "_priority": "ALTA"
         },
         {
-          "title": "EE.UU. e Irán Tienen Mucho Que Negociar Más Allá de Cuestiones Nucleares",
+          "title": "Keir Starmer reflexiona sobre 'Desafíos Políticos' mientras aumenta la presión para que dimita",
+          "link": "https://www.nytimes.com/2026/06/21/world/europe/keir-starmer-andy-burnham-uk.html",
+          "pubDate": "2026-06-21T16:23:36.000Z",
+          "snippet": "Un aliado de Keir Starmer le dijo a la BBC el domingo que el Sr. Starmer estaba 'tomándose el tiempo para reflexionar sobre cuáles son las realidades políticas hoy en comparación con la semana pasada'.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "EE.UU. e Irán tienen mucho más que negociar más allá de temas nucleares",
           "link": "https://www.nytimes.com/2026/06/21/world/middleeast/us-iran-negotiations-issues.html",
           "pubDate": "2026-06-21T15:58:16.000Z",
-          "snippet": "Ambos lados se han comprometido a discutir alivio de sanciones y la forma de un fondo de reconstrucción, así como el programa nuclear de Irán."
-        },
-        {
-          "title": "Israel Ordena a su Ejército Limitar Sus Acciones en Líbano, pero las Tensiones Persisten",
-          "link": "https://www.nytimes.com/2026/06/21/world/middleeast/israel-lebanon-hezbollah-fighting.html",
-          "pubDate": "2026-06-21T15:56:40.000Z",
-          "snippet": "No estaba claro si la nueva directiva resolvería la fricción que llevó a enfrentamientos mortales el viernes y sábado y amenazó con descarrilar un acuerdo preliminar de paz entre EE.UU. e Irán."
-        },
-        {
-          "title": "Netanyahu enfrenta uno de los mayores desafíos de su carrera.",
-          "link": "https://www.nytimes.com/2026/06/21/world/middleeast/netanyahu-iran-deal-trump.html",
-          "pubDate": "2026-06-21T15:30:13.000Z",
-          "snippet": "En un 'giro inesperado', el primer ministro Benjamin Netanyahu parece estar dirigiéndose a una elección este otoño sin su principal apoyo: el presidente Trump."
+          "snippet": "Ambos lados se han comprometido a discutir el alivio de sanciones y la forma de un fondo de reconstrucción, así como el programa nuclear de Irán.",
+          "_priority": "ALTA"
         }
       ]
     },
@@ -144,28 +128,11 @@
       "color": "green",
       "items": [
         {
-          "title": "Los nuevos reyes del negocio de noticias están en tu bandeja de entrada",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONE5FamdLV1BOMHp3TEdxcGRZenNxQ25Ua2dfcUQzQ3gxYXdVd09vc0h6RHBWQUZLZHRPcWFNazdkUnhkQ3FvZnpHNmhITGJDYlJ3VmdjMmZJZ3JPWmJpYmdtNmV4VWx5bmlNM3Q0THhKRzRNd3RLck96UVpJcHoxQkRDNV9aTmh3d3BKOEFWM2kzbGF1VkZJNkEtN0pnY2FDNUYtaTBR?oc=5",
-          "pubDate": "2026-06-21T16:02:02.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Te pedimos que nos envíes chistes de papá. Aquí hay 39 para deleitarte y molestarte.",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSDh6bWk3U0RnVnpJY0lGWUdjWG9XbHQ3eW1yaTAyVFJJVTZXWl9zSzlyazdEbXpuVC0tVmEyNF9QNTNEZ0tjUTlDS0lCOVNRUnhFMC1NZ0NINUR5aWFmX0xQWktPSVFjVzNnZDJkdmZxbnYycTM3UVpBQVd2WTRmVV80bzdHM2F3aVVQbmhvQTIzQjVFMTUzcTY0M0dkZUxvenQ0RA?oc=5",
-          "pubDate": "2026-06-21T16:01:24.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Análisis | Las formas sorprendentes en que los dientes de león son buenos para nosotros y nuestros jardines",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWNXVkJvazk4Q1RaNXZOOVpaVTlxdm9pN05CQTQ5X1RySFRhd3daUzJYZVh1WjhVdDVPVXYyZlJCWHBiaEdtUXhxVHBKMjJFOUM4bU9pTm9TSkVtRmU4Q0RLalJfSkVYM1hmQ3lCZFJHbFVvUzZzZy1iRlRmZ3V1RE43ZlhUcC14NjI3TlJPbDktNTk3VFZjTzNGeldHYVU?oc=5",
-          "pubDate": "2026-06-21T16:00:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Este demócrata se está beneficiando de 11 millones de dólares en dinero pro-Israel y criptográfico",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaW9ndHNHMW5Ual9LNDl1WDUtM1NjMVYwYmtwbTI1eVk3VUxVekppa0JvOFEyRmdMS0FlQ0xWMm5YUUI3bHMtem1qZ2phUE9GTnlvc3luaGVPODVEcVZrZm5obGlMcjRIQmxCUnBfTXhqdnhxWFh1WTRab1RLLXBXcHl6X2RlbWl2TjZhYkpmVk1pd1VNaUVmR0dMT2JNcWlLanhPR1BLbGE4bW9WR05Tc01Ta2p4Wl9STnNuby1RUQ?oc=5",
-          "pubDate": "2026-06-21T15:59:23.000Z",
-          "snippet": null
+          "title": "Trump enfrenta nuevos obstáculos después del acuerdo: la palanca de Irán, los ataques de Israel, la reacción de MAGA",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdVBYbWRrSDhfa2dsUUFiZ0xyV2Mxb2pSV29aV0JRM1A1Ykc0VF80czZ3ajlnYlphY1phWndBQV9udmpEZVFISUtleVpsTnRteE5UMjUwOUppek1ZS05mZXBLT09uY3pvQWhkTnJacWkxSDFUc2xwbWFua0MwdjF4RFR6bkdYM0VmRDlKS0Jwb3M2aDI3bGQwMjNvQUZHNFRmVDVlV0Y3WQ?oc=5",
+          "pubDate": "2026-06-21T16:31:59.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -174,28 +141,25 @@
       "color": "lilac",
       "items": [
         {
-          "title": "¿Qué tan estirado está el consumidor estadounidense?",
+          "title": "¿Qué tan presionado está el consumidor estadounidense?",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYmxzdDhmZy16dHhhZXh5UUVCYlJHaDRFNUs4MVF6ZzgtM3hDdGpKUVpYRklzU3JpYXA0aUJYOFVEa3dhLUFkVzR6QnpmTHNzNXF0N1RsM3JBZVBGTmxmUkZnSVJPamNJcGV6R0k4RE5FY2U4RjRmWXU3Mm1NM2N6ZkVZSUk0OU5odUNTdFZuenNkOGRlVDBkZWh4Q1hjQQ?oc=5",
           "pubDate": "2026-06-21T13:08:53.000Z",
-          "snippet": null
+          "snippet": null,
+          "_priority": "ALTA"
         },
         {
           "title": "El acaparamiento de poder de IA de América",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tS3FKWnoyOElfNEdOZlVnMDRwUnRYTHhqY1lwSlktQjV5d0pvbGVxZTQ3OWsyclFzOThTOEtaSnpNZEcyNG5zYlU0a0dDMzN5eTBTNTNPdzhOYkxTYkZ3?oc=5",
           "pubDate": "2026-06-20T07:00:00.000Z",
-          "snippet": null
+          "snippet": null,
+          "_priority": "ALTA"
         },
         {
-          "title": "¿Vale la pena la fórmula infantil enriquecida?",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR2cydVkxTjVvUkJpdmRSa0lWb1AxbWlMdEpzNHIyLXlzcXJuNC0zV2tnTEZBZnFUYjBzeTFndjlRZTM5Z0lCVFRPUGc0OFVFY0wwZlZhZ3dkMzNvTmJHclg0MS1PQWV0c3RFd0diejhwblZieWVoT0FXOWVxTE16Zi1YcDZxWURIaV85SXdTck1lUV9rdXBNc1czcjg?oc=5",
-          "pubDate": "2026-06-19T16:59:23.000Z",
-          "snippet": null
-        },
-        {
-          "title": "El Mundo en Breve: Israel e Hizbulá acuerdan un alto el fuego; Burnham presenta un 'nuevo camino' para Gran Bretaña",
+          "title": "Mundo en Breve: Israel e Hizbulá acuerdan un alto el fuego; Burnham presenta un 'nuevo camino' para Gran Bretaña",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbzl6RmZ4NnhfX1pVOVhjUW5PWTRuMnU4eERZbnA4Z0p3dVNER3YxV19WUWVLNDdkR1JNXzFldHNaczNocjZHSWF4NFBPdjJWS3Rmd3JZNWNIUHFxdnZzSG9KTjYxQkhyN2ttNzBuNHFhUTU0SHUwdnYwMnpUREFrTGgzTWoyNndhaUlsZjRtRWFEVEk1dUVr?oc=5",
           "pubDate": "2026-06-19T16:53:16.000Z",
-          "snippet": null
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -204,28 +168,25 @@
       "color": "peach",
       "items": [
         {
-          "title": "Diseños de uñas para lucir este Pride 2026",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPc24xU2J2WXMxS1NDU0twZVB5MkJ3Rkx3bDBMVlA5eHNLeDdMdF9CTXB1WmlITEhiTTlid0FTdXV0UW5hVDVhZ3NDV0dDNnZ2Y0Ftb1dlOVE3cUptanJuV1JSZUs3WGpRc3IyVVlmamY0RHpDLWxueXpkaXFJRUlncFpFZHotTHFtWkhxVUQ4ZlVDbFNoQUhNZHc4SndnSFhV0gGgAUFVX3lxTE9zbjFTYnZZczFLU0NTS3BlUHkyQndGTHdsMExWUDl4c0t4N0x0X0JNcHVaaUhMSGJNOWJ3QVN1dXRRbmFUNWFnc0NXR0M2dnZjQW1vV2U5UTdxSm1qcm5XUlJlSzdYalFzcjJVWWZqZjREekMtbG55emRpcUlFSWdwWkVkei1McW1aSHFVRDhmVUNsU2hBSE1kdzhKd2dIWFU?oc=5",
-          "pubDate": "2026-06-21T15:00:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Día del Padre 2026: 7 planes para festejar a papá",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV3VUM2RuNEh1bXdyYXFfdUFmbU9DNVNhM1JGRlhvbklXWF8tTDF2VVlreFRTM2FVaExSbUdPb1lqNWs2azQ0cVIxbUVYNHllZ3k1ZldWSWJ3N09MU1RxSVpWSWt0bVNiRjlib1BDVlJJeXlwc3hhRFl2aTdrUEppekhSSnFaenVlQ2dxc25Ed1F2TThsak1zZllaZzB4MjFfRTdFQjktZ9IBpwFBVV95cUxOV3VUM2RuNEh1bXdyYXFfdUFmbU9DNVNhM1JGRlhvbklXWF8tTDF2VVlreFRTM2FVaExSbUdPb1lqNWs2azQ0cVIxbUVYNHllZ3k1ZldWSWJ3N09MU1RxSVpWSWt0bVNiRjlib1BDVlJJeXlwc3hhRFl2aTdrUEppekhSSnFaenVlQ2dxc25Ed1F2TThsak1zZllaZzB4MjFfRTdFQjktZw?oc=5",
-          "pubDate": "2026-06-21T14:03:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Los mejores colores de labiales para usar en verano",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb284ZDdWdDNSY1hEczdlNWZaLW1UZ3Nvd2Rua0xPWFRtLU1GVGpRclAtcndoWnJnN0tvSzlHLWtYUGFabjRSb3c2Q0NySUdEcUYwc0dKR3J0am1XQk9TVy04cGFEUDVFUGM4RGlqVk5ROEpiUks3RGluOVhreEhBR3owRFZWT2hpdjhET3BvdGF0M0RCd2pXS1JxWWZyb3gzV2R0aVE4ZGJHaExm0gGsAUFVX3lxTE1vbzhkN1Z0M1JjWERzN2U1ZlotbVRnc293ZG5rTE9YVG0tTUZUalFyUC1yd2hacmc3S29LOUcta1hQYVpuNFJvdzZDQ3JJR0RxRjBzR0pHcnRqbVdCT1NXLThwYURQNUVQYzhEaWpWTlE4SmJSSzdEaW45WGt4SEFHejBEVlZPaGl2OERPcG90YXQzREJ3aldLUnFZZnJveDNXZHRpUThkYkdoTGY?oc=5",
-          "pubDate": "2026-06-21T14:00:00.000Z",
-          "snippet": null
-        },
-        {
           "title": "5G avanza en México y redefine el consumo de datos en América Latina",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOGtXUVJoWVhDMld6Z0ttVEgxMXBmbUY1ZUlpd295eGt0NmtaYVJ2c1Z0R0lWY0FkSlFqSnVURVZSc0dwdVRLS0xfdFFBRjhkNWFIZ3cyOGNwOUVMRUlydGNiQnhGS3N2bmEzOXVVMUpoakpyNzlUR0NFYThZTjZMQ3JJdnVIU1MtRVdaSGZqdk0zekxEV1NrMnB0bEk4LS12TnFXN290clhjSUpQZi0wNW40UzhBTjRXSWpsQm1xMHHSAcABQVVfeXFMTThrV1FSaFlYQzJXemdLbVRIMTFwZm1GNWVJaXdveXhrdDZrWmFSdnNWdEdJVmNBZEpRakp1VEVWUnNHcHVUS0tMX3RRQUY4ZDVhSGd3MjhjcDlFTEVJcnRjYkJ4Rktzdm5hMzl1VTFKaGpKcjc5VEdDRWE4WU42TENySXZ1SFNTLUVXWkhmanZNM3pMRFdTazJwdGxJOC0tdk5xVzdvdHJYY0lKUGYtMDVuNFM4QU40V0lqbEJtcTBx?oc=5",
           "pubDate": "2026-06-21T13:00:00.000Z",
-          "snippet": null
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "La industria automotriz recorta 107 mil empleos en México en dos años",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkxmei1UbjBqNlNDMDVUczFDcUdrdkpDRXVBSlpwM3FhT2M1YnZYR0xrMVNXRzR4UWZKR3NkYXMwdDQ1NC1VMWpIaW1aZ0NWaUUtVjIyODZPa01IbmZSb1k2eGFXWUNPbFpOazk0Z2ttamNsbDR1N1NzMW51SnlMWkpqaWR0WGRaa2FOaGtnYVhJejFPaTJrdDRfR3pzUHFZVzVKZUhnU1B3SndnMnfSAcIBQVVfeXFMTzNhOFg2Uy0yWEZ6bnNJWUVxYmpDSnVlVlhLbmtsOTFRdk5tN01fdC1oUUFIbmJmTG9ST0dyWGFUc0tzUzhoZjZMU0t4NnNsQmh6ckRLbklNcnVNS2xrQXJDLXVDNktoV3ZqSFpsMW9IR21CVkw3TDZ3a0s3ZTlwLUtRc2EzeTNPUzBkMFZjaTk4YU1SSUJ4V2xwaG5GQmllQlFId1ZQQXU4RVkyN09RUnpqbmFBb0ZmZkdwamZoXzIzMmc?oc=5",
+          "pubDate": "2026-06-21T11:18:39.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Lavado del Bienestar. Anatomía de una red financiera sospechosa, escribe Vania Pérez Morales",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYzlvUzJ4UXVuczVPNlNfVG9iLUlvRndrR19TeEpoOVJLa2wweThUb2cyc2g2dzRwZTBvUWRnc2R4cFpFUFV5OF9wbGc4VUxyV3dKRnBSRWhXc0h0ckhpN0lSbkwweDJ3TlQ1Z3VOeTJHajNfOF9CRG15QUZfZTFteDVXUE1LTDdBWm1hX1RyMkdJa3gzNVZQWEhDWVI4RDhhZkZVbzBGUHVYYzMydFhVWWZEaDBmNG5wcVN3SV9ORQ?oc=5",
+          "pubDate": "2026-06-21T08:00:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -234,28 +195,25 @@
       "color": "blue",
       "items": [
         {
-          "title": "Alemania remonta ante Costa de Marfil y asegura su pase a los dieciseisavos del Mundial 2026",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQ1FZeW9jRXU4LUJsN1kwQTBLT29fNVFKZ0lFQndfM3FjWVVmS3lUTjg0bHJkdmZoMGd1U1Q5LUdhbnZFVmRPVnpaenQyMmoybDF5ZlM2N0V5YWtmUnpnXzRaeFpCMzFRTklxSmYzNWM4M1AtZlRuc2oyekxxbWxJdW14WHdDTmVyVFQtR3gxYnBEbXBXYmRFc0F4bmRyVldaT1VJQnRRUVVFUTZFZWIwTUpDWkVqY0ZDZDdMUkM0UW5fYkJpS1V1bXVNNVVOZzjSAdQBQVVfeXFMT1ZXc2VVX2NJaWFiZ0lOSXIwQS02WHMtREYzdVdwQVVIVER0eUFabWV4ZVV2WWVqUnc3Nk0wSGtBTVl5UjhqR0UtVGprdkhscXZxNE1IZ0xMdV9JbnBDX3kzMUhmT29fWUQ2eG5lWktwUnpDWjNxZWRLSGp0SWxIWnBrS2o5cWhRUU1tc3lPRVA3akV5MWlhTUdfMERiR3RhbHpfVlZrN3dKMDJObGp1TFdMX3NjQ1hJVWt6NnFUXy1HYkJnMFNfS3BfWmx5UXZ2SVlpRXE?oc=5",
-          "pubDate": "2026-06-20T22:17:20.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Leah Reyes Amores devela sus portadas en Harper's Bazaar y L'Officiel y abre un nuevo capítulo profesional",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOeVA5YzFKY3pzNHRBXzNTMDlid203LVRyMnNXbWQxckY3NE00am5vTlVVZlc4b3BEVTQ2SHVtQnZxQWp4VFI2OGx3LTJkZVVqVW9oNU1MMHVJZ1FvR0I5Y05WTlV1NEdBNmc1Y3YzT0lSZnAxc2QtdW5BSm5iQjlMY2ZrcTRDaG5OeEFBYTJ6SnNVYmthdHdXaU9LWmcwNEEtc3F3d2FrWGZld21zRDFoVmhHNnhqUEpVUU9yWW5lOXhCRXc3MHFsOWlLcDg4RkpYWm5Sc2RmVDhVM0ZYb09BUTdTTUZrRlHSAewBQVVfeXFMT3NkczZ4OHdxdm9NMWdTZUx0a3ZTN3dEQ2ppYmxsX2NvSGg4RFF2MjAydERKWVlaT0JTcGJYRWp1TGkwNnlUV0diVFIybWcyZ1EtVm00TFZqZ2hTbkxzRlc1VHNGN3dIcnhDQWpSaGI2dnhKS25McmV1N1MzOXBZSkYxSEhtUzlINmJ0Mnl0UXp0TFJoX2VUYTAzeFhKaGdKd19VUUZtUnVwVGljazRuWWd1OGp6MWs3SWdQdnVYaS0yY2ZHczNBVk5DS0hRQ3ZTSEREWTZuRE1VMjFkMDJvdEFsU2Zjb2VYMGtMQnE?oc=5",
-          "pubDate": "2026-06-20T21:47:00.000Z",
-          "snippet": null
+          "title": "Cuba: El mayor apagón dejará sin corriente a 64% de la isla este domingo",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdWV0em5paEd4QklPQlJJZ2Y5UmMxT0JZZGFtMnBhTmFSdndBcXI3LXhoTDFUS3VXTUpxV2RRWlZ3U0Z1ekQ1LTl3UU1LMXp5R0JCTkFBR3NtNFBubGFDaXhTZmlLZG5nTFY5cFhTMnNIMFBoX0NVZ29EV1J5N2pnR3dhcE85RXU0ZjE0di00Rm5WRnVQNWRaa041MTlkcUIzVjZfcUs3N0pqLXQ1S2E3MU14RjVESHYwanln0gHAAUFVX3lxTFBCcTNCTmdvZXdMazVXcHFxN2I5Y0tmQXBqanlfSWY3T0wwTTBLS1cyLVh6c2pUYm01amc3U2QzaU1FMzV4MGdTdWxBbXVDLWJiUWswWFI1bWRhNmxvZURVZnU4cTdTWXIxNnNjYjQ4RHZuSnRJQXl4SnNsZGdOSE92X21hblRfNm1STFhxSDZRM0VYclRkNVRxMHFUajRFdVRkT2hleXdHX3UtOGQxWTh2V3Y4ck45Zy1rSEVkS0FRRg?oc=5",
+          "pubDate": "2026-06-21T16:15:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         },
         {
           "title": "Arrestan a hombre acusado de secuestrar y agredir a una mujer en Miami Springs",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRzVtcVJFVEx1U0FoQkpIWGx6Z2xha1V2M01MNVdSNGtoYW9sQ2E3b1lCdGRWeG1XMU12aDJHdzNyTlE4TG4zX3JQYVI1U1h3WG9hLWVPQW03NVY3WUZmNGgzOXNFcDFHakI0ZnBIa25iNWFlVG9iNmw4TDdQWDZoaUM1NjNGTUxXLURLZ1l5ejhQNVJpSGVicDdfY2Z6WkF2N0N3aC1MM3U0ZEdTSVhDSzh1ZHpiNjY2R3gw0gHAAUFVX3lxTE9TYWlfcVF2SUw4R21KRXFwb2RIcTZkUXlnLVBobWkyOU45M0U0X1JJdUI2M2RUSUFuQjBYUl83aGhyQ0pxdTRPRktHQmRfUUl6SVViMk5mNVRRWU9fZDZKSWNfckRNMzhfOENtemhESGIwcUpzY0ZtM2QyZURBbWVyUkRXc0lCVXZiTHJ2dk92RUJRMUJQdFNlRUJ0X1F2NV9GOW1vZndJT3V3RFdJaDd1aDZjNjZiUFZGcmV1Mi1CRw?oc=5",
           "pubDate": "2026-06-20T20:49:00.000Z",
-          "snippet": null
+          "snippet": null,
+          "_priority": "ALTA"
         },
         {
-          "title": "Visión de Musk con SpaceX estremece mercados y hace historia",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSWx3SHRGQ2t3elhMVnZGMFoyM2JsNlc3TVBQVHlLYXFRbFFnMUtoTUVrb3JEWFFJbUQ2a0J6ZmtrRzJtNldxQmNyTm4tN3Z2RlFMYTJHSGhZS1ZfTkpuVnlFc2l2bG1TYndBOTNNLWg1Y3BUZHhDdjlHUmNPdUlFM29pLTBVcjAxX193WC1XaTVNeXRZZHc1ckktelZuVjZTUjZqUlNLSUjSAa4BQVVfeXFMT2dkS08xRFlrSGp1Y01uSVJBOC1PdThsWUdUdmFoVm1UZkhSQ1dZaTBUYnNMbm9fSGVESG9pYUhSTFBodC1XMlNqcERjNnBxZThZcG9vazdRYW0wNHFkQ1lOeTlTRmpZTTVLcHVqT2QtMndlUllqQmRTdjB5bGZHaUZLZW5WNk9vaTlyamMwVVBTMEtQM25mSjl3UHI3WERmajRYQ2RSZVVpOHpzR1J3?oc=5",
-          "pubDate": "2026-06-20T20:27:58.000Z",
-          "snippet": null
+          "title": "Alemania remonta ante Costa de Marfil y asegura su pase a los dieciseisavos del Mundial 2026",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQ1FZeW9jRXU4LUJsN1kwQTBLT29fNVFKZ0lFQndfM3FjWVVmS3lUTjg0bHJkdmZoMGd1U1Q5LUdhbnZFVmRPVnpaenQyMmoybDF5ZlM2N0V5YWtmUnpnXzRaeFpCMzFRTklxSmYzNWM4M1AtZlRuc2oyekxxbWxJdW14WHdDTmVyVFQtR3gxYnBEbXBXYmRFc0F4bmRyVldaT1VJQnRRUVVFUTZFZWIwTUpDWkVqY0ZDZDdMUkM0UW5fYkJpS1V1bXVNNVVOZzjSAdQBQVVfeXFMT1ZXc2VVX2NJaWFiZ0lOSXIwQS02WHMtREYzdVdwQVVIVER0eUFabWV4ZVV2WWVqUnc3Nk0wSGtBTVl5UjhqR0UtVGprdkhscXZxNE1IZ0xMdV9JbnBDX3kzMUhmT29fWUQ2eG5lWktwUnpDWjNxZWRLSGp0SWxIWnBrS2o5cWhRUU1tc3lPRVA3akV5MWlhTUdfMERiR3RhbHpfVlZrN3dKMDJObGp1TFdMX3NjQ1hJVWt6NnFUXy1HYkJnMFNfS3BfWmx5UXZ2SVlpRXE?oc=5",
+          "pubDate": "2026-06-20T22:17:20.000Z",
+          "snippet": null,
+          "_priority": "DEPORTES"
         }
       ]
     }

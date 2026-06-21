@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-06-21T16:26:01.379Z",
+  "generatedAt": "2026-06-21T16:47:25.736Z",
   "colombia": {
     "intro": "Lectura cruzada desde lo político, social, económico y cultural.",
     "items": [
       {
         "category": "Política",
-        "text": "Colombia desarrolló su segunda vuelta presidencial el 21 de junio de 2026 con despliegue institucional significativo. Se reportaron incidentes operacionales como el incendio de tarjetones en San Jacinto, Bolívar, que activó protocolos de contingencia, así como restricciones electorales que incluyen ley seca y toques de queda. Las autoridades desplegaron más de 9.200 efectivos militares en el Caribe para custodiar 238 puestos de votación, mientras instituciones públicas llamaron a la tranquilidad y confianza en el sistema electoral. Los titulares registran también tensiones de seguridad posteriores a capturas de líderes disidentes, reflejando un contexto donde la jornada electoral coexiste con dinámicas de confrontación armada en territorios específicos."
+        "text": "Colombia atraviesa una jornada electoral de segunda vuelta presidencial con candidatos identificados como Abelardo de la Espriella e Iván Cepeda, mientras que Aída Quilcué participa como candidata a la vicepresidencia. La Registraduría Nacional ha tenido que desmentir públicamente acusaciones del presidente Petro sobre alteraciones en el sistema electoral E-14, lo que refleja tensiones en torno a la confianza institucional en los mecanismos de votación. Figuras políticas como Sergio Fajardo han hecho un llamado explícito al respeto como valor fundamental que la nación debe practicar durante el proceso, mientras que instituciones electorales han salido a defender la integridad del sistema ante cuestionamientos."
       },
       {
         "category": "Económica",
-        "text": "Un titular de El Colombiano destaca que la cocaína representa el 4,4% del PIB nacional, superando ingresos petroleros, indicador de la magnitud económica del narcotráfico en la estructura productiva del país. Simultáneamente, se reportan fallas en servicios básicos: Air-e no cumplió con suministro eléctrico en sectores de Barranquilla durante la jornada electoral, dejando apagones que afectaron semáforos e infraestructura crítica. Estos dos fenómenos —la presencia de economías ilícitas de gran escala y déficits en provisión de servicios públicos— coexisten en el panorama económico inmediato."
+        "text": "El tráfico de cocaína representa actualmente el 4,4% del PIB nacional colombiano, superando los ingresos generados por la industria petrolera. Este indicador refleja la magnitud económica de la economía ilícita en el país y su peso relativo frente a sectores extractivos tradicionales. Las medidas de restricción electoral implementadas, incluida la ley seca, tienen implicaciones sobre la actividad económica durante la jornada de votación, aunque su impacto es temporal."
       },
       {
         "category": "Social",
-        "text": "La participación electoral mostró movilización significativa con 2,1 millones de votantes habilitados en el Atlántico, mientras autoridades convocaban a participación masiva. Sin embargo, se registraron bloqueos de vías y actos de violencia asociados a operativos contra estructuras disidentes, particularmente en Santander de Quilichao tras la captura del cabecilla 'Marlon'. También se documentaron incidentes de corrupción institucional, con denuncias sobre órdenes de libertad de disidentes capturados. Estos eventos sugieren que la jornada electoral ocurrió en un contexto de violencia territorial y debilitamiento de garantías de seguridad en zonas específicas."
+        "text": "La seguridad ciudadana emerge como una preocupación central en el contexto electoral, particularmente en Cali, donde la captura de alias 'Marlon', un cabecilla delictivo, ha generado tanto blindaje de la ciudad como disturbios como quema de buses y bloqueos en vías principales. El Atlántico moviliza a más de 9.200 efectivos militares para custodiar 238 puestos de votación ante la presencia de 2,1 millones de votantes habilitados, indicando que la seguridad del proceso electoral requiere despliegue significativo de fuerzas. Fallas en servicios públicos, como los apagones reportados en Barranquilla durante la jornada, afectan la operatividad de infraestructuras electorales y señalan vulnerabilidades en la capacidad de garantizar condiciones estables para la votación."
       },
       {
         "category": "Cultural",
-        "text": "La cobertura mediática del 21 de junio evidenció una confluencia de narrativas: mientras se transmitía la jornada electoral en tiempo real, medios como Caracol Radio y RCN Radio también ofrecían cobertura de eventos deportivos internacionales (España vs. Arabia Saudita en el Mundial 2026) y actividades culturales (cinemateca gratuita en Bogotá, conciertos). Esto refleja cómo los medios gestionaron la simultaneidad de un evento electoral de relevancia nacional con entretenimiento masivo, manteniendo ambas dimensiones presentes en la parrilla informativa del día."
+        "text": "Los medios de comunicación han dado cobertura extensiva a la jornada electoral, transmitiendo en tiempo real procedimientos de votación, resultados y restricciones implementadas para mantener el orden. La participación de candidatos en los colegios electorales y sus mensajes públicos constituyen rituales que reflejan normas democráticas observadas en el país. Sin embargo, la cobertura simultánea de eventos deportivos internacionales en algunos espacios informativos sugiere una competencia en la atención mediática durante una fecha de significación cívica."
       }
     ]
   },
@@ -26,19 +26,19 @@
     "items": [
       {
         "category": "Geopolítica",
-        "text": "Las conversaciones entre Estados Unidos e Irán en Suiza señalan intentos de diálogo en torno a cuestiones nucleares y más allá, mientras persisten tensiones en Oriente Medio con el cierre del estrecho de Ormuz y limitaciones ordenadas a operaciones militares israelíes en Líbano. La correspondencia secreta que sugiere divisiones internas en la cúpula iraní añade complejidad a estas negociaciones. Simultáneamente, fricciones diplomáticas entre líderes occidentales, como la disputa pública entre Trump y Meloni en el G7, reflejan dinámicas cambiantes en alianzas tradicionales."
+        "text": "Las negociaciones entre Estados Unidos e Irán continúan en múltiples frentes, incluyendo conversaciones en Suiza que van más allá de cuestiones nucleares, mientras el Estrecho de Ormuz permanece cerrado. En paralelo, se reporta un acuerdo de alto el fuego entre Israel e Hizbulá, aunque Trump enfrenta presiones internas tras estos acuerdos. La correspondencia secreta que sugiere tensiones en la cúpula del gobierno iraní añade complejidad a la dinámica regional."
       },
       {
         "category": "Económica",
-        "text": "Las políticas migratorias de la administración Trump están generando reducción en envíos de remesas hacia Latinoamérica, afectando directamente a economías dependientes de estos flujos de capital. En Reino Unido, la propuesta de un nuevo gobierno de revertir décadas de privatización indica cambios en orientación económica. La expansión de tecnología 5G en México y Latinoamérica, junto con el control estadounidense sobre sectores de inteligencia artificial, están redefiniendo dinámicas de consumo y competitividad regional."
+        "text": "Las políticas migratorias de Trump están teniendo efectos directos en los flujos de remesas hacia Latinoamérica, afectando los ingresos de millones de familias en la región. En México, la industria automotriz ha registrado un corte de 107 mil empleos en dos años, mientras que en Cuba un apagón masivo afecta al 64% de la isla, reflejando crisis de infraestructura energética. El consumidor estadounidense enfrenta presiones crecientes según reportes económicos recientes."
       },
       {
         "category": "Tecnológica",
-        "text": "Incidentes de seguridad cibernética como la alerta no autorizada en Brasil —atribuida presuntamente a hackers— exponen vulnerabilidades en infraestructuras de comunicación móvil en la región. El avance del 5G en México representa una transformación en capacidades de conectividad, mientras que el dominio estadounidense en inteligencia artificial, según reportes de The Economist, consolida una brecha tecnológica global. El uso de SpaceX para iniciativas espaciales comerciales continúa redefiniendo mercados relacionados."
+        "text": "Hackers fueron responsables de una alerta no autorizada enviada a teléfonos celulares en Brasil, evidenciando vulnerabilidades en sistemas de comunicación de emergencia. El despliegue de tecnología 5G en México continúa redefiniendo patrones de consumo de datos en Latinoamérica. Estados Unidos mantiene un acaparamiento significativo de capacidades de inteligencia artificial, generando dinámicas desiguales en adopción tecnológica global."
       },
       {
         "category": "Social",
-        "text": "Los titulares reflejan dinámicas variadas en contextos locales: desde iniciativas comunitarias sobre masculinidad y roles de género en espacios específicos, hasta preocupaciones sobre condiciones en instituciones penitenciarias juveniles en Reino Unido. La cobertura de eventos deportivos internacionales como el Mundial 2026 y cambios en políticas culturales —como cancelaciones de representaciones artísticas— evidencian tensiones entre espacios públicos y decisiones institucionales. Los arrestos por delitos violentos en jurisdicciones como Miami Springs mantienen visible la persistencia de criminalidad de alto impacto."
+        "text": "Se reporta un delito de secuestro y agresión en Miami Springs, reflejando preocupaciones de seguridad pública en zonas urbanas. En el Reino Unido, cambios políticos en la dirección del Labour Party están generando realineamientos en la cúpula gubernamental, mientras que en Latinoamérica se reportan investigaciones sobre redes financieras sospechosas vinculadas a lavado de dinero. Los campeonatos de fútbol como el Mundial 2026 continúan siendo espacios de movilización social en la región."
       }
     ]
   }

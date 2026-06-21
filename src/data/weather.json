@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-21T16:21:34.305Z",
+  "generatedAt": "2026-06-21T16:42:57.034Z",
   "colombia": [
     {
       "city": "Bogotá",
-      "temp": 19,
+      "temp": 20,
       "description": "Llovizna ligera",
       "icon": "🌦️"
     },
@@ -16,8 +16,8 @@
     {
       "city": "Cali",
       "temp": 27,
-      "description": "Mayormente despejado",
-      "icon": "🌤️"
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     },
     {
       "city": "Cartagena",
