@@ -508,6 +508,11 @@ async function main() {
   console.log("Traduciendo medios en inglés...");
   await translateEnglishOutlets(process.env.ANTHROPIC_API_KEY, config.mundo, mundo);
 
+  // La noticia del día se elige ANTES de la priorización para que la
+  // depuración de ítems no deje a pickFeaturedStory sin candidatos con snippet.
+  console.log("Eligiendo la noticia del dia...");
+  const featured = pickFeaturedStory(colombia, mundo);
+
   console.log("Priorizando titulares por relevancia temática...");
   colombia = await prioritizeSection(process.env.ANTHROPIC_API_KEY, colombia);
   mundo = await prioritizeSection(process.env.ANTHROPIC_API_KEY, mundo);
@@ -528,9 +533,6 @@ async function main() {
     path.join(DATA_DIR, "news-recomendados.json"),
     JSON.stringify({ generatedAt, outlets: recomendados }, null, 2) + "\n",
   );
-
-  console.log("Eligiendo la noticia del dia...");
-  const featured = pickFeaturedStory(colombia, mundo);
   await writeFile(
     path.join(DATA_DIR, "featured.json"),
     JSON.stringify({ generatedAt, story: featured }, null, 2) + "\n",
