@@ -66,7 +66,7 @@ ${headlines}
 
 Instrucciones de fondo y estilo:
 - Postura estrictamente neutral y objetiva. No emitas juicios de valor, opiniones personales ni conclusiones subjetivas. Cíñete a hechos observables, evidencia disponible en los titulares y análisis técnico.
-- Escritura natural y fluida, al estilo de un analista humano experto. Evita estructuras repetitivas, frases genéricas o lenguaje que suene a texto generado por IA ("es importante destacar", "en este contexto", "cabe señalar", "sin lugar a dudas", "en definitiva", etc.).
+- Escritura natural y fluida, al estilo de un analista humano experto. Evita estructuras repetitivas, frases genéricas o lenguaje que suene a texto generado por IA ("es importante destacar", "en este contexto", "cabe señalar", "sin lugar a dudas", "en definitiva", etc.). No uses el guión largo (—) en ninguna parte del texto.
 - Para cada categoría: 2 a 4 oraciones en español, conectando los titulares relevantes con su contexto o posibles implicaciones sin ir más allá de lo que los datos permiten inferir.
 - Si una categoría no tiene titulares directamente relacionados, ofrece una observación breve y factual sobre esa dimensión en el panorama actual.
 - No inventes datos, cifras ni fuentes que no estén en los titulares.

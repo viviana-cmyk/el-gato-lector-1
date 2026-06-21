@@ -252,7 +252,12 @@ Responde ÚNICAMENTE con un array JSON en este orden: primero todos los ALTA (en
       const item = builtOutlets[oi]?.items[ii];
       if (item) result[oi].items.push(item);
     }
-    // Outlets sin ítems tras el filtro: conservar vacíos (se ocultarán en UI)
+    // Marcar cada ítem con su prioridad para que pickFeaturedStory la use
+    for (const { oi, ii, label } of ranked) {
+      if (label === "EXCLUIR") continue;
+      const item = result[oi]?.items.find(i => i === builtOutlets[oi]?.items[ii]);
+      if (item) item._priority = label;
+    }
     console.log(`  - Priorización: ${ranked.filter(r => r.label !== "EXCLUIR").length} titulares ordenados`);
     return result;
   } catch (err) {
@@ -261,8 +266,9 @@ Responde ÚNICAMENTE con un array JSON en este orden: primero todos los ALTA (en
   }
 }
 
-// Elige "la noticia del dia": la mas reciente entre los medios que traen
-// resumen (RSS directo), para poder mostrar un parrafo descriptivo.
+// Elige "la noticia del dia": prioriza temas ALTA (política, economía, seguridad,
+// ciencia, crisis) sobre deportes. Si hay empate de prioridad, gana la más reciente.
+// Los textos en inglés ya vienen traducidos por translateEnglishOutlets.
 function pickFeaturedStory(...sections) {
   const candidates = [];
   for (const outlets of sections) {
@@ -273,8 +279,16 @@ function pickFeaturedStory(...sections) {
       }
     }
   }
-  candidates.sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0));
-  return candidates[0] || null;
+  const priorityOrder = { ALTA: 0, DEPORTES: 1 };
+  candidates.sort((a, b) => {
+    const pa = priorityOrder[a._priority] ?? 0;
+    const pb = priorityOrder[b._priority] ?? 0;
+    if (pa !== pb) return pa - pb;
+    return new Date(b.pubDate || 0) - new Date(a.pubDate || 0);
+  });
+  const best = candidates[0] || null;
+  if (best) delete best._priority;
+  return best;
 }
 
 async function fetchTRM() {
