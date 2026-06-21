@@ -46,8 +46,11 @@ function looksLikeAuthorName(title) {
   return AUTHOR_NAME_RE.test(title);
 }
 
-// Descarta contenido de baja relevancia informativa: astrología, horóscopos,
-// farándula, gossip de celebridades y contenido sin valor analítico.
+// POLÍTICA EDITORIAL PERMANENTE: El Gato Lector excluye farándula y derivados.
+// No modificar ni debilitar este filtro sin instrucción explícita.
+// Categorías excluidas: astrología/esotérico, vida privada de celebridades,
+// rumores sin verificar, apariencia física, drama en redes, fuentes anónimas,
+// infidelidades/romances, noticias que identifican personas por vínculo con famosos.
 const LOW_QUALITY_RE = new RegExp(
   [
     // Esotérico / pseudociencia
