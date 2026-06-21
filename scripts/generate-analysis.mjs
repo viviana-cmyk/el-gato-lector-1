@@ -70,6 +70,7 @@ Instrucciones de fondo y estilo:
 - Para cada categoría: 2 a 4 oraciones en español, conectando los titulares relevantes con su contexto o posibles implicaciones sin ir más allá de lo que los datos permiten inferir.
 - Si una categoría no tiene titulares directamente relacionados, ofrece una observación breve y factual sobre esa dimensión en el panorama actual.
 - No inventes datos, cifras ni fuentes que no estén en los titulares.
+- Excluye completamente estos tipos de contenido aunque aparezcan en los titulares: rumores o especulaciones sin verificación, vida privada de celebridades o influencers (relaciones, familia, hábitos personales), apariencia o cambios físicos de personas públicas, conflictos personales entre famosos, "drama" o "beef" en redes sociales, información de fuentes anónimas, historias de infidelidades o romances.
 
 Responde ÚNICAMENTE con un objeto JSON con esta forma exacta, sin texto adicional ni bloques de código:
 {"items": [{"category": "<categoría>", "text": "<análisis>"}, ...]}`;

@@ -48,8 +48,40 @@ function looksLikeAuthorName(title) {
 
 // Descarta contenido de baja relevancia informativa: astrología, horóscopos,
 // farándula, gossip de celebridades y contenido sin valor analítico.
-const LOW_QUALITY_RE =
-  /\b(hor[oó]scopos?|astrolog[ií]a|zodiac[ao]l?|tarot|ni[ñn]o prodigio|carta astral|numerolog[ií]a|esot[eé]ric[ao]|feng shui|chakras?|or[aá]culo|rituales? de|predicciones? del ni[ñn]o|farand[uú]la|c[íi]rculo [íi]ntimo|vida amorosa|romance (secreto|de |entre )|spice girl|conquist[oó] (el )?coraz[oó]n|novio? (secreto?|de )|vida sentimental|escand[aá]lo amoroso|beso rob[aá]do|infidelidad|separaci[oó]n amorosa|look del d[íi]a|outfit|mejor vestida|peor vestida|secreto de belleza|dieta (milagro|de )|esposo de |esposa de |pareja de |ex (esposo|esposa|novi[ao]) de |de RBD|de Rebelde|celebridad|actor (vinculado|acusado|detenido)|actriz (vinculada|acusada|detenida)|cantante (vinculad|acusad))\b/i;
+const LOW_QUALITY_RE = new RegExp(
+  [
+    // Esotérico / pseudociencia
+    "hor[oó]scopos?", "astrolog[ií]a", "zodiac[ao]l?", "tarot",
+    "ni[ñn]o prodigio", "carta astral", "numerolog[ií]a", "esot[eé]ric[ao]",
+    "feng shui", "chakras?", "or[aá]culo", "rituales? de",
+    "predicciones? del ni[ñn]o",
+    // Farándula / vida privada de celebridades
+    "farand[uú]la", "c[íi]rculo [íi]ntimo", "vida amorosa",
+    "romance (secreto|de |entre )", "spice girl",
+    "conquist[oó] (el )?coraz[oó]n", "novio? (secreto?|de )",
+    "vida sentimental", "escand[aá]lo amoroso", "beso rob[aá]do",
+    "infidelidad", "separaci[oó]n amorosa",
+    "esposo de ", "esposa de ", "pareja de ",
+    "ex (esposo|esposa|novi[ao]) de ",
+    "de RBD", "de Rebelde",
+    "actor (vinculado|acusado|detenido)",
+    "actriz (vinculada|acusada|detenida)",
+    "cantante (vinculad|acusad)",
+    // Apariencia física / moda
+    "look del d[íi]a", "outfit", "mejor vestida", "peor vestida",
+    "secreto de belleza", "dieta (milagro|de )",
+    "antes y despu[eé]s", "irreconocible",
+    "subi[oó] de peso", "baj[oó] de peso", "cirugía est[eé]tica",
+    // Rumores / fuentes no verificadas
+    "se rumorea", "rumores? (de |sobre )", "especulaci[oó]n",
+    "fuentes (cercanas|an[oó]nimas)", "seg[uú]n fuentes",
+    // Conflictos en redes / drama
+    "\\bdrama\\b", "\\bbeef\\b", "indirecta (a |para )",
+    "influencers? (se |en )", "pelea entre",
+    "conflicto (personal|entre celebr)",
+  ].map(p => `(${p})`).join("|"),
+  "i"
+);
 function isLowQualityContent(title) {
   return LOW_QUALITY_RE.test(title);
 }
