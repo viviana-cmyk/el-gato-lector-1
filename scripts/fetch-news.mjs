@@ -82,6 +82,21 @@ const LOW_QUALITY_RE = new RegExp(
     "\\bdrama\\b", "\\bbeef\\b", "indirecta (a |para )",
     "influencers? (se |en )", "pelea entre",
     "conflicto (personal|entre celebr)",
+    // Entretenimiento / reality / TV
+    "reality show", "\\breality\\b", "programa de (tv|televisión)",
+    "eliminado de ", "capítulo de ", "novela (colombiana|mexicana|turca)",
+    "\\btelenovela\\b", "streaming (estrena|lanza)",
+    // Vida privada de figuras públicas
+    "divorcio de ", "hijos de ", "boda de ", "matrimonio de ",
+    "nació el (bebé|hijo|hija) de", "embarazo de ",
+    "vida personal de ", "familia de (el presidente|el ministro)",
+    // Accidentes menores / curiosidades sin impacto
+    "curioso(a)? viral", "video viral", "\\bviral\\b.*tierno",
+    "\\btierno\\b", "\\badorable\\b", "\\bcute\\b",
+    "accidente de tr[aá]nsito$", "choque (de autos?|de carros?|de motos?)",
+    // Moda / vestuario / crítica de imagen
+    "vestido (de |que )", "cr[ií]tica (al|de) vestuario",
+    "qué llevó", "cómo fue el look",
   ].map(p => `(${p})`).join("|"),
   "i"
 );
@@ -190,6 +205,59 @@ Responde ÚNICAMENTE con un array JSON del mismo tamaño y en el mismo orden, co
     console.log(`  - Traducidos ${items.length} titular(es) del inglés`);
   } catch (err) {
     console.warn(`  [aviso] traduccion: ${err.message}`);
+  }
+}
+
+// Reordena los titulares de cada medio por prioridad temática:
+// ALTA (política, economía, seguridad, ciencia, crisis) primero;
+// DEPORTES solo si son de relevancia nacional, siempre al final.
+// Los ítems excluidos (farándula, vida privada, entretenimiento, etc.) se eliminan.
+async function prioritizeSection(apiKey, builtOutlets) {
+  if (!apiKey || builtOutlets.every(o => o.items.length === 0)) return builtOutlets;
+
+  const indexed = [];
+  builtOutlets.forEach((outlet, oi) => {
+    outlet.items.forEach((item, ii) => indexed.push({ oi, ii, title: item.title }));
+  });
+  if (indexed.length === 0) return builtOutlets;
+
+  const prompt = `Eres el editor de El Gato Lector, boletín de noticias enfocado en política, seguridad, justicia y paz.
+
+Clasifica cada titular con UNA de estas etiquetas:
+- ALTA: política, geopolítica, seguridad, economía, regulación, decisiones públicas, tecnología/ciencia con impacto social, crisis o emergencias, temas de importancia nacional
+- DEPORTES: solo si tiene relevancia nacional (Mundial, Copa América, logros históricos). Siempre va al final, nunca abre el ranking.
+- EXCLUIR: farándula, vida privada de figuras públicas (divorcios, hijos, relaciones), entretenimiento, reality shows, moda, vestuarios, accidentes menores, curiosidades virales, chismes políticos sin impacto en gobernanza, escándalos de celebridades, historias emotivas sin relevancia pública.
+
+Titulares (formato JSON con índice):
+${JSON.stringify(indexed.map(({ oi, ii, title }) => ({ oi, ii, title })))}
+
+Responde ÚNICAMENTE con un array JSON en este orden: primero todos los ALTA (en su orden original), luego los DEPORTES, omite los EXCLUIR. Formato: [{"oi":0,"ii":0,"label":"ALTA"}, ...]`;
+
+  try {
+    const client = new Anthropic({ apiKey });
+    const response = await client.messages.create({
+      model: TRANSLATE_MODEL,
+      max_tokens: 2048,
+      messages: [{ role: "user", content: prompt }],
+    });
+    const text = response.content.find(b => b.type === "text")?.text || "";
+    const match = text.match(/\[[\s\S]*\]/);
+    if (!match) throw new Error("respuesta sin array JSON");
+    const ranked = JSON.parse(match[0]);
+
+    // Reconstruir outlets con ítems reordenados y sin excluidos
+    const result = builtOutlets.map(o => ({ ...o, items: [] }));
+    for (const { oi, ii, label } of ranked) {
+      if (label === "EXCLUIR") continue;
+      const item = builtOutlets[oi]?.items[ii];
+      if (item) result[oi].items.push(item);
+    }
+    // Outlets sin ítems tras el filtro: conservar vacíos (se ocultarán en UI)
+    console.log(`  - Priorización: ${ranked.filter(r => r.label !== "EXCLUIR").length} titulares ordenados`);
+    return result;
+  } catch (err) {
+    console.warn(`  [aviso] priorización: ${err.message}`);
+    return builtOutlets;
   }
 }
 
@@ -402,13 +470,17 @@ async function main() {
   );
 
   console.log("Obteniendo noticias de Colombia...");
-  const colombia = await buildSection(config.colombia);
+  let colombia = await buildSection(config.colombia);
 
   console.log("Obteniendo noticias del mundo...");
-  const mundo = await buildSection(config.mundo);
+  let mundo = await buildSection(config.mundo);
 
   console.log("Traduciendo medios en inglés...");
   await translateEnglishOutlets(process.env.ANTHROPIC_API_KEY, config.mundo, mundo);
+
+  console.log("Priorizando titulares por relevancia temática...");
+  colombia = await prioritizeSection(process.env.ANTHROPIC_API_KEY, colombia);
+  mundo = await prioritizeSection(process.env.ANTHROPIC_API_KEY, mundo);
 
   console.log("Obteniendo investigaciones recomendadas...");
   const recomendados = await buildSection(config.recomendados);
