@@ -1,67 +1,67 @@
 {
-  "generatedAt": "2026-06-21T16:42:57.034Z",
+  "generatedAt": "2026-06-22T10:00:50.721Z",
   "colombia": [
     {
       "city": "Bogotá",
-      "temp": 20,
-      "description": "Llovizna ligera",
-      "icon": "🌦️"
+      "temp": 10,
+      "description": "Mayormente despejado",
+      "icon": "🌤️"
     },
     {
       "city": "Medellín",
-      "temp": 28,
+      "temp": 18,
       "description": "Nublado",
       "icon": "☁️"
     },
     {
       "city": "Cali",
-      "temp": 27,
-      "description": "Parcialmente nublado",
-      "icon": "⛅"
+      "temp": 20,
+      "description": "Llovizna ligera",
+      "icon": "🌦️"
     },
     {
       "city": "Cartagena",
-      "temp": 33,
-      "description": "Llovizna ligera",
-      "icon": "🌦️"
+      "temp": 26,
+      "description": "Despejado",
+      "icon": "☀️"
     },
     {
       "city": "Barranquilla",
-      "temp": 34,
-      "description": "Llovizna ligera",
-      "icon": "🌦️"
+      "temp": 27,
+      "description": "Despejado",
+      "icon": "☀️"
     }
   ],
   "mundo": [
     {
       "city": "Nueva York",
-      "temp": 27,
-      "description": "Mayormente despejado",
-      "icon": "🌤️"
-    },
-    {
-      "city": "Londres",
-      "temp": 29,
-      "description": "Nublado",
-      "icon": "☁️"
-    },
-    {
-      "city": "Madrid",
-      "temp": 38,
+      "temp": 18,
       "description": "Despejado",
       "icon": "☀️"
     },
     {
+      "city": "Londres",
+      "temp": 25,
+      "description": "Despejado",
+      "icon": "☀️"
+    },
+    {
+      "city": "Madrid",
+      "temp": 31,
+      "description": "Nublado",
+      "icon": "☁️"
+    },
+    {
       "city": "Tokio",
       "temp": 22,
-      "description": "Mayormente despejado",
-      "icon": "🌤️"
+      "description": "Nublado",
+      "icon": "☁️"
     },
     {
       "city": "Ciudad de México",
-      "temp": 20,
-      "description": "Nublado",
-      "icon": "☁️"
+      "temp": 14,
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     }
   ]
 }
