@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-06-22T10:00:50.721Z",
+  "generatedAt": "2026-06-22T20:26:20.959Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "El Makabelico y la banda sonora de narcorap del Cartel del Noreste en México",
+          "link": "https://insightcrime.org/es/noticias/el-makabelico-banda-sonora-narcorap-cartel-del-noreste-mexico/",
+          "pubDate": "2026-06-22T19:25:07.000Z",
+          "snippet": "El Makabelico y la banda sonora de narcorap del Cartel del Noreste en México El Makabelico construyó una amplia audiencia con canciones que celebraban a los líderes del Cartel del Noreste, pero sanciones de Estados Unidos obstaculizaron su carrera. The post El Makabelico y la ban…"
+        },
         {
           "title": "Dos extremos: las opciones de seguridad que enfrentan los votantes colombianos",
           "link": "https://insightcrime.org/es/noticias/dos-extremos-opciones-materia-seguridad-que-se-enfrentan-votantes-colombianos/",
@@ -28,24 +34,61 @@
           "link": "https://insightcrime.org/es/noticias/on-the-radar-reacomodos-criminales-ecuador-y-venezuela-y-segunda-vuelta-marcada-por-seguridad-colombia/",
           "pubDate": "2026-06-18T16:00:03.000Z",
           "snippet": "On the Radar: Reacomodos criminales en Ecuador y Venezuela, y segunda vuelta electoral en Colombia La captura en Ecuador del hermano de alias “Fito”, la muerte de “Niño Guerrero” en Venezuela y las propuestas de seguridad que atraviesan la segunda vuelta presidencial en Colombia…"
-        },
-        {
-          "title": "The InSight Take: El futuro del Tren de Aragua tras la muerte de Niño Guerrero",
-          "link": "https://insightcrime.org/es/noticias/the-insight-take-futuro-tren-de-aragua-muerte-nino-guerrero/",
-          "pubDate": "2026-06-15T23:36:50.000Z",
-          "snippet": "The InSight Take: El futuro del Tren de Aragua tras la muerte de Niño Guerrero Deborah Bonello, editora ejecutiva y el codirector Jeremy McDermott analizan qué significa la caída de Niño Guerrero para el Tren de Aragua. The post The InSight Take: El futuro del Tren de Aragua tras…"
         }
       ]
     },
     {
       "name": "International Crisis Group",
       "color": "teal",
-      "items": []
+      "items": [
+        {
+          "title": "Washington 5 June 2026 #2",
+          "link": "https://www.crisisgroup.org/content/washington-5-june-2026-2",
+          "pubDate": "2026-06-05T15:53:07.000Z",
+          "snippet": "Washington 5 June 2026 #2 lalasor Fri, 06/05/2026 - 17:53 Washington Fri, 06/05/2026 - 12:00 5 June 2026 The U.S. announced sanctions against \"a network of individuals, entities and vessels responsible for shipping hundreds of millions of dollars’ worth of Iranian-origin liquid p…"
+        },
+        {
+          "title": "Hormuz 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/hormuz-5-june-2026-1",
+          "pubDate": "2026-06-05T15:52:12.000Z",
+          "snippet": "Hormuz 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:52 Strait of Hormuz Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA…"
+        },
+        {
+          "title": "Tehran 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/tehran-5-june-2026-1",
+          "pubDate": "2026-06-05T15:50:10.000Z",
+          "snippet": "Tehran 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:50 Tehran Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA located in…"
+        },
+        {
+          "title": "Washington 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/washington-5-june-2026-1",
+          "pubDate": "2026-06-05T15:49:23.000Z",
+          "snippet": "Washington 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:49 Washington Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA lo…"
+        },
+        {
+          "title": "Lebanon 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/lebanon-5-june-2026-1",
+          "pubDate": "2026-06-05T15:47:48.000Z",
+          "snippet": "Lebanon 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:47 Lebanon Fri, 06/05/2026 - 12:00 5 June 2026 Hizbollah reported conducting approximately 20 attacks on Israeli troops in southern Lebanon, while the Israeli military tallied that over the previous week, “650-plus Hizbollah tar…"
+        }
+      ]
     },
     {
       "name": "World Economic Forum",
       "color": "yellow",
       "items": [
+        {
+          "title": "- The World Economic Forum",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVXU5OW9vRXRYM0xyRjYzcTN4Q2NieE9xang5NHFFRElKTEh3S2NlUlJDZUVGZ25EUk0tby1fSXpjSnlURnBVVUhQOHhIM0lFN01aM05Fdnlja3A0LWllemxVejJZbVNWYnAyVTkyNC1yd1E2WGNPTVF4QWI2VWNvNnZsSXczMXpfUUg0T1VYZlJCazRjOUw4?oc=5",
+          "pubDate": "2026-06-19T10:09:56.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Update on Iran > Annual Meeting of the New Champions",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ1Q4bjBLam1kb19hdkJ5YVhDeE9HeUJ1Q3hTcEZIMW5yaXhRbXVhd3M0eXZyT1pYRmwwOEtnUWUzT1lfUFVPREowdUo4ZTJvNUJsMEVsNUdNNURQSVRTdEoxZi1OOGRCWnJPU2prLTBwSThXaUllOUxzWGZhVnh5NnZpc2p4OTFjb0NMd2x2QWtiWTdiR1puckNVYXUxUQ?oc=5",
+          "pubDate": "2026-06-15T19:21:21.000Z",
+          "snippet": null
+        },
         {
           "title": "Esta plataforma conecta a estudiantes de idiomas con profesores refugiados",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLXBTZ3cxWnpRZU5IRVFMTHRLTFhsdGdwU1M0QjNJUkoyZE1hYjBYWjB4UG1JYVhpMkxRQl8zQ2d6cXlqV3djUDJ2V0RnV3ZFSldPcTR4VFN5QUdoY2VJd2NXWFFGZ1o1S3B6SVNMcFhJRmZvUmZoQ2NSZUJEeFdvaE1XM3dUajF3UXZBcDFmWGlPVk1oeTk3UFFqR2s5Ti1oZXdmblVmdVo3QQ?oc=5",
@@ -53,27 +96,15 @@
           "snippet": null
         },
         {
+          "title": "La IA está haciendo que el coaching en el lugar de trabajo sea accesible para todos",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vRm5DUlNHZU1WV19lSkRqZzZyajRBc1ZRcm56Z0JVTHdIOC1McHlFRkVDdTZ6dzIzMXc2YjFEMjF3ck1Rd2tIdHI3aTFIb1BMQ0lEUDB6RkJNY3B3d2MycEZuTmItMUtuVmdtRjFBTEIzano5?oc=5",
+          "pubDate": "2026-06-09T13:58:14.000Z",
+          "snippet": null
+        },
+        {
           "title": "Harvard's 85-year study finds happiness is all about relationships",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQzBZWW1pNlBkVkRzUDRGYU80QlA3eUJxSUg4ZkY1akh2dFBjUGZRUVpiaWNfd2xwYkRTSllTVlhldExKZFoxdm5KVnMtQ1BUbk9QOHlPNGpScWVONHRObk1BOUxydUM1NkhZX0tsS2cza2hicE13SlZTUGNZemhmc1M5TjFMTUdtVXV4OUM4MDZITlJ6dmJyY0VsS0E3VHRK?oc=5",
           "pubDate": "2026-06-09T07:00:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "How Majik Water, A Kenyan Start-Up, Makes Water From Air?",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12Ukg3eWdBV1JmRDVHdUFYdk5ranFSdTROa2p1X05oVXV6a25HRkkzNlU2UTlZZXRmUTF4Sk9LMm1jN1FvbTk3OWZ6MVAwdmZVRG1xWGtkRU1oeVZfOG80TW5qUWM0eV9XOFFuV1E0WDZlNjR2?oc=5",
-          "pubDate": "2026-06-09T07:00:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "How leaders can fix focus and happiness in an AI Era: Psychologist Jonathan Haidt",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVE53LTZjeXRkX1FEQWNtWWh2RUs0alN2VktQQjA4WjBMVEZKbE54MTNLQ3FwTDZ1eFQ0WUdHUkJTVFhtMWdmcXRwNDdzMU1jQzhoV2JaYkJpUWstNGJOa1VTWU53NEdlT1ZIUE16WjNVaHlMcm5UemtMQUcxdlowYUx3TFpFdUt5TUhLdjd5V1l2Qy1QNFg5eUVzWm5PRkE?oc=5",
-          "pubDate": "2026-06-09T07:00:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Phenom People, Inc.",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMVF9BOVJKZDE1akpuR2w0ek0zVThWMk4tdDdlMkJvWVU4N3BmcmE5MlBtNC1lVVEzYlUyQ3J0QWk4M0lKT204aEJJRFFGMlljZjNydUVNbDJEVHZmZG9kMW1uOVhmUQ?oc=5",
-          "pubDate": "2026-06-06T06:06:59.000Z",
           "snippet": null
         }
       ]

@@ -1,42 +1,28 @@
 {
-  "generatedAt": "2026-06-22T10:00:50.721Z",
+  "generatedAt": "2026-06-22T20:26:20.959Z",
   "outlets": [
     {
       "name": "Semana",
       "color": "blue",
       "items": [
         {
-          "title": "Daniel Mejía y Santiago Tobón analizan el inmenso desafío que enfrentará De La Espriella en la lucha contra las drogas",
-          "link": "https://www.semana.com/nacion/articulo/daniel-mejia-y-santiago-tobon-analizan-el-inmenso-desafio-que-enfrentara-de-la-espriella-en-la-lucha-contra-las-drogas/202613/",
-          "pubDate": "2026-06-22T09:50:13.000Z",
+          "title": "Patrullero de la Policía fue condenado a 18 años de prisión por crimen de joven en medio de las protestas del 9 de septiembre del 2020",
+          "link": "https://www.semana.com/nacion/articulo/patrullero-de-la-policia-fue-condenado-a-18-anos-de-prision-por-crimen-de-joven-en-medio-de-las-protestas-del-9-de-septiembre-del-2020/202634/",
+          "pubDate": "2026-06-22T20:18:34.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Colombia y Estados Unidos: María Claudia Lacouture explica cuáles son las claves para recomponer la relación entre ambos países",
-          "link": "https://www.semana.com/nacion/articulo/colombia-y-estados-unidos-maria-claudia-lacouture-explica-cuales-son-las-claves-para-recomponer-la-relacion-entre-ambos-paises/202655/",
-          "pubDate": "2026-06-22T09:48:55.000Z",
+          "title": "Elon Musk predice que la economía global se multiplicará por 10, pero bajo una temible condición: “Va a sonar bastante loco”",
+          "link": "https://www.semana.com/tecnologia/articulo/elon-musk-predice-que-la-economia-global-se-multiplicara-por-10-pero-bajo-una-temible-condicion-va-a-sonar-bastante-loco/202649/",
+          "pubDate": "2026-06-22T20:13:49.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Un Pacto Nacional por la Educación Superior propone la rectora de la Universidad de los Andes. “Un compromiso impostergable”",
-          "link": "https://www.semana.com/nacion/articulo/un-pacto-nacional-por-la-educacion-superior-propone-la-rectora-de-la-universidad-de-los-andes-un-compromiso-impostergable/202613/",
-          "pubDate": "2026-06-22T09:48:13.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "“Entre la crisis y la esperanza”, el exministro Fernando Ruiz advierte cómo debe recuperarse el sistema de salud",
-          "link": "https://www.semana.com/salud/articulo/entre-la-crisis-y-la-esperanza-el-exministro-fernando-ruiz-advierte-como-debe-recuperarse-el-sistema-de-salud/202629/",
-          "pubDate": "2026-06-22T09:46:29.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "¿Qué debe hacer el nuevo Gobierno frente a Venezuela? Esto piensa el expresidente Iván Duque",
-          "link": "https://www.semana.com/nacion/articulo/que-debe-hacer-el-nuevo-gobierno-frente-a-venezuela-esto-piensa-el-expresidente-ivan-duque/202624/",
-          "pubDate": "2026-06-22T09:45:24.000Z",
+          "title": "Fusiles, drones y munición, el arsenal que le fue decomisado a Iván Mordisco en medio de las elecciones de la segunda vuelta",
+          "link": "https://www.semana.com/nacion/articulo/fusiles-drones-y-municion-el-arsenal-que-le-fue-decomisado-a-ivan-mordisco-en-medio-de-las-elecciones-de-la-segunda-vuelta/202606/",
+          "pubDate": "2026-06-22T20:10:06.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -47,23 +33,37 @@
       "color": "peach",
       "items": [
         {
-          "title": "Colombia se decantó por la “patria milagro”: así asume el nuevo presidente",
-          "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPU2xiRVF1WEtreDF6WmtScWt2eDJHUUlUY2N2TzlCVEw3TktmMWFqblFOMWNRZ1BBd1p3R01UMUpiWUhrY3R3aGZaNk5HVG8takkyR2M1a0c5aWFQcldKMEZ1Y2ZlU1ZGaFhZSUlJY1Y2QkFjU0tOYkFua2p3UnFBQUdGSHlRYWNtejd6eDV1Wloxa0FoZTB2NXgyNFpHajNQNDN0bUtNMUIyZTRUTzdfMVRfWHpsWDJ2NmM2ZkxNcHQyVDlsZTVpUWNBanpLUWNuQzJCOGlRN09VZlNnUGdCUWd1QUpDbVVWZ2N3aGlHTVRrazhDUlpGQ3IwTzRTMEhDdDV3UzVpbExBdU1OZlI2NUd5WjJrM1BIRHN3eXdJQVhfRUNtcFU40gGnAkFVX3lxTE9TbGJFUXVYS2t4MXpaa1Jxa3Z4MkdRSVRjY3ZPOUJUTDdOS2YxYWpuUU4xY1FnUEF3WndHTVQxSmJZSGtjdHdoZlo2TkdUby1qSTJHYzVrRzlpYVByV0owRnVjZmVTVkZoWFlJSUljVjZCQWNTS05iQW5randScUFBR0ZIeVFhY216N3p4NXVaWjFrQWhlMHY1eDI0WkdqM1A0M3RtS00xQjJlNFRPN18xVF9YemxYMnY2YzZmTE1wdDJUOWxlNWlRY0FqektRY25DMkI4aVE3T1VmU2dQZ0JRZ3VBSkNtVVZnY3doaUdNVGtrOENSWkZDcjBPNFMwSEN0NXdTNWlsTEF1TU5mUjY1R3laMmszUEhEc3d5d0lBWF9FQ21wVTg?oc=5",
-          "pubDate": "2026-06-22T03:15:00.000Z",
+          "title": "De Samper vs. Pastrana a De la Espriella vs. Cepeda: las elecciones más reñidas",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZzU4YWxBejhOSHFDd0ppTlJEVTRRVV90eDN6U3RaRDJzbFB5OEZZYnVTcVFHTHR1cnJ1ckR2bTYxNXdoaDF5TUluMC01Um1pZHh2bXdsTHR3TjU5RUtSTUNtaTlFcXgyWWd6SFg2OEYtZjl1UUZwZ1pTN0NraUZsTkpKajlXNlBleFZ2NnZQMVlSNGlGSEtrMmFnbzA4UmdQWGl4clFyVE9yTWhwWE5EWk9FWmxkNk9XeGxLend3TjRobmZHV2djb0M0MnB3REt3endvQtIB6AFBVV95cUxQVU5tcUNla1ktdzRuMUNVZHlJMHRlSXIyX3hMN1o5YkZteVlaR1ZHaHdMRFBHS0tVTVpKRWtlVjZNUTJCenhhOTh6X3QtbnpnYUdBbXZoMVNfZkYzdkRZTGRmZ09xTlFjYWthb2hUVFlMYnNZcnZhT296TU01SHdnRUs0Z1BoYkJWVy12N3FOOFRkQ2wwR0pPelVTN0NBWU13am5DX0pTVGhtMGFza2Q1Q3VaZnFldjZkNmdWNVlmbFdwQ0VuNGpKeE9mZFRJSklDNHIyTi1xVFd3TGJ3M0xFZ294WTdZdnhS?oc=5",
+          "pubDate": "2026-06-22T17:04:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Votos por regiones: ¿En qué ciudades ganó Abelardo De la Espriella y en cuáles Iván Cepeda?",
-          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNbnRWODJCV1BxUUNBZnVDSzFVVDUySGVlMXgxNllOQUpKODJfVTdfSVRQa1lHUmtsTlFmbzVySW1KNXZhNXBpXy1USWpzMUh2NzdHYVd6Ykw1MWJuSzhvVE1fQ0ZxODBtSk92aG9icWpLUmhTQlFYUGF4N0kwVVlpS1ZtdWpndFBRNTdWZlhMTXlvd3pHRmtEcHI3cXZfbEpjeTRLSEswTlNITFhOb3pJNVlQUnVabWtNVVJuNi1mZEF6WGRWYmFWLU1EZmdYNFFDR19yd1phY3pSUDRYVTVaTlpOV295aW5laFg5MldkdTRXTXdPUEltSTh6c9IB-wFBVV95cUxNbnRWODJCV1BxUUNBZnVDSzFVVDUySGVlMXgxNllOQUpKODJfVTdfSVRQa1lHUmtsTlFmbzVySW1KNXZhNXBpXy1USWpzMUh2NzdHYVd6Ykw1MWJuSzhvVE1fQ0ZxODBtSk92aG9icWpLUmhTQlFYUGF4N0kwVVlpS1ZtdWpndFBRNTdWZlhMTXlvd3pHRmtEcHI3cXZfbEpjeTRLSEswTlNITFhOb3pJNVlQUnVabWtNVVJuNi1mZEF6WGRWYmFWLU1EZmdYNFFDR19yd1phY3pSUDRYVTVaTlpOV295aW5laFg5MldkdTRXTXdPUEltSTh6cw?oc=5",
-          "pubDate": "2026-06-22T03:08:00.000Z",
+          "title": "Iván Cepeda pidió calma, habló de escrutinios y le dejó mensaje a De la Espriella",
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPeS1ZdXR3aXpfTUtZM0VxR2szZ0tFOUp2LXRCV0x4SzlNZDBQaW12SzVubWhCZXAyQ3M3ODlTOVJ0T1N2T0RSb05TWmNZZFdTVEtBR2hjMlphYmJLY2lKN3pyS0VxUHluckNkQkd6dGRFYTJwU1FQSUVTVGloMy0yZGtLQVFlV18wc3J1dFlJV1pRWTBCZi1BSDlyOUljWVdhQVZLeS1XamxtcV9xTTRCVHd4LXZZemVpaHl0T2hKREQ1a0NUa2xJQWk2LTJuaVVtQjY2bWk5SVoxaXNmS3pjZGhlREdhTzBLX1VnbERIRlFvNXVUMEhob2FWZE9yU1JkcmI3VHpvQ21MUm1lLXfSAY4CQVVfeXFMT3ktWXV0d2l6X01LWTNFcUdrM2dLRTlKdi10QldMeEs5TWQwUGltdks1bm1oQmVwMkNzNzg5UzlSdE9Tdk9EUm9OU1pjWWRXU1RLQUdoYzJaYWJiS2NpSjd6cktFcVB5bnJDZEJHenRkRWEycFNRUElFU1RpaDMtMmRrS0FRZVdfMHNydXRZSVdaUVkwQmYtQUg5cjlJY1lXYUFWS3ktV2psbXFfcU00QlR3eC12WXplaWh5dE9oSkRENWtDVGtsSUFpNi0ybmlVbUI2Nm1pOUlaMWlzZkt6Y2RoZURHYU8wS19VZ2xESEZRbzV1VDBIaG9hVmRPclNSZHJiN1R6b0NtTFJtZS13?oc=5",
+          "pubDate": "2026-06-22T15:36:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "“Gobernaré para todos”: este fue el primer discurso de De la Espriella tras ser elegido",
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRkQ4dGNDemFxdFIzelZ3NU9uS01ETHZudmZ1MHh3ZFphOXRnbVhXVWsxNzFCYUxOU2pCYk5EUkxKSUhDSFlYRnBMMmEzWndhOTIwUGpCT2kxMVc2OTZBdkpiZDMwTDZtdnpkNG41WE9fdl84U3ZwZW9mVkJRUHkxQlNVTnNYeDdpeFE2NDZvV1hiWTZqcV94c3FsNkhYNWJnNVV0Z28ySEI1NVFkT1hZZzcxM2tOUDNPdXVCcDF4NHN1dmdmUHhmOThOMjRNVjE1aFd1NTJBZW1YWFVsVXZhY1VRTlFMMFIxU3QySUEzZDZ3RDA3TVHSAfYBQVVfeXFMT0ZEOHRjQ3phcXRSM3pWdzVPbktNREx2bnZmdTB4d2RaYTl0Z21YV1VrMTcxQmFMTlNqQmJORFJMSklIQ0hZWEZwTDJhM1p3YTkyMFBqQk9pMTFXNjk2QXZKYmQzMEw2bXZ6ZDRuNVhPX3ZfOFN2cGVvZlZCUVB5MUJTVU5zWHg3aXhRNjQ2b1dYYlk2anFfeHNxbDZIWDViZzVVdGdvMkhCNTVRZE9YWWc3MTNrTlAzT3V1QnAxeDRzdXZnZlB4Zjk4TjI0TVYxNWhXdTUyQWVtWFhVbFV2YWNVUU5RTDBSMVN0MklBM2Q2d0QwN01R?oc=5",
-          "pubDate": "2026-06-22T03:00:00.000Z",
+          "title": "“No hay circunstancia que pueda dar lugar a cambiar resultados”: registrador a Petro",
+          "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNSFpoYjFfMEpBNlRjRmstNW8zQVBmSjBFX3plWGV3WEQtYU45dEY1M21nT1RFY05Dc0hNbUNuSmh2d1ZMTVotcDdZZUUzOFNNVVFBV3NHM0xnYnQ2MXNBVmYzdzZGbnFaUlh1dmJNaXY2T1FuaERMS3dZbm1rczZFeF82T0FuamhDT1ZPcGtva0UxRVFBN0EtMEVDVUwxQkJLTmdtVHRmbW1nUkNKQnR2YnB3TXpPNkdyV0diYU1EenBMRFhKbnIzaUVRNGItV2MyTzJXdFJUbU02UWpfMlo3ZmFtVUEwOTF2T0dBRmo2MElEbEFYODJ4VGRZUHQ2Q0RjOWVFcVJZM2h1cUZVb0kyanZ2LURfMjNXNUHSAZoCQVVfeXFMTUhaaGIxXzBKQTZUY0ZrLTVvM0FQZkowRV96ZVhld1hELWFOOXRGNTNtZ09URWNOQ3NITW1DbkpodndWTE1aLXA3WWVFMzhTTVVRQVdzRzNMZ2J0NjFzQVZmM3c2Rm5xWlJYdXZiTWl2Nk9RbmhETEt3WW5ta3M2RXhfNk9BbmpoQ09WT3Brb2tFMUVRQTdBLTBFQ1VMMUJCS05nbVR0Zm1tZ1JDSkJ0dmJwd016TzZHcldHYmFNRHpwTERYSm5yM2lFUTRiLVdjMk8yV3RSVG1NNlFqXzJaN2ZhbVVBMDkxdk9HQUZqNjBJRGxBWDgyeFRkWVB0NkNEYzllRXFSWTNodXFGVW9JMmp2di1EXzIzVzVB?oc=5",
+          "pubDate": "2026-06-22T14:18:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Así se movió el voto entre De la Espriella y Cepeda en las seis principales capitales",
+          "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOUUZEVHRUYW9KMXRmSjVYZF9rZnJrT2VwUmxZVUVjZjFiNUN1eDRHQ1dCVzduN3NFb1VDUDdqMkpjb3A2TDVYQVlGeTFQa3UweVRrNU92ZV9Md2lTaldtcXdnVTR1ejVmdGNMUUtSZ3MwU2QzUmsxWTluWnUxMF9kWURoR2lqR01zUGpOV183a0drUjJta0QxYklJeUpXOG9qY01lNTVNc1ZJQVF6U0ZSUG9EUGpiN0lXcW8xcURONmhXNHAxb2hBOEU4RUs5X3BtWmpZWDk3cVB3ZmM4Y2NRSkRPWVFzQ1NTT0FMTVRjQ2haZ2pRb3RLUWFLQ0FBVTlYLXY5dXBoQjZIUHBLYTFyV2ZpQjFSWTRUTlM2YdIBnAJBVV95cUxOUUZEVHRUYW9KMXRmSjVYZF9rZnJrT2VwUmxZVUVjZjFiNUN1eDRHQ1dCVzduN3NFb1VDUDdqMkpjb3A2TDVYQVlGeTFQa3UweVRrNU92ZV9Md2lTaldtcXdnVTR1ejVmdGNMUUtSZ3MwU2QzUmsxWTluWnUxMF9kWURoR2lqR01zUGpOV183a0drUjJta0QxYklJeUpXOG9qY01lNTVNc1ZJQVF6U0ZSUG9EUGpiN0lXcW8xcURONmhXNHAxb2hBOEU4RUs5X3BtWmpZWDk3cVB3ZmM4Y2NRSkRPWVFzQ1NTT0FMTVRjQ2haZ2pRb3RLUWFLQ0FBVTlYLXY5dXBoQjZIUHBLYTFyV2ZpQjFSWTRUTlM2YQ?oc=5",
+          "pubDate": "2026-06-22T13:12:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "La ofensiva jurídica con la que Iván Cepeda busca revisar el resultado electoral",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbjVfeEM0bWM1MDFJYlVYNktENmdQYXg1cURoNG10aUo0eGZFQ3EzeUt2TWRLMUczS3RwSVk2WkxpRVp4OWRzSjhQZDdmWjhXU0JaNHMwNHM0Ql9ySnpYZzNHR1FJMzVHZ3IwVE1EUmNQT2ZqbUhoYlcxenhid3NWTEhqT1hPVzA0clhKenJrZ2hCQTRuR2NlazNLaFpXSmJPWDVrLVIyaFpPVE9EZnVLUS03dWdrelVpam5uOUFPc190OGlWY1JId2EtY3dMSEZDZWp5VlIzWXdrNVhXbkltV0dvb1cwLV8wV1HSAeoBQVVfeXFMT241X3hDNG1jNTAxSWJVWDZLRDZnUGF4NXFEaDRtdGlKNHhmRUNxM3lLdk1kSzFHM0t0cElZNlpMaUVaeDlkc0o4UGQ3Zlo4V1NCWjRzMDRzNEJfckp6WGczR0dRSTM1R2dyMFRNRFJjUE9mam1IaGJXMXp4YndzVkxIak9YT1cwNHJYSnpya2doQkE0bkdjZWszS2haV0piT1g1ay1SMmhaT1RPRGZ1S1EtN3Vna3pVaWpubjlBT3NfdDhpVmNSSHdhLWN3TEhGQ2VqeVZSM1l3azVYV25JbVdHb29XMC1fMFdR?oc=5",
+          "pubDate": "2026-06-22T11:00:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -74,24 +74,38 @@
       "color": "rose",
       "items": [
         {
-          "title": "Antioquia ratificó su tendencia de voto hacia Abelardo De la Espriella en la segunda vuelta presidencial: así votaron los paisas",
-          "link": "https://www.eltiempo.com/colombia/medellin/antioquia-ratifico-su-tendencia-de-voto-hacia-abelardo-de-la-espriella-en-la-segunda-vuelta-presidencial-asi-votaron-los-paisas-3565921",
-          "pubDate": "2026-06-22T04:35:00.000Z",
-          "snippet": "De los más de 5,4 millones de ciudadanos habilitados para votar, unos 3,4 millones acudieron a las urnas, con una participación del 62,9 por ciento.",
+          "title": "Lo que ocurrió en la noche del 21 de junio, después de las elecciones presidenciales en Cali: esta fue la víctima de sicariato en una concentración",
+          "link": "https://www.eltiempo.com/colombia/cali/lo-que-ocurrio-en-la-noche-del-21-de-junio-despues-de-las-elecciones-presidenciales-en-cali-esta-fue-la-victima-de-sicariato-en-una-concentracion-3566140",
+          "pubDate": "2026-06-22T19:48:04.000Z",
+          "snippet": "En redes sociales se habló de dos muertos, pero la Policía explicó qué sucedió realmente y, de hecho, una de las personas no murió.",
           "_priority": "ALTA"
         },
         {
-          "title": "Alcaldes y gobernadores del Caribe reaccionan al triunfo de Abelardo de la Espriella en el preconteo y llaman a respetar la voluntad electoral",
-          "link": "https://www.eltiempo.com/colombia/otras-ciudades/alcaldes-y-gobernadores-del-caribe-reaccionan-al-triunfo-de-abelardo-de-la-espriella-en-el-preconteo-y-llaman-a-respetar-la-voluntad-electoral-3565948",
-          "pubDate": "2026-06-21T23:35:07.000Z",
-          "snippet": "Mandatarios de Cartagena, Atlántico y Córdoba piden diálogo, respeto institucional y trabajo conjunto tras una elección cerrada en el país.",
+          "title": "Un muerto y tres heridos por una balacera en Barranquilla: la persona fallecida era la única de las víctimas que no tenía antecedentes judiciales",
+          "link": "https://www.eltiempo.com/colombia/barranquilla/un-muerto-y-tres-heridos-por-una-balacera-en-barranquilla-la-persona-fallecida-era-la-unica-de-las-victimas-que-no-tenia-antecedentes-judiciales-3566166",
+          "pubDate": "2026-06-22T18:40:00.000Z",
+          "snippet": "El ataque a bala se registró en el barrio La Esmeralda, mientras se celebraba un cumpleaños con varios conocidos.",
           "_priority": "ALTA"
         },
         {
-          "title": "Aunque De la Espriella ganó la segunda vuelta en el país, Iván Cepeda arrasó en el Caribe y se impuso en los siete departamentos",
-          "link": "https://www.eltiempo.com/colombia/otras-ciudades/aunque-de-la-espriella-gano-la-segunda-vuelta-en-el-pais-ivan-cepeda-arraso-en-el-caribe-y-se-impuso-en-los-siete-departamentos-3565942",
-          "pubDate": "2026-06-21T23:16:22.000Z",
-          "snippet": "El candidato obtuvo mayoría en Atlántico, Bolívar, Córdoba, Magdalena, Cesar, Sucre y La Guajira, además de ganar en las siete capitales.",
+          "title": "Pistas clave y amenazas previas en caso de cuatro menores que habrían asesinado a una mujer dentro de un hogar del ICBF en Barrancabermeja, Santander",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/cuatro-menores-de-edad-habrian-asesinado-a-una-mujer-dentro-de-un-hogar-del-icbf-en-barrancabermeja-santander-pistas-clave-y-amenazas-previas-3566121",
+          "pubDate": "2026-06-22T18:19:39.000Z",
+          "snippet": "Las presuntas amenazas que recibió días antes y que ahora son pista clave del caso",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "El duro testimonio de una edil de Cali que contó detalles del incendio en el jarillón del río Cauca: 'Quedó gente desnuda, con la mera ropa' (Video)",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/el-duro-testimonio-de-una-edil-de-cali-que-conto-detalles-del-incendio-en-el-jarillon-del-rio-cauca-quedo-gente-desnuda-con-la-mera-ropa-3566156",
+          "pubDate": "2026-06-22T17:45:00.000Z",
+          "snippet": "La emergencia destruyó cinco viviendas, afectó tres bodegas dedicadas al reciclaje y dejó a varias familias con pérdidas totales. Esto contó afectada.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "El grave panorama que afrontan las familias que perdieron sus casas en voraz incendio en el oriente de Cali: fuego se registró en el jarillón (Videos)",
+          "link": "https://www.eltiempo.com/colombia/cali/videos-preocupante-panorama-para-las-familias-que-perdieron-sus-casas-en-voraz-incendio-en-el-oriente-de-cali-el-fuego-se-registro-en-el-jarillon-3566118",
+          "pubDate": "2026-06-22T17:25:00.000Z",
+          "snippet": "La emergencia se prolongó hasta la madrugada de este 22 de junio, en el vulnerable sector de Las Palmas, en el corregimiento de Navarro.",
           "_priority": "ALTA"
         }
       ]
@@ -106,30 +120,30 @@
       "color": "cream",
       "items": [
         {
-          "title": "Atacan estaciones de Kennedy y Usme tras resultados electorales en Bogotá",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRzdHVWFjRUJsVEYwbl80R0JOZHVVWGNuQTFSaFJJWENkem9SN1BoN19vZ2Zyc1d0VW1WN1diT1l5ajh6SEdSeFdKQnFRX1VJSlhweFpERlZtaWR1bkNBaDc5YTZmdVd0NC0wY3BUWV9PUkRBdEJUMFpuOU1xOEJ1Ukstemh5TEZaSTZlZnpoR1VFZldWZEYyaldlam12THduSHA1eDlZSC1PR0Itb0ZZZC1sNkdkcUsyQkHSAccBQVVfeXFMTk9ROUptWXRMVkIydnVZS3FPOUlpM3dMTEZ6M0dOMVdVd1UwNGpJYWlCeE9hRTg5cnBhQWlEalVyM1dDbmdPbnRlTkI2VE9VSF9yYkFQUUYyNnBTN1BCSkZRTEJSWXo4Skp0NEdkX2h0a3ZEVXV3QjRhcHZLbk11YnhKblA5a0ZCTVd6aUpiZ2xiNWNFY095N0NkcEV6Rzl5VzFLdWFHbC1CYXZJVzFLMHJUVFd5VXI2cDVCdXlRdFZ6dUxfc295dw?oc=5",
-          "pubDate": "2026-06-22T02:16:14.000Z",
+          "title": "Procuraduría investiga a Daniel Quintero por presunta participación indebida en política",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNHVZM2tURlZqS3FDRkIzcWRIQXd6a25IWGJsZFNnOXZvcGFZeVdwREU4QVR6amFhUWlCSDRKbkllc3NyZnlpQ2VSamItckFzbmZSRHN5aUU4SEkwejlfQlhnUUFrd29YdXBqbkdscmw4NVBJNDFQblZha2U1RVhVZnpzcGZUa2lBRVg0ZXBUMVBxOU1kY0lpNGdINlBWcTd2MGhtcVF3Z0Q0Qkd2aFpETl8walFJenFuTS1nclpTWGdRVmkzOWfSAdMBQVVfeXFMTVlfNGFDOGZZMVBqVkh3MGlpSElIZ1ZSN2tGM25zcU1HYXFZenJhRy00NnI1bDN1TThkcU5JNkN4a3d5V1p3RGd4dVpBTERrSWhMemVvQW40NUlZYW03ZFFmOWNPd2NZSTdocGhudC1rYmppcmZ4SlVadUUtb2hMZ1V1TlNHNW90SzMzSW4xZWtOc1Nseld2RnFSSHNoOHpoelQ4V0J6U1IxN1FjUG9LSGJtMHdTaEFTNUU5eUlocVlUSlpwcEdhaHV0M3otWVVxeFNkRQ?oc=5",
+          "pubDate": "2026-06-22T20:05:54.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Habla Abelardo De La Espriella tras ser electo presidente de Colombia",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSkhBQUFKWVg4QkRoYmg3X3pvQXB1UzVXMDdqc05tUDNVMm5wMjNNNW04QThYdnJHaGd5bW5SUzdWc2lXZ2ZsQ0xRWS0xSDFLcUNTR0g1bHRZcTJ4Q0V1MzRfamw2SGk5TjBxSkJEMldMTGdFZ2Mxc1hPZWl2SWpMYzZGV0lSaVN4QVFHdVIyR1U2VTJLdE45R2dKSmdZT05mM0N0WHZjZmpsdG9QeFlfZ0YxY2JtMldvb2tPalF0M0RDSXdSaGfSAcYBQVVfeXFMTkpIQUFBSllYOEJEaGJoN196b0FwdVM1VzA3anNObVAzVTJucDIzTTVtOEE4WHZyR2hneW1uUlM3VnNpV2dmbENMUVktMUgxS3FDU0dINWx0WXEyeENFdTM0X2psNkhpOU4wcUpCRDJXTExnRWdjMXNYT2VpdklqTGM2RldJUmlTeEFRR3VSMkdVNlUyS3ROOUdnSkpnWU9OZjNDdFh2Y2ZqbHRvUHhZX2dGMWNibTJXb29rT2pRdDNEQ0l3Umhn?oc=5",
-          "pubDate": "2026-06-22T01:53:06.000Z",
+          "title": "ASCIF reconoce resultado electoral y pide fortalecer la industria farmacéutica nacional",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcmNVY0V3ZTh1Nm9aaGpMTWQ4cE4yMkN1LURZczk1ZlFqS3FPTnFta0F0elpuM0ZxTzBlVTNNSDd4LVZKX1d4c1RFRXJlNFhMZEFQVTF1U21DdUNSR1NHelIxRkNkeFB4cDlYY3JUTGpMQlZyZmtuRnpocFlxSTViSlh2RUFHVjUxci1oczh2dGVzcHd5QVppWTB1WmxLOUpBRF9mNWtVTmdXSVVoTWRwT2JMUnlUbHRmU1Zvc1ljYUhMOFRsdGViODFRaHE2UjZ40gHeAUFVX3lxTE9iM2o1cVhCRjZSMEtnZUJjcjNQUWVsWURJZ1JPQTJDRlR2NThmdUJoM28zWUR0cWJqUUw0RjJnWUNQbko2bFFjOHFrMEtEZEZmN0hlOGFVLWl0V2VnM1dyeDIzWjcwWnJkSHNpZTB1WVcxdjFmNEpCQ2pfLXVXeFdETkFsMDFvWjRYbGpMdHFwakV3SXdldWJORGdRVkVESk9QQldMdDNiVWc3RHFvWDJuUGQzbmlYb0prVV93Q1Q3X1dmTEE0QXRRSmJhMWQxVlk2NXVHZlFNcGZMc1dHQQ?oc=5",
+          "pubDate": "2026-06-22T19:59:09.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Iván Cepeda reconoce el preconteo de las elecciones presidenciales",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZTVMZk5xbm9DLWZEd3RGYVFpY0Zqc1F6NmJadEFhQ1pPajRYbXlSMnVueVpHMjJYV3laM2JlV2w0N2I4RWdTNzRENVlwbmtsSHozTTZfX3FoZHNXd255ejljZ09BZHFFUnJHQ1Z1eFhKdzRIWDBmSlRFNkk1aEhScUEzV0dZRVFLcXFIcWpBRFp3eDR1X1pHbFJCSm5QeXZ0VndqckFtZkNWV3VFOVIxY3NYQjI3SE0wSHBTX081MkxFQdIBwgFBVV95cUxNZTVMZk5xbm9DLWZEd3RGYVFpY0Zqc1F6NmJadEFhQ1pPajRYbXlSMnVueVpHMjJYV3laM2JlV2w0N2I4RWdTNzRENVlwbmtsSHozTTZfX3FoZHNXd255ejljZ09BZHFFUnJHQ1Z1eFhKdzRIWDBmSlRFNkk1aEhScUEzV0dZRVFLcXFIcWpBRFp3eDR1X1pHbFJCSm5QeXZ0VndqckFtZkNWV3VFOVIxY3NYQjI3SE0wSHBTX081MkxFQQ?oc=5",
-          "pubDate": "2026-06-21T23:28:23.000Z",
+          "title": "Corte Constitucional actuará conforme a derecho \"sin importar momento político\"",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRktFTk5GZDBueXdsS01UZGIwOUZtV1ZkeXl5M29PT0dfMkp1cTFHdEhOSkZCQURnWnVqcjFBY0dJdGVMRXlNektfbXQwYkhoMEMtT0FUQVJRQ2N6NHJYbTVhNVJDemhBWGRfQTFZemcwYWhKTUpFX25SbElPRlA3eXBKLWVVQnVTVEtuNTRsTVBFSjdqVEQ4TXlEV3BYb05ZOEI4c2FoUGN5aFVzX013ai1zeEHSAcIBQVVfeXFMTmxwYXE3TFhzLWo2ekpqODV6YXhSMXBYaFZWaWd6dmRCTjhQRjF0a2RRb0RXUFkyR0lrSlJqYTBrdG5jSkZBeEJYbW1jSVhWTEtoRHQ3amZ3UnBpdV8wUWZvTFVocEcxdUdfYjRQLXl0UnExc0dram1YaFpYRVV5Rk5hT2FrdEpWd2F6NnJ3RFpwQV9TV2pQaWtCWnhDekFPQnd3Q0JaeFl6c0YweWRUdjVmZnh3eWgzWFl5X3RQSjNpbWc?oc=5",
+          "pubDate": "2026-06-22T18:55:33.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Primera declaración de Abelardo De La Espriella tras ganar las elecciones",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOR2NVdXdVRlc0cEp5ZUI5X2gwb0FzN20yQnJzTzNaQnFHcndIQjBTY01jM3VDZ083alUtbTd6TGdjX29EYWZQNFJTa1o4ZHhfMFhhTVNzQmJtNklMd3F6LWY3aEdOZ2xMV1o3SnFVSW5ZQ0pQLXVOZ09EdWgwcjlTZFB0MjFGZDVvN2FzRjI3Q050M0t5UjBVajFPZTBTZUNqR1FfaFpIT3VzWllLTkh2RUVZQVhSa2Q4R2NIWnhmRDUwQTBqcEhUQk9Sa19tclHSAdwBQVVfeXFMT3VCczZFRElmVE5JQXVxUGdXZXhycExzVUE4YnF0S2x5QnFKRm5UdFRiTERNTG9NUW5KZC1KTndEWWI5YklJY2hreUZINXdLMDlMVHJoclE5N0ZpNEZhMk5kdXB6aFBnZTlJWXZ3akJUdGlFdWZBd1NwOGh2WUwwYnE1Qk5lRXRNNDhKRWlUUEhaNzRleFRkNkhRTV80eVROS2FRMG1zSlRYSGE0TGNiRmNZR2JvTTV1ZWQ0WEE3dWZRUFQ5Zm5jb0FMenhEZWczX184WGlIUFZIVW5qQw?oc=5",
-          "pubDate": "2026-06-21T23:27:22.000Z",
+          "title": "Prepararemos agenda legislativa conciliada con nuevo Gobierno: Centro Democrático",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbmp3TkJ5SEJRRV9WNTdwdEFveE9WTGtFM3U3R2NfZDh1ZFgxeTgwVTNEOWNodk5CbjgwdmVsLWRsTWxXZkhrMWkxcjNlV1VwTkN1RXgydFQyU2luVnhOUGpUZEZ3U0hFZHAyV2JocUlUcVRJOFpROFJGRm5hZHVjRVRHX0x1M3BBRGtfcWRZTjF3VjlwWEpDX1lpZXJMUmoxT002dm1vWENVQWs0U1YzSl94eGcwdThycWFr0gHIAUFVX3lxTE9KTFBhX0l6NnBzZTJCQ0pYZkI5a2VLNHY2WEh6ZWdsUnJ1bGw3SE9wVmdiLWxPeVpYaWo1SnEzZ0Jsak5pSDdxOXdGcmRnYjIzaDF6NEFvUG12VmdGWWVxMWFSS1JKaDRESUZPYk9uTVJ1V0RhbXJhc3ZfakFzLWdLREVhTWRxX29RYTdoekJjQ2tYZFpfZ3pRRWxqcmROMmpTU3k3N3ItV3JlMG1wcWpaLTcxOExteE5IMnExSWRxV25uenNPX2RC?oc=5",
+          "pubDate": "2026-06-22T17:40:44.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -140,30 +154,30 @@
       "color": "mint",
       "items": [
         {
-          "title": "Segunda vuelta presidencial transcurrió en completa normalidad en Bolívar",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRmtadVJKOE96R0dNcEV0RWM0UkVvOEYwUUFqMjVWU1JrQzNKZ1RFTWV3aVJqUmNrRjlUaE9GcjNuRFU0NGk5QzBURzdmTUthbFdrZXYxVkRaTmlqTHhDemlhYk81SjEwc1hOQVNicF9XYm9TaDhTdGFiNUV6d3JsRGtuaUZza0QxMm5sSjNxRnRUWVVVYUlYZ0VFZ1FEYlVaM1JWQktZNHVoSmVlUW5jLUN4NHVLTnpsQ0E5TS1icUrSAcABQVVfeXFMTUZrWnVSSjhPekdHTXBFdEVjNFJFbzhGMFFBajI1VlNSa0MzSmdURU1ld2lSalJja0Y5VGhPRnIzbkRVNDRpOUMwVEc3Zk1LYWxXa2V2MVZEWk5pakx4Q3ppYWJPNUoxMHNYTkFTYnBfV2JvU2g4U3RhYjVFendybERrbmlGc2tEMTJubEozcUZ0VFlVVWFJWGdFRWdRRGJVWjNSVkJLWTR1aEplZVFuYy1DeDR1S056bENBOU0tYnFK?oc=5",
-          "pubDate": "2026-06-22T03:18:59.000Z",
+          "title": "Riña durante Olimpiadas Amigonianas en Tunja deja tres adolescentes lesionados",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMjZyMzR4SThOUjBDUHgweUtEbERmOWRLdWZnczcyWnBETFJHT3ExZGo4SnQzeUlRMWdHa0piWkR2bk5UQ19JdWFmUjY2Xzg4YUo3YXFmTTI5UVVBeTA2cDk4SVFpYlliS0pCandnUUhiUDJDS0RjRTI3VGVHWU9jVHM5Sm12WVBMZXItUnVaN0JtekhOd3lYdkJhQVJiYnRiVXJDX2dCWk1xQms4R29VTXpkRdIBxwFBVV95cUxQVU1oT25qVVhKWGVEclhVMXFIcGhDSXlyUlBlU1UwYVBVTk5QY1pNNWJ5U1VBSWg3SEVwSjhOeEVzSDNqR3hnZ01kTE1lTUd3cTBpYmdOTzJTMFItV09ISmdhZXdDZ0NMdVY2eEZMRWRDaEdHeHpVUHptR3NSa0tmQm9qdG1Pam1YNkVGZ3BPYW03UFFyYTIydDAwMFVhNUVmaDA2UXp6djhPMVJMZ1poT3c4aklwOTVPSkFvYWxnQTdWcUNJRFVF?oc=5",
+          "pubDate": "2026-06-22T20:03:34.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "“Cali será un ejemplo de transición pacífica para la democracia”: alcalde sobre jornada electoral",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QWTlqYWhob3lCQzNFWloxQ1R1X0gxcVVSUm9LLWx1RmtBS2M1M1k1YkFNQ1hOZXF0cU1TYjV6Y2F0LUFqUHF1bGY1d2VzZ3NhT0VfczBfXzFhSHZlUUFVbkVoWkRDWFU?oc=5",
-          "pubDate": "2026-06-21T22:56:01.000Z",
+          "title": "Investigan crimen de joven en el barrio El Pueblito, en Barranquilla",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaUtDMWNmcHpzeUplNzVuWWl4N1N1ZnVZc0F2RXBzTVNHclhNSHctbm5IZ2hLYUxPZ0V1ZTlyZkFzS21WOTdjaDBuMzZYR1ZWMXVnTW5ZWHcxSDd5Q2hubHlCMU5ueGQ5aWxvV3BkUDhWN3RvLXBsaEQwU1NUbFZWcUdweXhzX2dmMVp3UVJaOUdXS3NRNkd2QzJ2RFAtREpCNkdtcdIBuAFBVV95cUxQVW1rS0ZfWkUyeUpKOWQtZURZa0VZSmg3WVhQT1dQbFVpeUlPaS1RMmpiVUdCNTNCX245MF9HSWViVWhJMEc2MnpjUThIcDdOTmJSYUg3cVZ5bnlTbnYzUWZyWFBUeEFyVElWSTF2TmhZMnBvZE5MZWQyUG16OUV5cEhqeThyeXhvYWh0MElPdllyZWktWGdWZ0tVRlM4aXZoQlB2dm1IRl85djNLTE9NV2tsUFNaa3E2?oc=5",
+          "pubDate": "2026-06-22T19:40:37.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Carlos Amaya reconoce triunfo de Abelardo de la Espriella y llama a la unidad de los boyacenses",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeDEwbTlWQ0hsMzdMeXAySUVVa2hNNmtfcUwtZWNPekZVVDY4THc0VXJDSkVJazhYeUhWdEJnTnllcmVVamNsUnNEcC1wSURvSTN5cnJaZEpwTk5nX3FJa09Jc0Z6Q0xsOTlGUEkxdkpqa1FZV1hCSnpNMjNzRmRTLXctYmpzWUNra0JTem5aOHUzbS1EaG1EZUp3MGRJa0ZyaFB5eXpLVy1SeDV3WXhRdndBZmZsc2JaNXh0a2xnV2ZIemxaNEMxSk9B0gHeAUFVX3lxTE5CVU9LTmo4LTB6cmVERGYxWmF3LTVTV1MtSVE1azlDTDhDSHNkOWpyRDhzbXZ2RkJLa0hCUEk2TzkzcTQ1TjgwSnBSS1U0TFdiQVFSUlZaR1pfZDlJT1pETzFOU3BzY2g0QXhNN0l2aThNM09zN1NrRllWNHpibndJbDBiSVo0UW4yWF9KM25zbFpzMmtiYy1pbkRoRXIzU0o3UnRHazRfV2xMUHhJRlJoUGdoTnJ5S21Tb1FaQUJlYldVZkt0S29nSU8tWkk0dl9sby0welFkT2JXTXNQZw?oc=5",
-          "pubDate": "2026-06-21T22:21:32.000Z",
+          "title": "Procuraduría investiga a Daniel Quintero por cuestionamientos al sistema electoral tras preconteo",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRElqUmRsUHVienNDUWhhZ29HbWRCT2VLcnBJYlp1R0dYZVYtcTdQbko4Y3M0ejRRbjBpSmhYODFLWnNzWHdXRkRIVXlBWDVJS2tDLVg4aVB3TlN3VWEzak5fTjE2Wk5BMmRHWFJTM0VTbUpSWkotOXdad0FJeWpkWUNGUlBjSWMzN3VmNE5RdzJmcjN2UENqeWd4VzJSZ21uTE1KYlAxM2F3ZGUzenQ5YkRCa01RdXJocHZOMHdKYzBYeDdPQllvaEtmc3jSAeABQVVfeXFMTV81OWpQS3FISzZTY00yM0t3YzlCb0FDaTBlX2RvaF8wSUp4Z05ScGtWUUV4c1Z1akNaOXl3dl9zUEUwdDdHWm9aRlQ0UWRqWl9JZW9SbE43a0dZbWRsSjh1OUUtQkFyQ1JBQ2JLYklvakxucDkweU1fQXJ1THBvc0wzVG5WeWFNS0diQVRRVmtIN0FpRGhsTnFuN2Z4eXRpWTZ2Ql9NS1h6aFY5QzlhdUlWMHJIM3dUN3JEMmJSMUoyTUdaM3EzZnNYZTVWd1JTLVd3ZzRMR1VQQ3VHSmppdi0?oc=5",
+          "pubDate": "2026-06-22T19:34:27.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Abelardo de la Espriella ganó en Huila con más del 61 % de los votos",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOandQcjhHMlRZZjhpVkJRZDNUNFNQZHlOQU1CQ2tRblhWc1pBWlhxSGM4VDFWQXA5NnExVkp0dUJSWVJGVFVXMzNCR0kyaTVYa2trN2pncTFEZkZaUUtRQk4tTC0tb0VpcGV3LXpTVTVGekdnVkRnZUVYeXJqb3BmQ3Q0SE1xTHVVLS1ULVRWZW1lSzlXTHZJSTVkTzdvM3dlLVpj0gG3AUFVX3lxTE1yeXB5VFJHX0FfWG56X3VCTHctdUVUeXFmcFpMNUh4cndMUFk4Yjc4REVoc3VyRzJKVDJRTmVVMm9kbkpKMS1WU2FOckMxcHZoajB1T0lKajQ1OTBHMDg2dlhmanFJVDlYZ0JqS3EzZDJhZHI0RmNyNG1zc2JTS29IeUNsbkxTX0txRWRUd1pnODVob3BZOVVPVldjdjc2eG5VNHFNSjFVZmZkRUVSSERld3NxRlpOcw?oc=5",
-          "pubDate": "2026-06-21T22:19:15.000Z",
+          "title": "Boyacá reporta seis personas desaparecidas ubicadas durante jornada electoral",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOU4wN3I0c251YjFaR3lXSXpnYzRGTGluak1EMmJxeDh4R0I5bkJ5NGFodlZvNDVYS1k5ZXBtLWRWOXowMVNuQnoxa05IS0NkakEtcVZWMFNOTWtqM1g1TzJwaHdUeHpTUC14ZThjT0V4M2xjM0gwUHNQeEt0UnVGekdyQUNwQkNkQW14eGZVb0ZJeGVVS0FmNkFMb1NSUDZ0Y1hNQ1NUT19ZeVJyTklBZkpB0gHGAUFVX3lxTFBQMjBXc3FZTXNabGswWTkzb0VOR1ZLUVBGWVBXSUtLaDZBZjRWT2E1aGlheTVuazdTNFR4eFo0UnVHb2hxcUtnZWRrTXVxdklMTmZUbXZCQW5YTHNQTXdLZk9zQWF4VkYtVkktM1FNeU1EOWNzaWZIaFplMGduekJIVlFRRzM0NURoX010Vkt6RTQzMGFINXo3S2REdWtQbWFJQjNBU0hPQ3UxR3Ytem56cGVvUlZYaUxNQ0VGbnVZUzV3OVRBdw?oc=5",
+          "pubDate": "2026-06-22T19:34:22.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -174,23 +188,9 @@
       "color": "grey",
       "items": [
         {
-          "title": "Pico y placa en Medellín: ¿Cuándo inicia la nueva rotación para el segundo semestre de 2026?",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVmlQZkpudTUxR2pyeXhRcFJKUl81UXFVRjdOQlN5X1pKaGtvSkk2dGZpV1NUcXFqNXJfZExfdDBkRHNrcmFscVVlcC02LUFPc1ZLNzF3dG5PZ3dIVFNqOVIwTzQ2dzc0R2ZMamhEMkZmdm41MTRySmJQRE1feDh4UVlhTVdVTzdzZjA4X0xTUWZtZEdJN1VPT1g0NExDYkJIS1p6WmJacEtPQ0g0eXNxSkVuSU5raUlIVVFPRTU3cF9lMjNWNVF3?oc=5",
-          "pubDate": "2026-06-22T09:52:23.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Resultados segunda vuelta elecciones presidenciales 2026 hoy, 21 de junio: así quedó la jornada",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbjdOam1FNzRJd19URFFadEs5UjMxSUJqTkJxZGRrRk5nZkIxejBZS0YzUDdVR2V2U3lmVktDT29vdU1xM2xfZkp6V05IS1pTZGZ6ck1oWWh2UnBVeWluc3RuUExCci1TUWpWTjJ6aDVwc2o1aFVaT2hJS1U4dDZ0VTA5SGo3ZEc5SzNINmFTLVBkU3dxTENTbkk5VEVzcXJ3Z1MtdTVIeDd1M1Z5aGJ6MWYtODNXU0x1ZmVwWGhZMF9Ib3RuYW1SeDRMZDE?oc=5",
-          "pubDate": "2026-06-22T04:51:18.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
           "title": "¿Dónde ver gratis los partidos de la Selección Colombia en el Mundial 2026 en Medellín?",
           "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMUdSU2NkVXBiQ0NLX05pMjdmLTJWYVBKMXNjM3NqMmRhVlRKb2ZRd2o0SlFsbEFPbDRmaTZ4amlYdjRZODFCSzFudmVaRUYwZlM2bWZUTHdPUDV1bk51NHFEZFh1aGVzbDhRVURQdFN5OXhzS3B5b2tvNmwyVGhMNGVBbnMwSEk4Nzd1M2R5TVlTY3JBUFBwY2xBN0p0S2JYRjNFUUhfNmVMM1Atc2NQNHpodUpYdGJQRFJhTDh5bHBQS01mdVplV3RTc3ZEMGV0MlE?oc=5",
-          "pubDate": "2026-06-22T06:42:58.000Z",
+          "pubDate": "2026-06-22T18:42:47.000Z",
           "snippet": null,
           "_priority": "DEPORTES"
         }
@@ -201,23 +201,30 @@
       "color": "yellow",
       "items": [
         {
-          "title": "De La Espriella, el presidente electo según el preconteo",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVG1LbE5IWVk4ZDNkZmxrU0NnM25LaWNVcktvSmRuSVpfaXVnTTR6NnJHLVBmVXRFb1M2LTB2S0I0Q1RETHQ5NXdYSjNmazlkYVZYMmJXQUxUdlJFdG9wNG5GS0p3M3VOTGNEaEc4cWpUZ3BNVGtuZEJrdnp2bG91eDQ0LXNRcUtfdVZJMUpqNnl2bVZfZmdVS0JyZ3AzR2NsRmdLNjBWR0poZ9IBrwFBVV95cUxPVUROOHRSbUhidzlxeTRjVHQxdzVuZjlTeE56ODBHZ09yajNUXzBLZnFCNmctZE12M3o4U3EtaDVjZ2ZhNnJ6amxDS0JYXzBodS1mNE5KTTB6M2tCNG5CcWs1b3hvOUhILTIxS2hyMUoxbkNmbVpjeExwcDlpTmc5cmxIWFZkbFl4TDJleG5BaUpoZXVRdEQtTDV3VmVvSTI4cTdCN3RSam9mVHBpbUNZ?oc=5",
-          "pubDate": "2026-06-22T01:39:44.000Z",
+          "title": "Municipios de Cundinamarca aumentan hasta 15% el recaudo de la sobretasa a la gasolina gracias a mejores controles",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOVG9RTU53VnY0dllDOFFOdS1TX0VsWVl5VUg0d2VSMlpsYndIZVJJOGpNV0FLZGpkRkt0eTFzaDRjVFdhd0tVRXRvaE51T05OYzVkM1NIU1pyeXFnSXNESG9GbWx6bzFZcDZxcHdPaEJNWW82SXdBM1hoWURrMngwMVZCOW1VaXhDamU5bWh3UFU5V3FJX3hEc0NmeHBwVi1ZbVhlc0FscWVQazg5OHg1SVQzVTRIQ0p0T0IwN1NqVml0ejJ1UDhuU2Yxb2VVMlJhV2xZZWFzY193SDA2SFVzUlJGRjdwVnc4LVViTnFnZTk1T1dOSFNz0gH8AUFVX3lxTFBfTjYtZXF1UVNYMHVOQ0FRZDE2TU1mSlVVNjNHWWRQV1RZN1UwSkR1MkJ2aWllYzZLT0UwWGZnclZEb0dYOGpwZFhTR3RaUTlwSUNzTHpUdXdIZWtTZ3lsQnhUNGtScjFKQ2szOHU1NzRyeFlmdVNrWUxqZ3FVbllBY3RnQ2ExTGJJbDIzQnpuRy15RWw3c0lPeWJWNlZFUjVfbGcyQnk2VG9oMVR4d2JBRWNXZjJ3VDBZMUJXUFNHdzRFeDRNR2xaVkVWeG8zMFBPd0Rkc2tTSHQyelN0VWJ2SDhVZHhJcHByS3REeWxqa25tdGpLYVExLTg0Yg?oc=5",
+          "pubDate": "2026-06-22T17:29:56.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Elecciones 2026: ¿podría el escrutinio darle la vuelta al resultado entre De la Espriella y Cepeda?",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNejAtNlc5YkFmbDYtd2p0d3lfUHZNWk1nQnBkNWF4eTRIVWFoXzZYbnJORjRfLUVuemdUdFVfbm5ZX3EwQWdFd0lOWGwtTnh2M1F2d2VNRjEwLWNCYWtKU3JnR0VIbkE5eGQ1cjlRVjM1bmNQNGdRMTNDX1hzRlJ2U3llaG9LREN1SVZqYU45NEhPMUdheU1WV1BaSnNKV2RGRURCWFFnczQyZnFPN3k5d28xdEJoUl9ybTBCUHNITng3djIteGpUOWgxOUlfMHozQ1A1cWRyNHEyejQzcmJ1SdIB5gFBVV95cUxNMWwzX1NmSjE2VWFUTk11RGFFVFd0LUNrOVJqRG1rLVdnMjlkckpYcmxZTXR2WlBNVkhYdWtNRzhBMEp0RHFoMkpaSjlkbk9jWWl3ZFlSblZYNjNTaGRJQWJqX25VcV94OU5WclA0WUtYczdEMXlZR08tdC1iNmxWdDN4clVST0VkOGIxNjRzaFZMNHoyNDFqU0xiMHo2NnFSQURFNjd0WlJGZ21nNkQ1bTh6SmM2RDV2Z3IyaTVpU0ZjNU1QT0tmd3k2ME1aNjZmaUhNMGFEN3UxQ2lOWUg3Z0dDRjBRZw?oc=5",
-          "pubDate": "2026-06-22T01:02:12.000Z",
+          "title": "La buena racha del peso colombiano aún no termina: expertos ven más caídas del dólar",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUkl1aVJoeHZJVWxmS2NhUEMzdDNOZEFVRGlfamEtMTVCZTRac0dXTmxDYlBJYkFfaUZhREtYMS1XUTF6a2JSQ09HdWdNMndzaUtUUjN4VFk2aUlueU5iWnc4ZzRaTjc3Ui1Kbl91aDN3c0ZCaGduT3o2OHlQc3J6cXo5azg5NmlGYnN1cl8yRklXUndJNGZseXZXVmVTaEtYbHBoOHg4ajM3NXhRLVNtQWwyd3YxSFdEOVpiME1nY0Zjc3NLUVJDM1liLTlIWVXSAdQBQVVfeXFMTk44TVZZeS1QREF6WkM1aDVzamVGTXR0MHBMbjN2d1JIQkMydnhFZ0k3Y3BjQWVVTUtwaWd0Uk5uMndXZFJna0hvUHV1cmdSQXRfX2c0ZjJSd3cySWxjNmM2M2I0RHNWN0poLThCQmNlbXRtLVZaSC10Y1ljTUNjSUFsNGdVOW50R0c3dExveV91eXJNZm1uV085OWp4aUhCN0dtcmh6RFo3TXN4RmszQ1UzN0lqX2txdXpjR2tDOS1JMG8xUlN5SEpuZFllWElEeTFMY2M?oc=5",
+          "pubDate": "2026-06-22T17:23:32.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Mientras las importaciones de gas suben, el Valle Medio del Magdalena lleva 4 años dormido esperando definiciones",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUUQ4a2ZBeGk0VjdBNkpQeXBLZU95REpZYmtwa1QwTVBUbkNSS2dGajZ4Rk5xdG5ETmhfR2dOQWdtWVVGWUFMQ0ZOcHc4aG51TzlSSlFINnpFODNrWjlPZXB1cHl5SEhCcjFaNlgxM21jdHE1Wkppd3NLd3A0dGlIbG0zZ2gtWkVjSENuM1hGNnJ6U2hnNllNZ1B4Ri1fNWNya1NJV1lTVGtiRXIyTUowSzdmQVVTLVNFMnBCUkZrMjRVVTJHQVpoN0lyNVFyZ21zR2lTblZkcmt6a29YalhwdFkweFJyLWtY0gHuAUFVX3lxTE0tcnZteXQ2V0xGbk9TRUJVWHZvS3YxTGlURHFSQnRXdExpbHljSzJTTV9EdmVzdHNNMW5hRUlkS09qT1VScDkxTktvUE5Pb3JXdVgyWmg0OUdEblRqSDF5NWNRQ1RzREc4aVlQc2dMLUhNWnB0WGk3ZWtvSXg2WXV0VFhCN21GWWVzT1RMa1FFdlZ2aXRVTDY1WjNFbHRqdDVlY3BvU1lsQzR3eGZlQUxsN1RhRUg4ZS1weDFzSVFGVGwxQkplaTdmb0wyaGdYZkpibmdPLUx4b2hrcEtwbW1BLXRtaEtxUlNVS0NuSHc?oc=5",
-          "pubDate": "2026-06-22T00:40:05.000Z",
+          "title": "La mala hora de Pizza Hut: cómo está marca icónica fue vendida tras perder el pulso contra apps de domicilios",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTEFEMkx6MzhRUE9OdS1iamN5ZXlueDdaeURKUl9hVGNXX3o4SEpwb0NhS2hoRVZoejZpRzRJOEVIWUNWek9IRUI1cHRrdHNyVHNNZG1MSnR6OEZ4Z3VZc0gtVGRjblRJY1lEUUczWmFKbDhzTHNJbGZ0dlloODJlVjRUVTRWR00xdENUaXZ0czR3VU5KQzFudGF5U0dhcUh5blpQcUp3U2dCc2hkREp0WVBJMlgzdkc5Q3h4cmg4cElrUmZuX3RhTXVLQ1ZFdmlNbm9RVlNnSWtJR1VSSTAxV3N2azUwdlpz0gHuAUFVX3lxTE45alMwVDA3MkFXQlZ1TVBZcTNDcXc1ZldhcVN3YnJSWmlFMXpOT1cyOGpXVjd0d3poOEZQZDRlQm1XQkFud25pOF82SEVYTWM5TUNvZFBGcUpJTWh6UEthS0kyZ0YxcXRqOWJPZU81YzZLWTFUSDlhdUltWm4tVmxqaXBBaVRHZG9VeTVQU0NxZ0pmbTdkdE5ZeDN0czBnV3FFTDIteFFVMVF4VVhCRy1HdkRCSVRzWVR4NE1tMEJTNXc4MVhsYWZoM01XNE1QU0FEekNLX2diVlVmc0lVZTR4bm5wZ2s4WU9ZQ25Ea0E?oc=5",
+          "pubDate": "2026-06-22T17:16:15.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "¿Dólar podría acercarse a los $3.300 tras la elección de Abelardo De la Espriella?",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZllaVEZ6Y3ROQVBvU0pYOVpGQWZjZ0hMR2djRk9PbEtsbWNkMkdkUlhIa2hGOTB0NTRIUnVBMldNZ2tNRTByeEo2NjY0V3hDS0pfdVQyWEVoUkRKaW1iNkY2alVCSWY2V2prdTNpTEt3d2lyLUhkNnF4a0FFYVhuZmlVZDB5QzNWZzE0eHgxWE1EeDFiajA0RlVkQjliOTk5djZUckYyRXdEcEg5TkhmeUhvSEtnZHJIQmxnNGFR0gHDAUFVX3lxTE9QcF9zUXNYOTkzVXdTV3pKSGRsaXIyN2pSUlFUUjd5MXdhWjdaNGotNHdPQjJuMVlBOWRPcG12bHhvUjBTcGlrLUx3eEViN1pFLTdLTzFqTkw3bFNYTWkwbWZ6andHNlozN1F5U2RySzNjV1Vqa1o0SUJzSTB4WkJFWDZqMXkwMUk3LUczUThGaTZXV1RxT0owbHBTVWlMMXZkMHQwdTctdFZsakZJUjZPVWZJd0xXRzYydldEMGhkMXJSRQ?oc=5",
+          "pubDate": "2026-06-22T16:50:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
