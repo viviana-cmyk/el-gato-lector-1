@@ -282,17 +282,16 @@ Responde ÚNICAMENTE con un array JSON en este orden: primero todos los ALTA (en
   }
 }
 
-// Elige "la noticia del dia": prioriza temas ALTA (política, economía, seguridad,
-// ciencia, crisis) sobre deportes. Si hay empate de prioridad, gana la más reciente.
+// Elige la mejor noticia destacada de una sección (colombia o mundo).
+// Prioriza ALTA (política, economía, seguridad, ciencia, crisis) sobre deportes.
+// Si hay empate de prioridad, gana la más reciente.
 // Los textos en inglés ya vienen traducidos por translateEnglishOutlets.
-function pickFeaturedStory(...sections) {
+function pickFeaturedStory(outlets) {
   const candidates = [];
-  for (const outlets of sections) {
-    for (const outlet of outlets) {
-      for (const item of outlet.items) {
-        if (!item.snippet) continue;
-        candidates.push({ ...item, source: outlet.name });
-      }
+  for (const outlet of outlets) {
+    for (const item of outlet.items) {
+      if (!item.snippet) continue;
+      candidates.push({ ...item, source: outlet.name });
     }
   }
   const priorityOrder = { ALTA: 0, DEPORTES: 1 };
@@ -508,10 +507,11 @@ async function main() {
   console.log("Traduciendo medios en inglés...");
   await translateEnglishOutlets(process.env.ANTHROPIC_API_KEY, config.mundo, mundo);
 
-  // La noticia del día se elige ANTES de la priorización para que la
+  // Las noticias destacadas se eligen ANTES de la priorización para que la
   // depuración de ítems no deje a pickFeaturedStory sin candidatos con snippet.
-  console.log("Eligiendo la noticia del dia...");
-  const featured = pickFeaturedStory(colombia, mundo);
+  console.log("Eligiendo la noticia del dia (Colombia y Mundo)...");
+  const featuredColombia = pickFeaturedStory(colombia);
+  const featuredMundo    = pickFeaturedStory(mundo);
 
   console.log("Priorizando titulares por relevancia temática...");
   colombia = await prioritizeSection(process.env.ANTHROPIC_API_KEY, colombia);
@@ -535,7 +535,7 @@ async function main() {
   );
   await writeFile(
     path.join(DATA_DIR, "featured.json"),
-    JSON.stringify({ generatedAt, story: featured }, null, 2) + "\n",
+    JSON.stringify({ generatedAt, colombia: featuredColombia, mundo: featuredMundo }, null, 2) + "\n",
   );
 
   console.log("Obteniendo indicadores economicos...");

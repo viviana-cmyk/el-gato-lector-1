@@ -348,10 +348,39 @@ img {
 .outlet--lilac { background: var(--c-lilac); }
 
 /* ---------- La noticia del día ---------- */
+.featured-pair {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 680px) {
+  .featured-pair { grid-template-columns: 1fr; }
+}
+
 .featured {
   border-radius: var(--radius);
-  padding: 28px;
+  padding: 24px;
   background: var(--c-sky);
+}
+
+.featured--mint { background: var(--c-mint); }
+.featured--sky  { background: var(--c-sky); }
+
+.featured__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.featured__region {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .featured__source {
