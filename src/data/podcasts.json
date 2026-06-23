@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T17:28:51.543Z",
+  "generatedAt": "2026-06-23T21:15:22.200Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -22,9 +22,9 @@
       "url": "https://podcasts.apple.com/co/podcast/seminario-fenix-brian-tracy/id1735157109"
     },
     {
-      "title": "Estoicismo Filosofia",
-      "host": "Estoicismo Filosofia",
-      "url": "https://podcasts.apple.com/co/podcast/estoicismo-filosofia/id1740616448"
+      "title": "Huevos Revueltos con Política",
+      "host": "La Silla Vacía",
+      "url": "https://podcasts.apple.com/co/podcast/huevos-revueltos-con-pol%C3%ADtica/id1607193381"
     }
   ],
   "mundo": [
@@ -39,19 +39,19 @@
       "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
     },
     {
-      "title": "The Joe Rogan Experience",
-      "host": "Joe Rogan",
-      "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272"
+      "title": "Dateline NBC",
+      "host": "NBC News",
+      "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
+    },
+    {
+      "title": "Up First from NPR",
+      "host": "NPR",
+      "url": "https://podcasts.apple.com/us/podcast/up-first-from-npr/id1222114325"
     },
     {
       "title": "Mick Unplugged",
       "host": "Realm",
       "url": "https://podcasts.apple.com/us/podcast/mick-unplugged/id1731755953"
-    },
-    {
-      "title": "Dateline NBC",
-      "host": "NBC News",
-      "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
     }
   ]
 }
