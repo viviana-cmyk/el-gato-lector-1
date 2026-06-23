@@ -158,7 +158,7 @@ async function fetchOutletItems(outlet) {
     }
   }
 
-  // quitar duplicados, ordenar por fecha desc, recortar al limite configurado
+  // quitar duplicados, ordenar por fecha desc
   const seen = new Set();
   const deduped = [];
   for (const item of items) {
@@ -167,17 +167,38 @@ async function fetchOutletItems(outlet) {
     deduped.push(item);
   }
   deduped.sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0));
-  return deduped.slice(0, outlet.limit || 5);
+  return deduped;
 }
 
-async function buildSection(outlets) {
+// Filtra artículos a una ventana de tiempo y amplía el pool de candidatos
+// para que la IA tenga más artículos entre los que elegir por importancia.
+// Si la ventana devuelve muy pocos (< mitad del límite), usa todos los disponibles.
+function applyWindow(items, limit, windowHours) {
+  const cutoff = Date.now() - windowHours * 60 * 60 * 1000;
+  const inWindow = items.filter(i => i.pubDate && new Date(i.pubDate) >= cutoff);
+  const candidates = inWindow.length >= Math.ceil(limit / 2) ? inWindow : items;
+  // Enviar hasta 3× el límite a la IA para que tenga más para priorizar
+  return candidates.slice(0, limit * 3);
+}
+
+async function buildSection(outlets, windowHours = null) {
   const result = [];
   for (const outlet of outlets) {
-    const items = await fetchOutletItems(outlet);
+    const all = await fetchOutletItems(outlet);
+    const limit = outlet.limit || 5;
+    const items = windowHours !== null ? applyWindow(all, limit, windowHours) : all.slice(0, limit);
     console.log(`  - ${outlet.name}: ${items.length} titular(es)`);
     result.push({ name: outlet.name, color: outlet.color, items });
   }
   return result;
+}
+
+// Recorta cada medio al límite configurado después de la priorización por IA.
+function trimSection(builtOutlets, configOutlets) {
+  return builtOutlets.map((outlet, i) => ({
+    ...outlet,
+    items: outlet.items.slice(0, configOutlets[i]?.limit || 5),
+  }));
 }
 
 // Traduce al espanol los titulares/resumenes de los medios marcados con
@@ -499,10 +520,10 @@ async function main() {
   );
 
   console.log("Obteniendo noticias de Colombia...");
-  let colombia = await buildSection(config.colombia);
+  let colombia = await buildSection(config.colombia, 12);
 
   console.log("Obteniendo noticias del mundo...");
-  let mundo = await buildSection(config.mundo);
+  let mundo = await buildSection(config.mundo, 12);
 
   console.log("Traduciendo medios en inglés...");
   await translateEnglishOutlets(process.env.ANTHROPIC_API_KEY, config.mundo, mundo);
@@ -515,7 +536,9 @@ async function main() {
 
   console.log("Priorizando titulares por relevancia temática...");
   colombia = await prioritizeSection(process.env.ANTHROPIC_API_KEY, colombia);
+  colombia = trimSection(colombia, config.colombia);
   mundo = await prioritizeSection(process.env.ANTHROPIC_API_KEY, mundo);
+  mundo = trimSection(mundo, config.mundo);
 
   console.log("Obteniendo investigaciones recomendadas...");
   const recomendados = await buildSection(config.recomendados);
