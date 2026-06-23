@@ -1,47 +1,69 @@
 {
-  "generatedAt": "2026-06-23T10:00:56.426Z",
+  "generatedAt": "2026-06-23T17:28:51.543Z",
   "outlets": [
     {
       "name": "Semana",
       "color": "blue",
-      "items": []
+      "items": [
+        {
+          "title": "“El Gobierno Nacional no puede bajar la guardia” declaró la gobernadora del Meta, Rafaela Cortés, tras operativo militar",
+          "link": "https://www.semana.com/nacion/articulo/el-gobierno-nacional-no-puede-bajar-la-guardia-declaro-la-gobernadora-del-meta-rafaela-cortes-tras-operativo-militar/202609/",
+          "pubDate": "2026-06-23T17:26:09.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Incumplimientos sobre la ley de protección animal provocan directiva de la Procuraduría",
+          "link": "https://www.semana.com/nacion/articulo/incumplimientos-sobre-la-ley-de-proteccion-animal-provocan-directiva-de-la-procuraduria/202658/",
+          "pubDate": "2026-06-23T17:22:58.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Nueva norma vigente revela cuáles son las infracciones con las que puede perder de forma definitiva su licencia de conducción en Colombia",
+          "link": "https://www.semana.com/vehiculos/articulo/nueva-norma-vigente-revela-cuales-son-las-infracciones-con-las-que-puede-perder-de-forma-definitiva-su-licencia-de-conduccion-en-colombia/202644/",
+          "pubDate": "2026-06-23T17:20:44.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Cristiano Ronaldo se sacudió: así fue su primer gol en el Mundial 2026 contra Uzbekistán",
+          "link": "https://www.semana.com/deportes/articulo/cristiano-ronaldo-se-sacudio-asi-fue-su-primer-gol-en-el-mundial-2026-contra-uzbekistan/202628/",
+          "pubDate": "2026-06-23T17:13:28.000Z",
+          "snippet": null,
+          "_priority": "DEPORTES"
+        }
+      ]
     },
     {
       "name": "El Espectador",
       "color": "peach",
       "items": [
         {
-          "title": "Estas fueron las primeras pisadas que dio Abelardo De la Espriella como presidente electo",
-          "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNYUt2OURwRzF3NElzY3FNc1VhQk8ySkQ5N2M2OHF6SUFNLWkwSzJ2ZFZ2bS1aR1oyNE5rTW5RRDh4b2xud0Vod1NCbkhXQU5CQl9LaEtFb0JLOERNSVg4NmU3Z3paX3IyMFhUQ0t0OVdEaXNzVHlQcTdGdC16alNTQWo5UkZJZGVrN3V5aVB5eUhtWGUzNFdZdTdhSF9Oa3ItWko2NE5zSGZPWUx2bEtTNFFOVnZWd2RZWXZZYzdoaTk1eGtGWGE5V211YmZQbjNrQ2k0MWFxQmxiN3JnMlVJZE5vT1Q5WEpUSkwyT1EwanZ0eG55QkowTWtTWjdTdm1PbEtMbEd3UG9vOFpDaEZkZ2hmVld1cGRxZ1Q0NDZwUnFUZ9IBogJBVV95cUxNYUt2OURwRzF3NElzY3FNc1VhQk8ySkQ5N2M2OHF6SUFNLWkwSzJ2ZFZ2bS1aR1oyNE5rTW5RRDh4b2xud0Vod1NCbkhXQU5CQl9LaEtFb0JLOERNSVg4NmU3Z3paX3IyMFhUQ0t0OVdEaXNzVHlQcTdGdC16alNTQWo5UkZJZGVrN3V5aVB5eUhtWGUzNFdZdTdhSF9Oa3ItWko2NE5zSGZPWUx2bEtTNFFOVnZWd2RZWXZZYzdoaTk1eGtGWGE5V211YmZQbjNrQ2k0MWFxQmxiN3JnMlVJZE5vT1Q5WEpUSkwyT1EwanZ0eG55QkowTWtTWjdTdm1PbEtMbEd3UG9vOFpDaEZkZ2hmVld1cGRxZ1Q0NDZwUnFUZw?oc=5",
-          "pubDate": "2026-06-23T02:20:00.000Z",
+          "title": "“Hay coincidencia casi plena entre el preconteo y el escrutinio”: Registraduría",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPejNHbGJmRzZOR0o2YTROYzFIZmRWTVdXRHJqRTA2YmlCZmlWME54U01EYTVVZ2pHM2d0TXZ6MzNIazdBa1h6Z0p6RXY2UHNOMUotbkl1ZDB5Tml0UmszdzBiOWNzMWtvdXFWNThLSmNzeHplYTJacm1TSzg3VmZlTTZ3RzBZNHlNNTAxSGVoR3R6YTNaenl0WWhjMWxZblRxYk5weE9xTEh3TEtEQmlyQVowQUU4SF9tLWstNExpa0lpeUdzZGNsN3piWm5MOWtZemZpOUlRclBpeVItSkg3cTItZ19URDhIeTNr0gHrAUFVX3lxTE96M0dsYmZHNk5HSjZhNE5jMUhmZFZNV1dEcmpFMDZiaUJmaVYwTnhTTURhNVVnakczZ3RNdnozM0hrN0FrWHpnSnpFdjZQc04xSi1uSXVkMHlOaXRSazN3MGI5Y3Mxa291cVY1OEtKY3N4emVhMlpybVNLODdWZmVNNndHMFk0eU01MDFIZWhHdHphM1p6eXRZaGMxbFluVHFiTnB4T3FMSHdMS0RCaXJBWjBBRThIX20tay00TGlrSWl5R3NkY2w3emJabkw5a1l6Zmk5SVFyUGl5Ui1KSDdxMi1nX1REOEh5M2s?oc=5",
+          "pubDate": "2026-06-23T15:59:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Felipe Harman volvería a la ANT: Gobierno Petro publica su hoja de vida",
-          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQRHhzY09IaTJtWjBJWXdlSHZTNFMtWThFWUljUjFUenVCV3BvdjdDVE90S2JKMkR1d3NZRmRORHVuZ25rbDdIUVFjazBLbFE0Tk1rQ0lTVDNlMWVzQTFsc281Vkpxd1dla2Z6OS1zR1FjVnVjdEpPQ04ySGtUcHFSNG5YRU1fbHMxTEx4UlJLSGNTMWh6YXJNaFhBUGZRejk2YzEwM1c2dUZUREQ1MXZESTh3eVduM2JZcmJ6WnVzLXRoM2Zyc1NCSVd0ZnB0dXFvdXFYcUFZb2NnUWpKWmdLcGhHNldYX1UwWnFrUDktU01KMDlfQjNNeXhLWjJaYjFUaldzdnlzSDVFOWZ20gGMAkFVX3lxTFBEeHNjT0hpMm1aMElZd2VIdlM0Uy1ZOEVZSWNSMVR6dUJXcG92N0NUT3RLYkoyRHV3c1lGZE5EdW5nbmtsN0hRUWNrMEtsUTROTWtDSVNUM2UxZXNBMWxzbzVWSnF3V2VrZno5LXNHUWNWdWN0Sk9DTjJIa1RwcVI0blhFTV9sczFMTHhSUktIY1MxaHphck1oWEFQZlF6OTZjMTAzVzZ1RlRERDUxdkRJOHd5V24zYllyYnpadXMtdGgzZnJzU0JJV3RmcHR1cW91cVhxQVlvY2dRakpaZ0twaEc2V1hfVTBacWtQOS1TTUowOV9CM015eEtaMlpiMVRqV3N2eXNINUU5ZnY?oc=5",
-          "pubDate": "2026-06-23T01:50:00.000Z",
+          "title": "De la Espriella refuerza nexo con Trump: “Colombia hará parte del Escudo de las Américas”",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNVNEeV9selJyRWxYUVhXMjY0Nm91S3lRN1F3LWR0S1NGOUc5bXViZzhMNkFzaWN0RFJfVWJSenhqdGFOSnRHSmZ5NFRBdzdHVEh0YlJqeUhaVGNjc0VWVEVUNWd6WFkyR2xGZVlzWUZ6ZzBNZ3pTeU5zdkxoVG5paE93Q0dJc2RpSlJSV3dSWDdpd3FyRnJUSlNRZDhSZGt0aGJTeEdxSGJ6YmtGVURucUZFeXFXc0phOVVqUk1RYVVWN21nQjNvNDl1MU45RXp6ZWpIYkxjZG83YnpwU0trUkMta0NXOTVvYUEzMFVjTlhRRXRYQVdYSNIB-AFBVV95cUxQNVNEeV9selJyRWxYUVhXMjY0Nm91S3lRN1F3LWR0S1NGOUc5bXViZzhMNkFzaWN0RFJfVWJSenhqdGFOSnRHSmZ5NFRBdzdHVEh0YlJqeUhaVGNjc0VWVEVUNWd6WFkyR2xGZVlzWUZ6ZzBNZ3pTeU5zdkxoVG5paE93Q0dJc2RpSlJSV3dSWDdpd3FyRnJUSlNRZDhSZGt0aGJTeEdxSGJ6YmtGVURucUZFeXFXc0phOVVqUk1RYVVWN21nQjNvNDl1MU45RXp6ZWpIYkxjZG83YnpwU0trUkMta0NXOTVvYUEzMFVjTlhRRXRYQVdYSA?oc=5",
+          "pubDate": "2026-06-23T15:39:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "¿En qué van los escrutinios de segunda vuelta?: esto dicen desde el CNE y la Registraduría",
-          "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQSGJ5UTcxbGhJZ1pSczlETDI5U1dudlRTcnVwZExTX2xJRVh1WXYwcTd0WXJLZjNQYWQyZlgxZkZNb2dMeEZYUUprVzExZk96R1dqS092QXhJQkxrZzBnckdHZWFWYm52Vi1PeWFKSmZxdzdEUkcxSjY0NWJkNk90UXN5aWdsbUtlal9MWlZ2UkpNdGJlQVdQZksyMHJvT3UycmpWMTFncWt0THl5R2VlQTRMU1RHTTB6U0NqY3lkUkNkeVBkWTFmVGVVN0d0SG5NQTROUFhRVUhDQnFrZ3Y0VFFLbzBOc0JoLU1BUzVSVTFhYk9XOGNZdkM5UlVkcDRGVFZJOHBmcmM0TVBkMFprQUh4eHJPT1cxbm1UVmx6MXpNTEdlVXfSAaYCQVVfeXFMUEhieVE3MWxoSWdaUnM5REwyOVNXbnZUU3J1cGRMU19sSUVYdVl2MHE3dFlyS2YzUGFkMmZYMWZGTW9nTHhGWFFKa1cxMWZPekdXaktPdkF4SUJMa2cwZ3JHR2VhVmJudlYtT3lhSkpmcXc3RFJHMUo2NDViZDZPdFFzeWlnbG1LZWpfTFpWdlJKTXRiZUFXUGZLMjByb091MnJqVjExZ3FrdEx5eUdlZUE0TFNUR00welNDamN5ZFJDZHlQZFkxZlRlVTdHdEhuTUE0TlBYUVVIQ0Jxa2d2NFRRS28wTnNCaC1NQVM1UlUxYWJPVzhjWXZDOVJVZHA0RlRWSThwZnJjNE1QZDBaa0FIeHhyT09XMW5tVFZsejF6TUxHZVV3?oc=5",
-          "pubDate": "2026-06-23T01:03:00.000Z",
+          "title": "Se desata nuevo choque entre el presidente Gustavo Petro y el Congreso: este es el motivo",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQa05UMkRxOVByQkZYWFE2V0hkaFlxTGI4WXozcEVBWWxlLVlDemVNWnRQYXloOXFlaDgxVEo4SFVGeEpfQWdXRHZ0U3REYzhPTFRhNXlSQ0lKY3dtT2xjNGtmRFlMNFZCUGVkcnp3a2Q2QVZnMk5xWGdfSjFkQkUzdE5RcXY3eDdfRHBtNWRFR2djTWJfVl9iVF82OF9aMC12REpzUHIwNFo2ZVpfRjNnZms0dGI4NVZWTnlxTkdzTFY4dVYxNzFQTW1EWXpsWUZzZExPeDZfVW1nUVBkZXBKbUpCTmIzUFUwYzF0bFBrU0tsOTJs0gH0AUFVX3lxTFBrTlQyRHE5UHJCRlhYUTZXSGRoWXFMYjhZejNwRUFZbGUtWUN6ZU1adFBheWg5cWVoODFUSjhIVUZ4Sl9BZ1dEdnRTdERjOE9MVGE1eVJDSUpjd21PbGM0a2ZEWUw0VkJQZWRyendrZDZBVmcyTnFYZ19KMWRCRTN0TlFxdjd4N19EcG01ZEVHZ2NNYl9WX2JUXzY4X1owLXZESnNQcjA0WjZlWl9GM2dmazR0Yjg1VlZOeXFOR3NMVjh1VjE3MVBNbURZemxZRnNkTE94Nl9VbWdRUGRlcEptSkJOYjNQVTBjMXRsUGtTS2w5Mmw?oc=5",
+          "pubDate": "2026-06-23T14:20:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "¿De dónde salieron los 3,1 millones de votos que sumó Iván Cepeda?",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOR0xxdDBKY045bTQ2bmMtSEZ0SUozMExjUzYzRUxxMVhSQTRxT2dRYllVQ1ZqbXdXYlBHTVJnd2pwM2JUaFkwbnFPUkJiMDd2ejJtd3NQT0RkbXQzRUdLS29kYUJZZnpjZWFYd0FYc1RxRS1mWS02QW8yR3hUeE1ZUUZtcXdfRVdmQnRfOVRHM25rdERFRFVvVEpLU01mUEhFLUI1MENzRjhUczJURWVUeEhsd2hTWTZEekE2bmRGYVRrdmlWU1RjRHNScmgtMVpBLUxTZnNPN29Wd9IB2gFBVV95cUxOR0xxdDBKY045bTQ2bmMtSEZ0SUozMExjUzYzRUxxMVhSQTRxT2dRYllVQ1ZqbXdXYlBHTVJnd2pwM2JUaFkwbnFPUkJiMDd2ejJtd3NQT0RkbXQzRUdLS29kYUJZZnpjZWFYd0FYc1RxRS1mWS02QW8yR3hUeE1ZUUZtcXdfRVdmQnRfOVRHM25rdERFRFVvVEpLU01mUEhFLUI1MENzRjhUczJURWVUeEhsd2hTWTZEekE2bmRGYVRrdmlWU1RjRHNScmgtMVpBLUxTZnNPN29Wdw?oc=5",
-          "pubDate": "2026-06-22T23:30:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Álvaro Uribe carga contra asesor clave de la campaña de De la Espriella: ¿qué dijo?",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbUNuWFF5SUJyQ2Q3a0djRjhRNDB3ak01bllrSURvWXQxV1JZOWNmVWF1WXVPZHNDVzdEaDFaN2Q0OTNpbEVhUElCcDZZUGdUWk1Jckt6ZTNUN1JUcXlnWUdGS2xfbU9yZGJMLVcydHAtVGFZNGcydld0Y2Q1QmEteWZobXlNVnFDYjltdkJyTkVZSkJQdzVjNExkckJEVWZ3VlVPeE9sN0ZDZWN3eHB6MzRSLU95b2FzU2RFOFlkTi1CWXh5UnZpWExVLVpxXy1pM3Z3UG5ncWM2RVhhYThvRkNzWXVjc2otQ09odTZRX3PSAfABQVVfeXFMT21DblhReUlCckNkN2tHY0Y4UTQwd2pNNW5Za0lEb1l0MVdSWTljZlVhdVl1T2RzQ1c3RGgxWjdkNDkzaWxFYVBJQnA2WVBnVFpNSXJLemUzVDdSVHF5Z1lHRktsX21PcmRiTC1XMnRwLVRhWTRnMnZXdGNkNUJhLXlmaG15TVZxQ2I5bXZCck5FWUpCUHc1YzRMZHJCRFVmd1ZVT3hPbDdGQ2Vjd3hwejM0Ui1PeW9hc1NkRThZZE4tQll4eVJ2aVhMVS1acV8taTN2d1BuZ3FjNkVYYWE4b0ZDc1l1Y3NqLUNPaHU2UV9z?oc=5",
-          "pubDate": "2026-06-22T22:04:00.000Z",
+          "title": "Finalizan escrutinios municipales de la segunda vuelta ¿qué sigue?",
+          "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOWmdIbUxkenVBcHhDWGxyRHlCV3NxM1dDdW13VlUzOFBsUnlucmxYZXdlUk9NQjNRMUJ1N3V3bGhXSTJFNS0yamJUdlM4dmV3b01lN3dZNW5jeWIxWkZkdDRzWFo2UEoycVp5YjF4Z1FQMlU0dzJaZmFsT0dQZHllY2hwVnhqMUNDdklaa0ZvTHYtSmJJNFVKekJOVGRUV2JHOFphVWx1VU81RUh4M1FOaklBWnQ2VzNBYzUzTkdES19HRWdPNTBpTmlhRXRnVktMZ19NRFh4VWd0UE93cndlcjc0WDFRdmFidGNld1ZxQnl0WjFXb2l3ZXBNUm9kWmhzdmR0QXBvdTlSVXJ4cmlzOFlvODdlRTh1TkMwYjloRWltY2NFaEh1Y25R0gGqAkFVX3lxTE5aZ0htTGR6dUFweENYbHJEeUJXc3EzV0N1bXdWVTM4UGxSeW5ybFhld2VST01CM1ExQnU3dXdsaFdJMkU1LTJqYlR2Uzh2ZXdvTWU3d1k1bmN5YjFaRmR0NHNYWjZQSjJxWnliMXhnUVAyVTR3MlpmYWxPR1BkeWVjaHBWeGoxQ0N2SVprRm9Mdi1KYkk0VUp6Qk5UZFRXYkc4WmFVbHVVTzVFSHgzUU5qSUFadDZXM0FjNTNOR0RLX0dFZ081MGlOaWFFdGdWS0xnX01EWHhVZ3RQT3dyd2VyNzRYMVF2YWJ0Y2V3VnFCeXRaMVdvaXdlcE1Sb2RaaHN2ZHRBcG91OVJVcnhyaXM4WW84N2VFOHVOQzBiOWhFaW1jY0VoSHVjblE?oc=5",
+          "pubDate": "2026-06-23T12:13:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -52,38 +74,24 @@
       "color": "rose",
       "items": [
         {
-          "title": "Una mujer que viajó desde Estados Unidos para retirarse biopolímeros murió en un quirófano de un prestigioso centro comercial de Medellín",
-          "link": "https://www.eltiempo.com/colombia/medellin/una-mujer-que-viajo-desde-estados-unidos-para-retirarse-biopolimeros-murio-en-un-quirofano-de-un-prestigioso-centro-comercial-de-medellin-3566201",
-          "pubDate": "2026-06-23T04:10:07.000Z",
-          "snippet": "Paula Andrea Beltrán Sandoval viajó desde Nueva York para retirarse biopolímeros de lo glúteos en la Torre Médica de El Poblado.",
+          "title": "Barranquilla: sin acuerdo con ‘Los Pepes’ y con ‘Los Costeños’ dispuestos a someterse; el proceso de paz urbana que heredará el nuevo presidente",
+          "link": "https://www.eltiempo.com/colombia/barranquilla/barranquilla-sin-acuerdo-con-los-pepes-y-con-los-costenos-dispuestos-a-someterse-el-proceso-de-paz-urbana-que-heredara-el-nuevo-presidente-3566407",
+          "pubDate": "2026-06-23T16:50:00.000Z",
+          "snippet": "El delegado del Gobierno, Camilo Pineda, aseguró que una de las estructuras criminales del Atlántico mantiene su voluntad de acogerse a la justicia.",
           "_priority": "ALTA"
         },
         {
-          "title": "Este es el escolta del líder de campaña de Abelardo de la Espriella en Medellín al que se le incautó un arma sin papeles durante los escrutinios",
-          "link": "https://www.eltiempo.com/colombia/medellin/este-es-el-escolta-del-lider-de-campana-de-abelardo-de-la-espriella-en-medellin-al-que-se-le-incauto-un-arma-sin-papeles-durante-los-escrutinios-3566285",
-          "pubDate": "2026-06-23T03:22:42.000Z",
-          "snippet": "Los hechos ocurrieron durante el proceso que se adelantó en Plaza Mayor en la noche del 21 de junio. Las autoridades le pusieron un comparendo.",
+          "title": "Suben tarifas de energía en Atlántico, Magdalena y La Guajira y críticas al manejo de Air-e intervenida crecen en pleno tramo final del Gobierno",
+          "link": "https://www.eltiempo.com/colombia/barranquilla/aumenta-la-energia-en-atlantico-magdalena-y-la-guajira-antes-del-cambio-de-gobierno-arrecian-criticas-al-manejo-de-air-e-intervenida-3566356",
+          "pubDate": "2026-06-23T16:12:29.000Z",
+          "snippet": "La Liga de Usuarios asegura que la intervención no logró estabilizar la compañía y pide al próximo gobierno inyectar recursos urgentes.",
           "_priority": "ALTA"
         },
         {
-          "title": "En imágenes | Momento exacto cuando sicario atacó a una persona durante protestas en Cali tras segunda vuelta: fue captado en transmisión en vivo",
-          "link": "https://www.eltiempo.com/colombia/cali/en-imagenes-momento-exacto-del-sicariato-que-dejo-un-muerto-en-medio-de-protestas-en-cali-tras-la-segunda-vuelta-fue-captado-en-transmision-en-vivo-3566223",
-          "pubDate": "2026-06-22T23:39:57.000Z",
-          "snippet": "Las autoridades señalaron que el presunto responsable estaría en las manifestaciones.",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Escolta de un miembro de la campaña de Abelardo de la Espriella en Medellín portaba un arma sin permisos durante los escrutinios en Plaza Mayor",
-          "link": "https://www.eltiempo.com/colombia/medellin/escolta-de-un-miembro-de-la-campana-de-abelardo-de-la-espriella-en-medellin-portaba-un-arma-sin-permisos-durante-los-escrutinios-en-plaza-mayor-3566232",
-          "pubDate": "2026-06-22T23:17:02.000Z",
-          "snippet": "El hombre no tenía contaba con el salvoconducto para el porte del arma de fuego. Integrantes de la campaña de Iván Cepeda denunciaron el hecho.",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Piden frenar nombramientos en la Universidad del Atlántico mientras avanzan elecciones internas",
-          "link": "https://www.eltiempo.com/colombia/barranquilla/piden-frenar-nombramientos-en-la-universidad-del-atlantico-mientras-avanzan-elecciones-internas-3566233",
-          "pubDate": "2026-06-22T22:25:35.000Z",
-          "snippet": "Exrepresentante estudiantil solicita al rector (e) Rafael Castillo abstenerse de realizar contrataciones durante el proceso electoral universitario.",
+          "title": "Becas para educación superior: Aún hay tiempo para aplicar al fondo 'Cartagena 500 Años' para estratos 1, 2 y 3, con una inyección de $ 6.700 millones",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/becas-para-educacion-superior-aun-hay-tiempo-para-aplicar-al-fondo-cartagena-500-anos-con-una-inyeccion-de-6-700-millones-para-estratos-1-2-y-3566380",
+          "pubDate": "2026-06-23T16:04:42.000Z",
+          "snippet": "Conozca la red de 21 instituciones de educación superior que hacen parte del proyecto y abrirán las puertas a los estudiantes.",
           "_priority": "ALTA"
         }
       ]
@@ -98,9 +106,16 @@
       "color": "cream",
       "items": [
         {
-          "title": "Presidente de Chile asistirá a posesión de Abelardo De La Espriella",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMlY3ZVRTc3A4ZnppVFo0aUs3bWF6QUNManZ5Z2NlekdjaXk3VUVyMmgzcEZLTkM3R2Zid0Fqem5sTXJfZ3RBMHp2azRzNUs2aHJJdDlLVTVFRjFTWFlKYTFhaXNlWjlHUzlERERleUtzVVNUZ19CWEJXYUhzTmhxbVJiOTRudE1FbWI0XzMxZWNaV2M4R1ZnWlpRVkVRS1QtVlBCLWRTUdIBtAFBVV95cUxOTHFxU1RUTkFkckpHUXIwVi1LTFFnRUtNSXZVbElheDJHbXRXcXlKV2NUbjBNdF9rcnZ1dkZIdzZkOE5LRXRVVHBQRUo3eXVBUndvc2RyMGVKNWRvV2VNTjZyMkR5MWhGUWhXdVRmQ1hVRTZCWW54cjNsdlZsRlBsT19XOFZ6NmlQSzBFMXdKazVsSlZidzU4NExzU2FsS3FZdUdpV3NvTUdmNlB2cVNwdmZrY04?oc=5",
-          "pubDate": "2026-06-23T02:25:44.000Z",
+          "title": "Gigante tecnológico Oracle despidió a 21000 empleados: esta fue la razón",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTDU1M2dISDhhMGtfbXUyWU5aM3VDeGhlM043bk1ZTms4bUc4YUJfZU5WYTh3dUZkenNVOGhxdkhGY0NtalMzRkdsSUduRzhvTHE0Q2JNZXU0TGJHczVBSjRYZWxwNS1oUW1fT1RIb1JKb2pBVFRrNFcybElpeDRrTEZVdHUwRHgtaWJTM1BRN1dfakMxY0t2c2NHNTdUSlZ5TGx6Q25KNXRCQVc2Qm9tNlV30gG_AUFVX3lxTE05TzlPMG53QURackVnWVJ5MTh5QVdhOHE3QTFtaUItQ2ZhNWRZTVZsaTRjWU5hWDdFMkFPcFhaYmg1dWlfN3ViRE10REFkRXZPQ3R5YXN1V2ZTY0JfLXFmdjVzc1BmdVlmUDJiaHJCVjNYbWN0UVQyV0pRazVfUnNPN2VscHRqLXRrQXBpRGV0Rm1DcnY3dDl6Y0ZVazNTeV9vSXRsaGtWV1hSTDdVZDc2d0hFbGpIQkVFNFoxcEY0?oc=5",
+          "pubDate": "2026-06-23T16:13:29.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Alcaldía de Barrancabermeja denuncia contaminación por hidrocarburos en ciénaga El Llanito",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcnZTdlVpbm5pcnk2V1p0X2VtZVN4T2ZMT3VOTjY0eWphTzNEd0VkNWFFblFpajUxVmRsRUN2WmZEMjQtTHluYk5YRkI3U3B3MjFrTzlyWE1YNjVzUnNzZU5jb0dNeHpEb19xbF9JUHJ1aGg4NlZDUXJsUFNZTlkybDNzSk4tX2lrNnBiU01TSVVuTTF5MXNlY0xxbUpGZmFTSkNpWEU4d0VoMURlWl8wOTFpa1NGNWN4czJXaE94aTRMUjNtbUV1REhmR1V2R3JvdWUxU2pfSVQ?oc=5",
+          "pubDate": "2026-06-23T15:31:31.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -111,25 +126,32 @@
       "color": "mint",
       "items": [
         {
-          "title": "¿Qué pasa si la Selección Colombia gana, pierde o empata contra Congo? Esto necesita para clasificar",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR3RYYWR0aDlkWjdVS1ZyTmJDXzRJWlA5ZnBUVndWLW9CWkJwcmxqR1p3VTBsbHVCZDJVT1B2cHBuQmZNTk5IQlZGQmQ2Z0F1OGx4YjV5Nld2cnRfTVp2NXJTV25yNDVKNWxLalA2a3VHbGtIVE1pMzI0R0xkRUZKTFhpSVFteGxsaUc3NW16M0pGUnlNVGtQM29DcTQ0UVV2a1Y5RkNINi0yWU90d0lIWXhuSGVrdDNfeUw0TWVpWEVpdUVpM2Ntd0F2V3fSAeABQVVfeXFMTkx0VWZIckdSbm1lalJrNi1NUm9zOUMzUC1PWjktMjhDblZVSkthZGRNN2k1eWlwZkJ6Y0tmUEhkYl9nOGJTM01RbUZlVl9WUGFIbWQycFNKX0ZUR2lyb3FXXzhmcjlxeUpoMWlNT2hXYk5yd25tOU5DRWVWMVFpNlV3YjFzRDJtbDhzZHJOSUVLNEhoZUxmcXczaW1wNWdlQjd3MGYyY2tXM2I1bmpsVUVLbVFwTVRkNmRiMW9JN3A1QWFNNXphY2RXNWhwX2NMZ2syLVBWRmF3SUxnaVN3VXI?oc=5",
-          "pubDate": "2026-06-23T02:03:33.000Z",
+          "title": "Familia de hombre señalado como cabecilla del ELN niega vínculos con la estructura",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbHZFYjdLbTlQWjhZWVdhYWVhVzNGa2JYdnNpUlZNTm5qcXZoWUI3emtJbGpyaTVfYzZGdWVoa09MVl85TURGRUZic2tEOWloLVVYb0RmeTQ1eVl3TVdSLTBoTVlpbzJVOHlDWGtsTG1sZjRvUTU0Z1dWaXdXSWN1YWx5MkJ5dDNicGpyeWFpUlpQNWtBQ1VXdW9hblBISXE2SklRYmJkOVpndDJCbDZVLU1oZUFxcTRo0gHMAUFVX3lxTE5XbkUyendVeG83TE5jeVhOV25tb3lkcnNNTDNKUlc5QW80Z0c2aGtKUTl2OTZnZlVYdmM3UXRMcVRGcW5MSWg4R25YclBLaDE3Z242enZhTWpsc3czX09NWTdYczZjR0tSMmVmUmt5SE5VeTkzbXFTb1ZzVWdROVFMZW05a3lGby1qNFptTjNjMTRHWkRlS2t3cjBvbE5FM0IzRmVwdXFjT214TDhCdDdGSGNOdC10dllpb0F5RWwxaXB4c0RGeXctVm1Beg?oc=5",
+          "pubDate": "2026-06-23T17:03:03.000Z",
           "snippet": null,
-          "_priority": "DEPORTES"
+          "_priority": "ALTA"
         },
         {
-          "title": "Erling Haaland lidera el sufrido triunfo de Noruega sobre Senegal: resumen y goles del partido",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVVYyRnBnVVk4M0Vxd25heHI1N1l6R0liWkJsT1JDMWh0RmZHaFhQTm9yWGVzSHU0ZG41TF9IVnFiZEFNUDVWNEI4RTZQZEdJaTZaNHAwUEl5WGRyWmxDUERZMkI5cTZ6Qko1UkVUY2tPNHVBVGtXcXcwcXd1MUFRR0p6QzlpZGpkamVMaWwxUzg3RWlweUtKem51WG10X1F5QzNsdDVtaXBvMFpiVHBvaHlEZnQ4NEc3dzNmWm5XakEwNU12NnZoTzVmZjhhQdIB4gFBVV95cUxQempVclVlb0lQSlRvbUlMdG5xUFpaS2xHVkNYNmpsY21ZaG9fUkwzM1BZQXdqblROZUJLWHl2VG81a0Q5QkF2OTJwZEJIWlEzMWM5dFBuZzRfazN0Wll6UVJ0MDB5UWpVaUs1MlVrOUVBcmxIVjljaUZnaHFGUERLUWpfMDFrcnZUdEljTnVuU2ZJOGloa2xvNDQySk1pNHFHUGRsc21rNTA3OU5pY2RMdkxxWnhPcTd5cWxNTUNUV0lxYkxFaFBWZ0twNzVudzA0RmF2MjNNRnlLVWlFSmxwRFFR?oc=5",
-          "pubDate": "2026-06-23T02:18:34.000Z",
+          "title": "Este es el tarjetón para las elecciones atípicas de Tunja",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTFhHb3c3Uy14eUJibGNGNjJ1ZFZTUXR1Y2RIMUdILXJsempWdlZ2bEdCNk5ob1NGRnluX2loTm1xSGlndHgybi0xbU45YWpXN2VCVzAwSEFEUzM2SFpqUjZCR0VtTkNzdGR6TjJ3TWp4VFhGT3VDTXVTSS1CekFyRG1HczEyb3JjWjVyLWxkWFZZbTkwSWJZ0gGrAUFVX3lxTFAtaWJ6bGVUQnR1U3VaOGdNZmRpODJIMXJpdFA0ZWhUdHRUQy02aENucHIzUUZwUVRSMDZTblZQb0VRVG9NWHRYU2MtTE1vaWF4WEdkQnQ4dTkzOGpsZTNSdFZJQ2Q0UlFaYkRzcDJKNGlqY1dPSUhTU1lLcnk4TnB1WUdYZ25RSXoxTDlhM3ZJWk9sSUZPLXd5Ml9EeUVkbHVIbkRfcDVLRHdxYw?oc=5",
+          "pubDate": "2026-06-23T16:56:12.000Z",
           "snippet": null,
-          "_priority": "DEPORTES"
+          "_priority": "ALTA"
         },
         {
-          "title": "Francia golea a Irak de la mano de Kylian Mbappé: resumen y goles",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMHg1U2d2SkRJaE8wY292MlVTaDdtMmViU04xTnQxSlljWjhlX2tyZFY1bU9OOVhzcjFfRk5RZU9lY1dyd1FGODNWRThZZUtBZmtZWWhYcGk0WUlla2tPNDBxVWRyTHNlYUhNNUxBYlRoWlpnVVlKZW5UVzZWVDUyUDM2MGxSeWh5SWVONnVmbzRKbGxUd3FQUXlmM3dQa2RiUFZCTW93Z0xnd2VVc0w2aWxMdmhHZkdKcjNkRWd4NkZwWWty0gHYAUFVX3lxTE03Ym5tcmRBdEhiMVM4alRGR1B5OGZvRXkyVXlMbVRFMUJxaUFua3FUaGpDUUMwUGhlbjkzd3Z0UEkyUXdEM3VPSzhQOXBjY245eW80NVd6U296bEFZUng3Um04MGRveEZSMERGdmR0ZndIYmRwc3BjaVdXZjRDSDFDRFNKeWFuVUs2SS1qNFVMd0dhOFd3c09Bb1pxcFdOQ3lVa3g4cE01cml2bUFQTzhOUEdZTHpzWk13WHRtYlp1eGhWdXlqdVQ3WUhPT1JiQ2pFMHZKSWpvdw?oc=5",
-          "pubDate": "2026-06-23T01:28:33.000Z",
+          "title": "Incautado contenedor con calzado falsificado en Cartagena",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdXpDRlFlMWkyd2NKTmdhR2cyX0ZJMXNxYjJ5aTFZMUhxc1A4SnVjNUhGNVdxcVA1ZjR5dzNISTF2d2dIZzBtbXBYV2RjYWRDcmh0WEJqTEtBb3RuYWJTaVRFb2pWLWdFQ2tncVQxN0xYS1RTdkNBOFNSdEZzVzdLYXpmemdKckZJYTlWM3JiTVdVRUV1VEdz0gGrAUFVX3lxTFAweEFBa0p5aEZpWERLTFl3ZUxFOHdVQlRPTzNNcS03ZloyUWxCdUdhSVljT0tnUmZZOGRYYmVYLUFpQWVaRHdDcnAwTzhZT1phWFBSQlVZdU5zbUktcnV1Y0NkdVBHRzBCdGpOUWVRX2ZJMDU1R2JoMW45TUJPYXhieHlyYmk2QXNXRHUwVmg5WU1PNVg1UTVtcWZNRDJuaVNPT3ZLU0thbE5GUQ?oc=5",
+          "pubDate": "2026-06-23T16:14:13.000Z",
           "snippet": null,
-          "_priority": "DEPORTES"
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Docente pensionado fue asesinado en una negociación inmobiliaria en Medellín",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ3BmcWtOVWJpeTE0bmtyclhwbGZrSFhqd0pwdDkxWVJtMXoxUHIyVTY2LWY1dTlyQUt4eFc5emxrcWRpWEpiMUFnUHFHSWVGZlVHeE9hNHFqWEgxX29aNVB3dmdua3IxYVRneXBNeXZweS1DSFR0ZFBMbVRKOU1xMXM4ZDJmd0Z1MFZyWlI3VFFsOGZPQmdXOTlIbnh5OFd1dnFmajhKOGlvSlBxZVZCZ9IBxAFBVV95cUxNV21VSHNUMkw0eUJKenZSZ3gxejF4VDM4VmZFdERLc0RQQXFCeXEwYVRCd2ttdXBMcjRFa1dKVHA0aG5vQ1gyTXEwSTBSbk5zUG9rUzZIeW8xUEtjM0tqUFhDV0c0NWdDWnJGSk1KSHVsMFc0TVFHbUwxVUdNQ1pabjM4SlBvUnVzRThoZGFfRHc3akQ5M0FSMllzNGowVU9fX2p0RXlaN2p2RG9Bbi16b09XYWIxWlRub3pWV1MtZDZ3d0Rv?oc=5",
+          "pubDate": "2026-06-23T16:12:49.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -138,23 +160,16 @@
       "color": "grey",
       "items": [
         {
-          "title": "Embajada Británica anuncia ofertas laborales con salarios de hasta 6 millones: ¿Cómo aplicar?",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY1FTMVl4aml3cFFNZHNTYWd6YlY0bzZnaUdfV1Bwck9mbmlaaHJlVkV3NGhMV3J3blUwN25pek8td3ZNcnFIWWwtTm5sYmpiREc4S3dmOF9UTlA1bXFYZGk5TjFPRDlXMmYzWUxLN1pTM19vVUhQZmVKdUx4bXZLb0VFSmhpemNieUJnVjN4QTE4WVhONVNGVVZYMllPaXJ3NGZBd2M5ZVpuRVVqUWhZekNJT0xOTGRFalVaNkFtaE9Fd29fM3FYVQ?oc=5",
-          "pubDate": "2026-06-23T05:43:58.000Z",
+          "title": "¿En qué puesto quedó Colombia en el ranking mundial tras reducir la jornada laboral a 42 horas semanales?",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNY2RteGlDbG5MX2NfZnNxRzlVVXh4YzJ4ZktKME43Xy1XLXc0STBHNm5HeXRTV1RLUmZPZEhSN2xNMERKem5GUlAtUGUta19TbjJUOEg4UUlGblFhZm1LYjd4YXlHNlhvYmlmazB4QlJEcDFnRUViSzJaUnl3eGtDeFJWWnF2RmRmTkY3TG9IektueHY5NXpobHNrVTJvOWtmNGU3ZEVHQV9XYjg2WnJFWmhFSko1Z3JXSExVcmtaUmhWVkpXUXhQRFRiV3BnblE2X0FDNjh3a0gyZw?oc=5",
+          "pubDate": "2026-06-23T16:56:55.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "DIAN 2026: así puedes consultar si apareces en la lista de deudores morosos del Estado",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN3R6elVSSm1qeWczQWZONndIMmVtYnhRY2NHQWxIY0F5TlExUkFrZVVTenRzM0RhWGEtVzFoUUFUUW54LUFPaDhFV3phUTByN2djYWlGbXMyclA5RW13QVFGUEJ6VFFva0g5MHNMaUVvUXUtb0JFR1JCemhhQWlld3JPMWYtTjFOZDFkVWozTk5XaF9Kbk03aWRsOFF4MUhqbDRtY29VbnVkV2NLbE5BQXB5RVpiZXZWTU1kZkJnelJOdw?oc=5",
-          "pubDate": "2026-06-23T05:42:07.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Taxistas en Colombia enfrentarían ajustes en 2026: estas son las nuevas medidas que empezarían a regir",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaDhrVENOM1JHdFBhNGItVEFoNW1QWjM2RlNUdDAwNk5nQ21pR0J5STRacHEyZFMtTHotbVFkbExkRTE4OUJKV1Z2MTRNWFJMYkZTZzZlaXlRbzJRWXBEcm9hSDBYT0k2b09BVklzaHphSlBzN1k0cDdQWlJLWmFDejF1YURBQWVmT0Y4ZUtRdU94TWhyanZTX0VLeXNSdURGa1hIUU9STEc2MDU3VkNyTnQtVV9ZaWItLXQ3VkZQd0dCRlRsRUNmbDVkbzQ1QzB2OEh5dWJFcw?oc=5",
-          "pubDate": "2026-06-23T04:53:45.000Z",
+          "title": "¿Hasta cuándo hay plazo para solicitar el medio día de descanso por votar en primera vuelta presidencial?",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWFpyVS1XVlh4ZWV6U2lMdW9iY1B4eGxLbEdaNFRVRFBhMmdtQ09aeW9acDVUU2k1SDBnMFd5a3dNT01GaWc3LXRxRmJ5YzBTS3JwcHZkNTNQSE9yUGY0VTBidkMwX2tFbnZnWUVMY2p1TlJrd2dQcDZUbnpCbDdkdjI3b2cyMWFoLUdmZWpqLUJhazdYaVR5MU5MSUcxNW9nLVlVZlNVdmFBYlZSZFZNLWhnWVVkMFl4d3NaY1dlcnlOYnF0MHNfa2FMQ2FVaG5MRUwyOXI2aFZ1UQ?oc=5",
+          "pubDate": "2026-06-23T15:23:40.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -165,16 +180,30 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Tras derrota de Cepeda, Felipe Harman vuelve a sonar para dirigir la Agencia Nacional de Tierras",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWkNFYmVRa2lMZi1xNTJBUlVJRFRaMW5WTmlrbjQyTmR3eGNHRFdSMlFfZGtfR2VNRHlBU09DV3FUSGNINml4N3pIWUU3d2JCd2RSOERmTDYzV2d3Q3B4RVJPWVJWQzRXWS05VEpmQ3dIR3dQaFZUclN4QWZPT3RaUTFNNUxyT09sSi1WUi1oa3lKb2hUOGJCV1dPbGpEejVDUF9XNjNvTWRHeGxkVENNV0tIQ1V0NlMwblZDUlYzREw4V1NMM3FCNmdQZmNFTV8tcnUxVHFNRmdiaWk2bjc40gHkAUFVX3lxTE9UY3ZuVUxyREx6Nmw1OVFpS2ZyUDYzYXlKYVdZTTMyY0xZalp1MmFsa3YzTERib1BuUndCZTBLMTZqaDRfMkFDSFQ1ZVctWkdma2k5YnBEVGtyR2swOGZxZDJBazZvc3NRaEo0X2o2LXB0S1I0X1o2SE9DenR1d2VZTzRMbHd5UTBJWjc4WWU1VmVfZUZVal9JcEVXaHRmb2toeDBReTUxSDNVQjhwNFRaRjlUWFA3c1hCVGVHdkJmX2ttUmU3LWVJZHY0Qm5Ra0lzeWw5QmxtN21BbXk4UlhPTWpHbg?oc=5",
-          "pubDate": "2026-06-23T01:28:57.000Z",
+          "title": "¿Ocurrirá un empalme entre el gobierno de Gustavo Petro y Abelardo De La Espriella? Esto se ha dicho",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWklIbGp4UFdRdkNDMGtsQkFYa1Q0WHM4YjB1d09wMXNib0MwME82bFlzVVRfd0g0aFRSM1JjcndlRXlBQ0ZQdXB0bU1iOFBTTTBZb1RUMTB0dnlRZ1kxYno3engwOTdQanY3YVo1M0V4NWpEZllMTHBiWm5ZRXI3REpRX2xkZzVPdXYtQ09Pdi1Hb0wxVkxsRFJicmEycVk1c3JXQW85VC1GSzFOaV9RNUo0TFF2S3RNMjNEU2kzTXZCWVJoMVdJQkkwd0tQUGpEVFlSaGJXX1FFeC1ycFZkdmp3c9IB6AFBVV95cUxQYzZWSzVBNlZNNmZtTEtqWHdhT25yWThWQnNVYWw2VHAxa1lyUVNFeVJfVkg5eHhCYjVuMWZlYlkwVElfMlhGOWZQQnBCMnJCa1NteVNKdzBYRlZIa2cxbG1EQjIwTmVlc1ItMFgzSmpLeGl6NVQ3Q0J0bFByV041Z0c5ZlNKM0FKMXJPa2VmenR2Sm91QmNBVnBqZEE2MXNwMDJiSGRISVQ3bkdFRmV0MUNPRE5wLTVOQ3lWaGdSNFBTSXRDcUZUUzd2SmY5RHRxc3ZySTdsM2tfZ3VlMFdFa0tkWnlZbVYx?oc=5",
+          "pubDate": "2026-06-23T16:41:47.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "EE. UU. suspende sanciones al petróleo iraní y el Brent cae a US$77,5",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcDdlWHhiTzR4dm95REVZS2tTc0xpMnk2Vk1GMWRNVldvSElqbXlRUlMtYW94aTdXQm55RTJhQ3JCQ081X1A1R3hNcTlLWXZFaGxpTjFLM3Y2QW52dnNSZ0R2VjUzR2I4ekJIemloMU1jbWdYSDhZOFRnUEdhVFh1TUJBVEVjLXNXRERmWHJvelJCSWtvWmZ4Z181amo1UTd2Q19wUWNlNkdaMmRyRUVMY1Jn0gG3AUFVX3lxTE0xTHR0cnZ5U3Q1SzJtM25VQ21QVzRwQjBXODNEa3FiTzAzb3pYVHJMQ2w5NEtCZG14bGI4LXgtbVhLM2xBUTBSYVkxRkxRU0oxRkdaT2E1cklxbkk4T0hRNVBCOExub2RaMVFjeDNIUjlrR0JNSTZwZGNlbVdjQlROUng1TjY3bFhQaDFEWjlkaFh4X01qN3htbFlBeUkxd0o0aktiSkN1LVVRb2xVMnkzc3hlZ1JWYw?oc=5",
-          "pubDate": "2026-06-22T21:17:38.000Z",
+          "title": "Triunfo de De La Espriella frena cambios previstos en Ecopetrol y reabre debate sobre su gobierno corporativo",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQaWhKM3lWdjBBaFZldFhla3FLXzlHSXo2QUVRcEJQM1F3bUZwelNscHJueDc4cV9Wc2lBQWh2cEU0RmRqU0E4X1R3dmswTm9YTkJ5VUNIVm1Uc3BQWENfNUFGWHEtam5tX0ptaTJfSHpqNF80d0JIRG1zV3VpYnFjV3JuNERUam8wM1RqcW8xTkh5N2dhYUtieVh5S0s3WC1hZDNRWVFRZGo0UEI3VzItdkJSeDhEYkZRdnJUemVNWEhRM0NUd2ktN1N4V1dpa0dMdDlBbF9tTWEybUJ6YW84T2tES2Z1a21fcllCa1dXSmxzQdIB9wFBVV95cUxPampDQXluOU5DaGozN3psZURTcEU4S1hmWHY5cTJBQmQ3bTZOMHVqWkVRWU5UUm90OC04RlNxVHY5MmFJR2pCbk5CdXdKRlNQc2N5Qnd5SzVrbHhjUmE0b3dRV1RyRjZoamhxTFlTaDd5NEFkMXlKSFYwcjg4Z1dNSGhkMkdqQVpEUXlVQ2gxS2pQT2ZaX1Y5MEJZd2NXQzFuM3hPM0tNMEdIVmNXNmo4SmtXX25oS0h2RW5zNGFiWHplTjZDV0ZMamtobVd0b3EzY3dYVGl4UTZVV29YVVdhV2lhRlRlZ2l4SkxoT1BDOU9peUxNRkFR?oc=5",
+          "pubDate": "2026-06-23T16:16:43.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Claud AI sufrió interrupción global con más de 7.500 reportes en Downdetector en menos de 20 minutos",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOWkdQUFF5RmlCSENyeFRKYllobTNVLWlBOVZyb3RQVS05OWxlTjdDUXBxVWN5dGJQTFRqY254a3hpa1JMRFBic19EZWN0c1JZR0FpNVc0TWplOHRTdmxIRUpmOWMtWExqWW5XbW1PXzgzMXlKMXYtb2JMeGktVGFMX1FxaThwQVo4MGFsZUFhQlpWcldvTWM5NkZZdDBTTFhiUGpuOHFLVVVzSXJMWkVGUk1rU0RyTzdsVFgzM2JUQl9IblVXY0dLdzhVUU83U3VpQy1ESi1vSmpDWDNFeXfSAeMBQVVfeXFMTldCQkJuMmFPQVcwclh3WldMdHRiXzB1U19VOWlzU21BbUpJUWxObmVmSDcteWJxbG1ldTI0V1BFMHRBNmVLYjhoU0NQT043YTNCaUtTMEx4d1lyZWM5al8xbEhLblpFQ2Fxa2FKMUpqeVhCZUp4Nnh6TEIzYzNfR0l1MnRBaTdvSXpwc1llQm5YNVdqcXJfUG02TkM5djNsc3ZUaVRvaUIydkRBN2dkUWFES1p3YmEyVndLRi1ybzBxMFh0ZjU4WWJqRjVpWmJYN3hYWHYwOHc2dG43QWhJU1p4dXc?oc=5",
+          "pubDate": "2026-06-23T15:47:18.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Nuevo plan de austeridad pone la lupa sobre consultorías, estudios y contratos de apoyo a la gestión",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVk5ITFBUUWkzRnI0a0t3akw0MFpEOFFsYW0tcjh4ZFF6ZDc5a1doUG1oOHdJZHdNY2FOV2hsejMzdVBqc2pRTmFlNmRqbU9LQmlIb1BCLW9VVkp5WjJlWnFqSjZhc1h1MzV1N0s4cVFwbHdzMUFnbHFyTFV0UTV6MmppZVlybDhVRXl6ZWtmNFkyN0I4RnIwaC1NLVRtbnp5VE93WkJJakg2djVtSGgxVjNaUE41NXpoMC1oTXd3SGQ2YndudFoyRlpNZV9SUEZMZGxxeFIwUl_SAd4BQVVfeXFMTVF3ZWRrVUNXdUk4aUd3cE5lQzc2Y0NWZE52dVdjeTFqVTlEbFpLR2s2NXluZXRkVEZNZnZEUV9wTjk4aEI1SWFYMnhoTldEeGhITzdJYk1QY211ZHZlZUdUeGZQb0JVYTVMOHFrTVloSFBvSzhTdEdlVjdlcTVaSHdhZ1pDYWpUOWE4cmpHQTZsNG9aLW9tY1pjSUVMdWl1Rl9uR1JtNE93Z3JaVndZMVNRb2FzTThyTm5nSTRfMmwtVUJQQjVmUWtnRURRRHdDZEV0bFRtMlloNGg1RnB3?oc=5",
+          "pubDate": "2026-06-23T14:43:51.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }

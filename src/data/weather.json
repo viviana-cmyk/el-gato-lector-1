@@ -1,67 +1,67 @@
 {
-  "generatedAt": "2026-06-23T10:00:56.426Z",
+  "generatedAt": "2026-06-23T17:28:51.543Z",
   "colombia": [
     {
       "city": "Bogotá",
-      "temp": 12,
-      "description": "Nublado",
-      "icon": "☁️"
+      "temp": 21,
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     },
     {
       "city": "Medellín",
-      "temp": 18,
+      "temp": 26,
       "description": "Nublado",
       "icon": "☁️"
     },
     {
       "city": "Cali",
-      "temp": 19,
-      "description": "Llovizna intensa",
-      "icon": "🌦️"
-    },
-    {
-      "city": "Cartagena",
-      "temp": 26,
+      "temp": 24,
       "description": "Nublado",
       "icon": "☁️"
     },
     {
+      "city": "Cartagena",
+      "temp": 32,
+      "description": "Tormenta con granizo",
+      "icon": "⛈️"
+    },
+    {
       "city": "Barranquilla",
-      "temp": 25,
-      "description": "Mayormente despejado",
-      "icon": "🌤️"
+      "temp": 30,
+      "description": "Tormenta",
+      "icon": "⛈️"
     }
   ],
   "mundo": [
     {
       "city": "Nueva York",
-      "temp": 22,
-      "description": "Nublado",
-      "icon": "☁️"
-    },
-    {
-      "city": "Londres",
-      "temp": 26,
-      "description": "Despejado",
-      "icon": "☀️"
-    },
-    {
-      "city": "Madrid",
-      "temp": 31,
-      "description": "Parcialmente nublado",
-      "icon": "⛅"
-    },
-    {
-      "city": "Tokio",
       "temp": 20,
       "description": "Nublado",
       "icon": "☁️"
     },
     {
+      "city": "Londres",
+      "temp": 33,
+      "description": "Despejado",
+      "icon": "☀️"
+    },
+    {
+      "city": "Madrid",
+      "temp": 39,
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
+    },
+    {
+      "city": "Tokio",
+      "temp": 18,
+      "description": "Nublado",
+      "icon": "☁️"
+    },
+    {
       "city": "Ciudad de México",
-      "temp": 15,
-      "description": "Mayormente despejado",
-      "icon": "🌤️"
+      "temp": 21,
+      "description": "Llovizna ligera",
+      "icon": "🌦️"
     }
   ]
 }
