@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-06-23T21:50:01.770Z",
+  "generatedAt": "2026-06-24T00:51:21.206Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Comandos de la Frontera",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/comandos-de-la-frontera/",
+          "pubDate": "2026-06-23T22:31:57.000Z",
+          "snippet": "Comandos de la Frontera Los Comandos de la Frontera son un grupo criminal colombiano surgido en 2017. Nació de una alianza criminal compuesta por disidentes de los frentes 32 y 48 de la antigua guerrilla de las Fuerzas Armadas Revolucionarias de Colombia (FARC) y miembros de La C…"
+        },
         {
           "title": "El Makabelico y la banda sonora de narcorap del Cartel del Noreste en México",
           "link": "https://insightcrime.org/es/noticias/el-makabelico-banda-sonora-narcorap-cartel-del-noreste-mexico/",
@@ -28,12 +34,6 @@
           "link": "https://insightcrime.org/es/noticias/podria-eln-ser-proximo-objetivo-venezuela/",
           "pubDate": "2026-06-18T19:05:54.000Z",
           "snippet": "¿Podría el ELN ser el próximo objetivo en Venezuela? Tras la muerte del líder del Tren de Aragua, alias ”Niño Guerrero”, en Venezuela, surge la pregunta de si el ELN podría ser el próximo objetivo de operaciones conjuntas con Estados Unidos. The post ¿Podría el ELN ser el próximo…"
-        },
-        {
-          "title": "On the Radar: Reacomodos criminales en Ecuador y Venezuela, y  segunda vuelta electoral en Colombia",
-          "link": "https://insightcrime.org/es/noticias/on-the-radar-reacomodos-criminales-ecuador-y-venezuela-y-segunda-vuelta-marcada-por-seguridad-colombia/",
-          "pubDate": "2026-06-18T16:00:03.000Z",
-          "snippet": "On the Radar: Reacomodos criminales en Ecuador y Venezuela, y segunda vuelta electoral en Colombia La captura en Ecuador del hermano de alias “Fito”, la muerte de “Niño Guerrero” en Venezuela y las propuestas de seguridad que atraviesan la segunda vuelta presidencial en Colombia…"
         }
       ]
     },
