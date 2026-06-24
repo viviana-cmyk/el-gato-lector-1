@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:29:26.991Z",
+  "generatedAt": "2026-06-24T17:36:17.620Z",
   "colombia": [
     {
       "city": "Bogotá",
@@ -15,7 +15,7 @@
     },
     {
       "city": "Cali",
-      "temp": 27,
+      "temp": 28,
       "description": "Parcialmente nublado",
       "icon": "⛅"
     },
@@ -47,7 +47,7 @@
     },
     {
       "city": "Madrid",
-      "temp": 38,
+      "temp": 37,
       "description": "Nublado",
       "icon": "☁️"
     },

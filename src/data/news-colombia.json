@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-24T17:29:26.991Z",
+  "generatedAt": "2026-06-24T17:36:17.620Z",
   "outlets": [
     {
       "name": "Semana",
       "color": "blue",
       "items": [
         {
-          "title": "¿Pensaba hacerse ciudadano de EE. UU.? La ciudadanía podría costarle hasta un 75 % más",
-          "link": "https://www.semana.com/mundo/noticias-estados-unidos/articulo/pensaba-hacerse-ciudadano-de-ee-uu-la-ciudadania-podria-costarle-hasta-un-75-mas/202602/",
-          "pubDate": "2026-06-24T17:23:02.000Z",
+          "title": "Corte avala la emergencia económica de Petro por crisis climática, pero le puso límites a los decretos",
+          "link": "https://www.semana.com/nacion/articulo/corte-avala-la-emergencia-economica-de-petro-por-crisis-climatica-pero-le-puso-limites-a-los-decretos/202620/",
+          "pubDate": "2026-06-24T17:30:20.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Caso Natalia Villalba: sorpresivo hallazgo en la residencia donde falleció; autoridades hacen investigación",
-          "link": "https://www.semana.com/nacion/bogota/articulo/caso-natalia-villalba-sorpresivo-hallazgo-en-la-residencia-donde-fallecio-autoridades-hacen-investigacion/202642/",
-          "pubDate": "2026-06-24T17:11:42.000Z",
+          "title": "¿Pensaba hacerse ciudadano de EE. UU.? La ciudadanía podría costarle hasta un 75 % más",
+          "link": "https://www.semana.com/mundo/noticias-estados-unidos/articulo/pensaba-hacerse-ciudadano-de-ee-uu-la-ciudadania-podria-costarle-hasta-un-75-mas/202602/",
+          "pubDate": "2026-06-24T17:23:02.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -32,56 +32,13 @@
           "pubDate": "2026-06-24T16:58:52.000Z",
           "snippet": null,
           "_priority": "ALTA"
-        },
-        {
-          "title": "Néstor Lorenzo dio parte negativo de titular de Colombia en el Mundial 2026: así de grave es",
-          "link": "https://www.semana.com/deportes/articulo/nestor-lorenzo-dio-parte-negativo-de-titular-de-colombia-en-el-mundial-2026-asi-de-grave-es/202614/",
-          "pubDate": "2026-06-24T17:06:14.000Z",
-          "snippet": null,
-          "_priority": "DEPORTES"
         }
       ]
     },
     {
       "name": "El Espectador",
       "color": "peach",
-      "items": [
-        {
-          "title": "Pacto Histórico no presentará más reclamaciones en escrutinios: así avanza el proceso en CNE",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOc052ZHNsNkdrb1J2WGplYldDMFBDMW5ZZHM4OFZ0LUZ6anRBMURoN0ZYSTZtemw0MlpoWF9tbGs1THJzand5U0VoOWE1UFVkLUoxbzl2dUhEbWFxTVdubGF6UkNkUGM4ajJES1hXVW9PaGpUR185LTVwMjgwd2p0LWY1NWY4Y0pHQ2l3aW1mUi1oT2VHbUNGZ3dpaC1RSXREWTJoTzdfdTBUX2VpTnlzU1RtTXVvcTNpODFNZHA3cERXMW5iTHVfaXV1YjlhMzE1SWZiVTU2T2tiLVAwSkZSSTdXT2lHQdIB-gFBVV95cUxNTE03dHRXWmROQkpZcEVkei1CR1k0LTdjbGtDS3JCRWdZanZaY2hST2hFcHVkczB2aHhuNllnaWd4WVA5MXdhQ1poTjlzb1pSVVpLM3NndU9na0ZqOFFUaWtOeEV1TUlTbnhkNE5pMmN2cXBFQ1hkQ0UxYWs4VXBQWXdRZjNqcDhwOEZJZlNWNmpUZTVrcUpPV0FIdkpXZkZBcE1aNTRVNEZBdlBmNzVxaERjZmgxTlplUjktQmtlOC0ybVF2c3ROU1hvdmF0R3cwZ1IzajlYbENWT1FteDlpVmlucmJpSEVHR1VqVmZ4LUY5YmhoMzByVl9R?oc=5",
-          "pubDate": "2026-06-24T14:41:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Cepeda reconoce a De la Espriella como presidente: “asumimos con serenidad”",
-          "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNdVNBWGhlTnJYRlVkRjFvT0RSUHlmTEZ3Y0h2S19CYnVHckJ5eThTVmdJMHQ5N2RINFpqejVlMHJQbTZlMjhkbVl4Mm9RX0RKSlk4RDJBdVhjRDRLSFRhT1dQa2NYdE1iUGtJY3FHMWRmaFQxYjdpTmIwZWIwd0FKa0Rhd1lVQTRZRElLc0Izc0NiaVJkVmJSckxwSnB3NHhuRUpjS2hxbjRpTk12bUZUS0hiWldOQU5kakFuc2t3MzBfYm52Nl9tSXF2Z050QnpydWU4RV9ORGhid2I1M2pxSEFnR0ktdlcta3RCR3pOM3hEUnVLdjFpRjVUR0JhVVRyakJ6QnRKV2dZbGFMbFJkOEtDT0U4LXA5U3FkUGcyb21Idmd6UWfSAaYCQVVfeXFMTXVTQVhoZU5yWEZVZEYxb09EUlB5ZkxGd2NIdktfQmJ1R3JCeXk4U1ZnSTB0OTdkSDRaano1ZTByUG02ZTI4ZG1ZeDJvUV9ESkpZOEQyQXVYY0Q0S0hUYU9XUGtjWHRNYlBrSWNxRzFkZmhUMWI3aU5iMGViMHdBSmtEYXdZVUE0WURJS3NCM3NDYmlSZFZiUnJMcEpwdzR4bkVKY0tocW40aU5Ndm1GVEtIYlpXTkFOZGpBbnNrdzMwX2JudjZfbUlxdmdOdEJ6cnVlOEVfTkRoYndiNTNqcUhBZ0dJLXZXLWt0Qkd6TjN4RFJ1S3YxaUY1VEdCYVVUcmpCekJ0SldnWWxhTGxSZDhLQ09FOC1wOVNxZFBnMm9tSHZnelFn?oc=5",
-          "pubDate": "2026-06-24T14:38:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "De la Espriella alista empalme con Gobierno Petro: así sería el equipo del presidente electo",
-          "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPaTl5dmNGZDYyVmRCakxnb0NuRzZTMFRhWFQzSjlwWWlzOGpMdnJLelpYcTlwRnNMV0tYUVpkR3JvZURxRUxHQXViajF1NEhtcjJWZTQzNHRWZ3VaNmNHS1pIOFVmOGF6M0dGX2dFUi0wV1c4bWhmbk9sVnFVV3hhWTVoX1FLMVRVTVNQdUtVR1ZlNjRoVWRRamdETmFCVHl4U0xDN1N4Qk8zcVd5NGFDdGJ3S2FtOENwZnZXNUZ1Nk9hYWNNcktGMERua19YdFJ1SHdjTE9zM05zb0hHSldQSTNVM0gzaXdfZDQyN2FRdUxkaWY4U1VWWmlaeXVUcE1aWGJicXpDNGRtRW56SXh6LXFtcjlwVGPSAZcCQVVfeXFMT2k5eXZjRmQ2MlZkQmpMZ29Dbkc2UzBUYVhUM0o5cFlpczhqTHZyS3paWHE5cEZzTFdLWFFaZEdyb2VEcUVMR0F1YmoxdTRIbXIyVmU0MzR0Vmd1WjZjR0taSDhVZjhhejNHRl9nRVItMFdXOG1oZm5PbFZxVVd4YVk1aF9RSzFUVU1TUHVLVUdWZTY0aFVkUWpnRE5hQlR5eFNMQzdTeEJPM3FXeTRhQ3Rid0thbThDcGZ2VzVGdTZPYWFjTXJLRjBEbmtfWHRSdUh3Y0xPczNOc29IR0pXUEkzVTNIM2l3X2Q0MjdhUXVMZGlmOFNVVlppWnl1VHBNWlhiYnF6QzRkbUVuekl4ei1xbXI5cFRj?oc=5",
-          "pubDate": "2026-06-24T13:21:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Presidente Petro anuncia que iniciará empalme con gabinete de Abelardo de la Espriella",
-          "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPWDNVWUUxXzRwZXN6c2owbWRjbjJVZjJZSVlJc1Mxc0tsOGozb1BoMEt5OGNqZnJOX2puYnBzckVtRFN2aGhLbkM0UEpuZ1Nua2FQX1VSd2ttZThEYTRKSDBqWS0tY2FIS2RMUjlIckQzY01rTGRlVG1jZUI1WFJxU3NuUUh5QWZnaDVub0xsVkNFTVNZTFBZU1B0S1NiWDNwVXFzbHk4RGR6VE95TDFFRGlZN0Nma19VcFRxSzBUNEdFR3dkelp0X3I0Qzk5dGVONUgzOWprckQ3R2NGb0trRGg5VDRjcXBBYnAtSWlOOGdrWTc3WXI4MlV3VUdwcTdlQzRZcWRzLTJZeV85eUxsSlVQUUVkbnJ5YUpYNkNQRdIBnwJBVV95cUxPWDNVWUUxXzRwZXN6c2owbWRjbjJVZjJZSVlJc1Mxc0tsOGozb1BoMEt5OGNqZnJOX2puYnBzckVtRFN2aGhLbkM0UEpuZ1Nua2FQX1VSd2ttZThEYTRKSDBqWS0tY2FIS2RMUjlIckQzY01rTGRlVG1jZUI1WFJxU3NuUUh5QWZnaDVub0xsVkNFTVNZTFBZU1B0S1NiWDNwVXFzbHk4RGR6VE95TDFFRGlZN0Nma19VcFRxSzBUNEdFR3dkelp0X3I0Qzk5dGVONUgzOWprckQ3R2NGb0trRGg5VDRjcXBBYnAtSWlOOGdrWTc3WXI4MlV3VUdwcTdlQzRZcWRzLTJZeV85eUxsSlVQUUVkbnJ5YUpYNkNQRQ?oc=5",
-          "pubDate": "2026-06-24T11:55:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "De la Espriella ratifica su victoria como presidente de Colombia en la fase de escrutinios",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNMGVxZFRCUFJXV2lfTzhwUk9WaUVBRXpla0dCWGpLRW45b2hteHdYaTdQZXV0SFdUcHJ6cWQzRjV2elRJc1lLNkxhdWhLb1dxdEc0dHBNYXc3Q3lBQXMzNEJEb3hIVVZxRVZub1lWR2VreDRaRGRvWk11NUh5QkhyMUo2aWxtbWRtbDgxVlYzVXhsOFY0WXJXd09xWXBRaGpsS09BbHBHQTJ2ZlVmY2g3T3J4NXl0TkVSY0tvLXVaR25ncEwwZDdYSGtiV0dUS2t3enFyajR3RFZNcTRCeXpyU3VfbF9tbzN2Q3dnbkNyRkEwQnRBcXhtQ0xfNTVhQdIB_gFBVV95cUxNMGVxZFRCUFJXV2lfTzhwUk9WaUVBRXpla0dCWGpLRW45b2hteHdYaTdQZXV0SFdUcHJ6cWQzRjV2elRJc1lLNkxhdWhLb1dxdEc0dHBNYXc3Q3lBQXMzNEJEb3hIVVZxRVZub1lWR2VreDRaRGRvWk11NUh5QkhyMUo2aWxtbWRtbDgxVlYzVXhsOFY0WXJXd09xWXBRaGpsS09BbHBHQTJ2ZlVmY2g3T3J4NXl0TkVSY0tvLXVaR25ncEwwZDdYSGtiV0dUS2t3enFyajR3RFZNcTRCeXpyU3VfbF9tbzN2Q3dnbkNyRkEwQnRBcXhtQ0xfNTVhQQ?oc=5",
-          "pubDate": "2026-06-24T11:05:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        }
-      ]
+      "items": []
     },
     {
       "name": "El Tiempo",
@@ -127,15 +84,7 @@
     {
       "name": "El Colombiano",
       "color": "slate",
-      "items": [
-        {
-          "title": "Un celular perdido y dos pasaportes diferentes: así investigan el asesinato de la modelo Natalia Villalba en Bogotá | El Colombiano",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeDNpUW1NMnd0OHZPSUVGQXV3Wl95Z3I3N3NRbGtrTlVfTmRiZ2NLQWQzWHVRVmswc293cG85dE8tME5GOHdHMlpYSHpmZWxXRXl1Q01QbF95dlluV0pKMk9lT3RfS1hUYlJrblVneXk1VnFaLVlvN1VTWnhvTjJaMVpxcVpkdE9vNEF3aE4xV3pteHp1ZGFsWjdJcV9ORWZZNzNUVWMyV20yQdIBrwFBVV95cUxQT29NODdoRDZKczdvbld3YjkxN1JxNUI0MjM3dWNpdDhyeUVGVjNGYXVlM1I3WmZQbERZLVp5WFRicGEwVl9ENHNia1hJdl90VW8wVTUyRS0td1NiNktTMFBfRUlQOFdkc0RzMzBjZU5ULW4xSVBBTHdGd21QaHF2UjRNcWt5QWd6MTN1U3FDWVZ3VlhSSlNlb0RScFlOdkExOWhZMGh2RE5iR0lTZFQw?oc=5",
-          "pubDate": "2026-06-24T13:57:15.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        }
-      ]
+      "items": []
     },
     {
       "name": "Blu Radio",
@@ -147,20 +96,6 @@
           "pubDate": "2026-06-24T12:26:11.000Z",
           "snippet": null,
           "_priority": "ALTA"
-        },
-        {
-          "title": "Juanfer Quintero cree que Portugal marcará el verdadero nivel de Colombia",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcDFnQnBCd3RfM0xISzM5UXBiY2tDNWJlcUp6YlhnUlc3Y1E2TG4xeHBDYkFkX2s0dTMxME1WcnlTb05pRTRJLWlrS0lQT19VYWZlOG9hTmlBZG9oTWpoUmQ0NG0wTTJIM3B5Q1E1d3FKTVB2aG5mMDRqV2xtWFIxQ3g4WkNYMTJCbWVUTVdrMW5IRlFCVFRVRUJqcGlmSjJ1Y3FFT2xlMXZXSUg3cG5tOFdxUXg5QkxuWjJjdEhtRGtIOGhBTnpvTERKQkkxeldNU1VKTDdwQ0ZrY0w2dXU3cFVn0gHvAUFVX3lxTE5tRmFjTE1OUEUtRVlfeVM2dTFTa0dqRE1MWjljVDJRN0t4YlE4algtOE51dElpVUczdDN3cDNGSnJvOUF3SmlsZmNvZGNCM2dXM2V5WUZtRktCbUlOOEFZTHZVdjd5T1NITV9CelN5SG9Odk81MUJnVDJSVVIzX08wZE05VnJQVXlhZnpjM1Zzb0xCZ1JFWEJPUGpiQTJhdVMxNUpnSVZtLWRub2FDa3FaV3hxNV83alhYajFqSUV2RzdHcF9oSmVDVHlLdTFMMzB4V2RMUXNKbmVYVUpfUExieUUxSTZLWlc4QXJpTnNR?oc=5",
-          "pubDate": "2026-06-24T10:02:46.000Z",
-          "snippet": null,
-          "_priority": "DEPORTES"
-        },
-        {
-          "title": "Néstor Lorenzo destaca el crecimiento de Colombia en la Copa Mundial",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd2U3aVJMbUtSYUlNZl94UHZtbjdFM1JwWDNYM1JJM2JhMmd1aVNDbEduOEhYdXp4a0VuYS1TYVhYa2E4ZWxBVHdXWlFJS3psbUJNMFhMZTJkZFl6aTlWdUlIVmdneGE2elBFRUU2U0twRWs2REpfeGt4YS1DRVZkWm5lVWMzLVVsRk40WnM4WXFoRHdOTlFvNnhWZEhjVHFlZXlyWVZMTFlpNzZxV3JlQlJNWFg2cC1qc1RJOGlLVml2emdCSTZ1X05zM1o2UjhLLWZidFA2QW5lbUnSAegBQVVfeXFMUEJJLTBXaUhMQzhoemtsYzZpQkJuSzhzMl9BN0Z2TE5FN1BJUDBUWEt2LUlteldoMmhCS2kxU1ptWkF4emFpYjdlUVZZRVZVUlhicTVFS1FQYWFaTENSTEw3NXRza1l0aVhnekdBbW9MWW85OS03WVoxX2wxTUotWjlIUktIYzBNV1pfemlNdFhmTV9HZXdfY0VQZmRWaWlEVjRncDJkMUlieWNqZEd4alhndGJ1RXhXTnBiUzRVY29MVGlUcHUxRzYwUjNiTjlzaUd2ZG4tQTVqSnY3dTJFXzhxdFYtS0NXdA?oc=5",
-          "pubDate": "2026-06-24T09:55:46.000Z",
-          "snippet": null,
-          "_priority": "DEPORTES"
         }
       ]
     },
@@ -172,6 +107,13 @@
           "title": "La secretaria de Hacienda, Catalina Mariño, asume como gobernadora encargada de Córdoba",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbVFmenpBYnJoU0RvU0lnX1hZbWZOdXk0d0hpVWhxTmRuOEpKMkVQME5QSEljb2tGQzVNMzQ5eDE2RFJiU1dvVzFhZHVfb0UxSm5hT0UydEJCSmtmM0RXcDlYY0gtbWdPYVFVVGNIaFdNTVZsQW12dkJuamJTUzZvZHAtVTVuZWowRjBhdEdZX3g4UlRCdEQ0a2NLQXVSNGNjNGZCSVZCTTZ1cUptOTZFeDZsQjUzUkV2SHNxWNIB0AFBVV95cUxOV21rRk1wWTB5cWktWER2dEtxS0JDRE9LaFhhMC1FQWNKazh2ZWdTb0RWX2JGclB1a0xkaXplR1FMdURIdjNEN1c0dTQzNTZXUE5WcDZQOVMzUW92T01LRkxmV1c2Nkd3cVJLZ2VHLVluSHFpRWxMclZsTGdfRGh4U3FCWTFtQVU3RG14VHkxSFlsc1NKNEY0VlBqTWZta3RKU09jRjdYcjVXWklRZjJQV1lkSXZpNUFfM1prcVl6N0JLeUpLMTBNRHZoZzA5clA0?oc=5",
           "pubDate": "2026-06-24T17:26:41.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Estaciones del metro de Bogotá ya tienen nombre",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMjk3dmdqX1dTVmsyNU9rZDVjWGJNUjd1QVYtN1ZRRkpxQm1TYzc2emUwa3dvbEV2WjF3SFRqRHVmTGlWWGZBbXJBcnFSWDdkYlBvMDk2X3B1WllIRkNJQWtUSXU0bGQtbnMtS1RxMm9yc2lsWDFPbHduX1plYmt0bmlrMXFVc21WdHfSAZ4BQVVfeXFMUExsMm5aRkJhX0ZJUmRoT25IUW9WbHNKZW1qR2hGN05TZXFRUGtnTDAzbW15TlZoZDFTMXFDc3FQLVRMaENXanBWaG1vTlBHSkdTOGF4UjZOR09BZjlOMF9HRFpNMVpPV296VDJvejByOHlVdW5VSWhKUXUxdUJDNWVWM2l4TXFTWnNRb19GU2EySmdPNVhUcElEaXVVbXc?oc=5",
+          "pubDate": "2026-06-24T16:54:17.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -188,20 +130,21 @@
           "pubDate": "2026-06-24T16:01:09.000Z",
           "snippet": null,
           "_priority": "ALTA"
-        },
-        {
-          "title": "No es lícito someter el paso a pago de peaje: experto por alerta de EEUU a Irán en Estrecho de Ormuz",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNS1Ata21kekVWaGRyanktUEdicDFVTk85MllQUHFMRFhHUDNGbkRIeFdGLTI1T19wX1VXVWxKTFZDOE4zTUNEcGlYM1lxTTViQ2NucFlmYW02bUdhS2dIcmdsb0hkazZJcldCLUVjWTJWQUp1RTFtckpSNzdSczhremQ0cEYxTW8zcklGN0xTM0dTdHRRWm9adTQyazRwR0VJRjZsY3haRWVSUVYxd2xubjRoOExTMVVjdGF4NTZjSEMzSUFwT01LNm1PYzRyajQ?oc=5",
-          "pubDate": "2026-06-24T15:44:22.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
         }
       ]
     },
     {
       "name": "RCN Radio",
       "color": "grey",
-      "items": []
+      "items": [
+        {
+          "title": "Mundial 2026: ¿Dónde ver en vivo Escocia vs. Brasil y los partidos de hoy 24 de junio?",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNHhyNFp4Vk1pbVZEQmh0T1JpNXpKTnl5WWJfZEdaaUV4cFFIbWZMQXVraDREdDYtMFZDeXhQMHJhTUR1WmFwSnBybjVwaWRZVW1TMnU1T3BlaGwtWjgxQkRGcS03Y05vQUlxX3JUckdjNXpocU1STXczYXFBVDZTOEt4S2t1Vl8zY21DOGYxWV90dmttMHNpMDZVV214cUgyTkg3V25OYXM0ZFJ6bGItWGREcWRodWxhZDJPZDQySU8?oc=5",
+          "pubDate": "2026-06-24T14:42:22.000Z",
+          "snippet": null,
+          "_priority": "DEPORTES"
+        }
+      ]
     },
     {
       "name": "Portafolio",
