@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-06-24T10:01:27.850Z",
+  "generatedAt": "2026-06-24T17:29:26.991Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Yohan José Romero, alias ‘Johan Petrica’",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-venezuela/yohan-jose-romero-alias-johan-petrica/",
+          "pubDate": "2026-06-24T15:58:55.000Z",
+          "snippet": "Yohan José Romero, alias ‘Johan Petrica’ Yohan José Romero, alias “Johan Petrica”, es el líder del grupo criminal dedicado a la explotación minera en el sur de Venezuela, el Sindicato de Las Claritas, así como uno de los cofundadores y líderes originales del Tren de Aragua, una o…"
+        },
+        {
+          "title": "The InSight Take: Colombia gira a la derecha con Abelardo de la Espriella en medio de desafíos de seguridad",
+          "link": "https://insightcrime.org/es/noticias/the-insight-take-colombia-gira-derecha-abelardo-de-la-espriella-desafios-seguridad/",
+          "pubDate": "2026-06-24T15:16:41.000Z",
+          "snippet": "The InSight Take: Colombia gira a la derecha con Abelardo de la Espriella en medio de desafíos de seguridad El ganador de las elecciones presidenciales de Colombia, Abelardo de la Espriella, prometió poner fin a las negociaciones con las guerrillas y desplegar a las experimentada…"
+        },
         {
           "title": "Comandos de la Frontera",
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/comandos-de-la-frontera/",
@@ -22,18 +34,6 @@
           "link": "https://insightcrime.org/es/noticias/dos-extremos-opciones-materia-seguridad-que-se-enfrentan-votantes-colombianos/",
           "pubDate": "2026-06-19T16:59:27.000Z",
           "snippet": "Dos extremos: las opciones de seguridad que enfrentan los votantes colombianos Iván Cepeda y Abelardo de la Espriella llegan a la segunda vuelta presidencial con propuestas opuestas sobre seguridad, drogas y paz en Colombia. The post Dos extremos: las opciones de seguridad que en…"
-        },
-        {
-          "title": "Tercer Comando Puro",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-brasil/tercer-comando-puro/",
-          "pubDate": "2026-06-18T21:08:01.000Z",
-          "snippet": "Tercer Comando Puro El Tercer Comando Puro (Terceiro Comando Puro – TCP) es una poderosa banda criminal de Brasil dedicada al tráfico de drogas, armas y lavado de dinero. The post Tercer Comando Puro appeared first on InSight Crime."
-        },
-        {
-          "title": "¿Podría el ELN ser el próximo objetivo en Venezuela?",
-          "link": "https://insightcrime.org/es/noticias/podria-eln-ser-proximo-objetivo-venezuela/",
-          "pubDate": "2026-06-18T19:05:54.000Z",
-          "snippet": "¿Podría el ELN ser el próximo objetivo en Venezuela? Tras la muerte del líder del Tren de Aragua, alias ”Niño Guerrero”, en Venezuela, surge la pregunta de si el ELN podría ser el próximo objetivo de operaciones conjuntas con Estados Unidos. The post ¿Podría el ELN ser el próximo…"
         }
       ]
     },
@@ -78,12 +78,6 @@
       "color": "yellow",
       "items": [
         {
-          "title": "APEC, ASEAN and the Art of Alignment > Annual Meeting of the New Champions",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQnhvR2tnbU43bVgwX09GRlJBSWN5QUtoOUV6LUVKa0ZFQkZTTzFDOGYtMk1pQjNSaklJY3pzT1ZFakRVRlRoRktIWU05TWtjSExSOVlaeDJSbzczMzc4WVVGQ2h0TGZScDN0V0xNdnVRNUw4TzRGMDZJRVRvN19OTnlVMkZ5ZDQ3TFI3NmpTRFFvRFlJem5NSFlIZ3NiN2w4U2RpRVZJYmU4dEZsX0REY3RHdk5ZdS1TcEE?oc=5",
-          "pubDate": "2026-06-24T06:50:04.000Z",
-          "snippet": null
-        },
-        {
           "title": "AMNC26 Day 2 - Adam Tooze on Premier Li, and other upcoming highlights",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GbXJ2MTlZT193Ti1qVEhFQzFKeGVsYXlnOEJ5UFRHdlRKQ1NOalVTUjR4akpjQ1MtcHctUDNTZmJzN1FUVS1RV3lBNldOUnlxekZDYmNsd1Zxb3E4TkN3Ql9hM1pnLV9Va1ozZlVydTllVTBh?oc=5",
           "pubDate": "2026-06-24T06:13:44.000Z",
@@ -96,15 +90,21 @@
           "snippet": null
         },
         {
-          "title": "Ageing as an Asset > Annual Meeting of the New Champions",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbTBjY2lNMUVpMFNWUGRnZl80cXFEV2pJdlpteVZuSjFTZVVHSXdnYkFtS1pVR1Y5eGRxN1NEdU1PN1hBWTNrOVM1MFl4OURXdHB2OEtKbG9lMG1OYU56S2lzM3huOHFVVUNHZDN1aFJ4MUFYTFlyRUx4ak1vbjlVWXBESGVKZjNVQUNwOEtuWFdPNTZsZUVVd01CRFVMSHVFTHRkM0NVbkthdkpDVmRF?oc=5",
+          "title": "Press Conference: Energy Transition Index 2026 > Annual Meeting of the New Champions",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaGdtWUFURDVmb1FVWTg1cktZbmNEUmV5QWxtSFp1WFplRmpFZk40Q1ZtdF9vdUczcWJvODNFUGpIb3RIbFNHLVQ5dFlWY0wycF9xRGVxNWo2eWpnNXN2WjBzdmVxZjJhTmZXd1h6Nk5wc2NnQ0FPR2M4ZU9MY2pJamVmRjg0ZVRnWUttNUlXb0R1bUN6d2N1NXBKN2UwN1VoQ01zZjJrY1J1SmFtamZWT1dYMWo3UUVYZG1jUjJaUTFEcERwTFEw?oc=5",
           "pubDate": "2026-06-24T05:00:00.000Z",
           "snippet": null
         },
         {
-          "title": "Opening Plenary > Annual Meeting of the New Champions",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTTVnME1lVklJbFRPdmdXbGlsV2o5NGhjV3JQWV92QjBVOWoyam1pbmRyMmxRV2Ftc1ZKZjhJRUR0N2E4NG5SZDFWZVZhdkdaaVNtSWd3MmNhOE5PMDVISWVhdzQxN2JnNVBTeDJ0NXdiVHZXTVpzNHNaUlJGTE5ielpBbnp3UWUzNjZvUVZnTUhVY3RrWk5xcTdoMzJYci1IeW5EQzlZN1ZISDJ4SkE?oc=5",
-          "pubDate": "2026-06-24T02:00:00.000Z",
+          "title": "Supply Chains Reborn? > Annual Meeting of the New Champions",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNVNleFlwMHV1UVFlZlhIR0JWTkdtM2VYSng3akdFanNnWjJwbU9ZRnk4dzI5QmxzLXFlNWkzaXBueTE3bFAyRkotc3U5cThNREJLODByRWdBN3FmT0VYUS1JcjE3RFRmRFlWbWVEeEpCdHZGNXZSdm11Z0hlU0FyX2VQc2tIbWdzbnUwai1welZPSm9EendPNzFlNi1aY2RfbjdoMlp6aGRCaVU?oc=5",
+          "pubDate": "2026-06-24T05:00:00.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Ageing as an Asset > Annual Meeting of the New Champions",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbTBjY2lNMUVpMFNWUGRnZl80cXFEV2pJdlpteVZuSjFTZVVHSXdnYkFtS1pVR1Y5eGRxN1NEdU1PN1hBWTNrOVM1MFl4OURXdHB2OEtKbG9lMG1OYU56S2lzM3huOHFVVUNHZDN1aFJ4MUFYTFlyRUx4ak1vbjlVWXBESGVKZjNVQUNwOEtuWFdPNTZsZUVVd01CRFVMSHVFTHRkM0NVbkthdkpDVmRF?oc=5",
+          "pubDate": "2026-06-24T05:00:00.000Z",
           "snippet": null
         }
       ]
