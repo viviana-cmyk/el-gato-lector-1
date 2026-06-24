@@ -172,13 +172,12 @@ async function fetchOutletItems(outlet) {
 
 // Filtra artículos a una ventana de tiempo y amplía el pool de candidatos
 // para que la IA tenga más artículos entre los que elegir por importancia.
-// Si la ventana devuelve muy pocos (< mitad del límite), usa todos los disponibles.
+// Si un medio no publicó nada en la ventana, devuelve vacío (no se muestra).
 function applyWindow(items, limit, windowHours) {
   const cutoff = Date.now() - windowHours * 60 * 60 * 1000;
   const inWindow = items.filter(i => i.pubDate && new Date(i.pubDate) >= cutoff);
-  const candidates = inWindow.length >= Math.ceil(limit / 2) ? inWindow : items;
   // Enviar hasta 3× el límite a la IA para que tenga más para priorizar
-  return candidates.slice(0, limit * 3);
+  return inWindow.slice(0, limit * 3);
 }
 
 async function buildSection(outlets, windowHours = null) {
