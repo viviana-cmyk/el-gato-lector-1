@@ -3,7 +3,6 @@ import Layout from "../layouts/Layout.astro";
 import IndicatorsBar from "../components/IndicatorsBar.astro";
 import UpdatedNote from "../components/UpdatedNote.astro";
 import FeaturedStory from "../components/FeaturedStory.astro";
-import AnalysisGrid from "../components/AnalysisGrid.astro";
 import WeatherSection from "../components/WeatherSection.astro";
 import WorldCup from "../components/WorldCup.astro";
 import { withBase } from "../lib/url";
@@ -25,12 +24,6 @@ import featured from "../data/featured.json";
     <div class="hero__meta">
       <span class="hero__date">🗓 Se actualiza todos los días a las 5:00 a.m. (Colombia)</span>
     </div>
-  </section>
-
-  <section class="section wrap">
-    <h2 class="section__title">Reflexiones del Gato</h2>
-    <p class="section__byline">El Gato Lector</p>
-    <AnalysisGrid />
   </section>
 
   <section class="section wrap">
