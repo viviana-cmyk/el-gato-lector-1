@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T17:19:58.299Z",
+  "generatedAt": "2026-06-25T17:37:34.505Z",
   "colombia": [
     {
       "city": "Bogotá",
@@ -41,7 +41,7 @@
     },
     {
       "city": "Londres",
-      "temp": 30,
+      "temp": 29,
       "description": "Despejado",
       "icon": "☀️"
     },

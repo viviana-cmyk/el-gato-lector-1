@@ -1,17 +1,10 @@
 {
-  "generatedAt": "2026-06-25T17:19:58.299Z",
+  "generatedAt": "2026-06-25T17:37:34.505Z",
   "outlets": [
     {
       "name": "Semana",
       "color": "blue",
       "items": [
-        {
-          "title": "Abelardo De La Espriella, presidente electo, lanza ultimátum a los grupos criminales: “Tienen un mes”",
-          "link": "https://www.semana.com/politica/articulo/abelardo-de-la-espriella-presidente-electo-lanza-ultimatum-a-los-grupos-criminales-tienen-un-mes/202644/",
-          "pubDate": "2026-06-25T16:43:44.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
         {
           "title": "Exclusivo: así se cocinó la reestructuración de la inteligencia del Ejército; la idea es acabar la burocracia y volver al terreno",
           "link": "https://www.semana.com/nacion/articulo/exclusivo-asi-se-cocino-la-reestructuracion-de-la-inteligencia-del-ejercito-la-idea-es-acabar-la-burocracia-y-volver-al-terreno/202647/",
@@ -20,16 +13,23 @@
           "_priority": "ALTA"
         },
         {
-          "title": "En video | El impactante momento en que un edificio colapsa durante el terremoto en Venezuela",
-          "link": "https://www.semana.com/mundo/articulo/en-video-el-impactante-momento-en-que-un-edificio-colapsa-durante-el-terremoto-en-venezuela/202606/",
-          "pubDate": "2026-06-25T16:58:06.000Z",
+          "title": "ART señala a Andrés ‘el Gury’ Rodríguez de estigmatizar a los municipios PDET",
+          "link": "https://www.semana.com/confidenciales/articulo/art-senala-a-andres-el-gury-rodriguez-de-estigmatizar-a-los-municipios-pdet/202621/",
+          "pubDate": "2026-06-25T17:32:21.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "En firme medida de aseguramiento en centro carcelario contra Papá Pitufo, el conocido zar del contrabando",
-          "link": "https://www.semana.com/nacion/articulo/en-firme-medida-de-aseguramiento-en-centro-carcelario-contra-papa-pitufo-el-conocido-zar-del-contrabando/202623/",
-          "pubDate": "2026-06-25T16:53:23.000Z",
+          "title": "Exportaciones de automóviles y buses crecieron un 191% en lo que va de 2026",
+          "link": "https://www.semana.com/vehiculos/articulo/exportaciones-de-automoviles-y-buses-crecieron-un-191-en-lo-que-va-de-2026/202654/",
+          "pubDate": "2026-06-25T17:28:54.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Semáforos de piso en Medellín: la apuesta para reducir riesgos en los cruces",
+          "link": "https://www.semana.com/vehiculos/articulo/semaforos-de-piso-en-medellin-la-apuesta-para-reducir-riesgos-en-los-cruces/202652/",
+          "pubDate": "2026-06-25T17:06:52.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -54,9 +54,9 @@
           "_priority": "ALTA"
         },
         {
-          "title": "CNE hizo entrega de las credenciales a Abelardo de la Espriella y José Manuel Restrepo",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQXc0eFlVYlJRSGR2MklTaWRIVWprUTBlLXVaUE9MUG42aWpsQ3A2M1JaRjVjeDJNWUNHZEMtME9ldTBRZmFsMWxoYnZEVTRHV3p5SkMtbGt0TUg1dUIzVkJMektKZ1YyT2I5d2drbmRCMFRXeTY5Ul9GSHVMU1JybWg5WFRybmZXdlNTd3dGalg0X1ltaklQWlhHQ0VTM2hjNnZaei1pT0pVbzc2Nkpsb3NRRHl0anVqM3FrZEhLTVhFSWpiU180ekk4UndnRUpBd3pvU1BuZ9IB1wFBVV95cUxPQXc0eFlVYlJRSGR2MklTaWRIVWprUTBlLXVaUE9MUG42aWpsQ3A2M1JaRjVjeDJNWUNHZEMtME9ldTBRZmFsMWxoYnZEVTRHV3p5SkMtbGt0TUg1dUIzVkJMektKZ1YyT2I5d2drbmRCMFRXeTY5Ul9GSHVMU1JybWg5WFRybmZXdlNTd3dGalg0X1ltaklQWlhHQ0VTM2hjNnZaei1pT0pVbzc2Nkpsb3NRRHl0anVqM3FrZEhLTVhFSWpiU180ekk4UndnRUpBd3pvU1BuZw?oc=5",
-          "pubDate": "2026-06-25T16:04:00.000Z",
+          "title": "“Disponen de un mes para organizar su sometimiento”: De la Espriella a grupos armados",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMzAzUElIRjFPT1RTalU4Q1BOVi1aT2t1c19LNFl4RXpMSGZ5d3o0Z3lGUEhSNW42VmJZSHJxMG9MOHlzZGhWb1o5RXFkb21yelJiWl9EdWtSb3pHb0d0R0czRUkxOVc5Z3pudC1BWG5tVjRlOHpyVU9sejNuVk5tX2s1bC0xSnAydU9vQ1pob3BsTHdrNGlXa21MUjh1N1BPWThZM2hUZGZiQ0NWVW1vcklqenpUVmh5VmFWS0R6QVBzMWhxZm9uZElidzNOQnd1YXZOVVZnWmp5aEVrOVlLcmhrV0RsTXVsSVhVOWtHVdIBgwJBVV95cUxPakZwanFmRFk0MTIzS2hmNUUzZC0wcjFlQ0xubjc4VHlMTm9TQWo2TzZQUFVHOFZOZ1VqUXNxcndwRF9FUG9jUEJ0dHk0bDlfcHp6MXN3UlJaZ1UwUm1Gck5ZSUNyVjBxdWtRcms4VDdVZzE4VXdoVTVFZXlWS28wTnZPWl9GM2xKVDhVQWFqVDNMQzNEeHQxdVV4NU1QckhqOGFERUtNVkY0NWpnWWRoTHo4WnNRblJ0Ml85MlZ5amFtcTROLThYNmJIc3dmdjJqdGVYbDdMUEw1cWk3VWxQRGxxVHdHMVk2Wm4wUzVKc2hZY2NQTWtLbUdOclR2NmdoUGZ3?oc=5",
+          "pubDate": "2026-06-25T15:13:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -71,13 +71,6 @@
           "title": "Cepeda pide investigar denuncias sobre posibles gabelas al Clan del Golfo con paz total",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOakpYaE1XSFhKYkdESlRnMTAyU1N4WGdfRXR6b3ZlYkhJM19Iejc4TmZVbDcxdjdPVExJYVFtOGxpa1pyMS1ZVGxadHJwY2xYNG40TVRMVUQzX3V2emhsS2lkUWxISUFwUDA4dGwzbU4yaGFiTmFOazctT004bHhvLW40WTNNdHEyOV9ydUQ0ajU3aEpqWDF4dldNUzVsTTc4V3lIbWJvVVZqbHZwV0lTR1RRUWFBTWpMTjNmd1hDMGQ5alhWa2VTQnhhX00weldodW9oWjNuc1TSAdgBQVVfeXFMTmpKWGhNV0hYSmJHREpUZzEwMlNTeFhnX0V0em92ZWJISTNfSHo3OE5mVWw3MXY3T1RMSWFRbThsaWtacjEtWVRsWnRycGNsWDRuNE1UTFVEM191dnpobEtpZFFsSElBcFAwOHRsM21OMmhhYk5hTms3LU9NOGx4by1uNFkzTXRxMjlfcnVENGo1N2hKalgxeHZXTVM1bE03OFd5SG1ib1VWamx2cFdJU0dUUVFhQU1qTE4zZndYQzBkOWpYVmtlU0J4YV9NMHpXaHVvaFozbnNU?oc=5",
           "pubDate": "2026-06-25T12:35:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Los filtros que complicarían la propuesta de De la Espriella para fumigar cultivos de coca",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb2RJRDc3VXlDU3F1NHRVTElnNDBuSUVtaUh4dkdjZm1UdkVfeC1WZlZVTVhqa3RhZHE0aUl3TnNSeDVYYVpoaDREcXI0RWc3QWJIRFM2S0l2TEZ3NFN6RUdnNkZvVXlOcHNQYUgxTWFDSVY1RE00S2ItS0VhVXpYVm1BTy13bTFkNnFfRkVlcUVob0hEYkNpeURnNVZiQlYydFFURi1KR0VSdThhNUZLdjlDN1Q3REVZdjRmdEJEckh5MDlXSVZz0gHcAUFVX3lxTE5DNms2dTdIUm9EUDhlNUNyX21HVU8yYkYzOU1mR3dOQWttV1lFbEFhMVFGQ3JzZXRtTTJaTUtQMmZjeTZNaU9jczkyYWhsM3hYbXV1NndJdDN0NzlieW1Bb0dycU9BY0ZTYm1ieEpxdHJVejNZS0hJRlhVOVhRTkRlS2o2OWNCWkJHNzhqN1JSNVpOTVZjcGQ3OGpvSC10YTFodVpvN3A1cmVERkhKMm1pN19FcmtRZjN0Vm9iU2V2MDlOak5SN1hsbWdmV1NlSGl2NmlTMEhWOG1mSmM?oc=5",
-          "pubDate": "2026-06-25T10:07:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -116,10 +109,10 @@
           "_priority": "ALTA"
         },
         {
-          "title": "El Caribe gana espacio en la puja por el gabinete de Abelardo de la Espriella: cuatro nombres toman fuerza y uno podría hacer historia en Hacienda",
-          "link": "https://www.eltiempo.com/colombia/barranquilla/el-caribe-gana-espacio-en-la-puja-por-el-gabinete-de-abelardo-de-la-espriella-cuatro-nombres-toman-fuerza-y-uno-podria-hacer-historia-en-hacienda-3566983",
-          "pubDate": "2026-06-25T15:25:44.000Z",
-          "snippet": "Mauricio Gómez Amín, Efraín Cepeda, Indalecio Dangond y Elsa Noguera figuran entre los opcionados para integrar el nuevo Gobierno.",
+          "title": "Gobernador de Antioquia, Andrés Julián Rendón, pidió la renuncia protocolaria de todo su gabinete: ¿empiezan a moverse las aspiraciones políticas?",
+          "link": "https://www.eltiempo.com/colombia/medellin/gobernador-de-antioquia-andres-julian-rendon-pidio-la-renuncia-protocolaria-de-todo-su-gabinete-empiezan-a-moverse-las-aspiraciones-politicas-3566995",
+          "pubDate": "2026-06-25T16:40:15.000Z",
+          "snippet": "Luego de las renuncias del secretario de Infraestructura y de la Empresa de Vivienda de Antioquia, Rendón pidió la renuncia a todas las instancias.",
           "_priority": "ALTA"
         }
       ]
@@ -143,7 +136,7 @@
       "items": [
         {
           "title": "Colombia despliega ayuda humanitaria ante devastador terremoto en Venezuela",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZm5HNlpYTVdFQjc3NVlYeHdiUEFfVE9zS1R5bkIxRk5wb0s1dldZWjd5RHNZOFl6cFViSnA0TTJvVnNEaDRfYmFEU0MxbHNDY0FiWEwwdVphZk9oQWIweWxUS0ZJMDdWa0JoTkdTSnZ6U2RDWmZsVmpoMjJRY2d2Y0MzZUowWHVzTlJReHlwTE9TVndtOVdvZnduYXRWUWo4Sm4za1Ftb0xZejZ2R2FMU9IBvgFBVV95cUxNYWU2dUlDalQzdkpzNlJDU2h3bHhWdmFrdnlFY2hFdUxMeTExOEpNakowamlNcHZFcENSSFZ2VkYxYTcxUjItRVBoY2RJREVRRWd3RURPMl9OR09nYmw4TGFkUEN6LVRBVzRYTVBNQUZyc2dtZ0pxVS1QUmE0UVdnYm5VS1FQcEtWNXBPVUxkZ0dUbGZkc2pndzZnTnhFencxbWx4WXFMci10TEVVWlU4c2pHYllsbldzNmt6d3VB?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYWU2dUlDalQzdkpzNlJDU2h3bHhWdmFrdnlFY2hFdUxMeTExOEpNakowamlNcHZFcENSSFZ2VkYxYTcxUjItRVBoY2RJREVRRWd3RURPMl9OR09nYmw4TGFkUEN6LVRBVzRYTVBNQUZyc2dtZ0pxVS1QUmE0UVdnYm5VS1FQcEtWNXBPVUxkZ0dUbGZkc2pndzZnTnhFencxbWx4WXFMci10TEVVWlU4c2pHYllsbldzNmt6d3VB0gG-AUFVX3lxTE1hZTZ1SUNqVDN2SnM2UkNTaHdseFZ2YWt2eUVjaEV1TEx5MTE4Sk1qSjBqaU1wdkVwQ1JIVnZWRjFhNzFSMi1FUGhjZElERVFFZ3dFRE8yX05HT2dibDhMYWRQQ3otVEFXNFhNUE1BRnJzZ21nSnFVLVBSYTRRV2diblVLUVBwS1Y1cE9VTGRnR1RsZmRzamd3NmdOeEV6dzFtbHhZcUxyLXRMRVVaVThzakdiWWxuV3M2a3p3dUE?oc=5",
           "pubDate": "2026-06-25T14:43:38.000Z",
           "snippet": null,
           "_priority": "ALTA"
@@ -154,13 +147,6 @@
           "pubDate": "2026-06-25T14:57:26.000Z",
           "snippet": null,
           "_priority": "ALTA"
-        },
-        {
-          "title": "Cancillería no tiene reporte de colombianos afectados en terremoto de Venezuela",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMjNiN1hnaENMN0ROVlVRdUczRDFHaVJFVFBITGk4RlQwblRiRVZmY3ZaYTJlLV9GRTczdzBPZnZNWHJoMVlnaVdhblJJbEFBckNOdElMaUtNcF9fRktDQUlDTkg5LVk2RXRCUF84OUlmY3RGZ2RDbjY4azA0b3ZKN3NCME91TmMyNjI5b0RoRWtkZERhRjhtZjRJU2RRMkZmUUZ0c3h2eURvS3VSeHRWZklpWE1iMUXSAcQBQVVfeXFMTlRuYTlqUVZsbUk0Ui04THdPWTUzTU9DZWw0emw4RkNaMmkzQU1iWERpdkpvU0hWNG5wVWE5OEhFY2Y3a1dmeS1BRGZVSnhMZVFDX1NYTTZ4QWZSRzlsYW5wV3FyVFkzQXVhV2lTZFpIek4tZ09Jbk1nakJTQi1VWXVzQXFiVXU5U3p6d3BOVjhaSjRaYjRxa25BZjZHUXNnTy11X0h5WVdPdWxla0VlMk0tTUlSSGdKdGtIWVNGbzE3X0dVUQ?oc=5",
-          "pubDate": "2026-06-25T13:50:27.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
         }
       ]
     },
@@ -169,16 +155,9 @@
       "color": "mint",
       "items": [
         {
-          "title": "Elevan a 19 los muertos por ataques israelíes en el Líbano durante las últimas 24 horas",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUHBTRHItVHNJU04ydXBVaHFDRktaRWhjMHZkN3h6azZXbG1SdjFwZzY1YWJsbTI2ZTRhMHUxSWRodnI1T2ZmSGlWbUxZN3VEaWdfcVhMbk44TzA1ZFVPYWVTQ0pYckhILVNHT1QyZzViNE52U2N3LWxCVVpiUzdLQjBkOHh5cnVRZkJoa2xRaE5MLWZpUFRTQ1NNWW42UmVTMXd5cWt0YmV3Q0huSTJEeXQxZVdhU2xuWGNkWHk3SdIB0wFBVV95cUxNTHdVY2xYRjhSSDhqQVlDcFRKak5OcHpQTTZKUUo1ZWo5NThTNzVNWVZZc3FvV2Q5UDB4b3ZTQldDbm80RS0tdkhJQzVxd3lCNnZGUVFDbFpyTzZxV2lNUDMyRXcwMjc4ZllnWlh4SVkxTjFYUGRxNzVabS1XRThhbkxpOUhwOVdBelo4X2kzb2d6cUcwd1hVNGJkRzV5UFI0ZldmOUUtTklybnY5cjA3QkZfbnRobmdpeGp6TVRnenFxcDhOMmJLUVo5MzVYQXRxLWJZ?oc=5",
-          "pubDate": "2026-06-25T15:38:24.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Once capturados y más de 4.280 dosis de droga incautadas en municipios de Bolívar",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdWtWaEEwMG54dUZLcDdWS1huMm1WNVhZTXJjUTY5VzVONWVra0NXZ0JwZnJGMnJsVC1GczZWenJlYnkyVEFNUkFJR0ZRTDJvVk5CUC1wcHliSF9UY25wT1JmaHdxU1NJbS1NdFpXQXFKS0NrbUhkZTRIay0zU0ZsUTFVTU4wSU5JX3l3T1JDTlJxRll4Q1gzREJMR2RVWlpfcUZ1Vk54dmlJSlZGQ0VfWmdoTXlWUdIBygFBVV95cUxPWUpFajc1cXMwUzNUZm54RWNpaVluM0NBQ0s4V2NaSU9fZGN2UjZUU2ZfYm9jVG91c3U4ck1qeDRRZElXcllVSC1rQ0dqb1NGdjZWRXMzNmYyQUZfYjM3VUVzZ2l2ZEJWZDN1cGxYUzJZOXNoU2FWc3J6a2dxZDVFeGZMb2tiUDV5MFZKN0k4NUloRlY5cjVGZTRHWEJlMUdVWW4xeGdQcXBzWXBOc3pDOF8xUldOYjdTcjNpR2lpX1A3STJNSjRVMjhB?oc=5",
-          "pubDate": "2026-06-25T15:27:46.000Z",
+          "title": "Condenan a más de cuatro años de prisión a un empresario por millonaria omisión de IVA en Cartagena",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMjhrcG1FMDI5dzYzQS1GYllEZ2ZDV0V5WTB1Vms5Q2U4Q28wWVh1bE1tS2tqUUhtcDFhMmxqS3Vxb3BBQl9OZWV0cklFT2djcXVFR2E4UG5UaWtnVzF3RTZBSDlZTWl5LWVnRUotZzRDZldIdDk4X2otSERRaW1pVFpnSUVEVW9oOTg1RzdDd3NLeUZLcE0tNmFYVlR2bFMxcmtrV2g5MVlrd19lakpwdTR5ZmZRTWE0SXhxTTR1bkNNV19uWkREcU12STZUWWfSAeMBQVVfeXFMTmFIdHY5aC02U3V4dWduWjhVMVh2YXM5OGJDbE5XUkRYWXNZSUJnX0pzYW5zOWM0TXVDdUx4LXRHeWZWREJ1a3oxR1dOOE9jckRCcGpWRWdRQWR4RWRjTGFOZ2gwM0JBMjN1WkRlREhqVHpIZ0d5dWJlY01zSUJHbVJJazNNYW9LYS05b3NDdDh6QlJfTFl1M2RaU08wYnRvV3NhcGd1RkR3QjJDQThuZUVadHJCQ0xuS1p0WG1nbkZjZ29uakVxT21CVUp6d09jdE1zbVBPLUhRM0NZTzZlbXJMSG8?oc=5",
+          "pubDate": "2026-06-25T17:27:58.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -190,9 +169,16 @@
           "_priority": "ALTA"
         },
         {
-          "title": "¿Cuál es el futuro de la oposición en el marco del próximo gobierno? Habla Pacto Histórico",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcllzel9GQWZzVmQ0YkVrZkZoNThYUnhWX0xlUEl2U05rY09sYzlYTWoxUGpmZW1Pb1E4TFdIZjdFQzNDU2Q2NmRubG9vd2tOcGxoeDdXa0RIVHdGb19mdHA4TzF5alM3eVd0SWQxR3JlV21DeWJPZHdfMElSNVZ1Yi00M3NXaDhzd3RUVDEyRG1BS1E4bHFKUW9NRlhHYU5nTHJCbEZrdk1TWWxnUjdQSW8wb251YmdvZDg0RXg5S3bSAdQBQVVfeXFMUE9qcGx5akpiMFk4OHJKdnNDTFNfS2FmUHo3OWF1UmN2Y1Q5eDV1Ry1jblA1OVNfT05INDJKcE1GTHJIRjduNnduNTEyZ1E1aE5fZmVWTnYyTFpzb05MbXdDZFdzakZDdE9qSk1UT2Z5cW42XzdWUDd0Vl9fWjB0dWFfSGVZd3VlR3I4VnZUSEVYWTVwcGVKMm9UMWt6WWRTTmlWeXhncVFZQUJWYTViSnByMjItNEpTNS1lRXVrT1JUcFNvYXVIY2xqVEptRUY4cUlueXU?oc=5",
-          "pubDate": "2026-06-25T16:07:30.000Z",
+          "title": "Once capturados y más de 4.280 dosis de droga incautadas en municipios de Bolívar",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdWtWaEEwMG54dUZLcDdWS1huMm1WNVhZTXJjUTY5VzVONWVra0NXZ0JwZnJGMnJsVC1GczZWenJlYnkyVEFNUkFJR0ZRTDJvVk5CUC1wcHliSF9UY25wT1JmaHdxU1NJbS1NdFpXQXFKS0NrbUhkZTRIay0zU0ZsUTFVTU4wSU5JX3l3T1JDTlJxRll4Q1gzREJMR2RVWlpfcUZ1Vk54dmlJSlZGQ0VfWmdoTXlWUdIBygFBVV95cUxPWUpFajc1cXMwUzNUZm54RWNpaVluM0NBQ0s4V2NaSU9fZGN2UjZUU2ZfYm9jVG91c3U4ck1qeDRRZElXcllVSC1rQ0dqb1NGdjZWRXMzNmYyQUZfYjM3VUVzZ2l2ZEJWZDN1cGxYUzJZOXNoU2FWc3J6a2dxZDVFeGZMb2tiUDV5MFZKN0k4NUloRlY5cjVGZTRHWEJlMUdVWW4xeGdQcXBzWXBOc3pDOF8xUldOYjdTcjNpR2lpX1A3STJNSjRVMjhB?oc=5",
+          "pubDate": "2026-06-25T15:27:46.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Cruz Roja Colombiana brinda atención a familias venezolanas en frontera",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSklpUHZaTGVFbGR5QkJna1ZoRHAyaVhqWUxaLVJhdVFHVjZqWVdxelloNmlONTBuQldqSjRzZzRDQWVXRUV0TlFld2JrVmpHS09XaTA0YXJnZlFfVHhNdDg3ZnhjLUNsNkdmTFRBWmo2WHM1RjZfYnVJYTBuLTB0enU5Nk5zSHBkTFVPd1hqWXQyd1RwR19udGZCUE1oSGx6NVNGQzFVNVNQd9IBvgFBVV95cUxQd1N1Y19CemdrWWRyVWI5dW1BZ3ZBOGdrS3hyNV85MVFla3JMQ2ljeEY2UlQ0c1NQMzQtRnhOcDV1VnljZDY0a0dFOGxlVC1FVWV3TjBVY01mNlhuUHI0VGludThvUEJZdXZ4ZG5VWWdyWS1IM0cyV2wzb2xqWGxCWF94eXhpbGhIaWlMcEZxa2dQLXgxenBpQmMxNmVxaUJMRkQzZmJOYlAzanVmdENKT3p5aXlZbnNqc1dxMTBR?oc=5",
+          "pubDate": "2026-06-25T16:01:31.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -210,23 +196,9 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Terremotos en Venezuela: cifra de muertos tras los sismos y réplicas del 24 de junio",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdk1HSTduRWt1bjRZZTFud0oyRlVvbEo5RFhmaDJvd2FXNGcwSjBmZ0pENFdxaWIyN1YwRWplTVBhR18yMTVRZTFrdjhNS0JWRmlMbWRQWEstdlBYbGk3UW0zWWgzYVpHMVZUcXBjX01tR0VfWlR5OHh0b3FSOXFINmJRUERBOFQyekJCU2drUi1YaEl5bmJBMDJZUXBBVUl5anNTeHZ2Nk1PUTZYZGFOdy1WMnlMUERJWHlFejRIcw?oc=5",
-          "pubDate": "2026-06-25T12:33:07.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
           "title": "Ejército Nacional abre convocatoria con educación gratuita y empleo en Colombia 2026: ¿Cómo aplicar?",
           "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWjEzcFQtaEJ5MlJ3UW5zVnlkS29TaXJaMEdZd1FMZkZCNHVNR2gzZmRSeFY4NGR5QnNoaDZsZmI2SHJWc2pXWUs5bUJPd0V1QUR5NmpWSjREWFhxMGFaY1BDR21nWDdWSkJwb0E5eXRpaEJDVk52RWNKenF6OHVRRjRBTi0xZkhQWW51c245ZFE2V2ZvRUt3YWFMZ3hSaUhPc1pBeEp0NVpua2lXMGtiaVlNTGU5b0ZUdTZ2Y040bnFOM2tLeWhBVll3TGhqVWFJTGc?oc=5",
           "pubDate": "2026-06-25T17:08:05.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "¿Cuáles son los beneficios por incorporarse como suboficial del Ejército Nacional en Colombia?",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbEVIUWJXb2JNcjJLd1JpeHZZSTd3UEhRYThOR3lPSDNOei1zMXJNc1pxLW4tTDROY3ZwYXBaTklmbFBtV1lYVGVEOG43MW5zcnNPRVZCRzRUaE5UamdBZDc1VkhBNExrRWdpdzYya1RHS2NOQkxrLUszX1lrOEpuZHNZUHVqNWJ5akxqbUN1Uy1XOWxKZHoySjhkOEF6dGdUNnBQVWZzLUdxbUw0dmx2RGZndU9hc3NObHZLOUs0d2UxaExMRmtYZ0MyOA?oc=5",
-          "pubDate": "2026-06-25T15:07:37.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
