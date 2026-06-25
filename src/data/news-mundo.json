@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-06-24T17:36:17.620Z",
+  "generatedAt": "2026-06-25T10:01:19.606Z",
   "outlets": [
     {
       "name": "CNN en Español",
       "color": "grey",
       "items": [
         {
-          "title": "Primer caso de ébola fuera de África: un trabajador humanitario que viajó de República Democrática del Congo a Francia",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQR0F0Y0lPdXc4YTlhX0cwaFJuX1U0d2RXUmNfMEhRVm1YQnVGaGxBX1VHcEd6eWJ2b2d1WFlqaDhEQjMxUUhCREY1bmo3X1ZUVjlRVUdmTXhXWGI5TkEzZXBzdHV6cG1XRWtYcnhQM0hEc2IzUVZ1UTZGb3Q2MzNxTG9iV3M?oc=5",
-          "pubDate": "2026-06-24T17:11:00.000Z",
+          "title": "Canchas como refugios: la situación en las calles tras los devastadores terremotos en Venezuela",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd1g3MWMyUkMwN2t0OE1qSEh4MkpIMk5oNE8zVVdoQW0taERjbDN1UWFOMjlJT0hHTE9NU0JPWHlGckwyLUZvWWktRFliNnppSTlMZkR3Y1J3b3JROEhiOWN2dlhIa2MxalZyOVlobjF1eHFQOHh5TTRqSzczYWM1YzF6WURuaVF0Wm1yUUJmek56Q1NOeGV3M3lB?oc=5",
+          "pubDate": "2026-06-25T05:41:46.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Pedro Sánchez comparece ante el Congreso español por investigaciones judiciales",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY1RMOXpSSm5UUDZnT1lZUHduSmEtdVpONjBHU1ZqRHFwZ09SSnQ1NlpRYVpPMWJMVFdKZmpReGoyNUJwV1dFbnpManI1Uzc4SnVGX1hMSGVvUjE4bVRUM0VRclhJWVB0b3BqWVJ5eXAzaXhISUlDaGo4dnFoa0Y2N2w1Ykk?oc=5",
-          "pubDate": "2026-06-24T16:46:37.000Z",
+          "title": "¿Qué se sabe de los dos terremotos de 7,5 y 7,2 que sacudieron Venezuela?",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMHlFUzB1bTdjZVc0dFd2YkJyYlBxdmo0OGFHblQ3Y1MwME5zcUhlOWhRYnNzV2tSYmZkbG5kWHNXWW9XMW15UE43dXVyemNRUEliaU9OUW8wc3dpRkItQXRqNlFzLTBwQno1ZkNSSmFOM2g4T0V0bTgzVEdQSTBYLWFGcFRfZ1k?oc=5",
+          "pubDate": "2026-06-25T02:13:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Candidatos respaldados por Zohran Mamdani arrasan en las primarias demócratas en Nueva York",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSkNzWXdBWUZRNGdINmtfUGk3R1A4eWd3MnRhVmV6UmZzVE5PTTFfWkRrM1MwR21rRkFWbjVHbUZtUlRfdWtzYUNVTzBreEZjdnRpdVNwNERaajdaUkdOLWU1NW94aE9iQXc3UnBwUkc1UTVZMUk2S2NNNUxNbzlpaV92UEJDMTdGMW1OaXpQMGNSdjg3NnpPNVRCR21MdUk2N05N?oc=5",
-          "pubDate": "2026-06-24T16:45:52.000Z",
+          "title": "Cabello revela el impacto del sismo en Venezuela",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPY1JrT0tMNG5LV25scUxkWUxjZTA1VEtrZjlLZldrd0V4cGFsNUpzLVk2cXhIUzl0TG9BeThQMTRyVGtWc2dmR1B5YXRBa2dhUm1MM2ZWZlBaS2h0TmhEb2I3dmlnc0FXRHFaTG9HZGRiUGNGbnNkX1RvaXpfSXQ5NFl3aEcyNDlvaHhoUFNXVDRmOHY1Qk9wcVR6aGJXRFlDeEY4TXFrdC1xeU42LTllSjQ1Zy1veDZEYkxFOGxwVDhONDYtcU14eGJn?oc=5",
+          "pubDate": "2026-06-25T03:21:49.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Los aliados de Trump en el Golfo temen que su acuerdo con Irán sea un \"desastroso punto de inflexión\"",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoM3IwOWNNNmRzdnNtb2poY2lEY0hJSjBkY09fS01rMjFpSkp2dDhjWmV3bE10YUxmUkZudEZSNEJoVDhEa3ZHdWtVWEpQZTJtSWphR1phNWtDMmhKRHdZTHZSSFBpWWlsWUcwN1EzSkpoR2xDbWV4eXFRNEpodw?oc=5",
-          "pubDate": "2026-06-24T16:37:00.000Z",
+          "title": "Delcy Rodríguez dijo que la prioridad es “rescatar vidas” tras el brutal terremoto que golpeó a Venezuela",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMl93OU95SnJUUDU5NjliQmRTcjA2NFlKWkZZeUE3WDFQTjdYV0ZoRXFMT3RJcF9sdjB6dWpaSUd2YVVra0M5R05JRk5YVjIzQ2luSmlYZ0FmNW91ZTJFQnNXZVl0WXNLclV1alE5aHBmbkgwb3hfOG1YTXJUV290X1paYXFEbVVfTnhJeVowemdZTmRFY000X3BrcUpEQnQ4bUE?oc=5",
+          "pubDate": "2026-06-25T01:51:40.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "¿Quién es Abelardo de la Espriella, el abogado de ultraderecha que que será el nuevo presidente de Colombia?",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR045SUhFM1JUbkM2WmpSOXVZVi0xME9kNm42T2U2aUNDRlQ4QTQxcUk5cTZHbEhWVmp1QUVrRkdRMWF1ZFFSLVJ6TnI5ZlJUZkF6S1ZERURJSG5XQTVUUGlZNHpJYkoxTEpjVWFnbXBwejJnUU5wN1hKYl8yUXlKcHlxdlhFTEFmNlQwaC1rYnp4R0xBSkZTeldDQ3RNV0NMbWc?oc=5",
-          "pubDate": "2026-06-24T15:35:00.000Z",
+          "title": "En fotos: los daños que dejaron los dos terremotos en Venezuela",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQ0FQcmpMTXVrME1KVXJDZVdHbWM0elQzTzc2NmJPWmNCTFEta1pvZnlxVmc0dXBXZk9Ya2FmX3FHeFdZbmNjMllRVkY2T3Rua3JUTk5rNks1bWdCT1RTaGV6bVFtbUhTTEh4OVhld0lHZTZVWkNtZTJlWjF6Tlg3bmZpTjV0VWl6cktB?oc=5",
+          "pubDate": "2026-06-25T01:43:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -52,38 +52,38 @@
       "color": "yellow",
       "items": [
         {
-          "title": "EE.UU. dice que el gigante químico Chemours pagará $450 millones para resolver caso de 'químicos eternos'",
-          "link": "https://www.theguardian.com/us-news/2026/jun/24/chemours-settlement-forever-chemicals",
-          "pubDate": "2026-06-24T17:29:47.000Z",
-          "snippet": "El acuerdo es el primero del gobierno federal para resolver demandas de cumplimiento contra un fabricante importante de PFAS La administración Trump llegó el miércoles a un acuerdo multistatal con el gigante químico Chemours Co por años de descargas ilegales de 'químicos eternos' sintéticos...",
+          "title": "Los terremotos de Venezuela dejan al menos 32 muertos, 700 heridos y decenas de edificios colapsados – últimas actualizaciones",
+          "link": "https://www.theguardian.com/world/live/2026/jun/25/venezuela-earthquake-live-updates-quake-aftershocks-terremoto-caracas-latest",
+          "pubDate": "2026-06-25T09:36:34.000Z",
+          "snippet": "Delcy Rodríguez dice que rescatistas de otros países llegarán a Venezuela en las próximas horas después de que dos potentes terremotos golpearon la capital. Terremotos de Venezuela: terremotos consecutivos colapsan edificios en la capital Caracas. Voluntarios, médicos y familiares de víctimas se han dirigido a Altamir...",
           "_priority": "ALTA"
         },
         {
-          "title": "El elegido de Burnham para jefe de personal dirigió empresa que asesoró a BP, Apple y Amazon",
-          "link": "https://www.theguardian.com/politics/2026/jun/24/james-purnell-andy-burnham-pick-chief-of-staff-firm-bp-apple-amazon",
-          "pubDate": "2026-06-24T17:27:07.000Z",
-          "snippet": "El nombramiento de James Purnell, exdirector ejecutivo de Flint Global, descrito por un diputado laborista como 'muy mal signo' La empresa asesora dirigida por el próximo jefe de personal de Andy Burnham contaba entre sus clientes a BP, Amazon, Jaguar Land Rover y Uber, revelan registros de transparencia.",
+          "title": "La capital de Venezuela golpeada por terremoto doble mientras expertos advierten de alto número de muertos",
+          "link": "https://www.theguardian.com/world/2026/jun/25/earthquake-venezuela-caracas-tremors-aftershocks",
+          "pubDate": "2026-06-25T09:25:38.000Z",
+          "snippet": "Delcy Rodríguez declara estado de emergencia después de que edificios colapsen en Caracas, con temblores sentidos en Colombia. Terremoto de Venezuela – últimas actualizaciones. La líder interina de Venezuela, Delcy Rodríguez, ha declarado un estado de emergencia después de que el país fue golpeado por dos potentes terremotos...",
           "_priority": "ALTA"
         },
         {
-          "title": "Trump acusado de mostrar 'indiferencia total' por los costos de vida de los estadounidenses tras cancelar firma de proyecto de ley sobre vivienda - Política de EE.UU. en directo",
-          "link": "https://www.theguardian.com/us-news/live/2026/jun/24/mamdani-new-york-primaries-midterms-democrats-republicans-trump-250-anniversary-politics-latest-updates",
-          "pubDate": "2026-06-24T17:26:17.000Z",
-          "snippet": "El presidente debía firmar un acuerdo destinado a abaratar la vida de los estadounidenses pero suspendió el evento para presionar al Congreso a aprobar un proyecto de ley restrictivo sobre votación Trump cancela abruptamente la firma de proyecto de ley destinado a reducir costos de vivienda Suscríbase al correo Breaking News US...",
+          "title": "Europa se prepara para otro día de calor extremo mientras se emiten advertencias en el Reino Unido, Francia e Italia – en vivo",
+          "link": "https://www.theguardian.com/world/live/2026/jun/25/europe-heatwave-uk-italy-france-record-temperature-latest-news-updates",
+          "pubDate": "2026-06-25T09:30:47.000Z",
+          "snippet": "El récord de calor de junio del Reino Unido podría romperse por segundo día consecutivo. Mientras tanto, Francia experimentó su noche más calurosa de miércoles a jueves desde que comenzaron las mediciones en 1947, dijo la agencia meteorológica nacional, rompiendo un récord establecido, bueno, a principios de semana. La temperatura nacional...",
           "_priority": "ALTA"
         },
         {
-          "title": "El accidente de Bedford ocurrió después de que el tren pasó una señal roja, creen los investigadores",
-          "link": "https://www.theguardian.com/business/2026/jun/24/bedford-train-crash-interim-report-passed-red-signal",
-          "pubDate": "2026-06-24T16:59:38.000Z",
-          "snippet": "El informe provisional dice que el otro tren que golpeó se había detenido en la línea porque un sistema de advertencia erróneamente lo hizo frenar El tren cuyo conductor murió en el accidente ferroviario de Bedford pasó una señal de peligro sin detenerse, mientras que el tren que golpeó se había detenido en la línea debido a una falla en su sistema de advertencia...",
+          "title": "El precio del petróleo cae a niveles anteriores a la guerra con Irán mientras más barcos tanque salen del Estrecho de Ormuz",
+          "link": "https://www.theguardian.com/business/2026/jun/25/oil-price-falls-pre-iran-war-levels-more-tankers-exit-strait-of-hormuz",
+          "pubDate": "2026-06-25T07:39:13.000Z",
+          "snippet": "Los temores de una crisis energética duradera se están 'desvaneciendo' mientras el tráfico de buques se duplicó en 24 horas al nivel más alto desde finales de febrero. Negocios en vivo – últimas actualizaciones. Los precios del petróleo han caído por debajo de los niveles vistos por última vez antes de que la guerra con Irán comenzara a finales de febrero mientras más barcos tanque de petróleo salían del...",
           "_priority": "ALTA"
         },
         {
-          "title": "Los pequeños proveedores del antiguo WH Smith perderán al menos la mitad de sus deudas en plan de rescate",
-          "link": "https://www.theguardian.com/business/2026/jun/24/former-wh-smith-chain-suppliers-restructure-tg-jones",
-          "pubDate": "2026-06-24T16:59:10.000Z",
-          "snippet": "Si la reestructuración agresiva de TG Jones se aprueba, pequeños acreedores 'no esenciales' como empresas de tarjetas de felicitación serán los más afectados Los pequeños proveedores perderán al menos la mitad del dinero que les debe la antigua cadena minorista WH Smith si se aprueba una reestructuración planeada...",
+          "title": "Elizabeth Warren dice que la 'frenesia' de fusiones bajo Trump podría revertirse",
+          "link": "https://www.theguardian.com/us-news/2026/jun/25/elizabeth-warren-trump-mergers",
+          "pubDate": "2026-06-25T09:00:10.000Z",
+          "snippet": "La senadora advierte de un 'tsunami de ira' contra las grandes empresas y sugiere que futuras administraciones pueden deshacer acuerdos clave. La senadora demócrata Elizabeth Warren ha advertido que las fusiones corporativas aprobadas por la administración Trump – incluyendo un acuerdo pendiente que pondría dos de las empresas estadounidenses más...",
           "_priority": "ALTA"
         }
       ]
@@ -93,31 +93,31 @@
       "color": "mint",
       "items": [
         {
-          "title": "Francia identifica su primer caso de ébola",
-          "link": "https://www.nytimes.com/2026/06/24/world/europe/ebola-france.html",
-          "pubDate": "2026-06-24T16:50:22.000Z",
-          "snippet": "Un médico que había viajado a la República Democrática del Congo fue infectado, dijo el ministerio de salud francés. Las autoridades dijeron que el riesgo para la población general era bajo.",
+          "title": "Residentes de Venezuela describen terror cuando golpeó el terremoto mortal",
+          "link": "https://www.nytimes.com/2026/06/25/world/americas/venezuela-earthquake-caracas.html",
+          "pubDate": "2026-06-25T09:52:20.000Z",
+          "snippet": "Edificios colapsaron, ventanas se tambalearon y residentes se vertieron a las calles en la capital de Venezuela y ciudades cercanas después de que dos grandes terremotos golpearon.",
           "_priority": "ALTA"
         },
         {
-          "title": "Rubio busca tranquilizar a aliados del Golfo Pérsico sobre trato con Irán",
-          "link": "https://www.nytimes.com/2026/06/24/world/middleeast/middle-east-iran-us-rubio.html",
-          "pubDate": "2026-06-24T16:42:49.000Z",
-          "snippet": "Se suponía que el Secretario de Estado Marco Rubio se reuniría con líderes de los Emiratos Árabes Unidos, Kuwait y Bahréin, que fueron atacados por Irán durante la guerra.",
+          "title": "Fotos: Terremotos golpean Venezuela",
+          "link": "https://www.nytimes.com/2026/06/24/world/americas/earthquakes-venezuela-photos.html",
+          "pubDate": "2026-06-25T08:57:07.000Z",
+          "snippet": "Dos potentes terremotos sacudieron el país sudamericano, causando muerte y destrucción.",
           "_priority": "ALTA"
         },
         {
-          "title": "Europa se sofoca. Esto es lo que se ve así",
-          "link": "https://www.nytimes.com/2026/06/24/world/europe/europe-heat-wave-photos.html",
-          "pubDate": "2026-06-24T16:37:37.000Z",
-          "snippet": "Se batieron récords de temperatura en varios países europeos el miércoles.",
+          "title": "Venezuela golpeada por terremoto de magnitud 7.1",
+          "link": "https://www.nytimes.com/live/2026/06/24/world/venezuela-earthquake/earthquake-venezuela",
+          "pubDate": "2026-06-25T07:11:38.000Z",
+          "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "¿Es suficiente el pragmatismo del primer ministro australiano en tiempos inciertos?",
-          "link": "https://www.nytimes.com/2026/06/23/world/australia/australia-albanese-prime-minister-popularity.html",
-          "pubDate": "2026-06-24T16:12:48.000Z",
-          "snippet": "Sacudido por la agitación global y el ascenso populista de la extrema derecha en casa, Anthony Albanese intenta mantener a la país sintiéndose esperanzada.",
+          "title": "El calor mortal abrasa Europa",
+          "link": "https://www.nytimes.com/live/2026/06/25/weather/europe-heat-wave-uk-france/heres-the-latest",
+          "pubDate": "2026-06-25T08:38:42.000Z",
+          "snippet": null,
           "_priority": "ALTA"
         }
       ]
@@ -127,30 +127,30 @@
       "color": "green",
       "items": [
         {
-          "title": "Juez pide al Centro Kennedy que explique lonas cubriendo el edificio",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUjJ6ZVZpTUYzY0E1enV5cEdFQVFTRWMyZmZIdEdGSkEwWmJodEs1U3pRdTVWYzU3cVg5eDZkc3BXalY3QVBTMDNmZGU4OU5fdW83OGtCdnFJc1ViQm1ZOE1GSVFaeDRQSGhTWUh1bUJGVDhQVDhYS25RajdSWlNWNUNFVFZMS29VOXp3Y1JIRTZFazlwX1I4ajJfaGdTUzRaSVREMnFqN0Rkdw?oc=5",
-          "pubDate": "2026-06-24T17:13:58.000Z",
+          "title": "Al menos 32 muertos después de que terremotos derriben edificios en la capital de Venezuela",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUzFIQlE2TWM5R1NiQ1F4X2pmUlB1dEw4aF9md1NkNTlNWDg5UmRTWHFuUEQzSmtGbTZwTWFtOXpXeWZlR0txd09GQkcxOVNRWU9rTGR1Q0V2Q1k0ZnpjNXh6ZVVoYWEwQzB4WEZDekhDSkNjMmlnMm53bjVzUG9sY1JhTXBBTnJuR1RnZHZfYlE5c1hZX0h6WkZFU2pzSWtOeWxwMHdYU2V0d1JUQWc?oc=5",
+          "pubDate": "2026-06-25T09:45:17.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Principal asesor del exalcalde de Nueva York Eric Adams acusado de soborno",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM256TmlqcjdtUk1RZnpIQjMwVVkzR2lrS3RxeV9LUl8wOFZZMGhybUxDdTdvS041Y0xBaFFwclV3RmtHMVI2ODdDUTJ0RktFc3BZTGZ4YXNZdS1ZVm5LZ21qMmlib2lRXzFrSUdKQmsySWo1UHJ4WEdNQlFfM1ljVk02dWduQWllMXhaTElldmxWTF9Ea3R6V2I4UEIxcjg1RTNJWkV5SVp6NzNaOU82Nw?oc=5",
-          "pubDate": "2026-06-24T17:09:01.000Z",
+          "title": "Bajo presión de Trump, el Senado liderado por republicanos revierte su posición sobre Irán",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdnMxaHpfdFpyS1Q0VF9IR0kyV1VOWURmMWlhMkZrTUhNazdvNmUzR3RiNExaQVFVUWtnY0pGclJ1cXYtRXJhdENtSjNZVVJ4ZmFNUEtTTUZ5ZjZZV0R4Qm1ZV2dpN2FvMUJ2NFhxRkVaWmQybENNNkNpcnV0a01sX2VMVnl4aE5VVElUU0o3X21xRURScXZPQ0FiTEFmaENEM25NQVV1MWJEcnlUdVA5OHpYOWo5dw?oc=5",
+          "pubDate": "2026-06-25T08:33:55.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Senado vota para bloquear que Trump reanude guerra con Irán",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLVNqMkhUZVEwbG5EdFpXVm5WLWVtMHZJeW1lZFZhUmJYMTBiM2VCY0lGTnR4UjQ2ZEc1djlHVS1uQ1VVaUlQQVFTNVoySC1OamNVM0FZUnRhOFpQNXBJaWZCc1BLUHRueEplalE1ZmNCbllEZzZNQ2k0NmdQYkZsRUhvVDl6bUMwZ29IdUlVdElxcXpITVVaQklR?oc=5",
-          "pubDate": "2026-06-24T17:06:27.000Z",
+          "title": "Trump cancela abruptamente la firma de proyecto de ley bipartidista sobre vivienda asequible",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcEpDdWhVRkUyaVhPUVBhZ1hlRFRKXzQteFJxR1VyTjRGWmt4S1hrcmxoNDZUNWEzNFhSdWhzTUhRNmtNR0FEdTd2WXMyVE5uWDBoTENqbUxlT3ptczU5RVVYdC1xcldKcmhLS2x0Y1FpOEw5VUFqUU5nNWtVa3VNdkNsV05JTXkzUllOM2dOTzZXWGdhUkZKY25qMmZqQ0RSSzktMWpwUzNyeXU1cFJsemVWYjZmWGhS?oc=5",
+          "pubDate": "2026-06-25T04:54:34.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "¿Están ChatGPT y otros chatbots de IA políticamente sesgados? Lo probamos.",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcjNMZk5ZYVBRRHlTbDJrZl85THhCTHJvczVHMzlPcnpUdndRdkV1NGZoNFdvMzNBLVdZaHZpS0tEY1dfWFBYTWtKUXpnQzhFa09vMXBHYmNuOEV3TmJuRWVXeTFvQW1adlNBRDg2R0NBUEhQLXlwdWZHVHNLRUVXYjdRUk9FTjFXSDRGenUyZkZxMkdZelk4OWF5VGI4S2Q4U3lyQUpEWEROTFJLUlM3alNwaEQtV1FveVU4bjV1dW1SM3ZvenFZ?oc=5",
-          "pubDate": "2026-06-24T16:00:00.000Z",
+          "title": "Memorándum interno ordena al personal no revelar muertes en parques nacionales",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeTY3bDQ2aDF4ajZHMHBSMVhNV1g4Y3J5QWxQdEVlN3NubFh2Yl9hQ0l1NE45QlFQU0pNWTVpZ0ZVNHZQazFaMVpKYmdCcGRTMi00MHFBVklWR2s1S2s5TFJZNDdoVmN6eHFsekdOazZMa1Q2ek13djYxdGllYURMSmxFNmNqNUIxWDFYNVZNTzNSNE1nUkNLemNRLU1OUUJ4X0Qtcm5zRnRveHJ2Q0F2YXFHcmZQRVp3MkNz?oc=5",
+          "pubDate": "2026-06-25T04:46:07.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -161,16 +161,9 @@
       "color": "lilac",
       "items": [
         {
-          "title": "Los errores de computación cuántica que América debe evitar",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZWNEX0ZjaEVWQXlQa1FmcU9IZ3JtcHdDYzJ6NTd3WDBTTzc5MGdtSVh5OHVuTjQzaTNLRG5WU1FPVnZKSWI3VmtuRE9kOTdkZkxRell2bF96REROaFdWNXdWYVhkNnR1cVItZTFSckdYUy1OMmF6dnFfd3RyZFBfTUN4SHlDWE5jOXBUNUxIZjFfTUZJOVBMbFVXclA2a25HNXc?oc=5",
-          "pubDate": "2026-06-24T11:06:24.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Un preso rastafari no puede demandar a guardias que le afeitaron los rastas",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLTNueDRQa2pwbE5UNUFWbEdpWDQyaDdnbHVGWFo5ZUVhNDhVSXVIcWt2T1dTTzdFTElJRGg3eTRvQWNCRTlTaUtyVTJFdzR4NEtRaEpFbnBaY09jXzRibmlhaGJBZkhzejh1U09mSGtPUmZUcU1ob0wwX1hEdy1uVE5tZVVHNGRoeWF1LWF3MlRoZnNiVENvOEhXcm1NcUFOT3d1RjBXdUlFdHY5cWphdTBR?oc=5",
-          "pubDate": "2026-06-24T06:21:17.000Z",
+          "title": "La reacción contra la IA apenas está comenzando",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT2xzMEEtYzd1OXIwbDVTWnl1dEhZMTBVYVRGQWhVTV9JbUdGbzdmeWFmaF93ZklUWkE5RzZ0QV9iMWtRcFNPbVg3M2lSNjlEU1BLTzhPb0E1cWtfeXBnbUx4blg0cW9Xd1NBWWlFUGl6YzBWNmNFbXlVMFczdTZJQ3FmTTBkSDBXMXMzLQ?oc=5",
+          "pubDate": "2026-06-25T08:33:42.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -181,30 +174,23 @@
       "color": "peach",
       "items": [
         {
-          "title": "Iván Cepeda reconoce su derrota en elecciones presidenciales de Colombia; denuncia injerencia de EU a favor de Abelardo de la Espriella",
-          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNQzN4NkpLVmNFQk5zMjdoNlZOQ3M4VFlyVXpKWXhFbXFqZHcxSi16RVB3TnZpcFhSQUd2ZnhQR0tBeHhtWjlQcHE2WEhOWUNWMEpKWWlLR2ctTk9BTXdyNS0ydVlEMjdpcUxpRl8tbVByZ1laNklrek54Z216RXBXajVSQW9xOXNhSk1NQjVxYlh3N3FwUjc4alJTT3lkbGU2VDNENXJuVGVhWU1PV0xEaHlMeTdjb2JZdTFsTDNaOTE1Vk00R3hTci00M0VZdDhmaXNkY3BCM0tXSGFOU1Q4QU1OeWN5R280V181OVhXX3doM1dTaFdXQVpfM0JheEk5VFHSAZYCQVVfeXFMTW00TmRlMkFzdUQ4S0pBUWtuSmhQU1piR3BHR09zdC1WSnlqSnpuTE51NnV2UWtqUUVjS0pFUGd5UjQzSGNiUnN5TFNJZmVfSXRsOVZ4SHNkQzZ0bHBYWXNwZTBoaGJCemM3MDIyXzBmRFdhdDdKSmVkeGxBb2tZaWdxRmphaFR4RERESnBncXhJQ1lyWEp6LTJGQmJzUGljTXh6a0JRYlNKSUVra0hfZXZhbFFDTDdENmxCR09oRjUwQzBoaklHclE4dkpUcTVBYThfTzhHZk1nX0dCWHJ0QXBTRFowR0NJQVFkSWVrSlp0S1k5azRvM010VmQzMWl0MHR3Q0h1LWF4Y25YemFBUlF3QVpTS0E?oc=5",
-          "pubDate": "2026-06-24T15:19:11.000Z",
+          "title": "Pierde la CNTE influencia en Michoacán; maestros se alejan de paros y movilizaciones nacionales",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdllTWEFnLS1rSnY3eFpmUVRDVEZHX0hzMEdmTG1mUnRwcDhCNHpWNy1GZ0tWWkhyT0JNQTRVOFkxVlRacDJPdkswNFRGT2FoaGF0TThqYjFsMjdvNXZ0Skc2d19ZbkVNb0hGVVJTaEd3ZEJDUzh3Wms2eHE1amRUbUdtaTJfZFBtejBWcHY0eXJJdEJGQ0lEYk5PSUVucjB0RDJHdnpRUmxDRVczcHBuVEk0MnBBUTlQdHNNb0taNTJwY2FYUmFrT0tmOUtEbE3SAeMBQVVfeXFMT0cyTWUxaWRLRF95bnRLZFNuTXpSaWM4QXpaYi0xNmhnUlFQbERqRXBuY3lOTDdLTUVkQnU3REZRdzJFMDlBTGJ3MW8xVGNzQzFoWlktc3ZJd2tkN2NhREN6SzRVWnhWSmhqWnJOS3hISGNuU0RoekdHUWtSb0F5azc5aENlTDBhR2R5NTV3LUJvOFd1STBkMmRKYVFycDZxMXBHeTVibVpyemluWHdEMWtJR0FNTVBQSEhsU19iek40ckQ5Ni1MaHVscUp1bHhxZmNmZmRfMjYwbXJBTlk5RFBFQkk?oc=5",
+          "pubDate": "2026-06-25T07:19:39.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "El ultimátum de EU a Sheinbaum, en voces temibles, escribe Enrique Olivares",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUnZfYkRjNHpFRHJabnRGUmVHY1JvaWQ5a2tGMjNPR1ZjbkJVVjFIY1owQlpDN251UzdhWUdRMkZwYjlBQ3E1Wll4SVp6NDlyanpyUXlMai1MTWdvYTR2OXItaHhtU250Y1lkTFBkZFRuTFFKTFhtci1vTE8zTEhpcU1oZmpGMWFjbHpVYVVJc1B5aUE1djBYb0JDTGlCUDRRRVNUU2RyOGc?oc=5",
-          "pubDate": "2026-06-24T13:37:27.000Z",
+          "title": "“Adopción” de los Yunes fue “golpe bajo” para Nahle",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQemVINVpvSXFGRkpyS2xXaFBaSFpiWjNlN3Y3bFNoendkcG10RWs1bFpUdUlmeURLS19BSjlwTFBUcTJySnlLbmtVQnJoWW1GSVMyaVk4THRDOUxhZ3BUNVFKOGNHVXNBWGpEcEJadDdFLTJvYXFSanNpNVFObnJCaTRVOU80bWhaM1pSc00xQ2U2NFBaNlN2WVpR?oc=5",
+          "pubDate": "2026-06-25T06:36:07.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Gobernabilidad rota, escribe Fernando Vázquez Rigada",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMDlqOHNJZU00SEdMYkNCME1VOENTbEhuUWF5ZTc5aG80NS1JNGRzTHFRa1F6NTFYRTZfcU15bzN4OXZHRzRuNFRnUEVheVVXbExxZDBLSGVmSkYtb1FEc3dJNHVtQ0hHUnBjU0FiQ1I4bE1tdVE0ZjZGRTMwSmFvYWMtMVk4VWktYUhF?oc=5",
-          "pubDate": "2026-06-24T13:31:53.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "CNTE se lleva plazas, becas, crematorios… y 800 mdp",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbDY2Z0RqQU51YlVnRERwZGpSQ1g5OGZrbXdvbmZWa2I0bEFEUHJEU1ZQb21aY3lId1dDZGRPNnMtU2JHQWtUZnlhVDZTUGJreFNTSURodERrRDd1ZEV1QThRM2RFTnExaEFTR3ZwV0dTbWQtVHRoUnZmQjA5d21MUnRYUTZ3RDZaLWVfdmtqONIBowFBVV95cUxPRUdlVkFMUFpHN2ZRclR4V1J6RkxBeHNoM1U1UkxaVXpzSlJyRXpqc2hqWGgxSHgzWkdsWVF4X1kwbUFsY0RuTGpzVS15QWNjY3ZWZG55ZXUyd3J2dkxlckJhbTBBN2Rrc1pNVHFrajRmM1doemNCbE9sNWJoN19hTG42LW9VVTdVUzQydERsZms5YTdLdXowaG9lZTVEVXZPVUhv?oc=5",
-          "pubDate": "2026-06-24T11:16:00.000Z",
+          "title": "Delcy Rodríguez anuncia estado de emergencia tras terremotos en Venezuela",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORE5GZG9xNGV6ZUxWa3ZGbWRpaVJaVXZmZFFuY1VkRzVSY2dSVkFLWXgxa1dMTHVtU2EyWkxhbjV1cTExckRPaDk3c204N29Tc0NwOTdLSFVINk9Ka1JhRGM3UUdSNHY0VUE3cmdDNFJ1Wlhnb1RadlhXWlVNbWg5bkFqVkNEajBUbGZ5Y1Y1eW9hTGVjUmdkSVQwUlVDb3RuX2tCLTdReGwxamMxbWpvWTc1a2lWMUM0NVZOeU5VdHNEd3dJVzJ4SThUTUJJRnUzNjdCSWV3ci0zel9uNm8zNXZJdFdITm80WF9oQ3VOWTRfZ9IBhgJBVV95cUxPV2dydjBlSEQ0Tm5XSm81aWZVd1UwZFJ6SGd1Y2l4T25BMk5SSkJoNENwUjJIaDgwaDM3aWt2VU12S2ZGaHY5Q3NYYng5Ym5rODY3M3NzNlJUU09rMGRQYnd4S3JKWHZMU1pRLWwwd0NZRmlxeGdIR2hNZ0ZqMktSVzNoU0xydzk4R1haQzZGbGJYanFnRUNQN0tTdHV5Wnp2cU53b2x0SlFvcHZBbzFoaC1pSmFkWUJmLThadmhXLV9XeFJtZi1vRkd2OGp3amlvWW4yZnBPTW15QkUyTDUwYzlnSUVta3JkcEFmdGI0NzRndnZIeFJaSUlESmdtdzI0UUJvbVZR?oc=5",
+          "pubDate": "2026-06-25T02:16:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -213,36 +199,7 @@
     {
       "name": "Diario Las Américas",
       "color": "blue",
-      "items": [
-        {
-          "title": "Rodríguez Zapatero involucrado en trama de tráfico de influencias en Bolivia para favorecer a grupo peruano",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUGc3bVhPU2ZkRVBrM2lKSHZXLTg4MEIzNnoxTlhuTlVBSVp1ZnJYZmhkMXhEQU9iMUItelk5OUs0MVMtdUZDXzNtby1DOF9rX0ttTlB2TGdYdk5BSHZubU1KaVhkX24zeWIycHFGak1CejVuMEtHSmxhMVZVY3cwZ2RIanhxNWhxXzdvT3dsZ1lxeWJHeGM4aW1JRXBCRlRUMzFXaUhtYVBud0Rqdk8tYjNBdzhwLXd5UWREZldUbGxYY0owTk9kbFJxUG9DQVEwdDFOYjdNaEhOVy10TTRB0gHkAUFVX3lxTE5qUDYtczA5NXlvQXY5WTlzcFNic0h3X0ptZFdncjVBVUlvdUNrbHV5N3R3M0QwYnFyNGx5TTdXMjVpR3RnYkpWTU4zcFRyQnVEeVpnSXhiTlpyQzBXMWR0RlY5MFhxa2ZXNzNuWXY1X040UlFwYms2N1NPSWdqRXJQVkZfaXVPeERTRnJuTHlBOTM5S3BTMElrejMyYVg0MGhHekRyNWJrR3ZDTG1jRy1TRFZvMUZsTl9KV2QxX1N6VXR0ZlcyR3h3Ml9qdXZmSDRaVnFQRlM2Z3NJMlEzLUtjcVV2ag?oc=5",
-          "pubDate": "2026-06-24T16:09:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Amigo de Zapatero citado a declarar en el mismo caso que el expresidente español",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNk5kM0tFd0NSNWZpQXBfSE1qOFo0NnowTE4yMWhjc2tPMEp4X2dXQUFSM3Nyek5rM1RwWTNCTFk2YTZ1LUFZcVBpVHcweVhmcjlJemZaR0JHbGhxYXhNM0tIYi1TVlhiRWdMUWg3VVNPVUZtMTdhZGJwUng2YmZ1S2VFSmwzVGZPbzdUUUxyXzRadHdJOUlKVHRFdEU5am1IMWpuYmFuMkZDMGRWUGxJQmQzWlJaWjA2WE1ETGdR?oc=5",
-          "pubDate": "2026-06-24T15:47:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "EEUU exige en la OEA \"cero tolerancia\" para regímenes autoritarios en el hemisferio",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTjZSRE5hNENmekFFSWNva01sUTJiOF9KTmhHVmRqdE9PbHFCbGxpQzMzSUhGZnJBYkxpajR1T053cjdXaDlSN25LR0wwYjhmUjUtMUR1M3A1ZlQwQ3RWQzBWSmpuV2wwTTBMTTNvbE5nMEZpWUlrT0lhZjBFLWdSaFowOXV5QmJubFdRci1DS1Zod0c4dUhhZW9md1JaY1BTVW1TaU10Y25vV0JwbWJDdmVxcmRGMkhpWkxCYmpmV3U5ZkVNRkxN0gHMAUFVX3lxTE1HXzlwYk4zTTdGU2oyc3g3c1otRk8zbndDUDhwMUZLQmt6OHBMWDRTdHlLeVVFR3V0cVVsQkVBb28zYXBDRGROQkRLVXhTTkpfMlYwdm5VQVY5cXFZc0ZZRmc3cDVBMnh3cEpoMG0xMnJIOXZrX0ZfVy1UWUI0Q3N6WTNjZ3VEN3pPSFg5THNqVG9aR3JNTnZyU3NrLThYTXl6QkpmeDJHQUQyLVprWFBjc1V3WnRvNzBVVEY0eHhtRDVNVS1vVXVyd1pRag?oc=5",
-          "pubDate": "2026-06-24T14:19:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Fanáticos en China dejan a un lado la política para apoyar a Japón en el Mundial",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSi1xaXlvTDlpUHlFTlc1TXh4NGV3a01YOFJQUlVpSFI0QWhJTXhjV21LUTVZb2pybmtNZloyOEJrcjAxRFFXd3Y2dGpENVZVbm9aZ1VGSGxoQWtrU3h4eFlpV1I5R1k0bmJvaXNoNEJsOHBMa1haWVl6LVJUR3FiSENZLVJDcTNRUEQ3WjQ5UDBObThNRG03YlRNdjFJeHV6YjdSdkVtQ1lSdEM0eWVyQThTR0M1Y2xV0gG-AUFVX3lxTE0wRFpWdWsyOEtzdkRJb3laU1VaTGhoTG91MGhib1BoUEdmQWpLMFlQQ05DSDVXYnhTSjZnQ1d3V0J2MWg1eEN0eTB6NWExeFpXU1p0eUxvazV4ZWItSXlPU2lEMzFUZ3ZpZmZySnZmSFRNN3Z5c1dPVEVHOHRhS2lfZ1Rud3hOQmd3bXhiYXNiOVY3NzY0QnZtX3lxcXFYSC1COXNqU1dOdDUxTkNJSGdnLWoyS25TWndjUS1QcUE?oc=5",
-          "pubDate": "2026-06-24T16:05:00.000Z",
-          "snippet": null,
-          "_priority": "DEPORTES"
-        }
-      ]
+      "items": []
     }
   ]
 }

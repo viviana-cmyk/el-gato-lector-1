@@ -1,35 +1,42 @@
 {
-  "generatedAt": "2026-06-24T17:36:17.620Z",
+  "generatedAt": "2026-06-25T10:01:19.606Z",
   "outlets": [
     {
       "name": "Semana",
       "color": "blue",
       "items": [
         {
-          "title": "Corte avala la emergencia económica de Petro por crisis climática, pero le puso límites a los decretos",
-          "link": "https://www.semana.com/nacion/articulo/corte-avala-la-emergencia-economica-de-petro-por-crisis-climatica-pero-le-puso-limites-a-los-decretos/202620/",
-          "pubDate": "2026-06-24T17:30:20.000Z",
+          "title": "Embajador de Colombia reporta daños en el consulado tras potente sismo en Venezuela: “El personal diplomático está a salvo”",
+          "link": "https://www.semana.com/mundo/articulo/embajador-de-colombia-reporta-danos-en-el-consulado-tras-potente-sismo-en-venezuela-el-personal-diplomatico-esta-a-salvo/202641/",
+          "pubDate": "2026-06-25T03:52:41.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "¿Pensaba hacerse ciudadano de EE. UU.? La ciudadanía podría costarle hasta un 75 % más",
-          "link": "https://www.semana.com/mundo/noticias-estados-unidos/articulo/pensaba-hacerse-ciudadano-de-ee-uu-la-ciudadania-podria-costarle-hasta-un-75-mas/202602/",
-          "pubDate": "2026-06-24T17:23:02.000Z",
+          "title": "Demanda de energía aumentó en 8,75% en mayo, confirma XM; con Fenómeno de El Niño, se complica el ahorro",
+          "link": "https://www.semana.com/economia/empresas/articulo/demanda-de-energia-aumento-en-875-en-mayo-confirma-xm-con-fenomeno-de-el-nino-se-complica-el-ahorro/202609/",
+          "pubDate": "2026-06-25T09:22:09.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "CNE terminó escrutinio de las elecciones: Abelardo De La Espriella es oficialmente el presidente electo de Colombia",
-          "link": "https://www.semana.com/politica/articulo/cne-termino-escrutinio-de-las-elecciones-abelardo-de-la-espriella-es-oficialmente-el-presidente-electo-de-colombia/202622/",
-          "pubDate": "2026-06-24T17:07:22.000Z",
+          "title": "Primicia | Fijan fecha y hora para la acusación contra Ricardo Roa por la compra de lujoso apartamento",
+          "link": "https://www.semana.com/nacion/articulo/primicia-fijan-fecha-y-hora-para-la-acusacion-contra-ricardo-roa-por-la-compra-de-lujoso-apartamento/202604/",
+          "pubDate": "2026-06-25T09:16:04.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "El gobierno Petro fue advertido por las agencias de seguridad estatales sobre los “efectos negativos” de la Paz Total",
-          "link": "https://www.semana.com/nacion/articulo/el-gobierno-petro-fue-advertido-por-las-agencias-de-seguridad-estatales-sobre-los-efectos-negativos-de-la-paz-total/202652/",
-          "pubDate": "2026-06-24T16:58:52.000Z",
+          "title": "Abelardo De La Espriella recibirá este jueves la credencial que lo acredita como el nuevo presidente de Colombia",
+          "link": "https://www.semana.com/politica/articulo/abelardo-de-la-espriella-recibira-este-jueves-la-credencial-que-lo-acredita-como-el-nuevo-presidente-de-colombia/202657/",
+          "pubDate": "2026-06-25T09:08:57.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Vehículos eléctricos en Colombia: mitos y realidades en el 2026",
+          "link": "https://www.semana.com/vehiculos/articulo/vehiculos-electricos-en-colombia-mitos-y-realidades-en-el-2026/202637/",
+          "pubDate": "2026-06-25T03:48:37.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -38,45 +45,67 @@
     {
       "name": "El Espectador",
       "color": "peach",
-      "items": []
+      "items": [
+        {
+          "title": "Terminó la campaña y se viene un empalme tenso: De la Espriella y Petro mueven sus fichas",
+          "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOcEs5b1JEQ1dybWFrMVZzSmtkOUc2TkpnbGlZeWkxR2pSZlhqSExqeUF1Q1VkYk93UlpXdkJ1c0hwZi1MMjhjNDdaMzhUaEtYWUVaUGZ4Wk1uWTI1cjEwcGZQbWVGUnN5OXNKMmcwVjZtbVVKSG5PX0JfZjRJamlMWGxZUkRCT0sxaTdBUHJ4QWtaMzFJaDlma1NtQnpFNWlRcDQtRTViZGt5RzRXVDVmV2RrLVBpRHpGZnpXWWxxNlktX0g0ZWlITlc3Sy0tX3NEU0FCdnl0QXNnMVdRbXZDcElrejdqN2pwd2QtdUIxT2lXTl9QT2NOajF3S3lZckp6cmVhS0V0djU1dmpfNEJlWUNhMERxMzDSAZcCQVVfeXFMTnBLOW9SRENXcm1hazFWc0prZDlHNk5KZ2xpWXlpMUdqUmZYakhManlBdUNVZGJPd1JaV3ZCdXNIcGYtTDI4YzQ3WjM4VGhLWFlFWlBmeFpNblkyNXIxMHBmUG1lRlJzeTlzSjJnMFY2bW1VSkhuT19CX2Y0SWppTFhsWVJEQk9LMWk3QVByeEFrWjMxSWg5ZmtTbUJ6RTVpUXA0LUU1YmRreUc0V1Q1Zldkay1QaUR6RmZ6V1lscTZZLV9INGVpSE5XN0stLV9zRFNBQnZ5dEFzZzFXUW12Q3BJa3o3ajdqcHdkLXVCMU9pV05fUE9jTmoxd0t5WXJKenJlYUtFdHY1NXZqXzRCZVlDYTBEcTMw?oc=5",
+          "pubDate": "2026-06-25T02:05:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Así quedó la votación entre De la Espriella y Cepeda tras el escrutinio: en gráficos",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPcHVUZjhKY2dVYjFsczhMOXYtRXVDeFNQbjJFTXhHMm5wdElneGtZQ1FwYm1vSFYxbE1fcXpnQUw1RlFXZTQwQWxxLVdNQmhjQzVHMWhKSUxSYjloa3lwOWJFQkJSYXN3bVhKNm9TRk5NQklBR2ZOaHJwTVlUVGtQVjROZzRwN0trV0h0S3lhM3lycktzbm1lRVk2VkxBTndOcGNZOHZ6cDdwQjZyWHFaaXc4c2QxNjhGd3FXVy1jTVFDTnM4UzlFbEJweVpNUUpMX3ZXMS1fa1VBNmJieEVoZ1NRdXI2aHpqZF85LVF4VWEzZ1ln0gH0AUFVX3lxTE9wdVRmOEpjZ1ViMWxzOEw5di1FdUN4U1BuMkVNeEcybnB0SWd4a1lDUXBibW9IVjFsTV9xemdBTDVGUVdlNDBBbHEtV01CaGNDNUcxaEpJTFJiOWhreXA5YkVCQlJhc3dtWEo2b1NGTk1CSUFHZk5ocnBNWVRUa1BWNE5nNHA3S2tXSHRLeWEzeXJyS3NubWVFWTZWTEFOd05wY1k4dnpwN3BCNnJYcVppdzhzZDE2OEZ3cVdXLWNNUUNOczhTOUVsQnB5Wk1RSkxfdlcxLV9rVUE2YmJ4RWhnU1F1cjZoempkXzktUXhVYTNnWWc?oc=5",
+          "pubDate": "2026-06-25T00:50:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "“Tenemos que hacer unos ajustes institucionales clarísimos”: Alejandra Barrios de la MOE",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbjYtb1JrdUpHeW11SEFoa3htcjVmRGxjVHM4YVZZVXg4V3Ewc2NlWUVQYjdTSjFJUFJsVmZKak04aVVKdks4MVdTR1daWUJ2blk5LVN6N3dJeEtGRHRfQUprT2ZBWmxFTUdRM1dnNzZkano5TU1PNTNrTVB6OTZCX2xKOWdJcl9SQnpEUWV2NjhCTEFUMVNEVDZwc2VvcHVzMXVKeG1INEtHVkNXRXhZdUpPUG1Qbk9nbFdST3lPRDAtQnBEZHktM0VidW96WkFrdnfSAdIBQVVfeXFMT242LW9Sa3VKR3ltdUhBaGt4bXI1ZkRsY1RzOGFWWVV4OFdxMHNjZVlFUGI3U0oxSVBSbFZmSmpNOGlVSnZLODFXU0dXWllCdm5ZOS1Tejd3SXhLRkR0X0FKa09mQVpsRU1HUTNXZzc2ZGp6OU1NTzUza01Qejk2Ql9sSjlnSXJfUkJ6RFFldjY4QkxBVDFTRFQ2cHNlb3B1czF1SnhtSDRLR1ZDV0V4WXVKT1BtUG5PZ2xXUk95T0QwLUJwRGR5LTNFYnVvelpBa3Z3?oc=5",
+          "pubDate": "2026-06-24T23:15:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        }
+      ]
     },
     {
       "name": "El Tiempo",
       "color": "rose",
       "items": [
         {
-          "title": "El fin de un imperio de 15 años: así cayó alias Morocho, el presunto cabecilla de 'los 300' que tenía azotados siete barrios de Palmira",
-          "link": "https://www.eltiempo.com/colombia/cali/el-fin-de-un-imperio-de-15-anos-asi-cayo-alias-morocho-el-presunto-cabecilla-de-los-300-que-tenia-azotados-siete-barrios-de-palmira-3566707",
-          "pubDate": "2026-06-24T16:24:08.000Z",
-          "snippet": "El operativo judicial afecta la estructura criminal responsable de homicidios selectivos e intimidaciones a comerciantes.",
+          "title": "La seguridad en el Valle del Cauca, una de las grandes 'papas calientes' que le esperan al nuevo presidente Abelardo de la Espriella",
+          "link": "https://www.eltiempo.com/colombia/cali/la-seguridad-en-el-valle-del-cauca-una-de-las-grandes-papas-calientes-que-le-esperan-al-nuevo-presidente-abelardo-de-la-espriella-3566859",
+          "pubDate": "2026-06-25T09:12:00.000Z",
+          "snippet": "Detalles de algunos de los desafíos que deberá enfrentar el entrante Gobierno Nacional en el departamento.",
           "_priority": "ALTA"
         },
         {
-          "title": "Se agudiza pulso entre el Distrito de Cartagena y Acuacar tras orden de tribunal de suspender los cortes de agua programados en toda la ciudad",
-          "link": "https://www.eltiempo.com/colombia/otras-ciudades/se-agudiza-pulso-entre-el-distrito-de-cartagena-y-acuacar-tras-orden-de-tribunal-de-suspender-los-cortes-de-agua-programados-en-toda-la-ciudad-3566671",
-          "pubDate": "2026-06-24T15:00:17.000Z",
-          "snippet": "Tras una acción popular elevada por el Distrito, el Tribunal Administrativo de Bolívar ordenó cese inmediato de los cortes de agua sectorizados.",
+          "title": "Revelan identidad de los otros cuatro capturados junto a Luis Mariano Díaz, hijo de Diomedes Díaz: lo que se sabe del crimen por el que los investigan",
+          "link": "https://www.eltiempo.com/colombia/barranquilla/revelan-identidad-de-los-otros-cuatro-capturados-junto-a-luis-mariano-diaz-hijo-de-diomedes-diaz-lo-que-se-sabe-del-crimen-por-el-que-los-investigan-3566914",
+          "pubDate": "2026-06-25T08:11:07.000Z",
+          "snippet": "El arresto se produjo este miércoles 24 de junio por una presunta vinculación con una estructura dedicada a los préstamos ilegales.",
           "_priority": "ALTA"
         },
         {
-          "title": "Gremios económicos lanzan S.O.S. por Nariño: 'No pedimos privilegios, exigimos soluciones'",
-          "link": "https://www.eltiempo.com/colombia/cali/gremios-economicos-lanzan-s-o-s-por-narino-no-pedimos-privilegios-exigimos-soluciones-3566664",
-          "pubDate": "2026-06-24T14:43:10.000Z",
-          "snippet": "En tres años en la vía Panamericana más de 200 vehículos han sido robados y otros 100 fueron secuestrados.",
+          "title": "Integrantes del 'clan del Golfo' señalados como responsables de desplazamientos en El Bagre, Antioquia, fueron capturados: una menor fue recuperada",
+          "link": "https://www.eltiempo.com/colombia/medellin/integrantes-del-clan-del-golfo-senalados-como-responsables-de-desplazamientos-en-el-bagre-antioquia-fueron-capturados-una-menor-fue-recuperada-3566906",
+          "pubDate": "2026-06-25T03:45:18.000Z",
+          "snippet": "Además de la captura de los tres presuntos criminales, el Ejército Nacional incautó material de guerra e intendencia del autodenominado EGC.",
           "_priority": "ALTA"
         },
         {
-          "title": "Aceptan responsabilidad dos hombres que salieron de Barranquilla para movilizar a los sicarios de la masacre de una familia en Aguachica",
-          "link": "https://www.eltiempo.com/colombia/barranquilla/dos-implicados-en-la-masacre-de-la-familia-de-un-pastor-en-aguachica-cesar-aceptan-cargos-y-seran-condenados-3566663",
-          "pubDate": "2026-06-24T14:24:53.000Z",
-          "snippet": "La Fiscalía estableció que condujeron las motocicletas utilizadas para seguir al pastor Marlon Lora y transportar a los pistoleros.",
+          "title": "Uno de los hombres más buscados en Antioquia por homicidio fue capturado en Cocorná: era coordinador de sicarios del 'clan del Golfo'",
+          "link": "https://www.eltiempo.com/colombia/medellin/uno-de-los-hombres-mas-buscados-en-antioquia-por-homicidio-fue-capturado-en-cocorna-era-coordinador-de-sicarios-del-clan-del-golfo-3566825",
+          "pubDate": "2026-06-25T01:59:27.000Z",
+          "snippet": "Alias Panadero es señalado por las autoridades de ser cabecilla militar de la subestructura 'Gener Morales' y es vinculado con seis homicidios.",
           "_priority": "ALTA"
         },
         {
-          "title": "Más de 17 años de cárcel para implicados en masacre del pastor Marlon Lora y su familia en Aguachica, Cesar",
-          "link": "https://www.eltiempo.com/colombia/otras-ciudades/mas-de-17-anos-de-carcel-para-implicados-en-masacre-del-pastor-marlon-lora-y-su-familia-en-aguachica-cesar-3566649",
-          "pubDate": "2026-06-24T13:54:08.000Z",
-          "snippet": "Un sicario descendió del vehículo, irrumpió en el establecimiento comercial y abrió fuego de manera indiscriminada contra el núcleo familiar.",
+          "title": "Cali se blinda ante El Niño: Emcali activa sus planes de contingencia ante el aumento del consumo eléctrico",
+          "link": "https://www.eltiempo.com/colombia/cali/cali-se-blinda-ante-el-nino-emcali-activa-sus-planes-de-contingencia-ante-el-aumento-del-consumo-electrico-3566889",
+          "pubDate": "2026-06-25T03:10:01.000Z",
+          "snippet": "La empresa de servicios públicos reporta un aumento del 2% en la demanda y asegura contar con la cobertura para abastecer a sus más usuarios.",
           "_priority": "ALTA"
         }
       ]
@@ -84,18 +113,54 @@
     {
       "name": "El Colombiano",
       "color": "slate",
-      "items": []
+      "items": [
+        {
+          "title": "En fotos y videos | Los grandes destrozos que dejó el sismo de Venezuela: así se vivió la emergencia | El Colombiano",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUTBVSkZTcmNhbjVzYzRhOUZGdlYxc3ZQdjVaOS03c18zNGJyV3FaTnA3MTBRazJ2MXk3NXJsbXNDaWZRMFBaN0ZhUVVrTUs4QWZEcGtnUDJndXJVQWctSzctQjNvUzU1anR3Y1o0V3RwSEJGRm1DdDR5RUg4S1lJbXFyS1VqcUxtNWhqVndhdXFSLVRndWUyNNIBngFBVV95cUxPdi1oc0ZmM2tmXzBpMHkxWTFoV0VPalZJTFIzWjB2TlJ4VmtmVFRsZlFfOUpaSmJoU3luRTYzaHZwOVJ1UzR3cWI2c080VG1WV1MxX09BVWlOOV9yR3ItTmR0RXZoSFZEZnF2Wk5aRjJ0RG9MblNyWmtwV0l2UjlRbjg4ei1xZUtEb0toZmp0d3dOOVZzM1lfX1NIMFpSQQ?oc=5",
+          "pubDate": "2026-06-25T02:41:16.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "CNE declara triunfo de Abelardo de la Espriella: es el presidente electo tras vencer por 251.854 votos a Iván Cepeda | El Colombiano",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaUNodEtHcUhIcDJlVlpaT0J3Vk9BOEdXV1FKY0o0QURYRjdTelQ4NTJORkl3eWdzQWtkSmM5MlVfZzh1dGkxcmlvMDFqMGdTeVBSaEFaY2ZlTUVqR01NMzRKVm5rbFd4TmV4anFGaUY3VEZxQ180cS13dWo0bl9Pa09uX3FXSHl1LVdfWnJJVXJ3UzdGRENFVHQ3bURFS0NmVkNZQTZFRENHU2hJdmJoOTVyTdIBuAFBVV95cUxNSThtVVI3ME5pbU96ZDItdkdwN2U2dzFkU1VfVy1xTW9mdWhfTFF4N0JfY1QtMHFRVFB0dHowVEJCeG5EYVVLX0toVkJCMWhpQzd4UVYyNmtHUWhZOXhnUElsSjZ3Z3ZaaTExc05XYlJPb1JXQ1R0bGdkLXpfa056VE5RTFRrY1FOQ2tfZHRVeTUtWlhvSG9QbTcyM19MckhXdXpORE9NV0l2X0ZXWWNFcEw2MjM5a2Nq?oc=5",
+          "pubDate": "2026-06-25T00:06:33.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        }
+      ]
     },
     {
       "name": "Blu Radio",
       "color": "cream",
       "items": [
         {
-          "title": "Escrutinios departamentales en el Caribe dejan cambios mínimos frente al preconteo",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdnUxVUFLY0JRNG9WajVxcm1ZN0Y3R1hjaFA0VmFRQnVxa19haU43WHEzMUNRWVpZeWstMUdJallIQjNWWEQxRm93dWpYTlAwWlJMLWZ3ZjhNak55dVBQcHRMWWZMWjdRTW1ITV9vallzRldHMFFpd1NsdG9lcE1QSXFvUU1NVjc0Nzl3bmVWcGxwbDdMRm5VTkNCZkdpUFJwanc0clQ5Z2hiNDVFb2lFVTlyZ2RKTThJS2Z6a2dldTZua2xUd3pB?oc=5",
-          "pubDate": "2026-06-24T12:26:11.000Z",
+          "title": "Fuerte temblor de 7.1 en Venezuela se sintió en Colombia",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVmcyOGU1Y3pDcE44VTBsYUczbmpKX3p6Um1QbDdrOEVJV0VQM3JLTWs1eGNuY1ZKQ1pieVJyNnJkU0szSEdDLVNYeGd1ZUN0enhWOFVjMW4xVUNYNndreXFveVBqQU1Ya3N5aXVWbFFLa0NmOFRFYjRhZG5RZXB1a2VNUnNrVFR5a3c0Z2tSRFc4bmZfdmFMYVRXcElYTUROWVdWSdIBpAFBVV95cUxPVmcyOGU1Y3pDcE44VTBsYUczbmpKX3p6Um1QbDdrOEVJV0VQM3JLTWs1eGNuY1ZKQ1pieVJyNnJkU0szSEdDLVNYeGd1ZUN0enhWOFVjMW4xVUNYNndreXFveVBqQU1Ya3N5aXVWbFFLa0NmOFRFYjRhZG5RZXB1a2VNUnNrVFR5a3c0Z2tSRFc4bmZfdmFMYVRXcElYTUROWVdWSQ?oc=5",
+          "pubDate": "2026-06-24T22:15:41.000Z",
           "snippet": null,
           "_priority": "ALTA"
+        },
+        {
+          "title": "Terremoto en Venezuela: así quedaron varios edificios colapsados",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYVVHRmtkempBVjJrWTdoV25peENLbFFuQlE3Z0l2YXBITUF2N0JSWGNVTC02T20tS095MTVmMlJDdFRFMkIwRmxtVnhLRkZEb1ZNZnFXMHlPcXpzcHpDTXJXWnN1R1RoQmswQWRXamNQbm9hUDZtNXpwa0ZrazlEVUUwZjUtcW50eTNBTklwemRiaVNiUE1IdC1tUWpjbzFTOURRTFBjdzU1Ni0xVU95M0tqNUt3R1p1ZFBTNllEUjVvY2xzNkUw0gHUAUFVX3lxTE1kdm5lbVdCbVBmTGQ2X3JlSlNCcFp4WDZpdVpOOHE0Ulg5UTRBbjBuMDJIMnIxM2s5RmRrUDlJc2FTWTZ1QWdSdEVyd2h4TW9lZ0puMVFGcXpaQXNGZ21PWGw2bFdNWE41OV9xNVZ6WkR6OWRpRGRSbXZ4MmRiNm1Obk5kODZzZjNTc2gwLVFBcHllaGdFTUxhTzEtelpadkZiVFljcDRlSW5xc1JnUkdWZEh2eXhDM2xtWnAxQ3dIMGtqNjI1QUIxWDFlVmR3RktqWlM0?oc=5",
+          "pubDate": "2026-06-24T22:59:20.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Terremoto en Japón de 6.9 sacudió el norte del país",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZHFfanNQTmY2b190aV85bDRuTVBGdVJiejFjNklZT3IwRGtGXzQwQWVzZ09tNGlnVi02WHRvU2gzVzZqVkJIcUZhXzlVWWEySEhaclVKWlI2dUxVQ0dreEJmTThVdWZ6WERjUGZGc1h3U2V0d0N5Z2tiMEV2eHlVRUoyMGZSYVhkUi1ocUVBd1DSAZ4BQVVfeXFMTThVYmpCWGI1dHdINHQ0LWlBQ2tPcnVuRUJMMGgxNEhOdTFqVVZkSTJnQ3E4MFJqMkdrcHVjOTJWYi1sZHczMDFrM2ZFTmdvTUhZY2tydnlrb0Nxb1ExNWZJQXRZeER1Y04wUXQ0QUI4bUROa2ZmckhtcmdKNUlNQlB0VDdLYndpN3pvNFh6UFhyTEFSeUhyamZUMkJ2Ync?oc=5",
+          "pubDate": "2026-06-24T23:17:26.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Brasil golea y se clasifica a 16avos del Mundial 2026: podría enfrentar a 2 grandes selecciones",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSlRBTjZBa1dBdHVqNWJDWTlwd3dKMC1Dc0hJV1R3TEJVeWh3bmlSakRLemFzeVJfMm50T0huR3VMUEtsVzR3c0xxb2VTdXJrTDlXTGtiQWRRcW9wYW5qU3NIbmlORHNfbGlucTBySnRfQm9vNVNTVmR0b1lEVTZ3TFl3MG1iaXBZeTBuVWZxNHhRMzhiTVY2WXFkR0RiaEVCelcwam14WlN0ZFhJZWhCUmJ1X2JreDNfcnpwMWpyNlBzSnVKWXpmQkNOMzNIbF9Xb2JqOEpBbXA3T0JlZVhsYnluck1GZ9IB8wFBVV95cUxQaGVaaVhjRTJPSFZsRW1NYldSb3VsN0dfTnZYek5scEFBNzg0aGNRdllmcm8teE5qU21vTG14ZzlZcGNUOVRRUHFkRXdMMWVQSE5Ed1M4Qks3NUtjNWZDOUkxQk40QW1pSmZrTWUtRnFOd0p0bWphR3ZPLVY1V2x5VEViQW5XcTVSNzJFTF9fT2Z4UWNLTFlJVEZnYlROdFpLVjhjYnIwdC11NXBOWF9jQjJIN0JCWjl0cmRsN25waS04Vkp5c19RN0lzc3hQZlp6UnpTZnpMN1VYUklBQWxyUlRtVEdVcnJIazA2RTBXVU1CR2s?oc=5",
+          "pubDate": "2026-06-25T01:10:50.000Z",
+          "snippet": null,
+          "_priority": "DEPORTES"
         }
       ]
     },
@@ -104,30 +169,30 @@
       "color": "mint",
       "items": [
         {
-          "title": "La secretaria de Hacienda, Catalina Mariño, asume como gobernadora encargada de Córdoba",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbVFmenpBYnJoU0RvU0lnX1hZbWZOdXk0d0hpVWhxTmRuOEpKMkVQME5QSEljb2tGQzVNMzQ5eDE2RFJiU1dvVzFhZHVfb0UxSm5hT0UydEJCSmtmM0RXcDlYY0gtbWdPYVFVVGNIaFdNTVZsQW12dkJuamJTUzZvZHAtVTVuZWowRjBhdEdZX3g4UlRCdEQ0a2NLQXVSNGNjNGZCSVZCTTZ1cUptOTZFeDZsQjUzUkV2SHNxWNIB0AFBVV95cUxOV21rRk1wWTB5cWktWER2dEtxS0JDRE9LaFhhMC1FQWNKazh2ZWdTb0RWX2JGclB1a0xkaXplR1FMdURIdjNEN1c0dTQzNTZXUE5WcDZQOVMzUW92T01LRkxmV1c2Nkd3cVJLZ2VHLVluSHFpRWxMclZsTGdfRGh4U3FCWTFtQVU3RG14VHkxSFlsc1NKNEY0VlBqTWZta3RKU09jRjdYcjVXWklRZjJQV1lkSXZpNUFfM1prcVl6N0JLeUpLMTBNRHZoZzA5clA0?oc=5",
-          "pubDate": "2026-06-24T17:26:41.000Z",
+          "title": "Doble terremoto en Venezuela deja 32 muertos y 700 heridos",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS294dWh4aTMzOFBqSjVxeVN4WWpUOGF4V3l1TDdsdkdBaEotQk51NFhzQkVfQ256NFdKYU9qMzVIdHNaQ3c3cENDN2tkN0xPNXpsZ0dZQS1qWG5iY0NUZ01BV3A5Qjg4ZDBXaGxrSHlOQ2xtTHUwbGMzOFg5Q002a25mbko5WFZoLWZyT3VUc2JNYW5PQnFQZtIBrAFBVV95cUxNb1JHREZmVVpfQl9hV2NoT0FJSmhkc2ZLaTI3dW9qb29pMU9wNVgtQ1N6LTdMVF9DZ2E4aHpnT0lYWk1OYmNkREtleTVvZ25RVnl2ZXRFVXFjUWExSTllZnpBVkRKY3dQaEREVmczd3p4ZHhoSEZSLWFEampveGFPOVNVZVBRdjJNN0daRF96VXNJdzFCZktKcFBXYVZuREdrUUJPaWNNb1djYlJi?oc=5",
+          "pubDate": "2026-06-25T06:29:15.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Estaciones del metro de Bogotá ya tienen nombre",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMjk3dmdqX1dTVmsyNU9rZDVjWGJNUjd1QVYtN1ZRRkpxQm1TYzc2emUwa3dvbEV2WjF3SFRqRHVmTGlWWGZBbXJBcnFSWDdkYlBvMDk2X3B1WllIRkNJQWtUSXU0bGQtbnMtS1RxMm9yc2lsWDFPbHduX1plYmt0bmlrMXFVc21WdHfSAZ4BQVVfeXFMUExsMm5aRkJhX0ZJUmRoT25IUW9WbHNKZW1qR2hGN05TZXFRUGtnTDAzbW15TlZoZDFTMXFDc3FQLVRMaENXanBWaG1vTlBHSkdTOGF4UjZOR09BZjlOMF9HRFpNMVpPV296VDJvejByOHlVdW5VSWhKUXUxdUJDNWVWM2l4TXFTWnNRb19GU2EySmdPNVhUcElEaXVVbXc?oc=5",
-          "pubDate": "2026-06-24T16:54:17.000Z",
+          "title": "“El proceso de Paz es probable que desaparezca”: jefe de la Delegación de Paz en Buenaventura",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSVUzeS05VkpEUTlsWFVlcFJHQVNTVTQ5cnlJZ1VXNl9jNkw1TlJuMDNnaXpIR0NwMGNWc2w5dlNWSTkwUkI5V2hudXFmb25fOTFEMXNMMWIzN3BkMF9Eb2l5eGRGM1hSWkRXMGg4NFU1T3pJLU5IRGxQc2xnckY0RTdxOHFKOXoxWTdrbXc3VDZWMVk5THFmRm1nRkY4QUlJeEVndW11OUVJbm1NTWp3cWxnU09WME1PQVU2SVZ3ZVJNMU9jRTByQ9IB3AFBVV95cUxOV1R6cHJha2MzTUo3Zk5kZnBLZTFBZ2liUW51dnVCRmdZbTI1VXlBUmQ0cmFsTlN2ZXBxZ0JMelBvVE0wVkdZbzllcjBJeFFmNFlCMDNNdzJLeGZlVnZPUnNHZ1EydnYwY1pGYzVjZGQzNkYtUFZMOHhZSWFHU1ZyLXlDUGxTZlFzZTZTWTkyOG1MdHE0TUhfal9lX1cxN0ZKUU1seXU4TEhBX1NkSjZvdXRtVmJqTm5kMFo1T2kxcGptYVQwVVpEU1Z3TmJRQVZ3ZWV5ejdLMmwtTm1Z?oc=5",
+          "pubDate": "2026-06-25T03:09:15.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Aprehendido menor por ataque a vicepresidente de la Cámara de Comercio de Bucaramanga",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX05sWEFnZW14SE9aNWNodnlHOXU5UFNQS1VUZFFneFJKYWpoQ0UyR0pKMUVPN010aDUtNzdTNWdoVm5LaGJWM3hiV1Z2WHg5Vk9WSnN6WDlDWnRpd2VqaTdKRDB1OXlmX2JwRGJKQ0FIYkh6S05NTVlEWWphZ29ValZiYjRRU2Q2bG5SMXg5YlhZTDNzbURSalZ3eXJvcWkzVGRuVTFLRWpLclQtMmRaNUpBWWFWcGcyQmNMLdIB0AFBVV95cUxQUkRobUI3Q3ZVQk9pX3BkbEY0UnJEajNmeDNYR0FKZlh0MXA3b0pHVTFMaF9fSEFPUlI0TmRXTVR4WnZiOEJsYTVRZTFJYVZYQl8wR01haUpYcHMwTVFKZ3JYY0lfNmNzQzQyTmdaNG5PVmpaQ3NHQkM0c2pOTWotb2FBTkY1R096LXY3WFlCYnJnVExqRl9WbFdwTmlUbFlMS3hmY202MlVlYTNxTUhqVkcxUkJTcm5oYkhRTGV2TEtEbm9JVThhck1sRERwbG15?oc=5",
-          "pubDate": "2026-06-24T16:20:38.000Z",
+          "title": "Dos policías fueron asesinados en medio de enfrentamientos en Calima-El Darién en el Valle del Cauca",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVm1Wcld1ZVpONkt3RTJNRzdvVDQ0Z0g4ems3TnJlLWJWOXFmZ19rY1d0NzVyOVpmSHhfU1c1bTZjdWlMdng5dlAtMWFiQjRpeVdNclFUa28zTWs5SzhLc0pMR0g5VXo0bW1ldFpIbVlIa3lQcVg3YmxpaDlZX3dZUnlPSWozc0ZHZnBGZ05HeDhYbTFpbURCTF9DTVFISGZPZFFZdEZwb3RQXzBvNWU5TFhfUldGTzhiaUZ4MjF0VTRheWZtS0RZamVrUGstSElw0gHkAUFVX3lxTE1ibXUyWFJiMC05LXNlMUNKV0ZkVm56ck9ZcU1tODNPaUNwQnpRdnZQVlRoY29zNFltWTZtMW5mU0RlVzlpWEprZUx1bEFFX1JGMmJUclRZZ1RzenlHZ3VYSGEwRGpZRVpjZEt1azJtMk9ySTluZXlSTFFOWDExZzlEbExzcGxhZWZPOXRJaGtnYnQ3a1A4eUJQbV9BZ28tLVNQelFPd2tMaW9UVWk3X3RoekZ5eFcwaWhyVk12WTRfNXp3c2pWV1IzSGxvYTNIUTNGczBHa0x5dmhqRjdBbVpnTzJ3dA?oc=5",
+          "pubDate": "2026-06-25T03:09:15.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "¿Qué pasó con las conversaciones de paz urbana en Barranquilla?: Gobierno responde",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVXc2ajkxV0dWTlJ0OU5kZHd6enp6LVJ5cEprd1NqZTBaWVJqS1NLeXRUYm5UYS13TWJpdnJEdW93bzdDbHpKMFRfeFR6bEtJWmtOLURoZGxiYm1uLXFFLWJsN2QxOUZmYmZPWmdGOEFRQ1hjMFZfWWRKTHBub3VETmJSZWM0N1d1SC1LaHhnMnBYVVdleWNKYURDVlhMU2gzSEYzWHVnOUZPSWVEOUFOUTMwZUHSAcgBQVVfeXFMTmxjZENaQnZBVXhwT1lZS3NFbmxfMkxjaFhUWU1NNVg0WU40N0FFWlpvdXRqSXBhMENWY0J0bVZwcHFOWEZsLWRaT0xRRW5rUE53RWVQenBfLWk4MkRUak0xNUpVOUR1TnFBME41SVk5M1dHOXY2Yk5FTDlWV2ZwZWdyUjVfQ3VRUEQ0Q1VJSWF6WTNsbG1BdnVjQkNOLUFRWTNQX2NEc2FvRWY3WGtZRFdTZFN5bmZUZ0pCMUptaTk4eFF4b3Jwd2Q?oc=5",
-          "pubDate": "2026-06-24T16:01:09.000Z",
+          "title": "Abelardo de la Espriella es oficialmente presidente electo de Colombia: el CNE declaró su elección",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTXpXNUlQbEdueGZaRGxQcVZmN2F5Q2dGX2pNMW5uSTVLcnNyY0hSb3VZWG1BRDJqdk1iT3JfbVFGbVB3TXBPQzh5SVBfb0VyLVBhcG1VRTR1bnBDcDZwZFZqWU9fTTNaWE43VklpNGcxekZtV2N3eFhvWHozZmYyNVE1cDZVczdudzBac05DVVhWOHBOWTZzS1lIOWlFQjFzRnBXdktQaXllQVNyMTJFN3d5Qk8tcFdIemQxaGFONTY1LWFpSkE5ZUFYUTHSAeABQVVfeXFMUHpKdHg1SlpWOG1TMnRnVlFVa3FCSmFDLWJpNTFFS1EzVmYzTElaSThoaHhiX2pNVDJ4VllYZmlPMWZxTmg1Y1hwZUFFbGdCZ1FGbnJaM1hNUjFkVm5WSjNNSmxHRC1aSlQ0UmlWdG9pam5VZGV6UHd4TXhmRko4ZngzVlNBcDVLb1JzaUJ3Tm9rQ21pejBEbjMyVFhkY0NWbElkVE5zYVVQQjhEUzVEdGhTRUdXQ2RaU0g0ZVJjSlhSdk9DVFVHZmFINVNGN0NNWXp1WDZKdzlBM25weHJ2bmU?oc=5",
+          "pubDate": "2026-06-24T23:59:48.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -138,40 +203,39 @@
       "color": "grey",
       "items": [
         {
-          "title": "Mundial 2026: ¿Dónde ver en vivo Escocia vs. Brasil y los partidos de hoy 24 de junio?",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNHhyNFp4Vk1pbVZEQmh0T1JpNXpKTnl5WWJfZEdaaUV4cFFIbWZMQXVraDREdDYtMFZDeXhQMHJhTUR1WmFwSnBybjVwaWRZVW1TMnU1T3BlaGwtWjgxQkRGcS03Y05vQUlxX3JUckdjNXpocU1STXczYXFBVDZTOEt4S2t1Vl8zY21DOGYxWV90dmttMHNpMDZVV214cUgyTkg3V25OYXM0ZFJ6bGItWGREcWRodWxhZDJPZDQySU8?oc=5",
-          "pubDate": "2026-06-24T14:42:22.000Z",
+          "title": "Cortes de agua en Bogotá este 25 de junio de 2026: barrios de Fontibón, Kennedy, Usme y Rafael Uribe tendrán suspensión del servicio por más de 24 horas",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVVBkeFZmdGZtMEQzOWpyQTNrYk5KSUxMaHR1TXJ3RVd6bHdRd25ZcUxuMGhBejhobGJpYXhzMjFtT0wzckJqU0RwRnQ1NmdoMktHckRVdmt1SVRaeTZRUUF6ZjQyUUFrQjQ0eWVxQXdkZ1ZfbmJZQkpKYk5JZmRsRDBHakZMZWx1MElzR0lucUZienVYMlAycU9HeGc4cnhEcWxEVmozOTk4YThyQnJnaWQ5aWMwdw?oc=5",
+          "pubDate": "2026-06-25T01:43:12.000Z",
           "snippet": null,
-          "_priority": "DEPORTES"
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Cortes de agua en Medellín, Bello y Rionegro este 25 de junio de 2026: EPM anuncia sectores afectados y horarios de suspensión",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOc1VDYm9SSzJnRWl5dTM0c2RhR29hNGQwLTJyYXo5a01faGk0SVlvQnRqSVRVSVNweVJYbHRTTHpLYWc5bkkyUENNdTRrSkZ1QlI2bldiRTJQOXM2MzhBSGFLY2QzVGpwWHB5ZFJPaF92YUpWbklPR0NrY2hmZ0k3OHF6Q3RZbVFCbEx4azhEN0FvbjdKX0lxRHR2ZWZ2d3RMeWxvRktOekk1eFA5NFFNeWhUX3c2ckFLTGl6R1VEdXQzdUNRaVhZaUpBUUVRbmxjcjh3?oc=5",
+          "pubDate": "2026-06-24T23:37:51.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "EMCALI anuncia cortes de luz para este 25 de junio: zonas afectadas y horarios de suspensión del servicio",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZ3NiRVJUWi1rb2VUT3pxT2x0TnAxNTBjRGdJdGJFZEZ0cExIdUNTZkdQeHBmelhIOXRJTlpKc2hkbzhfeGpVVTBzdlZfSWxibUU4bFB1TXhhT0Nmc3JkSHA2ZkhXdXhLaEljN1picFZPSGlxUnd4c0dPZjEzRFRUdy1LOEs1cElEY2VsaVREUlRiT3lJU0ZpQ3ZTY0xDdW0xUEVVS1NBX2loUEVQdmR1ZVFxeENwa0FsMkM5T2gxOHJlVEtYTDVFbWJ5MWF6TEdsd3hZQTdlRHhFUQ?oc=5",
+          "pubDate": "2026-06-24T23:02:50.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "¿Qué es AIDE y cómo puede acudir un ciudadano que presenta una situación de inseguridad en Bogotá?",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZ3NodzNoazE4XzRTSDREdk5FVVV4YTM5RjZkRUdpdV9uNmlBMHJPaUNmSFlBajlsXzYzZGxTckJmMmRkTUx1amcwSWlTT3FIQXN4ei1WVzJ4bGRWTDV3enFSM3RsYm9WMlpGZVJSZDN0ZlZKTEVtVnhkczVaaklUbGhlaXZtYlNVUGVUSnhZcmxyekY5dUlBcjNkQkdvbDdpR1hwaEZwRk5UVTVUZXFtV2MxM2tpRklBMzA5b25PdUZSNFBDSTVEWmtWeTVvWjMz?oc=5",
+          "pubDate": "2026-06-24T22:17:50.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
     {
       "name": "Portafolio",
       "color": "yellow",
-      "items": [
-        {
-          "title": "Tres días después, Iván Cepeda acepta los resultados de las elecciones en las que ganó Abelardo De La Espriella",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVFZpZFJEVlhJQ2h2ZFZ6cXZHc0F3UTRzR3hYZGF2cWxaZDgyN09GN1pPZzdJeHU2NmtZdmdiLXpVTTdFMnpLay1aaVVHNHY4X2YxUmNpclNIWUEwYmszUEhhVWlINF9zNHRXN2ZESTVrbVhkVEptalA5eWc1bk0yS0JtRXBVOUhlV1h1TlN4N2NwVjZtNnhmWTlZVTdfNlFRcm41QmhPeEFyLWo5OTNxZkVoN3B4T2UxcXpqWXFaWkM5NmFGbEtQOG9KbHRnX2Y0Z0xIUUY5OVlKVWRKT0xzeGxXVXBVaFHSAewBQVVfeXFMUDZfRzAwS0g1OGItWk0waEVIRlhWeUtuUUxkeGJra09sNHl3OVhQR0k5N2JNbHp5RnJmV3VFZnB6SkxYWDBtZE5Ua3ZGeDVmd2VKZFVuWHdvNTJoM3I0T3ItTlU2Z1dWTUtJQUhPUWs4ZW9UY2MzMVBOMlhKc3FoaHYwblp2LWRTLXpGRjBsRTFwNXhCenZBeVR1ZE93YlJjbXduX2x6OXlhMFRQeWRDeTZHZnJJR1pNbWs4Q2hqTVV0bTBFbV9xLVZNMkdheHlhOWNhUHF2U056QU9MRUZmQlNLOXVGbElZOEJ0emk?oc=5",
-          "pubDate": "2026-06-24T14:57:43.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Iván Cepeda aceptó los resultados presidenciales y reconoció como ganador a Abelardo de la Espriella",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQejVtWFpqaEhYMUlNeXlNcVJrSEd6TGNBRGk4QlFaYnFyX0hHOE54dnF1X3JQOUlBVFEtcGdoZTFURl9EdzdoOGNadzNrUHlNeWNydjRfaWpMbHJzMXowOVM0TThRdUFKZTlxeUN1WDN6Z2V1TlNTd1JOLVpUc2h3UGswNmdPbXR5YmE5RHBvbjdVRGRhRVNNOWd6OWJyX0xuVjVkVW9EQmNUb0J5QzJ0Vl9reHYyQ29fUDRVb0lVamhKNnBYWUlGdmpaSVJVZDV3Y2JSVWN4eTA5MGRZN3dFbElVWnZITnFBUnVz0gHrAUFVX3lxTFB6NW1YWmpoSFgxSU15eU1xUmtIR3pMY0FEaThCUVpicXJfSEc4Tnh2cXVfclA5SUFUUS1wZ2hlMVRGX0R3N2g4Y1p3M2tQeU15Y3J2NF9pakxscnMxejA5UzRNOFF1QUplOXF5Q3VYM3pnZXVOU1N3Uk4tWlRzaHdQazA2Z09tdHliYTlEcG9uN1VEZGFFU005Z3o5YnJfTG5WNWRVb0RCY1RvQnlDMnRWX2t4djJDb19QNFVvSVVqaEo2cFhZSUZ2alpJUlVkNXdjYlJVY3h5MDkwZFk3d0VsSVVadkhOcUFSdXM?oc=5",
-          "pubDate": "2026-06-24T14:47:38.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Petro dio señales de que empezará empalme y su retirada: 'Obedeceré a jueces de escrutinio y yo cumplo mi palabra'",
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOaHR0T1ZZMkNLZlJveWtGbnlRQmtKeld4Z1ZsZGJldUJkcEZpUktrdDlCWldLZXBGMlVnNGlGa3VmRnRqSUpUSW1tYWVQYnlyd0hYNlI2SG9uY2dDM3BZX1lXZjZoQnpNMzJ2UXJJMjl1eEF0N2FIdFZrRENHT3FnaHFVZG1HM1BFNzBBZVFzZXZqNEZacmQwUXEzYVp6Um03dDNiekdlemI2dkxrdVJzdU5fZVI5d3BSREgzY0VyX3k4a08zQjZpSjNCbGhKck5leVBiMzBLcGZ4Vy13X3JhaEJuSVhqUFNkOGdFeVU0YXA5anhVcWfSAfsBQVVfeXFMTXZLdDhfUTcyQmNTUUpLRTM3X0RVR3h4UXdPenJIWmpQbDFaVzVrcEw0dVk2dFBrcTFTMW14dEpWejhSZ3NkVGtqMUFwcEd3N1hUUEN3b3BnSGFrMFVwbGd2M2xxRTFvXy1sRG5tUHR3ZDdIdE8zSVJoSFZHYkN2eGhScXhSWGs4SFlnNzl6cFFHQlJ6M3RKRVpwWFFtXzBXc0FNOXY5VDBuSWZPRV9MaWpaTFVDSVY0Qjd3Z1FnTldwRjdoOVh5bmRBSVVBMkFIUmlGbVRzbTZRY2JSRkxXQ2FUd0x3MWVTQ3hTVVBoOTh0QXZadkFydERNN1E?oc=5",
-          "pubDate": "2026-06-24T11:47:39.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        }
-      ]
+      "items": []
     }
   ]
 }
