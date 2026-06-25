@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-25T19:37:00.674Z",
+  "generatedAt": "2026-06-25T19:52:52.546Z",
   "colombia": [
     {
       "city": "Bogotá",
-      "temp": 20,
+      "temp": 19,
       "description": "Llovizna ligera",
       "icon": "🌦️"
     },
@@ -21,7 +21,7 @@
     },
     {
       "city": "Cartagena",
-      "temp": 34,
+      "temp": 33,
       "description": "Despejado",
       "icon": "☀️"
     },
@@ -35,15 +35,15 @@
   "mundo": [
     {
       "city": "Nueva York",
-      "temp": 28,
+      "temp": 27,
       "description": "Despejado",
       "icon": "☀️"
     },
     {
       "city": "Londres",
       "temp": 27,
-      "description": "Parcialmente nublado",
-      "icon": "⛅"
+      "description": "Nublado",
+      "icon": "☁️"
     },
     {
       "city": "Madrid",
