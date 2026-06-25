@@ -267,7 +267,7 @@ Clasifica cada titular con UNA de estas etiquetas:
 Titulares (formato JSON con índice):
 ${JSON.stringify(indexed.map(({ oi, ii, title }) => ({ oi, ii, title })))}
 
-Responde ÚNICAMENTE con un array JSON en este orden: primero todos los ALTA (en su orden original), luego los DEPORTES, omite los EXCLUIR. Formato: [{"oi":0,"ii":0,"label":"ALTA"}, ...]`;
+Responde ÚNICAMENTE con un array JSON ordenado así: primero los ALTA de mayor a menor importancia (el más relevante e impactante primero), luego los DEPORTES, omite los EXCLUIR. Formato: [{"oi":0,"ii":0,"label":"ALTA"}, ...]`;
 
   try {
     const client = new Anthropic({ apiKey });
