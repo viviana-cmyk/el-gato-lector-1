@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T17:37:34.505Z",
+  "generatedAt": "2026-06-25T19:37:00.674Z",
   "outlets": [
     {
       "name": "InSight Crime",
@@ -40,7 +40,38 @@
     {
       "name": "International Crisis Group",
       "color": "teal",
-      "items": []
+      "items": [
+        {
+          "title": "Washington 5 June 2026 #2",
+          "link": "https://www.crisisgroup.org/content/washington-5-june-2026-2",
+          "pubDate": "2026-06-05T15:53:07.000Z",
+          "snippet": "Washington 5 June 2026 #2 lalasor Fri, 06/05/2026 - 17:53 Washington Fri, 06/05/2026 - 12:00 5 June 2026 The U.S. announced sanctions against \"a network of individuals, entities and vessels responsible for shipping hundreds of millions of dollars’ worth of Iranian-origin liquid p…"
+        },
+        {
+          "title": "Hormuz 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/hormuz-5-june-2026-1",
+          "pubDate": "2026-06-05T15:52:12.000Z",
+          "snippet": "Hormuz 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:52 Strait of Hormuz Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA…"
+        },
+        {
+          "title": "Tehran 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/tehran-5-june-2026-1",
+          "pubDate": "2026-06-05T15:50:10.000Z",
+          "snippet": "Tehran 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:50 Tehran Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA located in…"
+        },
+        {
+          "title": "Washington 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/washington-5-june-2026-1",
+          "pubDate": "2026-06-05T15:49:23.000Z",
+          "snippet": "Washington 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:49 Washington Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA lo…"
+        },
+        {
+          "title": "Lebanon 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/lebanon-5-june-2026-1",
+          "pubDate": "2026-06-05T15:47:48.000Z",
+          "snippet": "Lebanon 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:47 Lebanon Fri, 06/05/2026 - 12:00 5 June 2026 Hizbollah reported conducting approximately 20 attacks on Israeli troops in southern Lebanon, while the Israeli military tallied that over the previous week, “650-plus Hizbollah tar…"
+        }
+      ]
     },
     {
       "name": "World Economic Forum",

@@ -1,28 +1,14 @@
 {
-  "generatedAt": "2026-06-25T17:37:34.505Z",
+  "generatedAt": "2026-06-25T19:37:00.674Z",
   "outlets": [
     {
       "name": "CNN en Español",
       "color": "grey",
       "items": [
         {
-          "title": "Testigo capta el derrumbe de una obra en construcción por los terremotos en Venezuela",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcm81UTZhLUhlbUJtNFNIeW50UlJNOUZ4VG00V2VXYzJ1MkhndHBrU0RjbjJDa3l4bU1reFBQY21yeVdmZ1l6NjZIeEwxUk9Cdm9KSnNJZVVJZFpGU2RURFNiSGlKWW51MnlZWUtzQVZGczI2V1Nrd21pT0tzM0hSLW9yeUoxTVNDanlGS3JkN1pJbGQzSXRvRUdoNA?oc=5",
-          "pubDate": "2026-06-25T17:01:51.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "¿Qué servicios, actividades y accesos están suspendidos tras los terremotos en Venezuela?",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONEFkX1hqS0tHaEE3eU1jaTVxYkJ2Tkd3SXl4U09iYnRwS2ttVURjR0pZcHRSaVVUTFVoTE54M2VwSmRJcVplT25YWHZNb0pqNWNNeWsyUnlCSEVXTEpFeTh0T3BnNmRtc1Z5Y0UzZ1A3UERpLWo2OUVveDBrX25PX19xaWM2VURBZjB5QnlqVUszMjBxWE93R2dmMDEwZw?oc=5",
-          "pubDate": "2026-06-25T16:16:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "¿Cómo es el estado de La Guaira, el lugar más afectado tras los terremotos en Venezuela?",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUkRPc0VrWVZZTGxJWUVkMHppUGNFMHV2WnVoTC01aWhUU2tuZWg3RnNZa3Fncm13dXAwUXNnekpEODExNmxBZGtkS3ZZSmR0TmhpT2hIRDVWUkZ6SlZsc29vQ0NBOGtCWERXWEkyU3dFWHFjaGs0V1A3d0ttUXE2SHFnSHdodFVhS1VPbU9lc3AzSGRrM2h3Uk0zZ1VhYm9Xb25sSU1UWQ?oc=5",
-          "pubDate": "2026-06-25T16:38:00.000Z",
+          "title": "El Gobierno de México anunció el envío inmediato de \"Los Topos\" para apoyar rescates tras terremotos en Venezuela",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOczJyWkwyeGh6MHRBcGZoTE5DXzBWMmctdDF0RHItWDFEdDZiV0dxNldiOXNGYlhSUjg2YjFoTW9ELXo4OVR5c181bGpMb2RDMHg1aEtUWGtUc3RjQjdzWlhtTnNjVTNicGdpbUM2Tnd6VnRvcmNMdVl1VHNXMTFYcWFzekNlOE85MVJGNHc2X3FqVUlzMDA4Qk9LRkJDUzF2X3JSN1hlaUdDMnF4VmhrOUhCbi02Zw?oc=5",
+          "pubDate": "2026-06-25T19:17:50.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -39,6 +25,20 @@
           "pubDate": "2026-06-25T14:03:24.000Z",
           "snippet": null,
           "_priority": "ALTA"
+        },
+        {
+          "title": "Los terremotos más devastadores en la historia reciente de Venezuela",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeW9laHFaYnNZanFSSjJBUm5Nc2E0c0NfdUtJeDhUUE1XSFNqMlI5S2xSdnlOdENESmNsWlpYMHBKMF85RkNvQ0toVEpqYWktNzgzWlBXdmxZYS1vVzduT1lhVWpTSWM1WEoyNnU5cTR2anB5QTFhSDJYa2FEbzM5OWtabWdDX0FoZHFlOWc1b0RsNVpZVjlTUUZyMA?oc=5",
+          "pubDate": "2026-06-25T18:34:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "¿Qué servicios, actividades y accesos están suspendidos tras los terremotos en Venezuela?",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONEFkX1hqS0tHaEE3eU1jaTVxYkJ2Tkd3SXl4U09iYnRwS2ttVURjR0pZcHRSaVVUTFVoTE54M2VwSmRJcVplT25YWHZNb0pqNWNNeWsyUnlCSEVXTEpFeTh0T3BnNmRtc1Z5Y0UzZ1A3UERpLWo2OUVveDBrX25PX19xaWM2VURBZjB5QnlqVUszMjBxWE93R2dmMDEwZw?oc=5",
+          "pubDate": "2026-06-25T16:16:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -52,38 +52,38 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Terremotos en Venezuela: búsqueda 'intensiva' de sobrevivientes mientras el saldo de muertos sube a 164 - últimas actualizaciones",
+          "title": "Venezuela earthquakes: ‘intensive’ search for survivors as death toll rises to 188 – latest updates",
           "link": "https://www.theguardian.com/world/live/2026/jun/25/venezuela-earthquake-live-updates-quake-aftershocks-terremoto-caracas-latest",
-          "pubDate": "2026-06-25T17:19:41.000Z",
-          "snippet": "Delcy Rodríguez dijo que las autoridades estaban trasladando equipos de rescate de otras partes del país al área más afectada de La Guaira Venezuela declara estado de emergencia después de terremotos gemelos mortales ¿Ha sido afectado por los terremotos en Venezuela? Voluntarios, médicos y…",
+          "pubDate": "2026-06-25T18:32:29.000Z",
+          "snippet": "Delcy Rodríguez said authorities were shifting rescue teams from other parts of the country to the hardest-hit La Guaira area Venezuela declares state of emergency after deadly twin earthquakes Have you been affected by the earthquakes in Venezuela? Volunteers, medics and relativ…",
           "_priority": "ALTA"
         },
         {
-          "title": "Equipos de rescate corren hacia Venezuela en medio de temores de miles muertos en terremotos",
+          "title": "Rescue teams race to Venezuela amid fears thousands killed in earthquakes",
           "link": "https://www.theguardian.com/world/2026/jun/25/rescue-teams-race-to-venezuela-amid-fears-thousands-killed-in-earthquakes",
           "pubDate": "2026-06-25T16:48:33.000Z",
-          "snippet": "EE.UU. entre naciones enviando ayuda para buscar sobrevivientes en costa norte del país donde docenas de edificios fueron aplanados Terremoto en Venezuela - últimas actualizaciones Los equipos de rescate se precipitan hacia la costa norte destrozada de Venezuela después de terremotos casi simultáneos que redujeron docenas de edificios…",
+          "snippet": "US among countries sending help to search for survivors on north coast, where dozens of buildings flattened Venezuela earthquake – latest updates Rescue teams are racing to Venezuela’s shattered northern coast after almost simultaneous earthquakes reduced dozens of buildings to r…",
           "_priority": "ALTA"
         },
         {
-          "title": "Casa Blanca busca fondos adicionales para guerra con Irán como parte de solicitud de $87.6 mil millones",
-          "link": "https://www.theguardian.com/us-news/2026/jun/25/white-house-iran-war-funding-request",
-          "pubDate": "2026-06-25T17:03:01.000Z",
-          "snippet": "Principal demócrata señala que el partido no respaldará pagar por conflicto impopular nunca autorizado por el Congreso La Casa Blanca ha solicitado al Congreso aprobar $87.6 mil millones en nuevo financiamiento, gran parte del cual se destinaría a los costos de la guerra de Donald Trump con Irán, pero un demócrata destacado ha señalado que…",
+          "title": "Supreme court conservatives accused of advancing ‘white-supremacist agenda’",
+          "link": "https://www.theguardian.com/us-news/2026/jun/25/supreme-court-immigration-rulings",
+          "pubDate": "2026-06-25T19:12:00.000Z",
+          "snippet": "Lawmakers and advocates condemn ‘disastrous’ decisions that allow Trump officials to strip away migrant protections Sign up for the Breaking News US newsletter email Lawmakers and immigration advocacy groups on Thursday sharply denounced two US supreme court rulings that allowed…",
           "_priority": "ALTA"
         },
         {
-          "title": "Corte Suprema otorga gran victoria a administración Trump con fallos sobre casos de inmigración clave - en vivo",
-          "link": "https://www.theguardian.com/us-news/live/2026/jun/25/trump-housing-bill-senate-regulations-supreme-court-latest-news-updates",
-          "pubDate": "2026-06-25T16:54:57.000Z",
-          "snippet": "Los jueces permiten a administración Trump terminar protecciones para haitianos y sirios y allanan el camino para rechazar solicitantes de asilo en frontera sur La corte suprema permite a administración Trump terminar TPS para haitianos y sirios Funcionarios de Trump pueden rechazar solicitantes de asilo en frontera EE.UU.-México Simultáneamente…",
+          "title": "Gun control advocates criticize ‘deeply dangerous’ US supreme court decision on Hawaii law",
+          "link": "https://www.theguardian.com/us-news/2026/jun/25/supreme-court-hawaii-gun-law",
+          "pubDate": "2026-06-25T18:42:39.000Z",
+          "snippet": "Ruling strikes down law that bans people from carrying guns in most public spaces and private property without owner’s permission US politics live – latest updates Sign up for the Breaking News US email to get newsletter alerts in your inbox The US supreme court struck down a res…",
           "_priority": "ALTA"
         },
         {
-          "title": "'Actúa según la evidencia fuera de la ventana': instan a Andy Burnham a cumplir objetivos de cero emisiones netas si se convierte en PM",
-          "link": "https://www.theguardian.com/environment/2026/jun/25/andy-burnham-net-zero-targets",
-          "pubDate": "2026-06-25T16:56:57.000Z",
-          "snippet": "Burnham está bajo presión de algunos para abandonar objetivos de cero emisiones netas pero esto podría ser altamente perjudicial en muchos niveles Política del Reino Unido en vivo - últimas actualizaciones La economía de cero emisiones netas del Reino Unido está en auge. El sector vale £100 mil millones al año para el Reino Unido, ha superado a otros sectores y apoya altos…",
+          "title": "Ex-Foreign Office chief Olly Robbins believed to be in talks over top security role",
+          "link": "https://www.theguardian.com/politics/2026/jun/25/ex-foreign-office-chief-olly-robbins-believed-in-talks-over-top-security-role",
+          "pubDate": "2026-06-25T18:08:56.000Z",
+          "snippet": "Civil service high-flyer caught up in Mandelson vetting row thought to be discussing comeback with Burnham’s team The Foreign Office chief who lost his job over the Peter Mandelson vetting scandal is in discussions with Andy Burnham’s team about taking on a security-related role…",
           "_priority": "ALTA"
         }
       ]
@@ -93,24 +93,31 @@
       "color": "mint",
       "items": [
         {
-          "title": "Actualizaciones en Vivo de Venezuela: rescatistas buscan sobrevivientes después de los peores terremotos en décadas",
-          "link": "https://www.nytimes.com/live/2026/06/25/world/venezuela-earthquake",
-          "pubDate": "2026-06-25T17:26:39.000Z",
-          "snippet": "Terremotos consecutivos dejaron al menos 164 muertos, dijeron las autoridades. Residentes de la ciudad portuaria de La Guaira estimaron que cientos de personas estaban atrapadas entre los escombros de edificios colapsados.",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Por qué ocurrieron los terremotos en Venezuela y qué esperar a continuación",
-          "link": "https://www.nytimes.com/2026/06/25/science/venezeula-earthquakes-faults-geology.html",
-          "pubDate": "2026-06-25T16:07:26.000Z",
-          "snippet": "Terremotos gemelos como los que atravesaron la región son inusuales pero no desconocidos. Los científicos ya están reuniendo datos necesarios para un cuadro más detallado.",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Con decisiones de TPS y frontera sur, Corte Suprema expande poder de Trump sobre inmigración",
+          "title": "Supreme Court Expands Trump’s Power Over Immigration With TPS and Southern Border Decisions",
           "link": "https://www.nytimes.com/2026/06/25/us/politics/supreme-court-temporary-protected-status.html",
-          "pubDate": "2026-06-25T16:33:02.000Z",
-          "snippet": "La corte otorgó al Presidente Trump victorias en su impulso por rescindir protecciones de deportación para cientos de miles de personas y rechazar migrantes en la frontera sur.",
+          "pubDate": "2026-06-25T19:32:03.000Z",
+          "snippet": "The court handed President Trump victories in his push to rescind deportation protections for hundreds of thousands of people and turn away migrants at the southern border.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Devastating Earthquakes Will Test Venezuela’s Newfound Alliance With U.S.",
+          "link": "https://www.nytimes.com/2026/06/25/world/americas/devastating-earthquakes-will-test-venezuelas-newfound-alliance-with-us.html",
+          "pubDate": "2026-06-25T18:27:16.000Z",
+          "snippet": "President Trump has boasted of the success of an armed intervention in Venezuela. A natural disaster raises pressure to match rhetoric with action.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "After Venezuela Earthquakes, La Guaira Residents Search for Loved Ones in the Rubble",
+          "link": "https://www.nytimes.com/2026/06/25/world/americas/la-guaira-venezuela-earthquakes-rescue-survivors.html",
+          "pubDate": "2026-06-25T19:06:58.000Z",
+          "snippet": "A missing child. A boyfriend in the rubble. Venezuelans in this hard-hit city said they needed more help to rescue the missing.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Iran Threatens Ships in Strait of Hormuz as Marco Rubio Meets Gulf Leaders",
+          "link": "https://www.nytimes.com/2026/06/25/world/middleeast/iran-strait-of-hormuz-threat-rubio-bahrain.html",
+          "pubDate": "2026-06-25T18:22:02.000Z",
+          "snippet": "The new warning complicated efforts to revive use of the critical waterway as Washington sought regional support for its framework peace agreement with Iran.",
           "_priority": "ALTA"
         }
       ]
@@ -120,30 +127,30 @@
       "color": "green",
       "items": [
         {
-          "title": "Al menos 164 muertos después de potentes terremotos golpean Venezuela",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUzFIQlE2TWM5R1NiQ1F4X2pmUlB1dEw4aF9md1NkNTlNWDg5UmRTWHFuUEQzSmtGbTZwTWFtOXpXeWZlR0txd09GQkcxOVNRWU9rTGR1Q0V2Q1k0ZnpjNXh6ZVVoYWEwQzB4WEZDekhDSkNjMmlnMm53bjVzUG9sY1JhTXBBTnJuR1RnZHZfYlE5c1hZX0h6WkZFU2pzSWtOeWxwMHdYU2V0d1JUQWc?oc=5",
-          "pubDate": "2026-06-25T17:15:17.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Corte Suprema permite a Trump terminar protecciones temporales para migrantes haitianos y sirios",
+          "title": "Supreme Court lets Trump end temporary protections for Haitian, Syrian migrants",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWFpnbHdqOThndXdVbHphMFZCeXUwVjR5T1BSbVVHS3lFXzNTVW9BVzJsR0puU3d5OXJOTHJlWnFzOTZtSjZLODlvMkFMbE1CSFBYYUZUWmp4TnJuN1BqZGN6UWNZN2RpaGltdWFQbGljRlkyaEw3bTc5b3lXYkZhRnVPb3oya3Rid0lfbTJpa3ZqdjZzNGl2VmthYTNqSkE4dEtSaHVqR21wOUJiVDRIdg?oc=5",
-          "pubDate": "2026-06-25T16:07:13.000Z",
+          "pubDate": "2026-06-25T19:07:13.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Tribunal federal bloquea orden ejecutiva de Trump limitando boletas de correo",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS3RPTnNSQlAzNGVkVFBFRzZFS3RBNURtd2lDLVZ1QUluenk3ZndtN0p2WFR2OGktZF9jQm1QeGEyUGZGVXBMYWV4RnlWdzM0Z0pJWVUtWF9XWkMzVjJodllGWm1qVDZhYUpuNDhqNm55eVlmd0NQaTJsZW5nQVNWM0laQXRQemtOUVJfTU9lVURQMEZfZjB4NFJFNmtONUxKVmstRy1rWkljbWJKcVE?oc=5",
-          "pubDate": "2026-06-25T16:25:12.000Z",
+          "title": "At least 164 dead after powerful earthquakes hit Venezuela",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUzFIQlE2TWM5R1NiQ1F4X2pmUlB1dEw4aF9md1NkNTlNWDg5UmRTWHFuUEQzSmtGbTZwTWFtOXpXeWZlR0txd09GQkcxOVNRWU9rTGR1Q0V2Q1k0ZnpjNXh6ZVVoYWEwQzB4WEZDekhDSkNjMmlnMm53bjVzUG9sY1JhTXBBTnJuR1RnZHZfYlE5c1hZX0h6WkZFU2pzSWtOeWxwMHdYU2V0d1JUQWc?oc=5",
+          "pubDate": "2026-06-25T18:45:17.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Bajo presión de Trump, Senado liderado por republicanos revierte curso sobre Irán",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdnMxaHpfdFpyS1Q0VF9IR0kyV1VOWURmMWlhMkZrTUhNazdvNmUzR3RiNExaQVFVUWtnY0pGclJ1cXYtRXJhdENtSjNZVVJ4ZmFNUEtTTUZ5ZjZZV0R4Qm1ZV2dpN2FvMUJ2NFhxRkVaWmQybENNNkNpcnV0a01sX2VMVnl4aE5VVElUU0o3X21xRURScXZPQ0FiTEFmaENEM25NQVV1MWJEcnlUdVA5OHpYOWo5dw?oc=5",
-          "pubDate": "2026-06-25T11:01:10.000Z",
+          "title": "Iran strikes cargo ship on U.N.-backed route in Strait of Hormuz",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2hvUU8ta3ZNNEpHLXViODlSdk1odzlhUUtPLUtLWkV3ZWtaVi02RmxKbTdjbnNGUjk2SVhxQWVwVjdDbURXdUMyWW9vX2R2Y1V2bWZKLVpnLWc4eWJsUDd0RW5sZWxYTFMzZ1RKNE5vSTFMUkUtOG50LTVJM3NRaW5ERXdnUmhwNHhjYWo2enhOWENiQWJTWHdzNnhfTXEyNWNYbEVobzh1a2Z2RjdZ?oc=5",
+          "pubDate": "2026-06-25T19:09:02.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Bill to raise minimum wage to $25 an hour will be introduced in Senate",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcHNHeFh2M2RnYlZpUmk0OF9YTGJlQUp2UXBlM0RCVDBBekN0VG9SVTd4bnpleWR3ak9TNTVuTlhGNnloQ00zM2UyR3c0aFhYYTM1dzNERTY0N3U0c3k3azFZSy1SXzktZGcyaEIxbEZibnlRQ1dkbnB1NXRKYk1fSElNcnJXRUhWa1pRVS01U0JnWGVOX2l5ZUZLZE8xS1FFMVlpR29vTGI3TDFnZjFIbWVR?oc=5",
+          "pubDate": "2026-06-25T16:00:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -154,30 +161,30 @@
       "color": "lilac",
       "items": [
         {
-          "title": "La UE es simplemente demasiado lenta",
+          "title": "The bipartisan backlash against AI in America",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnBUbHlSWE93cDBEanpLNF9CUW1maXF5eXRQaEZNOUhtTUliN05TaE9Zcy1yTDRZcGpnNUt2aV9uT3p0d3FYeFBoLXNFNW9DSEt4X2g5aEVvQTA3ekhUUGpwb1d0R2diU1VLazBtM19ERjFiX3BLN1RuV2g3VUxFMlV0Mk1GdWRqOUtqMXo1ZkxsM2FYa0RUTTYyZzg?oc=5",
+          "pubDate": "2026-06-25T12:58:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "The EU is just too damn slow",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WZ05IS3ppaDd2dnowWlVjUDQ1UWJxNllsbWcwdnY0bzNaR0d1bXk1SEtWemxNWVlUeWFaNXR4UXpDOXo5RHNYWGgwSDZFcEJPMG5UT1B1WUY3a3pSemN4UDh6NU5CcGVYcFJhQmhWUmQwdWhobEprNDZqcnk?oc=5",
           "pubDate": "2026-06-25T12:58:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Con Irán fortalecido, sus vecinos deben dejar a un lado divisiones antiguas",
+          "title": "With Iran emboldened, its neighbours must put old divisions aside",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaFpZbk5OV0tZXzBTSkNRVGlkZ3hCb0ZaRFg5WmRkSjhWRFFUWkp3NFdCWDBhd1lqbGlXMUNhbm9Bb0FTVVhVSTdlRm1hVmZwQ3B6cXhQZy0zdWxGZHFnOE5rdlZqVzdPa0cyLTBnR2lSRjNIYXlOVDNFTjNrdUZHU1M3N3ZxVHN6d0tFXzVrOVU3Um5wN3Y1RXJBN2laTXVHT0JNM2pvZ2VmWUtUOWc?oc=5",
           "pubDate": "2026-06-25T12:58:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Dos elecciones estatales pueden romper la coalición gobernante de Malasia",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRmNNUTEwaXFCSFhFcnVzd2c5SWI2Vm1QYWdJRU5oTVlqcGVyOVdlTGoxdV9zb2F0VzVPRldhNWx2QkVzNFgtWEZmVDRKQ2VUVDM2WFBMUFlDbHQ5Rzh6emtKYUhTTUFZanRGcVZYTndpX0U5S01RbmlrbFpJSG9MeTdudEdLQkFvV1dnYkdObEFsdmZVeHd6dVFUMlRVZDA?oc=5",
-          "pubDate": "2026-06-25T12:58:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Peter Magyar está tratando de activar la democracia húngara",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZlJwcTQwWldyRXA2VEhzYWh6TXVlcmk4X1V3YVppTkFxNmk4UTVIYk5NRlRJem05SEpQZ2RDWUxvdjZCLVIxbDJRQVppYVdKdU45VEJUS1VrNFpVUlU2QkdVVkJCbUtaTGNQdzEyVWtUY2JZLVYxYXBYOHZURHIxVnRIZVVETV95RUZ3RGU2RmhjT19kV3MxU1pFZmxZUQ?oc=5",
-          "pubDate": "2026-06-25T12:58:00.000Z",
+          "title": "Where will Europe’s heatwave be most deadly?",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa0FoekhQcUJFUmozcm1aU21pRWlHcWVOR2VIWk8yNVN0c1VoWDVkdjBKYmFmYXlwNkFDZ1QxYU15cElpcFhVMG11SHZvTlk0M05teFVvUjBUOUVOWVlveVFTSUFNdm5MQktrbEhDZHJWX2xFQm9ZT2dsTmtSVEF4XzNtNXYxbkVFSDJVT3U1em93R05LT2FsN0JR?oc=5",
+          "pubDate": "2026-06-25T19:06:21.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -188,6 +195,13 @@
       "color": "peach",
       "items": [
         {
+          "title": "CRT anuncia prórroga para registro de celulares; fecha límite será conforme al último dígito del número telefónico",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc3hiX0Zrc0d5c2QzTGRMSDdENWxmUklSaVc0TjJyRHhoaGhhc3l4SEhESk5PZFdkN2VLT21kQnM3WmZoU2pBZmdneWYtVFJhbzl0ZzNtWjFpcWZ3MGZaNkpVWV9RQnpBd3dBdlNxSDNSdmZiYWJFTTE2c3l2OEF2M3pHdHF6Zl9lbW12bkxXTmd4RlcwMUVuQWxDaHl6cWZyeTlsbFcwekVzMWhLWl93NWtzcHhYcFlQeE9ZaHkzbU43c2RYUjRNaTVjdnhvZS13NEHSAeYBQVVfeXFMT0ZNTlJvMlJId2JlbEUtcmdtd2hVdlUtRFV1OXYxUG5oQnU1aFBiWFJickljc0tncmQ0WU5YWlE5Nm1mV3JkNUdMVTI5YVhTZk8tMEVsLTl6NnpaS3NvZy1wbkxtdVdiOXJUYnpnUDdTWkdnOEFGTXpIRlN3RTdwNHk2di1xWFpmd0FBMklSMmlBa2dBOWxTNkh1Y0hUODJWdVBYZWoyNlZEOGlFZVk3ZVdLWnNfRk90VV9jNVJtbzVyRXpFenVxMGJKRUFUUk9rNUhLYTUzY2Jrbi1aQUtXdWV5Ylo0eHc?oc=5",
+          "pubDate": "2026-06-25T14:12:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "INE define hoy cuatro nuevos partidos; aval en medio de denuncias por irregularidades en el registro",
           "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPalZSVU4wT3VhakE5SmJyLU11U3g2eG52NEJHMHljX29oRTNUMXZfRG10QVVzU3ZhTkV5RXVyNEhuSzNOdWNBM09WTnRxU2M0S212akFIVDJEbkJueUc5TzZQSVBpOGdvZ1RMWlBmLW9SZ0RraG13c1F5azRIaldNWjVPNTJSUjVHX2luTG1QVFpwWThYcjBFci1pN3A4cklBUzFieDBVZUhsSXFzbXlsbzlTV0Y1UWNtWExrYlpsVlJTQlNMNEdFX2xCMTZueTkwRU1MWtIB6AFBVV95cUxPQnFINmphdGtxSW9MYmFTNFUxV1pqTGdTMXlhZFhRY3FOUm1tWF9vZF9GMWQwZ0pSTEtRRnM3Ym96LVlpbUJ5QVRDT3RxZElRTFlrWE9vUFlCeTliTEhCMElHN0t6OTVKaVdxQmxXazVpTFdmcTZXd3dNUXMzWmNzd2t6dkt4cEZfcHJkZ0NkU0VzNm5TNTc2aUVMS1d1ckRfOU1feGc3alNVWUFjRWdwVzE1Q25xdEFtb2lXTEJsd2NzSzNwMVBnOXlmbjhQMzAwdFVjOTRncmJndFFraDFGTkxLS3drRVIt?oc=5",
           "pubDate": "2026-06-25T09:12:37.000Z",
@@ -195,11 +209,11 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Pierde la CNTE influencia en Michoacán; maestros se alejan de paros y movilizaciones nacionales",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdllTWEFnLS1rSnY3eFpmUVRDVEZHX0hzMEdmTG1mUnRwcDhCNHpWNy1GZ0tWWkhyT0JNQTRVOFkxVlRacDJPdkswNFRGT2FoaGF0TThqYjFsMjdvNXZ0Skc2d19ZbkVNb0hGVVJTaEd3ZEJDUzh3Wms2eHE1amRUbUdtaTJfZFBtejBWcHY0eXJJdEJGQ0lEYk5PSUVucjB0RDJHdnpRUmxDRVczcHBuVEk0MnBBUTlQdHNNb0taNTJwY2FYUmFrT0tmOUtEbE3SAeMBQVVfeXFMT0cyTWUxaWRLRF95bnRLZFNuTXpSaWM4QXpaYi0xNmhnUlFQbERqRXBuY3lOTDdLTUVkQnU3REZRdzJFMDlBTGJ3MW8xVGNzQzFoWlktc3ZJd2tkN2NhREN6SzRVWnhWSmhqWnJOS3hISGNuU0RoekdHUWtSb0F5azc5aENlTDBhR2R5NTV3LUJvOFd1STBkMmRKYVFycDZxMXBHeTVibVpyemluWHdEMWtJR0FNTVBQSEhsU19iek40ckQ5Ni1MaHVscUp1bHhxZmNmZmRfMjYwbXJBTlk5RFBFQkk?oc=5",
-          "pubDate": "2026-06-25T07:19:39.000Z",
+          "title": "Grupo Frontera pone ritmo a fiestón del Tri",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdWE1MUhiMF9WbHR0aHQ4Y2xPNkZrQ3Y5c01lLUNVN2NxX2xwZ2dFajg5WV9YbkZHd3lfaHQtMWE5S0pIYm1LcUdIM1dHNEZFV01QXzlGZkdvVmVuX2IySGFGNWNrMWZaVzJhLVI3Vm0tVkdfYVZkRFkzdUxraE5RUFIwb0x0czZLcjdPaktBaUpYQQ?oc=5",
+          "pubDate": "2026-06-25T11:25:00.000Z",
           "snippet": null,
-          "_priority": "ALTA"
+          "_priority": "DEPORTES"
         }
       ]
     },
@@ -207,6 +221,20 @@
       "name": "Diario Las Américas",
       "color": "blue",
       "items": [
+        {
+          "title": "Más de 160 muertos y miles de desaparecidos es el saldo preliminar tras terremotos en Venezuela",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQlZUYWNFRHIybUlYU0xZTnVCVUNIUUEtNkpJNnB4a1V5bW1jTjd1TGpHWG5hbTlfQWdtd1hTY0wzU3ZaZXh3a242TlE2M3lpNnJXUi03T0NZY19OdjJqMlpSNlJMYXVDbTdVcHpKZ0tRM05IcnBucjNhU0ZuMFJEWnBreU01aWNEQXdSbWhRVEo5TDVVVFh6enJTS1BGcGpJZjRWYkdQT04yVFVlSDRKTXN6NkVJcFlQY1hkMmhldEJySUFMUmxsWXRtdURSaU83Z1otVkdSQXJrVFdtZUFkRDV30gHnAUFVX3lxTFBEQTIxbjYwWVBfa0dGQ1UtaV9fdThaZWo2QnpVUmFqTVdLVVQ3UU1BaGFVbnZJSlBBNW1kR0IzMjlZemlYWXV2QzgwR0JVQkJmWXhLZ09keHFDbFN1cGs0cEE4ZVlTdXFLVGJ4M0xwRlJXcUNxeFlmRktmQnBlN2JiWmVzNXFlVW54c0Q3SzhWT2hGSl9HU1o5TTVOZmNieTlydzZDY2ZiRUQ4ZmwteWVQOVF6SUxZY3NWOE1VeC1iQ21BSzh4WWl3LTVlMzFiMTdzdlF3VXZod0pta0MtQVhiU2hkclZjSQ?oc=5",
+          "pubDate": "2026-06-25T11:25:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Corte Suprema de EEUU bloquea decenas de miles de demandas contra Bayer/Monsanto",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR2x1ck9TLW9mcFQ4Vm9GUFV6TFZtZFJXNzVPQUw0aWwweGZlYlRFZVNfWmsxSDl5ZHNucXJmUkJtcDNEUEQzR2ZXbEQ4RUdMWDg0T0I4WmRyOVlDNnVNX3h0bFUxRFJkVnRwYXNvUnp2bWI4YWJ0YS1QMTJkbXo0ZzVVVDB2cGJUQ05HSy1yc2ZjMjB5MVF0RmU5T0ZpWnc2X2pwOUY0QWk0Y2Jmdm5rcmdHZWpxelVaLXZWaW1LZ9IBxAFBVV95cUxNRzNhLUJVeVhybGpiRE9uZkxYUzNPWVRQU211MlVRYXZEM0lIc1Vhd3BpbWJSUFVfR2h6Z2pvQ0xZTlM0QlV6ajU4cC1BQjNSRkVnZkh1endZWW9wZzBkZHpLNDB4T3RyLTNGWHA4QnljQW5sdjE4VVJNUDNOSFhxMy1DcjU3dEN4ZHNlQWxnTW1RTHBBTl82SzgwVGhnUVlldFowOHp3NTZHQi1sVHdpQTRobTZPY0pVZ0xUd1huQW4yTTBY?oc=5",
+          "pubDate": "2026-06-25T16:27:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
         {
           "title": "Fuerte crecimiento de la economía de EEUU en primer trimestre",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObVB2b2NYM21PQ1dSemxJRFVRbkxRZDdGQUJ0Rlh1aTJmTnlJYkV1TndwcUFUTk0wTnl2UnNDT0hMUWljSW14VFd0OW43UnVTME8tZ1ItTTRsaW5ZUEFONWJHWTJrQXNsenZydGtkWWNwTGxQUWw2NVNxYXUxMUt1b1hFY201N0xEUEUxNEo1YVhiNFRjbXVvLWYzRE9SOVUyU0E3TW45b9IBrAFBVV95cUxPU3hBSlJHZ1ExVkdmcUw4WmlXd25IUWxoSkJZNmcxcmktcmIzWFlQSElLSGt1OE9KYk4wQlVLVjkwTk9UaXBwOW9rR2FzYmplcUh2eGhFbW9pWjkwcTZZbnBHRlIzd2Z0emRzRWFGR1BNMTdLeGdYRGFUZlRKVnU1b3NhOHpDSzBTUHB1UjlHOFRIc2ptWlJZdlhXanRTZENBOFVsTGxRMjBlM2JL?oc=5",

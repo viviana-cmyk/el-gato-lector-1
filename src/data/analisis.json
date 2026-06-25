@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-06-25T17:41:56.709Z",
+  "generatedAt": "2026-06-25T19:37:04.155Z",
   "colombia": {
     "intro": "Lectura cruzada desde lo político, social, económico y cultural.",
     "items": [
       {
         "category": "Política",
-        "text": "El nuevo gobierno del presidente Abelardo de la Espriella inicia su gestión con un énfasis declarado en anticorrupción y seguridad, estableciendo un plazo de un mes para que grupos armados organicen su sometimiento. Simultáneamente, el Pacto Histórico asume formalmente su rol como bancada de oposición, mientras que en el nivel regional el gobernador de Antioquia solicita la renuncia protocolar de su gabinete, movimiento que podría responder a reorganizaciones internas o aspiraciones políticas futuras. En materia institucional, se reportan cambios estructurales en la inteligencia del Ejército orientados a reducir la burocracia y aumentar la presencia operativa en terreno."
+        "text": "La administración De la Espriella inicia su gestión con énfasis en anticorrupción y seguridad. El nuevo presidente ha establecido un ultimátum de treinta días a grupos armados para someterse, mientras que el Pacto Histórico se posiciona oficialmente como bancada de oposición, lo que reconfigura la dinámica legislativa. Simultáneamente, emergen tensiones sobre la implementación de la política de paz total, con cuestionamientos sobre posibles concesiones al Clan del Golfo y revelaciones sobre presiones ejercidas durante negociaciones previas."
       },
       {
         "category": "Económica",
-        "text": "Las exportaciones de automóviles y buses registran un crecimiento del 191% durante 2026, reflejando dinamismo en el sector manufacturero. A contrapelo de estos avances, se documenta un aumento del 3.5% en hectáreas de coca cultivadas en 2024 respecto a 2023, alcanzando 261.000 hectáreas, lo que indica persistencia de economías ilegales. En el sector de tecnología y servicios, empresas multinacionales como Visa expanden operaciones en Bogotá con la apertura de un Centro Global de Soluciones que generará 2.000 empleos, señalando atracción de inversión extranjera en servicios de alto valor."
+        "text": "Se registran avances en infraestructura urbana con la expansión del Metro de Bogotá y TransMiCable San Cristóbal, proyectos que requieren inversión sostenida. En paralelo, la llegada de Visa con un centro global de soluciones y 2.000 empleos representa una entrada de capital extranjero y creación de empleo en tecnología. Las sanciones penales por evasión fiscal, como el caso en Cartagena por omisión de IVA, reflejan esfuerzos de fiscalización que impactan el comportamiento empresarial."
       },
       {
         "category": "Social",
-        "text": "Colombia despliega respuesta humanitaria ante el terremoto en Venezuela, con participación de especialistas en rescate desde Cali, iniciativas de ayuda desde Medellín y el Caribe colombiano, además de atención de la Cruz Roja a familias venezolanas en la frontera. En el orden interno, se registran operaciones contra el narcotráfico con incautaciones de más de 4.280 dosis en municipios de Bolívar, aunque la capacidad de erradicación muestra resultados limitados frente al incremento territorial de cultivos ilícitos. Iniciativas de seguridad vial en Medellín, como la instalación de semáforos de piso, buscan reducir riesgos en cruces vehiculares, evidenciando trabajo en prevención de accidentes urbanos."
+        "text": "Colombia responde ante la crisis humanitaria generada por los terremotos en Venezuela con despliegue de especialistas en rescate y ayuda desde múltiples ciudades, incluyendo iniciativas de la Cruz Roja en la frontera. Internamente, la seguridad ciudadana permanece bajo presión con reportes sobre expansión del Clan del Golfo en el oriente del país y cierre de vías por acciones de disidencias de las Farc. Los datos electorales sobre el voto fusil muestran variabilidad en zonas afectadas por conflicto, sugiriendo complejidad en la relación entre dinámicas de paz y participación política local."
       },
       {
         "category": "Cultural",
-        "text": "Los titulares disponibles no proporcionan información directa sobre dinámicas culturales, producción artística, patrimonio, educación o identidades locales en Colombia durante este período."
+        "text": "Los titulares disponibles no proporcionan información específica sobre dinámicas culturales, expresiones artísticas, patrimonio o producciones simbólicas de la sociedad colombiana en el período analizado."
       }
     ]
   },
@@ -26,19 +26,19 @@
     "items": [
       {
         "category": "Geopolítica",
-        "text": "La respuesta internacional a los terremotos en Venezuela refleja dinámicas regionales complejas. Tanto México como Estados Unidos han anunciado envío de equipos de rescate, evidenciando que las crisis humanitarias trascienden tensiones políticas bilaterales. En paralelo, la administración Trump busca fondos adicionales para operaciones contra Irán mientras el Senado republicano revierte posiciones previas sobre ese país, indicando reajustes en prioridades estratégicas estadounidenses en Medio Oriente. Simultáneamente, reportes sobre Iran fortalecido sugieren que sus vecinos enfrentan presiones para reconfigurar alianzas regionales."
+        "text": "Los terremotos en Venezuela han generado una respuesta internacional coordinada que refleja cambios en la dinámica regional. México, Estados Unidos e instituciones multilaterales se han movilizado simultáneamente para operaciones de rescate, lo que contrasta con tensiones previas entre estos actores. Paralelamente, Irán ha intensificado sus operaciones en el Estrecho de Ormuz, atacando un buque de carga en una ruta respaldada por Naciones Unidas, mientras Marco Rubio sostiene conversaciones con líderes del Golfo, sugiriendo que las crisis humanitarias coexisten con competencias estratégicas de mayor alcance."
       },
       {
         "category": "Económica",
-        "text": "El panorama económico global presenta contrastes. Estados Unidos reporta fuerte crecimiento en el primer trimestre, mientras Venezuela enfrenta una emergencia que ha suspendido múltiples servicios y actividades económicas tras los terremotos. La Unión Europea, según análisis disponibles, afronta limitaciones en su capacidad de respuesta rápida a desafíos económicos y de política exterior. La reapertura de competiciones de fútbol a Rusia a través de categorías inferiores sugiere una normalización gradual en ciertos espacios económico-deportivos internacionales."
+        "text": "La economía estadounidense registra un crecimiento fuerte en el primer trimestre, proporcionando un contexto de estabilidad macroeconómica en la región. Sin embargo, se han introducido iniciativas legislativas para elevar el salario mínimo federal a 25 dólares la hora, reflejando presiones sobre el costo de vida. Los terremotos en Venezuela amenazan con interrupciones en servicios, accesos y actividades económicas locales, mientras que la Corte Suprema estadounidense ha bloqueado demandas contra corporaciones agrícolas, alterando el panorama de responsabilidad corporativa."
       },
       {
         "category": "Tecnológica",
-        "text": "Los titulares disponibles no reflejan desarrollos tecnológicos específicos como eje central de análisis en este período. Sin embargo, la coordinación de equipos de rescate internacionales en Venezuela probablemente dependa de sistemas de comunicación y logística avanzados, aunque estos aspectos no se detallan en las fuentes reportadas."
+        "text": "Se observa un crecimiento de resistencia bipartidista contra la inteligencia artificial en Estados Unidos, evidenciando inquietudes transversales sobre su regulación. En México, las autoridades han anunciado una prórroga en el registro obligatorio de celulares, desplazando el calendario de cumplimiento según el dígito final del número telefónico, lo que refleja desafíos administrativos en la implementación de políticas tecnológicas de control."
       },
       {
         "category": "Social",
-        "text": "La crisis en Venezuela ha dejado al menos 164 muertos con búsquedas intensivas en curso, representando una emergencia humanitaria significativa. El colapso de infraestructuras en La Guaira y otras áreas ha afectado el acceso a servicios esenciales para la población civil. En México, la CNTE ha perdido influencia en Michoacán con maestros retirándose de movilizaciones nacionales, señalando cambios en dinámicas de organización social. En Estados Unidos, la Corte Suprema ha expandido poderes ejecutivos sobre inmigración mientras revierte protecciones temporales para migrantes, generando tensiones sobre derechos de poblaciones vulnerables."
+        "text": "Los terremotos en Venezuela han causado al menos 164 a 188 muertes confirmadas y miles de desaparecidos, generando búsquedas intensivas de sobrevivientes entre escombros. Las decisiones de la Corte Suprema estadounidense en materia de control de armas y protecciones migratorias han provocado críticas enfocadas en sus implicaciones para derechos de grupos vulnerables. En México, el INE define cuatro nuevos partidos políticos en medio de denuncias sobre irregularidades en el registro, mientras que la suspensión de servicios por los sismos afecta directamente el acceso de la población civil a recursos esenciales."
       }
     ]
   }
