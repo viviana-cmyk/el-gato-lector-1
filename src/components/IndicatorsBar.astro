@@ -14,15 +14,17 @@ const rows = [
 <div class="indicators">
   {
     rows.map((row) => (
-      <div class="indicator">
-        <span class="indicator__label">{row.label}</span>
-        <span class="indicator__value">
-          {row.prefix} {row.format(row.value)}
+      <div class={`indicator indicator--${row.trend}`}>
+        <div class="indicator__top">
+          <span class="indicator__label">{row.label}</span>
+          <span class={`indicator__arrow indicator__arrow--${row.trend}`}>
+            {trendArrow(row.trend)}
+          </span>
+        </div>
+        <div class="indicator__bottom">
+          <span class="indicator__value">{row.prefix} {row.format(row.value)}</span>
           {row.unit && <span class="indicator__unit">{row.unit}</span>}
-        </span>
-        <span class={`indicator__arrow indicator__arrow--${row.trend}`}>
-          {trendArrow(row.trend)}
-        </span>
+        </div>
       </div>
     ))
   }
