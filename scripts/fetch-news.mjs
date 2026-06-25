@@ -180,13 +180,25 @@ function applyWindow(items, limit, windowHours) {
   return inWindow.slice(0, limit * 3);
 }
 
-async function buildSection(outlets, windowHours = null) {
+async function buildSection(outlets, windowHours = null, prevOutlets = []) {
   const result = [];
   for (const outlet of outlets) {
     const all = await fetchOutletItems(outlet);
     const limit = outlet.limit || 5;
-    const items = windowHours !== null ? applyWindow(all, limit, windowHours) : all.slice(0, limit);
-    console.log(`  - ${outlet.name}: ${items.length} titular(es)`);
+    let items = windowHours !== null ? applyWindow(all, limit, windowHours) : all.slice(0, limit);
+
+    if (items.length === 0 && prevOutlets.length > 0) {
+      const prev = prevOutlets.find(o => o.name === outlet.name);
+      if (prev?.items?.length > 0) {
+        items = prev.items.slice(0, limit);
+        console.log(`  - ${outlet.name}: sin noticias nuevas, conservando día anterior (${items.length})`);
+      } else {
+        console.log(`  - ${outlet.name}: sin noticias`);
+      }
+    } else {
+      console.log(`  - ${outlet.name}: ${items.length} titular(es)`);
+    }
+
     result.push({ name: outlet.name, color: outlet.color, items });
   }
   return result;
@@ -518,11 +530,22 @@ async function main() {
     await readFile(path.join(DATA_DIR, "feeds.config.json"), "utf-8"),
   );
 
+  // Cargar noticias del día anterior como respaldo por si un medio no publicó
+  let prevColombia = [], prevMundo = [];
+  try {
+    const prev = JSON.parse(await readFile(path.join(DATA_DIR, "news-colombia.json"), "utf-8"));
+    prevColombia = prev.outlets || [];
+  } catch { /* primera ejecución */ }
+  try {
+    const prev = JSON.parse(await readFile(path.join(DATA_DIR, "news-mundo.json"), "utf-8"));
+    prevMundo = prev.outlets || [];
+  } catch { /* primera ejecución */ }
+
   console.log("Obteniendo noticias de Colombia...");
-  let colombia = await buildSection(config.colombia, 12);
+  let colombia = await buildSection(config.colombia, 12, prevColombia);
 
   console.log("Obteniendo noticias del mundo...");
-  let mundo = await buildSection(config.mundo, 12);
+  let mundo = await buildSection(config.mundo, 12, prevMundo);
 
   console.log("Traduciendo medios en inglés...");
   await translateEnglishOutlets(process.env.ANTHROPIC_API_KEY, config.mundo, mundo);
