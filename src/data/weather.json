@@ -1,67 +1,67 @@
 {
-  "generatedAt": "2026-06-25T19:52:52.546Z",
+  "generatedAt": "2026-06-26T10:01:24.804Z",
   "colombia": [
     {
       "city": "Bogotá",
-      "temp": 19,
-      "description": "Llovizna ligera",
-      "icon": "🌦️"
+      "temp": 11,
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     },
     {
       "city": "Medellín",
-      "temp": 28,
-      "description": "Parcialmente nublado",
-      "icon": "⛅"
+      "temp": 18,
+      "description": "Nublado",
+      "icon": "☁️"
     },
     {
       "city": "Cali",
-      "temp": 28,
-      "description": "Parcialmente nublado",
-      "icon": "⛅"
+      "temp": 21,
+      "description": "Nublado",
+      "icon": "☁️"
     },
     {
       "city": "Cartagena",
-      "temp": 33,
+      "temp": 28,
       "description": "Despejado",
       "icon": "☀️"
     },
     {
       "city": "Barranquilla",
-      "temp": 34,
-      "description": "Despejado",
-      "icon": "☀️"
+      "temp": 27,
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     }
   ],
   "mundo": [
     {
       "city": "Nueva York",
+      "temp": 21,
+      "description": "Nublado",
+      "icon": "☁️"
+    },
+    {
+      "city": "Londres",
+      "temp": 32,
+      "description": "Despejado",
+      "icon": "☀️"
+    },
+    {
+      "city": "Madrid",
       "temp": 27,
       "description": "Despejado",
       "icon": "☀️"
     },
     {
-      "city": "Londres",
-      "temp": 27,
-      "description": "Nublado",
-      "icon": "☁️"
-    },
-    {
-      "city": "Madrid",
-      "temp": 27,
-      "description": "Mayormente despejado",
-      "icon": "🌤️"
-    },
-    {
       "city": "Tokio",
-      "temp": 20,
-      "description": "Llovizna",
-      "icon": "🌦️"
+      "temp": 22,
+      "description": "Lluvia",
+      "icon": "🌧️"
     },
     {
       "city": "Ciudad de México",
-      "temp": 23,
-      "description": "Nublado",
-      "icon": "☁️"
+      "temp": 13,
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T19:52:52.546Z",
+  "generatedAt": "2026-06-26T10:01:24.804Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -12,11 +12,6 @@
       "url": "https://podcasts.apple.com/co/podcast/dianauribe-fm/id1440323217"
     },
     {
-      "title": "365 con Dios",
-      "host": "Wenddy Neciosup | Genuina Media",
-      "url": "https://podcasts.apple.com/co/podcast/365-con-dios/id1546917854"
-    },
-    {
       "title": "Estoicismo Filosofia",
       "host": "Estoicismo Filosofia",
       "url": "https://podcasts.apple.com/co/podcast/estoicismo-filosofia/id1740616448"
@@ -25,6 +20,11 @@
       "title": "Seminario Fenix | Brian Tracy",
       "host": "matiasmartinez16",
       "url": "https://podcasts.apple.com/co/podcast/seminario-fenix-brian-tracy/id1735157109"
+    },
+    {
+      "title": "365 con Dios",
+      "host": "Wenddy Neciosup | Genuina Media",
+      "url": "https://podcasts.apple.com/co/podcast/365-con-dios/id1546917854"
     }
   ],
   "mundo": [
