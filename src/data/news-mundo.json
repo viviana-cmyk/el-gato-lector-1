@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-06-27T10:01:14.679Z",
+  "generatedAt": "2026-06-27T15:05:35.625Z",
   "outlets": [
     {
       "name": "CNN en Español",
       "color": "grey",
       "items": [
         {
-          "title": "EE.UU. ataca objetivos iraníes en respuesta a un ataque contra un buque de carga",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaU95Z2xoME5vZEFmaDhQanFSWk1qcjF4RVFNcmpiYVJKc3hjbHpWYkhUQklVRnkyX1M2R21zT093OGYtaU1ma1RtbkpCTHJUQktBVWVHa3hTMk9fd1BLcW0tZDh3VmwwdU9qUUkzUUFsWmxFdXZELVlJSUFpUVF3Z283UFIwRmoyazRTSg?oc=5",
-          "pubDate": "2026-06-26T23:43:00.000Z",
+          "title": "Irán afirma haber atacado objetivos estadounidenses mientras las tensiones en el estrecho de Ormuz ponen a prueba el acuerdo",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVjNSOUJIR2IzZHBJV0JNOVUtTk1CR1M2eDBnT2ZRYjM1MERFZDZqS1JKMjRIN0xMbTIzbndJdEFtS1hzZ2NvaGtmZ2NRa2JXaTlBajdHdC13bldBZXRMQWVaMTZoUHFOOGZPQlNuNkxvRjZma1d4TG1wc3dJM2ZFdU9ZTmMtNGs?oc=5",
+          "pubDate": "2026-06-27T13:49:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "“Tenemos a mucha gente allá ayudando”: Trump afirma que EE.UU. brinda apoyo a Venezuela tras terremotos",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPT0hHT295S0RMSnNRZW9Uc0h0UjM5azhWeG9uVHZwYUV3RjNQWXJrM0xlWnVQNEZXQVRaTjF5MEtPUnhVT2hNVXkyTFJmaXhmOWNvSW5fNHRfMEUzTzh3YXhGVFNKZmlXVUdwUHpkeVFPbkFtR0N4TzBEamU3c3owdE9uU0ZOdi1ncldmQmhobWlpck9EcEVnMXFidzFvRkpHa1E?oc=5",
-          "pubDate": "2026-06-27T01:33:02.000Z",
+          "title": "“No tenemos cómo responder ni como sociedad civil ni como Gobierno”: venezolanos en México",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ0xjSUJzbUhUTDllU2g5b3VmX3FlbnBPc1k5dUlORmJGcFo5OGRkdEo3NEw0VVpjcXpZSVVDMlBnbW5udThxelN3MVMyQWJVSFpEQWljUG90ZGhOaG5uTmJSZXhFRmUybGllTnQ2ajdRWEhlZ0lqZjM2bkpNMTVsdmhkODE4REhfNWhTVXlyUkxqaVdWa3gyZUJwbkRrOXhkeXRNSjNvdzhSQQ?oc=5",
+          "pubDate": "2026-06-27T13:45:59.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Terremoto en Venezuela: ¿por qué algunas edificaciones resistieron y otras no?",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSG5WQ3dtOVVGVktZc0I3dzNaMGFDdUMtQ2JYb1lkaE50bG1CT2tyY1U5NmxkV2tacldjWDd2bzUwazBFa3R1ay1GaWdXcVRYUGRNcDh0OEpBSmJQUHE2MGlGRVdTY1oyMTNuSG4ySHo3ZHNMRTNENjBSQ1hJRml6UU9SYzMzd19fRGhMRkdGRGExaFNkZlIzV25tbGhZUk5IdHZxR1AtOGZhcldrUkc1eFJoemlCOXNDaS1PcjRybUlpWjJqTHRpTA?oc=5",
-          "pubDate": "2026-06-27T02:49:14.000Z",
+          "title": "En la era Trump, surgen dos visiones muy diferentes del cristianismo en la política",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPckpHY1ZUYmhNZnVYXzFLMFNWLUxKYTZLZE9SaDdDQnpLVGw1QVk1WXhUTi13Y005T256Y2JfUkhtYjJucjVTbFBDb2dzWmhyVjRIM0swOVlELUVldVg3TG4zOGw4U1hUd1U5cXJqTTlVMjlDNzVjQXpCSl9XcEtCMUJWdVF5UQ?oc=5",
+          "pubDate": "2026-06-27T12:42:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Corea del Sur prueba sus defensas contra enjambres de drones",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU2xXd2dXZlJraExZUnl6cDFTd2piYmJTQU1nUC0zYnhrblNuV1RkUl9BUWVGSFRlV1pZMUZyMk5IczBTOVo0Zm9QcHFFM0x6a29kVU9nYlFHbnk1WnltZTBTdDZXUHlaclBvc1FCcWtWTHhBVkZUZVFPQURYUmhkLUQ3WFc1aFQzUEd5U2hBQnU2Zk1kQ3AyaQ?oc=5",
-          "pubDate": "2026-06-27T00:57:16.000Z",
+          "title": "Una avioneta se estrelló contra el rascacielos más alto de la capital china. Horas después, parecía que nada había pasado",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONjVxZ2Z6bmozNzFnNG53cWtFQnNlUHlQelNvdVVRUG1DVl92ZEVUcGswNVlJWmlxdWpacTRCMnUybkF0MzVEa3QzcVBXUkxrWkxuRnhPVi1HaTBNNU5mcXpfaVhZRTRON0JzQkx1bTdTaVFvcmNQSk1IbkJGdTk5X1laWnpoanRkNmRfcGlB?oc=5",
+          "pubDate": "2026-06-27T12:19:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Los Topos Mexicanos se unen a la búsqueda de sobrevivientes en Venezuela tras terremotos",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV2dCZFNrT0NnQ2hETFJ3X3AyV0sxdi1pUWdSQ2RUSzNkLUZqQVN1WVN2SjFQWW9EV3RkN0ZmZUhOVGNVWDh6dVc5RThNUE91d09ROVJ6NXU2R05FanE5VVBlSG1hN0dRRWY3MmhTLWJHR0tJMGhWNTNYQjdWNU5QSHNzSllWTjltWmpxWDRSSEZHUVk2TEQ1T3BjN1YzN2F4LTIweHRWTTByMGVfTnNmdU04cHVuN0FhN0haQmRsNGQ?oc=5",
-          "pubDate": "2026-06-26T23:13:45.000Z",
+          "title": "Las gafas con IA están facilitando las trampas en los exámenes. Asia es el epicentro",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTjByXzBOUkNfejFacWRQTlUwaGE1aFl4MmVyTGJFVUN1cDlXMTNjRWpzdHZOb1cwd0FPajV0VUJKRVFEM1MzbTBSWnhFU2RTQ2tfVnBGbEpmZ2liZzdxZmhjYjJsWDBCRWlYN0J6MVJGREpab1dMNTB6ZFFHYjhEMkY0Q1ZwR3g1?oc=5",
+          "pubDate": "2026-06-27T05:45:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -47,6 +47,13 @@
       "color": "sky",
       "items": [
         {
+          "title": "Irán ataca intereses de Washington en Baréin en respuesta al último bombardeo estadounidense",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMHQ2dERGOVNlaTVEVWdMTENnZGtDMjNkLUdtRVFaeE03VWI3Y1ZkVFp6dG9SZjJGc3U0WEJCOHV3dEF0T0o0cDlQVXJ0RHl3M0FlUmptMlJUQVhWWEVxVHNDLWxGemJCU0JKUm9ndDN0b1otN0lfOFlSNTZXdGluRXlIV2RKVzJ1YlE3Rm82eTlvc29pV1FHOGs3dlZwSVptbmhEejFkRGpmNkpTUHpmWFZiRnBWb0x2UW5ZdzZYdklNMTFxY0pvendNUGJZMV91Qm4wTC1BNlPSAewBQVVfeXFMTnhfVU5uZ0FuZ0thNkNVUjVjREFxM2dNamh1dzZXTjY3elhGT1hla0I5dkl0aUhnbjBtS3g4MGt1Yml2ajVEWklNTEpBRlgzQ2ZTUXRobGUzN2V3ZnVtVjNUaVN0OTVvRjFhYndlR1E3WkswSFJmWEhSYVBVVU1TMk4tdlJBR3VkZVgzVEhyR3JGblY5cW9iZ0pmZ0tKZElZYW1qRWtUSjFTOUpIclpMWUdNUlZ4R3N6a1p1aGxaWTFkdGxMd19ENFNfVjM4LWtpRlZTZ1liRVRvcVVjX1VCWlNpVGJ6d2dnczdTQnY?oc=5",
+          "pubDate": "2026-06-27T11:35:44.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "“La gente está en shock”: El fin del TPS golpea al corazón de la diáspora haitiana de Estados Unidos",
           "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTjZQckFTcVJLM2cyWnhTeUNoVHNBMzhUS2hodTJRdjBSaGIzVG1xeUpQYmF1UW5kYi1CMzZlVTU1T25YbG13TEFYS24wS0pERllsLUdrOEhkaXR5dUFBMFFrODRBWnN3OWFYeUJOM3JCQjlBUEZuQnNCUU9DMzNmQmR6ZksxMWoxbWpZVm5kcDdmVDR3UGVSU0R4andkZXlISnMwT3VhRS1KbWRhdTdhN3k5SmpVSk9xTGs4T0VNdTZXNUVveTd3LTdiQlFYX295dk5tRlJET1NiMUFzN1HSAfIBQVVfeXFMTWhSMktJVE5SUHpPLXJ1MXJvVkM5WHBNdzlsd1hoRGhQZk4xaUczSjFvSHhPVG1vUUVVbXBWYnYwaE9NdWhjeXlKOTFBMDdDX2trbXR2b1c2Y3o0cXpiekpSSWE2OTZ3UGNYdGR4WF90S2xhNm9mZHZnRV8zOWlic0hkM1I5ZEdLQjlTTzZRS1NEZVdsMVVNM1hFZnpTOHl0bGlSSHZOdUZLMEp2RnJDeWRNUGpwdjBFUk9yc29qMG9Pa0NxZmdsQm8yaDNFQWVnS2xyVDJJWUFZNDcxSFl3cnBROF9id3UxYloydW50VlMzUVE?oc=5",
           "pubDate": "2026-06-27T04:00:00.000Z",
@@ -54,18 +61,25 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Gustavo Petro e Iván Cepeda se reúnen por primera vez después de la derrota: “El jefe de la oposición es el pueblo”",
-          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcnZYbmRmcjY4N0s3NVRGbXlBazFDYmNMaFVtOXhYUF9uMHNoay0tSE4zdVJkTl9YWk11UVgta0tuNGE0ZkZVcDd5ZDFSa3VwWHg4UjhMU3dxMEozblRrb0s5eXI3YUkxalpubHZOX2k0Z2RoV1VCckxERkt5eG5ZaTRoRmpIdmRQMldHb0ljT01tZk1idGJaVGxGdGtRZUItQzNHcWljX2tnbjB6cGhOYklIZWs1VkhuZUk0UHpUV0RNMmFDckJQbDNIT3VNeVoycHR1cV9NTlB6MkhDNDBwZzRORlppY0NGU3RtQm9DR29JR0FfUGlz0gGLAkFVX3lxTE92MDJSWTkzd043NlNMT3QtaGUxamJDazNkM2xFQnp4WGpNWjRXUHk0TzQwaDJPdWlqYktVR1FQTTZaX2N0TDFaNnAtX2p6VVBVUjVleURHY0JGUVFhV0ZObXV4N2Q5bVJqNm40cjJkWC1aUFhoVlhfWFZaOWlMb3ZDeE50ckxJNERtSDdSdFBoX1JNZGE2YmpMX3NKRTBnYWctZWQ5NGRDaS1pU2x4SkhrTXppRUdzSGw3S3VYOW5GN25LWm1NcGRBUzZyaWdNRXJFWncwME5YZDFib3dxS1F1TG9IUlVDXzg2SXFGVEs4YUx2X3JNUG1Wc2FVS0dJN0pRTGJWMUloQmd5Zw?oc=5",
-          "pubDate": "2026-06-26T22:28:34.000Z",
+          "title": "La crisis de seguridad más aguda en dos décadas espera un plan detallado de Abelardo de la Espriella",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYVhuQWdmRnFCMWo1cVRVWURsVWM4V2FMcm11aFFwUTNMMXJaaEU3cEZnU2JMS0txRG1aT1ZFdW1MV1ZvUEJWQUd4UkxhU0dYQS1KT1ZfYmxNYVpnS1JlbjJITFluWXVOQ0REUnVKdkl1bHdvWUNsNmpvZlNKMF9VM3dGOGsyeWhwbDZSVTVZTklpR1lCV1I5VkF4aEtna3oxQ2VMbVcyeFI5Ymx2UDNfN2N4aXVoVnJLX1VRWkljdWhQUlhQQ0NJZ1NMYlNCeDc2ZlVTVkZQbjBrQllpQktHc0RrMmJ4NUXSAfsBQVVfeXFMTllzMGdDamFPTE5KYjVwa08tT18tMnAzTDc5R3FuempGeElHbkxycThaME5ZNjdXV3N3WmJSaTR6V0VDWDlsUnZGMXEwWFBIY21xUnJmd2ppdS1DLWZyZU1XYmlsTUNzaFY2YTJjd1h2QkVPcldBeUM5WWYxVnppQURabDdVX1VXRXprS0hXZnEycFFjLW00MWd2RkxKX3FTMWNnWEQ0RXBRZEFqY0ppck02YXBwa1dmWkFEMnZJMk5mMXBoZWJaNUxaQll2RnlfT2UxVEhlWFpjQXpuZ2tfTjFUdDN4WmJoMW55b0tkVFpBWVV3eFdZWlNveG8?oc=5",
+          "pubDate": "2026-06-27T04:00:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Cabo Verde es el héroe del Mundial: jugará los dieciseisavos contra Argentina",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbjFmeWdaUWh5Si03M2VucGd5cHBTUXdHUHk2YkpYVDhlX3VlZUNiU1Z6OU45X2dPb0pfQVNJdzdaMFRGNW93V2xkcnFoZ3lodlRqR09sTFZhUGRpdWJCZ1lKOEQxTmloc3JzTGNvZDFlWGVFOVpFdnl6VTRLSGR0WjZxT3VrRFBmTW9HQnJxQW1SeUh6enE1ZEQwODhaV0xtaGpDTWRoZE1ZNkliN1d5a2J5R1l3dWNGbXpQdHZwRG5seUZ5Z19JRF9SRldlcHlzXzdDQktn0gHqAUFVX3lxTFA2WjhPMWNOMkVIZW5DTHZPVi0tbzFBWWtMQzVUZzY1NlYxdmNvZkxUbGRWbDdzYnY3NHRQekNoQ3lkSXNaUGVnTHJKbDUxam1yXzlCNEJsQzltYTM4RU1vM2p1OEtEYVpTdi1jWWNlTTZRN1hvV1lVSFgyazBuOVp4ZXJiUjNJR25QVWtReUxoTWJzNGNDd0N0aEdJYkVsQ3RxLTB1ODlIUGs1ZDlhQWJlQno3amdQVmdJSk0xa0oxSnVBUkhCenJILUJUNUhSeTNWUDU4azhxU3RCOFNzcERsd2Y1YjR3S0NiUQ?oc=5",
-          "pubDate": "2026-06-27T02:50:07.000Z",
+          "title": "Defensa lanzará 15 grandes programas de defensa este año para mantener el gasto militar en el 2% del PIB",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWFdiaTF5SWx3UU9vR1NSZ0xPZHduejJqSWdKdlFRMkZWYm1jdkdYNkMtYmFxcU00bFpNVGY4dDQ4VDhWLWpwckFJOGxYYjhuODNjbF9BZTMzcVRDallJTWhKcmhNNHRfWlBNOERscm1kX1V6MFdWVDFBWXg2dHh5OHRfd0NoSk1sc2VRSjQ2Y180LTR4dERiOGtQLVVJel81bms3d3FmNkNWd3dJT2FTaE93RlhFN3lENzJTcHJBaVhKUUpYb05QWXF6aUgzWjhaME5EWXJfX1lNMmN0VzBjddIB9AFBVV95cUxQcFBGYlNsTjhWaWZzQ3NBMV9nR1BwS3N1T2xBY3NDQjFfMUt2TWZ0MENOYXhFTmZSekdveG9OZUZBZVdMaDhCOEh2SFo0NlNKS2FqZ2o5NU5fdC04RC1mQjBCdjRyaFpNUnhPcEZPZjl1cTMyNENvVThkRmgxRTFhZ2UyU1RQZk9YWFNNRlhRM3lwWk1kNU9xMmZPaEFmbzlnNWpHM2xVUFM4RnozcC1HSXE0Wk05OW93S1JWYTJPZy10bmV3anRsN2R1TTN5WVlxVHMwaXVEUWFMQm91TndzM0ZFWFNJazBkYWhRTWlCYzJNaTBq?oc=5",
+          "pubDate": "2026-06-27T03:45:00.000Z",
           "snippet": null,
-          "_priority": "DEPORTES"
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Capturado en Ecuador el británico señalado de asesinar a la colombiana Natalia Villalba",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQckhwSkVkOXNnVE44TU1YUUh3b0hSalp6X25sUGE5WHZ3amJya2Q2S1pMTVBxTUp2dVZfcTJVSjQtc0k2UWdGd2JXQlh2RHI3NTFpSkxocnZZQWgxMzR5NXFLUlhoeVVGNUNTT05maGczTDBLX0UyU1ExUU83WDE2VEhVMXItRlZlR2IyVXRkSzZRek1NNkVWYW5MeDJTcWJwWmthZlRkTzBZcVhxeWR5anJ6Mjgyem9qb0lrQ0M0TzRzcHd1UDd3SmhpR0N1VS1wNWlnSlAtU0xjUC1FYk9N0gHzAUFVX3lxTE5sZVlMOUZzZzdVZDNEVFVJQmR2dkZKbTVsS0MxTGhxWnBWRnpRX085eXFpNVYzLVJNQmZmNW11RlpFY0lJakdYcFY5RTlZeFpld3gzZW1iUFRIOHp1ek55cXlEU2liS0VfOEZmRGd1OWVUTlJsUUlNQXZ5cTV4dlVVNVVaVXA4UUFhWkJaVDhibjlyLS1pQzFUQUg1Z2pXXzJFOVc4Ql9WZ2taMTV4MXRUdzN4b0xIQjdwck9Wd0dDaEpCRE9vNE1kUTNBUUtyNEVEcmRuYmtMelhIby1DOVJQR1JvUHUzZGZLWTRYUlFaVElDUQ?oc=5",
+          "pubDate": "2026-06-27T03:33:59.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -74,38 +88,38 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Las prohibiciones de redes sociales se globalizan: las grandes tecnológicas enfrentan un reckoning después de la represión de Australia",
-          "link": "https://www.theguardian.com/news/ng-interactive/2026/jun/27/social-media-bans-go-global-big-tech-reckoning-australia-crackdown",
-          "pubDate": "2026-06-27T05:00:31.000Z",
-          "snippet": "A medida que una serie de países se mueven para frenar el uso de redes sociales por parte de los niños, ¿podría ser este el momento del tabaco de la tecnología? Continúe leyendo…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "La campaña anti-OMS de Nigel Farage se traslada a EE.UU. con aliados añadidos a la junta",
-          "link": "https://www.theguardian.com/politics/2026/jun/27/nigel-farage-action-on-world-health-campaign-who-us-board",
-          "pubDate": "2026-06-27T09:00:00.000Z",
-          "snippet": "La reubicación de Action on World Health plantea preguntas sobre por qué el líder de Reform UK está involucrado en un grupo de presión estadounidense La campaña de Nigel Farage contra la Organización Mundial de la Salud (OMS) se está trasladando a EE.UU. con una nueva junta de cabilderos, lo que plantea preguntas sobre por qué el líder de Reform UK…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Ola de calor en Europa en directo: Alemania se prepara para temperaturas 'muy superiores a 40C'; alertas de calor extremo para Inglaterra",
+          "title": "Ola de calor en Europa en directo: temores de sequía en Italia, récords rotos en Eslovaquia y Dinamarca, carreteras principales se deforman en Alemania",
           "link": "https://www.theguardian.com/world/live/2026/jun/27/europe-heatwave-germany-poland-france-uk-temperature-heat-latest-news-updates",
-          "pubDate": "2026-06-27T09:30:36.000Z",
-          "snippet": "Los meteorólogos advierten que las condiciones más calurosas se extienden hacia Europa central y oriental Aunque será mucho menos caluroso en el Reino Unido, sigue habiendo una alerta ámbar por calor extremo en partes de East Anglia y el sureste de Inglaterra hoy. La Oficina Meteorológica ha pronosticado las temperaturas de hoy de la siguiente manera…",
+          "pubDate": "2026-06-27T14:35:06.000Z",
+          "snippet": "Los meteorólogos dicen que las condiciones más calurosas se expanden hacia Europa central y oriental Después de décadas de advertencias climáticas, ¿por qué Europa está tan desprevenida para el calor creciente? El agua de mar se está filtrando en el río más largo de Italia mientras la vía fluvial comienza a secarse en la ola de calor, afectando una región agrícola heartla...",
           "_priority": "ALTA"
         },
         {
-          "title": "Los fiscales en Inglaterra y Gales esperan un aumento en la violencia doméstica durante la Copa Mundial",
-          "link": "https://www.theguardian.com/society/2026/jun/27/prosecutors-cps-expect-rise-domestic-abuse-football-world-cup",
-          "pubDate": "2026-06-27T05:00:33.000Z",
-          "snippet": "La CPS insta a las víctimas a acudir a la policía, diciendo que serán tomadas en serio y que 'no dudará' en llevar a los abusadores ante la justicia Los fiscales en Inglaterra y Gales esperan que los incidentes de violencia doméstica aumenten durante la Copa Mundial masculina, e han instado a las víctimas a presentarse, dijo…",
+          "title": "Las tormentas eléctricas interrumpen Gatwick y Heathrow mientras cientos de vuelos se retrasan o cancelan",
+          "link": "https://www.theguardian.com/uk-news/2026/jun/27/thunderstorms-gatwick-heathrow-airports-flights-delayed-cancelled",
+          "pubDate": "2026-06-27T13:42:11.000Z",
+          "snippet": "Los pasajeros reportan estar atrapados en aviones varados en condiciones sofocantes mientras el mal tiempo severo causa disrupciones en los viajes en toda Europa Ola de calor en Europa: últimas actualizaciones Las tormentas eléctricas han causado retrasos severos a cientos de vuelos en los aeropuertos de Heathrow y Gatwick, dejando a los pasajeros...",
           "_priority": "ALTA"
         },
         {
-          "title": "JD Vance dice 'la violencia será respondida con violencia' después de ataques a Irán – según sucedió",
-          "link": "https://www.theguardian.com/us-news/live/2026/jun/26/trump-news-john-bolton-updates-today",
-          "pubDate": "2026-06-27T02:03:04.000Z",
-          "snippet": "Este blog en directo ahora está cerrado. EE.UU. dice que golpeó objetivos iraníes después del ataque a un barco de carga en el estrecho de Ormuz Suscríbase al correo electrónico Breaking News US Hayes continuó: Como asesor de seguridad nacional del presidente de los Estados Unidos, el Sr. Bolton tenía acceso y era responsable de…",
+          "title": "Australia duplica la multa por infracciones de prohibición de redes sociales a $99 millones mientras se acusa a los gigantes tecnológicos de 'no hacer lo suficiente'",
+          "link": "https://www.theguardian.com/australia-news/2026/jun/27/australia-under-16-social-media-ban-tech-companies-penalty-double",
+          "pubDate": "2026-06-27T12:30:04.000Z",
+          "snippet": "El primer ministro Anthony Albanese dice que demasiados niños aún en plataformas pero está 'alentado' por la ley líder mundial Las prohibiciones de redes sociales se vuelven globales: la gran tecnología enfrenta un reckoning después del crackdown de Australia Obtenga nuestro correo electrónico de noticias de última hora, aplicación gratuita o podcast de noticias diarias El gobierno federal...",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "La trama del combate UFC: cómo un grupo de extrema derecha intentó asesinar a Trump en su propio evento",
+          "link": "https://www.theguardian.com/us-news/2026/jun/27/trump-assassination-plot-ufc-fight-tycen-proper",
+          "pubDate": "2026-06-27T12:00:03.000Z",
+          "snippet": "Los documentos judiciales muestran cómo hombres conectados a través de TikTok y aplicaciones encriptadas planearon un ataque en la Casa Blanca Combate de UFC Cuando Tycen Proper, de 19 años, terminó la escuela secundaria, su familia le dio al menos $3,000 de 'dinero de graduación', según documentos judiciales. A pesar de la generosidad, parecía con...",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "'No se trata de ninguna administración en particular': las protestas comienzan en DC para reimaginar los próximos 250 años en EE.UU.",
+          "link": "https://www.theguardian.com/us-news/2026/jun/27/next250-declaration-of-interdependence-art-gallery",
+          "pubDate": "2026-06-27T11:00:02.000Z",
+          "snippet": "La Declaración de Interdependencia de Next250, una nueva galería de arte que presenta los valores colectivos y las esperanzas de los estadounidenses para el futuro, se abrirá en McPherson Square Se espera que miles se reúnan a una cuadra de la Casa Blanca hoy para revelar su visión para el futuro de América. En...",
           "_priority": "ALTA"
         }
       ]
@@ -115,31 +129,31 @@
       "color": "mint",
       "items": [
         {
-          "title": "EE.UU. ataca a Irán en represalia por el ataque a un buque en el estrecho de Ormuz",
-          "link": "https://www.nytimes.com/2026/06/26/world/middleeast/strait-of-hormuz-iran-attack.html",
-          "pubDate": "2026-06-27T01:36:11.000Z",
-          "snippet": "El presidente Trump el viernes calificó el ataque de Irán a un barco portacontenedores en tránsito por el estrecho de Ormuz un día antes como un acto 'insensato'.",
+          "title": "Actualizaciones en directo de Venezuela: los rescatistas trabajan mientras se estrecha la ventana para encontrar sobrevivientes del terremoto",
+          "link": "https://www.nytimes.com/live/2026/06/27/world/venezuela-earthquake",
+          "pubDate": "2026-06-27T14:55:47.000Z",
+          "snippet": "Los equipos internacionales se unieron a los esfuerzos de búsqueda el sábado después de que dos terremotos mataran a más de 900 personas en el norte de Venezuela y dejaran a muchos otros atrapados.",
           "_priority": "ALTA"
         },
         {
-          "title": "La promesa de Trump de 'dirigir' Venezuela se pone a prueba después de terremotos",
-          "link": "https://www.nytimes.com/live/2026/06/26/world/venezuela-earthquake",
-          "pubDate": "2026-06-27T09:35:02.000Z",
-          "snippet": "EE.UU. envió cientos de trabajadores de rescate para ayudar al gobierno venezolano, mientras los heridos abrumaban hospitales y la cifra de muertos llegaba a 920. El Pentágono envió dos barcos, aviones de transporte y helicópteros.",
+          "title": "Actualizaciones en directo: las hostilidades de Oriente Medio se intensifican, poniendo a prueba la frágil tregua entre EE.UU. e Irán",
+          "link": "https://www.nytimes.com/live/2026/06/27/world/us-iran-strikes-hormuz",
+          "pubDate": "2026-06-27T14:51:50.000Z",
+          "snippet": "Baréin dijo que había sido objetivo de drones iraníes, aparentemente una represalia después de los ataques estadounidenses en sitios militares iraníes durante la noche. Un barco fue atacado en el Estrecho de Ormuz por segunda vez en días recientes.",
           "_priority": "ALTA"
         },
         {
-          "title": "Las naciones envían equipos de rescate y ayuda a Venezuela después de terremotos",
-          "link": "https://www.nytimes.com/2026/06/26/world/americas/venezuela-earthquake-rescue-teams-countries.html",
-          "pubDate": "2026-06-27T03:05:53.000Z",
-          "snippet": "El número de muertos continúa aumentando mientras los equipos de búsqueda y rescate descendieron sobre el país para desenterrar a personas sepultadas bajo los escombros.",
+          "title": "La economía de Venezuela estaba en auge. Entonces llegaron los terremotos.",
+          "link": "https://www.nytimes.com/2026/06/27/world/americas/venezuelas-economy-earthquake.html",
+          "pubDate": "2026-06-27T14:48:42.000Z",
+          "snippet": "Las expectativas ahora están en aumento sobre el papel que jugará Estados Unidos en ayudar a Venezuela, que ya había sido devastada por décadas de mala administración.",
           "_priority": "ALTA"
         },
         {
-          "title": "Funcionarios mexicanos se han convertido en informantes para la administración Trump",
-          "link": "https://www.nytimes.com/2026/06/27/world/americas/mexican-officials-us-informants.html",
-          "pubDate": "2026-06-27T09:01:57.000Z",
-          "snippet": "La presidenta Claudia Sheinbaum de México se ha opuesto a las investigaciones estadounidenses sobre políticos mexicanos. Ahora algunos políticos quieren cooperar.",
+          "title": "Acuerdo con Israel divide a los libaneses, alimentando protestas en Beirut",
+          "link": "https://www.nytimes.com/2026/06/27/world/middleeast/lebanon-israel-deal-divisions-protests-beirut.html",
+          "pubDate": "2026-06-27T14:33:58.000Z",
+          "snippet": "Los partidarios acogieron el acuerdo como un paso hacia la restricción de la influencia de Irán dentro del Líbano, pero otros salieron a las calles, llamándolo una capitulación.",
           "_priority": "ALTA"
         }
       ]
@@ -149,23 +163,9 @@
       "color": "green",
       "items": [
         {
-          "title": "Los drones ucranianos obligan a Rusia a declarar emergencia en Crimea ocupada",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUkQxUWFmSkR5N1ZXaUxxSTdOQ3J1YzdkLUk0eVJiSkZjVkM0ci1MaGdzWXRSdHpfYzZfQTRMNldJMlV1ZGMzYlBYWnY5N1p6U3lrNFl1SVpoQ0hBNWxGMkxST05veXVNbUYyRkNlR3F0NTJoWkdJSi00VWZKZFRDMEJFNXRueGNiVjlRNjhKUTM3dFNtTkJJQWh2eVNiT2lELVFWbFNvSmY0ZEw0dzZwMVRR?oc=5",
-          "pubDate": "2026-06-27T02:22:50.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "El gobierno estadounidense decidirá quién tiene acceso a la última tecnología de IA estadounidense",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeXc2OG91ajlMZGxyMk1kSk43SmRsTFFUU0RQRngtRGxlN3NDbWZyUXJJNzcxRnJpR1V4WUREOFRXZXFPencyOW50b1U3Wk5GNy1lNzhQRWI3cjBnaDJXTGNZS04xTUt2Z2lCWFlrSFNtRGQzd1R0a0J2X1JlRmxZdXJBWVZ1TzR6aVk3ZWVMTlFCY0F1S2VOVUFoS2dXZjBrR0I2TVplcFpXUE5jaVppMU1faFA?oc=5",
-          "pubDate": "2026-06-27T03:59:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Trump prueba mensaje de mitad de período que se enfoca en 'comunistas'",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaUdyY0ZVRTZWUmZReDc3YVVNbVFKdlJ5RlEzd0dvZ1RXcTJaeFlVMkl4Wm9tb05rdG45S1VkYUN4OTN6NnBpZk12UTYxTVB5SE9OSEI0S3hpN1BmY2ZpbHVySXlpOXhOTVlBUlhwTE1qQlU0M3hPZ3JUQVFIclBCWnlFTUhvUzF4MldrbFh5TndiSE80aGthdVRBQVFzbTQxbzYxRnQtOTBTbG9r?oc=5",
-          "pubDate": "2026-06-27T03:34:00.000Z",
+          "title": "Opinión | El gran problema inmobiliario del gobierno federal",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRFc0SjA2SldRM29ra2JubEZ4Yzk4ODRobEdMSmgtRm5wejhHcjZkVGVvM0ltUkhTbVYyQTF1ZEhRTWtsQ3RwN3RNQ3RVRHVDYXBZbVRaTUVKRHN0NmNVNDBGQTlEWmxwa3BXaHpCQXV3TGgtOGhBUWNOUzVkQXRhc0ZpLU12NGhZM2hZUXItY2hGWFl3eGtnUFhrRzFXdVRsel9v?oc=5",
+          "pubDate": "2026-06-27T14:17:01.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -173,6 +173,20 @@
           "title": "La Comisión de Libertad Religiosa de Trump apunta a la separación iglesia-estado",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdkY1WC0zVWFERW1HZjdpZXk5VEdMSTVHaWZKY2VreDNyMWxsNVJjMy11WnJud1R0UHpzZzljcDlESno4aWUxMGd2ZWhXckFZS2FpMVBjaHFfMHNYdHBienFLODdDWjZPNnpRTzNSUXlHTndHdHhBZ0pYVVF6UDE1a2UxeXY1bHpjR3BoWXZNUzBwUF9KMmhtN2piaFVUTUZ5Q2kzNDUyZXpXa1RSaDlMUndRRnhaZmpadEg2NFZR?oc=5",
           "pubDate": "2026-06-27T06:55:50.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "El gobierno de EE.UU. decidirá quién puede usar la última tecnología de IA estadounidense",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeXc2OG91ajlMZGxyMk1kSk43SmRsTFFUU0RQRngtRGxlN3NDbWZyUXJJNzcxRnJpR1V4WUREOFRXZXFPencyOW50b1U3Wk5GNy1lNzhQRWI3cjBnaDJXTGNZS04xTUt2Z2lCWFlrSFNtRGQzd1R0a0J2X1JlRmxZdXJBWVZ1TzR6aVk3ZWVMTlFCY0F1S2VOVUFoS2dXZjBrR0I2TVplcFpXUE5jaVppMU1faFA?oc=5",
+          "pubDate": "2026-06-27T03:59:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Trump prueba mensaje de elecciones intermedias que se enfoca en 'comunistas'",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaUdyY0ZVRTZWUmZReDc3YVVNbVFKdlJ5RlEzd0dvZ1RXcTJaeFlVMkl4Wm9tb05rdG45S1VkYUN4OTN6NnBpZk12UTYxTVB5SE9OSEI0S3hpN1BmY2ZpbHVySXlpOXhOTVlBUlhwTE1qQlU0M3hPZ3JUQVFIclBCWnlFTUhvUzF4MldrbFh5TndiSE80aGthdVRBQVFzbTQxbzYxRnQtOTBTbG9r?oc=5",
+          "pubDate": "2026-06-27T03:34:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -188,30 +202,16 @@
       "color": "peach",
       "items": [
         {
+          "title": "Amparo a Eliseo Fernández calienta proceso electoral",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYzh4RlpIS1ppOTQ3NFdITzJvSWVkLXJXeEFfZHhtZ00tX0FsdEQ4d29QNHRobTNCZ3gxQThVclR5bkdOem1FQ0JfVjY1SkZmVnl3VEVHRVhhcGdOVXdOVmgtcjY0VHpRN09RMWpRbnFGRHB0VVVfX2VpQ2I4Z2dkakFtbzlWSVJjWUcxTm9QLVNoNmpGcDhJeDVMQ0x6UXFq?oc=5",
+          "pubDate": "2026-06-27T09:51:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "Terremotos en Venezuela exponen fragilidad de infraestructura; sin servicios básicos ni equipos de emergencia",
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbE1udndBeGJYaUdQQ190ZDBGSHAxc081RXh0em53QnB1RkZqMlVlQm1hNXRqX0dLM1NLLUJRdmpwd19kT3djS01iR3AxbHNFY3ZmZTd6SHpjMHBHeEloSDVIcmpPWjhCU0E1eWlDWEZEdWU4OE9hTU1EQ2NjUVQ2MnJQOFhnLWdKTDdqNkc4TW03YVJvVmxRdlRrdVlJUkZVUUg4SDZVTVJNaTJiaDktakNLZXRUR1AyNTdxQmtYT18zb0ZsTUFNLWUtRXhFenJiWi12Umc5bkp5cmNRbURr?oc=5",
           "pubDate": "2026-06-27T08:06:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Topos Tlatelolco alistan brigada de 12 rescatistas para Venezuela",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWFJKcnotRVpiUDRabFpnMXhEZ19CNVRaMVNfdmdCTnJXNzk1TlRBdkhna0E5V0lvM2IwSzBqdndTaktCOWFGbFJiMC1nN2wxRmFhS3JLckliXzlRRU53eWZfZW16OC1GV3NTZHlfXzNuOVlpeXpzZkRIU1JFV1hxWjNWS3AyamdJbm8zbnZnb1FlSks5Y1dMYm43R2dOcC1Jc2p5VUpQQ09tem5xUUp3cE1hQVVDaDZZcVlHNFVITUhJa29fSDY5Tmd4U0l6UjlxbV9Jcko2M0JpWXlrSUtyMVpJb9IB9wFBVV95cUxNb1FhdHpJdU52dEhxT3BSckllaDd2WTNrTmRJUHhlLThwS0hGRzVWOGJvREtqTDg1SGhRd3R0eTN2MHFVRHFCUlZhbzM0NndwQkttWHh1NWZYZUtOT1NndGlDOXVrTFVKQ0NDdm4yVG5rSmFRTTIzU3YxaDVLZnduREZ5ZFVtM2Y3dldUeUIxUER0NFl2TUg5X0FEUk96WDZpNkg4QjZsMlVLaFdoZ1NFdXdia0FBUTZTVm5qNHlGbVFSZlZ2Tlkyd3NxLThkWF9FZXM3S3VQQXByQnotQjVaZmhiZFVqSWY2YVJ6NkZBY0VxbEdNWnBZ?oc=5",
-          "pubDate": "2026-06-27T00:52:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Más policías ahora podrán aplicar multas de tránsito: lo que debes saber",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMUNUQkxPNFEtbFJGRDA1a0w1T1dUQnp5dDNvdGJ3QkpLTWFHaE9sNGZacnkzUnMyc3FETGJxVDBQRk1JNFV3RXMwcG1yR3lZbmtjeExtckhWNEZKZ2E0YUMwZFJBOFF4eWJLai1kN3NhRnJoUnVSRzF4eHVIZk5RdmJfZ21uX1NzZ0RfQTE3cXctM2VkaHN4ell1NFV5bkJqWEFHRi01bjQ2QjRxREIydXY3SHJYLVhtWlRSSldCTGlCaTJWVWJ4WdIByAFBVV95cUxOMUNUQkxPNFEtbFJGRDA1a0w1T1dUQnp5dDNvdGJ3QkpLTWFHaE9sNGZacnkzUnMyc3FETGJxVDBQRk1JNFV3RXMwcG1yR3lZbmtjeExtckhWNEZKZ2E0YUMwZFJBOFF4eWJLai1kN3NhRnJoUnVSRzF4eHVIZk5RdmJfZ21uX1NzZ0RfQTE3cXctM2VkaHN4ell1NFV5bkJqWEFHRi01bjQ2QjRxREIydXY3SHJYLVhtWlRSSldCTGlCaTJWVWJ4WQ?oc=5",
-          "pubDate": "2026-06-26T23:13:31.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Se registran cinco aspirantes a encuesta por gubernatura de Morena en Quintana Roo; estos son los apuntados",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZ0VwT2M5QXpkc2lNeUJLM3d0N2ktSnNDQmNPcHdSSWN3ZmFCbWczYnVWcHR1RFBzNmluVW9VT3d0Z2tCeUJ3LUdqTzdmZWdwVllKdEtRMUhoR2R3X29KdE84MWh5WTBMVjZScUxRVUhNVUZIbUZWOXJZV3hVMHhnUlpuVGhYSG9OcjQzU0NHYmF4TjhxcFNfNFVwMXIyNXRGRmZIem5la2EyS2hacGU5NXpMSWhaT0lLSVgxai1fVEdsRTdaT0E1OHRBb3lURnRpWlZjMkRhMTZCeFdxY3fSAfIBQVVfeXFMT2Z0aHN2Y3U1eFRTeHJGXzFDQ3pOZEJSeVJFVHZGNDJrVHJBZ3JSTk9Id2RhNk9WUGtFeDZCbjU3X1FhUmt6QUxGejBJaTRWN1c3dkNlZ2Z1aHMta3QyY0VZbFhqSkhIa2FWSExsbFl3TDFBNVlzczNPbno2Y3lBbk9OQ1RHR0FNMHBnT3pLd1dyN0xIQXh1bnVtaDJCdWlfY0lPNXFHeUR0a2xCMFc2X2g0dUw0TG40a01mQjY1ZFFjWUJhMkdZVTdYSTBfZXRYNlJIZ1prYjZ2MVBWMUhhOVBtb2tTRHFZRllMZWFCZjJxelE?oc=5",
-          "pubDate": "2026-06-26T22:29:57.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -220,15 +220,7 @@
     {
       "name": "Diario Las Américas",
       "color": "blue",
-      "items": [
-        {
-          "title": "25 equipos de rescatistas de 17 países están desplegados en Venezuela tras terremotos",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWV95dHNaUHdMVlFEOEx1bGhURGgxb29WLUh2cGZlX2llNWRhTXZYczlGNWxyUTFHYV9GYjRBcmtrQl9NTGxYMmZjdkJteWVydzNObHRLV1UzcUJIbndka3Nrb3pmM0k5bWMyVTZsR0haVzA5ZzQ5NWhDX1l2d1BJQS1kR0pRZDRHZG1YUUhzLW9PSkFGMG5GVTZMNEk5UlB2a3FVZmhJVTJ6QU1ySDNHVGNUR0tlZVAxdkgyZnBRQk5iUEFaTEd2RtIBzgFBVV95cUxOT2NzWG8xOVZBeUNzclBTeHc5czdKbHFJVUV6N2R1RXp0UFd6SzVTZW1SMFUwSjdwWUhlUXBPc2p1Y2NWS0UzZ3JkRUtuZ2VzSkZQdl95N3N6Y3F0dnNvalR1bmZsN3ZBbDRzMTZfRTFsNlZUUXpnVFp2Y3VsYndZSTRRUEZCTnlSUEpFdmZoamtVV3JrMTI3bHN1LV9aYTZjOW10VkthZXpDZzdvQW1YV21BNENJVDhMd1BHaE1TcWNqVTZGYVR0RFVFNkd5UQ?oc=5",
-          "pubDate": "2026-06-27T01:04:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        }
-      ]
+      "items": []
     }
   ]
 }
