@@ -187,6 +187,15 @@ async function buildSection(outlets, windowHours = null, prevOutlets = []) {
     const limit = outlet.limit || 5;
     let items = windowHours !== null ? applyWindow(all, limit, windowHours) : all.slice(0, limit);
 
+    // Si no hay noticias en la ventana de 12h, ampliar a 24h antes de ir al día anterior
+    if (items.length === 0 && windowHours !== null) {
+      items = applyWindow(all, limit, windowHours * 2);
+      if (items.length > 0) {
+        console.log(`  - ${outlet.name}: sin noticias en 12h, usando ventana de 24h (${items.length})`);
+      }
+    }
+
+    // Si sigue vacío, usar el día anterior como respaldo
     if (items.length === 0 && prevOutlets.length > 0) {
       const prev = prevOutlets.find(o => o.name === outlet.name);
       if (prev?.items?.length > 0) {
@@ -195,7 +204,7 @@ async function buildSection(outlets, windowHours = null, prevOutlets = []) {
       } else {
         console.log(`  - ${outlet.name}: sin noticias`);
       }
-    } else {
+    } else if (items.length > 0) {
       console.log(`  - ${outlet.name}: ${items.length} titular(es)`);
     }
 
