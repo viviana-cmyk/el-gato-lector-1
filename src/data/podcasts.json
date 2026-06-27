@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T17:12:14.729Z",
+  "generatedAt": "2026-06-27T10:01:14.679Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -12,14 +12,14 @@
       "url": "https://podcasts.apple.com/co/podcast/dianauribe-fm/id1440323217"
     },
     {
-      "title": "Estoicismo Filosofia",
-      "host": "Estoicismo Filosofia",
-      "url": "https://podcasts.apple.com/co/podcast/estoicismo-filosofia/id1740616448"
-    },
-    {
       "title": "365 con Dios",
       "host": "Wenddy Neciosup | Genuina Media",
       "url": "https://podcasts.apple.com/co/podcast/365-con-dios/id1546917854"
+    },
+    {
+      "title": "Estoicismo Filosofia",
+      "host": "Estoicismo Filosofia",
+      "url": "https://podcasts.apple.com/co/podcast/estoicismo-filosofia/id1740616448"
     },
     {
       "title": "Seminario Fenix | Brian Tracy",
@@ -44,14 +44,14 @@
       "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
     },
     {
+      "title": "Pod Save America",
+      "host": "Pod Save America",
+      "url": "https://podcasts.apple.com/us/podcast/pod-save-america/id1192761536"
+    },
+    {
       "title": "Dateline NBC",
       "host": "NBC News",
       "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
-    },
-    {
-      "title": "Mick Unplugged",
-      "host": "Realm",
-      "url": "https://podcasts.apple.com/us/podcast/mick-unplugged/id1731755953"
     }
   ]
 }

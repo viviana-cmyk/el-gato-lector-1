@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-06-26T17:12:14.729Z",
+  "generatedAt": "2026-06-27T10:01:14.679Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "La próxima presidenta de Perú enfrentará extorsión, minería ilegal y un Congreso hostil",
+          "link": "https://insightcrime.org/es/noticias/proxima-presidenta-peru-enfrentara-extorsion-mineria-ilegal-congreso-hostil/",
+          "pubDate": "2026-06-26T17:53:01.000Z",
+          "snippet": "La próxima presidenta de Perú enfrentará extorsión, minería ilegal y un Congreso hostil La conservadora Keiko Fujimori se convertirá en la próxima presidenta de Perú tras unas elecciones caóticas y divisivas que han resaltado los desafíos que deberá enfrentar para contener la pro…"
+        },
         {
           "title": "On The Radar: Giro a la derecha en Colombia y Perú reaviva las preocupaciones sobre seguridad",
           "link": "https://insightcrime.org/es/noticias/giro-derecha-colombia-y-peru-reaviva-preocupaciones-sobre-seguridad/",
@@ -28,12 +34,6 @@
           "link": "https://insightcrime.org/es/noticias/the-insight-take-colombia-gira-derecha-abelardo-de-la-espriella-desafios-seguridad/",
           "pubDate": "2026-06-24T15:16:41.000Z",
           "snippet": "The InSight Take: Colombia gira a la derecha con Abelardo de la Espriella en medio de desafíos de seguridad El ganador de las elecciones presidenciales de Colombia, Abelardo de la Espriella, prometió poner fin a las negociaciones con las guerrillas y desplegar a las experimentada…"
-        },
-        {
-          "title": "Comandos de la Frontera",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/comandos-de-la-frontera/",
-          "pubDate": "2026-06-23T22:31:57.000Z",
-          "snippet": "Comandos de la Frontera Los Comandos de la Frontera son un grupo criminal colombiano surgido en 2017. Nació de una alianza criminal compuesta por disidentes de los frentes 32 y 48 de la antigua guerrilla de las Fuerzas Armadas Revolucionarias de Colombia (FARC) y miembros de La C…"
         }
       ]
     },
@@ -78,6 +78,12 @@
       "color": "yellow",
       "items": [
         {
+          "title": "Annual Meeting of Global Future Leaders",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeWdHVlVRYVRrOW02NHpQYl9GcjdyaWdsWnBEdk13eTFadk5pZkFMTFVra1hVcHVlVnB0Um55VFBpbDBzMXgzX1NxVk1JTmRXWXlYTThEWUNwd2xnMk9kNXFST0JIcnEySlNEdmRSNlAydTg0SmU1T2FfalJMeHl0TkRzWQ?oc=5",
+          "pubDate": "2026-06-27T04:28:48.000Z",
+          "snippet": null
+        },
+        {
           "title": "Amar Haji Fadillah Bin Haji Yusof",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43OHNMQXpyUC1NRF8yR1pXMEhKN01EamY5M1JXZ2JEMEMyX1ZPWFVwZy0yYlhzNWtNdVVfT2hqUnBMRUZleFlHekIxMl9BQWt5cFJZOW44VEs3TjdtSFhET1YyRFRyNUhzbHk5Mk1CSzJxa1dmZVpodnFneGdlUQ?oc=5",
           "pubDate": "2026-06-26T14:55:03.000Z",
@@ -87,12 +93,6 @@
           "title": "Event Details - Arusha Hub",
           "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPcXFuMnM1U1dfR0ZPaUFZdFZuX2ZzUVYweFMwZTh6SGpGLXJFWEEtV01IekJhOWFqVDB6YXFSM0xXaUVwUXZkMVVoMGhQMElpQm1EdXFNTi1CWWtraHVaN0wzaXlVOE1MTkgySDdEN2hwYW1mNWpTSnNCRU9DbTVKZ1d2NDIyMkoxMk1YZHM3REJ6cGhJZGd3UkZVdHc3NTlzZXNVOGhiMDlsak5jOHJ5cTdkYkJ2ekFTcElEd2VXbGl6aG9rcmRVczdfcHJ5Mjl6WFpNaGlqN0lDM0xkVko5M0ZTb0ZIRWx0QWNGMEt6dlVuMnp5WUh2UGRWNFJNY1d3dTlOaVFWM3JXWWNxM000?oc=5",
           "pubDate": "2026-06-25T18:30:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "5 nuevas y emocionantes tecnologías en 2026",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiSl9mSVVYNHFvdm4tNlVMWGZOVTM3TGRsNlFhY2FrM3hDUHVyNGdQX1BIYWM0OURNU2pDNThPb2pCS2ViWDFhVHNmdUFfcjRkQ1ZPZWd1MmRQY1R1TUxOdmpIdmRfSTQzYU5BZVNDdlpNRkoxeDFka2ExTDJEems?oc=5",
-          "pubDate": "2026-06-25T13:12:39.000Z",
           "snippet": null
         },
         {

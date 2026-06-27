@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-06-26T17:12:14.729Z",
+  "generatedAt": "2026-06-27T10:01:14.679Z",
   "outlets": [
     {
       "name": "CNN en Español",
       "color": "grey",
       "items": [
         {
-          "title": "El Tesoro de EE.UU. levanta temporalmente algunas sanciones a Venezuela para que pueda recibir ayuda por los terremotos",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNTUyMWNDbjFkbXV2UlZtSmdwNjZFS21PekRKTHpIcE5jX09QbXRaZzlXd0c2OUFiUU9Ja2dIaVhLTlAzMGswVWNyV2hNN2FLZm5aUENmNU50WTI5WVdQUm1fZm1ESTIyTFZEUnFQQ2I3bFp3OTcta1RwNWFTYlllUEtDZkFMcjg?oc=5",
-          "pubDate": "2026-06-26T12:19:00.000Z",
+          "title": "EE.UU. ataca objetivos iraníes en respuesta a un ataque contra un buque de carga",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaU95Z2xoME5vZEFmaDhQanFSWk1qcjF4RVFNcmpiYVJKc3hjbHpWYkhUQklVRnkyX1M2R21zT093OGYtaU1ma1RtbkpCTHJUQktBVWVHa3hTMk9fd1BLcW0tZDh3VmwwdU9qUUkzUUFsWmxFdXZELVlJSUFpUVF3Z283UFIwRmoyazRTSg?oc=5",
+          "pubDate": "2026-06-26T23:43:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Trump afirma que el ataque iraní en el estrecho de Ormuz es una \"violación imprudente\" del acuerdo",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdHh1QXVHWFpEN3doWDNlRkNTWVlleC0tcDZaRTBVR0hjSlJ4VGxfZ1kzbEd3V1NKTjg0UWF2UjVsaEdHM1hzb09abm9rX0NhSkdWSmt4X3YzYW5tX2NydGRBYWNTU1NxaWY0Z2l1TlQ0NUhVOEFtRmtUUmpsWDFnRGFqQUpLN1RqWE1rXw?oc=5",
-          "pubDate": "2026-06-26T16:07:00.000Z",
+          "title": "“Tenemos a mucha gente allá ayudando”: Trump afirma que EE.UU. brinda apoyo a Venezuela tras terremotos",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPT0hHT295S0RMSnNRZW9Uc0h0UjM5azhWeG9uVHZwYUV3RjNQWXJrM0xlWnVQNEZXQVRaTjF5MEtPUnhVT2hNVXkyTFJmaXhmOWNvSW5fNHRfMEUzTzh3YXhGVFNKZmlXVUdwUHpkeVFPbkFtR0N4TzBEamU3c3owdE9uU0ZOdi1ncldmQmhobWlpck9EcEVnMXFidzFvRkpHa1E?oc=5",
+          "pubDate": "2026-06-27T01:33:02.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Un domo de calor estancado subirá las temperaturas en EE.UU. por un cambio en el patrón meteorológico",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1XOHZjWkZuR1ZrUmF3M25RN1lrMUFYM3NIbU5WYktRcEZqcGlVb1c1TGhlYzNxMWhHU0ZlcS13ZUhTWmRFMG1yUGU2eHdBNjlwcVF2bmNBeGd1a3hvaFlZaFd1c243c0hYTDZqYnVORQ?oc=5",
-          "pubDate": "2026-06-26T16:09:00.000Z",
+          "title": "Terremoto en Venezuela: ¿por qué algunas edificaciones resistieron y otras no?",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSG5WQ3dtOVVGVktZc0I3dzNaMGFDdUMtQ2JYb1lkaE50bG1CT2tyY1U5NmxkV2tacldjWDd2bzUwazBFa3R1ay1GaWdXcVRYUGRNcDh0OEpBSmJQUHE2MGlGRVdTY1oyMTNuSG4ySHo3ZHNMRTNENjBSQ1hJRml6UU9SYzMzd19fRGhMRkdGRGExaFNkZlIzV25tbGhZUk5IdHZxR1AtOGZhcldrUkc1eFJoemlCOXNDaS1PcjRybUlpWjJqTHRpTA?oc=5",
+          "pubDate": "2026-06-27T02:49:14.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Es probable que los problemas de corrupción en Venezuela hayan contribuido a la construcción deficiente de los edificios",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcnZhOS1STDAwQlJibkZ2UG9kZUZVUlVpdV9abnlfaFBTdjBfUTlHZ21PRnU0NjNjTHo3UlY0SUVVMXpPWTY0blV3NzhKcVVtSS1FSFNFU0xZTndsZV83bkprYlZQd2VyRUp4a1RXNWU2MUJadWpZU2lQNVN2ckZGaFBQWFoyMUZlWjVuVkM4SFRyVEl4d3VJUjFiWTdrOGk3NDd1endPdDFfb2s?oc=5",
-          "pubDate": "2026-06-26T12:36:00.000Z",
+          "title": "Corea del Sur prueba sus defensas contra enjambres de drones",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU2xXd2dXZlJraExZUnl6cDFTd2piYmJTQU1nUC0zYnhrblNuV1RkUl9BUWVGSFRlV1pZMUZyMk5IczBTOVo0Zm9QcHFFM0x6a29kVU9nYlFHbnk1WnltZTBTdDZXUHlaclBvc1FCcWtWTHhBVkZUZVFPQURYUmhkLUQ3WFc1aFQzUEd5U2hBQnU2Zk1kQ3AyaQ?oc=5",
+          "pubDate": "2026-06-27T00:57:16.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "La ola de calor sin precedentes que azotó Europa habría sido \"prácticamente imposible\" hace unas décadas. He aquí por qué",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5lNmkzalM1MEhuTTNLb2FTTUtQODlPVUZFb3dmOGoyb3VZRXpjQ0h1ZlhVcjJEVlAyM2RUSjAzeXdaMzdhYVpRYWg1dnlzYjB4OUExdGxVVFMzWmw0TEUzc1JILUdVaUdiOGdXTE9hSGkzUFRNc1ktTXF6SEVrNUk?oc=5",
-          "pubDate": "2026-06-26T06:30:00.000Z",
+          "title": "Los Topos Mexicanos se unen a la búsqueda de sobrevivientes en Venezuela tras terremotos",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV2dCZFNrT0NnQ2hETFJ3X3AyV0sxdi1pUWdSQ2RUSzNkLUZqQVN1WVN2SjFQWW9EV3RkN0ZmZUhOVGNVWDh6dVc5RThNUE91d09ROVJ6NXU2R05FanE5VVBlSG1hN0dRRWY3MmhTLWJHR0tJMGhWNTNYQjdWNU5QSHNzSllWTjltWmpxWDRSSEZHUVk2TEQ1T3BjN1YzN2F4LTIweHRWTTByMGVfTnNmdU04cHVuN0FhN0haQmRsNGQ?oc=5",
+          "pubDate": "2026-06-26T23:13:45.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -47,18 +47,25 @@
       "color": "sky",
       "items": [
         {
-          "title": "Dos generales ratifican que les ordenaron que la UCO se pusiera “de perfil” en causas políticas",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOd3Q1eHhtZU9Wd3lJQzBMWFJ5cUVkMENDTG11b1Jjc3MxeXE1alBVNEMxVXdoVVF0Z2wwX0dFMWVYcXBsVlFHTmhzUnhyTXJKYVFMSTlPZWYwT001azhPYmJSVDk0aUp5QUh2LUhSd1VSZXRyQ2NHeEZuOEMwV084ZkRyamh1cDNRUjhUc3I1SDhwLVRRb2ZDdjRnMzBjQjJSNTJEWW9FQ3RQWVphTmFWZEFGU1RDcXpLX0dfNUx4LUVWNmJ6Z0RoMmhhSF9FaFFKdjJkNVd30gHqAUFVX3lxTE9JZGJTaDFIcnFFOGp0V2tXS0doQllGaDNBV3hEUnpiYkRyX0RJa1pzek15Rm1teUNJS0JpNjlOOWZlQTJ4ajRsVW5hMVRzYjg0UFJPSmIzRTN6ekUxWWdWS1o4NVJ5R05VZ0J1UGo3b1RjZWc3emRiQXdBUUlVSGIyN1JPUko3eTJsTlZRYmU1b3A5UVA0TkpxT1hQS3ZlVU9BM3JIVU1oaEtGTHNtQXM1b29kSnlvSThzallKaFZjRFItZVVNUmFpNmNHYzhRSkJmeE5GVHdrNDhEdmx6eUdHRkN1Wlp0Q1NmZw?oc=5",
-          "pubDate": "2026-06-26T12:08:07.000Z",
+          "title": "“La gente está en shock”: El fin del TPS golpea al corazón de la diáspora haitiana de Estados Unidos",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTjZQckFTcVJLM2cyWnhTeUNoVHNBMzhUS2hodTJRdjBSaGIzVG1xeUpQYmF1UW5kYi1CMzZlVTU1T25YbG13TEFYS24wS0pERllsLUdrOEhkaXR5dUFBMFFrODRBWnN3OWFYeUJOM3JCQjlBUEZuQnNCUU9DMzNmQmR6ZksxMWoxbWpZVm5kcDdmVDR3UGVSU0R4andkZXlISnMwT3VhRS1KbWRhdTdhN3k5SmpVSk9xTGs4T0VNdTZXNUVveTd3LTdiQlFYX295dk5tRlJET1NiMUFzN1HSAfIBQVVfeXFMTWhSMktJVE5SUHpPLXJ1MXJvVkM5WHBNdzlsd1hoRGhQZk4xaUczSjFvSHhPVG1vUUVVbXBWYnYwaE9NdWhjeXlKOTFBMDdDX2trbXR2b1c2Y3o0cXpiekpSSWE2OTZ3UGNYdGR4WF90S2xhNm9mZHZnRV8zOWlic0hkM1I5ZEdLQjlTTzZRS1NEZVdsMVVNM1hFZnpTOHl0bGlSSHZOdUZLMEp2RnJDeWRNUGpwdjBFUk9yc29qMG9Pa0NxZmdsQm8yaDNFQWVnS2xyVDJJWUFZNDcxSFl3cnBROF9id3UxYloydW50VlMzUVE?oc=5",
+          "pubDate": "2026-06-27T04:00:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Europa cierra un gran acuerdo para acelerar el almacenamiento de energía renovable",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTHJ2MS1yNEJYLXU1U3VrelloUEZQMnhnOGkxWEo2UEp4Rkd2OTZwb2tUNjFyUm55T0JqVmo5QWpPQmJGeWZ0YXB1dEdiTzhPX1hMZVZ3bWJGQWpMVVlxVTN2RWlVcU4tT0pCVXdyeUdaQ0tUX19BNnZ6NFpZSnM4RmNxaXpPM0JjbFMtYXlrVDVhdGcxanhCZ01FUExhUnRSRERacWRBd3Z3bHRfcFZOZVJiTnBjWFlTNmJPbEpJVVdzMnZU0gHYAUFVX3lxTE1FV0JBQ3VnZDNwNzRYRlRaZUx2SHJkaWx0WGpSSThqNjJGdUNSNXg1LXpPVTZnVUVpTU1sbFJEUklpb0lYSHBUQjBMZnBlUVR2c1pvc2VIN09RQUpGNWN4Rm9JOEFmZFNVeFNsMEhoSDY1MnBUVVJYUS1fVV9YendGSGJ0djFZRk1xMGNYc25kMmZFV2VqTF9hZ3JpM1JCWlhYMWZxZVV2NFhxY245SnVVbndpejlZYjVvQmxVdmZJZEIxWVB5S3pCSFllTGNlLWRwczBaelBmcw?oc=5",
-          "pubDate": "2026-06-26T15:31:49.000Z",
+          "title": "Gustavo Petro e Iván Cepeda se reúnen por primera vez después de la derrota: “El jefe de la oposición es el pueblo”",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcnZYbmRmcjY4N0s3NVRGbXlBazFDYmNMaFVtOXhYUF9uMHNoay0tSE4zdVJkTl9YWk11UVgta0tuNGE0ZkZVcDd5ZDFSa3VwWHg4UjhMU3dxMEozblRrb0s5eXI3YUkxalpubHZOX2k0Z2RoV1VCckxERkt5eG5ZaTRoRmpIdmRQMldHb0ljT01tZk1idGJaVGxGdGtRZUItQzNHcWljX2tnbjB6cGhOYklIZWs1VkhuZUk0UHpUV0RNMmFDckJQbDNIT3VNeVoycHR1cV9NTlB6MkhDNDBwZzRORlppY0NGU3RtQm9DR29JR0FfUGlz0gGLAkFVX3lxTE92MDJSWTkzd043NlNMT3QtaGUxamJDazNkM2xFQnp4WGpNWjRXUHk0TzQwaDJPdWlqYktVR1FQTTZaX2N0TDFaNnAtX2p6VVBVUjVleURHY0JGUVFhV0ZObXV4N2Q5bVJqNm40cjJkWC1aUFhoVlhfWFZaOWlMb3ZDeE50ckxJNERtSDdSdFBoX1JNZGE2YmpMX3NKRTBnYWctZWQ5NGRDaS1pU2x4SkhrTXppRUdzSGw3S3VYOW5GN25LWm1NcGRBUzZyaWdNRXJFWncwME5YZDFib3dxS1F1TG9IUlVDXzg2SXFGVEs4YUx2X3JNUG1Wc2FVS0dJN0pRTGJWMUloQmd5Zw?oc=5",
+          "pubDate": "2026-06-26T22:28:34.000Z",
           "snippet": null,
           "_priority": "ALTA"
+        },
+        {
+          "title": "Cabo Verde es el héroe del Mundial: jugará los dieciseisavos contra Argentina",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbjFmeWdaUWh5Si03M2VucGd5cHBTUXdHUHk2YkpYVDhlX3VlZUNiU1Z6OU45X2dPb0pfQVNJdzdaMFRGNW93V2xkcnFoZ3lodlRqR09sTFZhUGRpdWJCZ1lKOEQxTmloc3JzTGNvZDFlWGVFOVpFdnl6VTRLSGR0WjZxT3VrRFBmTW9HQnJxQW1SeUh6enE1ZEQwODhaV0xtaGpDTWRoZE1ZNkliN1d5a2J5R1l3dWNGbXpQdHZwRG5seUZ5Z19JRF9SRldlcHlzXzdDQktn0gHqAUFVX3lxTFA2WjhPMWNOMkVIZW5DTHZPVi0tbzFBWWtMQzVUZzY1NlYxdmNvZkxUbGRWbDdzYnY3NHRQekNoQ3lkSXNaUGVnTHJKbDUxam1yXzlCNEJsQzltYTM4RU1vM2p1OEtEYVpTdi1jWWNlTTZRN1hvV1lVSFgyazBuOVp4ZXJiUjNJR25QVWtReUxoTWJzNGNDd0N0aEdJYkVsQ3RxLTB1ODlIUGs1ZDlhQWJlQno3amdQVmdJSk0xa0oxSnVBUkhCenJILUJUNUhSeTNWUDU4azhxU3RCOFNzcERsd2Y1YjR3S0NiUQ?oc=5",
+          "pubDate": "2026-06-27T02:50:07.000Z",
+          "snippet": null,
+          "_priority": "DEPORTES"
         }
       ]
     },
@@ -67,38 +74,38 @@
       "color": "yellow",
       "items": [
         {
-          "title": "La cifra de muertos en Venezuela se duplica mientras presidenta interina promete salvar 'a la mayoría de personas posible'",
-          "link": "https://www.theguardian.com/world/2026/jun/26/delcy-rodriguez-interim-president-venezuela-earthquake-death-toll",
-          "pubDate": "2026-06-26T15:46:34.000Z",
-          "snippet": "Delcy Rodríguez dice que equipos de rescate extranjeros están llegando pero la gente está enfadada con la respuesta oficial y recursos limitados. La presidenta interina de Venezuela, Delcy Rodríguez, ha prometido luchar para salvar 'a la mayoría de personas posible' mientras la cifra oficial de muertos del peor terremoto del país…",
+          "title": "Las prohibiciones de redes sociales se globalizan: las grandes tecnológicas enfrentan un reckoning después de la represión de Australia",
+          "link": "https://www.theguardian.com/news/ng-interactive/2026/jun/27/social-media-bans-go-global-big-tech-reckoning-australia-crackdown",
+          "pubDate": "2026-06-27T05:00:31.000Z",
+          "snippet": "A medida que una serie de países se mueven para frenar el uso de redes sociales por parte de los niños, ¿podría ser este el momento del tabaco de la tecnología? Continúe leyendo…",
           "_priority": "ALTA"
         },
         {
-          "title": "Trump nuevamente amenaza con aranceles del 100% contra cualquier país que imponga impuesto sobre servicios digitales a empresas estadounidenses – en vivo",
+          "title": "La campaña anti-OMS de Nigel Farage se traslada a EE.UU. con aliados añadidos a la junta",
+          "link": "https://www.theguardian.com/politics/2026/jun/27/nigel-farage-action-on-world-health-campaign-who-us-board",
+          "pubDate": "2026-06-27T09:00:00.000Z",
+          "snippet": "La reubicación de Action on World Health plantea preguntas sobre por qué el líder de Reform UK está involucrado en un grupo de presión estadounidense La campaña de Nigel Farage contra la Organización Mundial de la Salud (OMS) se está trasladando a EE.UU. con una nueva junta de cabilderos, lo que plantea preguntas sobre por qué el líder de Reform UK…",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Ola de calor en Europa en directo: Alemania se prepara para temperaturas 'muy superiores a 40C'; alertas de calor extremo para Inglaterra",
+          "link": "https://www.theguardian.com/world/live/2026/jun/27/europe-heatwave-germany-poland-france-uk-temperature-heat-latest-news-updates",
+          "pubDate": "2026-06-27T09:30:36.000Z",
+          "snippet": "Los meteorólogos advierten que las condiciones más calurosas se extienden hacia Europa central y oriental Aunque será mucho menos caluroso en el Reino Unido, sigue habiendo una alerta ámbar por calor extremo en partes de East Anglia y el sureste de Inglaterra hoy. La Oficina Meteorológica ha pronosticado las temperaturas de hoy de la siguiente manera…",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Los fiscales en Inglaterra y Gales esperan un aumento en la violencia doméstica durante la Copa Mundial",
+          "link": "https://www.theguardian.com/society/2026/jun/27/prosecutors-cps-expect-rise-domestic-abuse-football-world-cup",
+          "pubDate": "2026-06-27T05:00:33.000Z",
+          "snippet": "La CPS insta a las víctimas a acudir a la policía, diciendo que serán tomadas en serio y que 'no dudará' en llevar a los abusadores ante la justicia Los fiscales en Inglaterra y Gales esperan que los incidentes de violencia doméstica aumenten durante la Copa Mundial masculina, e han instado a las víctimas a presentarse, dijo…",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "JD Vance dice 'la violencia será respondida con violencia' después de ataques a Irán – según sucedió",
           "link": "https://www.theguardian.com/us-news/live/2026/jun/26/trump-news-john-bolton-updates-today",
-          "pubDate": "2026-06-26T16:54:04.000Z",
-          "snippet": "El presidente estadounidense revive amenaza contra países europeos que discuten medida fiscal a pesar de fallos judiciales repetidos contra sus aranceles. El antiguo asesor de Trump John Bolton se declara culpable. Suscríbete al correo Breaking News US. Hayes continuó: Como asesor de seguridad nacional del presidente…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "VW planea cortar hasta 100,000 empleos y cerrar plantas, dice informe",
-          "link": "https://www.theguardian.com/business/2026/jun/26/vw-cut-jobs-shut-plants-volkswagen-china",
-          "pubDate": "2026-06-26T15:35:52.000Z",
-          "snippet": "La empresa alemana supuestamente considera duplicar reducciones de personal previamente anunciadas en medio de competencia china. Negocios en vivo – últimas actualizaciones. Volkswagen, empresa alemana, cortará hasta 100,000 empleos y reducirá y eventualmente detendrá la producción en algunas plantas, según reportes. La compañía…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Récord de calor en junio del Reino Unido vuelto a romper, Francia pospone Pride y Polonia advierte sobre incendios forestales mientras ola de calor envuelve Europa – en vivo",
-          "link": "https://www.theguardian.com/environment/live/2026/jun/26/europe-heatwave-extreme-heat-red-alert-weather-uk-england-france-climate-crisis-latest-news-updates",
-          "pubDate": "2026-06-26T16:58:30.000Z",
-          "snippet": "Se estima que 150 millones de personas en Europa podrían experimentar temperaturas superiores a 35C hoy. La ola de calor europea es la peor jamás registrada e imposible sin la crisis climática, dicen los científicos. En el Reino Unido, los bomberos aún intentan controlar un gran incendio forestal en Derbyshire. El incendio…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Récord de calor en junio del Reino Unido roto por tercer día consecutivo mientras se insta a los ministros a actuar",
-          "link": "https://www.theguardian.com/environment/2026/jun/26/uk-government-urged-to-act-on-devastating-impact-of-heatwaves",
-          "pubDate": "2026-06-26T15:56:13.000Z",
-          "snippet": "Los planes para proteger a las personas quedan 'muy por debajo de lo que se necesita', se le dice al gobierno, mientras un diputado advierte de muertes por ola de calor. Política del Reino Unido en vivo – últimas actualizaciones. El gobierno del Reino Unido enfrenta llamadas cada vez más urgentes para actuar proteger a las personas contra los efectos cada vez más intensos de la crisis climática…",
+          "pubDate": "2026-06-27T02:03:04.000Z",
+          "snippet": "Este blog en directo ahora está cerrado. EE.UU. dice que golpeó objetivos iraníes después del ataque a un barco de carga en el estrecho de Ormuz Suscríbase al correo electrónico Breaking News US Hayes continuó: Como asesor de seguridad nacional del presidente de los Estados Unidos, el Sr. Bolton tenía acceso y era responsable de…",
           "_priority": "ALTA"
         }
       ]
@@ -108,31 +115,31 @@
       "color": "mint",
       "items": [
         {
-          "title": "Actualizaciones en Vivo de Venezuela: Rescatistas Buscan Sobrevivientes del Terremoto mientras Líder Llama a 'Militarizar' el Área",
-          "link": "https://www.nytimes.com/live/2026/06/26/world/venezuela-earthquake",
-          "pubDate": "2026-06-26T17:08:09.000Z",
-          "snippet": "La presidenta Delcy Rodríguez dijo que dos poderosos terremotos el miércoles habían matado a 589 personas e dejado casi 3,000 heridos. Estados Unidos y México estuvieron entre los últimos en enviar apoyo, mientras cientos permanecían desaparecidos o atrapados bajo los escombros.",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Los Terremotos de Venezuela Golpean un Sistema de Salud Ya en Crisis",
-          "link": "https://www.nytimes.com/2026/06/26/world/americas/venezuela-earthquake-shortages-doctors.html",
-          "pubDate": "2026-06-26T17:02:15.000Z",
-          "snippet": "Los bomberos utilizan luces de teléfono celular debido a escasez de linternas, y un hospital abrumado en la zona del desastre está operando sin agua corriente, dijo un médico.",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Ataques Ucranianos Impulsan Declaración de Estado de Emergencia en Crimea",
-          "link": "https://www.nytimes.com/2026/06/26/world/europe/crimea-ukraine-state-emergency.html",
-          "pubDate": "2026-06-26T17:06:54.000Z",
-          "snippet": "Semanas de intensos ataques por parte de Ucrania han sacudido la vida cotidiana en Crimea en una medida sin precedentes desde que Rusia anexionó ilegalmente la península en 2014.",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Irán Afirma Autoridad sobre el Estrecho de Ormuz Tras Atacar Barco de Carga",
+          "title": "EE.UU. ataca a Irán en represalia por el ataque a un buque en el estrecho de Ormuz",
           "link": "https://www.nytimes.com/2026/06/26/world/middleeast/strait-of-hormuz-iran-attack.html",
-          "pubDate": "2026-06-26T17:04:40.000Z",
-          "snippet": "El presidente no dijo cómo o si respondería, un día después de que Irán disparó contra un buque portacontenedores que transitaba el Estrecho de Ormuz, acto que el Sr. Trump calificó de 'insensato'.",
+          "pubDate": "2026-06-27T01:36:11.000Z",
+          "snippet": "El presidente Trump el viernes calificó el ataque de Irán a un barco portacontenedores en tránsito por el estrecho de Ormuz un día antes como un acto 'insensato'.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "La promesa de Trump de 'dirigir' Venezuela se pone a prueba después de terremotos",
+          "link": "https://www.nytimes.com/live/2026/06/26/world/venezuela-earthquake",
+          "pubDate": "2026-06-27T09:35:02.000Z",
+          "snippet": "EE.UU. envió cientos de trabajadores de rescate para ayudar al gobierno venezolano, mientras los heridos abrumaban hospitales y la cifra de muertos llegaba a 920. El Pentágono envió dos barcos, aviones de transporte y helicópteros.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Las naciones envían equipos de rescate y ayuda a Venezuela después de terremotos",
+          "link": "https://www.nytimes.com/2026/06/26/world/americas/venezuela-earthquake-rescue-teams-countries.html",
+          "pubDate": "2026-06-27T03:05:53.000Z",
+          "snippet": "El número de muertos continúa aumentando mientras los equipos de búsqueda y rescate descendieron sobre el país para desenterrar a personas sepultadas bajo los escombros.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Funcionarios mexicanos se han convertido en informantes para la administración Trump",
+          "link": "https://www.nytimes.com/2026/06/27/world/americas/mexican-officials-us-informants.html",
+          "pubDate": "2026-06-27T09:01:57.000Z",
+          "snippet": "La presidenta Claudia Sheinbaum de México se ha opuesto a las investigaciones estadounidenses sobre políticos mexicanos. Ahora algunos políticos quieren cooperar.",
           "_priority": "ALTA"
         }
       ]
@@ -142,9 +149,30 @@
       "color": "green",
       "items": [
         {
-          "title": "Casa Blanca y RFK Jr. intentaron expulsar candidatos de terceros partidos de carreras cerradas por la Cámara",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWE1NenUwUEVrVngzQktVRUZ4S3M2cF9BZTQ5RG5fa3lWQS10aS0ydTE5ZzJiLTEzSUZOMjZ0ekxDcEFGTEtTSm85M3hyMXk5X1BhM2t4TnZzSnVuNEtsNWktYzlIZGFjeGYydDNGMmx4UzUwc3pSTVROSjdVWnJPakp5VlZoQTVraDVTeFFaeVV2VDhMdjNVcFRHM1owZS1qQmtld2xuMWx5RC0wcUVWMVdTQQ?oc=5",
-          "pubDate": "2026-06-26T05:19:34.000Z",
+          "title": "Los drones ucranianos obligan a Rusia a declarar emergencia en Crimea ocupada",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUkQxUWFmSkR5N1ZXaUxxSTdOQ3J1YzdkLUk0eVJiSkZjVkM0ci1MaGdzWXRSdHpfYzZfQTRMNldJMlV1ZGMzYlBYWnY5N1p6U3lrNFl1SVpoQ0hBNWxGMkxST05veXVNbUYyRkNlR3F0NTJoWkdJSi00VWZKZFRDMEJFNXRueGNiVjlRNjhKUTM3dFNtTkJJQWh2eVNiT2lELVFWbFNvSmY0ZEw0dzZwMVRR?oc=5",
+          "pubDate": "2026-06-27T02:22:50.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "El gobierno estadounidense decidirá quién tiene acceso a la última tecnología de IA estadounidense",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeXc2OG91ajlMZGxyMk1kSk43SmRsTFFUU0RQRngtRGxlN3NDbWZyUXJJNzcxRnJpR1V4WUREOFRXZXFPencyOW50b1U3Wk5GNy1lNzhQRWI3cjBnaDJXTGNZS04xTUt2Z2lCWFlrSFNtRGQzd1R0a0J2X1JlRmxZdXJBWVZ1TzR6aVk3ZWVMTlFCY0F1S2VOVUFoS2dXZjBrR0I2TVplcFpXUE5jaVppMU1faFA?oc=5",
+          "pubDate": "2026-06-27T03:59:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Trump prueba mensaje de mitad de período que se enfoca en 'comunistas'",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaUdyY0ZVRTZWUmZReDc3YVVNbVFKdlJ5RlEzd0dvZ1RXcTJaeFlVMkl4Wm9tb05rdG45S1VkYUN4OTN6NnBpZk12UTYxTVB5SE9OSEI0S3hpN1BmY2ZpbHVySXlpOXhOTVlBUlhwTE1qQlU0M3hPZ3JUQVFIclBCWnlFTUhvUzF4MldrbFh5TndiSE80aGthdVRBQVFzbTQxbzYxRnQtOTBTbG9r?oc=5",
+          "pubDate": "2026-06-27T03:34:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "La Comisión de Libertad Religiosa de Trump apunta a la separación iglesia-estado",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdkY1WC0zVWFERW1HZjdpZXk5VEdMSTVHaWZKY2VreDNyMWxsNVJjMy11WnJud1R0UHpzZzljcDlESno4aWUxMGd2ZWhXckFZS2FpMVBjaHFfMHNYdHBienFLODdDWjZPNnpRTzNSUXlHTndHdHhBZ0pYVVF6UDE1a2UxeXY1bHpjR3BoWXZNUzBwUF9KMmhtN2piaFVUTUZ5Q2kzNDUyZXpXa1RSaDlMUndRRnhaZmpadEg2NFZR?oc=5",
+          "pubDate": "2026-06-27T06:55:50.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -153,25 +181,54 @@
     {
       "name": "The Economist",
       "color": "lilac",
+      "items": []
+    },
+    {
+      "name": "El Universal (México)",
+      "color": "peach",
       "items": [
         {
-          "title": "Crimea Lejana: la guerra llega a la puerta de Rusia",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaXNSdU5BbS1mWDNkNzdab1ROVXk0bEczUmpUU29QWi1FZUtGdkxkNU1Ma042ajNMeUh1Q2NFUjc3bkZBZDdHbkdwdkQ2R3VXZUd4eWlUM1NQb1BrRzZ2TnlQc3BBTExBTElNRk1kMDZPd0Z6c3dqQnZMMHJFbHE3Nm1Ra1BfZDFFcFE?oc=5",
-          "pubDate": "2026-06-26T10:55:33.000Z",
+          "title": "Terremotos en Venezuela exponen fragilidad de infraestructura; sin servicios básicos ni equipos de emergencia",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbE1udndBeGJYaUdQQ190ZDBGSHAxc081RXh0em53QnB1RkZqMlVlQm1hNXRqX0dLM1NLLUJRdmpwd19kT3djS01iR3AxbHNFY3ZmZTd6SHpjMHBHeEloSDVIcmpPWjhCU0E1eWlDWEZEdWU4OE9hTU1EQ2NjUVQ2MnJQOFhnLWdKTDdqNkc4TW03YVJvVmxRdlRrdVlJUkZVUUg4SDZVTVJNaTJiaDktakNLZXRUR1AyNTdxQmtYT18zb0ZsTUFNLWUtRXhFenJiWi12Umc5bkp5cmNRbURr?oc=5",
+          "pubDate": "2026-06-27T08:06:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Topos Tlatelolco alistan brigada de 12 rescatistas para Venezuela",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWFJKcnotRVpiUDRabFpnMXhEZ19CNVRaMVNfdmdCTnJXNzk1TlRBdkhna0E5V0lvM2IwSzBqdndTaktCOWFGbFJiMC1nN2wxRmFhS3JLckliXzlRRU53eWZfZW16OC1GV3NTZHlfXzNuOVlpeXpzZkRIU1JFV1hxWjNWS3AyamdJbm8zbnZnb1FlSks5Y1dMYm43R2dOcC1Jc2p5VUpQQ09tem5xUUp3cE1hQVVDaDZZcVlHNFVITUhJa29fSDY5Tmd4U0l6UjlxbV9Jcko2M0JpWXlrSUtyMVpJb9IB9wFBVV95cUxNb1FhdHpJdU52dEhxT3BSckllaDd2WTNrTmRJUHhlLThwS0hGRzVWOGJvREtqTDg1SGhRd3R0eTN2MHFVRHFCUlZhbzM0NndwQkttWHh1NWZYZUtOT1NndGlDOXVrTFVKQ0NDdm4yVG5rSmFRTTIzU3YxaDVLZnduREZ5ZFVtM2Y3dldUeUIxUER0NFl2TUg5X0FEUk96WDZpNkg4QjZsMlVLaFdoZ1NFdXdia0FBUTZTVm5qNHlGbVFSZlZ2Tlkyd3NxLThkWF9FZXM3S3VQQXByQnotQjVaZmhiZFVqSWY2YVJ6NkZBY0VxbEdNWnBZ?oc=5",
+          "pubDate": "2026-06-27T00:52:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Más policías ahora podrán aplicar multas de tránsito: lo que debes saber",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMUNUQkxPNFEtbFJGRDA1a0w1T1dUQnp5dDNvdGJ3QkpLTWFHaE9sNGZacnkzUnMyc3FETGJxVDBQRk1JNFV3RXMwcG1yR3lZbmtjeExtckhWNEZKZ2E0YUMwZFJBOFF4eWJLai1kN3NhRnJoUnVSRzF4eHVIZk5RdmJfZ21uX1NzZ0RfQTE3cXctM2VkaHN4ell1NFV5bkJqWEFHRi01bjQ2QjRxREIydXY3SHJYLVhtWlRSSldCTGlCaTJWVWJ4WdIByAFBVV95cUxOMUNUQkxPNFEtbFJGRDA1a0w1T1dUQnp5dDNvdGJ3QkpLTWFHaE9sNGZacnkzUnMyc3FETGJxVDBQRk1JNFV3RXMwcG1yR3lZbmtjeExtckhWNEZKZ2E0YUMwZFJBOFF4eWJLai1kN3NhRnJoUnVSRzF4eHVIZk5RdmJfZ21uX1NzZ0RfQTE3cXctM2VkaHN4ell1NFV5bkJqWEFHRi01bjQ2QjRxREIydXY3SHJYLVhtWlRSSldCTGlCaTJWVWJ4WQ?oc=5",
+          "pubDate": "2026-06-26T23:13:31.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Se registran cinco aspirantes a encuesta por gubernatura de Morena en Quintana Roo; estos son los apuntados",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZ0VwT2M5QXpkc2lNeUJLM3d0N2ktSnNDQmNPcHdSSWN3ZmFCbWczYnVWcHR1RFBzNmluVW9VT3d0Z2tCeUJ3LUdqTzdmZWdwVllKdEtRMUhoR2R3X29KdE84MWh5WTBMVjZScUxRVUhNVUZIbUZWOXJZV3hVMHhnUlpuVGhYSG9OcjQzU0NHYmF4TjhxcFNfNFVwMXIyNXRGRmZIem5la2EyS2hacGU5NXpMSWhaT0lLSVgxai1fVEdsRTdaT0E1OHRBb3lURnRpWlZjMkRhMTZCeFdxY3fSAfIBQVVfeXFMT2Z0aHN2Y3U1eFRTeHJGXzFDQ3pOZEJSeVJFVHZGNDJrVHJBZ3JSTk9Id2RhNk9WUGtFeDZCbjU3X1FhUmt6QUxGejBJaTRWN1c3dkNlZ2Z1aHMta3QyY0VZbFhqSkhIa2FWSExsbFl3TDFBNVlzczNPbno2Y3lBbk9OQ1RHR0FNMHBnT3pLd1dyN0xIQXh1bnVtaDJCdWlfY0lPNXFHeUR0a2xCMFc2X2g0dUw0TG40a01mQjY1ZFFjWUJhMkdZVTdYSTBfZXRYNlJIZ1prYjZ2MVBWMUhhOVBtb2tTRHFZRllMZWFCZjJxelE?oc=5",
+          "pubDate": "2026-06-26T22:29:57.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
       ]
     },
     {
-      "name": "El Universal (México)",
-      "color": "peach",
-      "items": []
-    },
-    {
       "name": "Diario Las Américas",
       "color": "blue",
-      "items": []
+      "items": [
+        {
+          "title": "25 equipos de rescatistas de 17 países están desplegados en Venezuela tras terremotos",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWV95dHNaUHdMVlFEOEx1bGhURGgxb29WLUh2cGZlX2llNWRhTXZYczlGNWxyUTFHYV9GYjRBcmtrQl9NTGxYMmZjdkJteWVydzNObHRLV1UzcUJIbndka3Nrb3pmM0k5bWMyVTZsR0haVzA5ZzQ5NWhDX1l2d1BJQS1kR0pRZDRHZG1YUUhzLW9PSkFGMG5GVTZMNEk5UlB2a3FVZmhJVTJ6QU1ySDNHVGNUR0tlZVAxdkgyZnBRQk5iUEFaTEd2RtIBzgFBVV95cUxOT2NzWG8xOVZBeUNzclBTeHc5czdKbHFJVUV6N2R1RXp0UFd6SzVTZW1SMFUwSjdwWUhlUXBPc2p1Y2NWS0UzZ3JkRUtuZ2VzSkZQdl95N3N6Y3F0dnNvalR1bmZsN3ZBbDRzMTZfRTFsNlZUUXpnVFp2Y3VsYndZSTRRUEZCTnlSUEpFdmZoamtVV3JrMTI3bHN1LV9aYTZjOW10VkthZXpDZzdvQW1YV21BNENJVDhMd1BHaE1TcWNqVTZGYVR0RFVFNkd5UQ?oc=5",
+          "pubDate": "2026-06-27T01:04:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        }
+      ]
     }
   ]
 }
