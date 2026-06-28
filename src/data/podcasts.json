@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T15:05:35.625Z",
+  "generatedAt": "2026-06-28T10:01:18.386Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -22,9 +22,9 @@
       "url": "https://podcasts.apple.com/co/podcast/estoicismo-filosofia/id1740616448"
     },
     {
-      "title": "Seminario Fenix | Brian Tracy",
-      "host": "matiasmartinez16",
-      "url": "https://podcasts.apple.com/co/podcast/seminario-fenix-brian-tracy/id1735157109"
+      "title": "VOS PODÉS",
+      "host": "Tatiana Franko",
+      "url": "https://podcasts.apple.com/co/podcast/vos-pod%C3%A9s/id1526103660"
     }
   ],
   "mundo": [
@@ -44,14 +44,14 @@
       "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
     },
     {
-      "title": "Pod Save America",
-      "host": "Pod Save America",
-      "url": "https://podcasts.apple.com/us/podcast/pod-save-america/id1192761536"
-    },
-    {
       "title": "Dateline NBC",
       "host": "NBC News",
       "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
+    },
+    {
+      "title": "Pod Save America",
+      "host": "Pod Save America",
+      "url": "https://podcasts.apple.com/us/podcast/pod-save-america/id1192761536"
     }
   ]
 }
