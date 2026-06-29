@@ -187,24 +187,29 @@ async function buildSection(outlets, windowHours = null, prevOutlets = []) {
     const limit = outlet.limit || 5;
     let items = windowHours !== null ? applyWindow(all, limit, windowHours) : all.slice(0, limit);
 
-    // Si no hay noticias en la ventana de 12h, ampliar a 24h antes de ir al día anterior
+    // Intento 2: ampliar a 24h
     if (items.length === 0 && windowHours !== null) {
       items = applyWindow(all, limit, windowHours * 2);
-      if (items.length > 0) {
-        console.log(`  - ${outlet.name}: sin noticias en 12h, usando ventana de 24h (${items.length})`);
-      }
+      if (items.length > 0)
+        console.log(`  - ${outlet.name}: sin noticias en 12h, usando 24h (${items.length})`);
     }
 
-    // Si sigue vacío, usar el día anterior como respaldo
+    // Intento 3: lo que sea que tenga el feed, sin filtro de fecha
+    if (items.length === 0 && all.length > 0) {
+      items = all.slice(0, limit);
+      console.log(`  - ${outlet.name}: sin noticias recientes, usando más recientes del feed (${items.length})`);
+    }
+
+    // Intento 4: JSON del día anterior como último recurso
     if (items.length === 0 && prevOutlets.length > 0) {
       const prev = prevOutlets.find(o => o.name === outlet.name);
       if (prev?.items?.length > 0) {
         items = prev.items.slice(0, limit);
-        console.log(`  - ${outlet.name}: sin noticias nuevas, conservando día anterior (${items.length})`);
+        console.log(`  - ${outlet.name}: feed vacío, conservando día anterior (${items.length})`);
       } else {
-        console.log(`  - ${outlet.name}: sin noticias`);
+        console.log(`  - ${outlet.name}: sin noticias disponibles`);
       }
-    } else if (items.length > 0) {
+    } else if (items.length > 0 && !items[0]._fromFallback) {
       console.log(`  - ${outlet.name}: ${items.length} titular(es)`);
     }
 
