@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-06-29T18:22:05.999Z",
+  "generatedAt": "2026-06-29T20:38:23.737Z",
   "colombia": [
     {
       "city": "Bogotá",
-      "temp": 19,
-      "description": "Llovizna ligera",
-      "icon": "🌦️"
+      "temp": 20,
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     },
     {
       "city": "Medellín",
-      "temp": 29,
+      "temp": 27,
       "description": "Nublado",
       "icon": "☁️"
     },
     {
       "city": "Cali",
-      "temp": 29,
+      "temp": 28,
       "description": "Nublado",
       "icon": "☁️"
     },
     {
       "city": "Cartagena",
-      "temp": 36,
+      "temp": 34,
       "description": "Nublado",
       "icon": "☁️"
     },
     {
       "city": "Barranquilla",
-      "temp": 35,
+      "temp": 32,
       "description": "Nublado",
       "icon": "☁️"
     }
@@ -35,19 +35,19 @@
   "mundo": [
     {
       "city": "Nueva York",
-      "temp": 31,
-      "description": "Mayormente despejado",
-      "icon": "🌤️"
+      "temp": 30,
+      "description": "Despejado",
+      "icon": "☀️"
     },
     {
       "city": "Londres",
-      "temp": 24,
+      "temp": 22,
       "description": "Parcialmente nublado",
       "icon": "⛅"
     },
     {
       "city": "Madrid",
-      "temp": 33,
+      "temp": 30,
       "description": "Mayormente despejado",
       "icon": "🌤️"
     },
@@ -59,8 +59,8 @@
     },
     {
       "city": "Ciudad de México",
-      "temp": 22,
-      "description": "Tormenta",
+      "temp": 20,
+      "description": "Tormenta con granizo",
       "icon": "⛈️"
     }
   ]

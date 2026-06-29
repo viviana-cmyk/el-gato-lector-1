@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-06-29T18:22:05.999Z",
+  "generatedAt": "2026-06-29T20:38:23.737Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Las extradiciones de los Choneros a EE. UU. pondrán a prueba la estrategia de seguridad de Ecuador",
+          "link": "https://insightcrime.org/es/noticias/extradiciones-choneros-ee-uu-pondran-prueba-estrategia-ecuador-cabecillas-criminales/",
+          "pubDate": "2026-06-29T18:51:21.000Z",
+          "snippet": "Las extradiciones de los Choneros a EE. UU. pondrán a prueba la estrategia de seguridad de Ecuador Las extradiciones a Estados Unidos de miembros clave de los Choneros son una prueba de fuego para la estrategia de Ecuador de combatir a las organizaciones criminales mediante el de…"
+        },
+        {
+          "title": "José Adolfo Macías Villamar, alias ‘Fito’",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-ecuador/jose-adolfo-macias-villamar-alias-fito/",
+          "pubDate": "2026-06-29T18:50:27.000Z",
+          "snippet": "José Adolfo Macías Villamar, alias ‘Fito’ José Adolfo Macías Villamar, alias “Fito”, fue el cabecilla de los Choneros, uno de los grupos criminales más importantes de Ecuador. Se integró a la organización durante su ascenso, cuando […] The post José Adolfo Macías Villamar, alias…"
+        },
         {
           "title": "La próxima presidenta de Perú enfrentará extorsión, minería ilegal y un Congreso hostil",
           "link": "https://insightcrime.org/es/noticias/proxima-presidenta-peru-enfrentara-extorsion-mineria-ilegal-congreso-hostil/",
@@ -22,25 +34,44 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-bolivia/sebastian-marset/",
           "pubDate": "2026-06-25T15:09:47.000Z",
           "snippet": "Sebastián Marset Sebastián Marset, el autoproclamado “Rey del Sur”, es el delincuente más notorio de Uruguay y líder del Primer Cartel Uruguayo (PCU). Fue capturado el 13 de marzo de 2026 en Bolivia. The post Sebastián Marset appeared first on InSight Crime."
-        },
-        {
-          "title": "Yohan José Romero, alias ‘Johan Petrica’",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-venezuela/yohan-jose-romero-alias-johan-petrica/",
-          "pubDate": "2026-06-24T15:58:55.000Z",
-          "snippet": "Yohan José Romero, alias ‘Johan Petrica’ Yohan José Romero, alias “Johan Petrica”, es el líder del grupo criminal dedicado a la explotación minera en el sur de Venezuela, el Sindicato de Las Claritas, así como uno de los cofundadores y líderes originales del Tren de Aragua, una o…"
-        },
-        {
-          "title": "The InSight Take: Colombia gira a la derecha con Abelardo de la Espriella en medio de desafíos de seguridad",
-          "link": "https://insightcrime.org/es/noticias/the-insight-take-colombia-gira-derecha-abelardo-de-la-espriella-desafios-seguridad/",
-          "pubDate": "2026-06-24T15:16:41.000Z",
-          "snippet": "The InSight Take: Colombia gira a la derecha con Abelardo de la Espriella en medio de desafíos de seguridad El ganador de las elecciones presidenciales de Colombia, Abelardo de la Espriella, prometió poner fin a las negociaciones con las guerrillas y desplegar a las experimentada…"
         }
       ]
     },
     {
       "name": "International Crisis Group",
       "color": "teal",
-      "items": []
+      "items": [
+        {
+          "title": "Washington 5 June 2026 #2",
+          "link": "https://www.crisisgroup.org/content/washington-5-june-2026-2",
+          "pubDate": "2026-06-05T15:53:07.000Z",
+          "snippet": "Washington 5 June 2026 #2 lalasor Fri, 06/05/2026 - 17:53 Washington Fri, 06/05/2026 - 12:00 5 June 2026 The U.S. announced sanctions against \"a network of individuals, entities and vessels responsible for shipping hundreds of millions of dollars’ worth of Iranian-origin liquid p…"
+        },
+        {
+          "title": "Hormuz 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/hormuz-5-june-2026-1",
+          "pubDate": "2026-06-05T15:52:12.000Z",
+          "snippet": "Hormuz 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:52 Strait of Hormuz Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA…"
+        },
+        {
+          "title": "Tehran 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/tehran-5-june-2026-1",
+          "pubDate": "2026-06-05T15:50:10.000Z",
+          "snippet": "Tehran 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:50 Tehran Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA located in…"
+        },
+        {
+          "title": "Washington 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/washington-5-june-2026-1",
+          "pubDate": "2026-06-05T15:49:23.000Z",
+          "snippet": "Washington 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:49 Washington Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA lo…"
+        },
+        {
+          "title": "Lebanon 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/lebanon-5-june-2026-1",
+          "pubDate": "2026-06-05T15:47:48.000Z",
+          "snippet": "Lebanon 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:47 Lebanon Fri, 06/05/2026 - 12:00 5 June 2026 Hizbollah reported conducting approximately 20 attacks on Israeli troops in southern Lebanon, while the Israeli military tallied that over the previous week, “650-plus Hizbollah tar…"
+        }
+      ]
     },
     {
       "name": "World Economic Forum",
