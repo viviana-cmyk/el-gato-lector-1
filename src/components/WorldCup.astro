@@ -3,12 +3,14 @@ import worldcup from "../data/worldcup.json";
 import { flagEmoji } from "../lib/flags";
 
 const SHORT: Record<string, string> = {
-  "Corea del Sur":  "Corea Sur",
-  "Costa de Marfil":"C. Marfil",
-  "Países Bajos":   "P. Bajos",
-  "Estados Unidos": "EE.UU.",
-  "Arabia Saudita": "Arabia S.",
-  "Nueva Zelanda":  "N. Zelanda",
+  "Corea del Sur":        "Corea Sur",
+  "Costa de Marfil":      "C. Marfil",
+  "Países Bajos":         "P. Bajos",
+  "Estados Unidos":       "EE.UU.",
+  "Arabia Saudita":       "Arabia S.",
+  "Nueva Zelanda":        "N. Zelanda",
+  "Bosnia y Herzegovina": "Bosnia",
+  "RD Congo":             "RD Congo",
 };
 function short(team: string) { return SHORT[team] ?? team; }
 
