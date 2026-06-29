@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:38:23.737Z",
+  "generatedAt": "2026-06-29T20:53:13.112Z",
   "outlets": [
     {
       "name": "CNN en Español",
@@ -34,9 +34,9 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Las decisiones de la Corte Suprema: voto por correo, depuraciones de votantes, Lisa Cook y E. Jean Carroll",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52UGhQUUxlS1N1THM4a0hwVkJickdBbmhSSWtVa2l5TGJOczJhVEtwcDB3aHE5WXl0cmdrOEZtX2xYdU9nd1FYUzlaRzlfajZDZlJUa25ITUdnamVuSW8zaUhiNk1Ja3BjSFk5M1RzbzhQZEZzSU83QmstMkxpTWM?oc=5",
-          "pubDate": "2026-06-29T14:34:00.000Z",
+          "title": "Comcast anuncia que separará a NBCUniversal para convertirla en una empresa independiente",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxON3BKNG5RY2t3NzQwMXB0SnNIVTZPcnhkQUI5X0FPYWlHeWhLUHAwLWxQRmRJYkNzbkNoejNVZDFwUTZQWWZfdUxlR2kxMHRfWFd4UjBiRHA4WFM0RG5MWkV2eHByRzNJZTN4TzdCQUhNUVhOVWxEZWNoUGhlTEVMRUcwTG93NkEwVVNPTUNn?oc=5",
+          "pubDate": "2026-06-29T14:40:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -59,6 +59,13 @@
           "pubDate": "2026-06-29T14:23:20.000Z",
           "snippet": null,
           "_priority": "ALTA"
+        },
+        {
+          "title": "¿Cómo están los cruces? Consulte los rivales probables de cada selección hasta la final",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZVFmM09pN0h6V1lZaUNkU3o1SGlxcUZDejNiaTlHZXRqZlBzS2l5Q212ckJZaWNoU2pMT0o4bUVDWFZDMlVpS2tidEVkNzJKLXRZemRBTXBBSWFadkVLN293TUdEdjhGcGNMakdUYk5BOWJZTXdZVmhjWFhCbWx0QUhYdFBObEVuUm1rUHBVckpPaDh4c0U2Z0lDYWFvcFozUVlaU0hCV1RBS1czUWFlR2h5OTdDZVlCdU1CLWdwMzVfZTVOaG10WlMyeW5seVRESy1EX012RTA2YVBQ?oc=5",
+          "pubDate": "2026-06-29T14:50:10.000Z",
+          "snippet": null,
+          "_priority": "DEPORTES"
         }
       ]
     },
@@ -67,38 +74,38 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Trump afirma que Irán ha acordado celebrar conversaciones de paz en Doha después de enfrentamientos recientes",
-          "link": "https://www.theguardian.com/world/2026/jun/29/trump-iran-peace-talks-doha",
-          "pubDate": "2026-06-29T18:36:24.000Z",
-          "snippet": "El presidente estadounidense publica que la reunión tendrá lugar el martes en la capital de Qatar después de un intercambio de fuego en el Estrecho de Ormuz Irán está compitiendo celosamente con Omán como tomador de decisiones sobre el Estrecho de Ormuz Donald Trump ha afirmado que Irán ha acordado celebrar conversaciones en Doha después de que Estados Unidos…",
+          "title": "Fuerte réplica aterroriza a los venezolanos días después de devastadores terremotos gemelos",
+          "link": "https://www.theguardian.com/world/2026/jun/29/strong-aftershock-terrifies-venezuelans-days-after-devastating-twin-quakes",
+          "pubDate": "2026-06-29T17:37:01.000Z",
+          "snippet": "Caracas y La Guaira afectadas por temblor de magnitud 4.6 mientras el número de muertes supera 1.700 y crece la crisis humanitaria Una fuerte réplica ha sacudido el norte de Venezuela, enviando a residentes aterrorizados a las calles cinco días después de los terremotos gemelos que mataron a 1.719 personas...",
           "_priority": "ALTA"
         },
         {
-          "title": "La UE establece tres meses de conversaciones con China sobre el déficit comercial de €360 mil millones",
-          "link": "https://www.theguardian.com/world/2026/jun/29/eu-sets-up-three-months-of-talks-with-china-over-360bn-trade-deficit",
-          "pubDate": "2026-06-29T18:33:51.000Z",
-          "snippet": "Ambas partes acuerdan intentar hacer que la relación bilateral sea 'más equilibrada' después de semanas de amenazas La UE y China han acordado entrar en tres meses de conversaciones para intentar evitar una guerra comercial sobre el desequilibrio anual de importaciones y exportaciones de €360 mil millones (£310 mil millones) del bloque. En su primera declaración conjunta en s…",
+          "title": "Jueces de la corte suprema liberal condenan sentencia 'desestabilizadora' que expande el poder de Trump para despedir reguladores – en vivo",
+          "link": "https://www.theguardian.com/us-news/live/2026/jun/29/supreme-court-donald-trump-administration-us-politics-latest-news-updates",
+          "pubDate": "2026-06-29T20:31:43.000Z",
+          "snippet": "En una dura disidencia, Sonia Sotomayor escribe 'la corte le da al presidente un poder desconocido incluso para la corona inglesa' Casos clave hoy: Trump puede despedir reguladores federales; el despido de Lisa Cook es inconstitucional; intento de apelar veredicto de $5 millones de E Jean Carroll; boletas por correo llegando después de...",
           "_priority": "ALTA"
         },
         {
-          "title": "Profesor titular de California despedido por protesta sobre Gaza recupera su empleo",
-          "link": "https://www.theguardian.com/us-news/2026/jun/29/california-professor-gaza-protest-reinstated",
-          "pubDate": "2026-06-29T19:09:14.000Z",
-          "snippet": "Un árbitro dictamina que el sistema de la Universidad Estatal de California violó la ley cuando despidió a Sang Hea Kil, quien ahora planea demandar a su universidad Una profesora titular que fue despedida el año pasado por su activismo pro-palestino ha recuperado su empleo y está demandando a su universidad por la terminación. El pasado noviembre…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Burnham presenta su visión para transformar Gran Bretaña y arreglar el sistema 'roto'",
-          "link": "https://www.theguardian.com/politics/2026/jun/29/burnham-sets-out-vision-to-transform-britain-and-fix-broken-system",
-          "pubDate": "2026-06-29T19:39:04.000Z",
-          "snippet": "El futuro primer ministro esperado se enfoca en restaurar la fe en la política, el costo de vida y la descentralización en un discurso importante ¿Cuál es el plan económico y político de Andy Burnham para Gran Bretaña? Andy Burnham ha presentado su plan para transformar el Reino Unido con una promesa de mejorar los estándares de vida…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "La Corte Suprema de Estados Unidos respalda ley para contar boletas por correo que llegan después del día de elecciones",
+          "title": "Corte suprema de EE.UU. confirma ley para contar boletas por correo que llegan después del día de elecciones",
           "link": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-mail-in-ballots-election-ruling",
           "pubDate": "2026-06-29T18:27:56.000Z",
-          "snippet": "La corte se pone del lado opuesto a los republicanos después de decidir anteriormente en este período permitir que Luisiana desmantelara efectivamente la Ley de Derechos de Voto Decisiones de la Corte Suprema de Estados Unidos – actualizaciones en vivo Regístrese para recibir el boletín Breaking News US por correo electrónico La Corte Suprema de Estados Unidos se puso del lado opuesto a los republicanos nacionales y Donald…",
+          "snippet": "La corte se opone a los republicanos después de decidir anteriormente este período permitir que Luisiana desmantelara efectivamente la Ley de Derechos de Voto Decisiones de la corte suprema de EE.UU. – actualizaciones en vivo Regístrese en el boletín de noticias Breaking News US La corte suprema de EE.UU. se opuso a los republicanos nacionales y Donald...",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "UE establece tres meses de conversaciones con China sobre déficit comercial de €360 mil millones",
+          "link": "https://www.theguardian.com/world/2026/jun/29/eu-sets-up-three-months-of-talks-with-china-over-360bn-trade-deficit",
+          "pubDate": "2026-06-29T18:33:51.000Z",
+          "snippet": "Ambos lados acuerdan intentar hacer la relación bilateral 'más equilibrada' después de semanas de amenazas La UE y China han acordado entrar en tres meses de conversaciones para intentar evitar una guerra comercial sobre el desequilibrio anual de importaciones/exportaciones de €360 mil millones (£310 mil millones) de la región. En su primer comunicado conjunto en...",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Burnham presenta visión para transformar Gran Bretaña y arreglar sistema 'roto'",
+          "link": "https://www.theguardian.com/politics/2026/jun/29/burnham-sets-out-vision-to-transform-britain-and-fix-broken-system",
+          "pubDate": "2026-06-29T19:39:04.000Z",
+          "snippet": "Esperado próximo primer ministro se enfoca en restaurar la fe en la política, costo de vida y devolución de poderes en un discurso importante ¿Cuál es el plan económico y político de Andy Burnham para Gran Bretaña? Andy Burnham ha presentado su plan para transformar el Reino Unido con una promesa de mejorar los estándares de vida...",
           "_priority": "ALTA"
         }
       ]
@@ -108,31 +115,31 @@
       "color": "mint",
       "items": [
         {
-          "title": "Los Esfuerzos para Rescatar a las Víctimas del Sismo Venezolano Se Vuelven Cada Vez Más Desesperados",
+          "title": "Los esfuerzos para rescatar víctimas del terremoto de Venezuela se vuelven más desesperados",
           "link": "https://www.nytimes.com/2026/06/29/world/americas/venezuela-earthquake-victims-rescue-deaths.html",
-          "pubDate": "2026-06-29T20:30:15.000Z",
-          "snippet": "El número de muertes ha subido a más de 1,700, lo que probablemente es un recuento subestimado.",
+          "pubDate": "2026-06-29T20:30:16.000Z",
+          "snippet": "El número de muertes ha aumentado a más de 1.700, que probablemente sea un conteo insuficiente.",
           "_priority": "ALTA"
         },
         {
-          "title": "Francia Registró 1,000 Muertes Excedentes Durante la Onda de Calor, Dicen las Autoridades",
+          "title": "La escala del número de muertes de los terremotos de Venezuela podría tardar semanas en emerger",
+          "link": "https://www.nytimes.com/2026/06/29/world/americas/venezuela-earthquake-death-toll.html",
+          "pubDate": "2026-06-29T18:33:57.000Z",
+          "snippet": "Los expertos señalaron varias indicaciones de que los terremotos gemelos fueron particularmente letales, incluido el número de personas reportadas como desaparecidas y la extensión del daño de edificios.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Francia registró 1.000 muertes excesivas durante ola de calor, dicen autoridades",
           "link": "https://www.nytimes.com/2026/06/29/world/europe/france-heat-wave-excess-deaths.html",
           "pubDate": "2026-06-29T20:06:46.000Z",
-          "snippet": "Las primeras estimaciones publicadas por la agencia nacional de salud listaron cientos más muertes por día en comparación con la tasa de mortalidad diaria en meses anteriores.",
+          "snippet": "Las primeras estimaciones publicadas por la agencia nacional de salud listaron cientos de muertes más por día en comparación con la tasa de mortalidad diaria en meses anteriores.",
           "_priority": "ALTA"
         },
         {
-          "title": "Actualizaciones en Vivo de Oriente Medio: Estados Unidos e Irán Listos para Nuevas Conversaciones en Qatar, Dice Trump",
-          "link": "https://www.nytimes.com/live/2026/06/29/world/hormuz-us-iran-strikes",
-          "pubDate": "2026-06-29T20:33:19.000Z",
-          "snippet": "El presidente Trump dijo que las conversaciones tendrían lugar el martes, después de que Estados Unidos e Irán intercambiaran ataques durante el fin de semana. Irán no confirmó las conversaciones pero dijo que las consultas con Qatar estaban continuando.",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Hagas lo que Hagas en Rusia, No Hables Sobre la Guerra",
-          "link": "https://www.nytimes.com/2026/06/29/world/europe/russia-ukraine-rhetoric.html",
-          "pubDate": "2026-06-29T20:02:14.000Z",
-          "snippet": "A medida que Ucrania trae la guerra a casa en Rusia, los funcionarios dudan en designar refugios y activar sirenas de alerta, minimizando las consecuencias del conflicto con eufemismos.",
+          "title": "6 muertos en tiroteo en el norte de Alemania después de disputa familiar, dice la policía",
+          "link": "https://www.nytimes.com/2026/06/29/world/europe/germany-shooting-stade.html",
+          "pubDate": "2026-06-29T19:40:38.000Z",
+          "snippet": "Las autoridades dijeron que un hombre de 45 años abrió fuego en una instalación juvenil después de una disputa sobre la custodia de su hija bebé. Los muertos eran todos empleados de la instalación.",
           "_priority": "ALTA"
         }
       ]
@@ -142,23 +149,23 @@
       "color": "green",
       "items": [
         {
-          "title": "La Corte Suprema expande el poder de Trump sobre la burocracia federal",
+          "title": "Corte suprema expande el poder de Trump sobre la burocracia federal",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZnYtQlF3d3VfR2xkV29CdGFUWUxpUEY5Ml9Ld3V1Z0pveHFDTkJkTE1oUEc1U0E4a3VrS1pLRFBsZlFiQzhkd2p1UHhrSnF3S3M4cmJXZHNtbDVDWjhMY1NpUGdfN0VHUVNEQ3N3U0trZ0VyeHk2ODVTR1ZuZXBzd3ZuYks3ZnY1Ym9IZEZaaXNNa0VjOUlYM0ZCVnNabklCS1N3OGZ5Z3RKZmRQd0c1SQ?oc=5",
-          "pubDate": "2026-06-29T19:15:51.000Z",
+          "pubDate": "2026-06-29T20:45:51.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Proyecto de ley de vivienda que Trump se niega a firmar se dirige a su escritorio",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWVR5U0plUWdLSnlIVXN4eDRhamFvbHU5YVN0eVptWU5BU3RaQjA5RlFHTmJvWlpaLWJUZHR0WkxwQVVHVldVSlNNWmxKMldqdTZKZlB6R0VvNldKdnNxYVA3OXF5UFYyc0g5dHh5LWs5WkpVdTBzLXItbklVOGlLNGRPQldGa2FpOFJEb1Y3TkNtVmo1TUNaOXR6cnBNQlZhWTU1blR1ZGZhOVhpZjRHWDRnOA?oc=5",
-          "pubDate": "2026-06-29T19:46:33.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "¿ChatGPT y otros chatbots de IA tienen sesgo político? Los pusimos a prueba.",
+          "title": "¿Están ChatGPT y otros chatbots de IA sesgados políticamente? Los probamos.",
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcjNMZk5ZYVBRRHlTbDJrZl85THhCTHJvczVHMzlPcnpUdndRdkV1NGZoNFdvMzNBLVdZaHZpS0tEY1dfWFBYTWtKUXpnQzhFa09vMXBHYmNuOEV3TmJuRWVXeTFvQW1adlNBRDg2R0NBUEhQLXlwdWZHVHNLRUVXYjdRUk9FTjFXSDRGenUyZkZxMkdZelk4OWF5VGI4S2Q4U3lyQUpEWEROTFJLUlM3alNwaEQtV1FveVU4bjV1dW1SM3ZvenFZ?oc=5",
           "pubDate": "2026-06-29T20:08:36.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Proyecto de ley de vivienda que Trump se rehúsa a firmar se dirige a su escritorio",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWVR5U0plUWdLSnlIVXN4eDRhamFvbHU5YVN0eVptWU5BU3RaQjA5RlFHTmJvWlpaLWJUZHR0WkxwQVVHVldVSlNNWmxKMldqdTZKZlB6R0VvNldKdnNxYVA3OXF5UFYyc0g5dHh5LWs5WkpVdTBzLXItbklVOGlLNGRPQldGa2FpOFJEb1Y3TkNtVmo1TUNaOXR6cnBNQlZhWTU1blR1ZGZhOVhpZjRHWDRnOA?oc=5",
+          "pubDate": "2026-06-29T19:46:33.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -197,6 +204,13 @@
           "title": "Comcast decide separarse de NBCUniversal y Sky",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQkJCdnF6WE5xZzloS21MQVRtcUwzRkZaekVxRy14dERCSTZYZXdHU1N3SW9ELXVzNC1Rb2lMdkNzMmYxX2pwNkxIV21KcmxWRV81aFUyR1NuSkRUZ1piZFM5SVFXNTZtM2JleHh6UGRHclBZQVpRREh4alFIcm5WNnRaUEdWNzl5ZVNXN21kMUE5X3NjZ3fSAZsBQVVfeXFMTVhacElKU3BNY2p0SXhpZktFdmFTa2ZFQnVXd1U0UUlpR3JLLVJqbDlRd3p1b2gyVFk3anhveGo4YjlLRzdMbW1tVlRPUFRVYVE4ZmRwNG1QZWc2d1NYYk96R2g0anNHbFZhOV9OUDFvWC1hYmdnQWNGZXhmQWpHc2hCQzdoR2hmenhLSWFZUHgwdy05bXNjV1o3WGM?oc=5",
           "pubDate": "2026-06-29T15:38:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Miami-Dade envía rescatistas mejor calificados a Venezuela para búsqueda de sobrevivientes",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc01EUWJBMWJzWG92R3RwZTFKOXJDZGVFLTRwa3FsazMySEFXNWNlbjEwaGxlX1BLV21tcVhvQWlRMGZZbDNxbEZWcUdyUUJxNWx1dlVGY1JOWmRRV0JnZmNrSHBKQkc3RTZTY1pzOUYteVBYemJuS0dDWUxSUWNyYWpsRFZmTGJkdlJISnRDcVA2czA2Vk5ncUMtWmpfSy05YW5zNnM0SFF2YWpiVW1RcXFlV090ZnpUbERXUzBja2I2Vndh0gHKAUFVX3lxTE5SRS1xRFB5dWl6TFVBbE03MEZzNmVmbFBxY29pWlVudmRsZTVxdE93Tkw0V0xpNFdMdG9YaHY1SDNjaHhqbHFoQmktSC0ySnViUmY5Unc0NnRDeFJ5QnFmUnE0c1NiWVRHRGlueHFiMHJwYzRPY1lHdXFRdWJveVo4YjRNR2tMSFF5bkM5akg3RVpzUklvekU1eHdPdE03Y3BGeERMRzJVbkhMNVB2Wm1WU0lKTDVIdUNHWHdtRE9KTXZIaWJsR28zbXc?oc=5",
+          "pubDate": "2026-06-29T10:46:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-29T20:38:23.737Z",
+  "generatedAt": "2026-06-29T20:53:13.112Z",
   "colombia": [
     {
       "city": "Bogotá",
-      "temp": 20,
-      "description": "Parcialmente nublado",
-      "icon": "⛅"
+      "temp": 19,
+      "description": "Nublado",
+      "icon": "☁️"
     },
     {
       "city": "Medellín",
@@ -27,7 +27,7 @@
     },
     {
       "city": "Barranquilla",
-      "temp": 32,
+      "temp": 31,
       "description": "Nublado",
       "icon": "☁️"
     }
@@ -42,8 +42,8 @@
     {
       "city": "Londres",
       "temp": 22,
-      "description": "Parcialmente nublado",
-      "icon": "⛅"
+      "description": "Mayormente despejado",
+      "icon": "🌤️"
     },
     {
       "city": "Madrid",
@@ -59,7 +59,7 @@
     },
     {
       "city": "Ciudad de México",
-      "temp": 20,
+      "temp": 18,
       "description": "Tormenta con granizo",
       "icon": "⛈️"
     }

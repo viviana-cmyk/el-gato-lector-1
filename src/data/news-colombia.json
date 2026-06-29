@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:38:23.737Z",
+  "generatedAt": "2026-06-29T20:53:13.112Z",
   "outlets": [
     {
       "name": "Semana",
@@ -13,23 +13,16 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Alcalde Char arremete contra Petro: “El legado que le deja al país y a Barranquilla es más inseguridad”",
-          "link": "https://www.semana.com/nacion/barranquilla/articulo/alcalde-char-arremete-contra-petro-el-legado-que-le-deja-al-pais-y-a-barranquilla-es-mas-inseguridad/202605/",
-          "pubDate": "2026-06-29T20:00:05.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Operación militar en Cauca deja cuatro disidentes de Mordisco muertos, entre ellos alias Ñeque",
-          "link": "https://www.semana.com/nacion/cali/articulo/operacion-militar-en-cauca-deja-a-cuatro-disidentes-de-mordisco-muertos-entre-ellos-alias-neque/202632/",
-          "pubDate": "2026-06-29T18:22:32.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
           "title": "544 aspirantes iniciaron su preparación como futuros patrulleros de la Policía en Barranquilla",
           "link": "https://www.semana.com/nacion/barranquilla/articulo/544-aspirantes-iniciaron-su-preparacion-como-futuros-patrulleros-de-la-policia-en-barranquilla/202631/",
           "pubDate": "2026-06-29T20:10:31.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Alcalde Char arremete contra Petro: “El legado que le deja al país y a Barranquilla es más inseguridad”",
+          "link": "https://www.semana.com/nacion/barranquilla/articulo/alcalde-char-arremete-contra-petro-el-legado-que-le-deja-al-pais-y-a-barranquilla-es-mas-inseguridad/202605/",
+          "pubDate": "2026-06-29T20:00:05.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -39,6 +32,13 @@
           "pubDate": "2026-06-29T20:07:51.000Z",
           "snippet": null,
           "_priority": "ALTA"
+        },
+        {
+          "title": "🔴 EN VIVO | Plan retorno en Bogotá hoy, lunes 29 de junio | Reportan cierres en el sector Uval de la Vía al Llano",
+          "link": "https://www.semana.com/vehiculos/articulo/en-vivo-plan-retorno-en-bogota-hoy-lunes-29-de-junio-siga-en-directo-el-estado-del-trafico-vias-y-estado-de-la-movilidad/202646/",
+          "pubDate": "2026-06-29T19:11:36.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -46,6 +46,13 @@
       "name": "El Espectador",
       "color": "peach",
       "items": [
+        {
+          "title": "Prensa, poder y violencia en Cúcuta",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUWZGLUVPdVhCdE1SS3R0UWN4TE9SbEplX2FablBxajNPSGdNQXhpZUw3cmVrVTFQWkt6V1o0UkZ5VlU2REtXTmxrVDJOZ0hSU0l1TXQ1UXdlemV6NWVpdk1HNllMdWpuWVdKMXFwSmF2YjJUTTJjbDNiZ2JIRFkxc1JvWkNTUW40a0s3bDhkUENWUHlJYldQZHFGOXB3OEtMUmwyc1dRcWRCa2xIQVHSAcIBQVVfeXFMT0lqcTl0RjMzQkVzOUxvWF8tdXJJNFFGZnMzVFowbi1FeEdGc2hPUVNpaXRCRjdQM050S285NEI2N1kycGVSSHltT3hSYmg3ZnBJdVVFWnU2dkdIVFlxMElxODYyeExNUHVuTk5PcFVGSmxZWldjMkZ1UjNJY0VEOUZUVGdXdkZBV19ST29RMWY1S0d3TjZOZURLdV9odkl6WFgwdy1fM0YzVXBaMFhfSmZiM2pyamVOT3BCa2NTV0U5SGc?oc=5",
+          "pubDate": "2026-06-29T20:15:16.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
         {
           "title": "Maicao en alerta por expansión de Autodefensas Conquistadoras y guerra con ELN y disidencias",
           "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNbW1iNkZOV1VNVEpoTHZCc0hEOUJkR3FUeXhRVjlCSXR0U3lxWFpJbVg5akdBMmg5QURMRTZZOWxlQjVsN0ZPVlVQa1BWOHRzdVgtaEhRMWY3RXFyelN6dUtiZG0tWGVndzdNakVwVFZ4ZDJoOUY5M0Y2M2hMQjhjUG56STJjeFRDU1N6RGNQaFlaa2tyNWFyUVdFQ0ZPZ1RTMlN4TGRSQVVibkhYckRLQUdtRXNncV94ekdSaGw5SVFfblZoQ0p2dHREUVlpNkZSTEdBSjhoUU1vNlg1MzVFVHQwMk9XMXVQZW15TkswQTRPSVQzX0pVV0NRTk43d1kxMml1XzF1SEJGZVdQd1NGbWRrT3NISVVTakZfMHdn0gGeAkFVX3lxTE1tbWI2Rk5XVU1USmhMdkJzSEQ5QmRHcVR5eFFWOUJJdHRTeXFYWkltWDlqR0EyaDlBRExFNlk5bGVCNWw3Rk9WVVBrUFY4dHN1WC1oSFExZjdFcXJ6U3p1S2JkbS1YZWd3N01qRXBUVnhkMmg5RjkzRjYzaExCOGNQbnpJMmN4VENTU3pEY1BoWVpra3I1YXJRV0VDRk9nVFMyU3hMZFJBVWJuSFhyREtBR21Fc2dxX3h6R1JobDlJUV9uVmhDSnZ0dERRWWk2RlJMR0FKOGhRTW82WDUzNUVUdDAyT1cxdVBlbXlOSzBBNE9JVDNfSlVXQ1FOTjd3WTEyaXVfMXVIQkZlV1B3U0ZtZGtPc0hJVVNqRl8wd2c?oc=5",
@@ -61,9 +68,16 @@
           "_priority": "ALTA"
         },
         {
+          "title": "La Copa del Mundo siempre es mucho más que fútbol | Partidos del Mundial | Más allá del Deporte",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeE1ZTnJVQUs4WkdvckJlUW9WdHBaSG0yTUxDUXljSW9zbmZvdGJIMy1tY0owYklTbmpGS0xPRVFZRTJDTUV3aDVsV1NMWDRCdUx1aGxNSl9RVGNnbVBLNmtrOF9NbHNLa2UzNjlScS1PdUJyQktpQ1lRbUM1cjZmMG1sbFZYbEdRVFUtT3gwX0o3OUZCNWF6ZkVvb3JTWXlCc3hlZC1BSVRlLTItcHBGdllVanFjZXNzVnM3XzYwcVpPTzY3dEtzOEU3QVJTeGtSRjROb3NqZ2dJNWs?oc=5",
+          "pubDate": "2026-06-29T19:25:56.000Z",
+          "snippet": null,
+          "_priority": "DEPORTES"
+        },
+        {
           "title": "El Mundial 2026: la gran obra político-económica de Infantino",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWnc2LVVMa2VPdUFCaGNGdklVMzV0a2lpVW9mYmlub2xfZGFvY2ZyR2c5QU9XNW1Zb19ZcEVQQ1JkdW11eXFLOTJXRkJRa0l1SXJTZlNSRmVfbTBHQXRsd25zaTZ4TjlpSzc2NUpUNURLSVgwQ0o2WS0yQndIUWUwcm83Q1hHM3dBeS10U3VXbW5XRGlWWDJBR0dwV0ozdXRES1lJelNxNUVnREYzNU1mSUJ3?oc=5",
-          "pubDate": "2026-06-29T16:56:09.000Z",
+          "pubDate": "2026-06-29T17:43:08.000Z",
           "snippet": null,
           "_priority": "DEPORTES"
         }
@@ -88,13 +102,6 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Con $ 31.500 millones y entrega en 2027, Medellín pone la primera piedra del megacolegio Rafael Uribe Uribe en La América",
-          "link": "https://www.eltiempo.com/colombia/medellin/con-31-500-millones-y-entrega-en-2027-medellin-pone-la-primera-piedra-del-megacolegio-rafael-uribe-uribe-en-la-america-3567778",
-          "pubDate": "2026-06-29T16:15:10.000Z",
-          "snippet": "Es el cuarto de diez megacolegios que la Alcaldía proyecta construir en la ciudad durante el actual cuatrienio.",
-          "_priority": "ALTA"
-        },
-        {
           "title": "Preocupación en Barranquilla por violento asesinato en el Malecón del Río: sicarios accionaron 6 disparos para acabar con alias ‘El Negro Sosa’",
           "link": "https://www.eltiempo.com/colombia/barranquilla/preocupacion-en-barranquilla-por-violento-asesinato-en-el-malecon-del-rio-sicarios-accionaron-14-disparos-para-acabar-con-alias-el-negro-sosa-3567776",
           "pubDate": "2026-06-29T15:45:00.000Z",
@@ -102,10 +109,17 @@
           "_priority": "ALTA"
         },
         {
-          "title": "'Luciana Dangond y Gerónimo Ibarra aparecieron con vida en la isla de Barú', Abelardo de la Espriella",
+          "title": "Luciana Dangond y Gerónimo Ibarra aparecieron con vida en la isla de Barú; fueron rescatados por pescadores",
           "link": "https://www.eltiempo.com/colombia/otras-ciudades/luciana-dangond-y-geronimo-ibarra-aparecieron-con-vida-en-la-isla-de-baru-abelardo-de-la-espriella-3567785",
-          "pubDate": "2026-06-29T18:01:25.000Z",
+          "pubDate": "2026-06-29T20:40:00.000Z",
           "snippet": "Los dos jóvenes estaban desaparecidos desde ayer tras quedar a la deriva en aguas de Cartagena en una moto acuática.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Hallan sin vida a adolescente de 17 años que había desaparecido en playas de Salgar, Atlántico: el joven había venido de paseo desde Bogotá",
+          "link": "https://www.eltiempo.com/colombia/barranquilla/hallan-sin-vida-a-adolescente-de-17-anos-que-habia-desaparecido-en-playas-de-salgar-atlantico-el-joven-habia-venido-de-paseo-desde-bogota-3567795",
+          "pubDate": "2026-06-29T17:40:00.000Z",
+          "snippet": "El cuerpo de Samuel Cárdenas Roa fue encontrado en la tarde de ayer domingo, tras tres días de labores de búsqueda en el mar de Puerto Colombia.",
           "_priority": "ALTA"
         }
       ]
@@ -120,16 +134,16 @@
       "color": "cream",
       "items": [
         {
-          "title": "Terremoto en Venezuela: durísima réplica de magnitud 5.1 sacude al país este lunes",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMVo4STFqV1IyVDItdGh0enN6b3c1d3dJYXB5Y3otU24tbE1SU0V4X2lzVFg0RWZjYi1sVHRSZGMyY1diRlFhcG84TDRZWUpWQmpGWG90MEVQamd4cVFlOWFSdndhZVVvczBySXhNazg3LTJKUmxnMXF1R0ZQWS1FOGRYVDN6LTNXbXpSRERKRWNqSjZDZkZEbktGTTBVTHB0WjNLRHBUMkNlOVZWTklpdkw4ZDA2OVNZdVdEcFhB0gHLAUFVX3lxTFBmWlN6YnhZTTdhcXBhLWJkN0lxdFVlamdENGlpMzk0VTdDbmJrSEpYOURGNE1iVUo5SmRLRm9YcTYxb3dvdDQyVGo4SWJFN0VJaTA4ZTRDTmxpOHVETmtNTEtMdTkySVpuR1R4cjlJbUFPMVVVOUdMUklxTVdDVm5USlVUbXlWRzJRY1Y4U00zVEN1Z3VydHBfWFpJWHdwcld3RU44X0hQdFpMNEJHVHN1ZjJ6bjkxSF81SmxIX0g0M2V6bUZXZDVOeFBF?oc=5",
-          "pubDate": "2026-06-29T11:24:01.000Z",
+          "title": "Ayuda humanitaria para Venezuela: contaminación cruzada, el riesgo en las donaciones",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZUgwZ2tESHB3aUFpN0M1SERtN2FEVllqcUJDVTNpZ2hkYjlwVnVMd1Nhc0hpaHBRbmlvRlNuMlgyb3VIcDhDLTBSYUxBR2YzZnN4NzVHckJ3dTZ5NTBRLWQwUVZ4U0QwdWpYcTNGSE1uNUdGdWMzWEJ0UjJwUFpkM2hYWGhOOTJ3YktMd255dl9wRW9WN3pIS1NJak1pSlhRT1VMUjhjR2pWLXprWmdMWFl1QjlzUnVlNVHSAccBQVVfeXFMTUY1dE1hOC1QMEZLQndwN2IzVndWQS1ISW9yazQxbzBLWXlOcXJxVW85SWlLUm5fdW9oM3IxcGlObFhwTlE2enNBVXR6LUgyM184NzNtN3lVaEZiS2Z5N2hoNV9qRThxUzhoODY3QlhheGhoSFpCQmJZaGFTMEJCcV9Bel9uSFdrcTIxQlU2RkRfNTF5TGhKVVBGUGlSNENDMHdIZHdPckFTYmpoaTJwUFUwc3M1SmFtN014YlRWUkZHSW1YNkZRSQ?oc=5",
+          "pubDate": "2026-06-29T14:18:36.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Ayuda humanitaria para Venezuela: contaminación cruzada, el riesgo en las donaciones",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZUgwZ2tESHB3aUFpN0M1SERtN2FEVllqcUJDVTNpZ2hkYjlwVnVMd1Nhc0hpaHBRbmlvRlNuMlgyb3VIcDhDLTBSYUxBR2YzZnN4NzVHckJ3dTZ5NTBRLWQwUVZ4U0QwdWpYcTNGSE1uNUdGdWMzWEJ0UjJwUFpkM2hYWGhOOTJ3YktMd255dl9wRW9WN3pIS1NJak1pSlhRT1VMUjhjR2pWLXprWmdMWFl1QjlzUnVlNVHSAccBQVVfeXFMTUY1dE1hOC1QMEZLQndwN2IzVndWQS1ISW9yazQxbzBLWXlOcXJxVW85SWlLUm5fdW9oM3IxcGlObFhwTlE2enNBVXR6LUgyM184NzNtN3lVaEZiS2Z5N2hoNV9qRThxUzhoODY3QlhheGhoSFpCQmJZaGFTMEJCcV9Bel9uSFdrcTIxQlU2RkRfNTF5TGhKVVBGUGlSNENDMHdIZHdPckFTYmpoaTJwUFUwc3M1SmFtN014YlRWUkZHSW1YNkZRSQ?oc=5",
-          "pubDate": "2026-06-29T14:18:36.000Z",
+          "title": "Terremoto en Venezuela: durísima réplica de magnitud 5.1 sacude al país este lunes",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMVo4STFqV1IyVDItdGh0enN6b3c1d3dJYXB5Y3otU24tbE1SU0V4X2lzVFg0RWZjYi1sVHRSZGMyY1diRlFhcG84TDRZWUpWQmpGWG90MEVQamd4cVFlOWFSdndhZVVvczBySXhNazg3LTJKUmxnMXF1R0ZQWS1FOGRYVDN6LTNXbXpSRERKRWNqSjZDZkZEbktGTTBVTHB0WjNLRHBUMkNlOVZWTklpdkw4ZDA2OVNZdVdEcFhB0gHLAUFVX3lxTFBmWlN6YnhZTTdhcXBhLWJkN0lxdFVlamdENGlpMzk0VTdDbmJrSEpYOURGNE1iVUo5SmRLRm9YcTYxb3dvdDQyVGo4SWJFN0VJaTA4ZTRDTmxpOHVETmtNTEtMdTkySVpuR1R4cjlJbUFPMVVVOUdMUklxTVdDVm5USlVUbXlWRzJRY1Y4U00zVEN1Z3VydHBfWFpJWHdwcld3RU44X0hQdFpMNEJHVHN1ZjJ6bjkxSF81SmxIX0g0M2V6bUZXZDVOeFBF?oc=5",
+          "pubDate": "2026-06-29T11:24:01.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -140,16 +154,23 @@
       "color": "mint",
       "items": [
         {
-          "title": "Presidente salvadoreño Bukele inscribe precandidatura para tercer mandato, según partido",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNlowVnNKOEdKN1U3RzFzdGZrWExOY3RyUU1ocnhKcGI3LXl2bEZXZmFfaFZYVVg4aUxQb2JjSG5yZ0xnclg0VXpxeG82VFlQZjY0dWw5UTN2UlVBaWlHYkw2VlZES0c0aW15YkRKd1hpT1NEQTMzdnlCSEdwWFRROU9TNndsY2RsckVIZWxQdmtXR1FpZTVnbWFjQXd5Ujl2b1B3UzJGS0FkSVYwUmFwZkpRQkl0MXBkUlNGeDZMRdIB0wFBVV95cUxQLXlsUl9NamZjZm9CM3NWbHFtZTRkazE0elVkamNRX0hWM2dXZHNxNWdFOFZkeWd2MGQ1UW90MVhiWENHTnQ5SEdqVVRFSEFuQ05PT2g4NlR3RnA5ZDVYUDNlOExFdEJjTXprNHZHTkZxUzdpWEVQTVAwNWxtaVBoNU1EQlRhMEI3elppd1RkSXktMmVVdnZ6aFltWEhHZWdaWElfWjJhbGMxYmVVNk5jT0tRTXNzNkwzYnRTZFdfd2RERWZkQWdVS1hrYnlqNndNM3lz?oc=5",
-          "pubDate": "2026-06-29T17:20:31.000Z",
+          "title": "Keiko Fujimori es elegida presidenta de Perú",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdkNCQ0UzbmlkREx0dDNpUG01SC1Sczh4bm1nSnJvWWNmbUE2RFJJWlZ0eGl0U01US3R4QWlHcVJBcGlIb3VKOGNMX3E3d1VCWE1uX21DaFpwUDFXbGk5b2pFV0xsSnk4c25mM0R3SmR6RFpTMl9Wa2lwRUxGSmtUV1pLbzlaUdIBmgFBVV95cUxPN1J2aU5RRmFmemotNE14bXF6bUtWNjd4MDJncEtETnFoNzFNYm1YZHV0anp2R0RYVm9NaFF0MWFRbk1WMWh0Q3R5T0o4X1NzZjUzazFGMFp1YmxtTmJJQks5R1JhN25yakl4WTBhbHZwVUF3LW16ckxTZGFYQkRnemU2cUwxbUh6cnZGdlZ3TFNFX2RYSGs1cTln?oc=5",
+          "pubDate": "2026-06-29T20:45:04.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "En operación militar en el Cauca cayó alias ‘Ñeque’, hombre de confianza del abatido ‘Marlon’",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeVR0ZGxJUnU2eW1mYWFyVC1pTFlWYlhhMVJUN0lwaTJkUjVmdnNmN1E3UUpwcWVOc1VOM2ctbnBndFRad21ZY3M0LVlKd2tZQXBraHF6T2pXd281aUVlMzlDZmNvVWIxNFpESDBmbjBDMUpZeEs2TFJRRkdyM1JuOWhiU1RfWmtTb0Q3QWV6NHpHZi1NcS1xalJLMXdlczBVdl8zbWVjVWNZRUFpSXowbU5JbFdVQ1poTDlHNFprTzLSAdQBQVVfeXFMTVZaMjhKTmJDeDEwSndHOG5JbmJMeGdULXpNZ2xmeGtHZEJibTZuYThnbzQyT1RWbE5zdmlWb2FnQTN3YnhlRGNkNkhJb2s2SXAtbEtaXzNkZEdYTUpmNlJxUFRIVkRRMndabGpmRHRiY1ljcGdnR1dJaG1aNnVwTWhNQmFYYW1sZWFrb245Zll3aHk2M0pKNHhQVEQyclN4TVJzZ1dCQ0ZWT1JxWG9lLWNyUXh6UW9rd01EX2JWM1RCbGNLUm1RX09QSUY1WUpSc0NXZUg?oc=5",
-          "pubDate": "2026-06-29T18:49:22.000Z",
+          "title": "Gustavo Gallón, embajador de Colombia ante la ONU en Ginebra, está hospitalizado: esto se sabe",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSGkxT1gwbDFja0F2TF9sMWh4UXc4dVBLTTFEdmw4SUtSSHVaaHZ2b09Cdl9qUzl3d0dRS1M2Q1ZWcHpaUE1UaG5kdWZjeV9wVVpyaXlIWU91RHBRRFBKYXRCS0dtOXk4dVozSXA5QUk4Ml9TTnJwdXBKRG1nQXpwNzIxT3NTMmQ3R3lZSWd1cWdtR3ZOcXFaamROQTVISldub19lWWdfNE14TzVEN2M3T19RZzFQZUVnSGVSR3AwQW91YTNf0gHYAUFVX3lxTE90ZTNYWFowTDFpcUJxRlJSSTdqVnhtM3VObkFoNHhFNWVoeTdCRmZ5QmhSa3JhdzVEVThtNG1jbVMwSlZFYjlJX1RzZk1uTGpFQ3JtSGhhMFAyRjBFQXU5Vm90dGt6UC1POFk5QnVLamlhM2twODlKUk5IVjNOb0hVSnU5WDI3U0JUSFVjQU1UVDIxbzZwNF9xNnNqV01QX2ZQeG0zQjNGOVRZSk11X2JDLVZZVVREbVlhaEF0Vm8yT0NPUzRBRFJ6RDVPQ2QwQ1ExZ0lJN0xndw?oc=5",
+          "pubDate": "2026-06-29T19:57:55.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Los accionistas de PRISA avalan con un 99,9% la gestión del grupo",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcDI4dlVyYXpJOFRDQWoxMWVybGZFeDhkNXlwNTlqTDdZdXFnVThGc2FjNzhHT0M4UDZmTi1weEl6NThnT0ZhYkxFbVdSaG1vZ2xYZ1VzX295bXdoRV9tYUNUUV9oMlpuVDlTR192Ym9ZSG96ZUhlNkJreHQ2RnRFMGdpODNKQUJfVUpwZ1N4VGJsR3NkT24yWmRlOFNuU2vSAbMBQVVfeXFMUFBvWkFXWmxNMXRmdTI3b1JGSlgtSlVfMXJiYWRtbDlsa2VtMl9nV2lqV25nNUVTMUpTNUJnSDQ4ZGtKTm0xZmVsU0p3V2hiNG9nUWM4QVVuaDVOZGhFUGZjNXF3czFYZTNsTS1PX3lBMDFoamt5Zl9ocnIzajYtZ1ZkeGozWWw5cWtIYWcyYTFTX2k4YlQ0OWtsMU9sRzNaZGxWOWY3aDlNT0dSWVRTNXB4YjQ?oc=5",
+          "pubDate": "2026-06-29T19:44:59.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -157,13 +178,6 @@
           "title": "Más de 130 policías de la Seccional de Tránsito y Transporte en las vías de acceso a Cartagena",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNR0hTWkNlODNkSHhZMzBTSnFRUXpsVHVha2p6dW16SDRuYURiUlpfeUlfLTZsRVp5NnpVMEYzNzcyNlF0akhZT2N2aXNEVFh1Q2hQTEtIRDRBRnhUeGlDS0hUVm1PVFk3TUc0YVJWVUVmWjJ1VDhFaWlSckN6ekgzRFhJUklBbEd5WjZnNFBfSzNuM2tsWThNX20wTmhETGs1a3hmNkZDc3RteDlwRGlJZTJ6Tm5qNnFuWUJRN2JaWXJTa3Q1UlFLT9IB3AFBVV95cUxQZzRIaGtsY2s0SUdrVS1iYmgtWVNFTFRXQmxvREtUVlFlQVZuN1NBQ25ZZHJUd01lUHdRc0pWR0hyNG12WHVlOWpYUDNTWmtlWm83RnpZbUpiQmczenhDZDNBLVRITVN2V3pKVXRocGcxUUZfbHZhQ1FaMVo1WXVIRzRHT2hsOU1NbHk1X0NTTE9TLVpsVnZDVTJMc2J3MHc3NWp6QXUxcWVVS2RJMmRUZ0xDejZQNVVYcVJnVElRWFRXVzlhYjdHXzlYeXY0S25FSkFIazdKMm1qeFd1?oc=5",
           "pubDate": "2026-06-29T19:02:02.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Así avanza el plan retorno en Bogotá: Más de 850.000 vehículos ya ingresaron a la ciudad",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNzlkZ3RLNVhKTkRpZjVKZjFoRU5BMkpLWWtYUjE5aGJIY3VCRDNraHNYdTExVGVManRwQmpDLXZEQUp1TjRWTDVKV3NEdTVCOTdZZXVFazlsM054dF9YR0hhX21nSXk4RTdsY2ozemVFem9SLWtDbkd6bkN5TFhNOWpxRlZwdUJLekNOZVZfbW54ZGsyM29rTF9rcWJhSFpXNmhUREhVdXJwZDQxallSNGZGQmJlcU9kRHQ1MFl30gHSAUFVX3lxTE5ubVVYMTI0SlNKWklqTW9VVTFPbTllRThCMlVPLXJJRlg4ZW1UdF9MeTZpMElMQkt4OHNGbTZxdFhlekEya19mV3JWNkVFYU1kcXR5aTNjMU9waUhwWFBScjZONDZrTVlBd3owSV93SmtQQ2dSMDFZSVZ1QlNYV0lJT2dxVFlOVXBteVhoVi1VZlFGWUhTbDI5WG5zV0JXaWF2cExJQVJrbjA5QjAxdVNwYV9va19qRDlITVBuaEowWE1keHZCeHExWjNUek5MZElzUQ?oc=5",
-          "pubDate": "2026-06-29T18:55:15.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -176,7 +190,7 @@
         {
           "title": "¿Por qué se fue la luz en Bogotá, Soacha y Mosquera? La Alcaldía reveló la razón",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM1BsSjlGYWlPSFNEMGdwNnQwNHdlR2ZTcEdvVXlQR01IYWtaZ205ZjZmdEhxTDJxTXJOLTBIMU5fUExySWdwRERweDhTT2VTUWJUZWJOZnlYdmVpZm9kZGhSSFAzQXNhbkxjak9BSEFiTXpvZmtMZExzc3ltRE9MRnRVZXNyVnNTdVUtVTln?oc=5",
-          "pubDate": "2026-06-29T14:51:23.000Z",
+          "pubDate": "2026-06-29T14:51:16.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -184,13 +198,6 @@
           "title": "Mundial 2026: ¿Cuándo y a qué hora juega Colombia vs Ghana por los dieciseisavos de final?",
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNFhuWUpvd2VjbGlObGx3b3ZYY1d4UFZPaXFPRUk1YXdoQ1NMRHdGYU80Y05hc2FxMDdLWl9KSjQyaTZMVUhDYlJXalFaeU90eHNjQzgtY0szNkRMaGRoMVNLNEFHV0tvQVRSamg0eUxuSGtSTVlfS2xoQ2REY1lBZndjQkNmZWNSZ3pJWXZPM3BFdkIxNDVkOHdUWXJIeGhzcnVxZ1AwMC1haTZIVTBKMXZnUUc4cVduQ0IwZE9QS1FiMVZMZFFV?oc=5",
           "pubDate": "2026-06-29T19:46:24.000Z",
-          "snippet": null,
-          "_priority": "DEPORTES"
-        },
-        {
-          "title": "Mundial 2026: ¿Dónde ver en vivo Brasil vs. Japón y los partidos de hoy 29 de junio?",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdjFHU0hBZ0xGY2R0WmpYbVdRVUpnWmIyRloycFB0SzdyeDRVbkVRV2ZMRl9WekxCWmZUem94aEVWRW5jLW1ZU0pYVUFNSXJNMHJBVG5CbU92am1kVFpRenBXQkU5dEVNeFFubHVOcUM3bHZuaGd4bkU3UzYwNC1QMUN4X3ZFS1hvbXRnQ3NqV2ZJZWY2UVZESUx3QTQ4TVdWeHdBMDdqU0Y5eHR3bkE?oc=5",
-          "pubDate": "2026-06-29T15:41:16.000Z",
           "snippet": null,
           "_priority": "DEPORTES"
         }
@@ -201,23 +208,16 @@
       "color": "yellow",
       "items": [
         {
+          "title": "Carlos Alonso Lucio coordinará el empalme de Abelardo De la Espriella: cómo pasó del M-19 al nuevo Gobierno",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbHhCYUlySXh2cFhyZzZHU2dURUs2Y21acW9faW82U3Zaa0xhQzRXemhrTndiblVIdHJvT3owdy1lbi1rVk5ZMER5ZFlnakY4WUhOWEFYeFdQaF80cDRSbVk0QVROQWw3OElKSnRWYV9mbTRCWXQ4dTZmdkNkZDhqeTBzcmI5NFVlNGtTM054d1lsVjJ6WlNVb25PUzNJSUtwTkhSQUxLeGdPejBUZGRNS3Z6MmFJMVg2STc5VTJMQk9XcGhUQjVIZmJGMUFkSkUwY2JWZVI5S09kOTNtUUFQSkhpdzJkblF2cms5TdIB8gFBVV95cUxQaUduNHYtZHNUSlo5bFJjeDliRjVndTdPSTdBcTBfd3RuZVV1SnFBeGE0dUZJaVR3amx6eWlDd2xJeWM4bERWeGZmWnZrbm94Z21Fa1U3YTQ1ZzVhU3Y1eEFPMEVWaTlhRDlJQnZJX1FHbVF6WThISG90c0ZoZGpDeTFYbjg0OWRJRzFYemw2eTNOX0tMak4wLWZ1RVZQdlBTUGNXWDhtdjc4dlRaVEl5azBNZlJYbDIyYWMxUnFiOTJqY2gzUnFpaEtGNnJwaGhzTE5jZUQySVlyWmdjZ1JQcXRvR2RiRFBNVTgzbHpNTFJKUQ?oc=5",
+          "pubDate": "2026-06-29T17:39:03.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "Colombia envía un tercer vuelo humanitario a Venezuela con ayuda y el retorno de 47 connacionales afectados",
           "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZ29heXFXbnVTVlkyRXZmZ1E5YTVoTGxMQTI5VUhjN2tiUzI5ZU5SUC1EcmxtUGhKeUNYeDg4MzBRaU5XMUNZZElaUWJQYXZDYnNydjhWNzZpdnJCUjQxdVZ0ZkFiLWNKTHMtd1F5QjRPRU0wdDJGQ2JIYUFqQlA1ZHljVlp2SUo0V0lCbndKc0R6SXViN0htY1lyOHZwSG9zSHQ0VlBULWJoSFFobmJXVmZJX0E5OGJZYVBDVmU5alY3aHp4MEhMUkE4b0pZalRiN2hNOHlRUUFCVTgzODZLbHk5amtPVFNMcXfSAe8BQVVfeXFMUGdvQmZCUlpkR00xMk1lQnNhZGlsSWxDV0hUc2JrSkpDaUF2YU9uSVEzNnlLNHQtcFp3aGktNkFUX0Q0T1VkUUJiNG14ZXJfSmdqdmxrcTBDTnJHdFZDZngxeURwQkphcW9GOWh5Vnkxem5HZ2RCS0w1ek1zNWlXMWdaaU9rNGVCWEV3RGE5XzI3OHI4WFdiQXhQQUtBSlpVUTJtd2N6N2FWeUQ0dUJpekZFeHpCTko0Y3lUWF91dml5UkRzVTBsRmhVOFl0SEV3RGt0dVJRRzFpLVVQNzVaWGdmRGZRMThkcUdJbGl2WnM?oc=5",
           "pubDate": "2026-06-29T17:01:28.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "OCDE: confianza en los gobiernos se estabiliza, pero el 31% siente que tiene voz en las decisiones públicas",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbVBHdGNUMDNlV3JoaFR3TkFHajdHbjNhV3pHYkFpTnNJYTdCNC05QjNBMlFjSWdCUGpBclRPbXN4LWdvMmFLbFJkSlVwOWRGWDZNSTVUajdXa2liMkJWckNzUEpaVFZBc0F5TWctM0M2emp2OWlERjBmMzVhaFZDQ3pOS0ljRlRUY05CZTR2U3RyNzNPb3VXYmFGbE9CZFp2WHp6ZkpxRDZKaWJENzFOYnFORkU1QlZYbTdJV2hwV2EwN1pRNHNpc0JNVWVOMFlMTUY1Q2VucDhqc2F2YUxUcHpudWMyd9IB6wFBVV95cUxPdmp2bEhwSzJ2MC04a2J4dk10TEN5RWhFWjhOT2k2djNmaTBWVWRDZVIyaUdTWGdjZk1WNkhYSF9CNUZ6NzlQLVNNd3lyUWE1Tm5RbVB4dDR6aGdwa04yX25yUUZvQWdobVJzb2JTSGg1UjhTcXgtdWQ2b2FsUFh0RUEyRlhqcF9tSzYwYUZUZHFnMUFsR3lLVVNNd0tsdGNiUDBPVmR6cktVRFc2NnIzLVZMSVdNRm9jZmRGM2NhcWNLU19DUlBObWFVcW9YNUVoa3Y3Xzg0VEx3bE5hTldJNjFOUGlncDRHVVZR?oc=5",
-          "pubDate": "2026-06-29T17:57:58.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Carlos Alonso Lucio coordinará el empalme de Abelardo De la Espriella: así pasí del M-19 a la ultraderecha",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbHhCYUlySXh2cFhyZzZHU2dURUs2Y21acW9faW82U3Zaa0xhQzRXemhrTndiblVIdHJvT3owdy1lbi1rVk5ZMER5ZFlnakY4WUhOWEFYeFdQaF80cDRSbVk0QVROQWw3OElKSnRWYV9mbTRCWXQ4dTZmdkNkZDhqeTBzcmI5NFVlNGtTM054d1lsVjJ6WlNVb25PUzNJSUtwTkhSQUxLeGdPejBUZGRNS3Z6MmFJMVg2STc5VTJMQk9XcGhUQjVIZmJGMUFkSkUwY2JWZVI5S09kOTNtUUFQSkhpdzJkblF2cms5TdIB8gFBVV95cUxQaUduNHYtZHNUSlo5bFJjeDliRjVndTdPSTdBcTBfd3RuZVV1SnFBeGE0dUZJaVR3amx6eWlDd2xJeWM4bERWeGZmWnZrbm94Z21Fa1U3YTQ1ZzVhU3Y1eEFPMEVWaTlhRDlJQnZJX1FHbVF6WThISG90c0ZoZGpDeTFYbjg0OWRJRzFYemw2eTNOX0tMak4wLWZ1RVZQdlBTUGNXWDhtdjc4dlRaVEl5azBNZlJYbDIyYWMxUnFiOTJqY2gzUnFpaEtGNnJwaGhzTE5jZUQySVlyWmdjZ1JQcXRvR2RiRFBNVTgzbHpNTFJKUQ?oc=5",
-          "pubDate": "2026-06-29T17:39:03.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -232,6 +232,13 @@
           "title": "Mover dinero entre Estados Unidos y América Latina sigue siendo un reto para las empresas",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTzRoM180QkNMTl9ENW40VTdzczNScHBndWo5WmNqSTVzT3BoZ1pkbHBvY0Z5LTVsQVpNSC1IZGRSMlh3TzJza3N0UkZwQUMxYnlTWFdTLTNValE2REtqUFdPZkVZZFhfYzZ0M2pjVVI1cHdaMTk1WmhIbm9URWJRRnRkTnc5RXBmZkFWLTdXU0JaNWk0aFF4NjVXb3NuQUJ3R3NkMUtBQzE1YW1FOWw3RVllYjZsdGdmYk5KZGFOM3ltUmFLdV90Um8zYzRublpLYlJEV2xud9IB3AFBVV95cUxQR3dPeW5jQlpySVQzeTE0SGdKNDhZQzllOGZ5NEdDV3BvSi1ESGJKOC02SEtZM2lIdHd4TXZhOUlsYXdVbVpsWU9DckRDdjBBWjcxdEFRU2prSFViWnkzd3FqenVaeEVIUnoxdnRZUXpja2lXRWtqY3dYOVI3VURlbGhBMjV2Ml82TUNNc0tjNzNCd21wRlVLWE9FSlZFbXhJODhJczBMYVU0R3cxbWtwT0VaYnRZcW9lbHA5R1FGRXVybU82RmhyQ25FVXVHbXFIT2Vydk9EU0Q0SkNZ?oc=5",
           "pubDate": "2026-06-29T15:18:56.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Presidente Donald Trump asegura que Irán pidió una reunión en Doha, pero Teherán lo desmiente",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRFhoelRkR01uUjRNWDJMNzZ0dVp3QnFxeUxYbGRIS1NTUWc4UHhRbmFaamtuVUg0QVRaV1pKUUxJREJmdDRIZnVZd1BTRndhTU1hdUNTLTB3M3FvT2ktMFNqTWhCX2czVzNTTjRyWGRTZVVQaUdFRTVzSFVSVHZSRVN5ZDZYQjcwdS0wcERHT0ZUdW16OW5fb2NSUlFRSVdEY05PNGdzeHpudUQ0SFdXTGc0LWhLZ0JFN1d3ek1EMElWUDBDS3ZlTmtXSHpNOG9TX2J3MVlR0gHbAUFVX3lxTFBUalZrUzEtZVBPcW8zQVM0dFZhSkpRdHU5ZnZGTk52YXRpQUY1WFJzX0htTXl0d2Rvb2E0RnUyTWRCOE55UVJKRjJIeW9LLTltR1JwckpZQm1ra0Q1dThRVlAzTTY3aFYyeG4ycHBoekthcmROeG5kWnhqVmctSWRyV1ZhUnFwcG9rVmtzZHQ1SlFZTWxBTW1jM29xS1BldWZLdjh5WGxzbEc4clB1M3JaWXI1cVZfY0pVVTF6UFFIcU1GUHlyUTdqVlhYY0t2LVhIYXp0TVptV2drcw?oc=5",
+          "pubDate": "2026-06-29T14:58:17.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
