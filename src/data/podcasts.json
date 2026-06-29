@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T15:06:49.926Z",
+  "generatedAt": "2026-06-29T10:01:17.470Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -22,9 +22,9 @@
       "url": "https://podcasts.apple.com/co/podcast/estoicismo-filosofia/id1740616448"
     },
     {
-      "title": "VOS PODÉS",
-      "host": "Tatiana Franko",
-      "url": "https://podcasts.apple.com/co/podcast/vos-pod%C3%A9s/id1526103660"
+      "title": "El Pulso del Fútbol",
+      "host": "Caracol Pódcast",
+      "url": "https://podcasts.apple.com/co/podcast/el-pulso-del-f%C3%BAtbol/id868214427"
     }
   ],
   "mundo": [
@@ -34,14 +34,14 @@
       "url": "https://podcasts.apple.com/us/podcast/the-daily/id1200361736"
     },
     {
-      "title": "The Joe Rogan Experience",
-      "host": "Joe Rogan",
-      "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272"
-    },
-    {
       "title": "Crime Junkie",
       "host": "Audiochuck",
       "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
+    },
+    {
+      "title": "The Joe Rogan Experience",
+      "host": "Joe Rogan",
+      "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272"
     },
     {
       "title": "Dateline NBC",
