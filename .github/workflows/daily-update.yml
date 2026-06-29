@@ -1,10 +1,9 @@
 name: Actualizar noticias y publicar sitio
 
 on:
-  # Todos los días a las 10:00 UTC = 05:00 hora de Colombia
-  # (Colombia usa UTC-5 todo el año, sin horario de verano).
-  schedule:
-    - cron: "0 10 * * *"
+  # El horario diario lo maneja cron-job.org (5:00 AM Colombia / 10:00 UTC)
+  # via workflow_dispatch. El schedule interno de GitHub se eliminó porque
+  # puede atrasarse horas y generar ejecuciones duplicadas.
   # Permite publicar manualmente desde la pestaña "Actions" de GitHub.
   workflow_dispatch:
   # Publica el sitio cuando se hacen cambios de código (sin re-buscar noticias).
