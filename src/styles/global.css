@@ -154,9 +154,10 @@ img {
 .hero {
   position: relative;
   color: #fff;
-  background: linear-gradient(180deg, rgba(10, 10, 12, 0.55), rgba(10, 10, 12, 0.78)), var(--ink);
+  background-color: var(--ink);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   padding: 70px 20px 56px;
   text-align: center;
 }
