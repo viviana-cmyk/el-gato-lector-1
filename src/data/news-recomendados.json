@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-06-30T10:01:16.375Z",
+  "generatedAt": "2026-07-01T10:01:29.731Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Los Lorenzana",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-guatemala/los-lorenzana/",
+          "pubDate": "2026-06-30T16:42:06.000Z",
+          "snippet": "Los Lorenzana Los Lorenzana son una familia guatemalteca tradicional del contrabando que eventualmente se involucró fuertemente en el lucrativo comercio del tráfico de drogas. The post Los Lorenzana appeared first on InSight Crime."
+        },
+        {
+          "title": "The InSight Take: Los juicios masivos en El Salvador exhiben la ofensiva de Bukele contra las pandillas",
+          "link": "https://insightcrime.org/es/noticias/insight-take-juicios-masivos-el-salvador-exhiben-ofensiva-bukele-pandillas/",
+          "pubDate": "2026-06-30T15:40:09.000Z",
+          "snippet": "The InSight Take: Los juicios masivos en El Salvador exhiben la ofensiva de Bukele contra las pandillas Los juicios masivos contra presuntos miembros de pandillas en El Salvador son la fase más reciente del modelo de seguridad de mano dura del presidente Nayib Bukele, orientado a…"
+        },
         {
           "title": "Las extradiciones de los Choneros a EE. UU. pondrán a prueba la estrategia de seguridad de Ecuador",
           "link": "https://insightcrime.org/es/noticias/extradiciones-choneros-ee-uu-pondran-prueba-estrategia-ecuador-cabecillas-criminales/",
@@ -22,18 +34,6 @@
           "link": "https://insightcrime.org/es/noticias/proxima-presidenta-peru-enfrentara-extorsion-mineria-ilegal-congreso-hostil/",
           "pubDate": "2026-06-26T17:53:01.000Z",
           "snippet": "La próxima presidenta de Perú enfrentará extorsión, minería ilegal y un Congreso hostil La conservadora Keiko Fujimori se convertirá en la próxima presidenta de Perú tras unas elecciones caóticas y divisivas que han resaltado los desafíos que deberá enfrentar para contener la pro…"
-        },
-        {
-          "title": "On The Radar: Giro a la derecha en Colombia y Perú reaviva las preocupaciones sobre seguridad",
-          "link": "https://insightcrime.org/es/noticias/giro-derecha-colombia-y-peru-reaviva-preocupaciones-sobre-seguridad/",
-          "pubDate": "2026-06-25T15:27:05.000Z",
-          "snippet": "On The Radar: Giro a la derecha en Colombia y Perú reaviva las preocupaciones sobre seguridad Esta semana en On the Radar: De la Espriella promete mano dura en Colombia, Fujimori hereda un Perú golpeado por la extorsión y una investigación pone bajo la lupa la estrategia de la DE…"
-        },
-        {
-          "title": "Sebastián Marset",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-bolivia/sebastian-marset/",
-          "pubDate": "2026-06-25T15:09:47.000Z",
-          "snippet": "Sebastián Marset Sebastián Marset, el autoproclamado “Rey del Sur”, es el delincuente más notorio de Uruguay y líder del Primer Cartel Uruguayo (PCU). Fue capturado el 13 de marzo de 2026 en Bolivia. The post Sebastián Marset appeared first on InSight Crime."
         }
       ]
     },
@@ -78,14 +78,20 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Annual Meeting of Global Future Leaders",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeWdHVlVRYVRrOW02NHpQYl9GcjdyaWdsWnBEdk13eTFadk5pZkFMTFVra1hVcHVlVnB0Um55VFBpbDBzMXgzX1NxVk1JTmRXWXlYTThEWUNwd2xnMk9kNXFST0JIcnEySlNEdmRSNlAydTg0SmU1T2FfalJMeHl0TkRzWQ?oc=5",
-          "pubDate": "2026-06-27T04:28:48.000Z",
+          "title": "Veeam",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXOVEwcWZrNTc3Y0hGeGNqYTZ0UXR0TS1oNGlfTjNZY2dhdlBhWWE1VWRvOVcwZHRrekwtb2ZPR2I5V3VUUlZGQ2w3bktmUVMwenlpTnVB?oc=5",
+          "pubDate": "2026-07-01T05:19:37.000Z",
           "snippet": null
         },
         {
-          "title": "Event Details - Ahmedabad Hub",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSXQ3ODRwZXNCNFZCMmxTWlZkZEFXSVNDVzJucHJwU1k4aU5VdmVmZFBLdVM0QURycXpFMW9mbWZkZFJQVVI3ZFRLM0hPeGJ4YnhRTl8zMk5yN2tYN0k3Z1RfNDlOdkZuZ0NyRGZIRE5XN3Q3c0c0U0t2VTZNX19ETmdQRUNDMGJLUnRtYVJYcGRRSjBiZmZ6Vi0yM0lpUkN4YURtd0h5SksyQlpiRmdTTlZ1VzhLRnZmdEtSX1lWWkR5QktoR0lLaXQ0SXR6VmlVSEVWZlZ6S3Q?oc=5",
+          "title": "Meaningful Outcomes Determine the Winners of the Health AI Race",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYS1vejB6N2NuQ25SOV83U2Y1OUl6X0xhQmM4ZUdjQTg4LVZuZ0M1VHc3dEg3UHZEbWVybUxmY3hLNVlrNUp5UXB5WUNSMlhNUzdwc2d5T1NzUjkxaXdYbGp4NzYwVm9iVzg1NHdKTEtSeVNjVFkxZzVIb05rbmFBUjNEem1Kb25IRHRYSnJOUVBWV0tBUGFmcW1JODFEQi01SGc?oc=5",
+          "pubDate": "2026-06-29T05:09:57.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Event Details - Arusha Hub",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMnlOeWZZc2NPaExaZ2FkYWxrblByaVZ3Mk1Ld3BUakk1YmstR1JJUU5JSjJKa0o4MnN1dGxBMVlibVZyNmxua00xZmQ3aGpxZGdzcDI2YUJkN05rb2RLN25GbUwtQmxaUVFsZ0czSENhd3VTQUtOSkdFbnUzSkRTMjFUZUVuQXlTbVAzNFFLdjV5VzVqRnNhTmZDWnZXT0ZiV3FMb29oUEdLejBTUmJOWHhqcjNaN2lSdmViYXBKU2dGRDR0TGd4NkNwNGlUUUdEaXpzTA?oc=5",
           "pubDate": "2026-06-26T17:30:00.000Z",
           "snippet": null
         },
@@ -93,12 +99,6 @@
           "title": "AMNC26 Day 3 - The final day at the Summer Davos",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RYTlyLVdobGdxVUE2d0s4UjA4NnNGUU5Tek5rd0hwSTZ3eURVekRtdFROYy1vY0VVMFVRZ3l6RGNRcGpkRFdoTndCT2pzQ1hoS1Vid3d0Y1cyYnpsbnhyaGYxM184Ri1QRzd1VmJrNEdDQkdy?oc=5",
           "pubDate": "2026-06-25T01:09:59.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Inside China’s Energy System > Annual Meeting of the New Champions",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR1FaSTAtUFQwNy1meDBfOEFFa0N4VkZ5Rld4RUZmeEVDUlhSaGgyZTNfSVlRZ05IeUg1QkUtSE51STRoLW44cS1Sa19pRER2T1NndXUxYU1DSHVGZmtmVzA0bzZORW5YcGtnS3pvVm1JWkJLb1ozdnF1NjNtUVhTRkFsM01ZT1BFSUtfNUlSZzViWUpHcldualZfaE1qejExNWc1c2g3eHRqS3V2M0NSbw?oc=5",
-          "pubDate": "2026-06-24T09:30:00.000Z",
           "snippet": null
         },
         {
