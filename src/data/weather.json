@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-02T20:58:47.486Z",
+  "generatedAt": "2026-07-02T21:16:28.199Z",
   "colombia": [
     {
       "city": "Bogotá",
-      "temp": 17,
-      "description": "Llovizna ligera",
+      "temp": 16,
+      "description": "Lluvias dispersas",
       "icon": "🌦️"
     },
     {
       "city": "Medellín",
-      "temp": 28,
+      "temp": 27,
       "description": "Nublado",
       "icon": "☁️"
     },
@@ -21,9 +21,9 @@
     },
     {
       "city": "Cartagena",
-      "temp": 33,
-      "description": "Llovizna ligera",
-      "icon": "🌦️"
+      "temp": 32,
+      "description": "Nublado",
+      "icon": "☁️"
     },
     {
       "city": "Barranquilla",
@@ -47,7 +47,7 @@
     },
     {
       "city": "Madrid",
-      "temp": 27,
+      "temp": 26,
       "description": "Despejado",
       "icon": "☀️"
     },
