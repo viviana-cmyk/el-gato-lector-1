@@ -1,28 +1,35 @@
 {
-  "generatedAt": "2026-07-02T21:43:48.023Z",
+  "generatedAt": "2026-07-02T22:10:58.228Z",
   "outlets": [
     {
       "name": "Semana",
       "color": "blue",
       "items": [
         {
-          "title": "Más de 60 menores de edad muertos en bombardeos de Gobierno Petro",
-          "link": "https://www.semana.com/semana-tv/semana-noticias/articulo/mas-de-60-menores-de-edad-muertos-en-bombardeos-de-gobierno-petro/202637/",
-          "pubDate": "2026-07-02T20:08:37.000Z",
+          "title": "Resolución del Ministerio de Salud entregará recursos del sistema a las comunidades indígenas del CRIC",
+          "link": "https://www.semana.com/politica/articulo/resolucion-del-ministerio-de-salud-entregara-recursos-del-sistema-a-las-comunidades-indigenas-del-cric/202654/",
+          "pubDate": "2026-07-02T21:38:54.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Colombia e Israel dan el primer paso para restablecer relaciones diplomáticas con el Gobierno De La Espriella, tras la ruptura en la era Petro",
-          "link": "https://www.semana.com/politica/articulo/colombia-e-israel-dan-el-primer-paso-para-reestablecer-relaciones-diplomaticas-con-el-gobierno-de-la-espriella-tras-la-ruptura-en-la-era-petro/202600/",
-          "pubDate": "2026-07-02T20:01:05.000Z",
+          "title": "Mujer fue condenada por torturar y matar a su hijo menor de edad: Fiscalía dio detalles",
+          "link": "https://www.semana.com/nacion/articulo/mujer-fue-condenada-por-torturar-y-matar-a-su-hijo-menor-de-edad-fiscalia-dio-detalles/202619/",
+          "pubDate": "2026-07-02T22:07:19.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "El plan de Gustavo Petro una vez deje el poder, según Federico Gutiérrez",
-          "link": "https://www.semana.com/semana-tv/semana-el-debate/articulo/el-plan-de-gustavo-petro-una-vez-deje-el-poder-segun-federico-gutierrez/202624/",
-          "pubDate": "2026-07-02T21:20:24.000Z",
+          "title": "Viviane Morales será la ministra de Educación del Gobierno de Abelardo De La Espriella",
+          "link": "https://www.semana.com/politica/articulo/viviane-morales-sera-la-ministra-de-educacion-del-gobierno-de-abelardo-de-la-espriella/202609/",
+          "pubDate": "2026-07-02T22:06:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "¿Le abrió la puerta a un supuesto técnico de Vanti? Así operaba el hombre capturado por estafa",
+          "link": "https://www.semana.com/nacion/bogota/articulo/le-abrio-la-puerta-a-un-supuesto-tecnico-de-vanti-asi-operaba-el-hombre-capturado-por-estafa/202629/",
+          "pubDate": "2026-07-02T21:33:29.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -30,13 +37,6 @@
           "title": "Euro: la divisa sigue a la baja y empieza a rozar los 3.800 pesos",
           "link": "https://www.semana.com/economia/macroeconomia/articulo/euro-la-divisa-sigue-a-la-baja-y-empieza-a-rozar-los-3800-pesos/202659/",
           "pubDate": "2026-07-02T21:21:59.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Científicos logran un avance sin precedentes al crear una célula artificial que puede reproducirse",
-          "link": "https://www.semana.com/tecnologia/articulo/cientificos-logran-un-avance-sin-precedentes-al-crear-una-celula-artificial-que-puede-reproducirse/202643/",
-          "pubDate": "2026-07-02T21:11:43.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -47,9 +47,37 @@
       "color": "peach",
       "items": [
         {
-          "title": "¿Migrante y desorientado en Bogotá? Inauguran en Teusaquillo centro de atención",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQWDJlZGhGclotQllLTE5Vd2NLVEhXdmgxOFVJN0RJQUlNVklOQm5WUEVfeXA2SDRqeE5LUi1XVWltNzNaUkYwY3ctZFhjUXBwVkVUYk9zLW9LVmMtdWNsdDZkZGMzbjE3djlNZFNscjdNdW1rOWhnakdkZDByLS1QejRVXzhMZS1hUXRZaUkwc19odlNOeU1hbVdPZFlJemIyUzEtd2FLaUpVa193Y0xMSVJlVlUxd1lKSEZnUnZyRlgwRGt2eU5TR3ZvMkRmMEsyQ3dWcjdGbDVQX2NPMjVWNTBiT2o2YXltVXA3YTRNS0pwdDJP0gHcAUFVX3lxTFBBN1c1ZVV1RHgzZW5IcktaclZwNkh3MWF4dXhwdWtUaTFIeGZDVlJSS21zOU1BOVA0azBCWVVxS0tMeUlPazUxSEdaS3VGQmtFRmcwazZWUDBRRFFOc2k2TmxKQk9JME9VMmROWnJ2RlNNYnlMNGJ4ODB6LXNUZUtzWDhpb0ZiRXdaVWtGRTNabjhJMEdGeHJsVjhzVzRZbEs2U1d4cjd5LXVRN1diZHJsNjhQM1hab2xJLXdBLWV3eE0zVnNkOGh0dW9qMnVhZmJGWERQZXg5Tjl5Z1o?oc=5",
-          "pubDate": "2026-07-02T12:12:18.000Z",
+          "title": "“Es una crisis humanitaria”: Restrepo habló del plan que implementarán en el sector salud",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd0xPRTNjblpwYmdzaXM5NFRyZjNqTmxDdS05WnZPT0w0cUZvSW9Vc1F2a3htTG92TUJIRWdmYzlFYXhpUkpqOFVnMWVYaDZ4TGRpY1dudHJha0xaYlB0SlFpUG5FeDFVM092dlNUYWg5S3pQZjBpMFQ3SHh2Z3lzc2Z3elNIS0p4V3VmTXFsVmt3M3M3UzJ6M1Y3S2dmR1JrQ2dGQ1ZqT082M1BrUzJoZm05N21Hdjd0dFJJT2tqUTFKUVBMZlFEZnNwZkZ4N1VXbGpvQlZOM2ZqZU56bkxOcUhRbk9vSm96RXk2UWV3bkQtREI5aHFqadIB-AFBVV95cUxOd0xPRTNjblpwYmdzaXM5NFRyZjNqTmxDdS05WnZPT0w0cUZvSW9Vc1F2a3htTG92TUJIRWdmYzlFYXhpUkpqOFVnMWVYaDZ4TGRpY1dudHJha0xaYlB0SlFpUG5FeDFVM092dlNUYWg5S3pQZjBpMFQ3SHh2Z3lzc2Z3elNIS0p4V3VmTXFsVmt3M3M3UzJ6M1Y3S2dmR1JrQ2dGQ1ZqT082M1BrUzJoZm05N21Hdjd0dFJJT2tqUTFKUVBMZlFEZnNwZkZ4N1VXbGpvQlZOM2ZqZU56bkxOcUhRbk9vSm96RXk2UWV3bkQtREI5aHFqaQ?oc=5",
+          "pubDate": "2026-07-02T18:41:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Prenden alertas por cascada de nombramientos ad portas del cierre del gobierno Petro",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQNnIzTjRiVUxzcmtBa29PaThBYzFkc0JjVVVvaElYejlvNTZRUjY5MjBNcWFkU3pJOTNxY3RPVFB6NFFJckVVZjFGUVIzNUM1dWpheWpiZUY4U0VNUnF4REgzYjgwWGNUQmF0dHdvUi1pVHdfRlo5alFZLUo1VU1FTmlIYm5ONF9EVDZjdzR0a2ZRSWtELVlRR2hxNlh3WUs2Q3ZYUk53c2dxa2JnZ1l4OF9FSlVIRFFVd2FsMlBJNTg4TnJwdjJjNHlLVTdxWGNUbEJIZnBSWU1vZFN3MGhOS1Q4RnlDT2ktV2dBenR3aWxCNlFuaVJKRS1B0gH6AUFVX3lxTFA2cjNONGJVTHNya0Frb09pOEFjMWRzQmNVVW9oSVh6OW81NlFSNjkyME1xYWRTekk5M3FjdE9UUHo0UUlyRVVmMUZRUjM1QzV1amF5amJlRjhTRU1ScXhESDNiODBYY1RCYXR0d29SLWlUd19GWjlqUVktSjVVTUVOaUhibk40X0RUNmN3NHRrZlFJa0QtWVFHaHE2WHdZSzZDdlhSTndzZ3FrYmdnWXg4X0VKVUhEUVV3YWwyUEk1ODhOcnB2MmM0eUtVN3FYY1RsQkhmcFJZTW9kU3cwaE5LVDhGeUNPaS1XZ0F6dHdpbEI2UW5pUkpFLUE?oc=5",
+          "pubDate": "2026-07-02T17:27:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "“Debemos replantear la forma cómo estamos financiando la seguridad”: Felipe Mariño",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZXNuMDhtS3JGeDYtTGZCUFdZZ3IzYS1pN0RTRXlQUmR3NUZkeGRpX1hnVXVfYjIxdDlGLUtPRGRGS09vcU9leVVwWXFhdEdPc0pzVHpEcXJ0TWR2dWNaWTlqam40NV9wR1VqRHh0Y09jUTFKVG4wam1xZEMxQk9Wbm5KSi1aR3lfQnFMWmoweFRxTFIwLXdQcVJhUjBhSVh1TzhSN0w4R3BDU0VlU0xMUjJYV3Y3Z9IBywFBVV95cUxOSGdiTGx1Y1h6TEU4cG5obko4bU5VQlZxNzUwOWFWSkdBazlqN2xYd0R5VXVpSmloWWhuN2lIQXB1ODlHU2xSWlBNOTVjT3FlRkVObnFQcWxvVWRtZmR2NTNEM3g0Y2NSZlkzMWlwQTk2ZTkxZ1I1QnBqRzlhaVN3OW5IWGJCTWNFSW5LVW1ZWDVDaktPcXRyaERZUTA1alJxVk4wdlFGbmxRZ0tGUGlXd3BUVmNZb2psT1R2X3pNcUpKaUlNdWoxcFVGbw?oc=5",
+          "pubDate": "2026-07-02T10:00:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Estas son las caras de los miembros del empalme presidencial entre Petro y De la Espriella",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNdXBrbXdaMW9jY0E3WmptZTAxQno0V1RJUVNFWlEtOWpsTUVPQlFPbnQxWTRFUktRWUxURUUzNTRPR1RiZjc4bWRaYjN3X2ZuU25JNzh4MEJVRHBuUWlMcU03SDdDdFpaMjlSeUpwa0xUSHFIN2lLTUZyYmM3UGI1amtkOXJIblh2WGdPTWxJazU2ZnZmeXQtU2I4M3BPbmVwdTdQeUNhenV6dVByeWpBNlJEblFEVnY2RXZkVUpLaDl0dHluNWgtak9ZLVlnVTdsUDZqa0RuWHQ4aXd2cmZvOWR3dFNCWURDNy01UXd6eS1EY0JCaFdTTi1WU2M0Z1dvWkHSAYICQVVfeXFMTXVwa213WjFvY2NBN1pqbWUwMUJ6NFdUSVFTRVpRLTlqbE1FT0JRT250MVk0RVJLUVlMVEVFMzU0T0dUYmY3OG1kWmIzd19mblNuSTc4eDBCVURwblFpTHFNN0g3Q3RaWjI5UnlKcGtMVEhxSDdpS01GcmJjN1BiNWprZDlySG5YdlhnT01sSWs1NmZ2Znl0LVNiODNwT25lcHU3UHlDYXp1enVQcnlqQTZSRG5RRFZ2NkV2ZFVKS2g5dHR5bjVoLWpPWS1ZZ1U3bFA2amtEblh0OGl3dnJmbzlkd3RTQllEQzctNVF3enktRGNCQmhXU04tVlNjNGdXb1pB?oc=5",
+          "pubDate": "2026-07-02T20:30:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "“No dejaremos de hacer revisiones”: comenzó empalme entre gobiernos Petro y De la Espriella",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxONG9EbFpUaU9fbEg5Qm1mbHJ1cWxRdjNjZnZXdEtsbDBYRHdiby03UEwyX0JPc2V5bW0zdDZqeW5md2Y4dW5KdndwOWdEM3RhZEtLeFJ0dmR2MVFUcDhHYkNLUWNqUkJUVGRYcUJNUjdxSVlWR2p3SDRRX2RJS1ZMUTR4UUhxcUc4Vy1TclpGcFAzajZWa3lNbGtEeWIyb3l4XzJSRFBVZTdMMlJmekhSRlEzbzJHWGh0bWdiZ2FCeHFnbHYzR21RbmQ2WTlCZm1FU0VZQXB1T3lGXzh3aG1uaEo4YkplU0NJamfSAf4BQVVfeXFMUDFKYzdfVHNZNDhlSWlXTC13eDloUjQ3azZkTVNoS0Zha29VMlBNRGwzd2VhdElSNzBodWZCSmM4eE1RT05LcS1EX0lZMVc3TXROeGk5ellTcXY2Wm90bE44NC1vZUxXbUhOUnMtSHExSGZQalVTdUljNmRhUzJJdVBIS0RjbGFOX3AtWDJZVVJGNG1sZ2RZQkV0ZlYzd3RXSkZCV2hhYThkQWZyUnJCWkltLVZiZzMzVlJ2UGdLaDh2NnQtc0NjYWIyNWlSNFFxWjlSa21vRk52YzhSUjNSaUxob0NmSGloZ1VMVHliVWp3WklRbDhUTHk4ZWFKVlE?oc=5",
+          "pubDate": "2026-07-02T13:08:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -74,6 +102,13 @@
           "_priority": "ALTA"
         },
         {
+          "title": "Santa Marta se queda sin agua en plena temporada turística: hay sectores con hasta 15 días sin servicio; exigen devolver Essmar al Distrito",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/santa-marta-se-queda-sin-agua-en-plena-temporada-turistica-hay-sectores-con-hasta-15-dias-sin-servicio-exigen-devolver-essmar-al-distrito-3568560",
+          "pubDate": "2026-07-02T19:48:58.000Z",
+          "snippet": "El turismo comienza a resentir el impacto, las autoridades advierten que las lluvias seguirán siendo escasas hasta enero de 2027.",
+          "_priority": "ALTA"
+        },
+        {
           "title": "10 años del acuerdo de paz: impactos en el Valle del Cauca y cómo está el suroccidente colombiano una década después de la firma",
           "link": "https://www.eltiempo.com/colombia/cali/10-anos-del-acuerdo-de-paz-impactos-en-el-valle-del-cauca-y-como-esta-el-suroccidente-colombiano-una-decada-despues-de-la-firma-3568523",
           "pubDate": "2026-07-02T20:08:12.000Z",
@@ -86,13 +121,6 @@
           "pubDate": "2026-07-02T20:01:00.000Z",
           "snippet": "La advertencia fue lanzada desde la Plaza de la Paz, donde se desarrolló la conmemoración de los 35 años de la Carta Política de 1991.",
           "_priority": "ALTA"
-        },
-        {
-          "title": "Santa Marta se queda sin agua en plena temporada turística: hay sectores con hasta 15 días sin servicio; exigen devolver Essmar al Distrito",
-          "link": "https://www.eltiempo.com/colombia/otras-ciudades/santa-marta-se-queda-sin-agua-en-plena-temporada-turistica-hay-sectores-con-hasta-15-dias-sin-servicio-exigen-devolver-essmar-al-distrito-3568560",
-          "pubDate": "2026-07-02T19:48:58.000Z",
-          "snippet": "El turismo comienza a resentir el impacto, las autoridades advierten que las lluvias seguirán siendo escasas hasta enero de 2027.",
-          "_priority": "ALTA"
         }
       ]
     },
@@ -101,9 +129,30 @@
       "color": "slate",
       "items": [
         {
+          "title": "La inteligencia artificial avanza a un ritmo que ni los gobiernos pueden seguir, según informe de la ONU | El Colombiano",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX2wySXN6VTJsQ1kyRnNKN05xVnk1eHNYX1FLVlJqTEZEbkpCYzhIck0xTGo5U3pSSm40clVyQWxKVUZadlpra3Vpam1BVW9YeVJ2VGhiYkxucXlHNVZwTUpFMXNRTmpZNktQcWFxLW96bHlkQ0pjQ1VPMFhMTFF1LVVxaERIUUxlemdMRFZOQUxhbzNqcnfSAZsBQVVfeXFMT2VZbVdpZGZFZnpxcGx5eEo3SnFLVzNxbEE1a19jeG56eEFET3h5b0o1cWt0UGh2aVQ4Y0hEUzlCeEZPN0xRMFZCdmlBcGpUT0h6aTdLOW5wUDhGQWFzelVwYzIxZFBNc0NkVVEzc1dPMGhsUHJyTkhBcUk0b2g0R1ZDSk94WmlBcnBJbEVYdXpjd0RiY2ZnUUE4amc?oc=5",
+          "pubDate": "2026-07-02T16:27:38.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "Pretendían vender tusi con forma de ositos cerca de colegios de Itagüí: así cayó la banda | El Colombiano",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNlZVdE1LZDdJTEdOaktkX0xFVnZ0TVRyaVNhRXN0aDhyOTY3eVNpaDlRd0xlcnh4UmxiV2t4OUFqVG9lMmI2Z05HclI4ZVhEVHRKa2Q4Q3FEX2pWbWVaSFlxNHNQQk5jYlVJN2cyVi1XVXJ3NHZyZUZMYzNiNjdWOTU2bHJDVmtMZnV5eXpxUGJYTDVvNjk2VWZQeUlBdTlib3JpbjFBX0ZCQ01i0gGyAUFVX3lxTFA2Q3ZJeDBxUjgzazdWT2tONGlNUVFWQm1nQW5qQnZKWFJ4dktmRFZWTWhJcFZDWExzZmg0RmJaeDRqR3lVbENhWENmWjduaElWaTM3cnd3VEpxR0tkLTlRcEhVVXVYOGZIdGd4cDY3aGE1NTZlbTFfUTVIVm1HR1U3UlVORFo0bEJGMkNXWFRkMzc2Mnk2SE1ieGFJTXVYUTA3YkZVWU9mTWdrbW9MOERYalE?oc=5",
           "pubDate": "2026-07-02T12:14:46.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "“Se buscará información oculta y cifras maquilladas”: José Manuel Restrepo revela detalles del proceso de empalme | El Colombiano",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR1VUTUFSUmRiSnVSYkEyNm1Ib1pPamVKRjQ4OWd5Nm1qcVBzc1I3OTM2OFFMd3MzcVlWQVI5RnVMTHYyRzZBUWM3TElSeEtPaFpTTXczTmhlMU9nUy1DOVY2TWhIYlVoelppRGc4ZFJ6QnljRVpNazVKX0tNLXpZeVptUkJaOGozd2FpQUJRazlwRDE3YVVISFM1UmNVLUJzR3fSAacBQVVfeXFMTVExdUdDeUZ4eHpJSDBHNDRGbURram44ZlJ4dktsa3N1TXFLRFZFcEtOWTYzMFVYZEpIeXM4ZjA1MUN2VzlBeXpucXNMaU94NURaY1FYWlA2bXc0UVphWmNHUzlIZm9OQU9fLWozSWhNR3JmQktvMTY1UkNfSHpBMmd6X3JzZDdvdjFnakFILWwzeDdocnFrNXdpa283RlpOckVhcXplckk?oc=5",
+          "pubDate": "2026-07-01T18:41:53.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "No más machismo: así formaron a 170 soldados en Medellín para prevenir violencia de género | El Colombiano",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORW9pZllNMWs1OC1ZSkprRGpvV0RtcjBKOU55ZENjbzM4SXNoTi1YQzdSR0dXaHhsZFVZX3kyNVhSaGp6clViNzd5WW5Id2I3eXJINko2TE0tMEw0VWNGX205MXhnd3FBdXhqRVdVRnFtMmkzc1I5WnVhQUpPcl94UEREUUFlUE0zQmRiMS1OeU5aZ2ZFMUx5Z2hRMFDSAaIBQVVfeXFMT3FMamFiU1dKNWpQUlRBdDZOUG9DU1lZaE9Ya0Z2ZWRxaThqR0FvbWVKQXREVmpuakNqQy1IZ1J0NmFUTW9ZanlWRnU3NWxZRENWMDBoTENwRlY4dzRsZFZ3UTRXS2ZWWWlIejc4Q1JMSTBRZWZqRU9XaTlpNTYwU2x6bWlDYS1sWVZUZGlSV0VZdy02LUJNcGVwWXlrZkxBOHZn?oc=5",
+          "pubDate": "2026-07-01T22:50:41.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -121,6 +170,13 @@
           "_priority": "ALTA"
         },
         {
+          "title": "Hospital Internacional de Colombia tiene sobreocupación del 270% en urgencias",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPa2V0d1BKWnp4WVdCTVlOb195azc3UllZSkIxU09XVEpqdFRlWXV3VXZ6N1dkOVBJNG8wRlBjclRuWkNrVUFhQ2NZYlNGQXdDOFhDR3NWWGlGWXFKMUsya2lvTGpVYjRxYzdWRndLbFNEN1pxOEhPUjdIUjBaUjBYcVluM2hVQnBqU3hSUlgySlJxUVRxZUVVd3lpY1JhMl90cEoxZk5fR2NJSlViOU01ekNtQ0VvMW1kSVRTdDBPY2NWS1BFYmc?oc=5",
+          "pubDate": "2026-07-02T17:04:20.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "Reclutamiento de menores en Colombia aumentó 300 % desde 2022, advierte Coalico",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQmVzWTU5c0pDcWJyZTFpNmFxUlRGT1o5QXdSUkd4MGN5VUVhM3h6Vk1VWUM0cEtnRk0zbkJqUTM1dy1pZ09GYktNTjNLTGVlUjNvNWR3UVZSX2Y2TDFyYXk5MDF1T252ZzZkREw5Yklid1RYNTRqLTZFLW5RZDd4OFBEeXI2Nms5T2hZUC1jT3hETkNLWngwTmhSTTBXd2xxcmlqVEszTFZFaTFXVlZTZzF0b9IBwAFBVV95cUxNUXBVUUpMMllRc3pZVHdKWkVYTENSYmZVd21WeWI5bFdPckpDZWdPR1NLMFREek9VN20ycjROZnE2eHVYTG5PLW45VGJ6NFB3Y08zX3M2ZU1WempyMEFhdG9CaWREdm1NcG52cC1XS0xEMEd4OVdQaHUzNWRVRm9kamRjd2RaYTZsM0ZyUkgxUE9fWVF6Q1ZlRWhHZjJGVHFzeDF5U1FrZUVmSWNVSzNwSHJKRDQwaXU4OWxTbTZVWVg?oc=5",
           "pubDate": "2026-07-02T12:47:28.000Z",
@@ -131,13 +187,6 @@
           "title": "Santander alcanza 120 toneladas de ayuda humanitaria para damnificados en Venezuela",
           "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWkh6WWZMU2N1bUJUMEsycWJYNEdZbExzWDIzWndubnc5LWx3VGF4M3RMYUJJWWczNHZOM1FKSDd4RnB0SVJEbGRrRE5CT1NjWEYxTjg0eDdfSEo1RlJhRDdDTW9mT3E1TC0yaE1PRnR1MDFqclJqZkF3ZkNRSXdRRkd3WDhhd0lESXdjLWo0bkpkSTBMN0NtYWtYa0M2S0V5blF4RWhxTGI4dW9GTzU2WUhMSnNqTjRYQ3BPcm1kMzJjT3RmX0RITXR5eGplOW_SAdwBQVVfeXFMUFpXaDNPWWE5N0VST3YwVnVHWV9HNGU5Y1RibjFNM0xtUjNEMk13TEt2NWQ3YjNuZFRaMndNRlJ4QTdMRXh2eVVXc0h3NmcyU2Y4dUxwZ1JXUGdfdWg0ZGtCVGNrRGE0VFZUM0lLTFlxTzhncWxldndfTFcyU25Zai1mQjJ2NnRlcHRhXzYtYWNWclRaVTVHa2VZWktOVElrNEF5VnpvY1VCV0hkRktKdU1CZXRWV2FCek4ySGJndW10Sko4RFBlVHcwcW9BSXc1RTU2NGJ3SEdWTHBXOQ?oc=5",
           "pubDate": "2026-07-02T21:13:35.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Demandan encargo de Antonio Sanguino como Superintendente del Subsidio Familiar",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNelJ5Z0JfWkZ2Z2kwZzdkRl8tdVNwVE5Nc2hmUVh1VFN2Qi0yTXVwY2pJR1VLLS16NWdILU1scjhjdDNCamd3VkluVUtjX0RYMU16dFpHQ1JSbExEMzJpTWttRFpPU1BJbk01ZGU5NmdUSThIZ2NzMERlUlBXRzMtX2h2SWdWb0Y1STM1eXRqM0FMakV0UEZCMGZsLTdzMTFoQV9sRlBkVGhDcWFmclJLZHp2VDljeFZXeUHSAccBQVVfeXFMTmxHUU5LOXNOaXRXRHZDR2lObmZWT0ZXeXNBNXFBQ2hYWWx6RWNVcGdPaWlTc1ZkYTVCUVpvUnFScXRoSy1CRTIyUWIwZmFQLXZ1bjFDb1pyOWxMeXZocUhvdUQ2Z09XRkpFb0x5a0tCZ3BCTmpLMzhvaVFPU05yTlFfRkhpeC11aHVHVzB3alJod2JJUjRHT0xLZUY3VWdDRWxFbEwtcVR4SDd1YWtNa2Fod2tKMjF4YnpPdUkyWUJyMC1zNFJXRQ?oc=5",
-          "pubDate": "2026-07-02T18:38:20.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -155,16 +204,16 @@
           "_priority": "ALTA"
         },
         {
-          "title": "‘Los Costeños’ están dispuestos a desmovilizarse: Otty Patiño",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNODItY3ByTVFEWUZtaHpZV3lnVWsyejJvdTB4VGVYT0JuMjVmLVBkRXJUQ2t4UndPeGhnYkpGVjhlOE9iZll1SE0tMnBDVnB1NEUwTUVmTG02cHNuQnJ3N0pMNWlBa3ZVaGhjbnRqeXYzb3BieU5ydS10WmJSektwcXlLbjFxeTFJNXZZdXQxTHlqb2pjLWVzdw?oc=5",
-          "pubDate": "2026-07-02T18:20:36.000Z",
+          "title": "Juez envió a la cárcel a ciudadano británico sospechoso de feminicidio agravado de Natalia Villalba",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMVhFa0hncEJoTW00T1ZBODlIbGFrRDZBd1VJQjdPNnJTQnpwaHFxMzdsZWRsdkszcW9HcTlFWHVFUjEydEFHcXExSkh5Q29uYlNfZWRHOURqU0dPT2hSbmdyN3hkMUktMkF2ODU0N3pmc3UybXVKQlVubVVoN05PckdNT1UxRl9yZHAwaFl4NVZPUnRwRHNhMFgyajdyT1U2TEIybmlHZHpXczVYeVkxUjV6dFVUdUFBbF9Wcldvb3dvQzBESG94dkg4MFNGREHSAeMBQVVfeXFMT0dNZW8ySkR1Ym5YOHJaOHhvX0JsSkJtNUktbWR6eWk4Rl9EU1ZXOG90MmhfSHc2RzlKWExlcDZBMUp1VWRfTzY3cXQ3bmpqVFhqeXRWaGNqcWVLeE1RMlBGVnFBbDg4VjN2cGRBWEt0T3pINmVWVlNBTG5lem52UXVqMW80eUNkSTJQTGl6b213aW14TmFlVlJsdnZLY3BmVW1UN29WWGRmbWxhdlg3ZVY4OGZjcXEzckEtdW45amVnZnhaaVMxZDFMcWt3U1VBU1VPZWU2T3RqUW50M1lxb3ZwOWM?oc=5",
+          "pubDate": "2026-07-02T19:31:35.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Juez envió a la cárcel a ciudadano británico sospechoso de feminicidio agravado de Natalia Villalba",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMVhFa0hncEJoTW00T1ZBODlIbGFrRDZBd1VJQjdPNnJTQnpwaHFxMzdsZWRsdkszcW9HcTlFWHVFUjEydEFHcXExSkh5Q29uYlNfZWRHOURqU0dPT2hSbmdyN3hkMUktMkF2ODU0N3pmc3UybXVKQlVubVVoN05PckdNT1UxRl9yZHAwaFl4NVZPUnRwRHNhMFgyajdyT1U2TEIybmlHZHpXczVYeVkxUjV6dFVUdUFBbF9Wcldvb3dvQzBESG94dkg4MFNGREHSAeMBQVVfeXFMT0dNZW8ySkR1Ym5YOHJaOHhvX0JsSkJtNUktbWR6eWk4Rl9EU1ZXOG90MmhfSHc2RzlKWExlcDZBMUp1VWRfTzY3cXQ3bmpqVFhqeXRWaGNqcWVLeE1RMlBGVnFBbDg4VjN2cGRBWEt0T3pINmVWVlNBTG5lem52UXVqMW80eUNkSTJQTGl6b213aW14TmFlVlJsdnZLY3BmVW1UN29WWGRmbWxhdlg3ZVY4OGZjcXEzckEtdW45amVnZnhaaVMxZDFMcWt3U1VBU1VPZWU2T3RqUW50M1lxb3ZwOWM?oc=5",
-          "pubDate": "2026-07-02T19:31:35.000Z",
+          "title": "¿Qué consecuencias tendría el llamado a la desobediencia civil para Iván Cepeda? Abogado explica",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ0diRG5lQjFXYmhlcVYzOEl4NkxnM3lWXzlKMUZvU2hpZXlxZFRYSzNJMHJwSUtfQTNMekNRN3pPR1R0bW15ZkZhdUI5MWJiQThEcUtaaGV0UVpiRGF5Q0Q1My14T3BORkxyUjd3ZTJuVGFUejFZTFlNX1JidkdOQWQ2ZkpSSmYxVThXNmJHODVaak9fVENJeWJtMU81NFpPTWFnOG1CTWQ0TnRxVEg4eGRFNXBPWFc2cUpVZ1VHSE1vVzd6Y1BibNIB3AFBVV95cUxQUEVyRkFrSGp5aVZkQW45OGEtN19seWg0MUd3MUJmeWFlM1hsODVOSFJvQlIzNC1DUkJUX3hFdHBwUjltZlBsZGtXdUMwV1NvRFFUZ0ZtZEtDNllHRmdXb1ZjSW1TajFtYTl2WlFVLUZZbzNuMldPSTZwd0VDdFZyVXFYNFlBMHlIRDdsbEE4TnpVN3ZjdjE2dzdWOFE4bkZKNFNaQU0zMjVCa0FRRl9kTVRHemNmVnVtcjdSb0JXbHl3ck01UEM5RUtVZHRRSGowVzd0XzdWNWVhN1o1?oc=5",
+          "pubDate": "2026-07-02T18:11:36.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -182,6 +231,20 @@
       "color": "grey",
       "items": [
         {
+          "title": "'Venezuela te busca': así funciona la plataforma para localizar desaparecidos tras el terremoto",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUzZkd2F5R2tseGQ0TkpJb2JUdkg0NUNsaHVLblVoaHBDRGtONHh6akxEWTZVbngzeTVNdTBUZ1RwbXB1SUdQb0tQaEFyM2ZvM2xrR1BHcHM5ZkRWamp1VnZQTHJPbWpPanNPX0NtYUZDTWh5M09Eb1FGaGpjU0RSb0tpMVYtamhwZkExWC1Dd2F5OVRtZ1p3TWthOC0wUWNpd19Bd3BxWlQ2aHZjTjk2bzN1VktyLUN1TDM2MXZUaEdKNjJQZFdfQWZPRQ?oc=5",
+          "pubDate": "2026-07-02T21:31:10.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "NASA revela cómo se desplazó la Tierra tras los terremotos que sacudieron Venezuela",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbkhmRk95THlFcHBxdFFYUXJCQk1lcUYxVW1oUENweDVSRkJUeWhUUTF0QWZ1NmsxWDFxLXlBUWEzdW5JS002X3NzenVRemg3bVVXTUJaQWI4TllHcDFaaU9OZjVBT3hkMmdQb1ZDS1BFamxlMS1ONVU1Ujk1UWxBck9qZVdYdkVwdEFzMjgxdl8tSl9BYVBvUkpTU0JuOXN4NjJpZVhCN2hHbUg2c3NGV0RSQnpqWC1MYnlpUnd3TUFnZw?oc=5",
+          "pubDate": "2026-07-02T20:29:11.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "¿Por qué se fue la luz en Bogotá, Soacha y Mosquera? La Alcaldía reveló la razón",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM1BsSjlGYWlPSFNEMGdwNnQwNHdlR2ZTcEdvVXlQR01IYWtaZ205ZjZmdEhxTDJxTXJOLTBIMU5fUExySWdwRERweDhTT2VTUWJUZWJOZnlYdmVpZm9kZGhSSFAzQXNhbkxjak9BSEFiTXpvZmtMZExzc3ltRE9MRnRVZXNyVnNTdVUtVTln?oc=5",
           "pubDate": "2026-07-02T21:09:06.000Z",
@@ -192,20 +255,6 @@
           "title": "Empalme de gobierno de Abelardo de la Espriella: ¿Cuándo y cómo será?",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc3F5NFJWdlpoN2MxWjdxVE00V1Q0c2lIRVBzRC1qd19VUUpCTGQyTDlZcFItTlpFRVpKc1FyUnhRRTNzUG1Wb0g5SHp0NkZwTUlfdUMyc1k2VGpLenZJTktxR3lWRTF6ZFk2YXRDQU9BMjlPTzVIX1kxeXdyVVlyYWRHZlV2NEVaeElEV0E0bjYybDIyN20yN0lUd1VFbUdJZnBzcjhESWs?oc=5",
           "pubDate": "2026-07-02T18:49:09.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Visa de Estados Unidos permite realizar pago adicional para adelantar la cita: ¿Cómo funciona este nuevo proceso?",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVURJN0tKU1djWXRNRmhMb1N6cVRmQkhPdFRXZTJYdE9iVXFucDdqNlRYd1dmbE9CNkE1eWtMYlBfWkJFVG9KTl9zeG9uMzJwVFAxTXFGVlE3Tk1VUEhic3NVQ25mMjktV21ZMllLUkN4V2FYaXVyd2M4aGFaR3NMQUxyRjBFZEh3c1ozREFqSGFKUGZBSG1Sb0Z1Tkc2U19IUHh5Mk5YOHdqUkZWVlo0X3ZBdXdCdUNEMlQ2dDBxdzhQUkVhREg4QTNWNFNUMTdqNUJYYV9XQmJUTzZNMGh4VnkzVVVhZw?oc=5",
-          "pubDate": "2026-07-02T21:29:14.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "NASA revela cómo se desplazó la Tierra tras los terremotos que sacudieron Venezuela",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbkhmRk95THlFcHBxdFFYUXJCQk1lcUYxVW1oUENweDVSRkJUeWhUUTF0QWZ1NmsxWDFxLXlBUWEzdW5JS002X3NzenVRemg3bVVXTUJaQWI4TllHcDFaaU9OZjVBT3hkMmdQb1ZDS1BFamxlMS1ONVU1Ujk1UWxBck9qZVdYdkVwdEFzMjgxdl8tSl9BYVBvUkpTU0JuOXN4NjJpZVhCN2hHbUg2c3NGV0RSQnpqWC1MYnlpUnd3TUFnZw?oc=5",
-          "pubDate": "2026-07-02T20:29:11.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -230,13 +279,6 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Seguridad, salud y energía serán las tres prioridades del gasto para el nuevo Gobierno",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYV94NzAzWWRQTDJ6c19hN3ZRX2Uza2NUUm9ERkxrLUw4M2UzbU1yc0NVNHZobm51M0hCQjNDTWNtSmNHQWo1Z29qVHBldGFOZFpzOTVnS0lCRFNCRGVUYlc2aTRQOWRJM3oxODlrZWlPMlFwZVpXRml6dWM1aG42b1ktUGgyZGRhSFE2Nzc1Nm9JQk50V3JFbmxsbUFNTUxfLW5tUHBtSDJXclJVbklLRkloTHB3SThrN21ZMDhXS2ZvcnpjNWFGNllZbmo4cXYwamVCbll4NNIB1wFBVV95cUxPYV94NzAzWWRQTDJ6c19hN3ZRX2Uza2NUUm9ERkxrLUw4M2UzbU1yc0NVNHZobm51M0hCQjNDTWNtSmNHQWo1Z29qVHBldGFOZFpzOTVnS0lCRFNCRGVUYlc2aTRQOWRJM3oxODlrZWlPMlFwZVpXRml6dWM1aG42b1ktUGgyZGRhSFE2Nzc1Nm9JQk50V3JFbmxsbUFNTUxfLW5tUHBtSDJXclJVbklLRkloTHB3SThrN21ZMDhXS2ZvcnpjNWFGNllZbmo4cXYwamVCbll4NA?oc=5",
-          "pubDate": "2026-07-02T17:36:10.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
           "title": "Contraloría advierte que más de la mitad del Presupuesto General de la Nación de 2026 aún carece de financiación",
           "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOC0wY0h2blZ0anBFRjgwYndGZ0JnZ21nUW5BVDZJaXZpQ1hBUjNtTHRkRkZKdWRwOEEtZWpmS01FQ2R3d0JUVmNmZnh5ZUo3bGZEdjlta0JFdGlrMGhWYi1rcGZ2R3VkV1FqQTZRUFBBZ19zX1V5UDc5TmFoQUJJaExIaW0yM0YyeGpIdnVsS2ktZjhHU005cDh1UmZpTzBrR1BNNEc5R1hQT05ybm9CUEt1dlFPbVpKQkhDRmttZnNnQ0hPc2pMS3oyU1ZKNVcwNVAtX0gtc3JUeGFKaVBuaXhSTjlRREVmTkHSAe8BQVVfeXFMUG1PbjFlNFlCZk1Kdkt5M3labFNPNTJIMGd1LVR6b2hDWTA2allnVTNnR1FmeGhPMklFM2tVbk9aM05NRzVXb1dkT2h6b3ZRTEhDUmoxbUhrMFg0Y25GeUkyb2RQQlJEVU5IMHpwb0xNWGxVdUNWOGdqdEVrQzVuS053MUxuZlNXWFp6YVBWUXd2anlFbzVsQTRIX1JwSXZtY3Y3YlFvdmczS2tkQ3JyYkhsand6LVlIZHFvWnE5U2E5VDlJMS05NUd6V3RIdmtuNlhtZTlXV2FmdGRSZDQxMzB2M05GM0tCN0QxbVY4WkU?oc=5",
           "pubDate": "2026-07-02T14:00:25.000Z",
@@ -244,9 +286,16 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Gobierno de Abelardo De La Espriella analiza derogar decreto de traslados pensionales sobre inversiones de AFP",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSjRLcjMzWTdXNmgwOTdLZ3duSFN3OE1TV1hYSkJWOXA0UTVqWWdPZTljLVpGQmROTjR1RFN3UEdLQjkyOVoxYzljZ0Z4M1F2LUozVTlGaUhIbC03d1B6RUpScTZmY3c0OWNlcmtOUFM3QzhhdG5xRmFzYXJDclhMekJsUElvNzJXUGVpZ2xFV2l2YUY4aFdGaGFBQ0l3aFlYVjNQNXBCcHVMUXN0WkJSRU9LejJNRTBkX2NjeEFUU3FQWHZDOVpFbDJJT2VNQXN1NWZnYXVMc2xNVC1DMUNpMUJneUNxeFBaeXVNWkwxQW1KLWvSAfMBQVVfeXFMT0o0S3IzM1k3VzZoMDk3S2d3bkhTdzhNU1dYWEpCVjlwNFE1allnT2U5Yy1aRkJkTk40dURTd1BHS0I5MjlaMWM5Y2dGeDNRdi1KM1U5RmlISGwtN3dQekVKUnE2ZmN3NDljZXJrTlBTN0M4YXRucUZhc2FyQ3JYTHpCbFBJbzcyV1BlaWdsRVdpdmFGOGhXRmhhQUNJd2hZWFYzUDVwQnB1TFFzdFpCUkVPS3oyTUUwZF9jY3hBVFNxUFh2QzlaRWwySU9lTUFzdTVmZ2F1THNsTVQtQzFDaTFCZ3lDcXhQWnl1TVpMMUFtSi1r?oc=5",
-          "pubDate": "2026-07-02T18:09:45.000Z",
+          "title": "Seguridad, salud y energía serán las tres prioridades del gasto para el nuevo Gobierno",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYV94NzAzWWRQTDJ6c19hN3ZRX2Uza2NUUm9ERkxrLUw4M2UzbU1yc0NVNHZobm51M0hCQjNDTWNtSmNHQWo1Z29qVHBldGFOZFpzOTVnS0lCRFNCRGVUYlc2aTRQOWRJM3oxODlrZWlPMlFwZVpXRml6dWM1aG42b1ktUGgyZGRhSFE2Nzc1Nm9JQk50V3JFbmxsbUFNTUxfLW5tUHBtSDJXclJVbklLRkloTHB3SThrN21ZMDhXS2ZvcnpjNWFGNllZbmo4cXYwamVCbll4NNIB1wFBVV95cUxPYV94NzAzWWRQTDJ6c19hN3ZRX2Uza2NUUm9ERkxrLUw4M2UzbU1yc0NVNHZobm51M0hCQjNDTWNtSmNHQWo1Z29qVHBldGFOZFpzOTVnS0lCRFNCRGVUYlc2aTRQOWRJM3oxODlrZWlPMlFwZVpXRml6dWM1aG42b1ktUGgyZGRhSFE2Nzc1Nm9JQk50V3JFbmxsbUFNTUxfLW5tUHBtSDJXclJVbklLRkloTHB3SThrN21ZMDhXS2ZvcnpjNWFGNllZbmo4cXYwamVCbll4NA?oc=5",
+          "pubDate": "2026-07-02T17:36:10.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Estrategia de rescate fiscal: habla el ministro de Hacienda, Miguel Gómez",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQUR6ZWExclYzd2J0dHRva0Q3WGQxd2Z0NGlaeFZqWnhXX3g5aUFCX0FnN2pGVGxVWE85VUJjRW94cjNPY2E2WHpJWWNlX1dWbXB0RzVVVEllWkE0b3VnbFZRU2RkUzdYLTh0dTc2LUhjdTllUUhVR01TbWU2M2x1VTdaVDd4YnNXR05seU92QlBOR0oxV0FfUUhHRVFfRnU1T2t1LVl3VWNDT2ctNlNidk9BT3o0UWF4YnZJMnY2ONIBxAFBVV95cUxNQTNjaW9ONnJTR1VrZXhhWklsMjFqcVVkeGhnVHNRcklUNFg5aTJuX0J3UUdYemh4UnZsMTZaR3YzamZxa1BaeEk0em5TZ01wUDB6QXg1YXM0YmJ1RU9tSWhrTjRzMk1jYkQ0X2RBbmJDMk8wWlRobFU2M0VXVTc0X0d1NmcxakZiMnBiWFA4aHQ1NXp4dGdfVFBPdHhWWGZ2RVBqdzVGVmpnS0VwcUhHeWNUcGt3N294Rk1lR01lbXBURDAz?oc=5",
+          "pubDate": "2026-07-02T14:59:52.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }

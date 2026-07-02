@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#CrisisSeguridadColombia",
-      "#TransiciónDelaEspriella",
+      "#CrisisSaludColombia",
+      "#EmpalmeDelaEspriella",
       "#HomicidiosCali",
       "#ReclutamientoMenores",
-      "#CrisisEnergéticaCaribeano"
+      "#DeudaEPS"
     ],
     "mundo": [
-      "#RusiaAtaqueUcrania",
-      "#GeopolíticaOTAN",
-      "#CrisisVenezuela",
-      "#InvestigacionesElectoralesUSA",
-      "#CrímennesInternacionales"
+      "#UcraniaBajoAtaque",
+      "#RusiaVsUcrania",
+      "#CrisisGeopolítica",
+      "#PuertasdelPoder",
+      "#ConflictoMundial"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#MenoresEnBombardeos",
-      "#NuevoGobierno2026",
-      "#DesempleoYPobreza",
-      "#BandasDrogas",
-      "#ViolenciaEnLasCiudades"
+      "#SinAgua",
+      "#CrisisSalud",
+      "#EmpalmeGobierno",
+      "#VioleniaEnCali",
+      "#NiñosSinEscuela"
     ],
     "mundo": [
-      "#RusiaVsUcrania",
-      "#TerremotoVenezuela",
-      "#CaosEnEstadosUnidos",
-      "#Guerra2024",
-      "#CrisisHumanitaria"
+      "#WarInUkraine",
+      "#RussiaAttacks",
+      "#GlobalCrisis",
+      "#NewsAlert",
+      "#WorldTension"
     ]
   },
-  "generatedAt": "2026-07-02T21:43:52.473Z"
+  "generatedAt": "2026-07-02T22:11:02.492Z"
 }
