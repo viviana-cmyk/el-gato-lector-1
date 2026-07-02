@@ -1,35 +1,21 @@
 {
-  "generatedAt": "2026-07-02T20:33:47.925Z",
+  "generatedAt": "2026-07-02T20:58:47.486Z",
   "outlets": [
     {
       "name": "CNN en Español",
       "color": "grey",
       "items": [
         {
+          "title": "El FBI asigna a 260 miembros del personal a la investigación sobre las elecciones de 2020 en Georgia",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdVplTnpWQlkwT0ljaFJDdVZic2F0dnFDTHd0aDJ0a2c0a0tMbTJtbjRja0tKdk93VF9TOE90SVZlRmFObUlUWXB2ZlRmbHRWbTdJdHRjSjAzaTYzNndDWnJUNVNUdjd3eEV5b2hOV0lUelZBb3QxV2J4VEozV3FPbkN2UUREMGN4Q005T1dWYjREenM?oc=5",
+          "pubDate": "2026-07-02T20:46:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "Miembro de la Fuerza Aérea de EE.UU. es arrestado en el Capitolio tras pedir un juicio político contra Trump",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZzljblNnRXFuQ1VjTU5vVzc0bnA1cDNMcUhmZlMxMGVOX1NwazQ5ZmxRZlFNODJkaVl0ZlI4dzRrRHd2OHlma1BOaUVEYlYwNkdBa0lKS1hoNVpoeWVtTXBvSjZXbmdzRmxZeTFOLXhRRkdNdUZScWR6ckVVNmZPck5nT3phUQ?oc=5",
           "pubDate": "2026-07-02T18:43:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Video muestra cómo fue el ataque de Rusia contra la capital de Ucrania",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNXzZBSEYyeGhRM3V0SGxvX2xOYUVITHMxbTFRazhiNWJseDNhSGJzal80VFVHV0Y0NzhvY05wbEdfOWdzUDJuZ3FoNVNaMks2MU9Ud1RoSWJXaGJHYzNWdnZkWlNFbnJtSlhGcHRkdGtMWWliMmo3VFNjNXZzeWh0ajFldFFma2twbUVOSGFON3E?oc=5",
-          "pubDate": "2026-07-02T13:17:28.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Más sangrienta que Stalingrado: el número de bajas de Rusia en la guerra contra Ucrania alcanza los 2 millones",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUTJQd3V3R0E3enFXeUhDRVVWd0xzWEVUNmVZdlhoZWl0bFFfS2tvanBYaHlJbkpqclJhdmc2SEtaeTU3b3F6RTAwRTB0Z2JrUXgtNmRtLU00blRjb2R4OW9uUWJtbDlFVDBwc2hRVTRWWjNZdHZpSzZVQUZnWWxkMDc1X3RPRkNqMUQ5dmtnMA?oc=5",
-          "pubDate": "2026-07-02T11:21:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "\"El peor momento\" para los venezolanos en Estados Unidos: crecen los llamados para que regrese el TPS luego de los terremotos",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdm5TdV93SWtJWHpkUWFmWWlVQnZJNTlkUTlRME9UN0ZxWDhfSk5sMldQbkxzOXR4RWVvX2hXZDlPNlRieTA5b1VKVXVibDNpZzlsY0NicEw0SGtyM0xZN3Awc0NlOVdIVk1KckRKNnVuaEtpMXhhekJNT1gtY1lVeldjODFyNkVwQzAzN3dCVVRHUE42S1V2Mw?oc=5",
-          "pubDate": "2026-07-02T15:51:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -39,59 +25,65 @@
           "pubDate": "2026-07-02T17:43:31.000Z",
           "snippet": null,
           "_priority": "ALTA"
-        }
-      ]
-    },
-    {
-      "name": "El País",
-      "color": "sky",
-      "items": [
+        },
         {
-          "title": "El juez Pedraz imputa a la directora de la Guardia Civil y a su número dos en el ‘caso Leire’",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblVWU3B5aEhjYWZLXzY2bkJ3ODhVLTNDTzJORjEtYm9sQ0V4anRDMTFoTHQ1bWktblBOTjAzaEREcjNHejB2RmJKR3J1TVBzUUJpbXNCVVd6akV5Zm5BYWVsQVdmS3pXUDd1SERsZmQ2NGk4RzNKeU1tX29YOFc2dWFxU2M3WVZ0QzdrV3h0MmQ3RFE3eXJFVERCTDRrN3VSdTZiZU1wNGI0N3lPcm4yUER0R21IN0lfWWtjd25WZ3FjZ0lPXzVCeE1YclF0QdIB4gFBVV95cUxQOUV5bmluTlBPeUFRXzJKTHNreURWVE9mYVc5ZFVpbklhY0hhY0oydlpyYTBXR3o2S0lGVE4wY20yME1SSFY5SHczNUNNMk9TcHVtYmZmUjZmSGRSQ0R1T3Q2Z0N0blMxaUxrQ2MtekVUZTkwRlVzNVVvSzgzMDFfblV1aV9ULW9RVzFFUkp1dVRrcEF1X1Jpb0x1V2xZV3pUUW1xOXNtS0lxNnM1NFRwT3d6Uk0yNGVLbmFGdEQ4cEFMVUp2QjlEblNYRVJQbTJycFRFZncyYjFHT3RqT245RnR3?oc=5",
-          "pubDate": "2026-07-02T09:42:06.000Z",
+          "title": "Tras 4 muertes en festejos por el Mundial en México, Reino Unido lanza advertencia de viaje ante el partido con Inglaterra",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT2JJd1V3WElOYmRmWkNKd3o4V3NCVk94cnhZUHFFSUJ6cDM0aVloeHdTVk5SLUdGSTRNYUk0cWpjWGdKUWJhRVowVHdQTUhZTVB3Y01ITDQzZkpUdFoyRDc2WHp3RkluRFJjLTR6MjZtOXVKdVJTYncwNTF3SF9RWmMyOU5FeDdZdmozNVRKMnNMYmg4bmZSQVF1RWdsenR0WGFEZTJn?oc=5",
+          "pubDate": "2026-07-02T17:23:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "\"El peor momento\" para los venezolanos en Estados Unidos: crecen los llamados para que regrese el TPS luego de los terremotos",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdm5TdV93SWtJWHpkUWFmWWlVQnZJNTlkUTlRME9UN0ZxWDhfSk5sMldQbkxzOXR4RWVvX2hXZDlPNlRieTA5b1VKVXVibDNpZzlsY0NicEw0SGtyM0xZN3Awc0NlOVdIVk1KckRKNnVuaEtpMXhhekJNT1gtY1lVeldjODFyNkVwQzAzN3dCVVRHUE42S1V2Mw?oc=5",
+          "pubDate": "2026-07-02T15:51:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
       ]
     },
     {
+      "name": "El País",
+      "color": "sky",
+      "items": []
+    },
+    {
       "name": "The Guardian",
       "color": "yellow",
       "items": [
         {
-          "title": "AFP evaluando alegatos de crímenes de guerra en Gaza cometidos por ciudadano australiano sirviendo en las FDI",
+          "title": "AFP evaluando acusaciones de crímenes de guerra en Gaza cometidos por ciudadano australiano que sirve en las FDI",
           "link": "https://www.theguardian.com/australia-news/2026/jul/03/afp-investigating-alleged-war-crimes-committed-by-australian-citizen-serving-in-idf-in-gaza-ntwnfb",
           "pubDate": "2026-07-02T19:44:18.000Z",
-          "snippet": "Las acusaciones contra el batallón de las Fuerzas de Defensa de Israel incluyen dirigirse deliberadamente y destruir edificios residenciales en 2023 y 2024 sin justificación militar Recibe nuestro email de noticias de último momento, aplicación gratuita o podcast de noticias diarias Los investigadores de la policía federal australiana están evaluando un…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Red \"verdaderamente internacional\" de agresión sexual facilitada por drogas descubierta por agencia de crimen del Reino Unido",
-          "link": "https://www.theguardian.com/society/2026/jul/02/international-network-drug-facilitated-rape-uncovered-by-uk-crime-agency",
-          "pubDate": "2026-07-02T17:05:47.000Z",
-          "snippet": "La NCA dice que los delincuentes se organizan para agredir sexualmente y filmar víctimas a través de redes en línea con crímenes a menudo ocurriendo en relaciones de confianza Los investigadores criminales en el Reino Unido dicen que han descubierto una red \"verdaderamente internacional\" de agresión sexual facilitada por drogas organizada en la que…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Indignación por movimiento \"cruel\" de Florida para prohibir estudiantes indocumentados de universidad",
-          "link": "https://www.theguardian.com/us-news/2026/jul/02/florida-undocumented-college-students",
-          "pubDate": "2026-07-02T16:56:35.000Z",
-          "snippet": "Los críticos condenan la decisión de la junta de educación alineada con el gobernador republicano de extrema derecha Ron DeSantis de bloquear el acceso al sistema de universidades Los defensores de inmigrantes en Florida han denunciado una nueva regla \"cruel y dañina\" de funcionarios de educación alineados con el gobernador republicano de extrema derecha Ron DeSantis para prohibir a…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Una ola de calor brutal azota el este de EE.UU. antes del fin de semana del Día de la Independencia",
-          "link": "https://www.theguardian.com/environment/2026/jul/02/heatwave-eastern-us",
-          "pubDate": "2026-07-02T20:16:14.000Z",
-          "snippet": "El Servicio Nacional de Meteorología advierte que el índice de calor podría alcanzar 115°F mientras el calor arrecia en el medio oeste, el valle de Ohio y la costa este Regístrate para recibir el boletín Breaking News US Una \"ola de calor prolongada y peligrosa\" se extendía por partes del centro y este de Estados Unidos el jueves, con fo…",
+          "snippet": "Las acusaciones contra el batallón de las Fuerzas de Defensa de Israel incluyen el ataque deliberado y destrucción de edificios residenciales en 2023 y 2024 sin justificación militar Investigadores de la policía federal australiana están evaluando…",
           "_priority": "ALTA"
         },
         {
           "title": "Burnham promete aliviar las presiones del costo de vida si se convierte en primer ministro",
           "link": "https://www.theguardian.com/politics/2026/jul/02/burnham-promises-to-ease-cost-of-living-pressures-if-he-becomes-prime-minister",
           "pubDate": "2026-07-02T19:38:16.000Z",
-          "snippet": "El diputado de Makerfield dijo que consideraría reducir las tasas comerciales como parte de un paquete que también podría incluir congelación de alquileres privados Andy Burnham prometió aliviar el costo de vida si se convierte en primer ministro en su primera entrevista desde regresar al parlamento. El diputado de Makerfield…",
+          "snippet": "El MP de Makerfield dijo que consideraría reducir las tasas comerciales como parte de un paquete que también podría incluir congelación de alquileres privados Andy Burnham prometió aliviar el costo de vida si se convierte en primer ministro en su primera entrevista desde su regreso al parlamento. El MP de Makerfield…",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Los recortes de infraestructura para pagar la defensa costarán al Reino Unido 10,000 empleos, muestra el análisis",
+          "link": "https://www.theguardian.com/politics/2026/jul/02/infrastructure-cuts-starmer-pay-defence-will-uk-10000-jobs-analysis-shows",
+          "pubDate": "2026-07-02T18:46:36.000Z",
+          "snippet": "Exclusiva: Los hallazgos cuestionan las afirmaciones de Keir Starmer de que la reasignación de fondos al MoD impulsará empleos británicos La decisión de Keir Starmer de recortar miles de millones en gastos de infraestructura para pagar más equipos de defensa terminará costando al Reino Unido 10,000 empleos, según…",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Lisa Nandy renuncia a X por temores de que el sitio propiedad de Musk promueva 'abuso y desinformación'",
+          "link": "https://www.theguardian.com/media/2026/jul/02/lisa-nandy-culture-social-media-x-abuse-misinformation",
+          "pubDate": "2026-07-02T17:43:30.000Z",
+          "snippet": "La secretaria de Cultura dice que su departamento dejará de usar la plataforma, citando preocupaciones sobre contenido de extrema derecha que alimenta violencia y división El departamento de cultura y medios del Reino Unido dejará de usar X porque el sitio 'ahora favorece el abuso y la desinformación sobre el debate significativo', dijo Lisa Nandy…",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Hombre acusado de ordenar asesinato de Daphne Caruana Galizia pagó honorarios legales de sicarios, escucha la corte",
+          "link": "https://www.theguardian.com/world/2026/jul/02/man-accused-of-ordering-daphne-caruana-galizia-murder-paid-hitmens-legal-fees-court-hears",
+          "pubDate": "2026-07-02T17:21:37.000Z",
+          "snippet": "Se dice que Yorgen Fenech gastó €400,000 en honorarios para hombres condenados por bomba de automóvil que mató a periodista investigadora Un empresario acusado de encargar el asesinato de la periodista maltesa Daphne Caruana Galizia gastó más de €400,000 (£343,000) en honorarios legales para los asesinos…",
           "_priority": "ALTA"
         }
       ]
@@ -101,31 +93,31 @@
       "color": "mint",
       "items": [
         {
-          "title": "Rusia bombardea la capital de Ucrania en ataques mortales",
+          "title": "Carney Presenta Megaproyectos para Impulsar el Comercio de Canadá con Asia",
+          "link": "https://www.nytimes.com/2026/07/02/world/canada/carney-trade-oil-pipeline-alberta-british-columbia.html",
+          "pubDate": "2026-07-02T20:47:45.000Z",
+          "snippet": "Las inversiones multimillonarias, incluyendo un nuevo oleoducto de Alberta a la Costa del Pacífico, e instalaciones de gas natural, tienen como objetivo diversificar el comercio lejos de Estados Unidos.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Ucrania intensifica presión militar sobre Crimea bajo control ruso",
+          "link": "https://www.nytimes.com/2026/07/02/world/europe/russia-crimea-ukraine.html",
+          "pubDate": "2026-07-02T20:46:43.000Z",
+          "snippet": "Los ataques de drones en aumento, escasez de combustible y cortes de energía en la región anexada por Rusia están entre los factores que aumentan la presión sobre el presidente Vladimir V. Putin.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Vaticano excomulga Sociedad de San Pío X, en Primera Gran Crisis para Papa Leo",
+          "link": "https://www.nytimes.com/2026/07/02/world/europe/vatican-society-st-pius-excommunication.html",
+          "pubDate": "2026-07-02T20:41:27.000Z",
+          "snippet": "El movimiento contra la Sociedad de San Pío X siguió su desafío al Papa Leo XIV al consagrar nuevos obispos contra sus deseos.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Rusia Golpea la Capital de Ucrania en Ataques Mortales",
           "link": "https://www.nytimes.com/live/2026/07/02/world/ukraine-kyiv-russia-attack",
           "pubDate": "2026-07-02T20:06:21.000Z",
-          "snippet": "Al menos 21 personas fueron asesinadas en Kyiv, dijeron las autoridades locales. El presidente de Ucrania había advertido que Moscú estaba preparando un \"ataque masivo\" mientras las fuerzas de su país han golpeado más profundamente en territorio ruso.",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Rusia bombardea la capital ucraniana con ola mortífera de ataques",
-          "link": "https://www.nytimes.com/2026/07/02/world/europe/russia-attack-on-kyiv.html",
-          "pubDate": "2026-07-02T20:06:08.000Z",
-          "snippet": "Al menos 27 personas fueron asesinadas en ataques de drones y misiles en Kyiv que dañaron varios edificios residenciales en toda la ciudad, dijeron las autoridades.",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Rusia bombardea la capital ucraniana con ola mortífera de ataques",
-          "link": "https://www.nytimes.com/live/2026/07/02/world/ukraine-kyiv-russia-attack/heres-the-latest",
-          "pubDate": "2026-07-02T19:48:37.000Z",
-          "snippet": "Al menos 27 personas fueron asesinadas en ataques de drones y misiles en Kyiv que dañaron varios edificios residenciales en toda la ciudad, dijeron las autoridades.",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Putin se venga con nuevos ataques después de que Ucrania lleva la guerra a Rusia",
-          "link": "https://www.nytimes.com/2026/07/02/world/europe/russia-putin-ukraine-war-pressure.html",
-          "pubDate": "2026-07-02T20:06:19.000Z",
-          "snippet": "Ucrania está llevando la guerra a Rusia, pero hasta ahora la respuesta del presidente Vladimir V. Putin ha sido mantener los ataques, incluyendo ataques de drones y misiles balísticos mortales en Kyiv el jueves.",
+          "snippet": "Al menos 21 personas fueron asesinadas en Kyiv, dijeron las autoridades locales. El presidente de Ucrania había advertido que Moscú estaba preparando un 'ataque masivo' ya que las fuerzas de su país han golpeado más profundamente en territorio ruso.",
           "_priority": "ALTA"
         }
       ]
@@ -135,32 +127,32 @@
       "color": "green",
       "items": [
         {
-          "title": "Por qué un caso fundamental para el movimiento antivacunas podría terminar en la Corte Suprema",
+          "title": "Ocasio-Cortez respalda en la primaria demócrata del Senado de Michigan repleta de tensiones",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdTF6bTIwcmZFM2M3eGRRQ0wzQXAxblVXRmozdlBaYjNSTm9CSS1WX210SWJEMVVrUnNaWWVWZXZDdkFuOFJ4V09ydS1RdFd6cV9zN2dnOGozNlZxMDYyMkY4dVJaWFo2a1JSMV96SnZaSzVsUHVuSFJ4ZV90ZkR6RmxfU3ZRano4RkppRnZqMEduNXlWaTlKRkFSRDBxX0JONWlBRVI4aHVVcmIzNDhzeUlXU0JhUGZsaXRPVmJn?oc=5",
+          "pubDate": "2026-07-02T20:53:59.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Los bebés nacidos este año recibirán tarjetas de Seguro Social con logo 'Libertad 250'",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUFtZUlDeUNVcGZrTDA0Mi02M1NFc0RBbUJNbUR1UUdQV1Q3emE5LUFiMkxTZTZyaUxJOXZ1Si1jRHNwcEFJX1BvWGFwQ2RIUDdVTUdlc0xkTHhiNUNmWVNKWE5HMDViTzU5dW8xV3pxWWc4alluMEwtbjVZZWc3ZVcwS1NaZWluWnpLakNRNnc4TUdSSTFyeU4yNlBNbHI3UThJeWxQSDdmRXg3aGlQd21Vd0tNTHpqZ3MycUZ4bGx0NVk2UVlMNG9n?oc=5",
+          "pubDate": "2026-07-02T20:33:31.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Por qué un caso fundamental para el movimiento anti-vacunas podría terminar en la Corte Suprema",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNemh3czZGS2htb0piUzltOGZIOTd0b2tpZFhsUjBTVmE3UHpNTWJYbTRkMHVyQ01hNTZHaTI1dTdVV0daZUZjSE9EVVh3SUhjVU9hQmhQdERYMDJObGExckdHdkdtd1B6eWdIREEwRnJqNGVMSnJXUDZXSkkzbHpGMVhfclVmbkpUZGdub3lmbHdSYTlCQmJBaThvaGRzNGlGR0l0eHNWQ0ZpbmdIdHVzQw?oc=5",
           "pubDate": "2026-07-02T20:18:07.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Trump hizo $1.4 mil millones de criptomonedas el año pasado. Esto es lo que sabemos.",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQa1Q0Z19KdGNseDVKaFdDeEtXXzQxMWN3WHREVmhhNVUxM2JiOWNiczVXNmtIYXEtNUZtVDRnQkYwdWlXbkJxcC1fVHFYQXFzOHhNVXlmTVZtUVNQTkZCR1Mya1h3UUVqOENiMnlEVURxVE15a0swem1RbjZ4UDZHN1kwalF4X1FLTlRnU0JKRHpxMEhaY0Ruel9QQk9CTGtIamE1MDJvUTZkUkhLQWc?oc=5",
-          "pubDate": "2026-07-02T19:15:00.000Z",
+          "title": "Rusia sacude la capital ucraniana con asalto masivo, matando al menos a 17",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSzE1NERzdFRicHBNd2RfMG9fd211Uks2NUNpb1doQTk4b0R4dllRbTczenUyRTluOWdhOHZlaXpMeFdYdzFpX3dhdUR4eEw2VXhzbEcyVTlIZnkwTUd6ZGpQbkVVbXl3RkJ1dzR4b0NJSmszUERIMVpYdVpoeTBDYjVFLTRGdVFldTNxNzB2RTFXZzN6QzV5R2wyOFJCYXZ5c2c?oc=5",
+          "pubDate": "2026-07-02T15:44:07.000Z",
           "snippet": null,
           "_priority": "ALTA"
-        },
-        {
-          "title": "Los bebés nacidos este año recibirán tarjetas de Seguro Social con logo 'Freedom 250'",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUFtZUlDeUNVcGZrTDA0Mi02M1NFc0RBbUJNbUR1UUdQV1Q3emE5LUFiMkxTZTZyaUxJOXZ1Si1jRHNwcEFJX1BvWGFwQ2RIUDdVTUdlc0xkTHhiNUNmWVNKWE5HMDViTzU5dW8xV3pxWWc4alluMEwtbjVZZWc3ZVcwS1NaZWluWnpLakNRNnc4TUdSSTFyeU4yNlBNbHI3UThJeWxQSDdmRXg3aGlQd21Vd0tNTHpqZ3MycUZ4bGx0NVk2UVlMNG9n?oc=5",
-          "pubDate": "2026-07-02T20:17:56.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "No, EE.UU. no puede salvar a su estrella de una suspensión de un juego",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObllmcjNrZTk0YmVyNzQxeTRBQ1hpbmt1UklrSXE3enkyUEo2YjR4OUZOeGpiVnltY1htcVozSVQ5cGg2b196bDNwVTBTSXBvSUczMjJpSlJyUFNmTy0yMHlEX215dVNhT0ZHMjRHSkpQMjNOM0g3NnZOQ2MwUEVVbTd1N180eXRLMlZ6M1JIT3M2REE?oc=5",
-          "pubDate": "2026-07-02T19:37:47.000Z",
-          "snippet": null,
-          "_priority": "DEPORTES"
         }
       ]
     },
@@ -183,7 +175,7 @@
           "_priority": "ALTA"
         },
         {
-          "title": "El avance de Volodymyr Zelensky es un intento de forzar negociaciones de paz",
+          "title": "El impulso de Volodymyr Zelensky es un intento de forzar conversaciones de paz",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZTByRm1WNkdEV091Q1lPWGhEcUx6dHZYc1M0cVd0TVloaWFJWE8xNVJBVW1kSXhQTEswZlpkV05iRnZiZF82NjFHZEVpRWh2UFd5Tml6ek83RVlIekkxNUF2dW4xRkFvS1hNTEZTZGRDUWJXWUVONGZNcWRzWW1CaDdLaS1ILW9rQS16YVFEM3ZrNlZSUnl2bm5paWFkcy1n?oc=5",
           "pubDate": "2026-07-02T14:22:37.000Z",
           "snippet": null,
@@ -208,6 +200,27 @@
           "pubDate": "2026-07-02T18:54:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
+        },
+        {
+          "title": "La lista de los sapos, escribe Salvador García Soto",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN3Y2cEloMXNnODdYSGZqdmlwT3dqQWxjNHBfMjJTZjJqenlXRThYX2gyQUhJc19fWlNUR0hCRS1xbGdjODVRSE9WWEl6ekg2Tmh1UHNXQ0w0V2xCTDhsUjItU2lGVXJkWk5iOXk0ZXFzcTBKWHdVd042RzRlLWFtNzR1YjhueTVOZWc?oc=5",
+          "pubDate": "2026-07-02T12:35:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Incertidumbre, el sello de la casa, escribe Lorenzo Córdova Vianello",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUVAtV3ktT2NnbnFHYjRNcjB1TjF3RDJpS2F5dkFIRE5iUVlWUTYyNUxXaFJsZDdkMHVrZ25NLW5YUlE2NjktYmlfaHJwbjFkbVRfYmM4TVQ2SlRUR0ZldUlVcmlkYW1vYUw3TmJDNFd0cDZSelhhYTByTVlIa0ZVd0xXN2xRUTIxa3V1RnhsUnlFREJTUXZXd0J2YXRRQ00?oc=5",
+          "pubDate": "2026-07-02T10:05:53.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "La chicanada contra Somos México, escribe Javier Martín Reyes",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTnVyR3lIVVVuRS1CTG5SS2pEaVBwSmQwZHZ5Z3BVWFdxUDNmc3Q5d2F1TV9QN2I1WmcyU0JycFRpOHMyOEVveU83UWdKdmdUZTN1MmgyLXpKTTlJNVk3akFwaXVZMTlSamJCX2Z3SXZOU1pLQkRHWEs3TnZoS1libjg5ZklpQVR1OUN5U092VQ?oc=5",
+          "pubDate": "2026-07-02T09:58:26.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -230,16 +243,16 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Florida multa con $20.000 a contratista de FPL por fumigación aérea que dañó propiedades y desata investigación federal",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNV93WHRNMkJ3YTdHRkRSRVN3eXZGNFV4dEVSNzQzQ0EzWFR2N3Fpb2dudElaUXV4UTZFRUM0bVpKRFRZdE00SVRUcTYteVUzX3JOYUVlQU5uaF84TEdjdnpMNVoyNC1HLUU0SlZpSzRBUGV6Mk5nZkZNRFprM1Fma05zdC1IUDBZTEZQLWtJdS1lZ21nTFg5cjlSd2s5QU9Qem83ZmhTNDRwOVp3WVhwQzQ0UEY1SFg2WDdJZmF3a29QUnJKWW92UTdUVHVpUmVvUE1nY1dTLTZwQmhMSUZyTlFlSW5CajhhcUg40gHwAUFVX3lxTE9NcFhuRzR6OXJiVHJOZHFyaThiLTBrMVlMR3JueWZIWjFFUlhNbHYydUQ2QWtnY2VmcDdHcXZXSmhRUFlQUVBBaTIzNWtCZU9CQ3Q1Xy1nNXpMTFBDRENCbktaeTE2Nnk0V3ZwN1BLc1lhYzhqVDJTc0ZBSC15Qy1hM3VKeEtaR2M0MUl6amJ2VDFaR3dDeDhSS0RUQjhveDloNmVBemZTSWF3V1pZOUtMbkFsUzFJbUlDRncxSU8wcXU5WTdJcnR2M2V0ZEZkVk81S3U0RUx3clpoZG1XZUV3WDNmZlJnT1pXUndmZlBnMA?oc=5",
-          "pubDate": "2026-07-02T13:17:58.000Z",
+          "title": "España: Imputan a la jefa de la Guardia Civil y a su asistente en causa judicial",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaUQwZTNiM3pJTkYxcERQNHQ0UEVpQ2VWZkh6WndiNDBJWlVUUEdFNUNXVEM0SnZzZ3doYkNDeGVmVWMwZThidzlzSHFiLTRGUnZKWDNNUXBoSTFmTVEtRFBNNnNzVHFCT0VCZlVzYl9zbGJLNVU1RDJpZ29fY24ydXFwWEdfUFctbE83cm04T0ZGaWRmcC1OOENJLTcxbXYxSkhiN0p1Qy1XNk9va1VvRGtDcmh0SGxsX0HSAb8BQVVfeXFMUEt3T0c1VHpyeFZUVmlwNGdpb3phZ0lZSXoxbnVkV214YTdlS0V6Nzh2bk5FSVlXNzJ3cG5QZV9RN3RITHdlSmp5a3ROMWdTb2p1WU1EWS11YmNVcTZuenZTR1J6ZGlNeW42M1lJY3Fub25zaHQxbFR6eS01RWZRVGdwcWhReDBDQWljX1ZyMk82VnZIMUgxSEVXSllsYXRpNE1WOTZ2WXl2aVB4WFBFazdoSGUtSnVLeUM1Zjl4aDg?oc=5",
+          "pubDate": "2026-07-02T14:32:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "España: Imputan a la jefa de la Guardia Civil y a su asistente en causa judicial",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaUQwZTNiM3pJTkYxcERQNHQ0UEVpQ2VWZkh6WndiNDBJWlVUUEdFNUNXVEM0SnZzZ3doYkNDeGVmVWMwZThidzlzSHFiLTRGUnZKWDNNUXBoSTFmTVEtRFBNNnNzVHFCT0VCZlVzYl9zbGJLNVU1RDJpZ29fY24ydXFwWEdfUFctbE83cm04T0ZGaWRmcC1OOENJLTcxbXYxSkhiN0p1Qy1XNk9va1VvRGtDcmh0SGxsX0HSAb8BQVVfeXFMUEt3T0c1VHpyeFZUVmlwNGdpb3phZ0lZSXoxbnVkV214YTdlS0V6Nzh2bk5FSVlXNzJ3cG5QZV9RN3RITHdlSmp5a3ROMWdTb2p1WU1EWS11YmNVcTZuenZTR1J6ZGlNeW42M1lJY3Fub25zaHQxbFR6eS01RWZRVGdwcWhReDBDQWljX1ZyMk82VnZIMUgxSEVXSllsYXRpNE1WOTZ2WXl2aVB4WFBFazdoSGUtSnVLeUM1Zjl4aDg?oc=5",
-          "pubDate": "2026-07-02T14:32:00.000Z",
+          "title": "Florida multa con $20.000 a contratista de FPL por fumigación aérea que dañó propiedades y desata investigación federal",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNV93WHRNMkJ3YTdHRkRSRVN3eXZGNFV4dEVSNzQzQ0EzWFR2N3Fpb2dudElaUXV4UTZFRUM0bVpKRFRZdE00SVRUcTYteVUzX3JOYUVlQU5uaF84TEdjdnpMNVoyNC1HLUU0SlZpSzRBUGV6Mk5nZkZNRFprM1Fma05zdC1IUDBZTEZQLWtJdS1lZ21nTFg5cjlSd2s5QU9Qem83ZmhTNDRwOVp3WVhwQzQ0UEY1SFg2WDdJZmF3a29QUnJKWW92UTdUVHVpUmVvUE1nY1dTLTZwQmhMSUZyTlFlSW5CajhhcUg40gHwAUFVX3lxTE9NcFhuRzR6OXJiVHJOZHFyaThiLTBrMVlMR3JueWZIWjFFUlhNbHYydUQ2QWtnY2VmcDdHcXZXSmhRUFlQUVBBaTIzNWtCZU9CQ3Q1Xy1nNXpMTFBDRENCbktaeTE2Nnk0V3ZwN1BLc1lhYzhqVDJTc0ZBSC15Qy1hM3VKeEtaR2M0MUl6amJ2VDFaR3dDeDhSS0RUQjhveDloNmVBemZTSWF3V1pZOUtMbkFsUzFJbUlDRncxSU8wcXU5WTdJcnR2M2V0ZEZkVk81S3U0RUx3clpoZG1XZUV3WDNmZlJnT1pXUndmZlBnMA?oc=5",
+          "pubDate": "2026-07-02T13:17:58.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }

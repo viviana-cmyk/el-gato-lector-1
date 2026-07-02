@@ -1,17 +1,35 @@
 {
-  "generatedAt": "2026-07-02T20:33:47.925Z",
-  "colombia": [
-    "#unaisimón",
-    "#alexbaena",
-    "#alexanderschlager",
-    "#marccucurella",
-    "#laimer"
-  ],
-  "mundo": [
-    "#kwwl",
-    "#alexiaputellas",
-    "#cucurella",
-    "#investor",
-    "#españafc"
-  ]
+  "x": {
+    "colombia": [
+      "#CrisisHumanitariaColombiana",
+      "#EmpalmeDeGobiernos",
+      "#SecurityStrategy",
+      "#HomicidiosCali",
+      "#RelaciónIsraelColombia"
+    ],
+    "mundo": [
+      "#UcraniaEnGuerra",
+      "#ConflictoGaza",
+      "#EleccionesEEUU",
+      "#OTANDefenseStrategy",
+      "#RusiaAtaqueUcrania"
+    ]
+  },
+  "tiktok": {
+    "colombia": [
+      "#NuevoGobiernoDeLaEspriella",
+      "#CrisisDeSeguridad",
+      "#AunqueNoLoCreas",
+      "#ColombiaEnCambio",
+      "#VotaPorTuFuturo"
+    ],
+    "mundo": [
+      "#GuerraUcrania",
+      "#NotiCias",
+      "#PoliticaMundial",
+      "#UltimaHora",
+      "#MundoAlReves"
+    ]
+  },
+  "generatedAt": "2026-07-02T20:58:52.039Z"
 }

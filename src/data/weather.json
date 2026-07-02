@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-02T20:33:47.925Z",
+  "generatedAt": "2026-07-02T20:58:47.486Z",
   "colombia": [
     {
       "city": "Bogotá",
       "temp": 17,
-      "description": "Lluvias dispersas",
+      "description": "Llovizna ligera",
       "icon": "🌦️"
     },
     {
       "city": "Medellín",
-      "temp": 29,
-      "description": "Llovizna ligera",
-      "icon": "🌦️"
+      "temp": 28,
+      "description": "Nublado",
+      "icon": "☁️"
     },
     {
       "city": "Cali",
@@ -22,8 +22,8 @@
     {
       "city": "Cartagena",
       "temp": 33,
-      "description": "Nublado",
-      "icon": "☁️"
+      "description": "Llovizna ligera",
+      "icon": "🌦️"
     },
     {
       "city": "Barranquilla",
@@ -41,7 +41,7 @@
     },
     {
       "city": "Londres",
-      "temp": 21,
+      "temp": 20,
       "description": "Despejado",
       "icon": "☀️"
     },
@@ -60,8 +60,8 @@
     {
       "city": "Ciudad de México",
       "temp": 21,
-      "description": "Parcialmente nublado",
-      "icon": "⛅"
+      "description": "Mayormente despejado",
+      "icon": "🌤️"
     }
   ]
 }
