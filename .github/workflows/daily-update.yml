@@ -56,7 +56,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/news-colombia.json src/data/news-mundo.json src/data/news-recomendados.json src/data/indicators.json src/data/featured.json src/data/weather.json src/data/analisis.json src/data/podcasts.json
+          git add src/data/news-colombia.json src/data/news-mundo.json src/data/news-recomendados.json src/data/indicators.json src/data/featured.json src/data/weather.json src/data/analisis.json src/data/podcasts.json src/data/trends.json
           if git diff --cached --quiet; then
             echo "Sin cambios en los datos de hoy."
           else

@@ -5,26 +5,29 @@ import UpdatedNote from "../components/UpdatedNote.astro";
 import curated from "../data/curated.json";
 import featured from "../data/featured.json";
 import podcastData from "../data/podcasts.json";
+import trendsData from "../data/trends.json";
 
-const { redes } = curated.tendencias;
+// Tendencias desde Google Trends (auto) con fallback a curated.json (manual)
+const trendsCO = (trendsData as any).colombia?.length ? (trendsData as any).colombia : curated.tendencias.redes[0]?.top5 ?? [];
+const trendsMundo = (trendsData as any).mundo?.length ? (trendsData as any).mundo : curated.tendencias.redes[2]?.top5 ?? [];
+
+const redes = [
+  { platform: "Colombia", top5: trendsCO },
+  { platform: "Mundo",    top5: trendsMundo },
+];
 const podcasts = {
   colombia: podcastData.colombia?.length ? podcastData.colombia : curated.tendencias.podcasts.colombia,
   mundo: podcastData.mundo?.length ? podcastData.mundo : curated.tendencias.podcasts.mundo,
 };
 
 const platformIcons: Record<string, string> = {
-  TikTok: "🎵",
-  Instagram: "📸",
-  X: "#️⃣",
+  Colombia: "🇨🇴",
+  Mundo: "🌍",
 };
 
 function hashtagUrl(platform: string, tag: string): string {
   const clean = tag.replace(/^#/, "");
-  if (platform === "TikTok") return `https://www.tiktok.com/tag/${encodeURIComponent(clean)}`;
-  if (platform === "Instagram")
-    return `https://www.instagram.com/explore/tags/${encodeURIComponent(clean)}/`;
-  if (platform === "X") return `https://x.com/hashtag/${encodeURIComponent(clean)}`;
-  return "#";
+  return `https://trends.google.com/trending?geo=${platform === "Colombia" ? "CO" : "US"}&q=${encodeURIComponent(clean)}`;
 }
 
 function podcastUrl(title: string, url?: string): string {

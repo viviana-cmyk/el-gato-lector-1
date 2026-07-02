@@ -470,6 +470,24 @@ async function fetchCityWeather({ city, lat, lon }) {
   return { city, temp: Math.round(current.temperature), description, icon };
 }
 
+// Obtiene los temas del momento de Google Trends (RSS público, sin clave).
+// Devuelve un array de hasta `limit` strings con los términos trending.
+async function fetchGoogleTrends(geo = "CO", limit = 5) {
+  const url = `https://trends.google.com/trending/rss?geo=${geo}`;
+  try {
+    const parsed = await parser.parseURL(url);
+    return (parsed.items || [])
+      .slice(0, limit)
+      .map(item => {
+        const title = (item.title || "").trim();
+        return title.startsWith("#") ? title : `#${title.replace(/\s+/g, "")}`;
+      });
+  } catch (err) {
+    console.warn(`  [aviso] Google Trends (${geo}): ${err.message}`);
+    return [];
+  }
+}
+
 async function fetchApplePodcasts(country, limit = 5) {
   const res = await fetch(
     `https://rss.applemarketingtools.com/api/v2/${country}/podcasts/top/${limit}/podcasts.json`,
@@ -628,6 +646,29 @@ async function main() {
   await writeFile(
     path.join(DATA_DIR, "podcasts.json"),
     JSON.stringify({ generatedAt, ...podcasts }, null, 2) + "\n",
+  );
+
+  console.log("Obteniendo tendencias de Google Trends...");
+  let prevTrends = null;
+  try {
+    prevTrends = JSON.parse(await readFile(path.join(DATA_DIR, "trends.json"), "utf-8"));
+  } catch { /* primera ejecución */ }
+
+  const trendsCO  = await fetchGoogleTrends("CO", 5);
+  const trendsUS  = await fetchGoogleTrends("US", 5);
+  const trendsES  = await fetchGoogleTrends("ES", 5);
+
+  const trends = {
+    generatedAt,
+    colombia: trendsCO.length  ? trendsCO  : prevTrends?.colombia  ?? [],
+    mundo:    (trendsUS.length || trendsES.length)
+                ? [...new Set([...trendsUS, ...trendsES])].slice(0, 5)
+                : prevTrends?.mundo ?? [],
+  };
+  console.log(`  - Tendencias Colombia: ${trends.colombia.length} | Mundo: ${trends.mundo.length}`);
+  await writeFile(
+    path.join(DATA_DIR, "trends.json"),
+    JSON.stringify(trends, null, 2) + "\n",
   );
 
   console.log("Listo.");
