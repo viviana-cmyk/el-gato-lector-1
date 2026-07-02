@@ -170,37 +170,16 @@ async function fetchOutletItems(outlet) {
   return deduped;
 }
 
-// Filtra artículos a una ventana de tiempo y amplía el pool de candidatos
-// para que la IA tenga más artículos entre los que elegir por importancia.
-// Si un medio no publicó nada en la ventana, devuelve vacío (no se muestra).
-function applyWindow(items, limit, windowHours) {
-  const cutoff = Date.now() - windowHours * 60 * 60 * 1000;
-  const inWindow = items.filter(i => i.pubDate && new Date(i.pubDate) >= cutoff);
-  // Enviar hasta 3× el límite a la IA para que tenga más para priorizar
-  return inWindow.slice(0, limit * 3);
-}
-
-async function buildSection(outlets, windowHours = null, prevOutlets = []) {
+// Siempre trae los artículos más recientes del feed sin filtro de fecha.
+// Pasa hasta 3× el límite a la IA para que priorice por importancia temática.
+// Si el feed está vacío, usa el JSON del día anterior como respaldo.
+async function buildSection(outlets, prevOutlets = []) {
   const result = [];
   for (const outlet of outlets) {
     const all = await fetchOutletItems(outlet);
     const limit = outlet.limit || 5;
-    let items = windowHours !== null ? applyWindow(all, limit, windowHours) : all.slice(0, limit);
+    let items = all.slice(0, limit * 3);
 
-    // Intento 2: ampliar a 24h
-    if (items.length === 0 && windowHours !== null) {
-      items = applyWindow(all, limit, windowHours * 2);
-      if (items.length > 0)
-        console.log(`  - ${outlet.name}: sin noticias en 12h, usando 24h (${items.length})`);
-    }
-
-    // Intento 3: lo que sea que tenga el feed, sin filtro de fecha
-    if (items.length === 0 && all.length > 0) {
-      items = all.slice(0, limit);
-      console.log(`  - ${outlet.name}: sin noticias recientes, usando más recientes del feed (${items.length})`);
-    }
-
-    // Intento 4: JSON del día anterior como último recurso
     if (items.length === 0 && prevOutlets.length > 0) {
       const prev = prevOutlets.find(o => o.name === outlet.name);
       if (prev?.items?.length > 0) {
@@ -209,7 +188,7 @@ async function buildSection(outlets, windowHours = null, prevOutlets = []) {
       } else {
         console.log(`  - ${outlet.name}: sin noticias disponibles`);
       }
-    } else if (items.length > 0 && !items[0]._fromFallback) {
+    } else {
       console.log(`  - ${outlet.name}: ${items.length} titular(es)`);
     }
 
@@ -574,10 +553,10 @@ async function main() {
   } catch { /* primera ejecución */ }
 
   console.log("Obteniendo noticias de Colombia...");
-  let colombia = await buildSection(config.colombia, 12, prevColombia);
+  let colombia = await buildSection(config.colombia, prevColombia);
 
   console.log("Obteniendo noticias del mundo...");
-  let mundo = await buildSection(config.mundo, 12, prevMundo);
+  let mundo = await buildSection(config.mundo, prevMundo);
 
   console.log("Traduciendo medios en inglés...");
   await translateEnglishOutlets(process.env.ANTHROPIC_API_KEY, config.mundo, mundo);
