@@ -1,21 +1,14 @@
 {
-  "generatedAt": "2026-07-02T21:16:28.199Z",
+  "generatedAt": "2026-07-02T21:31:04.794Z",
   "outlets": [
     {
       "name": "Semana",
       "color": "blue",
       "items": [
         {
-          "title": "El grave error que cometen miles de motociclistas colombianos en las vías",
-          "link": "https://www.semana.com/vehiculos/articulo/el-grave-error-que-cometen-miles-de-motociclistas-colombianos-en-las-vias/202612/",
-          "pubDate": "2026-07-02T21:13:12.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Cerro Matoso y organizaciones sindicales piden intervención de la SuperServicios por reducción en suministro de gas",
-          "link": "https://www.semana.com/economia/empresas/articulo/cerro-matoso-y-organizaciones-sindicales-piden-intervencion-de-la-superservicios-por-reduccion-en-suministro-de-gas/202628/",
-          "pubDate": "2026-07-02T20:33:28.000Z",
+          "title": "Más de 60 menores de edad muertos en bombardeos de Gobierno Petro",
+          "link": "https://www.semana.com/semana-tv/semana-noticias/articulo/mas-de-60-menores-de-edad-muertos-en-bombardeos-de-gobierno-petro/202637/",
+          "pubDate": "2026-07-02T20:08:37.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -34,9 +27,16 @@
           "_priority": "ALTA"
         },
         {
-          "title": "¿Cómo recibir los subsidios del Gobierno en Nequi, Daviplata o cualquier cuenta bancaria?",
-          "link": "https://www.semana.com/economia/management/articulo/como-recibir-los-subsidios-del-gobierno-en-nequi-daviplata-o-cualquier-cuenta-bancaria/202618/",
-          "pubDate": "2026-07-02T21:10:18.000Z",
+          "title": "Euro: la divisa sigue a la baja y empieza a rozar los 3.800 pesos",
+          "link": "https://www.semana.com/economia/macroeconomia/articulo/euro-la-divisa-sigue-a-la-baja-y-empieza-a-rozar-los-3800-pesos/202659/",
+          "pubDate": "2026-07-02T21:21:59.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "El grave error que cometen miles de motociclistas colombianos en las vías",
+          "link": "https://www.semana.com/vehiculos/articulo/el-grave-error-que-cometen-miles-de-motociclistas-colombianos-en-las-vias/202612/",
+          "pubDate": "2026-07-02T21:13:12.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -47,9 +47,9 @@
       "color": "peach",
       "items": [
         {
-          "title": "“Es una crisis humanitaria”: Restrepo habló del plan que implementarán en el sector salud",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUkt2WHN3UHNDWXhrVlVlM2dfWnh0QUhRanc3Mm9BQ2t2bVR0M2RocUVfV0VBNGFYZy1GTHNQNGU5VTdZNzZONTMtQ3p2TEV4bkExckRya2M0ZHV6LV91dU14WjRyT3c5VTRzd3pWQlBHM3pnVnBFQjdyYmZDSF84V3czSE83Yl84UkRJLW1CN0U3aEVuRGZuMktUckdpZ0dLTGVXUVhmVXNvbEhrc0EteHlxbnJOM2VRU3dGenFFTHdYMS11V2Nocm52TTZRejF3R1A0NEJtamRnak9BeE5lbGZqbFk?oc=5",
-          "pubDate": "2026-07-02T16:41:00.000Z",
+          "title": "Presidente Petro se reunió con el papa León XIV: hablaron de cambio climático y seguridad",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNcjhtZEVNNHRTRnJDUGlrQVZyZXNTcFA1dmRwdndWMHNfSFN5RWRMc3ZfTENGOUhYSF9zSlhtQU5JeHdSdW9LZ2NXMGI0OWQyejZ4X0JHUGFabEdyRmNYR0V4T21jMGpNY09sN0oyRlJoa3pYYTU0clNBcTVyenVOeWlIWWVRRk1rbXA4M3FTRU5CY0ZUcDBpaGxfQkVvUGZoNHh3Mm05NnFNNTR3SVRSa1hTVXdJOHE0ZVZ5Y3hFRE83b2M2Rjh1UDB1YjdQTDdua2IwX0t2bjNaUmU2VmwtajRKQzUzek1PNHFXTnN6TzRfVzNyWkHSAfYBQVVfeXFMTXI4bWRFTTR0U0ZyQ1Bpa0FWcmVzU3BQNXZkcHZ3VjBzX0hTeUVkTHN2X0xDRjlIWEhfc0pYbUFOSXh3UnVvS2djVzBiNDlkMno2eF9CR1BhWmxHckZjWEdFeE9tYzBqTWNPbDdKMkZSaGt6WGE1NHJTQXE1cnp1TnlpSFllUUZNa21wODNxU0VOQmNGVHAwaWhsX0JFb1BmaDR4dzJtOTZxTTU0d0lUUmtYU1V3SThxNGVWeWN4RURPN29jNkY4dVAwdWI3UEw3bmtiMF9Ldm4zWlJlNlZsLWo0SkM1M3pNTzRxV05zek80X1czclpB?oc=5",
+          "pubDate": "2026-07-02T11:47:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -61,16 +61,16 @@
           "_priority": "ALTA"
         },
         {
-          "title": "“Debemos replantear la forma cómo estamos financiando la seguridad”: Felipe Mariño",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZXNuMDhtS3JGeDYtTGZCUFdZZ3IzYS1pN0RTRXlQUmR3NUZkeGRpX1hnVXVfYjIxdDlGLUtPRGRGS09vcU9leVVwWXFhdEdPc0pzVHpEcXJ0TWR2dWNaWTlqam40NV9wR1VqRHh0Y09jUTFKVG4wam1xZEMxQk9Wbm5KSi1aR3lfQnFMWmoweFRxTFIwLXdQcVJhUjBhSVh1TzhSN0w4R3BDU0VlU0xMUjJYV3Y3Z9IBywFBVV95cUxOSGdiTGx1Y1h6TEU4cG5obko4bU5VQlZxNzUwOWFWSkdBazlqN2xYd0R5VXVpSmloWWhuN2lIQXB1ODlHU2xSWlBNOTVjT3FlRkVObnFQcWxvVWRtZmR2NTNEM3g0Y2NSZlkzMWlwQTk2ZTkxZ1I1QnBqRzlhaVN3OW5IWGJCTWNFSW5LVW1ZWDVDaktPcXRyaERZUTA1alJxVk4wdlFGbmxRZ0tGUGlXd3BUVmNZb2psT1R2X3pNcUpKaUlNdWoxcFVGbw?oc=5",
-          "pubDate": "2026-07-02T10:00:00.000Z",
+          "title": "“Es una crisis humanitaria”: Restrepo habló del plan que implementarán en el sector salud",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOd0xPRTNjblpwYmdzaXM5NFRyZjNqTmxDdS05WnZPT0w0cUZvSW9Vc1F2a3htTG92TUJIRWdmYzlFYXhpUkpqOFVnMWVYaDZ4TGRpY1dudHJha0xaYlB0SlFpUG5FeDFVM092dlNUYWg5S3pQZjBpMFQ3SHh2Z3lzc2Z3elNIS0p4V3VmTXFsVmt3M3M3UzJ6M1Y3S2dmR1JrQ2dGQ1ZqT082M1BrUzJoZm05N21Hdjd0dFJJT2tqUTFKUVBMZlFEZnNwZkZ4N1VXbGpvQlZOM2ZqZU56bkxOcUhRbk9vSm96RXk2UWV3bkQtREI5aHFqadIB-AFBVV95cUxOd0xPRTNjblpwYmdzaXM5NFRyZjNqTmxDdS05WnZPT0w0cUZvSW9Vc1F2a3htTG92TUJIRWdmYzlFYXhpUkpqOFVnMWVYaDZ4TGRpY1dudHJha0xaYlB0SlFpUG5FeDFVM092dlNUYWg5S3pQZjBpMFQ3SHh2Z3lzc2Z3elNIS0p4V3VmTXFsVmt3M3M3UzJ6M1Y3S2dmR1JrQ2dGQ1ZqT082M1BrUzJoZm05N21Hdjd0dFJJT2tqUTFKUVBMZlFEZnNwZkZ4N1VXbGpvQlZOM2ZqZU56bkxOcUhRbk9vSm96RXk2UWV3bkQtREI5aHFqaQ?oc=5",
+          "pubDate": "2026-07-02T18:41:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Llegó al CNE la solicitud para reconocer la personería jurídica de Defensores de la Patria",
-          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxORy1Kd0hHR2FNMXJMRG4zeXdqX0JBdkdlU25NOE9xOVV4eWRENzlrUE1wNWFZbkhsZ1NMT1ZhVk9ySXpsZW5qSS03QkdXcHV2NFlQYVBONkV0Mzgzc3lMT2x6OThPeUFuVXUyTlNmOGpYaW43M3ZUY2ctd256QUFQV184NUVkYkd2OUp5c0x5RE9wWV9idUV4cGhUallFbDd6Ulp0RThyR1JPUXhLLXhEQ0pCWUwxWGtOR2pTT0VHOHF6R1VvYjlBakFxZFd2TVVEYTl3bUlLcXRsaDdUc0R6ZjhUS0M3UXFyakRIZWYzcWgxWG9DUU1feEZ4eHgxRVp1dnfSAYICQVVfeXFMTkctSndIR0dhTTFyTERuM3l3al9CQXZHZVNuTThPcTlVeHlkRDc5a1BNcDVhWW5IbGdTTE9WYVZPckl6bGVuakktN0JHV3B1djRZUGFQTjZFdDM4M3N5TE9sejk4T3lBblV1Mk5TZjhqWGluNzN2VGNnLXduekFBUFdfODVFZGJHdjlKeXNMeURPcFlfYnVFeHBoVGpZRWw3elJadEU4ckdST1F4Sy14RENKQllMMVhrTkdqU09FRzhxekdVb2I5QWpBcWRXdk1VRGE5d21JS3F0bGg3VHNEemY4VEtDN1FxcmpESGVmM3FoMVhvQ1FNX3hGeHh4MUVadXZ3?oc=5",
-          "pubDate": "2026-07-02T13:57:00.000Z",
+          "title": "“Debemos replantear la forma cómo estamos financiando la seguridad”: Felipe Mariño",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZXNuMDhtS3JGeDYtTGZCUFdZZ3IzYS1pN0RTRXlQUmR3NUZkeGRpX1hnVXVfYjIxdDlGLUtPRGRGS09vcU9leVVwWXFhdEdPc0pzVHpEcXJ0TWR2dWNaWTlqam40NV9wR1VqRHh0Y09jUTFKVG4wam1xZEMxQk9Wbm5KSi1aR3lfQnFMWmoweFRxTFIwLXdQcVJhUjBhSVh1TzhSN0w4R3BDU0VlU0xMUjJYV3Y3Z9IBywFBVV95cUxOSGdiTGx1Y1h6TEU4cG5obko4bU5VQlZxNzUwOWFWSkdBazlqN2xYd0R5VXVpSmloWWhuN2lIQXB1ODlHU2xSWlBNOTVjT3FlRkVObnFQcWxvVWRtZmR2NTNEM3g0Y2NSZlkzMWlwQTk2ZTkxZ1I1QnBqRzlhaVN3OW5IWGJCTWNFSW5LVW1ZWDVDaktPcXRyaERZUTA1alJxVk4wdlFGbmxRZ0tGUGlXd3BUVmNZb2psT1R2X3pNcUpKaUlNdWoxcFVGbw?oc=5",
+          "pubDate": "2026-07-02T10:00:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -116,10 +116,10 @@
           "_priority": "ALTA"
         },
         {
-          "title": "El polémico caso de Aguas Vivas vuelve a los estrados: arranca fase decisiva contra Daniel Quintero",
-          "link": "https://www.eltiempo.com/colombia/medellin/el-polemico-caso-de-aguas-vivas-vuelve-a-los-estrados-arranca-fase-decisiva-contra-daniel-quintero-3568518",
-          "pubDate": "2026-07-02T17:05:28.000Z",
-          "snippet": "Este jueves 2 de julio avanza la acusación contra el exalcalde de Medellín y actual Superintendente de Salud. Medellín fue aceptada como víctima.",
+          "title": "Sale a la luz documento en el que la Creg alertó al Gobierno sobre un posible desacato por las tarifas de energía del Caribe",
+          "link": "https://www.eltiempo.com/colombia/barranquilla/sale-a-la-luz-documento-en-el-que-la-creg-alerto-al-gobierno-sobre-un-posible-desacato-por-las-tarifas-de-energia-del-caribe-3568573",
+          "pubDate": "2026-07-02T21:01:00.000Z",
+          "snippet": "Personeros de Barranquilla y Santa Marta divulgaron la comunicación tras el fallo del Consejo de Estado que ratificó reducción de tarifas de energía.",
           "_priority": "ALTA"
         }
       ]
@@ -141,23 +141,23 @@
           "_priority": "ALTA"
         },
         {
+          "title": "EPS acumulan deudas por $41,5 billones: Así Vamos en Salud",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYlBjalJMOHlIRkU1bGFqeWxaT0JtMmZXaFk5STk4eGJMb0pJdTVkcHVCZGQ3WFFmVEVzMjZtVnBNN2lpV0JHUGxVUlJyYk1Vc1lyZWJ4LXFuMHlGZnp2eTgwZk5IdzV5Y2FycTNTdXl6bDcyM1RRbmc3UE9yRjl5M0l6R21sUUdncndINlNlUmtsVVg2WUhZ0gGkAUFVX3lxTE9QVEYyZEc0elBwUFhFcWFtNDc0MjVsaS1NN0tITm1LeS1wMEdYOWZPZjhRc3czSDNMYWlEc18ycklyZVRuSlktc0w3ZnlmcV8tSnBjODFrMlNucWQ4NVlxdlZDNFhOZDcybG00YVlxYnZZSXR0RExlTFRBUXFyakFVS0JBNy1IZ1RFMmZwMmZXMVBkY1owdVRiMUVJR051TUxsNDFS?oc=5",
+          "pubDate": "2026-07-02T21:14:24.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "¿Es real la baja del desempleo? Los retos que enfrenta el gobierno de De La Espriella",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUUdrUDRpS3NDUy0yMmEzYkdxcnZqWDRsdHM5VF82a09UT0pwdFJWM0lEOWNzakJNQmhmOV9rajl6SW1FblYyWjN2QV9wbXNDRFg2cnZjeTB0dDh4bTFRSmxqR3BKbmlWQ19BNTFSNnRrMl9aNWZCSXFwLVppUDJtRFFha0tpMkVZeFpOWFkxalBjOVZNcmw5SGo1ZmhhSWc2cUhaNC1QanpxOVh3QjBDTjFiY0dDV2ZQLUFneDRkSdIBzAFBVV95cUxOUlBibGdRYWpsVDJ4NHkwd3Z5X29XbVVHQlo0clNXTDZPcmdvLUE2ME5uNUtoMGZoSkNUOGNBekp1VUVaaEJTNHZFOGQzNUxZaVhSOGZRbXowODR5am9rU21CaE1RTFJROGhfQXBaeDBMbk9hamExM25zRVhaN2hEX2dzeW1PNGhPMU5BNDcxQnlCbm9ONDhDSWlxclpPLVdBbFRHWjJJbGtDV1NIUldTMVhWbFNzY0lHNWl1QmFvNVp1VVRMSjJRSG5nekg?oc=5",
+          "pubDate": "2026-07-02T17:15:09.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "Hospital Internacional de Colombia tiene sobreocupación del 270% en urgencias",
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPa2V0d1BKWnp4WVdCTVlOb195azc3UllZSkIxU09XVEpqdFRlWXV3VXZ6N1dkOVBJNG8wRlBjclRuWkNrVUFhQ2NZYlNGQXdDOFhDR3NWWGlGWXFKMUsya2lvTGpVYjRxYzdWRndLbFNEN1pxOEhPUjdIUjBaUjBYcVluM2hVQnBqU3hSUlgySlJxUVRxZUVVd3lpY1JhMl90cEoxZk5fR2NJSlViOU01ekNtQ0VvMW1kSVRTdDBPY2NWS1BFYmc?oc=5",
           "pubDate": "2026-07-02T17:04:20.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Demandan encargo de Antonio Sanguino como Superintendente del Subsidio Familiar",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNelJ5Z0JfWkZ2Z2kwZzdkRl8tdVNwVE5Nc2hmUVh1VFN2Qi0yTXVwY2pJR1VLLS16NWdILU1scjhjdDNCamd3VkluVUtjX0RYMU16dFpHQ1JSbExEMzJpTWttRFpPU1BJbk01ZGU5NmdUSThIZ2NzMERlUlBXRzMtX2h2SWdWb0Y1STM1eXRqM0FMakV0UEZCMGZsLTdzMTFoQV9sRlBkVGhDcWFmclJLZHp2VDljeFZXeUHSAccBQVVfeXFMTmxHUU5LOXNOaXRXRHZDR2lObmZWT0ZXeXNBNXFBQ2hYWWx6RWNVcGdPaWlTc1ZkYTVCUVpvUnFScXRoSy1CRTIyUWIwZmFQLXZ1bjFDb1pyOWxMeXZocUhvdUQ2Z09XRkpFb0x5a0tCZ3BCTmpLMzhvaVFPU05yTlFfRkhpeC11aHVHVzB3alJod2JJUjRHT0xLZUY3VWdDRWxFbEwtcVR4SDd1YWtNa2Fod2tKMjF4YnpPdUkyWUJyMC1zNFJXRQ?oc=5",
-          "pubDate": "2026-07-02T18:38:20.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Contratos directos y a última hora en Supernotariado: la entidad se defiende",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPa2JLeDh6ZFN2eXVrRUIzMlJiek5IRzEwWWpkYUpaY3ZKcThlQUVXYjgzUEtsT21NOUI5cDdFMGFqWDVma2Y2UkNQUWc4VndfYmh2dUg3elZfeUtXSnJYem5QMXhvbmNIU0dwanlwSVZZdjl5UFRRbDNpUzY4V25WcTd6SkxGcEFhWHNFczhtT0tTYURCVnhtTnlXaTFPT1ZqMkVxWGkxYzE3Mjh6ZGd2WG1VaGTSAcIBQVVfeXFMTmRjdmJHRVAyTFRWRjB6eHZvdmF5czZNenBvTlVVb0EwdDN1VGltMjZPQnRXM2MyWVpHb19SQkV6WEVreEpHMWlBLUR3amNxQzUxOEJwTnNUQnNqTVBVSkdLTmVsQlhXLVlvM245T3lZTGdIRnF5dXdCSnpadUR5cllIYlNmdVN6LUJpRVRVV1huR0NlT0p0LUNVMGt6V291LW1MQVNQUWs3eG94Q2FFSHM5UDExcDlySmZLdTNWR0t0aUE?oc=5",
-          "pubDate": "2026-07-02T18:17:20.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -182,6 +182,13 @@
           "_priority": "ALTA"
         },
         {
+          "title": "¿Cuánto subirá el salario mínimo en 2027? Esto dijo el MinHacienda designado por De La Espriella",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOY0JEYnU0LTZuSHdHdVNLQXB1eWZSOHJWOUFpc0Z4c0x0NVlqNXZTTzdGeXlvdVA5c3JrQkl6cFJBMmpiQ3JOQzdTQzk2djIyVVVzQjMtMURpQThvdk1IcW5BTDYtN0l3UVdoR0NmSUhhQ0UxRXNwZHZXUHY1ZnFULTd1LUtLanRwM0pPcjViMVN5Wkl6Y0VVdENldmEwYlU3SG41ck5tdHVwbmd2dnMzWXdBMVFOYl8yVTJGMU9SZnF0MlNRNXJUbNIB3AFBVV95cUxQOXhJOFJ2U3h2TUlfREZDemJ5UHpXMDd6TnRpOS1TUnZaTlF5VnN3bDZ1SGgtQ3lucUVqM1I3VTFGSzBGc0ZFbG9JUWM0RTV1eTFtejU1U3Vlc1F3MjA1c1pleFlIQmU1ay1yT3J6UUpOSTJpUGU5SHN3YWhKT0JTSVZNbGtpdDRueEg5MHdGcFBlN1VEZjhvbEhxTXllVWNyR01ZWDB3TkZidGRVV2J2RFRXcTZoSXEzMjdnbEp6MlB6XzlRSGFaemxWU29VSURfeXA5Z3BvOEZjQ0RH?oc=5",
+          "pubDate": "2026-07-02T17:39:24.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "“Es una victoria de la comunidad”: celebran fallo sobre el Parque Mejoras Públicas en Bucaramanga",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOc3V3c01wWE0zSjR1Q3pFdWhqYk1yWWtRdlplRFpDRzZhdlVzVWdxZS1Kalp5amJIOUQxMVJCaFU5QTdYWG9aaG9iaTh2ODJsREVZbF9XMUxKbGY1a3VleDJ6eEtyNnBhSXdxYWdkQ21xZGJOdnlBclF6VHJreDFzRm03dFctSW1tb1BGUlZQWUoyVGtNU0NlRXd3eUlNN3lXQ1I0N0JrNWRqUmE3c1VrVElNQjhJWjZ1VVNyREhtZ2Y0bVdGOG9XetIB3AFBVV95cUxNcnlvUXdXOUxmWXJnS3paZktUdVFYa0prLW5KR0plRmphQ1gwYzYybUpUN2V6bndZcnZQVEhvSjhLMkhVWl9OT3BBbjh5bzJNOFZ5SGNmYWJnc2l3aVM2N3ZBRmNwY0xsZHNvREJLSlZpeTJobzJrU040Z0RQNkRERXB6MUtud3U3WGtLalI1aGJKSzNIMjEycGU4WXZCUThzVkkzaDVpWFZzeG44MkR4bjZDVkh0ZEN4ZDVsTTN5WUN5ZV9nVC1IRUFEMGxlSjgxT1FkOTU5WWIxOHVD?oc=5",
           "pubDate": "2026-07-02T18:10:37.000Z",
@@ -202,6 +209,13 @@
           "_priority": "ALTA"
         },
         {
+          "title": "RUI ya entró en vigencia: estos son los subsidios que no tendrían cambios inmediatos",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNb2dKeE1BV2R4YzZwUFZkUUozSUdGUlNTZ0dNV1ZOUHNOd19LT1BHOUxmN20tcU9DQWNGY1YwaUdoMTB1SzlnSUhkclVSZnpCYzRMaV94cWQzSTBiQmNLQnhCZl9seUdhZ0VSdFpMZ0R5aWpxc1pSWGtXTEVPVGtONnFJUm9aLXVscTl3bWhqM0VtdWFiUW1hbUhUanp3OWpWT3pTUktBRUdwNUJEWk1UVURlSVhFbS1NOHB5Sy1EckRLcUd4ZkRGa1ZXQXNZeTFnSkp3aGZnSDRuQmVINmEycGZKTmNjMUhVRXNqdWJlU0E?oc=5",
+          "pubDate": "2026-07-02T16:14:10.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "Empalme de gobierno de Abelardo de la Espriella: ¿Cuándo y cómo será?",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc3F5NFJWdlpoN2MxWjdxVE00V1Q0c2lIRVBzRC1qd19VUUpCTGQyTDlZcFItTlpFRVpKc1FyUnhRRTNzUG1Wb0g5SHp0NkZwTUlfdUMyc1k2VGpLenZJTktxR3lWRTF6ZFk2YXRDQU9BMjlPTzVIX1kxeXdyVVlyYWRHZlV2NEVaeElEV0E0bjYybDIyN20yN0lUd1VFbUdJZnBzcjhESWs?oc=5",
           "pubDate": "2026-07-02T18:49:09.000Z",
@@ -214,13 +228,6 @@
           "pubDate": "2026-07-02T20:29:11.000Z",
           "snippet": null,
           "_priority": "ALTA"
-        },
-        {
-          "title": "RUI ya entró en vigencia: estos son los subsidios que no tendrían cambios inmediatos",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNb2dKeE1BV2R4YzZwUFZkUUozSUdGUlNTZ0dNV1ZOUHNOd19LT1BHOUxmN20tcU9DQWNGY1YwaUdoMTB1SzlnSUhkclVSZnpCYzRMaV94cWQzSTBiQmNLQnhCZl9seUdhZ0VSdFpMZ0R5aWpxc1pSWGtXTEVPVGtONnFJUm9aLXVscTl3bWhqM0VtdWFiUW1hbUhUanp3OWpWT3pTUktBRUdwNUJEWk1UVURlSVhFbS1NOHB5Sy1EckRLcUd4ZkRGa1ZXQXNZeTFnSkp3aGZnSDRuQmVINmEycGZKTmNjMUhVRXNqdWJlU0E?oc=5",
-          "pubDate": "2026-07-02T16:14:10.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
         }
       ]
     },
@@ -229,16 +236,16 @@
       "color": "yellow",
       "items": [
         {
-          "title": "El peso cada vez mayor de la coca en Colombia, que desde la ilegalidad gana espacio en el PIB",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSzFfbDIzbEVIaGY3MExpZVlRVVpPY05idTRRVlB1T3pOeDR2bkx5UU03N3VYOEdja1BRbTVoaWRUNGo0S195SXJ4MWhsWERNZWxBSEJfTTdVd2NUQzh0WkhfaWg1Zk0xaThmSVBPeVBVMGRUZUdIRzlXRVhDQ19scGNCcl9ESnEzTVVXemY3U3cxTEp1Yl92WEg3SW1URl85MWhTbk1XZEExRlZfbTRGcFM3RDZxVXprVmNBM2I4dVVQTEVPS0RNS0NwdkFkaWQwelhyQl930gHbAUFVX3lxTE9DYUpWWlByUy14MGVxclR1dnBZcVZEQWJiTmRuX0ZDNjBnR0c0b09fQms1QjYtSEo2aThvU01vZTRBbkJPRDBDenRneXRWcmZnNTJXWWFhV1N4Vk40ZzFjUkVDVUFUcjBBNEdESnhnNlQxamhCQzlrZTZwUnBxTktXUGd6ZHNlc1pDcG84bzFmS0ZMZk5sZDhGOWdlaWFlWUJEcEU4ZEkzaENyS1VEbkRKdjBNaXJpZ2xuNXZaWjdhbWFwbVVITFBiWlFVQU5raVhwdXJPQ2lvbUdudw?oc=5",
-          "pubDate": "2026-07-02T17:00:53.000Z",
+          "title": "Contraloría advierte que más de la mitad del Presupuesto General de la Nación de 2026 aún carece de financiación",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOC0wY0h2blZ0anBFRjgwYndGZ0JnZ21nUW5BVDZJaXZpQ1hBUjNtTHRkRkZKdWRwOEEtZWpmS01FQ2R3d0JUVmNmZnh5ZUo3bGZEdjlta0JFdGlrMGhWYi1rcGZ2R3VkV1FqQTZRUFBBZ19zX1V5UDc5TmFoQUJJaExIaW0yM0YyeGpIdnVsS2ktZjhHU005cDh1UmZpTzBrR1BNNEc5R1hQT05ybm9CUEt1dlFPbVpKQkhDRmttZnNnQ0hPc2pMS3oyU1ZKNVcwNVAtX0gtc3JUeGFKaVBuaXhSTjlRREVmTkHSAe8BQVVfeXFMUG1PbjFlNFlCZk1Kdkt5M3labFNPNTJIMGd1LVR6b2hDWTA2allnVTNnR1FmeGhPMklFM2tVbk9aM05NRzVXb1dkT2h6b3ZRTEhDUmoxbUhrMFg0Y25GeUkyb2RQQlJEVU5IMHpwb0xNWGxVdUNWOGdqdEVrQzVuS053MUxuZlNXWFp6YVBWUXd2anlFbzVsQTRIX1JwSXZtY3Y3YlFvdmczS2tkQ3JyYkhsand6LVlIZHFvWnE5U2E5VDlJMS05NUd6V3RIdmtuNlhtZTlXV2FmdGRSZDQxMzB2M05GM0tCN0QxbVY4WkU?oc=5",
+          "pubDate": "2026-07-02T14:00:25.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Seguridad, salud y energía serán las tres prioridades del gasto para el nuevo Gobierno",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYV94NzAzWWRQTDJ6c19hN3ZRX2Uza2NUUm9ERkxrLUw4M2UzbU1yc0NVNHZobm51M0hCQjNDTWNtSmNHQWo1Z29qVHBldGFOZFpzOTVnS0lCRFNCRGVUYlc2aTRQOWRJM3oxODlrZWlPMlFwZVpXRml6dWM1aG42b1ktUGgyZGRhSFE2Nzc1Nm9JQk50V3JFbmxsbUFNTUxfLW5tUHBtSDJXclJVbklLRkloTHB3SThrN21ZMDhXS2ZvcnpjNWFGNllZbmo4cXYwamVCbll4NNIB1wFBVV95cUxPYV94NzAzWWRQTDJ6c19hN3ZRX2Uza2NUUm9ERkxrLUw4M2UzbU1yc0NVNHZobm51M0hCQjNDTWNtSmNHQWo1Z29qVHBldGFOZFpzOTVnS0lCRFNCRGVUYlc2aTRQOWRJM3oxODlrZWlPMlFwZVpXRml6dWM1aG42b1ktUGgyZGRhSFE2Nzc1Nm9JQk50V3JFbmxsbUFNTUxfLW5tUHBtSDJXclJVbklLRkloTHB3SThrN21ZMDhXS2ZvcnpjNWFGNllZbmo4cXYwamVCbll4NA?oc=5",
-          "pubDate": "2026-07-02T17:36:10.000Z",
+          "title": "El peso cada vez mayor de la coca en Colombia, que desde la ilegalidad gana espacio en el PIB",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSzFfbDIzbEVIaGY3MExpZVlRVVpPY05idTRRVlB1T3pOeDR2bkx5UU03N3VYOEdja1BRbTVoaWRUNGo0S195SXJ4MWhsWERNZWxBSEJfTTdVd2NUQzh0WkhfaWg1Zk0xaThmSVBPeVBVMGRUZUdIRzlXRVhDQ19scGNCcl9ESnEzTVVXemY3U3cxTEp1Yl92WEg3SW1URl85MWhTbk1XZEExRlZfbTRGcFM3RDZxVXprVmNBM2I4dVVQTEVPS0RNS0NwdkFkaWQwelhyQl930gHbAUFVX3lxTE9DYUpWWlByUy14MGVxclR1dnBZcVZEQWJiTmRuX0ZDNjBnR0c0b09fQms1QjYtSEo2aThvU01vZTRBbkJPRDBDenRneXRWcmZnNTJXWWFhV1N4Vk40ZzFjUkVDVUFUcjBBNEdESnhnNlQxamhCQzlrZTZwUnBxTktXUGd6ZHNlc1pDcG84bzFmS0ZMZk5sZDhGOWdlaWFlWUJEcEU4ZEkzaENyS1VEbkRKdjBNaXJpZ2xuNXZaWjdhbWFwbVVITFBiWlFVQU5raVhwdXJPQ2lvbUdudw?oc=5",
+          "pubDate": "2026-07-02T17:00:53.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -250,16 +257,16 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Contraloría advierte que más de la mitad del Presupuesto General de la Nación de 2026 aún carece de financiación",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOC0wY0h2blZ0anBFRjgwYndGZ0JnZ21nUW5BVDZJaXZpQ1hBUjNtTHRkRkZKdWRwOEEtZWpmS01FQ2R3d0JUVmNmZnh5ZUo3bGZEdjlta0JFdGlrMGhWYi1rcGZ2R3VkV1FqQTZRUFBBZ19zX1V5UDc5TmFoQUJJaExIaW0yM0YyeGpIdnVsS2ktZjhHU005cDh1UmZpTzBrR1BNNEc5R1hQT05ybm9CUEt1dlFPbVpKQkhDRmttZnNnQ0hPc2pMS3oyU1ZKNVcwNVAtX0gtc3JUeGFKaVBuaXhSTjlRREVmTkHSAe8BQVVfeXFMUG1PbjFlNFlCZk1Kdkt5M3labFNPNTJIMGd1LVR6b2hDWTA2allnVTNnR1FmeGhPMklFM2tVbk9aM05NRzVXb1dkT2h6b3ZRTEhDUmoxbUhrMFg0Y25GeUkyb2RQQlJEVU5IMHpwb0xNWGxVdUNWOGdqdEVrQzVuS053MUxuZlNXWFp6YVBWUXd2anlFbzVsQTRIX1JwSXZtY3Y3YlFvdmczS2tkQ3JyYkhsand6LVlIZHFvWnE5U2E5VDlJMS05NUd6V3RIdmtuNlhtZTlXV2FmdGRSZDQxMzB2M05GM0tCN0QxbVY4WkU?oc=5",
-          "pubDate": "2026-07-02T14:00:25.000Z",
+          "title": "Gobierno Petro deja firmado decreto que aumenta salario de congresistas en 7% con pago retroactivo en 2025",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOOW9iTjh1ZE9ab3lSbmJ1b2FzcktnYzh5T1hqQUZpMUJBT1pFOV9GYTM3RW5MRTk0UGxkVEthYU02cklfM3Vnd0xxSGtjREg0RkpNUHpDaG1wZkxrUEdCY0ZJMjdjWkE3MERXUHJ4ZllVa2V4bzFyS2IxNzZIRWlLSU9yY3FpRXByTThUdzJ6aDRiRV9MODh0aWljYmlEdkRsSU5IQjEwX20tRnQ2MmNvS2NDOVI4ZXg0U1BHYUo5anVudDBlWkV0SDFycnhNMFdmQThfSGRmS2lvaDhVRUpvUnNzQkZSQdIB6wFBVV95cUxNZmhZY2lodGJPa0d1SzNaVEYzYWpYUnlkWGNoV0l3bDU1Qk16cmFEdkhrWFhqM2RBR0sxR2NMSGQ3aDhhRGd2OWxNWHJfY2FFM2dHLUdDQmNHSVhTYUphYlZ2S3UzSkktdWVPYWpzdUEyemFCZHRWUm93a0piamhHNnFJRW5fcGlKWDBIQkExeWxaVF81bk5pLVVtdzlpVzRwX3BBNlBvN093RkplVHVyNUFtSFNwT19mS0pycW13SFhQN2NPci15bDZSS0NQX2FIQXpaQ2pyWVlwVlFIay1ieTUwTFV1NUh3ZlZj?oc=5",
+          "pubDate": "2026-07-02T21:10:41.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Exsuperintendente de Salud advierte que miles de hospitales estarían expuestos por pólizas de baja cobertura",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNOVZqOEZQZ0xoRGlBT3h5VHNZVzFNSjBYT19NWDcxQmExaXlxTFRkX1lTOVYyZnVsdEJsNE1zRVJRNHJlSGdqcXViNjNYVkE3eEIydWdrZDZfcW5XRVZrTTlqdmJVQnFxU3JXNVMycFBYTTRfdTNMVG9yRWw3bUcwZ2J0X3RlcVN2dHdKWWlGU0xZMkUyZ2ZOZ09pTVNIUm9RR3JtQUVtUWF0M0tNZ3hCVVpSX0dYSjdXcEZfV0xxMmlmWUZZY1pwY2NNZ0VkNllBX01uUmtnclBPQzlvTk9RZTVRSEpkVk5Ddzk5cnVJVG7SAfYBQVVfeXFMUGlmU1hiVGJEOE40aUZkeC1sRENHMnEwMmNadHpRRUl6aV9CNFJ1SkFHYmd0TXhWcUlHV0FJVWNyVTFNR29aWnp0S2RiWlExWW9tZjRXUVhHNGNsNVNKbFluU0s5a0NaUjRKc2g4Q1BmTm9GNnpsczRjYnlPSzczRHN2cTUtU2ZCa29uMmllVzFTQnBoTFVJdk9XMHEwUUlXS1lWWkxBQWR2bEZ2bEpGQTZKdjdnM0poUlNmaV9jNTZ1Y21Fc2JhTDlGb0xyQ3UzeW1lajhiRzBwRzRodVAwbl9zSkxvUjFWTzQtZk9DYXRTak1iTWtB?oc=5",
-          "pubDate": "2026-07-02T17:46:15.000Z",
+          "title": "Primicia: Estas son las condiciones que Canacol estaría imponiendo para hacer nuevos contratos en Colombia",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcFhodlRWNFRMMHR3M2FWb1VFaVlvdTQ3dV9iQ1dJWVlIRzBxNEQ1anZGQm03QzRwVTd2VnJ0Mmh5aF9rbDg5Q3pjbEZqZHFZZDlVU1FTRmo0c3hUZjNIV1lUZ01ZUjFhUjdoY1lreS1xcGw0dUtmdDZ6RUZEcDB2UlNMX2phYkdPczZnM283Qm5IanRWMGR5SEctVFloSEplZHJ2Z3Bmak1MbGs0U3N3RUtRa3lweDdxdmRtNzBNVGMycFpoUExzRG8ySmdqZkJ4dDN2TUFZeC1MQlBhZG5F0gHkAUFVX3lxTE5Obi1hU2RmNmJXeE90bmlMaXVfVFZOcWh0US13aFAtcmROWjdiM2Y2eUhnSXpQRW80NWpFc0gyY3dlSTRJSjJXNWp1VGxFUzNsTW1Kak95TTlvUnh5aWptU2dzRFlQekpXV09DM2dJQ2s0TzhXYXp0V291eHRhSmpkM1Q1M1gxRzAtZ2VldmN0c1plQWt3X0dGb3Vxc1ZzdklQWkNuOUlxbnhqTURCWlJURTJyZVo2cWs5azMtaUR0NjBQZndwQjVxeHhVWENOZkhSVVFpWDctOE5RY2EycjJBZ09jcw?oc=5",
+          "pubDate": "2026-07-02T18:57:44.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
