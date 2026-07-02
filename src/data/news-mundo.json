@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T22:10:58.228Z",
+  "generatedAt": "2026-07-02T22:20:54.382Z",
   "outlets": [
     {
       "name": "CNN en Español",
@@ -18,6 +18,34 @@
           "pubDate": "2026-07-02T18:43:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
+        },
+        {
+          "title": "Enormes llamas envuelven bosque de pinos en un incendio forestal en Colorado",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYldScXRVdEROZzM5MTNrbkptdG1yc2U0Y0xzM3A4bmNvXzg2azZqV1VldEJnU2hWSmN4S1AtZHpTR21rdklhZ21TMkFITGNQRzJia05QbG5XcUxmczdJVk55VnM2TXZUMnYtZHgtd24ydFBvSF9JRnU3UXVpcnFUc0QyR2tmb2FkakxqelgxSWM?oc=5",
+          "pubDate": "2026-07-02T17:43:31.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "La muerte de un niño de 12 años en un robo horroriza a Chile y pone de relieve la inseguridad",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZDhPQ3c3Sjh6TFNvcTlmNmFBblZKbjEwUzNyaHF5NXJHTTdWRS1mVDN2ekx3X2tkNjBwNEFlS01ZcUdCMWFzaTBWYVRiNDRKV2d0OS1QQmp1SnVyU0R4N1JRT281RVY1WGF5ek9TbWNYcEZVUlFqRHZfUFc2bjY1Mng4MnNZRXhjRkUyc0VlU3ZaZ2RYNEtiV0ZpYw?oc=5",
+          "pubDate": "2026-07-02T14:08:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "\"El peor momento\" para los venezolanos en Estados Unidos: crecen los llamados para que regrese el TPS luego de los terremotos",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdm5TdV93SWtJWHpkUWFmWWlVQnZJNTlkUTlRME9UN0ZxWDhfSk5sMldQbkxzOXR4RWVvX2hXZDlPNlRieTA5b1VKVXVibDNpZzlsY0NicEw0SGtyM0xZN3Awc0NlOVdIVk1KckRKNnVuaEtpMXhhekJNT1gtY1lVeldjODFyNkVwQzAzN3dCVVRHUE42S1V2Mw?oc=5",
+          "pubDate": "2026-07-02T15:51:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "La “gran y hermosa ley” de Trump está llevando a aspirantes a médicos a reconsiderar sus carreras",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ0hIWHE3Qk56Zi1RbW5TeGh2RFpfZnM0REpqOVkwcUNXdS15REllRzBQVDVVa0htVjlYeElTcGtOVDA0ODMycHZYYmwzRUcyU3hlV1BVcnBHVU8xMGlwdnBGczJEcVlaSnItRFVieVp6TGJyYWVUSTE0Y3hwSmMtNFNSYThpTkw3RE0wblF4UUdDcWxWOTZfTFdZT3A3eXZnMWc?oc=5",
+          "pubDate": "2026-07-02T13:56:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -30,13 +58,6 @@
           "link": "https://elpais.com/internacional/2026-07-02/varios-muertos-en-un-ataque-masivo-ruso-contra-kiev.html",
           "pubDate": "2026-07-02T19:58:24.000Z",
           "snippet": "Moscú reivindica la acción en represalia por la ofensiva ucrania contra infraestructuras civiles del país",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "La Guardia Civil investiga el millón de euros en patrocinios que la Diputación de Cádiz pagó al empresario acusado de blanqueo vinculado al narco",
-          "link": "https://elpais.com/espana/2026-07-02/la-guardia-civil-investiga-el-millon-de-euros-en-patrocinios-que-la-diputacion-de-cadiz-pago-al-empresario-acusado-de-blanqueo-vinculado-al-narco.html",
-          "pubDate": "2026-07-02T18:31:51.000Z",
-          "snippet": "Los investigadores encontraron al hostelero, cercano al alcalde de El Puerto de Santa María, 1,2 millones de euros en efectivo y le vinculan a un tercer implicado investigado por narcotráfico",
           "_priority": "ALTA"
         },
         {
@@ -59,6 +80,20 @@
           "pubDate": "2026-07-02T20:31:09.000Z",
           "snippet": "España recibe casi 5.700 millones en transferencias y 1.051 millones en préstamos",
           "_priority": "ALTA"
+        },
+        {
+          "title": "La Guardia Civil investiga el millón de euros en patrocinios que la Diputación de Cádiz pagó al empresario acusado de blanqueo vinculado al narco",
+          "link": "https://elpais.com/espana/2026-07-02/la-guardia-civil-investiga-el-millon-de-euros-en-patrocinios-que-la-diputacion-de-cadiz-pago-al-empresario-acusado-de-blanqueo-vinculado-al-narco.html",
+          "pubDate": "2026-07-02T18:31:51.000Z",
+          "snippet": "Los investigadores encontraron al hostelero, cercano al alcalde de El Puerto de Santa María, 1,2 millones de euros en efectivo y le vinculan a un tercer implicado investigado por narcotráfico",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Tras el revés en el Supremo, el Gobierno de Trump prioriza la persecución del llamado ‘turismo de partos’",
+          "link": "https://elpais.com/us/migracion/2026-07-02/tras-el-reves-en-el-supremo-el-gobierno-de-trump-prioriza-la-persecucion-del-llamado-turismo-de-partos.html",
+          "pubDate": "2026-07-02T19:15:53.000Z",
+          "snippet": "La Administración republicana busca endurecer los controles sobre las mujeres embarazadas que buscan entrar a Estados Unidos",
+          "_priority": "ALTA"
         }
       ]
     },
@@ -67,38 +102,45 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Luisiana: fiscal general republicano acusado de delitos criminales",
+          "title": "Death toll rises to 21 with more than 80 injured in huge Russian attack on Kyiv –as it happened",
+          "link": "https://www.theguardian.com/world/live/2026/jul/02/russia-strikes-ukraine-war-kyiv-volodymyr-zelenskyy-europe-latest-news-updates",
+          "pubDate": "2026-07-02T15:04:54.000Z",
+          "snippet": "Damage recorded in 30 locations across in the city from overnight attacks, with ‘most of them ordinary residential buildings’ in Dublin Volodymyr Zelenskyy has said he hopes not to wait too long for the results of an Irish government investigation into alumina exports to Russia t…",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Louisiana: Republican attorney general indicted on criminal charges",
           "link": "https://www.theguardian.com/us-news/2026/jul/02/louisiana-republican-attorney-general-liz-murrill",
           "pubDate": "2026-07-02T21:57:30.000Z",
-          "snippet": "Liz Murrill acusada de intentar intimidar a funcionarios que se opusieron a la ley promulgada por los republicanos para reformar tribunales locales La fiscal general republicana de Luisiana fue acusada el jueves de delitos criminales por un gran jurado en Nueva Orleans, acusada de intentar intimidar a funcionarios locales que lucharon…",
+          "snippet": "Liz Murrill accused of trying to intimidate officials who opposed GOP-enacted law to overhaul local courts Louisiana’s Republican attorney general was indicted on Thursday on criminal charges by a grand jury in New Orleans, accused of trying to intimidate local officials who foug…",
           "_priority": "ALTA"
         },
         {
-          "title": "AFP evalúa acusación de crímenes de guerra en Gaza cometidos por ciudadano australiano que sirve en las FDI",
+          "title": "Man accused of ordering Daphne Caruana Galizia murder paid hitmen’s legal fees, court hears",
+          "link": "https://www.theguardian.com/world/2026/jul/02/man-accused-of-ordering-daphne-caruana-galizia-murder-paid-hitmens-legal-fees-court-hears",
+          "pubDate": "2026-07-02T17:21:37.000Z",
+          "snippet": "Yorgen Fenech said to have spent €400,000 on fees for men convicted of car bombing that killed investigative journalist A businessman accused of commissioning the murder of the Maltese journalist Daphne Caruana Galizia spent more than €400,000 (£343,000) on legal fees for the hit…",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "‘Truly international’ network of drug-facilitated rape uncovered by UK crime agency",
+          "link": "https://www.theguardian.com/society/2026/jul/02/international-network-drug-facilitated-rape-uncovered-by-uk-crime-agency",
+          "pubDate": "2026-07-02T17:05:47.000Z",
+          "snippet": "NCA says offenders arrange to sexually assault and film victims via online networks with crimes often taking place in trusting relationships Criminal investigators in the UK say they have uncovered a “truly international network” of organised drug-facilitated sexual assault in wh…",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "AFP assessing allegation of Gaza war crimes committed by Australian citizen serving in IDF",
           "link": "https://www.theguardian.com/australia-news/2026/jul/03/afp-investigating-alleged-war-crimes-committed-by-australian-citizen-serving-in-idf-in-gaza-ntwnfb",
           "pubDate": "2026-07-02T19:44:18.000Z",
-          "snippet": "Exclusiva: Las acusaciones contra la unidad de las Fuerzas de Defensa de Israel incluyen ataque deliberado y destrucción de edificios residenciales en 2023 y 2024 sin justificación militar Sigue nuestro blog de noticias de Australia en vivo para las últimas actualizaciones Obtén nuestro correo de noticias de última hora, app gratuita o podcast de noticias diario…",
+          "snippet": "Exclusive: Claims against Israel Defense Forces battalion include deliberate targeting and destruction of residential buildings in 2023 and 2024 without military justification Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily ne…",
           "_priority": "ALTA"
         },
         {
-          "title": "Burnham promete aliviar presiones del costo de vida si se convierte en primer ministro",
-          "link": "https://www.theguardian.com/politics/2026/jul/02/burnham-promises-to-ease-cost-of-living-pressures-if-he-becomes-prime-minister",
-          "pubDate": "2026-07-02T19:38:16.000Z",
-          "snippet": "El diputado de Makerfield dijo que consideraría reducir las tasas comerciales como parte de un paquete que también podría incluir congelación de alquileres privados Andy Burnham prometió aliviar el costo de vida si se convierte en primer ministro en su primera entrevista desde su regreso al parlamento. El diputado de Makerfield…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Los cortes de infraestructura para pagar defensa costarán al Reino Unido 10,000 empleos, muestra análisis",
+          "title": "Infrastructure cuts to pay for defence will cost UK 10,000 jobs, analysis shows",
           "link": "https://www.theguardian.com/politics/2026/jul/02/infrastructure-cuts-starmer-pay-defence-will-uk-10000-jobs-analysis-shows",
           "pubDate": "2026-07-02T18:46:36.000Z",
-          "snippet": "Exclusiva: Los hallazgos cuestionan las afirmaciones de Keir Starmer de que la reasignación de fondos al Ministerio de Defensa impulsará empleos británicos La decisión de Keir Starmer de recortar miles de millones de libras en gastos de infraestructura para pagar más equipo de defensa terminará costando al Reino Unido 10,000 empleos, según un…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "'Coronación' de Burnham molestará a algunos miembros de Labour, advierten jefes del partido",
-          "link": "https://www.theguardian.com/politics/2026/jul/02/labour-mps-nec-andy-burnham-leadership-contest-no-10",
-          "pubDate": "2026-07-02T18:01:27.000Z",
-          "snippet": "Al NEC se le dijo que debe tomar medidas para abordar temores –incluyendo no alquilar el estadio de Everton para anunciar nuevo líder antes de que se abran las nominaciones Los jefes de Labour han sido advertidos de que deben apaciguar a miembros de Labour descontentos que están molestos por la falta de democracia del partido porque Andy Burnham es…",
+          "snippet": "Exclusive: Findings cast doubt on Keir Starmer’s claims that reallocation of funds to MoD will boost British jobs Keir Starmer’s decision to cut billions of pounds of infrastructure spending to pay for more defence equipment will end up costing the UK 10,000 jobs, according to an…",
           "_priority": "ALTA"
         }
       ]
@@ -108,31 +150,45 @@
       "color": "mint",
       "items": [
         {
-          "title": "Rusia martillea la capital de Ucrania en ataques mortales",
+          "title": "Russia Hammers Ukraine’s Capital in Deadly Attacks",
           "link": "https://www.nytimes.com/live/2026/07/02/world/ukraine-kyiv-russia-attack",
           "pubDate": "2026-07-02T21:51:00.000Z",
-          "snippet": "Al menos 21 personas fueron asesinadas en Kyiv, dijeron las autoridades locales. El presidente de Ucrania había advertido que Moscú estaba preparando un 'ataque masivo' mientras las fuerzas de su país han golpeado más profundamente en territorio ruso.",
+          "snippet": "At least 21 people were killed in Kyiv, the local authorities said. Ukraine’s president had warned that Moscow was preparing a “massive strike” as his country’s forces have hit deeper into Russian territory.",
           "_priority": "ALTA"
         },
         {
-          "title": "Con ataques a Crimea, Ucrania espera presionar a Putin para poner fin a la guerra",
+          "title": "With Attacks on Crimea, Ukraine Hopes to Pressure Putin to End the War",
           "link": "https://www.nytimes.com/2026/07/02/world/europe/russia-crimea-ukraine.html",
           "pubDate": "2026-07-02T21:19:49.000Z",
-          "snippet": "Los ataques con drones cada vez más intensos, la escasez de combustible y los cortes de energía en la región que Rusia anexionó están entre los factores que aumentan la presión sobre el Presidente Vladimir V. Putin.",
+          "snippet": "Escalating drone strikes, fuel shortages and power cuts in the region Russia annexed are among the factors turning up the heat on President Vladimir V. Putin.",
           "_priority": "ALTA"
         },
         {
-          "title": "El Vaticano excomulga a la Sociedad de San Pío X, en la primera crisis importante para el Papa Leo",
+          "title": "Ukrainian Charged With Sabotaging Pipelines Between Russia and Germany",
+          "link": "https://www.nytimes.com/2026/07/02/world/europe/pipeline-sabotage-ukraine-russia-germany.html",
+          "pubDate": "2026-07-02T19:57:49.000Z",
+          "snippet": "A man identified only as Serhii K. is accused of overseeing an undersea bombing in 2022 that cut off a key source of Russian gas revenues.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Deadly MV Hondius Hantavirus Outbreak Is Over, W.H.O. Says",
+          "link": "https://www.nytimes.com/2026/07/02/world/hantavirus-cruise-outbreak-timeline-events.html",
+          "pubDate": "2026-07-02T22:00:43.000Z",
+          "snippet": "The rodent-borne virus, which sickened passengers on the MV Hondius, killed three people, led to a race to find its origin and a global health alert.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "See How Europe’s Heat Waves Melted the Alps’ Glaciers",
+          "link": "https://www.nytimes.com/2026/07/02/climate/europe-heat-waves-melting-glaciers.html",
+          "pubDate": "2026-07-02T20:13:31.000Z",
+          "snippet": "The snowfall from last winter disappeared a month sooner than usual, after two early hot spells. Huge volumes of exposed ice are now starting to vanish.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Vatican Excommunicates Society of St. Pius X, in First Major Crisis for Pope Leo",
           "link": "https://www.nytimes.com/2026/07/02/world/europe/vatican-society-st-pius-excommunication.html",
           "pubDate": "2026-07-02T20:41:27.000Z",
-          "snippet": "La medida contra la Sociedad de San Pío X siguió su desafío al Papa Leo XIV al consagrar nuevos obispos contra sus deseos.",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Putin represalia con nuevos ataques después de que Ucrania lleva la guerra a Rusia",
-          "link": "https://www.nytimes.com/2026/07/02/world/europe/russia-putin-ukraine-war-pressure.html",
-          "pubDate": "2026-07-02T20:06:19.000Z",
-          "snippet": "Ucrania está llevando la guerra a Rusia, pero hasta ahora la respuesta del Presidente Vladimir V. Putin ha sido seguir atacando, incluyendo con ataques de drones y misiles balísticos mortales en Kyiv el jueves.",
+          "snippet": "The move against the Society of St. Pius X followed its defiance of Pope Leo XIV by consecrating new bishops against his wishes.",
           "_priority": "ALTA"
         }
       ]
@@ -142,30 +198,44 @@
       "color": "green",
       "items": [
         {
-          "title": "Rusia golpea la capital ucraniana con asalto masivo, matando al menos 25",
+          "title": "Russia rocks Ukrainian capital with massive assault, killing at least 25",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSzE1NERzdFRicHBNd2RfMG9fd211Uks2NUNpb1doQTk4b0R4dllRbTczenUyRTluOWdhOHZlaXpMeFdYdzFpX3dhdUR4eEw2VXhzbEcyVTlIZnkwTUd6ZGpQbkVVbXl3RkJ1dzR4b0NJSmszUERIMVpYdVpoeTBDYjVFLTRGdVFldTNxNzB2RTFXZzN6QzV5R2wyOFJCYXZ5c2c?oc=5",
-          "pubDate": "2026-07-02T21:47:59.000Z",
+          "pubDate": "2026-07-02T22:16:23.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Grupo paramilitar de Sudán cometió crímenes de lesa humanidad, dice grupo de derechos",
+          "title": "Sudan paramilitary group committed crimes against humanity, rights group says",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcVBGWlZOOERBQXlTZl9ucEd2S1NIQUlTU1BwT0VSQW5mVHkxZTlsZ2djOG1ac1o0VWs1VER6bkEwZF9LU1pNWWl5ZVZ0MEJOSmNWRDZkYUROLVZCTDlid1pvd0l3TGhSNVd2MVpqOXBzd2MzNWNjU2RlLXZwckIyS0tfdEthUFg5amZ1azlLLWhoR0F6OWtjUlpwSnkzNlQ5c0gwejN3ZnJlQldhd1lWTUpOMG1NMWNqQWVTWU11VXNOa1k?oc=5",
           "pubDate": "2026-07-02T19:04:16.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Los bebés nacidos este año recibirán tarjetas de Seguro Social con logo 'Freedom 250'",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUFtZUlDeUNVcGZrTDA0Mi02M1NFc0RBbUJNbUR1UUdQV1Q3emE5LUFiMkxTZTZyaUxJOXZ1Si1jRHNwcEFJX1BvWGFwQ2RIUDdVTUdlc0xkTHhiNUNmWVNKWE5HMDViTzU5dW8xV3pxWWc4alluMEwtbjVZZWc3ZVcwS1NaZWluWnpLakNRNnc4TUdSSTFyeU4yNlBNbHI3UThJeWxQSDdmRXg3aGlQd21Vd0tNTHpqZ3MycUZ4bGx0NVk2UVlMNG9n?oc=5",
-          "pubDate": "2026-07-02T22:03:31.000Z",
+          "title": "Federal nuclear agency moves to relax radiation exposure rules",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTGRHSWRmNENrMmJTcEZlOU5PWFZrczhIYXpmYzZSeHAxWlNXS25vdDc4LXhFbTF1RTZIVHRQMEJReGVDZmlNcWRJcVpVNV9QZ1dqN2JuQWNaVHJBMGZidy1nbTRuLTJSby1NakYtRTN5bTVMcVp1ZGJNY2otbjZCQ1d2X2xWQkFxYTRYcHFMME5SQzVTQjRxemhUR2tSMTVHOGZtTE41QzAtaXo4N0toYQ?oc=5",
+          "pubDate": "2026-07-02T06:58:04.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Trump ganó $1.4 mil millones en criptomonedas el año pasado. Esto es lo que sabemos.",
+          "title": "Why a case pivotal to the anti-vax movement could end up at the Supreme Court",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNemh3czZGS2htb0piUzltOGZIOTd0b2tpZFhsUjBTVmE3UHpNTWJYbTRkMHVyQ01hNTZHaTI1dTdVV0daZUZjSE9EVVh3SUhjVU9hQmhQdERYMDJObGExckdHdkdtd1B6eWdIREEwRnJqNGVMSnJXUDZXSkkzbHpGMVhfclVmbkpUZGdub3lmbHdSYTlCQmJBaThvaGRzNGlGR0l0eHNWQ0ZpbmdIdHVzQw?oc=5",
+          "pubDate": "2026-07-02T20:50:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Trump made $1.4 billion from crypto last year. Here’s what we know.",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQa1Q0Z19KdGNseDVKaFdDeEtXXzQxMWN3WHREVmhhNVUxM2JiOWNiczVXNmtIYXEtNUZtVDRnQkYwdWlXbkJxcC1fVHFYQXFzOHhNVXlmTVZtUVNQTkZCR1Mya1h3UUVqOENiMnlEVURxVE15a0swem1RbjZ4UDZHN1kwalF4X1FLTlRnU0JKRHpxMEhaY0Ruel9QQk9CTGtIamE1MDJvUTZkUkhLQWc?oc=5",
           "pubDate": "2026-07-02T19:15:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Trump’s wealth grew on a scale without modern presidential precedent",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRC12YW9TcmsyeFRpaDFMXy1PZXJKbEVqY0lVbmIzRllLblBjWENPb1RBMWJUZHQ2bHU5eHNNeEx5bE9WeDZNZlRoREI5RWwwemlsbHlwMVJYcmI1eWNHS0ZDRzQzSHI0YU52RDAzM0U0SFNUcFBBeXlFdmZTU1lqUm1OVXNPSzRTYWxZVi1nTzlxRFZiZlBVVHVNVXp0dWstbElrVEF2TlBOUTlSVXhhMzNyYkQ?oc=5",
+          "pubDate": "2026-07-02T05:14:31.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -176,29 +246,43 @@
       "color": "lilac",
       "items": [
         {
-          "title": "Rastreador de encuestas de elecciones israelíes: ¿mantendrá Binyamin Netanyahu el poder?",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ObDNEQkNJb0NDRHliRFh6ZGVlX2JvVkU3Q0FTSlFzVkNHM3FITER1SGFQdmlNNWZXQXpRNTYwM21CTDJmdFRQVWQtYXh4R2xLd0phaURJSC1RV210b1VCb2tnWlItM1dZMDc0NkRFQ1dudGd5?oc=5",
-          "pubDate": "2026-07-02T19:43:12.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "¿Quién estaba detrás de esos vuelos de drones sobre Europa?",
+          "title": "Who was behind those drone incursions over Europe?",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORlpaS2hOSEsxRVZlT3EzQUpKTmpCb1ZPVlV2Y29JanhKTVo4bVFSV2wyaHhtamZ2M3YyWlIyWENuODRxUTRUYUM5XzhkZlZxRk1nMW9PRlM2MU4yM3EwU2VwZ2UtOUZ0aWhhSEt4RXJpcFhNLXNTZDJGVGFvX2FEeHFwZk9sNF9SU3FTVnN0NmxRY2s5THZZZQ?oc=5",
           "pubDate": "2026-07-02T15:14:17.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "El auge de Volodymyr Zelensky es un intento de forzar negociaciones de paz",
+          "title": "NATO ponders how to defend Eastern Europe as America pulls back",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ0R4ci1uSjd1OXlJVVF6MDJsbnQ5aEw5bGZJX0tybFYySFJDaEVWVkZjS3BGYkhDZDRjc3JNRTd5TDNscC1BbGlHZkRpMkxRcFZzVlFhc29aQmxnN21qeWJzd3h6bVRnYjNGV28wcVBKb1lCcU1Ga0s0QktKVEpvaGRIWDl2UXM4anQ2X2tSUDhFWkhqNk43OXNjNEs2Y1BUc2ZfWFQxOTJ4b0RjX3NaZmJOcUw?oc=5",
+          "pubDate": "2026-07-02T14:22:37.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Venezuela’s earthquakes are partly America’s problem",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYWNKREJWWHdrcW4xR2U2WUNJUHpyNGRSX1AybzVmVzQ2dFk1M01wVHI1ZmV1Z0ZraUkxdy1waVJDOTNxaVlXNlE5RnlTeXVQakZHLVJWSTRXTjhDVXpZRC1BVTJnR2pMZXBqTTZMMHlKSkg2OGxZazlRbDBwR2lWVU1nMVd0V3laNW1rR1U0aHBhblJ4SkV5Tkk5QQ?oc=5",
+          "pubDate": "2026-07-02T11:21:35.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Volodymyr Zelensky’s surge is a bid to force peace talks",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZTByRm1WNkdEV091Q1lPWGhEcUx6dHZYc1M0cVd0TVloaWFJWE8xNVJBVW1kSXhQTEswZlpkV05iRnZiZF82NjFHZEVpRWh2UFd5Tml6ek83RVlIekkxNUF2dW4xRkFvS1hNTEZTZGRDUWJXWUVONGZNcWRzWW1CaDdLaS1ILW9rQS16YVFEM3ZrNlZSUnl2bm5paWFkcy1n?oc=5",
           "pubDate": "2026-07-02T14:22:37.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "La OTAN reflexiona cómo defender Europa Oriental mientras América se retira",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ0R4ci1uSjd1OXlJVVF6MDJsbnQ5aEw5bGZJX0tybFYySFJDaEVWVkZjS3BGYkhDZDRjc3JNRTd5TDNscC1BbGlHZkRpMkxRcFZzVlFhc29aQmxnN21qeWJzd3h6bVRnYjNGV28wcVBKb1lCcU1Ga0s0QktKVEpvaGRIWDl2UXM4anQ2X2tSUDhFWkhqNk43OXNjNEs2Y1BUc2ZfWFQxOTJ4b0RjX3NaZmJOcUw?oc=5",
+          "title": "Israel election poll tracker: will Binyamin Netanyahu hold on to power?",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ObDNEQkNJb0NDRHliRFh6ZGVlX2JvVkU3Q0FTSlFzVkNHM3FITER1SGFQdmlNNWZXQXpRNTYwM21CTDJmdFRQVWQtYXh4R2xLd0phaURJSC1RV210b1VCb2tnWlItM1dZMDc0NkRFQ1dudGd5?oc=5",
+          "pubDate": "2026-07-02T19:43:12.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Africans are turning to Starlink",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMUJXSEVBTUVsNWttLURkSXBwcGpyRzc0MWhfQWFWNU5ZaGY4em9LUFdwU3BGNHNRVkNIMFBzUTZXYlh1RTFWWm8zSXYtLW5Pa3FreHRYQlkxUXhnenVyR0VnenlxQ1pLTkFKMVpDcDJPTVhNZTF5RVRkNVVuSjBIblJUNGNRVkU0QW40ZU1LQU1UZElFNzln?oc=5",
           "pubDate": "2026-07-02T14:22:37.000Z",
           "snippet": null,
           "_priority": "ALTA"
@@ -215,6 +299,27 @@
           "pubDate": "2026-07-02T16:25:38.000Z",
           "snippet": null,
           "_priority": "ALTA"
+        },
+        {
+          "title": "Detienen en el AICM a Gilda Lozoya, hermana de Emilio Lozoya",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNnlxRWVmM19UYTlrRlFLX3B0dmFYeVQ5NDduMTctNWkzdDZwb1U5WWY2dTVkQ3c0UGRrMDVMX0JOQWUzRWpUazVuYlJGVHQ4R2NfRnd4VFVwd0YxQTMzSnUxRGNoRGFYRUs1UmlTUVJCbW9xZjZUd0lVb0V0QnRhMU1qNHhRVHBWYVgyUTBKbWVSYjNPaDhQRnVGMHBVbHM0WWZrSmxBenRscVpZdUQ2LUtROS1LcWVhWkh6VF9PbVpJMkFMempvWkF6bTY0SkRCNGRnRm1Pai1OUDBlTkdhaF82NmtaZ1B3M29j0gH_AUFVX3lxTE9YZGlVeHZEbE44VHVHN2ZDVjRuY280QjdHcWV5YjFOUXpBaGtmQXVKWndERzh1UEN6Ym9INDYzODJwZlA5V1JaTERSOWxWSmFReUR4UFpnS05vU1FaU2JERDNVWHFoWmpvVERwTWRhOUxvU3Y4VWVRNXpreVY5ay1SSl9qcExiQTY3SHRiZzdHN0RWS2h5dXNkOGVoSWp4cXVXLWN6dTQ5Vll2OENaNlZOZDVXenAtdkZkdHRHb0JuU19jbnUwSEJFellGUXY2UXFIc1l1OWcxek1rbUF3cmFhQ3BEandVSGZiN1ByX2pSSjIwY29SUGlTb2U2SXZsRQ?oc=5",
+          "pubDate": "2026-07-02T18:54:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Independencia de EU: La historia incómoda",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVWc2amdhYU9ZcHlpeVE1b0N3aHZ4Wm03Vm53NkNTQkJhZjllZ3B5Ym1CdENYZkxhOVlyTDAtci1jVnphYVRuVldrSzlDSHJDenZFbG9ZaXo0LUN3b2JfVVRfU05VRTM1Y2RPcVpCQzc4RkJEOGg2aEd5MEZDNmlxR2EwTTQ?oc=5",
+          "pubDate": "2026-07-02T07:00:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Secretaría de Salud CDMX pide ayuda para hallar a familiares de hombre fallecido durante festejos en el Ángel",
+          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQS2tEVmlrbU5nVXRTSlpURE52X3l4ZEZvOElIZ2hIUEFtTlVsdjV5b2d4c2ttR0czelRpOEozS0pYNExFQVE5Zy1adWJ2VGwyTEZvMFk5U0lkN3RyVHdIMG4tTGwwRFVNRkRIY2JGQTFIajZTaDQ1LWNrVGxxZXFKbGpBdkZOQWRQQVFVRzdBbk5fSnpTZjFob1JWRy1UV1pPek13X2JOT0tkeUhyU09abUdDTE03VWVjNEdYM1VuU2NSV2libFNacGpyOFJua29fcW1MX0VBc1Rob3o4bWRaMkF0MW5CNFk1UllQUE9PVDAwcTNGZFhSZURNS1cyY3licGJBRGp5TGx6UdIBngJBVV95cUxPeXFZR01VRFNCVmVpTEp6NWRaQ0RCdDFMSnZodUtkcG90VkhWUWlzTWZmUVBRbnFoSXhrLTNua01MRk1BOHhqMUdJLVdaVEJDa2NXY0lucS1DejVoeTlXdUhJZ2x6MGJHMnlSa0xfRnRUbDg5OWNCOGVTSHhjaHgwRjhCZXNFbWNqNXZpdHpKc2ptRFJQTGJlZWNzbTVZVHd4TjktclAwNEVIRHhCb25OeEdkVWY4MnFCazd3aVhuNzJNN3IxbXBmam1BQ0hXUUZ1ZDlFcG9GNDJ5WkRFeVB4NGR5TV9welhKZTJoVk9YOTJmQlVadHlPUktwT3VuZi1pdVktVXJ0Q1dhTHFYMGQtRnpEMXdwR1RRUmU2WTNB?oc=5",
+          "pubDate": "2026-07-02T02:17:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -223,13 +328,6 @@
       "color": "blue",
       "items": [
         {
-          "title": "El desempleo en EEUU baja en junio al 4,2%",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQnA0SDhyeGE4SUp4X25qTk02QW5aMExIRXVabXo0REFNRlU1U0NOY2RKWUlEQTZRS0dEYnZ2eXkyWWNoZDY0NjU0cktWMi1KME1EMWxsMUpuajUyY1NNMDJJVXgxVld6VkJvcWc5VmJheGFmdFNLWWY1MjBSOUotRDlCX0lLM0x1aWfSAY8BQVVfeXFMUGtLV3dxRTVSYUxUd2RRelc1OXJpMHpSaHpHel9FTzNjQl9qblRwdktvWmpCeXZ4RmZteEFHc1pHSk5CbmdZRGJXOWxHSnNYanotdjFnNEFObWZyREVlUGp6YUxGaU80NENzREhrbVJSTVZLX2RuY015YVZxSDdZazJRYlhBeDIzYXE3UUFrTXc?oc=5",
-          "pubDate": "2026-07-02T17:53:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
           "title": "EEUU acuerda con Israel construcción de embajada permanente en Jerusalén",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUmhjVXYxRkhBXzR0Y0U0anhCTlJkUFRZSkEyNThTZk0xeEVUcDhvbDl4VmtxOTFaRFVWME1qUkdSMHU2MHdzS3ItWUZTZVdGYVJLU2lEMmtSLW12aXA0NDFvU24wd01hUG95NmY5NEFVMEFWRGJJNDloTGhORDR6QzhDTWc2c1gxang3Y3Z4cmJxdGNuLVZJaWptRHQ1bjNUVTA3NWFod1prUUdEUUh3Y2RZWS3SAbQBQVVfeXFMTVJoY1V2MUZIQV80dGNFNGp4Qk5SZFBUWUpBMjU4U2ZNMXhFVHA4b2w5eFZrcTkxWkRVVjBNalJHUjB1NjB3c0tyLVlGU2VXRmFSS1NpRDJrUi1tdmlwNDQxb1NuMHdNYVBveTZmOTRBVTBBVkRiSTQ5aExoTkQ0ekM4Q01nNnNYMWp4N2N2eHJicXRjbi1WSWlqbUR0NW4zVFUwNzVhaHdaa1FHRFFId2NkWVkt?oc=5",
           "pubDate": "2026-07-02T15:18:00.000Z",
@@ -237,18 +335,39 @@
           "_priority": "ALTA"
         },
         {
-          "title": "España: Imputan a la jefa de la Guardia Civil y a su asistente en causa judicial",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaUQwZTNiM3pJTkYxcERQNHQ0UEVpQ2VWZkh6WndiNDBJWlVUUEdFNUNXVEM0SnZzZ3doYkNDeGVmVWMwZThidzlzSHFiLTRGUnZKWDNNUXBoSTFmTVEtRFBNNnNzVHFCT0VCZlVzYl9zbGJLNVU1RDJpZ29fY24ydXFwWEdfUFctbE83cm04T0ZGaWRmcC1OOENJLTcxbXYxSkhiN0p1Qy1XNk9va1VvRGtDcmh0SGxsX0HSAb8BQVVfeXFMUEt3T0c1VHpyeFZUVmlwNGdpb3phZ0lZSXoxbnVkV214YTdlS0V6Nzh2bk5FSVlXNzJ3cG5QZV9RN3RITHdlSmp5a3ROMWdTb2p1WU1EWS11YmNVcTZuenZTR1J6ZGlNeW42M1lJY3Fub25zaHQxbFR6eS01RWZRVGdwcWhReDBDQWljX1ZyMk82VnZIMUgxSEVXSllsYXRpNE1WOTZ2WXl2aVB4WFBFazdoSGUtSnVLeUM1Zjl4aDg?oc=5",
-          "pubDate": "2026-07-02T14:32:00.000Z",
+          "title": "El desempleo en EEUU baja en junio al 4,2%",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQnA0SDhyeGE4SUp4X25qTk02QW5aMExIRXVabXo0REFNRlU1U0NOY2RKWUlEQTZRS0dEYnZ2eXkyWWNoZDY0NjU0cktWMi1KME1EMWxsMUpuajUyY1NNMDJJVXgxVld6VkJvcWc5VmJheGFmdFNLWWY1MjBSOUotRDlCX0lLM0x1aWfSAY8BQVVfeXFMUGtLV3dxRTVSYUxUd2RRelc1OXJpMHpSaHpHel9FTzNjQl9qblRwdktvWmpCeXZ4RmZteEFHc1pHSk5CbmdZRGJXOWxHSnNYanotdjFnNEFObWZyREVlUGp6YUxGaU80NENzREhrbVJSTVZLX2RuY015YVZxSDdZazJRYlhBeDIzYXE3UUFrTXc?oc=5",
+          "pubDate": "2026-07-02T17:53:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Florida multa con $20.000 a contratista de FPL por fumigación aérea que dañó propiedades y desata investigación federal",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNV93WHRNMkJ3YTdHRkRSRVN3eXZGNFV4dEVSNzQzQ0EzWFR2N3Fpb2dudElaUXV4UTZFRUM0bVpKRFRZdE00SVRUcTYteVUzX3JOYUVlQU5uaF84TEdjdnpMNVoyNC1HLUU0SlZpSzRBUGV6Mk5nZkZNRFprM1Fma05zdC1IUDBZTEZQLWtJdS1lZ21nTFg5cjlSd2s5QU9Qem83ZmhTNDRwOVp3WVhwQzQ0UEY1SFg2WDdJZmF3a29QUnJKWW92UTdUVHVpUmVvUE1nY1dTLTZwQmhMSUZyTlFlSW5CajhhcUg40gHwAUFVX3lxTE9NcFhuRzR6OXJiVHJOZHFyaThiLTBrMVlMR3JueWZIWjFFUlhNbHYydUQ2QWtnY2VmcDdHcXZXSmhRUFlQUVBBaTIzNWtCZU9CQ3Q1Xy1nNXpMTFBDRENCbktaeTE2Nnk0V3ZwN1BLc1lhYzhqVDJTc0ZBSC15Qy1hM3VKeEtaR2M0MUl6amJ2VDFaR3dDeDhSS0RUQjhveDloNmVBemZTSWF3V1pZOUtMbkFsUzFJbUlDRncxSU8wcXU5WTdJcnR2M2V0ZEZkVk81S3U0RUx3clpoZG1XZUV3WDNmZlJnT1pXUndmZlBnMA?oc=5",
-          "pubDate": "2026-07-02T13:17:58.000Z",
+          "title": "Ala de izquierda radical del Partido Demócrata gana terreno en las primarias y desplaza a \"moderados\"",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdEZ0dGdKekg4RFB4bUdsVUx2amdPMEtiVkxsdEQ1UVl6WklDUF9wbFA5bUZDMTRnMmZzbHZMalo1eG5NemtPdXZSVDhLcEhaU0U2WWNhQUZ0WC1DZW9Yc0NJMFo5NXVydXdFV1FRRmR0UkNjdGVSc29hdV81Z3NTX3BfcnZFM2F4NUx0aU9DLVRjQnY2eWR4WWRsY0E0V2JzRTEySkU4NW5WSllmWTJUWlBwVVY0V3psSnNXal9zYk1vSTdBU0RhakpLcWljTVE3eWowOTlR0gHbAUFVX3lxTE9OT3JiWE5jRmpJM1owN01KbGpZNjFBVjVBdmxkWXo1VXZqd0gxZEVIWmw4TEdRb1I3YnBvdlZaeUZGVTNueXdNY3hTUUVkRl9Jb1ROdG4zVmxjcEtSVnRIM2QxVVZ5N1BFOEEyRjlqTGdHcE1HcFZIM0g0TnZGRlliQjRVVDNoNWRqTm82dWViSHphTE1ka0N6QmFSRWV0dnJKMnNpZDNCbVJ5T0dzY1B4UEhRbGtKN3VtQXBuNm03RDRuZU9pc1VnZlhDZUhRbWNkbTBSeW1DeVV6Yw?oc=5",
+          "pubDate": "2026-07-01T22:14:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
+        },
+        {
+          "title": "Venezolano rescatado tras ocho días está en UCI, pero en buen estado y consciente",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVl8tc0ZmV0VsOVJaZWMzYlZFcWsyTWhISnhWOWxCeU9maHk3UkQ1aWlwSUEzWUVXS2R5TDhzZVBEd1FQc3RHWEszSDM0Qms2Nk8wa1B2b1Z1bHlTR3RnQ0k1RUl1WDJRX1J3NGRCcFpaVzhBNGktRlNtTVdRYlN2OU1YdnJKZ2Job2xCWHVlVERtNW4yVDNwVmVINnBvcDlxZ013empMaFlSekZhd2RFZmJsU1FmQ2JtczJxZ05mY0pjYk9EcFHSAcsBQVVfeXFMTW8zNlJMdTNJbXpWRHAyVm5xSEZaN21VRkFXcjZoY2pUMS16Wl9sTFRvWjctWXFHaHRvREJ0elktY3JLR3Q4OHh1c1B6cHE0cXc3Ym4zUWZBUzlVbFpIalBmZzJKZHJOdmRIbUd1N1g5c2RaaVFJV0hkNUNqOWJyNVhabDZOYzYyVk5RX0w4TWhZLVpVMUZrSWZFMmFqWDF3ZUxOVERsWG03SlN2aGJCRFkySHktYVp0OTRBMFhMWGxmeFMzcTNKYktsak0?oc=5",
+          "pubDate": "2026-07-02T19:31:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "EEUU cumple y avanza a octavos de final",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcmJnR191RWZlMFp6TFMydUZDcWpzbzRMT195c3Z1X2tNbVdqQ0FUemt5WFZnbTVtSFJYVXFjQkN3SGNaOXNqZEpjdnVTMF9TR3FVM0tsYnZha1pRNmRCTURuSXYtblJBR3JzMl9hd3ZjTEtoR0JQTzNZY3RITllkSFdVdEFMMWVOYjJYYWFiONIBlAFBVV95cUxPY2VXWDFuNmszUGk1aC1JTnpFbnJMdDhjbDJmaHk2MTNpNFR2c2dCRTBKQnB5TjJuRGowRU8za3NpSTdtYUh2YUNVVk1yNW5MdGNOWFF6R0FQeUY1NVNHMEpDTXdrUXFmUEtCbnRBQl9MRmMybTJVVmVsTnlEMWYzWXlNN2RTWVhqTnpKcXc5bE92ZGM2?oc=5",
+          "pubDate": "2026-07-02T02:23:00.000Z",
+          "snippet": null,
+          "_priority": "DEPORTES"
+        },
+        {
+          "title": "Zverev y Swiatek pasan con comodidad a tercera ronda en Wimbledon",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaWsxU25JR2JobWdXQ2lDbnNObDJjVEJreU94WlVoa0tabVoxM1pfNU5tV2dyYW13aFEyNGFjTm9TendmR2pkTF9uY01SYjRIYzNzb1FLMnlKQUZ5MmVoZk02SV9zR2xtY0RTUUljcWdhM2Q5eExSTDI3eHpxUlZTMVZRR1h1Qm1pQXFyTWJISGV6V19CcGt0REdBY2JuNUxoNTdmVEl0RTMzaXg50gGyAUFVX3lxTE5RWHdnYzRQZml5TjBwZ0doRHo4SkxmbGRMcmFFQ1BnU3lPUm95ZFFFNzFtV2xsRlRKUmk3MkZpblA0dG1nQ2hzbUVUa3BpWXlXM0dSdUJ3QTR3THpoa0p3REtNSjVIZVRIa3NNRDdiNjZ0OHlFSXJINlhUSk1WWkJ3aUd4OG1haHBhdFMtMkRtQ0NVWEljbXJCNThkdUlNdk1LMUx6TjV2QTc2T2hPeDhXOVE?oc=5",
+          "pubDate": "2026-07-02T19:13:00.000Z",
+          "snippet": null,
+          "_priority": "DEPORTES"
         }
       ]
     }
