@@ -10,19 +10,45 @@ import featured from "../data/featured.json";
 ---
 
 <Layout title="Inicio" hideTopbar>
-  <section class="hero" style={`background-image: linear-gradient(180deg, rgba(5,5,8,0.70) 0%, rgba(5,5,8,0.85) 60%, rgba(5,5,8,0.95) 100%), url('${withBase('/biblioteca.webp')}')`}>
-    <img class="hero__cat" src={withBase("/cat-logo.png")} alt="El Gato Lector" />
-    <h1>El Gato Lector</h1>
-    <p class="subtitle">Noticias, actualidad y más....</p>
-    <nav class="hero__nav">
-      <a class="pill" href={withBase("/colombia")}>Colombia</a>
-      <a class="pill" href={withBase("/mundo")}>El Mundo</a>
-      <a class="pill" href={withBase("/tendencias")}>Tendencias</a>
-      <a class="pill" href={withBase("/reflexiones")}>Reflexiones del Gato</a>
-      <a class="pill pill--ghost" href={withBase("/recomendados")}>Recomendados</a>
-    </nav>
-    <div class="hero__meta">
-      <span class="hero__date">🗓 Se actualiza todos los días a las 5:00 a.m. (Colombia)</span>
+  <section class="hero" style={`background-image: linear-gradient(180deg, rgba(5,5,8,0.65) 0%, rgba(5,5,8,0.82) 55%, rgba(5,5,8,0.97) 100%), url('${withBase('/biblioteca.webp')}')`}>
+    <div class="hero__inner">
+      <img class="hero__cat" src={withBase("/cat-logo.png")} alt="El Gato Lector" />
+
+      <div class="hero__badge">● Actualizado cada día a las 5:00 a.m.</div>
+
+      <h1>El Gato <span>Lector</span></h1>
+
+      <p class="subtitle">Noticias priorizadas por relevancia · Colombia y el mundo</p>
+
+      <nav class="hero__nav">
+        <a class="pill hero__pill--primary" href={withBase("/colombia")}>🇨🇴 Colombia</a>
+        <a class="pill hero__pill--primary" href={withBase("/mundo")}>🌍 El Mundo</a>
+        <a class="pill hero__pill--primary" href={withBase("/reflexiones")}>✦ Reflexiones del Gato</a>
+        <a class="pill pill--ghost" href={withBase("/tendencias")}>Tendencias</a>
+        <a class="pill pill--ghost" href={withBase("/recomendados")}>Recomendados</a>
+      </nav>
+
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-num">8+</span>
+          <span class="hero__stat-label">Medios Colombia</span>
+        </div>
+        <div class="hero__stat-div"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">8+</span>
+          <span class="hero__stat-label">Medios Mundo</span>
+        </div>
+        <div class="hero__stat-div"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">IA</span>
+          <span class="hero__stat-label">Priorización temática</span>
+        </div>
+        <div class="hero__stat-div"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">5AM</span>
+          <span class="hero__stat-label">Actualización diaria</span>
+        </div>
+      </div>
     </div>
   </section>
 
