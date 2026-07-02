@@ -177,7 +177,7 @@ async function buildSection(outlets, prevOutlets = []) {
   const result = [];
   for (const outlet of outlets) {
     const all = await fetchOutletItems(outlet);
-    const limit = outlet.limit || 5;
+    const limit = outlet.limit || 6;
     let items = all.slice(0, limit * 3);
 
     if (items.length === 0 && prevOutlets.length > 0) {
@@ -192,18 +192,34 @@ async function buildSection(outlets, prevOutlets = []) {
       console.log(`  - ${outlet.name}: ${items.length} titular(es)`);
     }
 
-    result.push({ name: outlet.name, color: outlet.color, items });
+    // _all se usa en enforceRange para garantizar el mínimo; se elimina antes de escribir JSON
+    result.push({ name: outlet.name, color: outlet.color, items, _all: all });
   }
   return result;
 }
 
-// Recorta cada medio al límite configurado después de la priorización por IA.
-function trimSection(builtOutlets, configOutlets) {
-  return builtOutlets.map((outlet, i) => ({
-    ...outlet,
-    items: outlet.items.slice(0, configOutlets[i]?.limit || 5),
-  }));
+// Garantiza mínimo 3 y máximo 6 artículos por medio.
+// Si la IA dejó menos de 3 (por excluir contenido), rellena con los más
+// recientes del feed original que aún no estén en la lista.
+function enforceRange(builtOutlets, configOutlets, min = 3, max = 6) {
+  return builtOutlets.map((outlet, i) => {
+    const limit = configOutlets[i]?.limit || max;
+    const cap = Math.min(limit, max);
+    let items = outlet.items.slice(0, cap);
+
+    if (items.length < min && outlet._all?.length > 0) {
+      const seen = new Set(items.map(it => it.link));
+      for (const item of outlet._all) {
+        if (items.length >= min) break;
+        if (!seen.has(item.link)) { items.push(item); seen.add(item.link); }
+      }
+    }
+
+    const { _all, ...rest } = outlet;
+    return { ...rest, items };
+  });
 }
+
 
 // Traduce al espanol los titulares/resumenes de los medios marcados con
 // "language": "en" en feeds.config.json, usando la API de Anthropic. Si no hay
@@ -569,12 +585,12 @@ async function main() {
 
   console.log("Priorizando titulares por relevancia temática...");
   colombia = await prioritizeSection(process.env.ANTHROPIC_API_KEY, colombia);
-  colombia = trimSection(colombia, config.colombia);
+  colombia = enforceRange(colombia, config.colombia);
   mundo = await prioritizeSection(process.env.ANTHROPIC_API_KEY, mundo);
-  mundo = trimSection(mundo, config.mundo);
+  mundo = enforceRange(mundo, config.mundo);
 
   console.log("Obteniendo investigaciones recomendadas...");
-  const recomendados = await buildSection(config.recomendados);
+  const recomendados = enforceRange(await buildSection(config.recomendados), config.recomendados);
 
   const generatedAt = new Date().toISOString();
   await writeFile(

@@ -4,7 +4,7 @@
     {
       "name": "Semana",
       "color": "blue",
-      "limit": 5,
+      "limit": 6,
       "feeds": [
         { "type": "rss", "url": "https://www.semana.com/arc/outboundfeeds/rss/?outputType=xml" }
       ]
@@ -12,7 +12,7 @@
     {
       "name": "El Espectador",
       "color": "peach",
-      "limit": 5,
+      "limit": 6,
       "feeds": [
         { "type": "google", "query": "site:elespectador.com" }
       ]
@@ -20,7 +20,7 @@
     {
       "name": "El Tiempo",
       "color": "rose",
-      "limit": 5,
+      "limit": 6,
       "feeds": [
         { "type": "rss", "url": "https://www.eltiempo.com/rss/colombia.xml" }
       ]
@@ -28,7 +28,7 @@
     {
       "name": "El Colombiano",
       "color": "slate",
-      "limit": 4,
+      "limit": 6,
       "feeds": [
         { "type": "google", "query": "site:elcolombiano.com" }
       ]
@@ -36,7 +36,7 @@
     {
       "name": "Blu Radio",
       "color": "cream",
-      "limit": 4,
+      "limit": 6,
       "feeds": [
         { "type": "google", "query": "site:bluradio.com" }
       ]
@@ -44,7 +44,7 @@
     {
       "name": "Caracol Radio",
       "color": "mint",
-      "limit": 4,
+      "limit": 6,
       "feeds": [
         { "type": "google", "query": "site:caracol.com.co" }
       ]
@@ -52,7 +52,7 @@
     {
       "name": "RCN Radio",
       "color": "grey",
-      "limit": 4,
+      "limit": 6,
       "feeds": [
         { "type": "google", "query": "site:rcnradio.com" }
       ]
@@ -60,7 +60,7 @@
     {
       "name": "Portafolio",
       "color": "yellow",
-      "limit": 5,
+      "limit": 6,
       "feeds": [
         { "type": "google", "query": "site:portafolio.co" }
       ]
@@ -70,7 +70,7 @@
     {
       "name": "CNN en Español",
       "color": "grey",
-      "limit": 5,
+      "limit": 6,
       "feeds": [
         { "type": "google", "query": "site:cnnespanol.cnn.com" }
       ]
@@ -78,7 +78,7 @@
     {
       "name": "El País",
       "color": "sky",
-      "limit": 5,
+      "limit": 6,
       "feeds": [
         { "type": "rss", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada" }
       ]
@@ -86,7 +86,7 @@
     {
       "name": "The Guardian",
       "color": "yellow",
-      "limit": 5,
+      "limit": 6,
       "language": "en",
       "feeds": [
         { "type": "rss", "url": "https://www.theguardian.com/world/rss" }
@@ -95,7 +95,7 @@
     {
       "name": "The New York Times",
       "color": "mint",
-      "limit": 4,
+      "limit": 6,
       "language": "en",
       "feeds": [
         { "type": "rss", "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml" }
@@ -104,7 +104,7 @@
     {
       "name": "The Washington Post",
       "color": "green",
-      "limit": 4,
+      "limit": 6,
       "language": "en",
       "feeds": [
         { "type": "google", "query": "site:washingtonpost.com", "locale": "en" }
@@ -113,7 +113,7 @@
     {
       "name": "The Economist",
       "color": "lilac",
-      "limit": 4,
+      "limit": 6,
       "language": "en",
       "feeds": [
         { "type": "google", "query": "site:economist.com", "locale": "en" }
@@ -122,7 +122,7 @@
     {
       "name": "El Universal (México)",
       "color": "peach",
-      "limit": 4,
+      "limit": 6,
       "feeds": [
         { "type": "google", "query": "site:eluniversal.com.mx" }
       ]
@@ -130,7 +130,7 @@
     {
       "name": "Diario Las Américas",
       "color": "blue",
-      "limit": 4,
+      "limit": 6,
       "feeds": [
         { "type": "google", "query": "site:diariolasamericas.com" }
       ]
@@ -140,7 +140,7 @@
     {
       "name": "InSight Crime",
       "color": "grey",
-      "limit": 5,
+      "limit": 6,
       "feeds": [
         { "type": "rss", "url": "https://insightcrime.org/es/feed/" }
       ]
@@ -148,7 +148,7 @@
     {
       "name": "International Crisis Group",
       "color": "teal",
-      "limit": 5,
+      "limit": 6,
       "feeds": [
         { "type": "rss", "url": "https://www.crisisgroup.org/rss.xml" }
       ]
@@ -156,7 +156,7 @@
     {
       "name": "World Economic Forum",
       "color": "yellow",
-      "limit": 5,
+      "limit": 6,
       "feeds": [
         { "type": "google", "query": "site:weforum.org", "when": "30d" }
       ]
