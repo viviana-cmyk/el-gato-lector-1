@@ -124,6 +124,27 @@ Responde ÚNICAMENTE con este JSON exacto, sin texto adicional:
   return extractJson(text);
 }
 
+async function generateDailyInfo(client, dateStr) {
+  const prompt = `Hoy es ${dateStr}. ¿Hay algún día internacional oficial (ONU, UNESCO, OMS, OPS u organismo internacional reconocido) que se conmemore exactamente hoy?
+
+Si existe, responde con este JSON exacto (sin texto adicional):
+{"nombre":"<nombre completo en español>","descripcion":"<1 oración en español, máximo 180 caracteres, explicando qué se conmemora y por qué importa>"}
+
+Si hoy no hay ningún día internacional oficial, responde exactamente con: null`;
+
+  const response = await client.messages.create({
+    model: MODEL,
+    max_tokens: 256,
+    messages: [{ role: "user", content: prompt }],
+  });
+  const text = (response.content.find(b => b.type === "text")?.text || "").trim();
+  if (text === "null" || text === "") return null;
+  try {
+    const match = text.match(/\{[\s\S]*\}/);
+    return match ? JSON.parse(match[0]) : null;
+  } catch { return null; }
+}
+
 async function main() {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   const generatedAt = new Date().toISOString();
@@ -173,6 +194,22 @@ async function main() {
     path.join(DATA_DIR, "analisis.json"),
     JSON.stringify(result, null, 2) + "\n",
   );
+
+  // Día internacional del día
+  if (apiKey) {
+    try {
+      const client = new Anthropic({ apiKey });
+      const dateStr = new Date().toLocaleDateString("es-CO", { day:"numeric", month:"long", year:"numeric", timeZone:"America/Bogota" });
+      const diaInfo = await generateDailyInfo(client, dateStr);
+      await writeFile(
+        path.join(DATA_DIR, "dailyinfo.json"),
+        JSON.stringify({ generatedAt, dia: diaInfo }, null, 2) + "\n",
+      );
+      console.log(`  - Día internacional: ${diaInfo ? diaInfo.nombre : "ninguno hoy"}`);
+    } catch (err) {
+      console.warn(`  [aviso] Día internacional: ${err.message}`);
+    }
+  }
 
   // Generar tendencias de X y TikTok con IA
   let prevTrends = null;

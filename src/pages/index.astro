@@ -7,6 +7,9 @@ import WeatherSection from "../components/WeatherSection.astro";
 import WorldCup from "../components/WorldCup.astro";
 import { withBase } from "../lib/url";
 import featured from "../data/featured.json";
+import dailyinfo from "../data/dailyinfo.json";
+
+const diaHoy = (dailyinfo as any).dia ?? null;
 ---
 
 <Layout title="Inicio" hideTopbar>
@@ -28,27 +31,26 @@ import featured from "../data/featured.json";
         <a class="pill pill--ghost" href={withBase("/recomendados")}>Recomendados</a>
       </nav>
 
-      <div class="hero__stats">
-        <div class="hero__stat">
-          <span class="hero__stat-num">8+</span>
-          <span class="hero__stat-label">Medios Colombia</span>
+      {diaHoy && (
+        <div class="hero__diainfo">
+          <span class="hero__diainfo-icon">📅</span>
+          <div class="hero__diainfo-body">
+            <span class="hero__diainfo-title">{diaHoy.nombre}</span>
+            <span class="hero__diainfo-desc">{diaHoy.descripcion}</span>
+          </div>
         </div>
-        <div class="hero__stat-div"></div>
-        <div class="hero__stat">
-          <span class="hero__stat-num">8+</span>
-          <span class="hero__stat-label">Medios Mundo</span>
+      )}
+      {!diaHoy && (
+        <div class="hero__stats">
+          <div class="hero__stat"><span class="hero__stat-num">8+</span><span class="hero__stat-label">Medios Colombia</span></div>
+          <div class="hero__stat-div"></div>
+          <div class="hero__stat"><span class="hero__stat-num">8+</span><span class="hero__stat-label">Medios Mundo</span></div>
+          <div class="hero__stat-div"></div>
+          <div class="hero__stat"><span class="hero__stat-num">IA</span><span class="hero__stat-label">Priorización temática</span></div>
+          <div class="hero__stat-div"></div>
+          <div class="hero__stat"><span class="hero__stat-num">5AM</span><span class="hero__stat-label">Actualización diaria</span></div>
         </div>
-        <div class="hero__stat-div"></div>
-        <div class="hero__stat">
-          <span class="hero__stat-num">IA</span>
-          <span class="hero__stat-label">Priorización temática</span>
-        </div>
-        <div class="hero__stat-div"></div>
-        <div class="hero__stat">
-          <span class="hero__stat-num">5AM</span>
-          <span class="hero__stat-label">Actualización diaria</span>
-        </div>
-      </div>
+      )}
     </div>
   </section>
 

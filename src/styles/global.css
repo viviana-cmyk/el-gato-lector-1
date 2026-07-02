@@ -260,6 +260,40 @@ img { max-width: 100%; display: block; }
   .hero h1 { font-size: clamp(2.4rem, 10vw, 3.5rem); }
 }
 
+/* Día internacional */
+.hero__diainfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: rgba(230,179,0,0.08);
+  border: 1px solid rgba(230,179,0,0.25);
+  border-radius: 14px;
+  padding: 20px 26px;
+  width: 100%;
+  max-width: 640px;
+  text-align: left;
+}
+
+.hero__diainfo-icon { font-size: 1.8rem; flex-shrink: 0; margin-top: 2px; }
+
+.hero__diainfo-body { display: flex; flex-direction: column; gap: 5px; }
+
+.hero__diainfo-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hero__diainfo-desc {
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 /* ---------- Section headers ---------- */
 .section { padding: 52px 0; }
 
