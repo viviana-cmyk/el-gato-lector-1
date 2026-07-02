@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#CrisisSeguridadColombia",
-      "#ColombiaIsraelRelaciones",
-      "#CrisisHumanitariaSalud",
-      "#HomicidiosCali",
-      "#ReclutamientoMenores"
+      "#EmpalmeDelaEspriella",
+      "#CrisisSalud",
+      "#HomicidiosEnCali",
+      "#EconomiaColombia",
+      "#DiplomaticaConIsrael"
     ],
     "mundo": [
-      "#UcraniaVsRusia",
-      "#CrimenenesGaza",
-      "#InvestigacionesEEUU",
-      "#DefensaEuropaOTAN",
-      "#VenezuelaTPS"
+      "#UcraniaResiste",
+      "#RusiaAtaca",
+      "#CrisisGaza",
+      "#InseguridadChile",
+      "#OTANdefiendeEuropa"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#CrisisColombiana",
-      "#SeguridadYa",
-      "#SaludEnPeligro",
-      "#MenoresEnRiesgo",
-      "#GobiernoDeSpriella"
+      "#EmpalmeGobierno",
+      "#CrisisSalud",
+      "#DesempleoReal",
+      "#HomicidiosCali",
+      "#DolarYEuro"
     ],
     "mundo": [
-      "#GuerraUcrania",
-      "#CrisisGlobal",
-      "#Justicia",
-      "#EleccionesEEUU",
-      "#DesempleoEconómia"
+      "#GuarraEnUcrania",
+      "#AtaquesMoscú",
+      "#CrisisGaza",
+      "#InseguridadLatam",
+      "#CalorExtremo"
     ]
   },
-  "generatedAt": "2026-07-02T21:31:08.299Z"
+  "generatedAt": "2026-07-02T21:34:01.135Z"
 }
