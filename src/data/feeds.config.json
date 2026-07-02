@@ -80,7 +80,7 @@
       "color": "sky",
       "limit": 5,
       "feeds": [
-        { "type": "google", "query": "site:elpais.com" }
+        { "type": "rss", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada" }
       ]
     },
     {
