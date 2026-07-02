@@ -1,49 +1,49 @@
 {
-  "generatedAt": "2026-07-02T10:01:30.159Z",
+  "generatedAt": "2026-07-02T20:33:47.925Z",
   "colombia": [
     {
       "city": "Bogotá",
-      "temp": 10,
-      "description": "Parcialmente nublado",
-      "icon": "⛅"
+      "temp": 17,
+      "description": "Lluvias dispersas",
+      "icon": "🌦️"
     },
     {
       "city": "Medellín",
-      "temp": 17,
-      "description": "Nublado",
-      "icon": "☁️"
+      "temp": 29,
+      "description": "Llovizna ligera",
+      "icon": "🌦️"
     },
     {
       "city": "Cali",
-      "temp": 20,
-      "description": "Parcialmente nublado",
-      "icon": "⛅"
-    },
-    {
-      "city": "Cartagena",
       "temp": 28,
       "description": "Nublado",
       "icon": "☁️"
     },
     {
+      "city": "Cartagena",
+      "temp": 33,
+      "description": "Nublado",
+      "icon": "☁️"
+    },
+    {
       "city": "Barranquilla",
-      "temp": 27,
-      "description": "Parcialmente nublado",
-      "icon": "⛅"
+      "temp": 32,
+      "description": "Nublado",
+      "icon": "☁️"
     }
   ],
   "mundo": [
     {
       "city": "Nueva York",
-      "temp": 26,
+      "temp": 37,
       "description": "Despejado",
       "icon": "☀️"
     },
     {
       "city": "Londres",
-      "temp": 22,
-      "description": "Mayormente despejado",
-      "icon": "🌤️"
+      "temp": 21,
+      "description": "Despejado",
+      "icon": "☀️"
     },
     {
       "city": "Madrid",
@@ -53,15 +53,15 @@
     },
     {
       "city": "Tokio",
-      "temp": 22,
-      "description": "Nublado",
-      "icon": "☁️"
+      "temp": 21,
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     },
     {
       "city": "Ciudad de México",
-      "temp": 12,
-      "description": "Nublado",
-      "icon": "☁️"
+      "temp": 21,
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     }
   ]
 }

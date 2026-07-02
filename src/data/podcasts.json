@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T10:01:30.159Z",
+  "generatedAt": "2026-07-02T20:33:47.925Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -17,26 +17,26 @@
       "url": "https://podcasts.apple.com/co/podcast/365-con-dios/id1546917854"
     },
     {
-      "title": "El Pulso del Fútbol",
-      "host": "Caracol Pódcast",
-      "url": "https://podcasts.apple.com/co/podcast/el-pulso-del-f%C3%BAtbol/id868214427"
+      "title": "Estoicismo Filosofia",
+      "host": "Estoicismo Filosofia",
+      "url": "https://podcasts.apple.com/co/podcast/estoicismo-filosofia/id1740616448"
     },
     {
-      "title": "Durmiendo",
-      "host": "Dudas Media",
-      "url": "https://podcasts.apple.com/co/podcast/durmiendo/id1565189361"
+      "title": "Seminario Fenix | Brian Tracy",
+      "host": "matiasmartinez16",
+      "url": "https://podcasts.apple.com/co/podcast/seminario-fenix-brian-tracy/id1735157109"
     }
   ],
   "mundo": [
     {
-      "title": "Crime Junkie",
-      "host": "Audiochuck",
-      "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
-    },
-    {
       "title": "The Daily",
       "host": "The New York Times",
       "url": "https://podcasts.apple.com/us/podcast/the-daily/id1200361736"
+    },
+    {
+      "title": "Crime Junkie",
+      "host": "Audiochuck",
+      "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
     },
     {
       "title": "The Joe Rogan Experience",
@@ -49,9 +49,9 @@
       "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
     },
     {
-      "title": "Pardon My Take",
-      "host": "Barstool Sports",
-      "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+      "title": "Up First from NPR",
+      "host": "NPR",
+      "url": "https://podcasts.apple.com/us/podcast/up-first-from-npr/id1222114325"
     }
   ]
 }

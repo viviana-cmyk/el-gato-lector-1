@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-07-02T10:01:30.159Z",
+  "generatedAt": "2026-07-02T20:33:47.925Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Larry Amaury Álvarez Núñez, alias ‘Larry Changa’",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-venezuela/larry-amaury-alvarez-nunez-alias-larry-changa/",
+          "pubDate": "2026-07-02T16:40:46.000Z",
+          "snippet": "Larry Amaury Álvarez Núñez, alias ‘Larry Changa’ Larry Amaury Álvarez Núñez, alias “Larry Changa”, es uno de los cofundadores y líderes originales del Tren de Aragua, el grupo criminal más importante de Venezuela y que ha logrado expandir sus operaciones en diferentes países de A…"
+        },
+        {
+          "title": "On the Radar: Las drogas, la corrupción y el robo de combustible del CJNG aumentan la presión sobre México",
+          "link": "https://insightcrime.org/es/noticias/on-the-radar-drogas-corrupcion-robo-combustible-cjng-presion-mexico/",
+          "pubDate": "2026-07-02T16:15:04.000Z",
+          "snippet": "On the Radar: Las drogas, la corrupción y el robo de combustible del CJNG aumentan la presión sobre México ¿Quién está ganando la guerra contra las drogas: los gobiernos o las drogas? ¿El partido gobernante de México está cediendo ante la presión de Trump y el crimen organizado?…"
+        },
         {
           "title": "‘Johan Petrica’: fugitivo y posible heredero del Tren de Aragua",
           "link": "https://insightcrime.org/es/noticias/johan-petrica-fugitivo-posible-sucesor-tren-de-aragua/",
@@ -22,18 +34,6 @@
           "link": "https://insightcrime.org/es/noticias/insight-take-juicios-masivos-el-salvador-exhiben-ofensiva-bukele-pandillas/",
           "pubDate": "2026-06-30T15:40:09.000Z",
           "snippet": "The InSight Take: Los juicios masivos en El Salvador exhiben la ofensiva de Bukele contra las pandillas Los juicios masivos contra presuntos miembros de pandillas en El Salvador son la fase más reciente del modelo de seguridad de mano dura del presidente Nayib Bukele, orientado a…"
-        },
-        {
-          "title": "Las extradiciones de los Choneros a EE. UU. pondrán a prueba la estrategia de seguridad de Ecuador",
-          "link": "https://insightcrime.org/es/noticias/extradiciones-choneros-ee-uu-pondran-prueba-estrategia-ecuador-cabecillas-criminales/",
-          "pubDate": "2026-06-29T18:51:21.000Z",
-          "snippet": "Las extradiciones de los Choneros a EE. UU. pondrán a prueba la estrategia de seguridad de Ecuador Las extradiciones a Estados Unidos de miembros clave de los Choneros son una prueba de fuego para la estrategia de Ecuador de combatir a las organizaciones criminales mediante el de…"
-        },
-        {
-          "title": "José Adolfo Macías Villamar, alias ‘Fito’",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-ecuador/jose-adolfo-macias-villamar-alias-fito/",
-          "pubDate": "2026-06-29T18:50:27.000Z",
-          "snippet": "José Adolfo Macías Villamar, alias ‘Fito’ José Adolfo Macías Villamar, alias “Fito”, fue el cabecilla de los Choneros, uno de los grupos criminales más importantes de Ecuador. Se integró a la organización durante su ascenso, cuando […] The post José Adolfo Macías Villamar, alias…"
         }
       ]
     },
@@ -78,6 +78,12 @@
       "color": "yellow",
       "items": [
         {
+          "title": "AMNC26: What just happened at the Summer Davos?",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWTZpYm1kdldkazZzWWNHR2hCZ1FlNEw1Uk1sNS1ON0l5VDRxTDVpYTY3MVh1NHVhVlI2RU51Y3hfMnpIRWk3bG5XdnBXVnpiQWMwb1dxRDF3elJ5OVpiVFlEc1Nld0ZYUTAwLTgzZXAwa1dxLWFjbGFrSW5SVDI3Vloya2Y0OTExNTU4bjJuUzVuV2JxQklV?oc=5",
+          "pubDate": "2026-07-02T12:56:56.000Z",
+          "snippet": null
+        },
+        {
           "title": "4 expertos explican por qué la IA no se está expandiendo más rápido",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3UWZ0ZENWNGJBNWI3WjN4ck92VFV5V3djN3N2MklDRU9MamlqUTZhU09nUkVZMWJZN2FFLWR2WnpvQk52MUlGTUhXck9iWVc0U1dTRXhLcFZBdWR1a0ZBUUk1RzF6TTRJT3c?oc=5",
           "pubDate": "2026-07-01T20:56:56.000Z",
@@ -99,12 +105,6 @@
           "title": "Zhen-Ao Group Co. Ltd",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zTklQTUhfZU5sNVFnYlBtVmxoMHRUaVExU3lraFpaZW9GLUd6QkRtOW80cm9HMFQySVBxaHRRNm13NEFGaVZtNU80RmJvQXp2Uno1d2JtWUY0RV9XaUFnenNvOVhrSnlyenc?oc=5",
           "pubDate": "2026-07-01T12:09:28.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Altimetrik",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1pRWpMV2lMZy1VN2k2elJIUVpPY0FhMTN4YmZtRDRSazZ4ZkN0NGtnNnhxeWhPRDkwVmNTbm9lR21tWjdId1dLdmRYWXdHN3pmRENjYUhTSGFhb1Zz?oc=5",
-          "pubDate": "2026-07-01T12:02:26.000Z",
           "snippet": null
         }
       ]
