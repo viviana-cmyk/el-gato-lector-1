@@ -7,27 +7,24 @@ import featured from "../data/featured.json";
 import podcastData from "../data/podcasts.json";
 import trendsData from "../data/trends.json";
 
-// Tendencias desde Google Trends (auto) con fallback a curated.json (manual)
-const trendsCO = (trendsData as any).colombia?.length ? (trendsData as any).colombia : curated.tendencias.redes[0]?.top5 ?? [];
-const trendsMundo = (trendsData as any).mundo?.length ? (trendsData as any).mundo : curated.tendencias.redes[2]?.top5 ?? [];
-
+const td = trendsData as any;
 const redes = [
-  { platform: "Colombia", top5: trendsCO },
-  { platform: "Mundo",    top5: trendsMundo },
-];
+  { platform: "X · Colombia",       icon: "𝕏", top5: td.x?.colombia      ?? [] },
+  { platform: "X · Mundo",          icon: "𝕏", top5: td.x?.mundo         ?? [] },
+  { platform: "TikTok · Colombia",  icon: "🎵", top5: td.tiktok?.colombia ?? [] },
+  { platform: "TikTok · Mundo",     icon: "🎵", top5: td.tiktok?.mundo    ?? [] },
+].filter(r => r.top5.length > 0);
 const podcasts = {
   colombia: podcastData.colombia?.length ? podcastData.colombia : curated.tendencias.podcasts.colombia,
   mundo: podcastData.mundo?.length ? podcastData.mundo : curated.tendencias.podcasts.mundo,
 };
 
-const platformIcons: Record<string, string> = {
-  Colombia: "🇨🇴",
-  Mundo: "🌍",
-};
+const platformIcons: Record<string, string> = {};
 
 function hashtagUrl(platform: string, tag: string): string {
   const clean = tag.replace(/^#/, "");
-  return `https://trends.google.com/trending?geo=${platform === "Colombia" ? "CO" : "US"}&q=${encodeURIComponent(clean)}`;
+  if (platform.includes("TikTok")) return `https://www.tiktok.com/tag/${encodeURIComponent(clean)}`;
+  return `https://x.com/hashtag/${encodeURIComponent(clean)}`;
 }
 
 function podcastUrl(title: string, url?: string): string {
@@ -36,9 +33,9 @@ function podcastUrl(title: string, url?: string): string {
 }
 
 const redesLists = redes.map((red) => ({
-  title: `${red.platform} · Top 5`,
-  icon: platformIcons[red.platform] ?? "📈",
-  items: red.top5.map((tag) => ({ primary: tag, url: hashtagUrl(red.platform, tag) })),
+  title: `${red.icon} ${red.platform} · Top 5`,
+  icon: red.icon,
+  items: red.top5.map((tag: string) => ({ primary: tag, url: hashtagUrl(red.platform, tag) })),
 }));
 
 const podcastLists = [

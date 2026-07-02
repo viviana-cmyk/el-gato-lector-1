@@ -89,6 +89,41 @@ Responde ÚNICAMENTE con un objeto JSON con esta forma exacta, sin texto adicion
   return { intro, items: parsed.items };
 }
 
+async function generateTrends(client, headlinesColombia, headlinesMundo) {
+  const prompt = `Eres el editor de El Gato Lector, boletín de noticias sobre política, seguridad, justicia y economía.
+
+A partir de estos titulares priorizados del día, genera el Top 5 de tendencias para X (Twitter) y TikTok en Colombia y en el Mundo. Las tendencias deben:
+- Estar directamente relacionadas con los temas ALTA (política, seguridad, economía, geopolítica, ciencia, crisis)
+- Ser hashtags concisos y reales (sin inventar eventos que no aparezcan en los titulares)
+- Reflejar el estilo de cada red: X más informativo/analítico, TikTok más directo y viral
+
+Titulares Colombia:
+${headlinesColombia}
+
+Titulares Mundo:
+${headlinesMundo}
+
+Responde ÚNICAMENTE con este JSON exacto, sin texto adicional:
+{
+  "x": {
+    "colombia": ["#Tag1","#Tag2","#Tag3","#Tag4","#Tag5"],
+    "mundo": ["#Tag1","#Tag2","#Tag3","#Tag4","#Tag5"]
+  },
+  "tiktok": {
+    "colombia": ["#Tag1","#Tag2","#Tag3","#Tag4","#Tag5"],
+    "mundo": ["#Tag1","#Tag2","#Tag3","#Tag4","#Tag5"]
+  }
+}`;
+
+  const response = await client.messages.create({
+    model: MODEL,
+    max_tokens: 512,
+    messages: [{ role: "user", content: prompt }],
+  });
+  const text = response.content.find(b => b.type === "text")?.text || "";
+  return extractJson(text);
+}
+
 async function main() {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   const generatedAt = new Date().toISOString();
@@ -138,6 +173,31 @@ async function main() {
     path.join(DATA_DIR, "analisis.json"),
     JSON.stringify(result, null, 2) + "\n",
   );
+
+  // Generar tendencias de X y TikTok con IA
+  let prevTrends = null;
+  try { prevTrends = await readJson("trends.json"); } catch { /* ok */ }
+
+  if (apiKey) {
+    try {
+      const newsCO = await readJson("news-colombia.json");
+      const newsMU = await readJson("news-mundo.json");
+      const hCO = buildHeadlinesList(newsCO.outlets, 4);
+      const hMU = buildHeadlinesList(newsMU.outlets, 4);
+      const client = new Anthropic({ apiKey });
+      const trends = await generateTrends(client, hCO, hMU);
+      trends.generatedAt = generatedAt;
+      await writeFile(
+        path.join(DATA_DIR, "trends.json"),
+        JSON.stringify(trends, null, 2) + "\n",
+      );
+      console.log("  - Tendencias X y TikTok: generadas");
+    } catch (err) {
+      console.warn(`  [aviso] Tendencias: ${err.message}`);
+      if (prevTrends) await writeFile(path.join(DATA_DIR, "trends.json"), JSON.stringify(prevTrends, null, 2) + "\n");
+    }
+  }
+
   console.log("Listo.");
 }
 
