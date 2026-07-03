@@ -315,7 +315,39 @@ img { max-width: 100%; display: block; }
   text-align: left;
 }
 
-.hero__diainfo-icon { font-size: 1.8rem; flex-shrink: 0; margin-top: 2px; }
+/* mini-calendario en el card de día internacional */
+.hero__cal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 46px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(230,179,0,0.35);
+}
+.hero__cal-mes {
+  background: var(--accent);
+  color: #0d1117;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  padding: 3px 0 2px;
+}
+.hero__cal-dia {
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+  padding: 4px 0 5px;
+  line-height: 1;
+}
 
 .hero__diainfo-body { display: flex; flex-direction: column; gap: 5px; }
 
