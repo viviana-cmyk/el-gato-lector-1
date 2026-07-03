@@ -10,6 +10,14 @@ import featured from "../data/featured.json";
 import dailyinfo from "../data/dailyinfo.json";
 
 const diaHoy = (dailyinfo as any).dia ?? null;
+
+const fechaHoy = new Date().toLocaleDateString("es-CO", {
+  weekday: "long",
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "America/Bogota",
+});
 ---
 
 <Layout title="Inicio" hideTopbar>
@@ -17,7 +25,7 @@ const diaHoy = (dailyinfo as any).dia ?? null;
     <div class="hero__inner">
       <img class="hero__cat" src={withBase("/cat-logo.png")} alt="El Gato Lector" />
 
-      <div class="hero__badge">● Actualizado cada día a las 5:00 a.m.</div>
+      <div class="hero__badge">● {fechaHoy}</div>
 
       <h1>El Gato <span>Lector</span></h1>
 
