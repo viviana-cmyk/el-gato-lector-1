@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
+      "#CrisisVenezuela",
       "#EmpalmeDelaEspriella",
-      "#CrisisSalud41Billones",
-      "#HomicidiosCali544Muertes",
-      "#ReclutamientoMenores300%",
-      "#PolíticaEnergeticaColombia"
+      "#CrisisSaludColombia",
+      "#GoogleMulta",
+      "#TransMilenioEléctrico"
     ],
     "mundo": [
-      "#RusiaAtaqueKiev25Muertos",
-      "#UcraniaEnGuerra",
-      "#NATODefensaEuropa",
-      "#VenezuelaTerremotos",
-      "#InvestigacionesElecciones2020"
+      "#RusiaAtaqueUcrania",
+      "#TerremotosVenezuela",
+      "#GuerraUcrania",
+      "#IránIsrael",
+      "#CrisisHumanitaria"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#CrisisSaludColombia",
-      "#HomicidiosEnCali",
-      "#GobiernoDelaEspriella",
-      "#NiñosMenoresReclutados",
+      "#DelaEspriella2026",
+      "#CrisisSalud",
+      "#VenezuelaEnAlerta",
+      "#BusesEléctricos",
       "#EmpalmeGobierno"
     ],
     "mundo": [
-      "#RusiaAtaqueUcrania",
-      "#KievBombardeo",
-      "#VenezuelaTerremotos",
-      "#NATOGuerra",
-      "#CrisisHumanitaria"
+      "#TerremotoVenezuela",
+      "#GuerraRusiaUcrania",
+      "#RescatesMilagrosos",
+      "#CrisisGlobal",
+      "#NoticiasDelMundo"
     ]
   },
-  "generatedAt": "2026-07-02T22:20:59.578Z"
+  "generatedAt": "2026-07-03T10:01:49.489Z"
 }
