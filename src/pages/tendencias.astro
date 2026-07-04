@@ -33,7 +33,7 @@ function podcastUrl(title: string, url?: string): string {
 }
 
 const redesLists = redes.map((red) => ({
-  title: `${red.icon} ${red.platform} · Top 5`,
+  title: `${red.platform} · Top 5`,
   icon: red.icon,
   items: red.top5.map((tag: string) => ({ primary: tag, url: hashtagUrl(red.platform, tag) })),
 }));
