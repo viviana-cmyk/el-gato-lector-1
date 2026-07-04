@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-07-03T10:01:44.764Z",
+  "generatedAt": "2026-07-04T10:01:40.314Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Jobanis de Jesús Ávila Villadiego, alias ‘Chiquito Malo’",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/jobanis-de-jesus-avila-villadiego-alias-chiquito-malo/",
+          "pubDate": "2026-07-03T15:19:50.000Z",
+          "snippet": "Jobanis de Jesús Ávila Villadiego, alias ‘Chiquito Malo’ Chiquito Malo, máximo líder del Clan del Golfo, continuará con una orden de captura vigente luego de que la Fiscalía colombiana rechazara suspenderla en medio de los diálogos de Paz Total. The post Jobanis de Jesús Ávila Vi…"
+        },
+        {
+          "title": "Lo que ‘Euphoria’ retrata bien y mal sobre el crimen fronterizo",
+          "link": "https://insightcrime.org/es/noticias/5-cosas-temporada-3-euphoria-retrata-bien-mal-sobre-crimen-organizado-frontera-ee-uu-mexico/",
+          "pubDate": "2026-07-03T14:38:58.000Z",
+          "snippet": "Lo que ‘Euphoria’ retrata bien y mal sobre el crimen fronterizo La tercera temporada de Euphoria acaba de llegar a su fin, cerrando una trama marcada por la estética y la intensidad de las dinámicas criminales en la frontera entre Estados Unidos y México. Aunque la producción ref…"
+        },
         {
           "title": "Larry Amaury Álvarez Núñez, alias ‘Larry Changa’",
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-venezuela/larry-amaury-alvarez-nunez-alias-larry-changa/",
@@ -28,71 +40,22 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-guatemala/los-lorenzana/",
           "pubDate": "2026-06-30T16:42:06.000Z",
           "snippet": "Los Lorenzana Los Lorenzana son una familia guatemalteca tradicional del contrabando que eventualmente se involucró fuertemente en el lucrativo comercio del tráfico de drogas. The post Los Lorenzana appeared first on InSight Crime."
-        },
-        {
-          "title": "The InSight Take: Los juicios masivos en El Salvador exhiben la ofensiva de Bukele contra las pandillas",
-          "link": "https://insightcrime.org/es/noticias/insight-take-juicios-masivos-el-salvador-exhiben-ofensiva-bukele-pandillas/",
-          "pubDate": "2026-06-30T15:40:09.000Z",
-          "snippet": "The InSight Take: Los juicios masivos en El Salvador exhiben la ofensiva de Bukele contra las pandillas Los juicios masivos contra presuntos miembros de pandillas en El Salvador son la fase más reciente del modelo de seguridad de mano dura del presidente Nayib Bukele, orientado a…"
-        },
-        {
-          "title": "Las extradiciones de los Choneros a EE. UU. pondrán a prueba la estrategia de seguridad de Ecuador",
-          "link": "https://insightcrime.org/es/noticias/extradiciones-choneros-ee-uu-pondran-prueba-estrategia-ecuador-cabecillas-criminales/",
-          "pubDate": "2026-06-29T18:51:21.000Z",
-          "snippet": "Las extradiciones de los Choneros a EE. UU. pondrán a prueba la estrategia de seguridad de Ecuador Las extradiciones a Estados Unidos de miembros clave de los Choneros son una prueba de fuego para la estrategia de Ecuador de combatir a las organizaciones criminales mediante el de…"
         }
       ]
     },
     {
       "name": "International Crisis Group",
       "color": "teal",
-      "items": [
-        {
-          "title": "Washington 5 June 2026 #2",
-          "link": "https://www.crisisgroup.org/content/washington-5-june-2026-2",
-          "pubDate": "2026-06-05T15:53:07.000Z",
-          "snippet": "Washington 5 June 2026 #2 lalasor Fri, 06/05/2026 - 17:53 Washington Fri, 06/05/2026 - 12:00 5 June 2026 The U.S. announced sanctions against \"a network of individuals, entities and vessels responsible for shipping hundreds of millions of dollars’ worth of Iranian-origin liquid p…"
-        },
-        {
-          "title": "Hormuz 5 June 2026 #1",
-          "link": "https://www.crisisgroup.org/content/hormuz-5-june-2026-1",
-          "pubDate": "2026-06-05T15:52:12.000Z",
-          "snippet": "Hormuz 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:52 Strait of Hormuz Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA…"
-        },
-        {
-          "title": "Tehran 5 June 2026 #1",
-          "link": "https://www.crisisgroup.org/content/tehran-5-june-2026-1",
-          "pubDate": "2026-06-05T15:50:10.000Z",
-          "snippet": "Tehran 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:50 Tehran Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA located in…"
-        },
-        {
-          "title": "Washington 5 June 2026 #1",
-          "link": "https://www.crisisgroup.org/content/washington-5-june-2026-1",
-          "pubDate": "2026-06-05T15:49:23.000Z",
-          "snippet": "Washington 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:49 Washington Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA lo…"
-        },
-        {
-          "title": "Lebanon 5 June 2026 #1",
-          "link": "https://www.crisisgroup.org/content/lebanon-5-june-2026-1",
-          "pubDate": "2026-06-05T15:47:48.000Z",
-          "snippet": "Lebanon 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:47 Lebanon Fri, 06/05/2026 - 12:00 5 June 2026 Hizbollah reported conducting approximately 20 attacks on Israeli troops in southern Lebanon, while the Israeli military tallied that over the previous week, “650-plus Hizbollah tar…"
-        },
-        {
-          "title": "Israel 5 June 2026 #1",
-          "link": "https://www.crisisgroup.org/content/israel-5-june-2026-1",
-          "pubDate": "2026-06-05T15:46:40.000Z",
-          "snippet": "Israel 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:46 Israel Fri, 06/05/2026 - 12:00 5 June 2026 Hizbollah reported conducting approximately 20 attacks on Israeli troops in southern Lebanon, while the Israeli military tallied that over the previous week, “650-plus Hizbollah targe…"
-        }
-      ]
+      "items": []
     },
     {
       "name": "World Economic Forum",
       "color": "yellow",
       "items": [
         {
-          "title": "AMNC26: What just happened at the Summer Davos?",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWTZpYm1kdldkazZzWWNHR2hCZ1FlNEw1Uk1sNS1ON0l5VDRxTDVpYTY3MVh1NHVhVlI2RU51Y3hfMnpIRWk3bG5XdnBXVnpiQWMwb1dxRDF3elJ5OVpiVFlEc1Nld0ZYUTAwLTgzZXAwa1dxLWFjbGFrSW5SVDI3Vloya2Y0OTExNTU4bjJuUzVuV2JxQklV?oc=5",
-          "pubDate": "2026-07-02T12:56:56.000Z",
+          "title": "4 expertos explican por qué la IA no se está expandiendo más rápido",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3UWZ0ZENWNGJBNWI3WjN4ck92VFV5V3djN3N2MklDRU9MamlqUTZhU09nUkVZMWJZN2FFLWR2WnpvQk52MUlGTUhXck9iWVc0U1dTRXhLcFZBdWR1a0ZBUUk1RzF6TTRJT3c?oc=5",
+          "pubDate": "2026-07-01T20:56:56.000Z",
           "snippet": null
         },
         {
@@ -114,15 +77,15 @@
           "snippet": null
         },
         {
-          "title": "Event Details - Ahmedabad Hub",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSXQ3ODRwZXNCNFZCMmxTWlZkZEFXSVNDVzJucHJwU1k4aU5VdmVmZFBLdVM0QURycXpFMW9mbWZkZFJQVVI3ZFRLM0hPeGJ4YnhRTl8zMk5yN2tYN0k3Z1RfNDlOdkZuZ0NyRGZIRE5XN3Q3c0c0U0t2VTZNX19ETmdQRUNDMGJLUnRtYVJYcGRRSjBiZmZ6Vi0yM0lpUkN4YURtd0h5SksyQlpiRmdTTlZ1VzhLRnZmdEtSX1lWWkR5QktoR0lLaXQ0SXR6VmlVSEVWZlZ6S3Q?oc=5",
-          "pubDate": "2026-06-26T17:30:00.000Z",
+          "title": "Vi",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ySlMteGFaOExUZ0NJSmlSSDBRMWxPZEV4b0wzYnZKSXVPLXFMOWIxSVdEWnpsOFFYZTNpR08za3FvNE9yb3ZOOUhXaWNrZlFaUmc?oc=5",
+          "pubDate": "2026-07-01T11:47:18.000Z",
           "snippet": null
         },
         {
-          "title": "Poetic Skylines > Annual Meeting of the New Champions",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOHFQWm40cFNSWnAzTUxNRmM4UGpBaXdTT3RSRVgxRVl0bVVPRXRUdFR2X3BQY2Vhd1B0UVk1MkNXaTZBeGpUcV9XNE9XZHpsb1phSmdtQU44UTBRbUE4MTA4U1Rya2xTa1F3d2RFbUZhNUNadnVtSl9yZ05haHNRN0thdk1LdzhfWmZwekxJWnRhVjJNOENrNmFSeDdydDg?oc=5",
-          "pubDate": "2026-06-25T02:00:00.000Z",
+          "title": "Event Details - Ahmedabad Hub",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSXQ3ODRwZXNCNFZCMmxTWlZkZEFXSVNDVzJucHJwU1k4aU5VdmVmZFBLdVM0QURycXpFMW9mbWZkZFJQVVI3ZFRLM0hPeGJ4YnhRTl8zMk5yN2tYN0k3Z1RfNDlOdkZuZ0NyRGZIRE5XN3Q3c0c0U0t2VTZNX19ETmdQRUNDMGJLUnRtYVJYcGRRSjBiZmZ6Vi0yM0lpUkN4YURtd0h5SksyQlpiRmdTTlZ1VzhLRnZmdEtSX1lWWkR5QktoR0lLaXQ0SXR6VmlVSEVWZlZ6S3Q?oc=5",
+          "pubDate": "2026-06-26T17:30:00.000Z",
           "snippet": null
         }
       ]
