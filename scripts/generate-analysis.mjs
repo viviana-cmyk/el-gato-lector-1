@@ -125,7 +125,12 @@ Responde ÚNICAMENTE con este JSON exacto, sin texto adicional:
 }
 
 async function generateDailyInfo(client, dateStr) {
-  const prompt = `Hoy es ${dateStr}. ¿Hay algún día internacional oficial (ONU, UNESCO, OMS, OPS u organismo internacional reconocido) que se conmemore exactamente hoy?
+  const prompt = `Hoy es ${dateStr}. ¿Hay algún día internacional oficial de la ONU, UNESCO, OMS u otro organismo internacional reconocido que se conmemore EXACTAMENTE en esta fecha?
+
+Instrucciones importantes:
+- Solo incluye días con fecha fija (ejemplo: "5 de junio = Día Mundial del Medio Ambiente") o reglas exactas (ejemplo: "primer sábado de julio = Día Internacional de las Cooperativas"). Verifica que la regla coincida con la fecha exacta de hoy.
+- Si la fecha de hoy no encaja exactamente con ningún día internacional reconocido, responde null.
+- No inventes ni aproximes fechas. Es mejor decir null que dar una fecha incorrecta.
 
 Si existe, responde con este JSON exacto (sin texto adicional):
 {"nombre":"<nombre completo en español>","descripcion":"<1 oración en español, máximo 180 caracteres, explicando qué se conmemora y por qué importa>"}

@@ -19,8 +19,9 @@ const fechaHoy = new Date().toLocaleDateString("es-CO", {
   timeZone: "America/Bogota",
 });
 
-const calMes = new Date().toLocaleDateString("es-CO", { month: "short", timeZone: "America/Bogota" }).toUpperCase().replace(".","");
-const calDia = new Date().toLocaleDateString("es-CO", { day: "numeric", timeZone: "America/Bogota" });
+const diaFecha = new Date((dailyinfo as any).generatedAt ?? Date.now());
+const calMes = diaFecha.toLocaleDateString("es-CO", { month: "short", timeZone: "America/Bogota" }).toUpperCase().replace(".","");
+const calDia = diaFecha.toLocaleDateString("es-CO", { day: "numeric", timeZone: "America/Bogota" });
 ---
 
 <Layout title="Inicio" hideTopbar>
