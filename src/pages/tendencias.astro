@@ -9,10 +9,10 @@ import trendsData from "../data/trends.json";
 
 const td = trendsData as any;
 const redes = [
-  { platform: "X · Colombia",       icon: "𝕏", top5: td.x?.colombia      ?? [] },
-  { platform: "X · Mundo",          icon: "𝕏", top5: td.x?.mundo         ?? [] },
-  { platform: "TikTok · Colombia",  icon: "🎵", top5: td.tiktok?.colombia ?? [] },
-  { platform: "TikTok · Mundo",     icon: "🎵", top5: td.tiktok?.mundo    ?? [] },
+  { platform: "Colombia",           network: "x",      icon: "𝕏", top5: td.x?.colombia      ?? [] },
+  { platform: "Mundo",              network: "x",      icon: "𝕏", top5: td.x?.mundo         ?? [] },
+  { platform: "TikTok · Colombia",  network: "tiktok", icon: "🎵", top5: td.tiktok?.colombia ?? [] },
+  { platform: "TikTok · Mundo",     network: "tiktok", icon: "🎵", top5: td.tiktok?.mundo    ?? [] },
 ].filter(r => r.top5.length > 0);
 const podcasts = {
   colombia: podcastData.colombia?.length ? podcastData.colombia : curated.tendencias.podcasts.colombia,
@@ -21,9 +21,9 @@ const podcasts = {
 
 const platformIcons: Record<string, string> = {};
 
-function hashtagUrl(platform: string, tag: string): string {
+function hashtagUrl(network: string, tag: string): string {
   const clean = tag.replace(/^#/, "");
-  if (platform.includes("TikTok")) return `https://www.tiktok.com/tag/${encodeURIComponent(clean)}`;
+  if (network === "tiktok") return `https://www.tiktok.com/tag/${encodeURIComponent(clean)}`;
   return `https://x.com/hashtag/${encodeURIComponent(clean)}`;
 }
 
@@ -35,7 +35,7 @@ function podcastUrl(title: string, url?: string): string {
 const redesLists = redes.map((red) => ({
   title: `${red.platform} · Top 5`,
   icon: red.icon,
-  items: red.top5.map((tag: string) => ({ primary: tag, url: hashtagUrl(red.platform, tag) })),
+  items: red.top5.map((tag: string) => ({ primary: tag, url: hashtagUrl(red.network, tag) })),
 }));
 
 const podcastLists = [
