@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T10:01:40.314Z",
+  "generatedAt": "2026-07-05T10:01:39.950Z",
   "outlets": [
     {
       "name": "InSight Crime",
@@ -46,12 +46,55 @@
     {
       "name": "International Crisis Group",
       "color": "teal",
-      "items": []
+      "items": [
+        {
+          "title": "Washington 5 June 2026 #2",
+          "link": "https://www.crisisgroup.org/content/washington-5-june-2026-2",
+          "pubDate": "2026-06-05T15:53:07.000Z",
+          "snippet": "Washington 5 June 2026 #2 lalasor Fri, 06/05/2026 - 17:53 Washington Fri, 06/05/2026 - 12:00 5 June 2026 The U.S. announced sanctions against \"a network of individuals, entities and vessels responsible for shipping hundreds of millions of dollars’ worth of Iranian-origin liquid p…"
+        },
+        {
+          "title": "Hormuz 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/hormuz-5-june-2026-1",
+          "pubDate": "2026-06-05T15:52:12.000Z",
+          "snippet": "Hormuz 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:52 Strait of Hormuz Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA…"
+        },
+        {
+          "title": "Tehran 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/tehran-5-june-2026-1",
+          "pubDate": "2026-06-05T15:50:10.000Z",
+          "snippet": "Tehran 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:50 Tehran Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA located in…"
+        },
+        {
+          "title": "Washington 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/washington-5-june-2026-1",
+          "pubDate": "2026-06-05T15:49:23.000Z",
+          "snippet": "Washington 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:49 Washington Fri, 06/05/2026 - 12:00 5 June 2026 U.S. Indo-Pacific Command (INDOPACOM) reported that “U.S. forces carried out a maritime interdiction and right-of-visit boarding of the sanctions stateless vessel MT DAVINA lo…"
+        },
+        {
+          "title": "Lebanon 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/lebanon-5-june-2026-1",
+          "pubDate": "2026-06-05T15:47:48.000Z",
+          "snippet": "Lebanon 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:47 Lebanon Fri, 06/05/2026 - 12:00 5 June 2026 Hizbollah reported conducting approximately 20 attacks on Israeli troops in southern Lebanon, while the Israeli military tallied that over the previous week, “650-plus Hizbollah tar…"
+        },
+        {
+          "title": "Israel 5 June 2026 #1",
+          "link": "https://www.crisisgroup.org/content/israel-5-june-2026-1",
+          "pubDate": "2026-06-05T15:46:40.000Z",
+          "snippet": "Israel 5 June 2026 #1 lalasor Fri, 06/05/2026 - 17:46 Israel Fri, 06/05/2026 - 12:00 5 June 2026 Hizbollah reported conducting approximately 20 attacks on Israeli troops in southern Lebanon, while the Israeli military tallied that over the previous week, “650-plus Hizbollah targe…"
+        }
+      ]
     },
     {
       "name": "World Economic Forum",
       "color": "yellow",
       "items": [
+        {
+          "title": "- The World Economic Forum",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMVlXd25KLWw0Y0M3NUJVdXpCbkFIRGx4SEpGeFBtT3BIaklsUHZ2LVZUYXBrUEtWMzVheWxOZ2d1Qm8xWXV3d3FESDlnRTdmZFpDSG1GaEsyVXRkWmdQNDVtdmw2NG5WMkdZWWFLd1BvRTVFSUE3TGIxcUZidmN1Y1B0S3hJNkVLLWZ3YUJVX3dxZy0zd2RJSUlvcWJPNjBteGx2M253?oc=5",
+          "pubDate": "2026-07-04T00:08:02.000Z",
+          "snippet": null
+        },
         {
           "title": "4 expertos explican por qué la IA no se está expandiendo más rápido",
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3UWZ0ZENWNGJBNWI3WjN4ck92VFV5V3djN3N2MklDRU9MamlqUTZhU09nUkVZMWJZN2FFLWR2WnpvQk52MUlGTUhXck9iWVc0U1dTRXhLcFZBdWR1a0ZBUUk1RzF6TTRJT3c?oc=5",
@@ -77,15 +120,9 @@
           "snippet": null
         },
         {
-          "title": "Vi",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ySlMteGFaOExUZ0NJSmlSSDBRMWxPZEV4b0wzYnZKSXVPLXFMOWIxSVdEWnpsOFFYZTNpR08za3FvNE9yb3ZOOUhXaWNrZlFaUmc?oc=5",
-          "pubDate": "2026-07-01T11:47:18.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Event Details - Ahmedabad Hub",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSXQ3ODRwZXNCNFZCMmxTWlZkZEFXSVNDVzJucHJwU1k4aU5VdmVmZFBLdVM0QURycXpFMW9mbWZkZFJQVVI3ZFRLM0hPeGJ4YnhRTl8zMk5yN2tYN0k3Z1RfNDlOdkZuZ0NyRGZIRE5XN3Q3c0c0U0t2VTZNX19ETmdQRUNDMGJLUnRtYVJYcGRRSjBiZmZ6Vi0yM0lpUkN4YURtd0h5SksyQlpiRmdTTlZ1VzhLRnZmdEtSX1lWWkR5QktoR0lLaXQ0SXR6VmlVSEVWZlZ6S3Q?oc=5",
-          "pubDate": "2026-06-26T17:30:00.000Z",
+          "title": "Veeam",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXOVEwcWZrNTc3Y0hGeGNqYTZ0UXR0TS1oNGlfTjNZY2dhdlBhWWE1VWRvOVcwZHRrekwtb2ZPR2I5V3VUUlZGQ2w3bktmUVMwenlpTnVB?oc=5",
+          "pubDate": "2026-07-01T05:19:37.000Z",
           "snippet": null
         }
       ]
