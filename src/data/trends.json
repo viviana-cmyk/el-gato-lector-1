@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#CrisisSegridadColombia",
-      "#ConflictoArmadoTadó",
-      "#TransiciónPetroDelaEspriella",
-      "#DesobedienciaCivilIzquierda",
-      "#DesplazadosAntioquia"
+      "#ContratosPetro",
+      "#CrisisVenezuela",
+      "#DelaEsprillaVsPetro",
+      "#ReformasSociales",
+      "#SeguridadUrbana"
     ],
     "mundo": [
+      "#RusiaAtaqueKyiv",
+      "#CumbreOTAN",
       "#FuneralKhamenei",
-      "#PutinTrumpLlamada",
-      "#CrisisIránGeopolítica",
-      "#GastoMilitarMundial",
-      "#UcraniaAtaqueRusia"
+      "#CrisisVenezuela",
+      "#MisilesChinaSurPacífico"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#SoldadosEnUcrania",
-      "#LauraChaguendoJusticia",
-      "#DronesEnChocó",
-      "#EmpalmeGobierno",
-      "#CrisisSeguridad"
+      "#PetroContratos",
+      "#VenezuelaEmergencia",
+      "#DelaEspriella",
+      "#20Julio",
+      "#SeguridadCali"
     ],
     "mundo": [
-      "#FuneralKhamenei",
-      "#PutinTrump",
-      "#CasoVenezuela",
-      "#DestinoEE.UU",
-      "#TensiónGeopolítica"
+      "#GuarraUcrania",
+      "#Khamenei",
+      "#OTANUrgente",
+      "#VenezuelaColapso",
+      "#MisilesChinaAlert"
     ]
   },
-  "generatedAt": "2026-07-05T10:01:43.270Z"
+  "generatedAt": "2026-07-06T10:02:02.669Z"
 }
