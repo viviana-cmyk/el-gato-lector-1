@@ -206,46 +206,42 @@ img { max-width: 100%; display: block; }
 
 /* Botones hero primarios — vidrio dorado con glow */
 .hero__pill--primary {
-  background: rgba(230,179,0,0.12) !important;
-  border: 1px solid rgba(230,179,0,0.45) !important;
-  color: #fff !important;
-  font-size: 0.78rem;
+  background: var(--accent) !important;
+  border: none !important;
+  color: #111 !important;
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.05em;
-  padding: 11px 22px;
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
+  padding: 10px 22px;
+  border-radius: 999px;
   box-shadow: none;
-  transition: background 0.2s, box-shadow 0.2s, transform 0.15s, border-color 0.2s;
+  transition: background 0.15s, transform 0.15s, box-shadow 0.15s;
 }
 
 .hero__pill--primary:hover {
-  background: rgba(230,179,0,0.22) !important;
-  border-color: var(--accent) !important;
-  box-shadow: 0 0 20px rgba(230,179,0,0.3), 0 4px 16px rgba(0,0,0,0.3);
+  background: #ffd000 !important;
   transform: translateY(-2px);
-  color: #fff !important;
+  box-shadow: 0 4px 18px rgba(230,179,0,0.4);
+  color: #111 !important;
 }
 
-/* Botones hero secundarios — vidrio oscuro sutil */
+/* Botones hero secundarios — gold outline */
 .hero .pill--ghost {
-  background: rgba(255,255,255,0.05) !important;
-  border: 1px solid rgba(255,255,255,0.18) !important;
-  color: rgba(255,255,255,0.6) !important;
-  font-size: 0.78rem;
-  font-weight: 600;
+  background: transparent !important;
+  border: 2px solid var(--accent) !important;
+  color: var(--accent) !important;
+  font-size: 0.8rem;
+  font-weight: 700;
   letter-spacing: 0.05em;
-  padding: 11px 22px;
-  border-radius: 10px;
-  backdrop-filter: blur(10px);
+  padding: 9px 22px;
+  border-radius: 999px;
   box-shadow: none;
-  transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.15s;
+  transition: background 0.15s, color 0.15s, transform 0.15s;
 }
 
 .hero .pill--ghost:hover {
-  background: rgba(255,255,255,0.1) !important;
-  border-color: rgba(255,255,255,0.35) !important;
-  color: #fff !important;
+  background: var(--accent) !important;
+  color: #111 !important;
   transform: translateY(-2px);
 }
 
