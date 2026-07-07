@@ -483,8 +483,36 @@ img { max-width: 100%; display: block; }
   border-radius: var(--radius);
   padding: 20px;
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid rgba(230,179,0,0.15);
   border-left-width: 3px;
+  position: relative;
+  overflow: hidden;
+  box-shadow:
+    0 4px 20px rgba(0,0,0,0.35),
+    0 0 40px rgba(230,179,0,0.04);
+  transition: box-shadow 0.25s, border-color 0.25s;
+}
+
+.outlet::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 160px;
+  height: 160px;
+  background: radial-gradient(circle, rgba(230,179,0,0.1) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.35s;
+  pointer-events: none;
+}
+
+.outlet:hover::before { opacity: 1; }
+
+.outlet:hover {
+  box-shadow:
+    0 6px 28px rgba(0,0,0,0.45),
+    0 0 50px rgba(230,179,0,0.1);
+  border-color: rgba(230,179,0,0.3);
 }
 
 .outlet__logo {
