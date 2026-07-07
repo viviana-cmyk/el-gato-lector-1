@@ -891,6 +891,8 @@ img { max-width: 100%; display: block; }
 
 .wc__team { display: flex; align-items: center; gap: 3px; }
 .wc__vs { font-size: 0.62rem; font-weight: 600; color: var(--ink-soft); }
+.wc__score { font-size: 0.85rem; font-weight: 800; color: var(--accent); letter-spacing: 0.04em; }
+.wc__played { font-size: 0.65rem; color: rgba(255,255,255,0.35); font-style: italic; }
 
 .wc__meta { display: flex; gap: 10px; margin-top: 4px; font-size: 0.66rem; color: var(--ink-soft); font-weight: 500; }
 

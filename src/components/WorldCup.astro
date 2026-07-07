@@ -48,15 +48,21 @@ const days = worldcup.days ?? [];
                     <span>{flag(match.home)}</span>
                     <span>{short(match.home)}</span>
                   </span>
-                  <span class="wc__vs">vs</span>
+                  {m.score
+                    ? <span class="wc__score">{m.score}</span>
+                    : <span class="wc__vs">vs</span>
+                  }
                   <span class="wc__team">
                     <span>{flag(match.away)}</span>
                     <span>{short(match.away)}</span>
                   </span>
                 </div>
                 <div class="wc__meta">
-                  <span>🕐 {match.time}</span>
-                  {m.city && <span>📍 {m.city}</span>}
+                  {m.score
+                    ? <span class="wc__played">Finalizado</span>
+                    : <span>🕐 {match.time}</span>
+                  }
+                  {m.city && m.city !== "TBD" && <span>📍 {m.city}</span>}
                 </div>
               </div>
             </div>
