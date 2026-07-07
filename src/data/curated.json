@@ -2,22 +2,25 @@
   "_comment": "Contenido editorial curado a mano (no se actualiza automaticamente). Edita libremente estas listas para cambiar los libros recomendados y las tendencias.",
   "books": [
     {
-      "title": "El poder de la geografía",
-      "author": "Tim Marshall",
-      "color": "sky",
-      "description": "Diez territorios que desafían nuestro futuro. La esperada secuela de 'Prisioneros de la geografía' analiza cómo Australia, Irán, Arabia Saudí, Reino Unido, Grecia, Turquía, el Sahel, Etiopía, España y el espacio juegan un papel fundamental en una era de creciente rivalidad política."
+      "title": "Por qué fracasan los países",
+      "author": "Daron Acemoglu & James A. Robinson",
+      "color": "blue",
+      "tag": "Política · Economía · Crisis",
+      "description": "Un análisis magistral de cómo las instituciones políticas y económicas determinan la prosperidad o el fracaso de las naciones. Lectura esencial para entender la desigualdad, la corrupción y las crisis en América Latina y el mundo."
     },
     {
-      "title": "El eclipse de la sociedad israelí",
-      "author": "Meir Margalit",
-      "color": "slate",
-      "description": "Un ensayo político escrito desde el desgarro de un académico, político y pacifista judío exiliado en su propia ciudad, que busca desentrañar las claves del punto de vista israelí tras el 7 de octubre de 2024."
-    },
-    {
-      "title": "Dime qué comes y te diré cómo duermes",
-      "author": "Fundación Alícia / Dr. Antoni Esteve",
+      "title": "El hombre en busca de sentido",
+      "author": "Viktor E. Frankl",
       "color": "mint",
-      "description": "Una guía para comer bien y adoptar buenos hábitos para dormir más y mejor, uno de los pilares fundamentales de la salud."
+      "tag": "Salud mental",
+      "description": "El psiquiatra austriaco Viktor Frankl relata su experiencia en los campos de concentración nazis y desarrolla la logoterapia: la búsqueda de sentido como motor de la salud mental y la resiliencia ante el sufrimiento."
+    },
+    {
+      "title": "El milagro metabólico",
+      "author": "Dr. Carlos Jaramillo",
+      "color": "yellow",
+      "tag": "Más vendido en Colombia",
+      "description": "El médico colombiano Carlos Jaramillo explica cómo recuperar el equilibrio metabólico a través de la alimentación, el sueño y el manejo del estrés. Actualmente el libro más vendido en Colombia según Planeta de Libros."
     }
   ],
   "tendencias": {

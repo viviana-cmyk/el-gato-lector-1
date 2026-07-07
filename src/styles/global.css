@@ -917,6 +917,21 @@ img { max-width: 100%; display: block; }
 .reco-card h3 a:hover { color: var(--accent); }
 .reco-card p { font-size: 0.9rem; margin: 0 0 6px; color: var(--ink-soft); }
 
+.reco-card__tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid rgba(230,179,0,0.35);
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin-bottom: 10px;
+}
+
+.reco-card__author { color: var(--ink) !important; font-size: 0.85rem !important; margin-bottom: 10px !important; }
+
 /* ---------- Footer ---------- */
 .footer {
   background: var(--surface);

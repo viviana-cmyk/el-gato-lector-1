@@ -19,10 +19,11 @@ import curated from "../data/curated.json";
     <p class="section__byline">El Gato Lector</p>
     <div class="reco-grid">
       {
-        curated.books.map((book) => (
+        curated.books.map((book: any) => (
           <div class={`reco-card outlet--${book.color}`}>
+            {book.tag && <span class="reco-card__tag">{book.tag}</span>}
             <h3>{book.title}</h3>
-            <p><strong>{book.author}</strong></p>
+            <p class="reco-card__author"><strong>{book.author}</strong></p>
             <p>{book.description}</p>
           </div>
         ))
