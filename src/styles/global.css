@@ -206,42 +206,48 @@ img { max-width: 100%; display: block; }
 
 /* Botones hero primarios — vidrio dorado con glow */
 .hero__pill--primary {
-  background: var(--accent) !important;
-  border: none !important;
-  color: #111 !important;
-  font-size: 0.8rem;
+  background: rgba(230,179,0,0.13) !important;
+  border: 1px solid rgba(230,179,0,0.55) !important;
+  color: #fff !important;
+  font-size: 0.82rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
-  padding: 10px 22px;
-  border-radius: 999px;
-  box-shadow: none;
-  transition: background 0.15s, transform 0.15s, box-shadow 0.15s;
+  letter-spacing: 0.06em;
+  padding: 12px 26px;
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.15s;
 }
 
 .hero__pill--primary:hover {
-  background: #ffd000 !important;
+  background: rgba(230,179,0,0.28) !important;
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 22px rgba(230,179,0,0.35), 0 4px 16px rgba(0,0,0,0.3);
   transform: translateY(-2px);
-  box-shadow: 0 4px 18px rgba(230,179,0,0.4);
-  color: #111 !important;
+  color: #fff !important;
 }
 
-/* Botones hero secundarios — gold outline */
+/* Botones hero secundarios — vidrio sutil */
 .hero .pill--ghost {
-  background: transparent !important;
-  border: 2px solid var(--accent) !important;
-  color: var(--accent) !important;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  padding: 9px 22px;
-  border-radius: 999px;
-  box-shadow: none;
-  transition: background 0.15s, color 0.15s, transform 0.15s;
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.22) !important;
+  color: rgba(255,255,255,0.65) !important;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 12px 26px;
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+  transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.15s;
 }
 
 .hero .pill--ghost:hover {
-  background: var(--accent) !important;
-  color: #111 !important;
+  background: rgba(255,255,255,0.13) !important;
+  border-color: rgba(255,255,255,0.4) !important;
+  color: #fff !important;
   transform: translateY(-2px);
 }
 
