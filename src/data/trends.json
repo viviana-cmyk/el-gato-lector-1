@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#ContratosPetro",
-      "#CrisisVenezuela",
-      "#DelaEsprillaVsPetro",
-      "#ReformasSociales",
-      "#SeguridadUrbana"
+      "#PactoHistórico",
+      "#CrisisSeguridad",
+      "#ExtorsiónenColombia",
+      "#MinisterioDelInterior",
+      "#NarcotráficoEnLaGuajira"
     ],
     "mundo": [
-      "#RusiaAtaqueKyiv",
-      "#CumbreOTAN",
-      "#FuneralKhamenei",
-      "#CrisisVenezuela",
-      "#MisilesChinaSurPacífico"
+      "#OTANvsRusia",
+      "#CrisisIrán",
+      "#TensionesChina",
+      "#TerremotosVenezuela",
+      "#DefensaMilitar"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#PetroContratos",
-      "#VenezuelaEmergencia",
-      "#DelaEspriella",
-      "#20Julio",
-      "#SeguridadCali"
+      "#PetroVsOposición",
+      "#ExtorsionistasAfueraDelComercio",
+      "#SeguridadYa",
+      "#NarcosDerrotados",
+      "#CambioDeGobierno"
     ],
     "mundo": [
-      "#GuarraUcrania",
-      "#Khamenei",
-      "#OTANUrgente",
-      "#VenezuelaColapso",
-      "#MisilesChinaAlert"
+      "#RusiaAtaca",
+      "#ChinaArmadasoNuclear",
+      "#IránEnDuelo",
+      "#NATOResponde",
+      "#VenezuelaEnCrisis"
     ]
   },
-  "generatedAt": "2026-07-06T10:02:02.669Z"
+  "generatedAt": "2026-07-07T10:01:57.030Z"
 }

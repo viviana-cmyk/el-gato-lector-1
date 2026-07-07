@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-07-06T10:01:57.554Z",
+  "generatedAt": "2026-07-07T10:01:50.734Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "The InSight Take: Los Chone Killers, el nuevo grupo en la lista de organizaciones terroristas de EE. UU.",
+          "link": "https://insightcrime.org/es/noticias/insight-take-chone-killers-nuevo-grupo-lista-organizaciones-terroristas-ee-uu/",
+          "pubDate": "2026-07-06T17:02:59.000Z",
+          "snippet": "The InSight Take: Los Chone Killers, el nuevo grupo en la lista de organizaciones terroristas de EE. UU. El Departamento de Estado de Estados Unidos añadió a los Chone Killers, de Ecuador, a su lista de organizaciones terroristas extranjeras que operan en América Latina. La edito…"
+        },
+        {
+          "title": "Los Ardillos",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/los-ardillos/",
+          "pubDate": "2026-07-03T19:12:45.000Z",
+          "snippet": "Los Ardillos Los Ardillos son una organización criminal mexicana dedicada a la producción y tráfico ilegal de heroína, a la minería ilegal, y a la extorsión de comunidades indígenas y de industrias […] The post Los Ardillos appeared first on InSight Crime."
+        },
         {
           "title": "Jobanis de Jesús Ávila Villadiego, alias ‘Chiquito Malo’",
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/jobanis-de-jesus-avila-villadiego-alias-chiquito-malo/",
@@ -28,18 +40,6 @@
           "link": "https://insightcrime.org/es/noticias/on-the-radar-drogas-corrupcion-robo-combustible-cjng-presion-mexico/",
           "pubDate": "2026-07-02T16:15:04.000Z",
           "snippet": "On the Radar: Las drogas, la corrupción y el robo de combustible del CJNG aumentan la presión sobre México ¿Quién está ganando la guerra contra las drogas: los gobiernos o las drogas? ¿El partido gobernante de México está cediendo ante la presión de Trump y el crimen organizado?…"
-        },
-        {
-          "title": "‘Johan Petrica’: fugitivo y posible heredero del Tren de Aragua",
-          "link": "https://insightcrime.org/es/noticias/johan-petrica-fugitivo-posible-sucesor-tren-de-aragua/",
-          "pubDate": "2026-07-01T18:48:12.000Z",
-          "snippet": "‘Johan Petrica’: fugitivo y posible heredero del Tren de Aragua La muerte de Héctor Rusthenford Guerrero Flores, alias “Niño Guerrero”, deja a Yohan José Romero, alias “Johan Petrica”, como el último de los líderes originales del Tren de Aragua que sigue prófugo. The post ‘Johan…"
-        },
-        {
-          "title": "Los Lorenzana",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-guatemala/los-lorenzana/",
-          "pubDate": "2026-06-30T16:42:06.000Z",
-          "snippet": "Los Lorenzana Los Lorenzana son una familia guatemalteca tradicional del contrabando que eventualmente se involucró fuertemente en el lucrativo comercio del tráfico de drogas. The post Los Lorenzana appeared first on InSight Crime."
         }
       ]
     },
@@ -90,6 +90,24 @@
       "color": "yellow",
       "items": [
         {
+          "title": "Event Details - Tashkent Hub",
+          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPRXdGMlZwZVoyVm9sM2toMHhidUdGMmZ2RnE3MHdBa3NTV1J5T2dfRzB5UGZLaGx4UXg0ckhqVVpyT1dHZVVjaEVVbm56VVphQ1Fzc0pIc05WMDlDYzJvTExfUW00aXFpOXp0YlJ4ck82RHJZOXBKMV9MaXh3Y0tUb1FwSVM1RjVjS3pKU2h4LUs3dHlHSlg5OC1iRlA1UE1XVnRXYy0xWFMxU1JscnZSUmVsdFJpcHRLcmRQbC1VenJmSE5JVHNoRUpKaHFuWXl0UEJENmg4M0NQY0lXcEV6NUh5Zmh4cXNpTGZxMTlsLU0ySi1kcjhzeHlzaVJzVllZbDIyR3RBZlBDLWRSZjZlaFNR?oc=5",
+          "pubDate": "2026-07-06T17:21:32.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Melanie Azetmüller",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kRlRwbmJHcWFZbGdPSVpPZTJaSXRDMnJ3bThNMl80Zk1jN2k5dUFWMlAwY2I3cEdnV3NYUnU1QzA2ajFzbmVFMFoyeWxVbkt5cDg5N0llWTdFRHJvY21PZHVncm5nVkh4NXc?oc=5",
+          "pubDate": "2026-07-06T11:45:45.000Z",
+          "snippet": null
+        },
+        {
+          "title": "AI and Jobs Series: What one company stopped doing - an HR exec weighs in",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVIzUV9Tc2I0RUVXVXdtYkROQXR4UklEYVVPdzhOenBDUjBaVl9hWGFnLW9iQjR1dzNHZGh6bnk1UVpMOVp4VE5VMHNDT2pRbkVwNWw5bTNuazZNN1lXMFZqY2tIbWY5blRrZU5NN0l2QmpvNWNEMHVWbmlLbUF4RTA2dWJ2ZVhoTWFJa29VQVZEVWphTHpOMWYzMA?oc=5",
+          "pubDate": "2026-07-06T11:39:48.000Z",
+          "snippet": null
+        },
+        {
           "title": "- The World Economic Forum",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMVlXd25KLWw0Y0M3NUJVdXpCbkFIRGx4SEpGeFBtT3BIaklsUHZ2LVZUYXBrUEtWMzVheWxOZ2d1Qm8xWXV3d3FESDlnRTdmZFpDSG1GaEsyVXRkWmdQNDVtdmw2NG5WMkdZWWFLd1BvRTVFSUE3TGIxcUZidmN1Y1B0S3hJNkVLLWZ3YUJVX3dxZy0zd2RJSUlvcWJPNjBteGx2M253?oc=5",
           "pubDate": "2026-07-04T00:08:02.000Z",
@@ -105,24 +123,6 @@
           "title": "Event Details - Ahmedabad Hub",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSXQ3ODRwZXNCNFZCMmxTWlZkZEFXSVNDVzJucHJwU1k4aU5VdmVmZFBLdVM0QURycXpFMW9mbWZkZFJQVVI3ZFRLM0hPeGJ4YnhRTl8zMk5yN2tYN0k3Z1RfNDlOdkZuZ0NyRGZIRE5XN3Q3c0c0U0t2VTZNX19ETmdQRUNDMGJLUnRtYVJYcGRRSjBiZmZ6Vi0yM0lpUkN4YURtd0h5SksyQlpiRmdTTlZ1VzhLRnZmdEtSX1lWWkR5QktoR0lLaXQ0SXR6VmlVSEVWZlZ6S3Q?oc=5",
           "pubDate": "2026-06-26T17:30:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Closing Remarks > Annual Meeting of the New Champions",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRl9HMlRPYUlZUjdOUEIydHBnM0t6OVhHWmVRYWVvTjhoRHhaYXRraGtERDh0MTBCandIbkpMaEpOcngtTk50Mm16NXo2YlZ5c2gxR1Zya0dSaWZVR0g1cnBJUWFVRlNnZVBuVGtsRU50djZ6Mm1FNWs1eVpqeHdVcjVEanBHdVRsMERBemk0UVRpcnQ2N2YycEE3a25UZ1ZEWEtRdGpjTENpYWpVQWc?oc=5",
-          "pubDate": "2026-06-24T10:35:55.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Press Conference: Annual Meeting of the New Champions 2026 Opening",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPaDBTZXRCSWhEUnV3aWZRRXNYOG85VjJQMDRObWlTbmFzYndZVGd4SnI0SVFZZ1p2bkZEemVSamk1eDZjZU50bUpBVzMxRkpyaEFQcXBRZXZ5U2Ewc1BibzFPREJ0T013RXR3U1FYdjkwM3RwbUYtZm1JX2pIS05yZExMNlFmZ3lFc2xreUNzeWYzb1VIZzdRemY3bWVTZ3VwRTZEejhxRXpPaDJubXF5dTdhb3Y3Q2JKN0NKcldpdUlnSUpkZ3lNX0Q5VmtBdFNIS1ZZUjM2eU9wN1ZTWXUzSF9n?oc=5",
-          "pubDate": "2026-06-23T07:00:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Resisting Autarky > Annual Meeting of the New Champions",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeGkzeURUTzQ4Z3FwZXR6OVJHd2Y2QlEtX3NMMU9XNlpVOVNjaE1takdKN2ZtaU5yemlYN2hBQnJvYU5IX291OVA4T1B0c21ZZEpnaUdETm00cjhlODNjclM4aGVxVy1IQmxEejVaM3MycnhIWDg0SGNLRWpYcmRndXJtZmNSN2RaWUgtdGJ1RDFlQVhmVmJSbzZPRGRvQWFWSHc?oc=5",
-          "pubDate": "2026-06-23T01:47:56.000Z",
           "snippet": null
         }
       ]
