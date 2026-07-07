@@ -324,27 +324,32 @@ Responde ÚNICAMENTE con un array JSON ordenado así: primero los ALTA de mayor 
 }
 
 // Elige la mejor noticia destacada de una sección (colombia o mundo).
-// Prioriza ALTA (política, economía, seguridad, ciencia, crisis) sobre deportes.
-// Si hay empate de prioridad, gana la más reciente.
-// Los textos en inglés ya vienen traducidos por translateEnglishOutlets.
+// Elige la noticia destacada del conjunto ya priorizado por IA.
+// Busca el primer ítem ALTA con snippet; preserva el orden de importancia que asignó la IA.
 function pickFeaturedStory(outlets) {
-  const candidates = [];
+  // Recorre en orden: outlets[0].items[0], outlets[0].items[1], outlets[1].items[0]...
+  // Los outlets ya están ordenados con los ítems ALTA al inicio (resultado de prioritizeSection).
+  // Primero busca cualquier ALTA con snippet.
   for (const outlet of outlets) {
     for (const item of outlet.items) {
-      if (!item.snippet) continue;
-      candidates.push({ ...item, source: outlet.name });
+      if (item._priority === "ALTA" && item.snippet) {
+        const best = { ...item, source: outlet.name };
+        delete best._priority;
+        return best;
+      }
     }
   }
-  const priorityOrder = { ALTA: 0, DEPORTES: 1 };
-  candidates.sort((a, b) => {
-    const pa = priorityOrder[a._priority] ?? 0;
-    const pb = priorityOrder[b._priority] ?? 0;
-    if (pa !== pb) return pa - pb;
-    return new Date(b.pubDate || 0) - new Date(a.pubDate || 0);
-  });
-  const best = candidates[0] || null;
-  if (best) delete best._priority;
-  return best;
+  // Fallback: cualquier ítem con snippet (DEPORTES u otros)
+  for (const outlet of outlets) {
+    for (const item of outlet.items) {
+      if (item.snippet) {
+        const best = { ...item, source: outlet.name };
+        delete best._priority;
+        return best;
+      }
+    }
+  }
+  return null;
 }
 
 async function fetchTRM() {
@@ -577,16 +582,16 @@ async function main() {
   console.log("Traduciendo medios en inglés...");
   await translateEnglishOutlets(process.env.ANTHROPIC_API_KEY, config.mundo, mundo);
 
-  // Las noticias destacadas se eligen ANTES de la priorización para que la
-  // depuración de ítems no deje a pickFeaturedStory sin candidatos con snippet.
-  console.log("Eligiendo la noticia del dia (Colombia y Mundo)...");
-  const featuredColombia = pickFeaturedStory(colombia);
-  const featuredMundo    = pickFeaturedStory(mundo);
-
   console.log("Priorizando titulares por relevancia temática...");
   colombia = await prioritizeSection(process.env.ANTHROPIC_API_KEY, colombia);
+  // Noticia destacada se elige DESPUÉS de priorizar para que _priority esté asignado
+  console.log("Eligiendo la noticia del dia (Colombia)...");
+  const featuredColombia = pickFeaturedStory(colombia);
   colombia = enforceRange(colombia, config.colombia);
+
   mundo = await prioritizeSection(process.env.ANTHROPIC_API_KEY, mundo);
+  console.log("Eligiendo la noticia del dia (Mundo)...");
+  const featuredMundo = pickFeaturedStory(mundo);
   mundo = enforceRange(mundo, config.mundo);
 
   console.log("Obteniendo investigaciones recomendadas...");
