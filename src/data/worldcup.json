@@ -1,42 +1,62 @@
 {
   "_comment": "Calendario del Mundial 2026. Horarios en hora Colombia (UTC-5). Editar manualmente cada semana.",
-  "label": "Ronda de 32 · Mundial 2026",
+  "label": "Octavos de Final · Mundial 2026",
   "note": "Horarios hora Colombia · UTC−5",
   "days": [
     {
-      "date": "5 JUL",
+      "date": "11 JUL",
       "matches": [
-        { "round": "R32", "home": "Alemania",       "away": "México",   "time": "11:00", "city": "Houston" },
-        { "round": "R32", "home": "Francia",         "away": "Suecia",   "time": "14:00", "city": "NY/NJ" },
-        { "round": "R32", "home": "Brasil",          "away": "Japón",    "time": "17:00", "city": "Dallas" },
-        { "round": "R32", "home": "Costa de Marfil", "away": "Noruega",  "time": "20:00", "city": "Seattle" }
+        { "round": "R16", "home": "Alemania",       "away": "Costa de Marfil", "time": "11:00", "city": "Houston" },
+        { "round": "R16", "home": "Brasil",          "away": "Francia",         "time": "14:00", "city": "Dallas" },
+        { "round": "R16", "home": "Sudáfrica",       "away": "Inglaterra",      "time": "17:00", "city": "Vancouver" },
+        { "round": "R16", "home": "Países Bajos",    "away": "Ecuador",         "time": "20:00", "city": "Philadelphia" }
       ]
     },
     {
-      "date": "6 JUL",
+      "date": "12 JUL",
       "matches": [
-        { "round": "R32", "home": "Sudáfrica",    "away": "Canadá",            "time": "11:00", "city": "Vancouver" },
-        { "round": "R32", "home": "Países Bajos", "away": "Marruecos",         "time": "14:00", "city": "Philadelphia" },
-        { "round": "R32", "home": "Irán",         "away": "Ecuador",           "time": "17:00", "city": "Los Ángeles" },
-        { "round": "R32", "home": "Inglaterra",   "away": "RD Congo",          "time": "20:00", "city": "Atlanta" }
+        { "round": "R16", "home": "Portugal",        "away": "Australia",       "time": "11:00", "city": "Boston" },
+        { "round": "R16", "home": "Argentina",       "away": "España",          "time": "14:00", "city": "Kansas City" },
+        { "round": "R16", "home": "Bélgica",         "away": "Suiza",           "time": "17:00", "city": "Atlanta" },
+        { "round": "R16", "home": "Colombia",        "away": "Estados Unidos",  "time": "20:00", "city": "Guadalajara" }
       ]
     },
     {
-      "date": "7 JUL",
+      "date": "18 JUL",
       "matches": [
-        { "round": "R32", "home": "Portugal",   "away": "Croacia",   "time": "11:00", "city": "Boston" },
-        { "round": "R32", "home": "España",     "away": "Austria",   "time": "14:00", "city": "Miami" },
-        { "round": "R32", "home": "Argentina",  "away": "Cabo Verde","time": "17:00", "city": "Kansas City" },
-        { "round": "R32", "home": "Australia",  "away": "Egipto",    "time": "20:00", "city": "San Francisco" }
+        { "round": "QF",  "home": "TBD",             "away": "TBD",             "time": "14:00", "city": "NY/NJ" },
+        { "round": "QF",  "home": "TBD",             "away": "TBD",             "time": "20:00", "city": "Los Ángeles" }
       ]
     },
     {
-      "date": "8 JUL",
+      "date": "19 JUL",
       "matches": [
-        { "round": "R32", "home": "Estados Unidos",      "away": "Bosnia y Herzegovina", "time": "11:00", "city": "Los Ángeles" },
-        { "round": "R32", "home": "Bélgica",             "away": "Senegal",              "time": "14:00", "city": "Atlanta" },
-        { "round": "R32", "home": "Suiza",               "away": "Argelia",              "time": "17:00", "city": "Toronto" },
-        { "round": "R32", "home": "Colombia",            "away": "Ghana",                "time": "20:00", "city": "Guadalajara" }
+        { "round": "QF",  "home": "TBD",             "away": "TBD",             "time": "14:00", "city": "Dallas" },
+        { "round": "QF",  "home": "TBD",             "away": "TBD",             "time": "20:00", "city": "Miami" }
+      ]
+    },
+    {
+      "date": "22 JUL",
+      "matches": [
+        { "round": "SF",  "home": "TBD",             "away": "TBD",             "time": "19:00", "city": "NY/NJ" }
+      ]
+    },
+    {
+      "date": "23 JUL",
+      "matches": [
+        { "round": "SF",  "home": "TBD",             "away": "TBD",             "time": "19:00", "city": "Dallas" }
+      ]
+    },
+    {
+      "date": "25 JUL",
+      "matches": [
+        { "round": "3ro", "home": "TBD",             "away": "TBD",             "time": "15:00", "city": "Miami" }
+      ]
+    },
+    {
+      "date": "26 JUL",
+      "matches": [
+        { "round": "FIN", "home": "TBD",             "away": "TBD",             "time": "15:00", "city": "NY/NJ" }
       ]
     }
   ]

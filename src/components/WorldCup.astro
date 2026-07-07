@@ -12,7 +12,20 @@ const SHORT: Record<string, string> = {
   "Bosnia y Herzegovina": "Bosnia",
   "RD Congo":             "RD Congo",
 };
+
+const ROUND_LABEL: Record<string, string> = {
+  "group": "Grupo",
+  "R32":   "R32",
+  "R16":   "Octavos",
+  "QF":    "Cuartos",
+  "SF":    "Semi",
+  "3ro":   "3.° lugar",
+  "FIN":   "Final",
+};
+
 function short(team: string) { return SHORT[team] ?? team; }
+function roundLabel(r: string) { return ROUND_LABEL[r] ?? r; }
+function flag(team: string) { return team === "TBD" ? "🏳️" : flagEmoji(team); }
 
 const days = worldcup.days ?? [];
 ---
@@ -23,28 +36,32 @@ const days = worldcup.days ?? [];
     {days.map((day) => (
       <div class="wc__day">
         <div class="wc__day-head">{day.date}</div>
-        {day.matches.map((match) => (
-          <div class="wc__match">
-            <span class="wc__group">{(match as any).group ?? ""}</span>
-            <div class="wc__body">
-              <div class="wc__teams">
-                <span class="wc__team">
-                  <span>{flagEmoji(match.home)}</span>
-                  <span>{short(match.home)}</span>
-                </span>
-                <span class="wc__vs">vs</span>
-                <span class="wc__team">
-                  <span>{flagEmoji(match.away)}</span>
-                  <span>{short(match.away)}</span>
-                </span>
-              </div>
-              <div class="wc__meta">
-                <span>🕐 {match.time}</span>
-                {(match as any).city && <span>📍 {(match as any).city}</span>}
+        {day.matches.map((match) => {
+          const m = match as any;
+          const roundKey = m.round ?? m.group ?? "";
+          return (
+            <div class="wc__match">
+              <span class="wc__group">{roundLabel(roundKey)}</span>
+              <div class="wc__body">
+                <div class="wc__teams">
+                  <span class="wc__team">
+                    <span>{flag(match.home)}</span>
+                    <span>{short(match.home)}</span>
+                  </span>
+                  <span class="wc__vs">vs</span>
+                  <span class="wc__team">
+                    <span>{flag(match.away)}</span>
+                    <span>{short(match.away)}</span>
+                  </span>
+                </div>
+                <div class="wc__meta">
+                  <span>🕐 {match.time}</span>
+                  {m.city && <span>📍 {m.city}</span>}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     ))}
   </div>
