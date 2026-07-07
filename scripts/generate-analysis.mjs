@@ -125,17 +125,22 @@ Responde ÚNICAMENTE con este JSON exacto, sin texto adicional:
 }
 
 async function generateDailyInfo(client, dateStr) {
-  const prompt = `Hoy es ${dateStr}. ¿Hay algún día internacional oficial de la ONU, UNESCO, OMS u otro organismo internacional reconocido que se conmemore EXACTAMENTE en esta fecha?
+  const prompt = `Hoy es ${dateStr}. Busca UNA conmemoración relevante para esta fecha exacta, en este orden de preferencia:
 
-Instrucciones importantes:
-- Solo incluye días con fecha fija (ejemplo: "5 de junio = Día Mundial del Medio Ambiente") o reglas exactas (ejemplo: "primer sábado de julio = Día Internacional de las Cooperativas"). Verifica que la regla coincida con la fecha exacta de hoy.
-- Si la fecha de hoy no encaja exactamente con ningún día internacional reconocido, responde null.
-- No inventes ni aproximes fechas. Es mejor decir null que dar una fecha incorrecta.
+1. Día internacional oficial de la ONU, UNESCO, OMS u organismo internacional (fecha fija o regla exacta como "primer sábado de julio").
+2. Efeméride histórica importante (aniversario de un evento mundial o latinoamericano relevante).
+3. Día nacional significativo de algún país (independencia, fundación, etc.).
+4. Conmemoración cultural, científica o social de relevancia global.
 
-Si existe, responde con este JSON exacto (sin texto adicional):
+Reglas:
+- La fecha debe coincidir EXACTAMENTE con hoy. No aproximes.
+- No inventes datos. Si no encuentras nada verificable para esta fecha, responde null.
+- Prefiere conmemoraciones con impacto en Colombia o Latinoamérica cuando haya opciones.
+
+Responde con este JSON exacto (sin texto adicional):
 {"nombre":"<nombre completo en español>","descripcion":"<1 oración en español, máximo 180 caracteres, explicando qué se conmemora y por qué importa>"}
 
-Si hoy no hay ningún día internacional oficial, responde exactamente con: null`;
+Si no hay nada verificable para esta fecha exacta, responde: null`;
 
   const response = await client.messages.create({
     model: MODEL,
