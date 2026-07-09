@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-07-08T10:01:56.880Z",
+  "generatedAt": "2026-07-09T10:02:04.979Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "¿Podrá la ‘mano dura’ del próximo gobierno de Colombia frenar la expansión de coca?",
+          "link": "https://insightcrime.org/es/noticias/nuevos-datos-sobre-coca-colombia-y-oportunidades-para-proximo-presidente/",
+          "pubDate": "2026-07-08T15:22:20.000Z",
+          "snippet": "¿Podrá la ‘mano dura’ del próximo gobierno de Colombia frenar la expansión de coca? La ONU reveló nuevos datos sobre los cultivos de coca en Colombia. El informe muestra dónde se concentra la coca y por qué la estrategia antidrogas de De la Espriella será difícil de aplicar en la…"
+        },
+        {
+          "title": "La Unión Tepito",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/la-union-tepito/",
+          "pubDate": "2026-07-08T13:49:22.000Z",
+          "snippet": "La Unión Tepito La Unión Tepito es un gran grupo criminal originario de Ciudad de México, que toma su nombre de uno de los barrios más grandes de la capital. The post La Unión Tepito appeared first on InSight Crime."
+        },
         {
           "title": "Los últimos Chapitos en pie: Iván Archivaldo y Jesús Alfredo Guzmán",
           "link": "https://insightcrime.org/es/noticias/ultimos-chapitos-pie-donde-estan-ivan-archivaldo-jesus-alfredo-guzman/",
@@ -28,18 +40,6 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/jobanis-de-jesus-avila-villadiego-alias-chiquito-malo/",
           "pubDate": "2026-07-03T15:19:50.000Z",
           "snippet": "Jobanis de Jesús Ávila Villadiego, alias ‘Chiquito Malo’ Chiquito Malo, máximo líder del Clan del Golfo, continuará con una orden de captura vigente luego de que la Fiscalía colombiana rechazara suspenderla en medio de los diálogos de Paz Total. The post Jobanis de Jesús Ávila Vi…"
-        },
-        {
-          "title": "Lo que ‘Euphoria’ retrata bien y mal sobre el crimen fronterizo",
-          "link": "https://insightcrime.org/es/noticias/5-cosas-temporada-3-euphoria-retrata-bien-mal-sobre-crimen-organizado-frontera-ee-uu-mexico/",
-          "pubDate": "2026-07-03T14:38:58.000Z",
-          "snippet": "Lo que ‘Euphoria’ retrata bien y mal sobre el crimen fronterizo La tercera temporada de Euphoria acaba de llegar a su fin, cerrando una trama marcada por la estética y la intensidad de las dinámicas criminales en la frontera entre Estados Unidos y México. Aunque la producción ref…"
-        },
-        {
-          "title": "Larry Amaury Álvarez Núñez, alias ‘Larry Changa’",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-venezuela/larry-amaury-alvarez-nunez-alias-larry-changa/",
-          "pubDate": "2026-07-02T16:40:46.000Z",
-          "snippet": "Larry Amaury Álvarez Núñez, alias ‘Larry Changa’ Larry Amaury Álvarez Núñez, alias “Larry Changa”, es uno de los cofundadores y líderes originales del Tren de Aragua, el grupo criminal más importante de Venezuela y que ha logrado expandir sus operaciones en diferentes países de A…"
         }
       ]
     },
@@ -102,12 +102,6 @@
           "snippet": null
         },
         {
-          "title": "AI and Jobs Series: What one company stopped doing - an HR exec weighs in",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVIzUV9Tc2I0RUVXVXdtYkROQXR4UklEYVVPdzhOenBDUjBaVl9hWGFnLW9iQjR1dzNHZGh6bnk1UVpMOVp4VE5VMHNDT2pRbkVwNWw5bTNuazZNN1lXMFZqY2tIbWY5blRrZU5NN0l2QmpvNWNEMHVWbmlLbUF4RTA2dWJ2ZVhoTWFJa29VQVZEVWphTHpOMWYzMA?oc=5",
-          "pubDate": "2026-07-06T11:39:48.000Z",
-          "snippet": null
-        },
-        {
           "title": "- The World Economic Forum",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMVlXd25KLWw0Y0M3NUJVdXpCbkFIRGx4SEpGeFBtT3BIaklsUHZ2LVZUYXBrUEtWMzVheWxOZ2d1Qm8xWXV3d3FESDlnRTdmZFpDSG1GaEsyVXRkWmdQNDVtdmw2NG5WMkdZWWFLd1BvRTVFSUE3TGIxcUZidmN1Y1B0S3hJNkVLLWZ3YUJVX3dxZy0zd2RJSUlvcWJPNjBteGx2M253?oc=5",
           "pubDate": "2026-07-04T00:08:02.000Z",
@@ -123,6 +117,12 @@
           "title": "Annual Meeting of Global Future Leaders",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeWdHVlVRYVRrOW02NHpQYl9GcjdyaWdsWnBEdk13eTFadk5pZkFMTFVra1hVcHVlVnB0Um55VFBpbDBzMXgzX1NxVk1JTmRXWXlYTThEWUNwd2xnMk9kNXFST0JIcnEySlNEdmRSNlAydTg0SmU1T2FfalJMeHl0TkRzWQ?oc=5",
           "pubDate": "2026-06-27T04:28:48.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Event Details - Ahmedabad Hub",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSXQ3ODRwZXNCNFZCMmxTWlZkZEFXSVNDVzJucHJwU1k4aU5VdmVmZFBLdVM0QURycXpFMW9mbWZkZFJQVVI3ZFRLM0hPeGJ4YnhRTl8zMk5yN2tYN0k3Z1RfNDlOdkZuZ0NyRGZIRE5XN3Q3c0c0U0t2VTZNX19ETmdQRUNDMGJLUnRtYVJYcGRRSjBiZmZ6Vi0yM0lpUkN4YURtd0h5SksyQlpiRmdTTlZ1VzhLRnZmdEtSX1lWWkR5QktoR0lLaXQ0SXR6VmlVSEVWZlZ6S3Q?oc=5",
+          "pubDate": "2026-06-26T17:30:00.000Z",
           "snippet": null
         }
       ]
