@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-07-09T10:02:04.979Z",
+  "generatedAt": "2026-07-10T10:01:47.274Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "On The Radar: ‘El Mayo’ busca evitar prisión de máxima seguridad",
+          "link": "https://insightcrime.org/es/noticias/on-the-radar-mayo-busca-evitar-prision-maxima-seguridad/",
+          "pubDate": "2026-07-09T18:39:11.000Z",
+          "snippet": "On The Radar: ‘El Mayo’ busca evitar prisión de máxima seguridad Esta semana en On the Radar: “El Mayo” busca evitar una prisión de máxima seguridad, EE. UU. renueva la presión sobre los Chapitos que se encuentran prófugos y los nuevos datos sobre cultivos coca desafían a Colombi…"
+        },
         {
           "title": "¿Podrá la ‘mano dura’ del próximo gobierno de Colombia frenar la expansión de coca?",
           "link": "https://insightcrime.org/es/noticias/nuevos-datos-sobre-coca-colombia-y-oportunidades-para-proximo-presidente/",
@@ -21,7 +27,7 @@
           "title": "Los últimos Chapitos en pie: Iván Archivaldo y Jesús Alfredo Guzmán",
           "link": "https://insightcrime.org/es/noticias/ultimos-chapitos-pie-donde-estan-ivan-archivaldo-jesus-alfredo-guzman/",
           "pubDate": "2026-07-07T20:37:38.000Z",
-          "snippet": "Los últimos Chapitos en pie: Iván Archivaldo y Jesús Alfredo Guzmán Esta semana, Estados Unidos aumentó las recompensas multimillonarias que ofrece por los dos líderes que aún permanecen al frente de la facción de los Chapitos del Cartel de Sinaloa, al […] The post Los últimos Ch…"
+          "snippet": "Los últimos Chapitos en pie: Iván Archivaldo y Jesús Alfredo Guzmán Esta semana, Estados Unidos resaltó recompensas multimillonarias que ofrece por los dos líderes que aún permanecen al frente de la facción de los Chapitos del Cartel de Sinaloa, al tiempo […] The post Los últimos…"
         },
         {
           "title": "The InSight Take: Los Chone Killers, el nuevo grupo en la lista de organizaciones terroristas de EE. UU.",
@@ -34,56 +40,13 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/los-ardillos/",
           "pubDate": "2026-07-03T19:12:45.000Z",
           "snippet": "Los Ardillos Los Ardillos son una organización criminal mexicana dedicada a la producción y tráfico ilegal de heroína, a la minería ilegal, y a la extorsión de comunidades indígenas y de industrias […] The post Los Ardillos appeared first on InSight Crime."
-        },
-        {
-          "title": "Jobanis de Jesús Ávila Villadiego, alias ‘Chiquito Malo’",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/jobanis-de-jesus-avila-villadiego-alias-chiquito-malo/",
-          "pubDate": "2026-07-03T15:19:50.000Z",
-          "snippet": "Jobanis de Jesús Ávila Villadiego, alias ‘Chiquito Malo’ Chiquito Malo, máximo líder del Clan del Golfo, continuará con una orden de captura vigente luego de que la Fiscalía colombiana rechazara suspenderla en medio de los diálogos de Paz Total. The post Jobanis de Jesús Ávila Vi…"
         }
       ]
     },
     {
       "name": "International Crisis Group",
       "color": "teal",
-      "items": [
-        {
-          "title": "On Our Radar",
-          "link": "https://www.crisisgroup.org/sco/global/our-radar",
-          "pubDate": "2026-07-03T17:07:09.000Z",
-          "snippet": "On Our Radar eschelhaas Fri, 07/03/2026 - 19:07 Latest Updates Africa Asia-Pacific Europe Latin America & Caribbean Middle East & North Africa United States Global Issues & Institutions My Reading List Special Coverage / Global 03 July 2026 20+ minutes On Our Radar scans conflict…"
-        },
-        {
-          "title": "Hormuz 1 July 2026 #1",
-          "link": "https://www.crisisgroup.org/content/hormuz-1-july-2026-1",
-          "pubDate": "2026-07-03T14:41:06.000Z",
-          "snippet": "Hormuz 1 July 2026 #1 lalasor Fri, 07/03/2026 - 16:41 Strait of Hormuz Fri, 07/03/2026 - 12:00 1 July 2026 U.S. Central Command announced that it had led a security dialogue attended by senior military officials from a dozen regional states who “discussed the current regional sec…"
-        },
-        {
-          "title": "Saudi 1 July 2026 #1",
-          "link": "https://www.crisisgroup.org/content/saudi-1-july-2026-1",
-          "pubDate": "2026-07-03T14:39:44.000Z",
-          "snippet": "Saudi 1 July 2026 #1 lalasor Fri, 07/03/2026 - 16:39 Riyadh Fri, 07/03/2026 - 12:00 1 July 2026 U.S. Central Command announced that it had led a security dialogue attended by senior military officials from a dozen regional states who “discussed the current regional security envir…"
-        },
-        {
-          "title": "Washington 1 July 2026 #1",
-          "link": "https://www.crisisgroup.org/content/washington-1-july-2026-1",
-          "pubDate": "2026-07-03T14:38:57.000Z",
-          "snippet": "Washington 1 July 2026 #1 lalasor Fri, 07/03/2026 - 16:38 Washington Fri, 07/03/2026 - 12:00 1 July 2026 U.S. Central Command announced that it had led a security dialogue attended by senior military officials from a dozen regional states who “discussed the current regional secur…"
-        },
-        {
-          "title": "Tehran 1 July 2026 #2",
-          "link": "https://www.crisisgroup.org/content/tehran-1-july-2026-2",
-          "pubDate": "2026-07-03T14:38:16.000Z",
-          "snippet": "Tehran 1 July 2026 #2 lalasor Fri, 07/03/2026 - 16:38 Tehran Fri, 07/03/2026 - 12:00 1 July 2026 U.S. Central Command announced that it had led a security dialogue attended by senior military officials from a dozen regional states who “discussed the current regional security envi…"
-        },
-        {
-          "title": "Bahrain 1 July 2026 #1",
-          "link": "https://www.crisisgroup.org/content/bahrain-1-july-2026-1",
-          "pubDate": "2026-07-03T14:37:21.000Z",
-          "snippet": "Bahrain 1 July 2026 #1 lalasor Fri, 07/03/2026 - 16:37 Bahrain Fri, 07/03/2026 - 12:00 1 July 2026 U.S. Central Command announced that it had led a security dialogue attended by senior military officials from a dozen regional states who “discussed the current regional security en…"
-        }
-      ]
+      "items": []
     },
     {
       "name": "World Economic Forum",
@@ -102,12 +65,6 @@
           "snippet": null
         },
         {
-          "title": "- The World Economic Forum",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMVlXd25KLWw0Y0M3NUJVdXpCbkFIRGx4SEpGeFBtT3BIaklsUHZ2LVZUYXBrUEtWMzVheWxOZ2d1Qm8xWXV3d3FESDlnRTdmZFpDSG1GaEsyVXRkWmdQNDVtdmw2NG5WMkdZWWFLd1BvRTVFSUE3TGIxcUZidmN1Y1B0S3hJNkVLLWZ3YUJVX3dxZy0zd2RJSUlvcWJPNjBteGx2M253?oc=5",
-          "pubDate": "2026-07-04T00:08:02.000Z",
-          "snippet": null
-        },
-        {
           "title": "Los combustibles suministran la mayor parte de la energía mundial",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMktvRWFadWdwdXFhMXFEYjVpOVF0S2RRRnNoVkdxZXN3a3hRa2NIaE1VX003bzFsV044T0FnYV9GX2c1MndCWnp4UTZOb21jQ2trUDNMWmZ0bEdPcVhZU2hBZUJjbmxNMEx5N043M2FtQ0xHLXZVd0ZoclZHam84dDRiYmVjV0RCZ002STVlTkhua2MyWVJIZU5Xd05tQQ?oc=5",
           "pubDate": "2026-07-01T13:00:00.000Z",
@@ -123,6 +80,12 @@
           "title": "Event Details - Ahmedabad Hub",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSXQ3ODRwZXNCNFZCMmxTWlZkZEFXSVNDVzJucHJwU1k4aU5VdmVmZFBLdVM0QURycXpFMW9mbWZkZFJQVVI3ZFRLM0hPeGJ4YnhRTl8zMk5yN2tYN0k3Z1RfNDlOdkZuZ0NyRGZIRE5XN3Q3c0c0U0t2VTZNX19ETmdQRUNDMGJLUnRtYVJYcGRRSjBiZmZ6Vi0yM0lpUkN4YURtd0h5SksyQlpiRmdTTlZ1VzhLRnZmdEtSX1lWWkR5QktoR0lLaXQ0SXR6VmlVSEVWZlZ6S3Q?oc=5",
           "pubDate": "2026-06-26T17:30:00.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Closing Remarks > Annual Meeting of the New Champions",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRl9HMlRPYUlZUjdOUEIydHBnM0t6OVhHWmVRYWVvTjhoRHhaYXRraGtERDh0MTBCandIbkpMaEpOcngtTk50Mm16NXo2YlZ5c2gxR1Zya0dSaWZVR0g1cnBJUWFVRlNnZVBuVGtsRU50djZ6Mm1FNWs1eVpqeHdVcjVEanBHdVRsMERBemk0UVRpcnQ2N2YycEE3a25UZ1ZEWEtRdGpjTENpYWpVQWc?oc=5",
+          "pubDate": "2026-06-24T10:35:55.000Z",
           "snippet": null
         }
       ]
