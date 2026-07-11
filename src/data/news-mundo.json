@@ -1,37 +1,51 @@
 {
-  "generatedAt": "2026-07-10T10:01:47.274Z",
+  "generatedAt": "2026-07-11T10:01:44.499Z",
   "outlets": [
     {
       "name": "CNN en Español",
       "color": "grey",
       "items": [
         {
-          "title": "Un fabricante de chips que antes era poco conocido ha logrado la mayor salida a bolsa de una empresa extranjera en EE.UU.",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbVZTVTdzX0tCcGtzUFVEVjBrRUoweEp3ZGY3R253VzExZERnVlYzOTBselNxMVNoWkR6bnF0TG93MTR2V0RyT01BUzF0ODItZ1YxRkYybkN0bUkzZ2IxN0dHSVA5N1pJaVhkWlNUdmJMMHplakVWQmRjbzFEdkJSc25sWm1ZRGN3MlppS0hNbmdIWWItNm5VRw?oc=5",
-          "pubDate": "2026-07-10T05:56:00.000Z",
+          "title": "Investigación de CNN revela indicios de que Irán intenta reconstruir sus instalaciones nucleares",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNmg4WlFTQTNiUUFJRDZoU085dVZQSXY2SWxQT09CbVJjNUhqSWF5MWZmWm5HQXFQRzM4VUpOTWdod1lPVDRwRG85S3VnR1FNV2RGZDB4d1YwQ2NGY2haZDk4dTVuTl9hMUdkdmxJUXFlbUpaMnM1RTJJdkRLd2lWN3BMMGdSRGFFYmRBaDJvT3czYW9oVC1mSS1maE1JeDBMWHJJ?oc=5",
+          "pubDate": "2026-07-11T02:59:32.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Trump despide a la cúpula directiva de la Comisión de Asistencia Electoral",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTk9VTS1XU2o2a1dKUXA4ZDMyUWoyWXFxUDFBekFPVjhET2dPY0NEZUQzX2xIOXd1OGV0cjJxOUJPeGhXSUp5N2NpRkJSaW0tOWR2SUw5Tk9GaTViVnh0bmdnY0UwNGNYejVCOThVb3pmcHZCQURwd3ZKSlZORVJCMUJ6dDJjYTEzdlVqUGtfOA?oc=5",
-          "pubDate": "2026-07-10T02:15:00.000Z",
+          "title": "Trump dice que el alto el fuego con Irán ha “terminado”. ¿Qué sigue ahora?",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPamNtRWFnNUZRWURLbmdaSXJvbXI5U2cyTVpFSloxNmhzMnMxT2p6Q3pnZ0FTODY2MlgyR1VFc1AtN2ctc2oxaW9FOXhPb2hxWkxjXzNoeHVCa0lYX1dNN3BzX19DUGY5UTNyVnVJcmNyWkRDby1EeTVMcGRaR19JSk16X3NyWGNhcGJIZXF5VHZjZGow?oc=5",
+          "pubDate": "2026-07-10T23:04:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Haitianos en Miami protestan tras fallo que habilita el fin del TPS",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLXFwTTdYZzZVaFEyeEJkb2Y5VzRubmFSend1WVZDX1h2VE5PWm1pUk1sclcwTmRTQTNMVmVhRll6Q2tLYllTYW05dHRBczkyZFEtQVA2cmNHNEtnRk9tbFJ5clpmNWpEanZVTzU3TTFYTVdtZlBlQ0FXY0dXR09OTUpVQ0pSX0N5cWRIRDNxNWNxMlJ6YTd3ZU1odHF1NFZBRldmbllMY3ZWb3pV?oc=5",
-          "pubDate": "2026-07-10T01:26:30.000Z",
+          "title": "Venezuela redefine reglas petroleras: ¿bastarán para atraer inversión?",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOckYyYnlVYy01QlZfZndqVlV2dnAwa1lGb1IzdFMzUExxYmdGVzlUVGduOHpGbFBndTM2QmpnQllEclBzci1peU5vMEo3aV9vbGQxTTMtajZNR0dtV1EyNUJfbVZMaFZFVFdiSzBYSGdaYkk2ZVFmRmNXa0tLUm1neXBjczZQajkzaG9FbWE2TGNpMzZTN1YtdENjUW1TSW1QWDIwSnUxa0tpcUEybHZiRU81cUFwLWpvalFsbENOLTBtMU9uMUYzWXNJQmk5aDA?oc=5",
+          "pubDate": "2026-07-11T00:46:28.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "\"Es uno de los mejores de la historia\": Gavi elogia a Courtois antes del España vs. Bélgica",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTUxJUVdINHdDSWNIeWpidnIzNUtoNWgyb0lVcnZlVTB5Z0daSHVuMWZqSEdUeUtJWUp3V3RjeVQxZ2NMWmUxVlFRT3ppYkI2M0xVLU1wSms0XzR1WmZVdDVKeUdoSHFxRmhUR3BNeXdYVFFNcFBtaURJU2RkNmxJdldra2xack4ySmNaVUJsNm90WWpPSS1iY0V1ZUgtVlVBQ0JOaHBR?oc=5",
-          "pubDate": "2026-07-10T00:09:01.000Z",
+          "title": "Venezuela en labores de recuperación, ¿cómo ayudar a los damnificados?",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYURaMTMtM1NoTnNuUWRVZUktYkRWbkpISzJxTnpmQWxkS1c3MFJuSFp6OEFRYzJ6OURCWU1oc0JDT2w3cFpjMHBkN2MyUkdKZGJHdEY3OWFnRUFLbk9jaGRtUV9VdkNUVjhkVDNIY05HS2RuQXIxdnM3U2R0MGdLU0V1elpVaktPUmJrODlORHJ3LUtHc1VSNkZaakVLU0g0NFBrUzdBX3BQQQ?oc=5",
+          "pubDate": "2026-07-10T22:52:26.000Z",
           "snippet": null,
-          "_priority": "DEPORTES"
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Hombres que presenciaron el tiroteo mortal en Houston dicen que la versión de ICE es falsa, según un abogado | CNN",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOTB6NFYwVXlNSk1SS0tBZlpBM21NY0lmTkh6UWxDTUJzVmJWTkZhSGszaGJ2VjJUN0pjQTRSMEpTc0JlTDlsNWV2NW9SSU5VbnFxYnktLTlmN2xOVHB1UjVQeU5MNHBsR0h6b1dTSjJFZ3FnT1c1bHZCY3pIVFd1OWhncmxkazg0V3puUDd6VV8?oc=5",
+          "pubDate": "2026-07-11T01:37:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Gobierno de Trump abre los hábitats de especies en peligro a la urbanización y revierte 50 años de legislación ambiental",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMXBjMk8yaGxZZnFucmtJeDRTZUswVnVZdzJBLXdrNUswbDlyZ0c5bDJYWmRIZGstaVhXekx6SFVvdkJtWHZ5SGNQdGVWQUJ5ZFdjU3VKM19HN2lfMnRfUzVIc3dIbG9hWHBvVVVuTnlYUHJUaVJYdUNJSUVvVXhNVElZbURkdERyZlNkSnlYTnJ3UQ?oc=5",
+          "pubDate": "2026-07-11T00:31:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -40,46 +54,39 @@
       "color": "sky",
       "items": [
         {
-          "title": "Últimas noticias del incendio forestal de Los Gallardos (Almería), en directo | Al menos 11 muertos y 19 desaparecidos en el incendio más trágico registrado en Andalucía",
-          "link": "https://elpais.com/espana/2026-07-10/ultimas-noticias-del-incendio-forestal-de-los-gallardos-almeria-en-directo.html",
-          "pubDate": "2026-07-10T09:57:03.000Z",
-          "snippet": "Moreno apunta a que los fallecidos podrían ser 12, a la espera de confirmar el hallazgo de un nuevo cuerpo | Las víctimas se vieron sorprendidas por las llamas cuando trataron de huir “por una ruta distinta a la de evacuación”, según las autoridades, que creen que son todos turis…",
+          "title": "Últimas noticias del incendio forestal de Los Gallardos (Almería), en directo | El fuego ha afectado ya 6.600 hectáreas y evoluciona “relativamente bien”",
+          "link": "https://elpais.com/espana/2026-07-11/ultimas-noticias-del-incendio-forestal-de-los-gallardos-almeria-en-directo.html",
+          "pubDate": "2026-07-11T09:47:53.000Z",
+          "snippet": "El consejero de Emergencias de Andalucía explica que la respuesta distinta que requería cada zona no permitió enviar el aviso Es-Alert | El balance de víctimas se mantiene en 12 fallecidos, ocho heridos y 23 personas sin localizar",
           "_priority": "ALTA"
         },
         {
-          "title": "Al menos 11 muertos en el incendio de Los Gallardos (Almería), el más mortífero de la historia de Andalucía",
-          "link": "https://elpais.com/espana/2026-07-10/al-menos-12-muertos-en-el-incendio-de-los-gallardos-almeria-el-mas-mortifero-de-la-historia-de-andalucia.html",
-          "pubDate": "2026-07-10T09:48:48.000Z",
-          "snippet": "“Íbamos tocando puerta a puerta, sacando a los vecinos”, explica el alcalde de Bédar, que apunta a que las víctimas se vieron sorprendidas por las llamas al intentar huir “por una ruta distinta a la de evacuación”",
+          "title": "El ICE contra los testigos: dos versiones opuestas sobre la muerte del mexicano Lorenzo Salgado",
+          "link": "https://elpais.com/us/migracion/2026-07-11/ice-vs-los-testigos-dos-versiones-opuestas-sobre-la-muerte-del-mexicano-lorenzo-salgado.html",
+          "pubDate": "2026-07-11T04:00:00.000Z",
+          "snippet": "Tres testigos clave contradicen la versión oficial sobre los disparos de los agentes federales que mataron al inmigrante. El abogado de estos busca liberarlos de detención y mantenerlos en EEUU para que contribuyan con la investigación",
           "_priority": "ALTA"
         },
         {
-          "title": "La Guardia Civil investiga la caída de un cable eléctrico como desencadenante del incendio en Los Gallardos",
-          "link": "https://elpais.com/espana/2026-07-10/la-guardia-civil-investiga-la-caida-de-un-cable-como-desencadenante-del-incendio-en-los-gallardos.html",
-          "pubDate": "2026-07-10T09:32:43.000Z",
-          "snippet": "El Gobierno andaluz asegura que el fuego fue declarado inicialmente como “un incendio de cuneta”. La zona estaba en situación de peligro extremo, según la Aemet",
+          "title": "Telefónica prepara un ajuste de 1.000 empleos en su filial alemana",
+          "link": "https://cincodias.elpais.com/companias/2026-07-11/telefonica-prepara-un-ajuste-de-1000-empleos-en-su-filial-alemana.html",
+          "pubDate": "2026-07-11T08:08:51.000Z",
+          "snippet": "La multinacional española reducirá un 15% la plantilla de O2 tras la pérdida del contrato mayorista con 1&1 y el cambio en la dirección",
           "_priority": "ALTA"
         },
         {
-          "title": "Anticorrupción avala que se impute al expresidente de Correos y que se analice su teléfono móvil",
-          "link": "https://elpais.com/espana/2026-07-10/anticorrupcion-avala-que-se-impute-al-expresidente-de-correos-y-que-se-analice-su-telefono-movil.html",
-          "pubDate": "2026-07-10T08:56:20.000Z",
-          "snippet": "La Fiscalía se opone, en cambio, a la petición de la UCO de analizar el teléfono de la gerente y de dos trabajadoras del PSOE",
+          "title": "La grieta abierta de la protesta del 11 de julio en Cuba: “Tuvo sentido salir a la calle. Me cambió toda la vida”",
+          "link": "https://elpais.com/us/2026-07-11/la-grieta-abierta-de-la-protesta-del-11-de-julio-en-cuba-tuvo-sentido-salir-a-la-calle-me-cambio-toda-la-vida.html",
+          "pubDate": "2026-07-11T04:00:00.000Z",
+          "snippet": "Cinco años después de aquella manifestación inédita y masiva, muchos cubanos siguen encarcelados y otros obligados al exilio. La fecha persiste en la conciencia nacional",
           "_priority": "ALTA"
         },
         {
-          "title": "El Ayuntamiento de Sevilla se pliega a Vox y evita el primer choque en la nueva Junta al aplazar la licencia de la mayor mezquita de la capital",
-          "link": "https://elpais.com/espana/andalucia/2026-07-10/el-ayuntamiento-de-sevilla-se-pliega-a-vox-y-evita-el-primer-choque-en-la-nueva-junta-al-aplazar-la-licencia-de-la-mayor-mezquita-de-la-capital.html",
-          "pubDate": "2026-07-10T08:41:06.000Z",
-          "snippet": "Vox emprenderá “todas las acciones” para paralizar el Centro Cultural Islámico, que el PP respalda y considera legal",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "El gasto autonómico en políticas sociales crece, pero no supera el récord de la serie histórica",
-          "link": "https://elpais.com/sociedad/2026-07-10/el-gasto-autonomico-en-politicas-sociales-crece-pero-no-supera-el-record-de-la-serie-historica.html",
-          "pubDate": "2026-07-10T08:20:40.000Z",
-          "snippet": "Asturias es la comunidad que más incrementa el porcentaje de presupuesto dedicado al Estado del bienestar en los últimos cinco años; Cataluña, la que menos",
-          "_priority": "ALTA"
+          "title": "España y el encierro del Tiki-Taka",
+          "link": "https://elpais.com/deportes/mundial-futbol/2026-07-11/espana-y-el-encierro-del-tiki-taka.html",
+          "pubDate": "2026-07-11T08:59:07.000Z",
+          "snippet": "La maquinaria ya no funciona por acumulación de pases, sino por una capacidad extraordinaria para detectar el momento preciso en el que hacer daño",
+          "_priority": "DEPORTES"
         }
       ]
     },
@@ -88,46 +95,25 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Labour MPs urge Burnham to ditch Mahmood’s ‘hostile rhetoric’ on immigration – UK politics live",
-          "link": "https://www.theguardian.com/politics/live/2026/jul/10/andy-burnham-labour-shabana-mahmood-reform-nigel-farage-uk-politics-live-news",
-          "pubDate": "2026-07-10T09:25:50.000Z",
-          "snippet": "Burnham set to be next PM with strong support from all wings of the party as 322 Labour MPs back him Libby Brooks has written her First Edition briefing about the Reform UK funding scandal. It features an interview with Anna Isaac, who broke the story about Farage’s undisclosed £…",
+          "title": "Venezuela quake death toll passes 4,000 as scale of recovery effort looms large",
+          "link": "https://www.theguardian.com/world/2026/jul/11/venezuela-quake-deaths-passes-4000-recovery-effort",
+          "pubDate": "2026-07-11T00:37:54.000Z",
+          "snippet": "Nearly 17,000 injured and thousands more are listed as missing amid calls by UN and president Delcy Rodríguez for financial help The death toll in Venezuela’s devastating twin earthquakes has topped 4,000, the government said on Friday. At least 4,118 people were killed and 16,74…",
           "_priority": "ALTA"
         },
         {
-          "title": "‘AI accountability agenda’: US senator unveils package of bills to curb tech’s harms",
-          "link": "https://www.theguardian.com/technology/2026/jul/10/us-senator-unveils-ai-accountability-agenda-bills",
-          "pubDate": "2026-07-10T09:00:16.000Z",
-          "snippet": "Exclusive: Senator Ed Markey on why he has proposed legislation aimed at curbing datacenters, automated hiring systems and harm to children US senator Ed Markey is worried about the perils of unregulated artificial intelligence. What part? All of it: the costs associated with thi…",
+          "title": "‘Politicians have always been schemers’: upheld conviction fails to dent Le Pen’s popularity",
+          "link": "https://www.theguardian.com/world/2026/jul/11/upheld-conviction-le-pen-popularity-france",
+          "pubDate": "2026-07-11T08:00:43.000Z",
+          "snippet": "Presidential bid by leader of far-right National Rally has no shortage of supporters in scenic Montargis In the small French town of Montargis, Jean-Antoine, a retired decorator, was pleased Marine Le Pen had again shaken up French politics by launching a bid for the presidency,…",
           "_priority": "ALTA"
         },
         {
-          "title": "Wildfires in southern Spain kill at least 11 amid soaring temperatures",
-          "link": "https://www.theguardian.com/world/2026/jul/10/wildfire-southern-spain-temperatures-almeria-los-gallardos-bedar",
-          "pubDate": "2026-07-10T08:37:02.000Z",
-          "snippet": "At least four Britons believed to be among those who died attempting to flee blaze in heatwave-struck Almería region At least 11 people have been killed and 23 are unaccounted for after a fast-moving wildfire broke out in south-east Spain as the country endures its second heatwav…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Ann Widdecombe, former Tory MP and Reform UK member, dies aged 78",
-          "link": "https://www.theguardian.com/politics/2026/jul/10/ann-widdecombe-former-tory-mp-and-reform-uk-member-dies-aged-78",
-          "pubDate": "2026-07-10T08:33:19.000Z",
-          "snippet": "Prominent Eurosceptic and social conservative paid tribute to as ‘force of nature’ by Reform leader Nigel Farage The former Conservative minister Ann Widdecombe has died aged 78, her management has said. Widdecombe, who served as an MP and an MEP during a lengthy and often contro…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Developing countries spend more repaying foreign debt than on education, UN reveals",
-          "link": "https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco",
-          "pubDate": "2026-07-10T07:00:14.000Z",
-          "snippet": "Unesco report shows children lost out to servicing debt in 113 countries, with 18 spending five times more on loans Most developing countries spent less on education than they did repaying debt last year, according to the UN, at the same time as global aid to education is predict…",
-          "_priority": "ALTA"
-        },
-        {
-          "title": "South Korea chip maker SK hynix rides AI boom raising $26.5bn in huge US listing",
-          "link": "https://www.theguardian.com/world/2026/jul/10/south-korea-chip-maker-sk-hynix-rides-ai-boom-raising-265bn-in-huge-us-listing",
-          "pubDate": "2026-07-10T05:06:57.000Z",
-          "snippet": "SK hynix, a supplier of advanced memory chips, has seen profits skyrocket thanks to the global race to build AI datacentres South Korean chip maker SK hynix set pricing for its mega US listing on Friday, aiming to raise $26.5bn as it takes advantage of the AI boom in what will be…",
-          "_priority": "ALTA"
+          "title": "World Cup quarter-final expected to generate £500m sales boost for UK economy",
+          "link": "https://www.theguardian.com/business/2026/jul/11/world-cup-quarter-finals-expected-to-generate-half-billion-pound-sales-rise-for-uk-economy",
+          "pubDate": "2026-07-11T07:00:43.000Z",
+          "snippet": "As England prepare to take on Norway on Saturday, sales of pints, takeaways and new TVs continue to surge From a cosy Norwegian pub to outdoor fan zones packed with hopeful England football fans, Saturday’s World Cup quarter-final between the two nations is expected to generate a…",
+          "_priority": "DEPORTES"
         }
       ]
     },
@@ -136,45 +122,45 @@
       "color": "mint",
       "items": [
         {
-          "title": "After Venezuela Earthquakes, a Youth Baseball League Counts the Dead",
-          "link": "https://www.nytimes.com/2026/07/10/world/americas/venezuela-earthquake-death-baseball-los-criollitos.html",
-          "pubDate": "2026-07-10T09:01:59.000Z",
-          "snippet": "Children who played for Venezuela’s youth baseball league, a symbol of national pride, have been left injured, orphaned or dead.",
+          "title": "Trump Says Negotiations With Iran Will Continue as U.S. Ramps Up Strikes",
+          "link": "https://www.nytimes.com/2026/07/10/us/politics/iran-war-escalation.html",
+          "pubDate": "2026-07-11T03:48:02.000Z",
+          "snippet": "U.S. forces hit more than 170 targets, including air defense systems, drone and missile storage sites, and military speedboats.",
           "_priority": "ALTA"
         },
         {
-          "title": "Can Hungarian Holocaust Survivors Find Justice in the U.S.?",
-          "link": "https://www.nytimes.com/2026/07/10/world/europe/hungarian-holocaust-us-lawsuit.html",
-          "pubDate": "2026-07-10T09:00:58.000Z",
-          "snippet": "For more than a decade, a group of survivors have fought a legal battle to get American courts to hear their suit against Hungary’s national railroad over its role in the atrocities.",
+          "title": "Mexico to File Criminal Complaints in U.S. Over Immigrant Deaths",
+          "link": "https://www.nytimes.com/2026/07/10/world/americas/mexico-criminal-complaints-immigration-deaths-usa.html",
+          "pubDate": "2026-07-10T20:24:21.000Z",
+          "snippet": "The nation’s president vowed to go “beyond diplomatic notes” after a U.S. immigration agent fatally shot Lorenzo Salgado Araujo, a Mexican man, in Texas this week.",
           "_priority": "ALTA"
         },
         {
-          "title": "Fighting Fires With Figures, These Experts Are Trying to Stop Europe from Burning",
-          "link": "https://www.nytimes.com/2026/07/10/world/europe/fire-climate-change-heat-wave-global-warming.html",
-          "pubDate": "2026-07-10T09:00:43.000Z",
-          "snippet": "A team of engineers, foresters and scientists is helping the continent prepare for wildfires from a giant science park in Italy. Their arsenal includes satellites, weather models and expert analysis.",
+          "title": "After Being Delayed by Trump, a Canada-U.S. Bridge is Set to Open",
+          "link": "https://www.nytimes.com/2026/07/10/world/canada/gordie-howe-bridge-canada-us-michigan.html",
+          "pubDate": "2026-07-11T06:07:32.000Z",
+          "snippet": "A deal ended the Trump administration’s blocking of a new bridge that will ease congestion at the busiest trade corridor between the United States and Canada.",
           "_priority": "ALTA"
         },
         {
-          "title": "Iran’s Supreme Leader Remains Absent, a Void at the Top of the Regime",
-          "link": "https://www.nytimes.com/2026/07/10/world/middleeast/iran-supreme-leader-mojtaba-khamenei.html",
-          "pubDate": "2026-07-10T09:00:06.000Z",
-          "snippet": "Ayatollah Mojtaba Khamenei did not appear at his father’s funeral this week, fueling speculation about his physical condition and leaving a power vacuum in a divided country.",
+          "title": "Israel Struck an Iranian Steel Facility. Was It a Valid Military Target?",
+          "link": "https://www.nytimes.com/2026/07/11/world/middleeast/iran-steel-plant-civilian-military.html",
+          "pubDate": "2026-07-11T09:00:17.000Z",
+          "snippet": "During the war, Israel attacked Iran’s steel plants, saying they provided forces with revenue and the means to make weapons, but it also hurt the civilian economy.",
           "_priority": "ALTA"
         },
         {
-          "title": "12 People Die in Southern Spain Wildfire",
-          "link": "https://www.nytimes.com/2026/07/10/world/europe/spain-wildfire-deaths.html",
-          "pubDate": "2026-07-10T08:18:51.000Z",
-          "snippet": "The blaze in Andalusia prompted a major containment operation. Heat waves across Europe this summer have raised the risk of such fires, forecasters say.",
+          "title": "U.S. Citizen Tests Positive for Ebola in Democratic Republic of Congo",
+          "link": "https://www.nytimes.com/2026/07/11/world/africa/dr-congo-ebola-american-us-citizen.html",
+          "pubDate": "2026-07-11T06:25:20.000Z",
+          "snippet": "The American works for a humanitarian organization in Congo, the Centers for Disease Control and Prevention said.",
           "_priority": "ALTA"
         },
         {
-          "title": "China Launches Reusable Rocket, Clearing a Key Hurdle in Race With SpaceX",
-          "link": "https://www.nytimes.com/2026/07/10/world/asia/china-space-reusable-rocket-launch-spacex.html",
-          "pubDate": "2026-07-10T07:39:11.000Z",
-          "snippet": "The launch and recovery of the Long March 10B could represent a long-awaited breakthrough for Chinese satellite companies.",
+          "title": "Ten Killed in Plane Crash on the Bahamas’ Largest Island",
+          "link": "https://www.nytimes.com/2026/07/10/world/americas/bahamas-plane-crash-deaths.html",
+          "pubDate": "2026-07-10T23:21:53.000Z",
+          "snippet": "The crash occurred as the country celebrated its independence from Britain.",
           "_priority": "ALTA"
         }
       ]
@@ -184,44 +170,44 @@
       "color": "green",
       "items": [
         {
+          "title": "Trump says U.S. and Iran will keep talking but declares ceasefire ‘OVER!’",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUThsQXNEODMyN3d1ajgzLXRkblpvdFFtTzQwOHJyMmpZTWNCaDNFTElLeDJUY05aclE4dEk3REpCYmJwVk04ZzlSU09KQXN4VktucUNnVnc4N2VfNUcwVlNQRE5aYS1XUGFJOVNJZVg0NURLbnI0QjZMX0xZYkU2eTdJZVVHODhQUUpPa0UzMUJfa3hSaERYZE1mVjRVSHhrR05UN09LV09saTlTM0E?oc=5",
+          "pubDate": "2026-07-10T23:04:50.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "Migrants who saw man killed by ICE in Houston say he did not ram officers",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY3E1TmttRVdXcnQ5Zmg1bV9DMFVoejdSeVlLR0U0RlZMenMwZ0N1dTExeU4ybGtHQVM3QUdPWjljTmdtQ3JEUlFoamUweXF5VW9xU1E1OXc1TC16WGdvSm1iaWx4YlEtUjRGYnlTTi05TnAwU2hJMzRmNEdqLWE0c2VUc2JheGRrV29fc2xINkNIZThabmNpSmhwc1RCR1JCN3preUdSUUVNcEJNbHJxZk9saUFiVW1yd3d6dnFuTzFVaXc?oc=5",
-          "pubDate": "2026-07-10T09:30:47.000Z",
+          "pubDate": "2026-07-11T01:53:30.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Sens. Fetterman (D) and McCormick (R) form rare bipartisan fundraising committee",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORXctVHlrY1c3ZjRZUEpDbDZKUkx3X1c5REdDRnhGQmtsRjltMXdvaGM5REZOWUhZaWp6UURMdldfQWYzWXl6QXhtOFhJb0dMcVBnQTZweDVzU0hHY2Q4R1FFSFZhNXBmQzVkZVhsbHpRUXRXNWNzQV85RHl5cmtXSmNZV1pBTnFYSkZSVERHYkt2bVZFQnJVRkFaNjVGNE9hRzEtMElyZDdUM1hPNWwwdzVSTExiRHBGVGl0RlcyWlk?oc=5",
-          "pubDate": "2026-07-10T03:48:40.000Z",
+          "title": "Trump officials propose fencing off public spaces outside White House",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMVk2Q3F5SjF2cXNkUDhHMnE2NWQxNXlENWttMFljM3IwY01Nd0Zwd2JBaUpLcFpqTEM0LU43QUd4UkpDLWd3Y1lxNzhxdUxRcXlpZGp2UGo3NXQzVEVTak5iX2RmMGV1dkdzN2hGVzg5UGpuRG5OYlV6QTRiYjB5OVBhcEx5WTVGcDFxaVpxTUZFNlZ6cURva3NQbTBhUG9aam9jMFM1RmstbGNaWGJQTG01aTk?oc=5",
+          "pubDate": "2026-07-11T03:29:12.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "U.S. intensifies strikes on Iran’s coast along Strait of Hormuz",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVjlzcndQRzNodDFwUkIwNVNWUDdLS2h4U3RhMmpRdEluQ2xMMXBIdVdyUmRZeDVEX2FCTUxMemM3WEhVWkZPNDFiYjBaZmZyQlhNQmpaZlZHVVNLQUk2enRwWjhHUThHLUszU2hwTnBFUkpFRXUxWkJOVnlKMnFYdHhodC0tSVBfbmRMTFduYXE4MUduVlN4RGQ5UDU0VTcwX0dMZkxR?oc=5",
-          "pubDate": "2026-07-10T03:17:13.000Z",
+          "title": "Assigning FEMA staff to immigration enforcement hurt disaster work, House report says",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdWY4cW9NU2lTOFlrcXpJTHU4elktRDZjVWplS1BGdFZLTk9vMFFxWVV2dmtOUU5zUEJsdzJnQ01VaThKWS1HZ0RiNGU3dmRKYzFrcXVDRnVTdnFTTGxEbXkwZThFZE9lTXgzNVVEX3FZUkFlLXJtSHQ3SnlrU1dNTW9VbmFUbjJ6NEFlTzM0MlFhOWU2WUFHMTRWelYwVllGX1JjYWxHd21KUkY2cHQ1SFlyMkNaREM5VTMtYk5TVmZGZlplNzlaN2phY0NtLVVKTV9wQUZKLWJ4WEs0?oc=5",
+          "pubDate": "2026-07-10T23:56:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "One city steps in as SNAP cuts leave families struggling",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVUZ2bmZKNVRXeURHcDRDQi1POGJjTWd0cXFDY3BJTGxxbU1rcDlRVXRjNXdsajBYNTBFd0N3aFhqRjFiOE9UMGNNRlVGUW9ncXc5VXRpak15eFVvU21nbjJ4UWkyRVFtNU5NYm1QNmtmWTVCQUh5SnB6b3htbEE0WGlaTEQtUzlYQ2ExdEFsR1FvM0JIVHFIblZySWpnY2pwRFE?oc=5",
-          "pubDate": "2026-07-10T03:00:00.000Z",
+          "title": "Trump fires members of bipartisan elections commission",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM2podUptMi1XMWRjeml4d0I5Rm84VV9mXzh0QXU4RlZ6NXJPVlRxMmVNZUdmbHF6VXI1RHJjdm0wV0dLaHZrUm84ODZ1SDU3ZDl3U3dza2hac2lCblJWaEZBaEhnenowVE5SeDFGRnRvLVZIcXRHbV9pOExpNmhacVFoejZ2UDFhQ0dEcG03cXdSRWljeS1zQVRydGVaREh0Q2RRT2xtSHk?oc=5",
+          "pubDate": "2026-07-10T18:54:56.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Fed chief taps Trump ally Marc Andreessen to advise on how AI reshapes work",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaEJvR2pQT3YyWkdHQnNwRWZrcmJzZExBVFpwcXBJRldwM0JZdm42S3VKbkhfVWNwUGxjRXBqbmtWRW56T3VFOWEtc1dOVGJYbmNvc0NsMFdWUUtncE4xU2xLUW9iRmhTbUFBYlNkWmp2MWZ3TnpkeTlteFUxYnlTRWQ4UlNsVE1RUXc1MlB0SlR1U1FVWkRkLUNMNXZnaTNhQmYxZXctM2xOWFJWUzlDMVBQOA?oc=5",
-          "pubDate": "2026-07-10T02:43:21.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "How Mitch McConnell’s absence complicates the Senate’s business and war funding",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeGhZdW9xWW5rVlFsTVBtWndxX2hESU9FMl9xbGpVenlLeWlQczFYandnN19DemhKQVpTY1ZSTUhsUFhyM2ZnVGhjNEhmTnNLaU5fbVpuMmdRRFFOLVRqRWxKeGVPOTRpLXpEeldiX3RsUnI5X25ROTFvUUhKcVJKMHUtRHdBWjc3dlRub3prTGpHWFh3bHM1VjFpN2xjb3NuOFV5NTExUW1tbzh0SzRTbUJJZ3hWSmtPZ1FGd2hR?oc=5",
-          "pubDate": "2026-07-09T16:00:00.000Z",
+          "title": "U.S. extends work permissions for immigrants with TPS hours before expiration",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPekFHMTRFY3piRjhsbVVnSUY4R0dGd0dITHpXcjhtY0V1SWN4dDJiS3lVOW5vNXFHeEJPLV85NVFtWGhpeGtIT1hfQTIwUThiM2xXc01YMVRSZU80X2tuSG9kOEw5NlJEcmtOSERDZ0w3VU55WWc1TzY4aVFVUmtXSk9Vb2hQOFRkUHVOb0JOeklweUV0SXloLVBaeE9hUThCSThyZ0lSY1dVb0ZsQjNVWFkzMU5JYkdSc2ExeldQdlYtZVRx?oc=5",
+          "pubDate": "2026-07-11T02:29:24.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -232,43 +218,22 @@
       "color": "lilac",
       "items": [
         {
-          "title": "Israel election poll tracker: will Binyamin Netanyahu hold on to power?",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ObDNEQkNJb0NDRHliRFh6ZGVlX2JvVkU3Q0FTSlFzVkNHM3FITER1SGFQdmlNNWZXQXpRNTYwM21CTDJmdFRQVWQtYXh4R2xLd0phaURJSC1RV210b1VCb2tnWlItM1dZMDc0NkRFQ1dudGd5?oc=5",
-          "pubDate": "2026-07-09T21:49:47.000Z",
+          "title": "World in Brief: Apple sues OpenAI; Trump says Iran talks to resume",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaFhPSVRSVm10anhGRFFlZU5NMFJGSWdGTzZyN1p2YzdrWU5uZmk4WlhjMzhZcFQwWnhVYnJSMGczaDNldXNSeEVWSzFCZ1NOMXl4YWp6aklGNWdPMEtXTUdqVzhxMlZUb2lSVWtXbUhEMkFqdmtRUnJOc2NGUnRNdzdIeV90bG9MNktFRllhOURQeTRGV2FZ?oc=5",
+          "pubDate": "2026-07-10T00:00:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "The man who would change Russia",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYXowVzJQeG9XaF9YMTdWVHF2RlJRT1UzRkVxWTJpVDd4Tm8xN0NYbXp0bGFrdTJEQ0NHNXFzLW1leG5ZLTVWQmJGTzJFUzBLbzNRTUVFOEZnb21tN044ZFo5NkM3NEVrMjUtS2lxRk8wcHVtNkwyUUlYVTVPTHJ1R3BZaw?oc=5",
-          "pubDate": "2026-07-09T17:00:00.000Z",
+          "title": "Putin’s options: an oligarch speaks out",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM1VBTVlXYkNxRGJOOUJBOGNvek1TOGdLRERQQmd6aE1XU1Q3MUtlSWk3alBDMkFJMHNlR1paXzdmclhSM1oteE9vMDIzV2hlcU9adjVhVlF2R1NtRXA4UHI5Zm9kYzcwbG94bGlIaGFHRURSaUlSUHBjWDRkY285RTFybW1vcTFucGJr?oc=5",
+          "pubDate": "2026-07-10T10:43:38.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "The world is making heady progress in the fight against dementia",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQTVqNmx6RGhadEZhU1ctcFYzUjBqc0pQak5wcVF5Q1cxZ3BkT0pvdTVqNTM2Q0syZFNWWXVhQjJuRWQxUHhWLUwtVE4wcm0tdnJSTmRJOUpyRjdJWFR6bjRYWjhqTzFZZmRBdEV2MFJKYnBkT3FsU0hCVERjbFY3MkRaY3ZVZ1Rjc0ZnZDhlbXZHOWxFamRyMmI5TWNyYmlwb0lwTjRfZW5OUXpSenFv?oc=5",
-          "pubDate": "2026-07-09T13:03:07.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Americans and Canadians are squabbling over mines",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQks4Rl93ay1SZzNmX0dQWXRIUFVTMXhKa1hmcHBvbnNaN0ZIS1ZBa1VCRzhnd0xHaGpKTmV3NTJHSjctSXRRZWF1Q2lEV3BCUGcwbjRyX1RqNXlDc0lyTmt5QU8weTZfcVVmSVN2ZS0yT19SWWs1Ykk5d1VMaDE4ZGF6cGJfNjh3QU9QMXBRdW5sYzF3cFBPZUNuVkpWd2FU?oc=5",
-          "pubDate": "2026-07-09T13:03:07.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Texas is waging a battle to stop “Islamification”",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd3NYUDc3cHlmeEU1Vm96Qm92WHJBMzhiSy1zNktfcTd0S1UwUHhhcTJyUXNKVGM1dTQtX1BYWmJ2UGVobmV3QmV2ckd4Mmp6SDF4cFRRTHhlYlNxc3dBblVIQTRmN3dCUkRjTFJqb3NZcXFmVTUwUXlLY3FKWjk0bzh4eUlzNEZZcmpTLVJkV2JTRWdRamVKeWM3aDY3Y3M?oc=5",
-          "pubDate": "2026-07-09T13:03:07.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Theresa May: Britain’s first—and last—woke prime minister",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN3J1VERLdml4b1VzRC1Vb1FCRjBVaVBZTlpsTFdWb3pvbG1ST2RYTEpra2JMM1R0OHRuU1FKOWZrTHQtWElTMTdDT2ZLZm1rWWpCYUxYbm56M3cxNmYya3pPZVdQVlRzZ21WOUs3YUpSeW1nR1IxYWlISWRpS0RrVXF6Wm5FVUNwUmk3WlFhc1NoTjRsRTR5N3NFX2RfUUwyM0E?oc=5",
+          "title": "China releases a prominent Christian pastor",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSlk2clJSNDc1NU5kRVlfOVVMZmFseVM5enU3SnBXSFlyWUpyQnpqclZQTURFZmtaVTZTOGFjV19FNFlYME1Ld0RXRVdDTDhwSzNRNVBRNkV5UXpFZTBhVDdkS3hTWWJEWERyaTBzdllSU2ZKSEY0aEZCdUhiclppZjFGN3Y1am8xbHNFMGc1cw?oc=5",
           "pubDate": "2026-07-09T13:03:07.000Z",
           "snippet": null,
           "_priority": "ALTA"
@@ -280,44 +245,23 @@
       "color": "peach",
       "items": [
         {
-          "title": "Las ciudades intermedias: el eslabón olvidado del desarrollo territorial, escribe Asociación Mexicana de Urbanistas",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZUY1VkVMNkl4cVE0V0h4T0wyRC1ORWdZbjVyQzNEYlplSGhyVTcxeEdOdTRRbnFic25xakY4V3lyVHRQRERVaTAzNVB4cmZQRG9VbUlPblFEUXpGbjU4cUc0SkpURy1iSVRlbnEwNTlYMng3TnJGbnFGTVF2RWxkRXZrLXF2UmIyMDdwVXRLSEFqaXpkcWpjclRXR2tyUm1HNzVGbFNYMl9LSUFOQ0NueGpvdGFlN0t2UkNUcTZUeVQyQkllMEJMemVtdWt1VWFMRmJuZnlyUzJMOUg2YlI0OGx3?oc=5",
-          "pubDate": "2026-07-10T08:42:15.000Z",
+          "title": "ICE se niega a divulgar nombre del agente que disparó y mató a un mexicano en Texas; podría enfrentar amenazas, argumenta",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOZEczZWZ3aV9KcGlCNmhRcDN2WjF1VFlEZEU3aW4wb2F4MDk2SWV3U0JuWklCOUJkVUxicWJZRUMxa18tcVQ5SzhoVjFKQURXUVdJMThrVjdMRVM3dUVPMEdvdFJ1cE9acnVMMHBnOGVNRHBOaHdwUVp1ZlRmSnRIRnh6Mnh5THo5TUdkdmxmdlZXQWwxb1o3UnVhdktFb0VSc1ZxQmlqM0RUcno2TDFQNy1udS1Bb0w4R1V6ckh6QTZiWlBvOU1CeWVhcFpLSlo4UVE5NENIVE5QUHotQ0UxQUtwdlRvbHJfS1g1NFBn0gGCAkFVX3lxTFBObWdQajI5ZDdSVksyR0dFM016RlQwZ004XzV4UUJRVjFKZW9SdFliYjJYZHF2TkNINmJpal9XYUZsVXdyajl2ZjFHcGVVZ2FqZmdHVlBwRXBpVGliOWRId00yaVdMd0ZFblRPOVA0b09NalEybUpWUk1tbkluUEppMEtVelZVU3BqWDRwRzlHSW5zTVlHR1JoMHZIQ0dianliR0c2Y002RXNRaTFCd1ZIXzNzS0xrVi00UTVzUFpQeFdpSnptUE5mS3FYMEtSWi1PQkFSVW9QQ1FSbkxKa01DNDNvbGp2M3h6cDV4VE9ZQUoyTGhsYl9STFRBUW1seEx3Zw?oc=5",
+          "pubDate": "2026-07-10T20:12:43.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "De la diplomacia al litigio: la ruta para defender a los mexicanos frente al ICE, escribe Eunice Rendon",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaU5qclNPcy1wZVlianNJM2Q0QThIQkRXZURJdFkyTnppNUgydzVFQno3MllsY3RTMllFSVJERjE0ekYtamZ0MDNCbFdsNGlITWFLcldtTnlfSDMtU29XQmRfVGhUN3g0dEJLelY4UFIxNEJSRUQtamY3RXN3dUVyd3JZSWNZSHZRZDVreDkzNHpxV2VVRzF6eHhOeDVSbUEyTDFTV3FUVUtoTGI1VkpDQkpuQ3hZQ0dwZVh4bmhmaXk2cXFyQWlOY21jSGN6dw?oc=5",
-          "pubDate": "2026-07-10T08:01:33.000Z",
+          "title": "FGR ahora investiga a Gilda Lozoya por caso Odebrecht",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbWN1YUYzMEd4SjFLUzhqQTh1ajRBRElzN0NkTXc0MnRTcHlxS29EU21Uekh3QTc1OFF5Q09Dd2dVenQ5SEhlVkZWNWVmdXFmeWthR0hyQzJRdkFHR0lVNVlDWTVvX0tlWlE5R2xWR3lVYTRtdzhzQ1Q4dHFhOFVhMkhSTlVrZXdxTzN5a0xwcjhoeTF6WWFTRXpuOTUwc0ZWaXhtRGhJRTNSYkFqbG9ZTWRuQ2cyZlAwTlNYUFdDUkpEQTljdEhKMW9WRzBGVk4wNXBYbDIzU1BOdFdNc3ItYzk1UWpUVXUwYXJHbFh30gGCAkFVX3lxTE81bmRnemIxZUFTXzFKLVUzZnNqNXc5Y3Jqd1lWTk1wZEFPTU9NN3dDRFJ5TUpaS3ZQV2xkRS1Pdk96N25KLVZteDJ1UjhNVXlzcUQzMGNpcnlkOGE1WnFQSkhrX1Q0X2hwcW5vWjVVQ1JkNUV4TXFMR29VMkJVWnNYRWZHZVNGOFlJNUV1b20zRGs4RDY4b2Uyb0hSOUREY2ZkUlJhSzJFZExEd3NWRFJzMFU2Tm8wZ3hmWEE2Ql9fWEpBNGsyNDVNcm5PMTg5eDlZQk9YYlNlUmtqQWtlVnVHMzJzWWdDYjUwdG55aDZlcGo2TVpOZWsyRUpIa3psZXdGUQ?oc=5",
+          "pubDate": "2026-07-10T18:12:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Nuevo líder del CJNG no ha demostrado fuerza por tregua mundialista, dicen especialistas",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPdnhMQk1mVEY0alZkbk1IaDhZQnNkUldIRkV6Z1FGRGFuOS1jZUxhYnh2aEpKZVk5YmVQalJGdTRhQzdaMDItM2RsUmJXUG92czNkcHFNbDhKQTcwdGZBOTh4ZDdoUTlYWWhsaVdfOTZRZUpNOU1WYnFmMGVzMWUtZjJQcHNKaGZmQXF5ZUhGOTZsQ0p1Z3hmM0VCSnAzMlJWcnFHQkFINmRPUnY2Tmxwakp6LWVIcElpekYtNWh4TUV3eE1EY3pFZkhMb1pUSERKVDNTZ1RzdXdTYktmQjZ2Z09CSDhSYzNvVHNLSDJmQ2Z5bHFVZEJXbXpaS3nSAZACQVVfeXFMTjI2SllIQktHVUFfS1plTEZjTFhkb0NDdHJISFdXLV9NOThiU3NyUGhSRDRxVEVGV09xR2tfN29oWThwb0JBcGtQNzBFWU1EVEV2S3FaU09JQ1lJNnFnNVBrT0djeEdYVVg3M2YwT21XclgwTWZVUllnSWtrY0l2aHJlSVBUdTUxSVpibTY2cC1BYWdaWFJFd0NBU3ZzLVJvOU5CNVE3Mkh0elJPek9GeWxFQ3J5N3NWTWZoLUtKdHBWZmJvMTJPbFdyWTFwVUh5UFRDbGdwdEFJcmZoUmNGdFlVekZJb3pGTHl1VXZfQnkzSWt0NGJhem40aUVib0t3eDRPUUdPdTVQNlh2dDNPRTk?oc=5",
-          "pubDate": "2026-07-10T02:49:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Vinculan a proceso a ocho presuntos implicados en asesinato de Roxana Guzmán",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQZFgzMEZCblV3dXpVc1B5S09BSlBTOUtvY3hqYlhQZTlrVDQ1eG82dFpkUjdjQ0pDV2ZTVjFodTRSODRjS0h6dFRjY2xaTjlYU0pzT2duTktNTXNKcnVmYUxEeWZoU3Y5MTVHejJxT3RWbmRHN3pFZHN4OTA1eGNHNFctRF9JQVpTQnFmS210T0VGdC1PMW5tOGVzcTktMHY1Uzl0d1ZPekRnZElIR3d0N0FTZFpSamxCb2cxNzhZWnl0OGpBWmhub0VuWENxWjZXNVVGZ1hpbUFpVTI1TXJNOVJOcDBKNW5QRHRCWDROeVQ5ZGNz0gGIAkFVX3lxTE96REZsbS1LSWJIOXhMczVzMVRJUHNlMEQ3T2JCTGlvUXE1RjUzSXduSVZleFJtTlR0Y0tldXZFQjdMYkl5ZEdkc2xPOVVyXzF2T2o5dVlOMTIway1USDExYno4V29KbzZpd1VBSEVvUF9ib0xpX2hTM0RVLVNQLXRqRXN6anVrS3NHWFZheVVySE1sbUtSNEFWU1g5V0VaU3NqV2xHakJhVTVwTXlpclgxX0J2NU5MTzZncWxMN0kyRURNNm9OSWhBaHhqSFdEU3Z3amZCRkFRdkhDLURJZGZwZFJTbE5NcWtFd3hSUlU3UkZLMVdvSnhTcjZDVElDSkFRSE4tUGhTSw?oc=5",
-          "pubDate": "2026-07-10T01:10:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Vinculan a proceso al alcalde de Metepec",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYk5RVWM3QjN6ckpRZFgtMi00YlNSc3REQTFMcUJoNmpURVZXSEhtLXpneU1zMUV6UHVTX21PUzJZNTRYM3VGNXBXTGJkT0txX0RlR0JIR1o1MnlUS1kyWS10Vl83aVVDQk56ZEVHZW1LS1NpRkExdUtsbTJQOTIyNEpEeE1xZFBEVlg4cnFDa21GZXBFU2MzdVdJdV9fQUZyNWV5RWVmb09ycnFId21ldTFaa1pERmx5QjlBd1dZYkhzM2pDSDJjTlFPb0JTbTjSAeMBQVVfeXFMUEdFUHBLUjFQSXZzeE00YUFpYk1DdHRZSWZDaGdvYWFManhVdGdRTC1vRkVoaTd1bGtUOVVWUjJuV2RWQnRFeE5oS0hCWmZyM0MybEFzT04zUkxwLXljQVVPVk1mSW1CUXR4N1g2MXV6SFFFY0lEdTllSTlkYnJ2M3gwOWVWWlcxdmlJYi1lbVJDZ1FPaFNaaU5sdTlxUVBYWU5LbW84cDE4MDk3YTZiUHJSaGROckdaVldBVjByS2d4aVZyUzZZUE9VajAybVp3aTJjNHI5cmFDLU41TlJFZnNIUnM?oc=5",
-          "pubDate": "2026-07-09T23:46:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Exdirector de Pemex es confinado al área de “Sujeto de protección a funcionarios” del Cereso de Morelos",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPNGlxbXJ0SDJsdG1LRkMwUkU1LWV0NUNkZmZLc0I5U3o4Rm5QVmhKeW1ROHZYcGxfLVMwTjQzajMtUnZrSllITEVLeWd3NTlwRnZmWUxrRHMxVXVzSWdScFRqWXVfQ1ZiSElhTHNfZDB6SnFBbTFsZlp4YUxvbEZ3YmFkTUF4R3o0WDMyaHZEQTVtNFVjdUpKZlgydWVMOEppWkVCUm9ETVlNTkdPdzlOQTFJU2hCZEM5NnB2SXNfOGJ0dDVlWnBRQnFrcEw4VEtJS3NuNTBUTktNSnozMGs3T2ZlakIwek9yZFVwbVZMaTRGeEQ4R0xVclJheEhQS0I5a2JN0gGXAkFVX3lxTE5uWkk4STJhX0ZrREZmQVh0VlVHdmM0SGFIa1IxT0lidmlIQ3hfbnpyVEJfd3A5RThYcnpaTVN3bWdlMXBBUTVDcWNTbmdZY1ZaeDV0REZVU2VnOHpqTmxyRDk5RWttNTZ0SG1oNEN2b1NPT2p0by1oUExfRDJDV0U0MW5MaGVvRzdQUnJDcFZqNzV2ODloOXZCcFJIa1p0Z3I4bjJ4M3BTSzhnZlE3UXh6SF9wYkMzVkNlTXhyZXJ1TVgyeXE5MXpLWG9jUF82UURUVF82OTViRWY4WnNRS3p2dTVTcHBWRlJ6WHhva0xtbHdWbFB5Y0dWdE9mZlFkel9wUk9zM0p3Yi0ybXV0QWMtaDlmODZCZw?oc=5",
-          "pubDate": "2026-07-09T19:52:31.000Z",
+          "title": "Denuncian actos anticipados de campaña en CDMX; IECM reporta 39 quejas",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaFdsWlVCWVk1RTNnT0NDbTBtRnR2el9EVnQ4N2ZOT0dyZG51QXd6amNTcUxFUEJ2TE16WU5IVzJXSnVFb2ZybGo5Y2xFcEtCZUZqd0ktUnlfdFZJbmtEMFNsZW5saVVYNnRabEtGdDdTdzFkdzBFRE5hblhrMnVzeWxDempiYjZiYVZTd2tObWdnNFhMa0l5LWRRSjM5SmhHT3doOWR3Y3Q4RTR5Yll6R9IBxAFBVV95cUxOekl2anFLLTg3YVVOSGIyUDlWa1dKZDdvdnlJUjllR3RoUjJBV09rd2E3XzNvaHN1Z3MwM0ZNUDZxaUNhdGZ4dkU5bV93VDlkVS0zSmV1UE02Ymhod19UdnYzZnN2VHlXWFZRcjBaWkZnU3BTNkJ1NTFsQmpqSVdYZzRWbnAyN0c0clFvSHI3eFhiQWtlXzRYdktoYkZkRW5ySmo5aHdZRzhRM2NMMENlZnp3cjVWSXVUWllXdmFKMFhzQjFn?oc=5",
+          "pubDate": "2026-07-11T08:14:13.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -328,20 +272,6 @@
       "color": "blue",
       "items": [
         {
-          "title": "Convocan para el 29 de julio el próximo período ordinario de sesiones de la Asamblea Nacional de Cuba",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOHl0Rk9RdTBzYk1fTDBkVjFpOHFObkdQSG1Rend4bEU4bWJfc1pLdUhnYUtGaXlfd2l1RFFSSzBmLTFfdkRRTEVxbzUyUXFTREEwZF9XcXpYNTBoTUpVZE0zWDR1dlVYZWlNbURYdUNXR3Zjb2w0SWt5bDNXWkdZbFc3SWNuS0d6VExvVmdscWxpZnd2QzNuVG5yREN5RElwR3VQOFc4YXY2QmNZMzM2YlZBdk5VRjVveXNmWnVaNVRhajU5RWVPNU4xVkJwbUpFLTFYamp5OTB0QjVBUjlv0gHfAUFVX3lxTFA4eXRGT1F1MHNiTV9MMGRWMWk4cU5uR1BIbVF6d3hsRThtYl9zWkt1SGdhS0ZpeV93aXVEUVJLMGYtMV92RFFMRXFvNTJRcVNEQTBkX1dxelg1MGhNSlVkTTNYNHV2VVhlaU1tRFh1Q1dHdmNvbDRJa3lsM1daR1lsVzdJY25LR3pUTG9WZ2xxbGlmd3ZDM25UbnJEQ3lESXBHdVA4VzhhdjZCY1kzMzZiVkF2TlVGNW95c2ZadVo1VGFqNTlFZU81TjFWQnBtSkUtMVhqank5MHRCNUFSOW8?oc=5",
-          "pubDate": "2026-07-09T23:10:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "FBI alerta por ola de robos a través de aplicaciones de citas en el sur de Florida",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdVFmbW5raXIxZ3VFSjByb2I4RGVtaXpUakJnSml5VFVRTTFmOHp0Tk8tM3BRUmJoMkNQOWtveW90cWNpb3hpaGEzb0ZYcFF5akFoekJkVEVYQVc3WmM4V2hPa3AxaVloVTVSOHRxdmlnMmUyZ3hwdkVFU1ZJeFEtYXBaNG1VN0lSckhWN1pNVDRDWWV0TFBiR2tEZVZ4eFRmZFNlX2tydDgwaWllYzRPOHdn0gG3AUFVX3lxTE5BRlZha3QxNDRuSGdkcnJlZTlac2o5eVdibXh2U1FNazhOZDFtcnExUXBsOWxsTG9VeDlrWmI4eWZDRnNGMmtnVk9fd2VFNE5uczN6SlI4eDc1blMzWTVvNDJOMDdQc0VBNEpLNXd1Z1FTaUs5UHFwVG9kR0Y0S0I4MEd5MkxxNWJHWm1zVnRwLUdaWEZOQnFjek9kcVFlNnBhaC1yemN3Zmt2VVp2UXFVNHJoUERScw?oc=5",
-          "pubDate": "2026-07-09T23:07:40.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
           "title": "Israel afirma que está listo para atacar Irán \"otra vez si es necesario\"",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcy0zRU1sTmtJeE5qOW5vSmFVZ3VjVHNVbUtBYUpaY0tpVGNGTzVrMzNIbC1DT3dPWXgxbGlKc3l0NkhWelk2aS1mcjFXTVV6bC1XY0xhS1RZOFlTZE9rTkR4WGY5ZGx4R2ZNUGk4SjhFYnZPd2VkUU5lY1VyMEhadVh3VjRzbkJXVDFORTlWRFBaRUlDQUdnRWpoWTd1dWpDcUNYeENfaTVNOWZSdFp1YVhydkMwdUh0ZTdLLVF30gG-AUFVX3lxTFBzLTNFTWxOa0l4Tmo5bm9KYVVndWNUc1VtS0FhSlpjS2lUY0ZPNWszM0hsLUNPd09ZeDFsaUpzeXQ2SFZ6WTZpLWZyMVdNVXpsLVdjTGFLVFk4WVNkT2tORHhYZjlkbHhHZk1QaThKOEVidk93ZWRRTmVjVXIwSFp1WHdWNHNuQldUMU5FOVZEUFpFSUNBR2dFamhZN3V1akNxQ1h4Q19pNU05ZlJ0WnVhWHJ2QzB1SHRlN0stUXc?oc=5",
           "pubDate": "2026-07-09T19:36:00.000Z",
@@ -349,23 +279,23 @@
           "_priority": "ALTA"
         },
         {
-          "title": "El Diario en 90 segundos: EEUU anuncia que retirará a Siria de la lista negra del terrorismo",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORHhGcl9CWXpxcnd6ZjQ4ZFYzanNabFB4SzdqUVlmWExIQXdhNXNoOUFxb0NiR2EtdjFCR1ZUTVktdEVjbklOVjRsaDA4anRxc2lBZ3Nfejg0TF9uNFVVdk1tb00xeXhyQmRkZDNKdlNINlpZMlhURlhZa29tdU81b3pJeG1GeG5RTFJSd0tLdzJIb2RBMEItQUpIYkUwc3NHQ09LRUt0dklwT0dIVWMzNEdCOTJzc1lPbDVoZmdwSXoxWjNmcVdoT1JMUjlRQdIB0wFBVV95cUxPdHk2Zm9QZmc3Vk9lWHlBOWVIOXVRV0tIaHJPb21DRnBSY1NfWllleDhYVHplNGhNZTY3RVR2WUNmYVozWTR3dThHSjlwS3pKUE5BR1JfR2llMGZNVXliRGhtem9oQi1EQWZQRy11RG5tbkg4SE5XUnFIb0xEd0NDdFBtbThBN1lTVGR1bXkzUFVfSHNIdUUzNldiUHFqcHlLdXAyQ2VBZm1ldUduak9nZDduLUdnNzNPZVVaU3YxazQ4SGtiZmVlU0dhU2dTQmxBVG1v?oc=5",
-          "pubDate": "2026-07-09T17:30:00.000Z",
+          "title": "Sismo de magnitud 3.9 sacude el norte de Venezuela y provoca evacuaciones por pánico",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeFRiU0ZpY1hYdHluYmhXd19sMFdoYThQWGxGMG1XVHVNSF8yUkQ2VU9OcjVOemk3LVpzbk1aaW82U3Z5bjBQQmN6eC1Mb0ZVa1JuVlJobFJaX0s3anF2dUdDcjczQnUwbVlreGF0VS1pSVVIVE9LYTVHaXhIR090a2NZMmhIVEUwNjJVTHY1d2dRYjhmdGRjWXVQdGdnTExoX2hQVloxT2xlc0xHbUtBQWxIdmVQTTl0WE9PYnpGY0NMZGFKdTNDMld0UdIB0AFBVV95cUxNQkdaX2N4N280NEQ0Rno4RXdxYnc0V05BSjAwUGxtMDlPcG81WnNtZkkyR3BOdWpuVW9GZnlWbFVId2w5ZVVTTWRVZm1wbllwRDkwUkJDWFMzU1pSWXg1MGdpaTFRZWpRU3RaNkJUVzBCMVVOdmM2VVBtX3NwdENvYnVnZkEtblpFT0RxbU9Qc0xZOWlqM2V3VE9JMUppT1lpRFR0MlRhODZJV3JPRENfQWZXYVRuLXVKdklhSjRrYWhtRGdOV0xYVjBCSHAwRE8w?oc=5",
+          "pubDate": "2026-07-10T16:04:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Aeropuerto de Palm Beach adopta oficialmente el nombre de Donald J. Trump",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZzEtU1JtLUpqcV9CU0VqcDlIM290a1R4aks2VDdISzdPZ1hBMEZVYXJ4NGV0V0pLTXJ0WFBnZnRCUllZendod3FwSnBSMnVmMGV2cm9HcldudnNiMGgtdjhINVpwblp6YUVMM1h4S0p2ZGR1dm9wc1RGWDhxM1FCNnpvODM5N1Nob0Zka25neFBCRC1wUFBpbFJyUnk0SHhXTVpjMUR1ZzVfMGthV3dsenR0OFI3MWJPOGEyWmp3NNIBvwFBVV95cUxOZzEtU1JtLUpqcV9CU0VqcDlIM290a1R4aks2VDdISzdPZ1hBMEZVYXJ4NGV0V0pLTXJ0WFBnZnRCUllZendod3FwSnBSMnVmMGV2cm9HcldudnNiMGgtdjhINVpwblp6YUVMM1h4S0p2ZGR1dm9wc1RGWDhxM1FCNnpvODM5N1Nob0Zka25neFBCRC1wUFBpbFJyUnk0SHhXTVpjMUR1ZzVfMGthV3dsenR0OFI3MWJPOGEyWmp3NA?oc=5",
-          "pubDate": "2026-07-09T16:55:00.000Z",
+          "title": "Jefa del Parlamento de Venezuela reconocida por Trump ratifica que se avanza hacia la transición",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMVZjUGUxUVlPMTlOM1JRNXNfZmJzRjJoMmk5VFJvMEtQVzI4VERxQ3dKaVpuVmxDM2ZSQnlKZ0xPdm9HaW5wV282U25yZVBCdFI3WjI2dXRQQVpnck9BZUhwZmV5ZFJyWnIzUjJJU1A4YWlRQ2VsQVJDM0w2M1h0Z0lWRmFuekcwd09Danc3MFhFZGZUVEVtcHJiNGJibmlNUW1IbFppOHVaZDdYZWtqS1R2TTF1Ui13MGllTHhkSjZmRERSNjY2dVhJbkdtVlJoZEJQcXRLaWzSAd4BQVVfeXFMTmh1eXh2bFdLdnJkWEF3a2t1M3JKVml3dEhtb29SVzFIczV2Z2k1dXR2Qno1OWtSQUZKcC1EeVdrNVlXSmZSTTUzWGxiZ0NaWURQY0VzWGp1N2lSaG1IbTJiSkpHdjZmQlE3NG5rVGZlNWRwcVVrM2lqYXNFRlFjT1NtdzdMUkQxcjVrOWFhUE55clNtSU82RENTVFRPVWd4V0pTTlhQbUNmbzdhUVNSVUxIOGtWZ2wycTRLMjZJRlhxT3pWZS1rbGFSVXhjeVBlQndpVlN4VEhWTUpHWTVB?oc=5",
+          "pubDate": "2026-07-09T14:53:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Sede de la Embajada de España en Venezuela en desalojo por precaución tras los sismos",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWkItWEw5V21YZlJkN0RFc21jSF8xUFE4VG9SenVHemZiZnFnWTVFTWY5cU81VGlOTEVHaU9iODVOeDdkRE9qZ2ZPcUVzWGY0clhxeFdvRGRyakJLY1pzb3ZEdTA5eko0UFB6UFZNU1c2UkdOVUZweXR3SnZrcEY0VFZjZ1FKNnVQLWljUUJGZlN2SXk5UkVYY3lqeDkwcnlpckFrcy16UkJBMGJMUXdmcmdPc2Zac2czbzJ1MnRhONIBxAFBVV95cUxOVFdsSnh6VUxKY1E3UWhBcnpMN1hLd1FkWklwMHM1RDM0UnNvSWNGVFBZLXIxN3RDTXVleU9JSnJTWjlpZUdlVlZuR19mMmpSWUpwMGdlb21YRVBsak0wTEE2ZVJDUkNVTkZ0LUtxRHRCR2NoQ1FmYkhoZFJCNVlSZEVkOTdqd1BUZXRjUVpWYkVGcF82M0hPbnRlZDZiN1g0RXlQeWtEU2RSQ21yelVxY0g3YjExbG1yTnJDT01kVUVDTlNN?oc=5",
-          "pubDate": "2026-07-09T15:30:00.000Z",
+          "title": "Senadores Rick Scott y Ashley Moody lideran resolución de respaldo a los cubanos en el V aniversario del levantamiento popular",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQcnNrZV9TbmFhU0NfTE05MXZfc2NXMU05bk5iM2JXdmhGZGtUVE5zME1aS05ya0V2UDVuN0twdXlSSGIySlltTDVGR3FtRnA1TzE1SnRGUlNVenVlZzl1MHdDRURPRFpJaUpHUjZLUjNIR1VlZXA2cFg3cWV3MmY5cFVnMWNzSU5WMHktX3FaS0Zvd1I1YkprRDVWVU9yVllOemMwUkFzS3lLcWFPS0JqMmJCRHp1M0lPalFVeDBjZHpKc250X0oxNXZiLXhoRkd1dFZEcG5ZMV9aQjkzcVRXRHA5MklSLW9Ha3UxOXRrczdfaE1sNFloZktiRFVXX0Z4OWtpM3MyRjdFMTAz0gGMAkFVX3lxTFByc2tlX1NuYWFTQ19MTTkxdl9zY1cxTTluTmIzYld2aEZka1RUTnMwTVpLTnJrRXZQNW43S3B1eVJIYjJKWW1MNUZHcW1GcDVPMTVKdEZSU1V6dWVnOXUwd0NFRE9EWklpSkdSNktSM0hHVWVlcDZwWDdxZXcyZjlwVWcxY3NJTlYweS1fcVpLRm93UjViSmtENVZVT3JWWU56YzBSQXNLeUtxYU9LQmoyYkJEenUzSU9qUVV4MGNkekpzbnRfSjE1dmIteGhGR3V0VkRwblkxX1pCOTNxVFdEcDkySVItb0drdTE5dGtzN19oTWw0WWhmS2JEVVdfRng5a2kzczJGN0UxMDM?oc=5",
+          "pubDate": "2026-07-10T17:59:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }

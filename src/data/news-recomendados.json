@@ -1,10 +1,34 @@
 {
-  "generatedAt": "2026-07-10T10:01:47.274Z",
+  "generatedAt": "2026-07-11T10:01:44.499Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Haití",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-haiti/haiti/",
+          "pubDate": "2026-07-10T20:55:26.000Z",
+          "snippet": "Haití La criminalidad de Haití ha estado determinada por la tumultuosa historia del país, definida por la inestabilidad política de larga data, las dificultades económicas y los constantes desastres naturales. The post Haití appeared first on InSight Crime."
+        },
+        {
+          "title": "Perfil de Panamá",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-panama/panama/",
+          "pubDate": "2026-07-10T20:48:39.000Z",
+          "snippet": "Perfil de Panamá La ubicación de Panamá que conecta a Centro y Suramérica ha convertido al país en punto de tránsito clave para las rutas de tráfico ilegal, como también un refugio y un área de negociación para organizaciones criminales a lo largo de la historia. Su próspera econ…"
+        },
+        {
+          "title": "EE. UU. ya identificó al sucesor de El Mencho, pero el CJNG quizás aún no",
+          "link": "https://insightcrime.org/es/noticias/ee-uu-senalo-heredero-mencho-poder-cjng-comparte/",
+          "pubDate": "2026-07-10T15:30:56.000Z",
+          "snippet": "EE. UU. ya identificó al sucesor de El Mencho, pero el CJNG quizás aún no Durante casi dos décadas, Juan Carlos Valencia González acumuló poder dentro del Cartel Jalisco Nueva Generación (CJNG) sin apenas llamar la atención. Ahora, el gobierno de Estados Unidos asegura que […] Th…"
+        },
+        {
+          "title": "Juan Carlos Valencia González, alias ‘El 03’",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/juan-carlos-valencia-gonzalez-alias-03/",
+          "pubDate": "2026-07-10T14:43:59.000Z",
+          "snippet": "Juan Carlos Valencia González, alias ‘El 03’ Juan Carlos Valencia González, conocido como “El 03” o “Pelón”, es una de las figuras de mayor peso dentro del Cartel Jalisco Nueva Generación (CJNG), tanto por su posición dentro […] The post Juan Carlos Valencia González, alias ‘El 0…"
+        },
         {
           "title": "On The Radar: ‘El Mayo’ busca evitar prisión de máxima seguridad",
           "link": "https://insightcrime.org/es/noticias/on-the-radar-mayo-busca-evitar-prision-maxima-seguridad/",
@@ -16,37 +40,50 @@
           "link": "https://insightcrime.org/es/noticias/nuevos-datos-sobre-coca-colombia-y-oportunidades-para-proximo-presidente/",
           "pubDate": "2026-07-08T15:22:20.000Z",
           "snippet": "¿Podrá la ‘mano dura’ del próximo gobierno de Colombia frenar la expansión de coca? La ONU reveló nuevos datos sobre los cultivos de coca en Colombia. El informe muestra dónde se concentra la coca y por qué la estrategia antidrogas de De la Espriella será difícil de aplicar en la…"
-        },
-        {
-          "title": "La Unión Tepito",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/la-union-tepito/",
-          "pubDate": "2026-07-08T13:49:22.000Z",
-          "snippet": "La Unión Tepito La Unión Tepito es un gran grupo criminal originario de Ciudad de México, que toma su nombre de uno de los barrios más grandes de la capital. The post La Unión Tepito appeared first on InSight Crime."
-        },
-        {
-          "title": "Los últimos Chapitos en pie: Iván Archivaldo y Jesús Alfredo Guzmán",
-          "link": "https://insightcrime.org/es/noticias/ultimos-chapitos-pie-donde-estan-ivan-archivaldo-jesus-alfredo-guzman/",
-          "pubDate": "2026-07-07T20:37:38.000Z",
-          "snippet": "Los últimos Chapitos en pie: Iván Archivaldo y Jesús Alfredo Guzmán Esta semana, Estados Unidos resaltó recompensas multimillonarias que ofrece por los dos líderes que aún permanecen al frente de la facción de los Chapitos del Cartel de Sinaloa, al tiempo […] The post Los últimos…"
-        },
-        {
-          "title": "The InSight Take: Los Chone Killers, el nuevo grupo en la lista de organizaciones terroristas de EE. UU.",
-          "link": "https://insightcrime.org/es/noticias/insight-take-chone-killers-nuevo-grupo-lista-organizaciones-terroristas-ee-uu/",
-          "pubDate": "2026-07-06T17:02:59.000Z",
-          "snippet": "The InSight Take: Los Chone Killers, el nuevo grupo en la lista de organizaciones terroristas de EE. UU. El Departamento de Estado de Estados Unidos añadió a los Chone Killers, de Ecuador, a su lista de organizaciones terroristas extranjeras que operan en América Latina. La edito…"
-        },
-        {
-          "title": "Los Ardillos",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/los-ardillos/",
-          "pubDate": "2026-07-03T19:12:45.000Z",
-          "snippet": "Los Ardillos Los Ardillos son una organización criminal mexicana dedicada a la producción y tráfico ilegal de heroína, a la minería ilegal, y a la extorsión de comunidades indígenas y de industrias […] The post Los Ardillos appeared first on InSight Crime."
         }
       ]
     },
     {
       "name": "International Crisis Group",
       "color": "teal",
-      "items": []
+      "items": [
+        {
+          "title": "On Our Radar",
+          "link": "https://www.crisisgroup.org/sco/global/our-radar",
+          "pubDate": "2026-07-03T17:07:09.000Z",
+          "snippet": "On Our Radar eschelhaas Fri, 07/03/2026 - 19:07 Latest Updates Africa Asia-Pacific Europe Latin America & Caribbean Middle East & North Africa United States Global Issues & Institutions My Reading List Special Coverage / Global 03 July 2026 20+ minutes On Our Radar scans conflict…"
+        },
+        {
+          "title": "Hormuz 1 July 2026 #1",
+          "link": "https://www.crisisgroup.org/content/hormuz-1-july-2026-1",
+          "pubDate": "2026-07-03T14:41:06.000Z",
+          "snippet": "Hormuz 1 July 2026 #1 lalasor Fri, 07/03/2026 - 16:41 Strait of Hormuz Fri, 07/03/2026 - 12:00 1 July 2026 U.S. Central Command announced that it had led a security dialogue attended by senior military officials from a dozen regional states who “discussed the current regional sec…"
+        },
+        {
+          "title": "Saudi 1 July 2026 #1",
+          "link": "https://www.crisisgroup.org/content/saudi-1-july-2026-1",
+          "pubDate": "2026-07-03T14:39:44.000Z",
+          "snippet": "Saudi 1 July 2026 #1 lalasor Fri, 07/03/2026 - 16:39 Riyadh Fri, 07/03/2026 - 12:00 1 July 2026 U.S. Central Command announced that it had led a security dialogue attended by senior military officials from a dozen regional states who “discussed the current regional security envir…"
+        },
+        {
+          "title": "Washington 1 July 2026 #1",
+          "link": "https://www.crisisgroup.org/content/washington-1-july-2026-1",
+          "pubDate": "2026-07-03T14:38:57.000Z",
+          "snippet": "Washington 1 July 2026 #1 lalasor Fri, 07/03/2026 - 16:38 Washington Fri, 07/03/2026 - 12:00 1 July 2026 U.S. Central Command announced that it had led a security dialogue attended by senior military officials from a dozen regional states who “discussed the current regional secur…"
+        },
+        {
+          "title": "Tehran 1 July 2026 #2",
+          "link": "https://www.crisisgroup.org/content/tehran-1-july-2026-2",
+          "pubDate": "2026-07-03T14:38:16.000Z",
+          "snippet": "Tehran 1 July 2026 #2 lalasor Fri, 07/03/2026 - 16:38 Tehran Fri, 07/03/2026 - 12:00 1 July 2026 U.S. Central Command announced that it had led a security dialogue attended by senior military officials from a dozen regional states who “discussed the current regional security envi…"
+        },
+        {
+          "title": "Bahrain 1 July 2026 #1",
+          "link": "https://www.crisisgroup.org/content/bahrain-1-july-2026-1",
+          "pubDate": "2026-07-03T14:37:21.000Z",
+          "snippet": "Bahrain 1 July 2026 #1 lalasor Fri, 07/03/2026 - 16:37 Bahrain Fri, 07/03/2026 - 12:00 1 July 2026 U.S. Central Command announced that it had led a security dialogue attended by senior military officials from a dozen regional states who “discussed the current regional security en…"
+        }
+      ]
     },
     {
       "name": "World Economic Forum",
@@ -56,12 +93,6 @@
           "title": "Event Details - Tashkent Hub",
           "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPRXdGMlZwZVoyVm9sM2toMHhidUdGMmZ2RnE3MHdBa3NTV1J5T2dfRzB5UGZLaGx4UXg0ckhqVVpyT1dHZVVjaEVVbm56VVphQ1Fzc0pIc05WMDlDYzJvTExfUW00aXFpOXp0YlJ4ck82RHJZOXBKMV9MaXh3Y0tUb1FwSVM1RjVjS3pKU2h4LUs3dHlHSlg5OC1iRlA1UE1XVnRXYy0xWFMxU1JscnZSUmVsdFJpcHRLcmRQbC1VenJmSE5JVHNoRUpKaHFuWXl0UEJENmg4M0NQY0lXcEV6NUh5Zmh4cXNpTGZxMTlsLU0ySi1kcjhzeHlzaVJzVllZbDIyR3RBZlBDLWRSZjZlaFNR?oc=5",
           "pubDate": "2026-07-06T17:21:32.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Melanie Azetmüller",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kRlRwbmJHcWFZbGdPSVpPZTJaSXRDMnJ3bThNMl80Zk1jN2k5dUFWMlAwY2I3cEdnV3NYUnU1QzA2ajFzbmVFMFoyeWxVbkt5cDg5N0llWTdFRHJvY21PZHVncm5nVkh4NXc?oc=5",
-          "pubDate": "2026-07-06T11:45:45.000Z",
           "snippet": null
         },
         {
@@ -85,7 +116,13 @@
         {
           "title": "Closing Remarks > Annual Meeting of the New Champions",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRl9HMlRPYUlZUjdOUEIydHBnM0t6OVhHWmVRYWVvTjhoRHhaYXRraGtERDh0MTBCandIbkpMaEpOcngtTk50Mm16NXo2YlZ5c2gxR1Zya0dSaWZVR0g1cnBJUWFVRlNnZVBuVGtsRU50djZ6Mm1FNWs1eVpqeHdVcjVEanBHdVRsMERBemk0UVRpcnQ2N2YycEE3a25UZ1ZEWEtRdGpjTENpYWpVQWc?oc=5",
-          "pubDate": "2026-06-24T10:35:55.000Z",
+          "pubDate": "2026-06-25T07:00:00.000Z",
+          "snippet": null
+        },
+        {
+          "title": "¿Qué es el \"Davos de Verano\"?",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WS21xcGduY2hNSVJWdjg4ZVMzWFNyeVpvcGo1NWhvWDFBOVBlU2lFd2R2TENHUXQ2YWxKZjBJVzMycTBpNEFyQUU2NVN1Tk50anVOb2pDTDZnRmZDc01pRGpTWUQxTTA?oc=5",
+          "pubDate": "2026-06-23T07:00:00.000Z",
           "snippet": null
         }
       ]

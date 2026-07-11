@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#PetroContraArmas",
+      "#TransiciónPetroDelaEspriella",
+      "#CorrupciónMinasEnergía",
+      "#ColombianosDesaparecidosRusia",
       "#CrisisSeguridad",
-      "#RelacionesEEUUColombia",
-      "#ClánDelGolfo",
-      "#DesastreNatural"
+      "#GobernanzoDelaEspriella"
     ],
     "mundo": [
-      "#IncendioEspaña",
-      "#TrumpElecciones",
-      "#ConflictoIránIsrael",
-      "#CrisisVenezuela",
-      "#IARegulación"
+      "#IránNuclear",
+      "#TrumpIrán",
+      "#VenezuelaRecuperación",
+      "#CrisisGeopolítica",
+      "#TensionesOrienteMedio"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#NoAlArmas",
-      "#NarcosColombia",
-      "#LluviasArauca",
-      "#NuevaEra",
-      "#TerremotosColombia"
+      "#DelaEspriella",
+      "#CorrupciónColombia",
+      "#ColombianosRusia",
+      "#CambioGobierno",
+      "#NoticiasColombia"
     ],
     "mundo": [
-      "#IncendiosMortal",
-      "#TrumpVuelve",
-      "#TensióníranIsrael",
+      "#IránTrump",
+      "#VenezuelaAhora",
       "#CrisisVenezuela",
-      "#TecnologíaIA"
+      "#TensionesIrán",
+      "#NoticiasGlobales"
     ]
   },
-  "generatedAt": "2026-07-10T10:08:27.077Z"
+  "generatedAt": "2026-07-11T10:01:47.656Z"
 }
