@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#TransiciónPetroDelaEspriella",
-      "#CorrupciónMinasEnergía",
-      "#ColombianosDesaparecidosRusia",
-      "#CrisisSeguridad",
-      "#GobernanzoDelaEspriella"
+      "#SeguridadRegional",
+      "#HomicidioEnColombia",
+      "#DelaEsprillaGobierno",
+      "#CrisisEnergeticaColombia",
+      "#TraficoDrogasSeguridad"
     ],
     "mundo": [
-      "#IránNuclear",
-      "#TrumpIrán",
-      "#VenezuelaRecuperación",
+      "#TensionIránEEUU",
+      "#EstréchoDeHormuz",
       "#CrisisGeopolítica",
-      "#TensionesOrienteMedio"
+      "#IncendiosEspaña",
+      "#VenezuelaEnCrisis"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#DelaEspriella",
-      "#CorrupciónColombia",
-      "#ColombianosRusia",
-      "#CambioGobierno",
-      "#NoticiasColombia"
+      "#Seguridad",
+      "#DelaEspriella2026",
+      "#Apagón",
+      "#Narcos",
+      "#MedellínNoticias"
     ],
     "mundo": [
-      "#IránTrump",
-      "#VenezuelaAhora",
-      "#CrisisVenezuela",
-      "#TensionesIrán",
-      "#NoticiasGlobales"
+      "#IránVsEEUU",
+      "#Toronto",
+      "#Trump",
+      "#Incendio",
+      "#Venezuela"
     ]
   },
-  "generatedAt": "2026-07-11T10:01:47.656Z"
+  "generatedAt": "2026-07-12T10:04:33.882Z"
 }
