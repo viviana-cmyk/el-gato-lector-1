@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T10:04:29.115Z",
+  "generatedAt": "2026-07-13T10:01:44.497Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -44,14 +44,14 @@
       "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
     },
     {
-      "title": "The Joe Rogan Experience",
-      "host": "Joe Rogan",
-      "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272"
-    },
-    {
       "title": "Morbid",
       "host": "Ash Kelley & Alaina Urquhart",
       "url": "https://podcasts.apple.com/us/podcast/morbid/id1379959217"
+    },
+    {
+      "title": "Love Trapped",
+      "host": "iHeartPodcasts and Glass Podcasts",
+      "url": "https://podcasts.apple.com/us/podcast/love-trapped/id1878220033"
     }
   ]
 }
