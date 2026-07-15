@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-07-14T10:01:44.153Z",
+  "generatedAt": "2026-07-15T10:01:45.581Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "José Manuel Sierra Sabogal, alias ‘Zarco Aldinever’",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/jose-manuel-sierra-sabogal-alias-zarco-aldinever/",
+          "pubDate": "2026-07-14T19:23:50.000Z",
+          "snippet": "José Manuel Sierra Sabogal, alias ‘Zarco Aldinever’ José Manuel Sierra Sabogal, alias \"Zarco Aldinever,\" militó en los frentes 51, 52 y 26, en los departamentos de Meta, Cundinamarca y Boyacá y fue uno de los máximos comandantes del Bloque Oriental de las FARC. The post José Manu…"
+        },
+        {
+          "title": "Familia Michoacana",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/familia-michoacana-perfil/",
+          "pubDate": "2026-07-14T18:27:58.000Z",
+          "snippet": "Familia Michoacana Durante la cima de su poder, las brutales tácticas de la Familia Michoacana, su fuerte base de sus operaciones y su ideología pseudoreligiosa, hicieron del grupo una amenaza significativa y un punto de fascinación para los observadores internacionales. Sin emba…"
+        },
+        {
+          "title": "The InSight Take: ¿Hay nuevo líder en el CJNG?",
+          "link": "https://insightcrime.org/es/noticias/the-insight-take-nuevo-lider-del-cjng/",
+          "pubDate": "2026-07-14T18:01:33.000Z",
+          "snippet": "The InSight Take: ¿Hay nuevo líder en el CJNG? Tras la muerte del líder del Cartel Jalisco Nueva Generación (CJNG), Nemesio Oseguera Cervantes, alias “El Mencho”, durante una operación militar en febrero de 2026, las autoridades de Estados Unidos señalaron a su hijastro, Juan Car…"
+        },
         {
           "title": "Haití",
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-haiti/haiti/",
@@ -22,24 +40,6 @@
           "link": "https://insightcrime.org/es/noticias/ee-uu-senalo-heredero-mencho-poder-cjng-comparte/",
           "pubDate": "2026-07-10T15:30:56.000Z",
           "snippet": "EE. UU. ya identificó al sucesor de El Mencho, pero el CJNG quizás aún no Durante casi dos décadas, Juan Carlos Valencia González acumuló poder dentro del Cartel Jalisco Nueva Generación (CJNG) sin apenas llamar la atención. Ahora, el gobierno de Estados Unidos asegura que […] Th…"
-        },
-        {
-          "title": "Juan Carlos Valencia González, alias ‘El 03’",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/juan-carlos-valencia-gonzalez-alias-03/",
-          "pubDate": "2026-07-10T14:43:59.000Z",
-          "snippet": "Juan Carlos Valencia González, alias ‘El 03’ Juan Carlos Valencia González, conocido como “El 03” o “Pelón”, es una de las figuras de mayor peso dentro del Cartel Jalisco Nueva Generación (CJNG), tanto por su posición dentro […] The post Juan Carlos Valencia González, alias ‘El 0…"
-        },
-        {
-          "title": "On The Radar: ‘El Mayo’ busca evitar prisión de máxima seguridad",
-          "link": "https://insightcrime.org/es/noticias/on-the-radar-mayo-busca-evitar-prision-maxima-seguridad/",
-          "pubDate": "2026-07-09T18:39:11.000Z",
-          "snippet": "On The Radar: ‘El Mayo’ busca evitar prisión de máxima seguridad Esta semana en On the Radar: “El Mayo” busca evitar una prisión de máxima seguridad, EE. UU. renueva la presión sobre los Chapitos que se encuentran prófugos y los nuevos datos sobre cultivos coca desafían a Colombi…"
-        },
-        {
-          "title": "¿Podrá la ‘mano dura’ del próximo gobierno de Colombia frenar la expansión de coca?",
-          "link": "https://insightcrime.org/es/noticias/nuevos-datos-sobre-coca-colombia-y-oportunidades-para-proximo-presidente/",
-          "pubDate": "2026-07-08T15:22:20.000Z",
-          "snippet": "¿Podrá la ‘mano dura’ del próximo gobierno de Colombia frenar la expansión de coca? La ONU reveló nuevos datos sobre los cultivos de coca en Colombia. El informe muestra dónde se concentra la coca y por qué la estrategia antidrogas de De la Espriella será difícil de aplicar en la…"
         }
       ]
     },

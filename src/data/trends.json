@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#EmpalmePresidencial2026",
-      "#CrisisPetroDeLaEspriella",
-      "#ReformaGubernamental",
-      "#FinanzasPublicasFMI",
-      "#EmergenciaInvernal"
+      "#CrisisArauca",
+      "#PazTotal",
+      "#GabineteDelaEspriella",
+      "#InseguridadEnColombia",
+      "#VenezuelaEnCrisis"
     ],
     "mundo": [
       "#IránVsEEUU",
-      "#EstréchoDeOrmuz",
-      "#BloqueoIraniano",
-      "#CrisisOrienteMedio",
-      "#TrumpEscalada"
+      "#EstréchoDeHormuz",
+      "#UcraniasContraRusia",
+      "#CrisisEnergética",
+      "#TensionesGeopolíticas"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#DeLaEspriellaPdte",
-      "#AdiósAltoComisionado",
-      "#PosesiónMilitar",
-      "#CambioDeGobierno",
-      "#CrisisDeAguaYSalud"
+      "#AraucaAtentado",
+      "#DelaEspriella2026",
+      "#InseguridadYA",
+      "#VenezuelaCrisis",
+      "#PoliciasAsesinados"
     ],
     "mundo": [
-      "#TrumpVsIrán",
-      "#DesdeOrmuz",
-      "#GuerraAbierta",
-      "#TrumpInternacional",
-      "#ConflitoOrienteMedio"
+      "#IránAtaca",
+      "#Guerra",
+      "#CrisisEnergética",
+      "#Trump2026",
+      "#UcraniaPerdura"
     ]
   },
-  "generatedAt": "2026-07-14T10:01:49.254Z"
+  "generatedAt": "2026-07-15T10:01:50.005Z"
 }
