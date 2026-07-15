@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "fuente": "Instituto Nacional de Medicina Legal y Ciencias Forenses (INMLCF)",
+    "sistema": "SIRDEC — Grupo Nacional de Analítica y Gobernanza de Datos (GNAGD)",
+    "cobertura": "SOLO CIUDADES CAPITALES (32). El boletín mensual no desagrega municipios no capitales. Soacha, Soledad, Bello, Palmira, Itagüí y Floridablanca NO están en esta fuente (usar Forensis anual o solo datos de Policía).",
+    "definicion": "Homicidio forense INMLCF: 'El que matare a otro', intencional o no intencional. Clasificación de carácter forense; NO tipifica delito ni juicios de responsabilidad. Fuente INDEPENDIENTE de la Policía → base del contador de discrepancias.",
+    "caracter": "PRELIMINAR (pr) en ambos periodos. Las cifras pueden ajustarse por enmiendas estadísticas aprobadas por el Comité de Estadísticas Vitales.",
+    "REGLA_CRITICA": "Comparar SOLO ventanas iguales. Para año contra año usar homicidios_2025_ene_abr vs homicidios_2026_ene_abr (ambos 4 meses). NUNCA comparar contra homicidios_2025_completo (12 meses).",
+    "fecha_preparacion": "2026-07-14",
+    "estado": "COMPLETO — 3 periodos verificados contra los PDF oficiales"
+  },
+  "periodos": {
+    "2025_completo": {
+      "etiqueta": "Enero - diciembre 2025 (pr)",
+      "anio": 2025,
+      "meses": 12,
+      "parcial": false,
+      "fuente_pdf": "Boletín estadístico mensual – diciembre 2025, Cuadro 1.5",
+      "url": "https://www.medicinalegal.gov.co/documents/20143/1162212/Boletin_diciembre_2025.pdf",
+      "poblacion_a_usar": "poblacion_2025",
+      "total_nacional_homicidios": 14780,
+      "total_32_capitales": 5759
+    },
+    "2026_ene_abr": {
+      "etiqueta": "Enero - abril 2026 (pr)",
+      "anio": 2026,
+      "meses": 4,
+      "parcial": true,
+      "fuente_pdf": "Boletín estadístico mensual - abril 2026, Cuadro 1.5",
+      "url": "https://www.medicinalegal.gov.co/documents/20143/1162212/Boletin_abril_2026.pdf",
+      "poblacion_a_usar": "poblacion_2026",
+      "total_nacional_homicidios": 4869,
+      "total_32_capitales": 1857,
+      "advertencia": "PARCIAL: 4 de 12 meses. Para tasa anualizada multiplicar por 3, y ETIQUETARLO explícitamente como proyección."
+    },
+    "2025_ene_abr": {
+      "etiqueta": "Enero - abril 2025 (pr)",
+      "anio": 2025,
+      "meses": 4,
+      "parcial": true,
+      "fuente_pdf": "Boletín estadístico mensual - abril 2025, Cuadro 1.5",
+      "poblacion_a_usar": "poblacion_2025",
+      "total_32_capitales": 1782,
+      "uso": "Ventana comparable contra ene-abr 2026. NO usar contra el año completo."
+    }
+  },
+  "comparacion_nacional_misma_ventana": {
+    "nota": "Única comparación año-contra-año válida disponible hoy (viene del propio boletín de abril 2026, Cuadro 1.4). Es NACIONAL, no por ciudad.",
+    "ventana": "Enero - abril",
+    "homicidios_2025": 4604,
+    "homicidios_2026": 4869,
+    "variacion_absoluta": 265,
+    "variacion_porcentual": "5,76%",
+    "direccion": "AUMENTO"
+  },
+  "municipios": [
+    {
+      "municipio": "Bogotá D.C.",
+      "departamento": "Bogotá D.C.",
+      "divipola": "11001",
+      "homicidios_2025_completo": 1203,
+      "homicidios_2025_ene_abr": 390,
+      "homicidios_2026_ene_abr": 367,
+      "variacion_pct_ene_abr": -5.9,
+      "direccion": "baja"
+    },
+    {
+      "municipio": "Santiago de Cali",
+      "departamento": "Valle del Cauca",
+      "divipola": "76001",
+      "homicidios_2025_completo": 1107,
+      "homicidios_2025_ene_abr": 347,
+      "homicidios_2026_ene_abr": 368,
+      "variacion_pct_ene_abr": 6.1,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Barranquilla",
+      "departamento": "Atlántico",
+      "divipola": "08001",
+      "homicidios_2025_completo": 464,
+      "homicidios_2025_ene_abr": 156,
+      "homicidios_2026_ene_abr": 207,
+      "variacion_pct_ene_abr": 32.7,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Cartagena de Indias",
+      "departamento": "Bolívar",
+      "divipola": "13001",
+      "homicidios_2025_completo": 410,
+      "homicidios_2025_ene_abr": 116,
+      "homicidios_2026_ene_abr": 107,
+      "variacion_pct_ene_abr": -7.8,
+      "direccion": "baja"
+    },
+    {
+      "municipio": "Medellín",
+      "departamento": "Antioquia",
+      "divipola": "05001",
+      "homicidios_2025_completo": 367,
+      "homicidios_2025_ene_abr": 114,
+      "homicidios_2026_ene_abr": 105,
+      "variacion_pct_ene_abr": -7.9,
+      "direccion": "baja"
+    },
+    {
+      "municipio": "Cúcuta",
+      "departamento": "Norte de Santander",
+      "divipola": "54001",
+      "homicidios_2025_completo": 362,
+      "homicidios_2025_ene_abr": 87,
+      "homicidios_2026_ene_abr": 93,
+      "variacion_pct_ene_abr": 6.9,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Pereira",
+      "departamento": "Risaralda",
+      "divipola": "66001",
+      "homicidios_2025_completo": 210,
+      "homicidios_2025_ene_abr": 74,
+      "homicidios_2026_ene_abr": 59,
+      "variacion_pct_ene_abr": -20.3,
+      "direccion": "baja"
+    },
+    {
+      "municipio": "Santa Marta",
+      "departamento": "Magdalena",
+      "divipola": "47001",
+      "homicidios_2025_completo": 182,
+      "homicidios_2025_ene_abr": 60,
+      "homicidios_2026_ene_abr": 41,
+      "variacion_pct_ene_abr": -31.7,
+      "direccion": "baja"
+    },
+    {
+      "municipio": "Villavicencio",
+      "departamento": "Meta",
+      "divipola": "50001",
+      "homicidios_2025_completo": 158,
+      "homicidios_2025_ene_abr": 55,
+      "homicidios_2026_ene_abr": 48,
+      "variacion_pct_ene_abr": -12.7,
+      "direccion": "baja"
+    },
+    {
+      "municipio": "Bucaramanga",
+      "departamento": "Santander",
+      "divipola": "68001",
+      "homicidios_2025_completo": 147,
+      "homicidios_2025_ene_abr": 38,
+      "homicidios_2026_ene_abr": 59,
+      "variacion_pct_ene_abr": 55.3,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Valledupar",
+      "departamento": "Cesar",
+      "divipola": "20001",
+      "homicidios_2025_completo": 125,
+      "homicidios_2025_ene_abr": 40,
+      "homicidios_2026_ene_abr": 44,
+      "variacion_pct_ene_abr": 10.0,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Quibdó",
+      "departamento": "Chocó",
+      "divipola": "27001",
+      "homicidios_2025_completo": 115,
+      "homicidios_2025_ene_abr": 37,
+      "homicidios_2026_ene_abr": 34,
+      "variacion_pct_ene_abr": -8.1,
+      "direccion": "baja"
+    },
+    {
+      "municipio": "Riohacha",
+      "departamento": "La Guajira",
+      "divipola": "44001",
+      "homicidios_2025_completo": 110,
+      "homicidios_2025_ene_abr": 31,
+      "homicidios_2026_ene_abr": 39,
+      "variacion_pct_ene_abr": 25.8,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Armenia",
+      "departamento": "Quindío",
+      "divipola": "63001",
+      "homicidios_2025_completo": 106,
+      "homicidios_2025_ene_abr": 33,
+      "homicidios_2026_ene_abr": 46,
+      "variacion_pct_ene_abr": 39.4,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Neiva",
+      "departamento": "Huila",
+      "divipola": "41001",
+      "homicidios_2025_completo": 95,
+      "homicidios_2025_ene_abr": 25,
+      "homicidios_2026_ene_abr": 26,
+      "variacion_pct_ene_abr": 4.0,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Ibagué",
+      "departamento": "Tolima",
+      "divipola": "73001",
+      "homicidios_2025_completo": 92,
+      "homicidios_2025_ene_abr": 32,
+      "homicidios_2026_ene_abr": 30,
+      "variacion_pct_ene_abr": -6.2,
+      "direccion": "baja"
+    },
+    {
+      "municipio": "Popayán",
+      "departamento": "Cauca",
+      "divipola": "19001",
+      "homicidios_2025_completo": 75,
+      "homicidios_2025_ene_abr": 27,
+      "homicidios_2026_ene_abr": 38,
+      "variacion_pct_ene_abr": 40.7,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Sincelejo",
+      "departamento": "Sucre",
+      "divipola": "70001",
+      "homicidios_2025_completo": 64,
+      "homicidios_2025_ene_abr": 24,
+      "homicidios_2026_ene_abr": 19,
+      "variacion_pct_ene_abr": -20.8,
+      "direccion": "baja"
+    },
+    {
+      "municipio": "Pasto",
+      "departamento": "Nariño",
+      "divipola": "52001",
+      "homicidios_2025_completo": 50,
+      "homicidios_2025_ene_abr": 9,
+      "homicidios_2026_ene_abr": 10,
+      "variacion_pct_ene_abr": 11.1,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Yopal",
+      "departamento": "Casanare",
+      "divipola": "85001",
+      "homicidios_2025_completo": 50,
+      "homicidios_2025_ene_abr": 21,
+      "homicidios_2026_ene_abr": 11,
+      "variacion_pct_ene_abr": -47.6,
+      "direccion": "baja"
+    },
+    {
+      "municipio": "Montería",
+      "departamento": "Córdoba",
+      "divipola": "23001",
+      "homicidios_2025_completo": 49,
+      "homicidios_2025_ene_abr": 12,
+      "homicidios_2026_ene_abr": 19,
+      "variacion_pct_ene_abr": 58.3,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "San Andrés",
+      "departamento": "Archipiélago de San Andrés",
+      "divipola": "88001",
+      "homicidios_2025_completo": 41,
+      "homicidios_2025_ene_abr": 5,
+      "homicidios_2026_ene_abr": 19,
+      "variacion_pct_ene_abr": 280.0,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "San José del Guaviare",
+      "departamento": "Guaviare",
+      "divipola": "95001",
+      "homicidios_2025_completo": 41,
+      "homicidios_2025_ene_abr": 11,
+      "homicidios_2026_ene_abr": 5,
+      "variacion_pct_ene_abr": -54.5,
+      "direccion": "baja"
+    },
+    {
+      "municipio": "Manizales",
+      "departamento": "Caldas",
+      "divipola": "17001",
+      "homicidios_2025_completo": 39,
+      "homicidios_2025_ene_abr": 11,
+      "homicidios_2026_ene_abr": 19,
+      "variacion_pct_ene_abr": 72.7,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Florencia",
+      "departamento": "Caquetá",
+      "divipola": "18001",
+      "homicidios_2025_completo": 27,
+      "homicidios_2025_ene_abr": 10,
+      "homicidios_2026_ene_abr": 20,
+      "variacion_pct_ene_abr": 100.0,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Arauca",
+      "departamento": "Arauca",
+      "divipola": "81001",
+      "homicidios_2025_completo": 18,
+      "homicidios_2025_ene_abr": 2,
+      "homicidios_2026_ene_abr": 3,
+      "variacion_pct_ene_abr": 50.0,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Leticia",
+      "departamento": "Amazonas",
+      "divipola": "91001",
+      "homicidios_2025_completo": 17,
+      "homicidios_2025_ene_abr": 4,
+      "homicidios_2026_ene_abr": 5,
+      "variacion_pct_ene_abr": 25.0,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Mocoa",
+      "departamento": "Putumayo",
+      "divipola": "86001",
+      "homicidios_2025_completo": 10,
+      "homicidios_2025_ene_abr": 5,
+      "homicidios_2026_ene_abr": 8,
+      "variacion_pct_ene_abr": 60.0,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Tunja",
+      "departamento": "Boyacá",
+      "divipola": "15001",
+      "homicidios_2025_completo": 9,
+      "homicidios_2025_ene_abr": 2,
+      "homicidios_2026_ene_abr": 4,
+      "variacion_pct_ene_abr": 100.0,
+      "direccion": "sube"
+    },
+    {
+      "municipio": "Puerto Carreño",
+      "departamento": "Vichada",
+      "divipola": "99001",
+      "homicidios_2025_completo": 7,
+      "homicidios_2025_ene_abr": 1,
+      "homicidios_2026_ene_abr": 1,
+      "variacion_pct_ene_abr": 0.0,
+      "direccion": "igual"
+    },
+    {
+      "municipio": "Mitú",
+      "departamento": "Vaupés",
+      "divipola": "97001",
+      "homicidios_2025_completo": 6,
+      "homicidios_2025_ene_abr": 3,
+      "homicidios_2026_ene_abr": 3,
+      "variacion_pct_ene_abr": 0.0,
+      "direccion": "igual"
+    },
+    {
+      "municipio": "Inírida",
+      "departamento": "Guainía",
+      "divipola": "94001",
+      "homicidios_2025_completo": 3,
+      "homicidios_2025_ene_abr": 0,
+      "homicidios_2026_ene_abr": 0,
+      "variacion_pct_ene_abr": null,
+      "direccion": "sin base"
+    }
+  ],
+  "no_disponibles_en_esta_fuente": [
+    {
+      "municipio": "Soacha",
+      "divipola": "25754",
+      "motivo": "No es ciudad capital. Usar Forensis (anual) o solo datos de Policía."
+    },
+    {
+      "municipio": "Soledad",
+      "divipola": "08758",
+      "motivo": "No es ciudad capital."
+    },
+    {
+      "municipio": "Bello",
+      "divipola": "05088",
+      "motivo": "No es ciudad capital."
+    },
+    {
+      "municipio": "Palmira",
+      "divipola": "76520",
+      "motivo": "No es ciudad capital."
+    },
+    {
+      "municipio": "Itagüí",
+      "divipola": "05360",
+      "motivo": "No es ciudad capital."
+    },
+    {
+      "municipio": "Floridablanca",
+      "divipola": "68276",
+      "motivo": "No es ciudad capital."
+    }
+  ],
+  "comparacion_por_ciudad_ene_abr": {
+    "nota": "Comparación VÁLIDA: misma ventana (4 meses) año contra año, ciudad por ciudad.",
+    "ventana": "Enero - abril",
+    "total_capitales_2025": 1782,
+    "total_capitales_2026": 1857,
+    "variacion_absoluta": 75,
+    "variacion_pct": 4.21
+  }
+}

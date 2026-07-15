@@ -1,0 +1,2307 @@
+{
+  "meta": {
+    "generatedAt": "2026-07-14T21:31:32.883Z",
+    "corte_policia": "2026-05-31",
+    "corte_medleg": {
+      "completo_2025": "Enero - diciembre 2025 (pr)",
+      "parcial_2025": "Enero - abril 2025 (pr)",
+      "parcial_2026": "Enero - abril 2026 (pr)"
+    },
+    "fuentes": {
+      "homicidio_policia": "https://www.datos.gov.co/resource/m8fd-ahd9.json",
+      "hurto_personas": "https://www.datos.gov.co/resource/4rxi-8m8d.json",
+      "extorsion": "https://www.datos.gov.co/resource/q2ib-t9am.json",
+      "homicidio_medleg": "INMLCF — SIRDEC/GNAGD. Boletines mensuales 2025-2026.",
+      "poblacion": "DANE — Proyecciones Municipales 2018-2042 (CNPV 2018)"
+    },
+    "advertencias": [
+      "Cifras Policía Nacional: sujetas a variación posterior",
+      "Cifras Medicina Legal 2025-2026: preliminares (pr)",
+      "Series comparables desde 2019; quiebre SIEDCO-SPOA en 2016-2018",
+      "Variación % suprimida cuando base < 20 casos (campo base_pequena: true)",
+      "Tasa proyectada = casos ene-abr × 3; ETIQUETADA como proyección anual",
+      "Rankings y mapa: siempre por tasa x100k, nunca por absoluto"
+    ],
+    "ids_verificados": {
+      "homicidio": "m8fd-ahd9",
+      "hurto_personas": "4rxi-8m8d",
+      "extorsion": "q2ib-t9am",
+      "verificado_el": "2026-07-14",
+      "verificado_con": "?$limit=3 en cada dataset"
+    }
+  },
+  "nacional": {
+    "homicidio_medleg": {
+      "fuente": "Instituto Nacional de Medicina Legal y Ciencias Forenses (INMLCF)",
+      "ventana_comparacion": "Enero - abril",
+      "casos_2025": 4604,
+      "casos_2026": 4869,
+      "variacion_pct": 5.76,
+      "variacion_absoluta": 265,
+      "direccion": "AUMENTO",
+      "nota": "Única comparación año-contra-año válida disponible hoy (viene del propio boletín de abril 2026, Cuadro 1.4). Es NACIONAL, no por ciudad."
+    },
+    "homicidio_capitales_medleg": {
+      "ventana": "ene-abr",
+      "total_2025": 1782,
+      "total_2026": 1857,
+      "variacion_pct": 4.21
+    }
+  },
+  "municipios": [
+    {
+      "municipio": "Bogotá D.C.",
+      "divipola": "11001",
+      "es_capital": true,
+      "poblacion_2025": 7942867,
+      "poblacion_2026": 7945996,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 1186,
+          "casos_2025_ene_abr": 384,
+          "casos_2026_ene_abr": 357,
+          "variacion_pct_ene_abr": -7,
+          "base_pequena": false,
+          "tasa_2025": 14.9,
+          "tasa_2026_ene_abr": 4.5,
+          "tasa_2026_proyectada": 13.5
+        },
+        "medleg": {
+          "casos_2025_completo": 1203,
+          "casos_2025_ene_abr": 390,
+          "casos_2026_ene_abr": 367,
+          "variacion_pct_ene_abr": -5.9,
+          "base_pequena": false,
+          "direccion": "baja",
+          "tasa_2025": 15.1,
+          "tasa_2026_ea": 4.6,
+          "tasa_2026_proyectada": 13.9
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 357,
+          "medleg": 367,
+          "diferencia_abs": -10,
+          "diferencia_pct": -2.7,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 123017,
+          "casos_2025_ene_abr": 44407,
+          "casos_2026_ene_abr": 39665,
+          "variacion_pct_ene_abr": -10.7,
+          "base_pequena": false,
+          "tasa_2025": 1548.8,
+          "tasa_2026_ene_abr": 499.2,
+          "tasa_2026_proyectada": 1497.5
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 2228,
+          "casos_2025_ene_abr": 663,
+          "casos_2026_ene_abr": 689,
+          "variacion_pct_ene_abr": 3.9,
+          "base_pequena": false,
+          "tasa_2025": 28.1,
+          "tasa_2026_ene_abr": 8.7,
+          "tasa_2026_proyectada": 26
+        }
+      }
+    },
+    {
+      "municipio": "Medellín",
+      "divipola": "05001",
+      "es_capital": true,
+      "poblacion_2025": 2528343,
+      "poblacion_2026": 2526795,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 333,
+          "casos_2025_ene_abr": 107,
+          "casos_2026_ene_abr": 96,
+          "variacion_pct_ene_abr": -10.3,
+          "base_pequena": false,
+          "tasa_2025": 13.2,
+          "tasa_2026_ene_abr": 3.8,
+          "tasa_2026_proyectada": 11.4
+        },
+        "medleg": {
+          "casos_2025_completo": 367,
+          "casos_2025_ene_abr": 114,
+          "casos_2026_ene_abr": 105,
+          "variacion_pct_ene_abr": -7.9,
+          "base_pequena": false,
+          "direccion": "baja",
+          "tasa_2025": 14.5,
+          "tasa_2026_ea": 4.2,
+          "tasa_2026_proyectada": 12.5
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 96,
+          "medleg": 105,
+          "diferencia_abs": -9,
+          "diferencia_pct": -8.6,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 24924,
+          "casos_2025_ene_abr": 7326,
+          "casos_2026_ene_abr": 8317,
+          "variacion_pct_ene_abr": 13.5,
+          "base_pequena": false,
+          "tasa_2025": 985.8,
+          "tasa_2026_ene_abr": 329.2,
+          "tasa_2026_proyectada": 987.5
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 972,
+          "casos_2025_ene_abr": 221,
+          "casos_2026_ene_abr": 311,
+          "variacion_pct_ene_abr": 40.7,
+          "base_pequena": false,
+          "tasa_2025": 38.4,
+          "tasa_2026_ene_abr": 12.3,
+          "tasa_2026_proyectada": 36.9
+        }
+      }
+    },
+    {
+      "municipio": "Santiago de Cali",
+      "divipola": "76001",
+      "es_capital": true,
+      "poblacion_2025": 2277296,
+      "poblacion_2026": 2269983,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 1068,
+          "casos_2025_ene_abr": 331,
+          "casos_2026_ene_abr": 354,
+          "variacion_pct_ene_abr": 6.9,
+          "base_pequena": false,
+          "tasa_2025": 46.9,
+          "tasa_2026_ene_abr": 15.6,
+          "tasa_2026_proyectada": 46.8
+        },
+        "medleg": {
+          "casos_2025_completo": 1107,
+          "casos_2025_ene_abr": 347,
+          "casos_2026_ene_abr": 368,
+          "variacion_pct_ene_abr": 6.1,
+          "base_pequena": false,
+          "direccion": "sube",
+          "tasa_2025": 48.6,
+          "tasa_2026_ea": 16.2,
+          "tasa_2026_proyectada": 48.6
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 354,
+          "medleg": 368,
+          "diferencia_abs": -14,
+          "diferencia_pct": -3.8,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 17985,
+          "casos_2025_ene_abr": 6163,
+          "casos_2026_ene_abr": 4199,
+          "variacion_pct_ene_abr": -31.9,
+          "base_pequena": false,
+          "tasa_2025": 789.8,
+          "tasa_2026_ene_abr": 185,
+          "tasa_2026_proyectada": 554.9
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 435,
+          "casos_2025_ene_abr": 86,
+          "casos_2026_ene_abr": 169,
+          "variacion_pct_ene_abr": 96.5,
+          "base_pequena": false,
+          "tasa_2025": 19.1,
+          "tasa_2026_ene_abr": 7.4,
+          "tasa_2026_proyectada": 22.3
+        }
+      }
+    },
+    {
+      "municipio": "Barranquilla",
+      "divipola": "08001",
+      "es_capital": true,
+      "poblacion_2025": 1279344,
+      "poblacion_2026": 1275854,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 429,
+          "casos_2025_ene_abr": 146,
+          "casos_2026_ene_abr": 195,
+          "variacion_pct_ene_abr": 33.6,
+          "base_pequena": false,
+          "tasa_2025": 33.5,
+          "tasa_2026_ene_abr": 15.3,
+          "tasa_2026_proyectada": 45.9
+        },
+        "medleg": {
+          "casos_2025_completo": 464,
+          "casos_2025_ene_abr": 156,
+          "casos_2026_ene_abr": 207,
+          "variacion_pct_ene_abr": 32.7,
+          "base_pequena": false,
+          "direccion": "sube",
+          "tasa_2025": 36.3,
+          "tasa_2026_ea": 16.2,
+          "tasa_2026_proyectada": 48.7
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 195,
+          "medleg": 207,
+          "diferencia_abs": -12,
+          "diferencia_pct": -5.8,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 10187,
+          "casos_2025_ene_abr": 2495,
+          "casos_2026_ene_abr": 3134,
+          "variacion_pct_ene_abr": 25.6,
+          "base_pequena": false,
+          "tasa_2025": 796.3,
+          "tasa_2026_ene_abr": 245.6,
+          "tasa_2026_proyectada": 736.9
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 729,
+          "casos_2025_ene_abr": 213,
+          "casos_2026_ene_abr": 253,
+          "variacion_pct_ene_abr": 18.8,
+          "base_pequena": false,
+          "tasa_2025": 57,
+          "tasa_2026_ene_abr": 19.8,
+          "tasa_2026_proyectada": 59.5
+        }
+      }
+    },
+    {
+      "municipio": "Cartagena de Indias",
+      "divipola": "13001",
+      "es_capital": true,
+      "poblacion_2025": 1011520,
+      "poblacion_2026": 1010995,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 360,
+          "casos_2025_ene_abr": 107,
+          "casos_2026_ene_abr": 88,
+          "variacion_pct_ene_abr": -17.8,
+          "base_pequena": false,
+          "tasa_2025": 35.6,
+          "tasa_2026_ene_abr": 8.7,
+          "tasa_2026_proyectada": 26.1
+        },
+        "medleg": {
+          "casos_2025_completo": 410,
+          "casos_2025_ene_abr": 116,
+          "casos_2026_ene_abr": 107,
+          "variacion_pct_ene_abr": -7.8,
+          "base_pequena": false,
+          "direccion": "baja",
+          "tasa_2025": 40.5,
+          "tasa_2026_ea": 10.6,
+          "tasa_2026_proyectada": 31.8
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 88,
+          "medleg": 107,
+          "diferencia_abs": -19,
+          "diferencia_pct": -17.8,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 6088,
+          "casos_2025_ene_abr": 2487,
+          "casos_2026_ene_abr": 1088,
+          "variacion_pct_ene_abr": -56.3,
+          "base_pequena": false,
+          "tasa_2025": 601.9,
+          "tasa_2026_ene_abr": 107.6,
+          "tasa_2026_proyectada": 322.9
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 379,
+          "casos_2025_ene_abr": 72,
+          "casos_2026_ene_abr": 126,
+          "variacion_pct_ene_abr": 75,
+          "base_pequena": false,
+          "tasa_2025": 37.5,
+          "tasa_2026_ene_abr": 12.5,
+          "tasa_2026_proyectada": 37.4
+        }
+      }
+    },
+    {
+      "municipio": "Cúcuta",
+      "divipola": "54001",
+      "es_capital": true,
+      "poblacion_2025": 793211,
+      "poblacion_2026": 792180,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 344,
+          "casos_2025_ene_abr": 84,
+          "casos_2026_ene_abr": 92,
+          "variacion_pct_ene_abr": 9.5,
+          "base_pequena": false,
+          "tasa_2025": 43.4,
+          "tasa_2026_ene_abr": 11.6,
+          "tasa_2026_proyectada": 34.8
+        },
+        "medleg": {
+          "casos_2025_completo": 362,
+          "casos_2025_ene_abr": 87,
+          "casos_2026_ene_abr": 93,
+          "variacion_pct_ene_abr": 6.9,
+          "base_pequena": false,
+          "direccion": "sube",
+          "tasa_2025": 45.6,
+          "tasa_2026_ea": 11.7,
+          "tasa_2026_proyectada": 35.2
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 92,
+          "medleg": 93,
+          "diferencia_abs": -1,
+          "diferencia_pct": -1.1,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 2183,
+          "casos_2025_ene_abr": 841,
+          "casos_2026_ene_abr": 574,
+          "variacion_pct_ene_abr": -31.7,
+          "base_pequena": false,
+          "tasa_2025": 275.2,
+          "tasa_2026_ene_abr": 72.5,
+          "tasa_2026_proyectada": 217.4
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 273,
+          "casos_2025_ene_abr": 103,
+          "casos_2026_ene_abr": 99,
+          "variacion_pct_ene_abr": -3.9,
+          "base_pequena": false,
+          "tasa_2025": 34.4,
+          "tasa_2026_ene_abr": 12.5,
+          "tasa_2026_proyectada": 37.5
+        }
+      }
+    },
+    {
+      "municipio": "Bucaramanga",
+      "divipola": "68001",
+      "es_capital": true,
+      "poblacion_2025": 617659,
+      "poblacion_2026": 618548,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 137,
+          "casos_2025_ene_abr": 37,
+          "casos_2026_ene_abr": 51,
+          "variacion_pct_ene_abr": 37.8,
+          "base_pequena": false,
+          "tasa_2025": 22.2,
+          "tasa_2026_ene_abr": 8.2,
+          "tasa_2026_proyectada": 24.7
+        },
+        "medleg": {
+          "casos_2025_completo": 147,
+          "casos_2025_ene_abr": 38,
+          "casos_2026_ene_abr": 59,
+          "variacion_pct_ene_abr": 55.3,
+          "base_pequena": false,
+          "direccion": "sube",
+          "tasa_2025": 23.8,
+          "tasa_2026_ea": 9.5,
+          "tasa_2026_proyectada": 28.6
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 51,
+          "medleg": 59,
+          "diferencia_abs": -8,
+          "diferencia_pct": -13.6,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 5383,
+          "casos_2025_ene_abr": 1825,
+          "casos_2026_ene_abr": 1564,
+          "variacion_pct_ene_abr": -14.3,
+          "base_pequena": false,
+          "tasa_2025": 871.5,
+          "tasa_2026_ene_abr": 252.9,
+          "tasa_2026_proyectada": 758.6
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 114,
+          "casos_2025_ene_abr": 27,
+          "casos_2026_ene_abr": 32,
+          "variacion_pct_ene_abr": 18.5,
+          "base_pequena": false,
+          "tasa_2025": 18.5,
+          "tasa_2026_ene_abr": 5.2,
+          "tasa_2026_proyectada": 15.5
+        }
+      }
+    },
+    {
+      "municipio": "Ibagué",
+      "divipola": "73001",
+      "es_capital": true,
+      "poblacion_2025": 554947,
+      "poblacion_2026": 557317,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 88,
+          "casos_2025_ene_abr": 27,
+          "casos_2026_ene_abr": 31,
+          "variacion_pct_ene_abr": 14.8,
+          "base_pequena": false,
+          "tasa_2025": 15.9,
+          "tasa_2026_ene_abr": 5.6,
+          "tasa_2026_proyectada": 16.7
+        },
+        "medleg": {
+          "casos_2025_completo": 92,
+          "casos_2025_ene_abr": 32,
+          "casos_2026_ene_abr": 30,
+          "variacion_pct_ene_abr": -6.2,
+          "base_pequena": false,
+          "direccion": "baja",
+          "tasa_2025": 16.6,
+          "tasa_2026_ea": 5.4,
+          "tasa_2026_proyectada": 16.1
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 31,
+          "medleg": 30,
+          "diferencia_abs": 1,
+          "diferencia_pct": 3.3,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 4461,
+          "casos_2025_ene_abr": 1222,
+          "casos_2026_ene_abr": 1556,
+          "variacion_pct_ene_abr": 27.3,
+          "base_pequena": false,
+          "tasa_2025": 803.9,
+          "tasa_2026_ene_abr": 279.2,
+          "tasa_2026_proyectada": 837.6
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 165,
+          "casos_2025_ene_abr": 50,
+          "casos_2026_ene_abr": 76,
+          "variacion_pct_ene_abr": 52,
+          "base_pequena": false,
+          "tasa_2025": 29.7,
+          "tasa_2026_ene_abr": 13.6,
+          "tasa_2026_proyectada": 40.9
+        }
+      }
+    },
+    {
+      "municipio": "Villavicencio",
+      "divipola": "50001",
+      "es_capital": true,
+      "poblacion_2025": 584389,
+      "poblacion_2026": 588645,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 156,
+          "casos_2025_ene_abr": 56,
+          "casos_2026_ene_abr": 43,
+          "variacion_pct_ene_abr": -23.2,
+          "base_pequena": false,
+          "tasa_2025": 26.7,
+          "tasa_2026_ene_abr": 7.3,
+          "tasa_2026_proyectada": 21.9
+        },
+        "medleg": {
+          "casos_2025_completo": 158,
+          "casos_2025_ene_abr": 55,
+          "casos_2026_ene_abr": 48,
+          "variacion_pct_ene_abr": -12.7,
+          "base_pequena": false,
+          "direccion": "baja",
+          "tasa_2025": 27,
+          "tasa_2026_ea": 8.2,
+          "tasa_2026_proyectada": 24.5
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 43,
+          "medleg": 48,
+          "diferencia_abs": -5,
+          "diferencia_pct": -10.4,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 4939,
+          "casos_2025_ene_abr": 1732,
+          "casos_2026_ene_abr": 1542,
+          "variacion_pct_ene_abr": -11,
+          "base_pequena": false,
+          "tasa_2025": 845.2,
+          "tasa_2026_ene_abr": 262,
+          "tasa_2026_proyectada": 785.9
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 341,
+          "casos_2025_ene_abr": 83,
+          "casos_2026_ene_abr": 115,
+          "variacion_pct_ene_abr": 38.6,
+          "base_pequena": false,
+          "tasa_2025": 58.4,
+          "tasa_2026_ene_abr": 19.5,
+          "tasa_2026_proyectada": 58.6
+        }
+      }
+    },
+    {
+      "municipio": "Santa Marta",
+      "divipola": "47001",
+      "es_capital": true,
+      "poblacion_2025": 582394,
+      "poblacion_2026": 588662,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 170,
+          "casos_2025_ene_abr": 56,
+          "casos_2026_ene_abr": 38,
+          "variacion_pct_ene_abr": -32.1,
+          "base_pequena": false,
+          "tasa_2025": 29.2,
+          "tasa_2026_ene_abr": 6.5,
+          "tasa_2026_proyectada": 19.4
+        },
+        "medleg": {
+          "casos_2025_completo": 182,
+          "casos_2025_ene_abr": 60,
+          "casos_2026_ene_abr": 41,
+          "variacion_pct_ene_abr": -31.7,
+          "base_pequena": false,
+          "direccion": "baja",
+          "tasa_2025": 31.3,
+          "tasa_2026_ea": 7,
+          "tasa_2026_proyectada": 20.9
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 38,
+          "medleg": 41,
+          "diferencia_abs": -3,
+          "diferencia_pct": -7.3,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 2720,
+          "casos_2025_ene_abr": 1244,
+          "casos_2026_ene_abr": 697,
+          "variacion_pct_ene_abr": -44,
+          "base_pequena": false,
+          "tasa_2025": 467,
+          "tasa_2026_ene_abr": 118.4,
+          "tasa_2026_proyectada": 355.2
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 154,
+          "casos_2025_ene_abr": 39,
+          "casos_2026_ene_abr": 51,
+          "variacion_pct_ene_abr": 30.8,
+          "base_pequena": false,
+          "tasa_2025": 26.4,
+          "tasa_2026_ene_abr": 8.7,
+          "tasa_2026_proyectada": 26
+        }
+      }
+    },
+    {
+      "municipio": "Pereira",
+      "divipola": "66001",
+      "es_capital": true,
+      "poblacion_2025": 487359,
+      "poblacion_2026": 487820,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 206,
+          "casos_2025_ene_abr": 73,
+          "casos_2026_ene_abr": 57,
+          "variacion_pct_ene_abr": -21.9,
+          "base_pequena": false,
+          "tasa_2025": 42.3,
+          "tasa_2026_ene_abr": 11.7,
+          "tasa_2026_proyectada": 35.1
+        },
+        "medleg": {
+          "casos_2025_completo": 210,
+          "casos_2025_ene_abr": 74,
+          "casos_2026_ene_abr": 59,
+          "variacion_pct_ene_abr": -20.3,
+          "base_pequena": false,
+          "direccion": "baja",
+          "tasa_2025": 43.1,
+          "tasa_2026_ea": 12.1,
+          "tasa_2026_proyectada": 36.3
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 57,
+          "medleg": 59,
+          "diferencia_abs": -2,
+          "diferencia_pct": -3.4,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 2265,
+          "casos_2025_ene_abr": 654,
+          "casos_2026_ene_abr": 896,
+          "variacion_pct_ene_abr": 37,
+          "base_pequena": false,
+          "tasa_2025": 464.7,
+          "tasa_2026_ene_abr": 183.7,
+          "tasa_2026_proyectada": 551
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 107,
+          "casos_2025_ene_abr": 25,
+          "casos_2026_ene_abr": 31,
+          "variacion_pct_ene_abr": 24,
+          "base_pequena": false,
+          "tasa_2025": 22,
+          "tasa_2026_ene_abr": 6.4,
+          "tasa_2026_proyectada": 19.1
+        }
+      }
+    },
+    {
+      "municipio": "Valledupar",
+      "divipola": "20001",
+      "es_capital": true,
+      "poblacion_2025": 615987,
+      "poblacion_2026": 629217,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 112,
+          "casos_2025_ene_abr": 37,
+          "casos_2026_ene_abr": 42,
+          "variacion_pct_ene_abr": 13.5,
+          "base_pequena": false,
+          "tasa_2025": 18.2,
+          "tasa_2026_ene_abr": 6.7,
+          "tasa_2026_proyectada": 20
+        },
+        "medleg": {
+          "casos_2025_completo": 125,
+          "casos_2025_ene_abr": 40,
+          "casos_2026_ene_abr": 44,
+          "variacion_pct_ene_abr": 10,
+          "base_pequena": false,
+          "direccion": "sube",
+          "tasa_2025": 20.3,
+          "tasa_2026_ea": 7,
+          "tasa_2026_proyectada": 21
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 42,
+          "medleg": 44,
+          "diferencia_abs": -2,
+          "diferencia_pct": -4.5,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 2834,
+          "casos_2025_ene_abr": 853,
+          "casos_2026_ene_abr": 848,
+          "variacion_pct_ene_abr": -0.6,
+          "base_pequena": false,
+          "tasa_2025": 460.1,
+          "tasa_2026_ene_abr": 134.8,
+          "tasa_2026_proyectada": 404.3
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 190,
+          "casos_2025_ene_abr": 54,
+          "casos_2026_ene_abr": 85,
+          "variacion_pct_ene_abr": 57.4,
+          "base_pequena": false,
+          "tasa_2025": 30.8,
+          "tasa_2026_ene_abr": 13.5,
+          "tasa_2026_proyectada": 40.5
+        }
+      }
+    },
+    {
+      "municipio": "Montería",
+      "divipola": "23001",
+      "es_capital": true,
+      "poblacion_2025": 574570,
+      "poblacion_2026": 585029,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 43,
+          "casos_2025_ene_abr": 10,
+          "casos_2026_ene_abr": 15,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 7.5,
+          "tasa_2026_ene_abr": 2.6,
+          "tasa_2026_proyectada": 7.7
+        },
+        "medleg": {
+          "casos_2025_completo": 49,
+          "casos_2025_ene_abr": 12,
+          "casos_2026_ene_abr": 19,
+          "variacion_pct_ene_abr": 58.3,
+          "base_pequena": true,
+          "direccion": "sube",
+          "tasa_2025": 8.5,
+          "tasa_2026_ea": 3.2,
+          "tasa_2026_proyectada": 9.7
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 15,
+          "medleg": 19,
+          "diferencia_abs": -4,
+          "diferencia_pct": -21.1,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 1421,
+          "casos_2025_ene_abr": 509,
+          "casos_2026_ene_abr": 336,
+          "variacion_pct_ene_abr": -34,
+          "base_pequena": false,
+          "tasa_2025": 247.3,
+          "tasa_2026_ene_abr": 57.4,
+          "tasa_2026_proyectada": 172.3
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 48,
+          "casos_2025_ene_abr": 16,
+          "casos_2026_ene_abr": 16,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 8.4,
+          "tasa_2026_ene_abr": 2.7,
+          "tasa_2026_proyectada": 8.2
+        }
+      }
+    },
+    {
+      "municipio": "Pasto",
+      "divipola": "52001",
+      "es_capital": true,
+      "poblacion_2025": 404102,
+      "poblacion_2026": 404775,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 42,
+          "casos_2025_ene_abr": 6,
+          "casos_2026_ene_abr": 9,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 10.4,
+          "tasa_2026_ene_abr": 2.2,
+          "tasa_2026_proyectada": 6.7
+        },
+        "medleg": {
+          "casos_2025_completo": 50,
+          "casos_2025_ene_abr": 9,
+          "casos_2026_ene_abr": 10,
+          "variacion_pct_ene_abr": 11.1,
+          "base_pequena": true,
+          "direccion": "sube",
+          "tasa_2025": 12.4,
+          "tasa_2026_ea": 2.5,
+          "tasa_2026_proyectada": 7.4
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 9,
+          "medleg": 10,
+          "diferencia_abs": -1,
+          "diferencia_pct": -10,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 6499,
+          "casos_2025_ene_abr": 1994,
+          "casos_2026_ene_abr": 2668,
+          "variacion_pct_ene_abr": 33.8,
+          "base_pequena": false,
+          "tasa_2025": 1608.3,
+          "tasa_2026_ene_abr": 659.1,
+          "tasa_2026_proyectada": 1977.4
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 65,
+          "casos_2025_ene_abr": 5,
+          "casos_2026_ene_abr": 6,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 16.1,
+          "tasa_2026_ene_abr": 1.5,
+          "tasa_2026_proyectada": 4.4
+        }
+      }
+    },
+    {
+      "municipio": "Manizales",
+      "divipola": "17001",
+      "es_capital": true,
+      "poblacion_2025": 472087,
+      "poblacion_2026": 475690,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 37,
+          "casos_2025_ene_abr": 10,
+          "casos_2026_ene_abr": 18,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 7.8,
+          "tasa_2026_ene_abr": 3.8,
+          "tasa_2026_proyectada": 11.4
+        },
+        "medleg": {
+          "casos_2025_completo": 39,
+          "casos_2025_ene_abr": 11,
+          "casos_2026_ene_abr": 19,
+          "variacion_pct_ene_abr": 72.7,
+          "base_pequena": true,
+          "direccion": "sube",
+          "tasa_2025": 8.3,
+          "tasa_2026_ea": 4,
+          "tasa_2026_proyectada": 12
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 18,
+          "medleg": 19,
+          "diferencia_abs": -1,
+          "diferencia_pct": -5.3,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 673,
+          "casos_2025_ene_abr": 262,
+          "casos_2026_ene_abr": 218,
+          "variacion_pct_ene_abr": -16.8,
+          "base_pequena": false,
+          "tasa_2025": 142.6,
+          "tasa_2026_ene_abr": 45.8,
+          "tasa_2026_proyectada": 137.5
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 39,
+          "casos_2025_ene_abr": 7,
+          "casos_2026_ene_abr": 10,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 8.3,
+          "tasa_2026_ene_abr": 2.1,
+          "tasa_2026_proyectada": 6.3
+        }
+      }
+    },
+    {
+      "municipio": "Neiva",
+      "divipola": "41001",
+      "es_capital": true,
+      "poblacion_2025": 402479,
+      "poblacion_2026": 408218,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 85,
+          "casos_2025_ene_abr": 17,
+          "casos_2026_ene_abr": 23,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 21.1,
+          "tasa_2026_ene_abr": 5.6,
+          "tasa_2026_proyectada": 16.9
+        },
+        "medleg": {
+          "casos_2025_completo": 95,
+          "casos_2025_ene_abr": 25,
+          "casos_2026_ene_abr": 26,
+          "variacion_pct_ene_abr": 4,
+          "base_pequena": false,
+          "direccion": "sube",
+          "tasa_2025": 23.6,
+          "tasa_2026_ea": 6.4,
+          "tasa_2026_proyectada": 19.1
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 23,
+          "medleg": 26,
+          "diferencia_abs": -3,
+          "diferencia_pct": -11.5,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 4476,
+          "casos_2025_ene_abr": 1425,
+          "casos_2026_ene_abr": 1461,
+          "variacion_pct_ene_abr": 2.5,
+          "base_pequena": false,
+          "tasa_2025": 1112.1,
+          "tasa_2026_ene_abr": 357.9,
+          "tasa_2026_proyectada": 1073.7
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 127,
+          "casos_2025_ene_abr": 25,
+          "casos_2026_ene_abr": 50,
+          "variacion_pct_ene_abr": 100,
+          "base_pequena": false,
+          "tasa_2025": 31.6,
+          "tasa_2026_ene_abr": 12.2,
+          "tasa_2026_proyectada": 36.7
+        }
+      }
+    },
+    {
+      "municipio": "Armenia",
+      "divipola": "63001",
+      "es_capital": true,
+      "poblacion_2025": 306682,
+      "poblacion_2026": 307103,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 105,
+          "casos_2025_ene_abr": 32,
+          "casos_2026_ene_abr": 45,
+          "variacion_pct_ene_abr": 40.6,
+          "base_pequena": false,
+          "tasa_2025": 34.2,
+          "tasa_2026_ene_abr": 14.7,
+          "tasa_2026_proyectada": 44
+        },
+        "medleg": {
+          "casos_2025_completo": 106,
+          "casos_2025_ene_abr": 33,
+          "casos_2026_ene_abr": 46,
+          "variacion_pct_ene_abr": 39.4,
+          "base_pequena": false,
+          "direccion": "sube",
+          "tasa_2025": 34.6,
+          "tasa_2026_ea": 15,
+          "tasa_2026_proyectada": 44.9
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 45,
+          "medleg": 46,
+          "diferencia_abs": -1,
+          "diferencia_pct": -2.2,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 960,
+          "casos_2025_ene_abr": 463,
+          "casos_2026_ene_abr": 103,
+          "variacion_pct_ene_abr": -77.8,
+          "base_pequena": false,
+          "tasa_2025": 313,
+          "tasa_2026_ene_abr": 33.5,
+          "tasa_2026_proyectada": 100.6
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 69,
+          "casos_2025_ene_abr": 20,
+          "casos_2026_ene_abr": 16,
+          "variacion_pct_ene_abr": -20,
+          "base_pequena": false,
+          "tasa_2025": 22.5,
+          "tasa_2026_ene_abr": 5.2,
+          "tasa_2026_proyectada": 15.6
+        }
+      }
+    },
+    {
+      "municipio": "Popayán",
+      "divipola": "19001",
+      "es_capital": true,
+      "poblacion_2025": 352150,
+      "poblacion_2026": 355347,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 72,
+          "casos_2025_ene_abr": 27,
+          "casos_2026_ene_abr": 34,
+          "variacion_pct_ene_abr": 25.9,
+          "base_pequena": false,
+          "tasa_2025": 20.4,
+          "tasa_2026_ene_abr": 9.6,
+          "tasa_2026_proyectada": 28.7
+        },
+        "medleg": {
+          "casos_2025_completo": 75,
+          "casos_2025_ene_abr": 27,
+          "casos_2026_ene_abr": 38,
+          "variacion_pct_ene_abr": 40.7,
+          "base_pequena": false,
+          "direccion": "sube",
+          "tasa_2025": 21.3,
+          "tasa_2026_ea": 10.7,
+          "tasa_2026_proyectada": 32.1
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 34,
+          "medleg": 38,
+          "diferencia_abs": -4,
+          "diferencia_pct": -10.5,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 3888,
+          "casos_2025_ene_abr": 1203,
+          "casos_2026_ene_abr": 1544,
+          "variacion_pct_ene_abr": 28.3,
+          "base_pequena": false,
+          "tasa_2025": 1104.1,
+          "tasa_2026_ene_abr": 434.5,
+          "tasa_2026_proyectada": 1303.5
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 173,
+          "casos_2025_ene_abr": 48,
+          "casos_2026_ene_abr": 85,
+          "variacion_pct_ene_abr": 77.1,
+          "base_pequena": false,
+          "tasa_2025": 49.1,
+          "tasa_2026_ene_abr": 23.9,
+          "tasa_2026_proyectada": 71.8
+        }
+      }
+    },
+    {
+      "municipio": "Sincelejo",
+      "divipola": "70001",
+      "es_capital": true,
+      "poblacion_2025": 325685,
+      "poblacion_2026": 331045,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 59,
+          "casos_2025_ene_abr": 21,
+          "casos_2026_ene_abr": 19,
+          "variacion_pct_ene_abr": -9.5,
+          "base_pequena": false,
+          "tasa_2025": 18.1,
+          "tasa_2026_ene_abr": 5.7,
+          "tasa_2026_proyectada": 17.2
+        },
+        "medleg": {
+          "casos_2025_completo": 64,
+          "casos_2025_ene_abr": 24,
+          "casos_2026_ene_abr": 19,
+          "variacion_pct_ene_abr": -20.8,
+          "base_pequena": false,
+          "direccion": "baja",
+          "tasa_2025": 19.7,
+          "tasa_2026_ea": 5.7,
+          "tasa_2026_proyectada": 17.2
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 19,
+          "medleg": 19,
+          "diferencia_abs": 0,
+          "diferencia_pct": 0,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 537,
+          "casos_2025_ene_abr": 227,
+          "casos_2026_ene_abr": 151,
+          "variacion_pct_ene_abr": -33.5,
+          "base_pequena": false,
+          "tasa_2025": 164.9,
+          "tasa_2026_ene_abr": 45.6,
+          "tasa_2026_proyectada": 136.8
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 97,
+          "casos_2025_ene_abr": 46,
+          "casos_2026_ene_abr": 63,
+          "variacion_pct_ene_abr": 37,
+          "base_pequena": false,
+          "tasa_2025": 29.8,
+          "tasa_2026_ene_abr": 19,
+          "tasa_2026_proyectada": 57.1
+        }
+      }
+    },
+    {
+      "municipio": "Riohacha",
+      "divipola": "44001",
+      "es_capital": true,
+      "poblacion_2025": 210871,
+      "poblacion_2026": 211811,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 100,
+          "casos_2025_ene_abr": 29,
+          "casos_2026_ene_abr": 38,
+          "variacion_pct_ene_abr": 31,
+          "base_pequena": false,
+          "tasa_2025": 47.4,
+          "tasa_2026_ene_abr": 17.9,
+          "tasa_2026_proyectada": 53.8
+        },
+        "medleg": {
+          "casos_2025_completo": 110,
+          "casos_2025_ene_abr": 31,
+          "casos_2026_ene_abr": 39,
+          "variacion_pct_ene_abr": 25.8,
+          "base_pequena": false,
+          "direccion": "sube",
+          "tasa_2025": 52.2,
+          "tasa_2026_ea": 18.4,
+          "tasa_2026_proyectada": 55.2
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 38,
+          "medleg": 39,
+          "diferencia_abs": -1,
+          "diferencia_pct": -2.6,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 391,
+          "casos_2025_ene_abr": 130,
+          "casos_2026_ene_abr": 132,
+          "variacion_pct_ene_abr": 1.5,
+          "base_pequena": false,
+          "tasa_2025": 185.4,
+          "tasa_2026_ene_abr": 62.3,
+          "tasa_2026_proyectada": 187
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 71,
+          "casos_2025_ene_abr": 13,
+          "casos_2026_ene_abr": 42,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 33.7,
+          "tasa_2026_ene_abr": 19.8,
+          "tasa_2026_proyectada": 59.5
+        }
+      }
+    },
+    {
+      "municipio": "Quibdó",
+      "divipola": "27001",
+      "es_capital": true,
+      "poblacion_2025": 141778,
+      "poblacion_2026": 143332,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 107,
+          "casos_2025_ene_abr": 36,
+          "casos_2026_ene_abr": 33,
+          "variacion_pct_ene_abr": -8.3,
+          "base_pequena": false,
+          "tasa_2025": 75.5,
+          "tasa_2026_ene_abr": 23,
+          "tasa_2026_proyectada": 69.1
+        },
+        "medleg": {
+          "casos_2025_completo": 115,
+          "casos_2025_ene_abr": 37,
+          "casos_2026_ene_abr": 34,
+          "variacion_pct_ene_abr": -8.1,
+          "base_pequena": false,
+          "direccion": "baja",
+          "tasa_2025": 81.1,
+          "tasa_2026_ea": 23.7,
+          "tasa_2026_proyectada": 71.2
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 33,
+          "medleg": 34,
+          "diferencia_abs": -1,
+          "diferencia_pct": -2.9,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 327,
+          "casos_2025_ene_abr": 98,
+          "casos_2026_ene_abr": 57,
+          "variacion_pct_ene_abr": -41.8,
+          "base_pequena": false,
+          "tasa_2025": 230.6,
+          "tasa_2026_ene_abr": 39.8,
+          "tasa_2026_proyectada": 119.3
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 187,
+          "casos_2025_ene_abr": 79,
+          "casos_2026_ene_abr": 74,
+          "variacion_pct_ene_abr": -6.3,
+          "base_pequena": false,
+          "tasa_2025": 131.9,
+          "tasa_2026_ene_abr": 51.6,
+          "tasa_2026_proyectada": 154.9
+        }
+      }
+    },
+    {
+      "municipio": "Tunja",
+      "divipola": "15001",
+      "es_capital": true,
+      "poblacion_2025": 189660,
+      "poblacion_2026": 191372,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 7,
+          "casos_2025_ene_abr": 2,
+          "casos_2026_ene_abr": 2,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 3.7,
+          "tasa_2026_ene_abr": 1,
+          "tasa_2026_proyectada": 3.1
+        },
+        "medleg": {
+          "casos_2025_completo": 9,
+          "casos_2025_ene_abr": 2,
+          "casos_2026_ene_abr": 4,
+          "variacion_pct_ene_abr": 100,
+          "base_pequena": true,
+          "direccion": "sube",
+          "tasa_2025": 4.7,
+          "tasa_2026_ea": 2.1,
+          "tasa_2026_proyectada": 6.3
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 2,
+          "medleg": 4,
+          "diferencia_abs": -2,
+          "diferencia_pct": -50,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 1178,
+          "casos_2025_ene_abr": 299,
+          "casos_2026_ene_abr": 298,
+          "variacion_pct_ene_abr": -0.3,
+          "base_pequena": false,
+          "tasa_2025": 621.1,
+          "tasa_2026_ene_abr": 155.7,
+          "tasa_2026_proyectada": 467.2
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 57,
+          "casos_2025_ene_abr": 5,
+          "casos_2026_ene_abr": 17,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 30.1,
+          "tasa_2026_ene_abr": 8.9,
+          "tasa_2026_proyectada": 26.6
+        }
+      }
+    },
+    {
+      "municipio": "Florencia",
+      "divipola": "18001",
+      "es_capital": true,
+      "poblacion_2025": 186497,
+      "poblacion_2026": 188620,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 21,
+          "casos_2025_ene_abr": 6,
+          "casos_2026_ene_abr": 15,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 11.3,
+          "tasa_2026_ene_abr": 8,
+          "tasa_2026_proyectada": 23.9
+        },
+        "medleg": {
+          "casos_2025_completo": 27,
+          "casos_2025_ene_abr": 10,
+          "casos_2026_ene_abr": 20,
+          "variacion_pct_ene_abr": 100,
+          "base_pequena": true,
+          "direccion": "sube",
+          "tasa_2025": 14.5,
+          "tasa_2026_ea": 10.6,
+          "tasa_2026_proyectada": 31.8
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 15,
+          "medleg": 20,
+          "diferencia_abs": -5,
+          "diferencia_pct": -25,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 711,
+          "casos_2025_ene_abr": 273,
+          "casos_2026_ene_abr": 250,
+          "variacion_pct_ene_abr": -8.4,
+          "base_pequena": false,
+          "tasa_2025": 381.2,
+          "tasa_2026_ene_abr": 132.5,
+          "tasa_2026_proyectada": 397.6
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 82,
+          "casos_2025_ene_abr": 29,
+          "casos_2026_ene_abr": 21,
+          "variacion_pct_ene_abr": -27.6,
+          "base_pequena": false,
+          "tasa_2025": 44,
+          "tasa_2026_ene_abr": 11.1,
+          "tasa_2026_proyectada": 33.4
+        }
+      }
+    },
+    {
+      "municipio": "Yopal",
+      "divipola": "85001",
+      "es_capital": true,
+      "poblacion_2025": 195600,
+      "poblacion_2026": 198423,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 46,
+          "casos_2025_ene_abr": 21,
+          "casos_2026_ene_abr": 9,
+          "variacion_pct_ene_abr": -57.1,
+          "base_pequena": false,
+          "tasa_2025": 23.5,
+          "tasa_2026_ene_abr": 4.5,
+          "tasa_2026_proyectada": 13.6
+        },
+        "medleg": {
+          "casos_2025_completo": 50,
+          "casos_2025_ene_abr": 21,
+          "casos_2026_ene_abr": 11,
+          "variacion_pct_ene_abr": -47.6,
+          "base_pequena": false,
+          "direccion": "baja",
+          "tasa_2025": 25.6,
+          "tasa_2026_ea": 5.5,
+          "tasa_2026_proyectada": 16.6
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 9,
+          "medleg": 11,
+          "diferencia_abs": -2,
+          "diferencia_pct": -18.2,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 1317,
+          "casos_2025_ene_abr": 462,
+          "casos_2026_ene_abr": 426,
+          "variacion_pct_ene_abr": -7.8,
+          "base_pequena": false,
+          "tasa_2025": 673.3,
+          "tasa_2026_ene_abr": 214.7,
+          "tasa_2026_proyectada": 644.1
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 47,
+          "casos_2025_ene_abr": 5,
+          "casos_2026_ene_abr": 20,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 24,
+          "tasa_2026_ene_abr": 10.1,
+          "tasa_2026_proyectada": 30.2
+        }
+      }
+    },
+    {
+      "municipio": "Arauca",
+      "divipola": "81001",
+      "es_capital": true,
+      "poblacion_2025": 91017,
+      "poblacion_2026": 91253,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 14,
+          "casos_2025_ene_abr": 1,
+          "casos_2026_ene_abr": 2,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 15.4,
+          "tasa_2026_ene_abr": 2.2,
+          "tasa_2026_proyectada": 6.6
+        },
+        "medleg": {
+          "casos_2025_completo": 18,
+          "casos_2025_ene_abr": 2,
+          "casos_2026_ene_abr": 3,
+          "variacion_pct_ene_abr": 50,
+          "base_pequena": true,
+          "direccion": "sube",
+          "tasa_2025": 19.8,
+          "tasa_2026_ea": 3.3,
+          "tasa_2026_proyectada": 9.9
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 2,
+          "medleg": 3,
+          "diferencia_abs": -1,
+          "diferencia_pct": -33.3,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 75,
+          "casos_2025_ene_abr": 17,
+          "casos_2026_ene_abr": 21,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 82.4,
+          "tasa_2026_ene_abr": 23,
+          "tasa_2026_proyectada": 69
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 47,
+          "casos_2025_ene_abr": 11,
+          "casos_2026_ene_abr": 16,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 51.6,
+          "tasa_2026_ene_abr": 17.5,
+          "tasa_2026_proyectada": 52.6
+        }
+      }
+    },
+    {
+      "municipio": "Mocoa",
+      "divipola": "86001",
+      "es_capital": true,
+      "poblacion_2025": 67093,
+      "poblacion_2026": 68328,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 9,
+          "casos_2025_ene_abr": 5,
+          "casos_2026_ene_abr": 8,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 13.4,
+          "tasa_2026_ene_abr": 11.7,
+          "tasa_2026_proyectada": 35.1
+        },
+        "medleg": {
+          "casos_2025_completo": 10,
+          "casos_2025_ene_abr": 5,
+          "casos_2026_ene_abr": 8,
+          "variacion_pct_ene_abr": 60,
+          "base_pequena": true,
+          "direccion": "sube",
+          "tasa_2025": 14.9,
+          "tasa_2026_ea": 11.7,
+          "tasa_2026_proyectada": 35.1
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 8,
+          "medleg": 8,
+          "diferencia_abs": 0,
+          "diferencia_pct": 0,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 150,
+          "casos_2025_ene_abr": 55,
+          "casos_2026_ene_abr": 60,
+          "variacion_pct_ene_abr": 9.1,
+          "base_pequena": false,
+          "tasa_2025": 223.6,
+          "tasa_2026_ene_abr": 87.8,
+          "tasa_2026_proyectada": 263.4
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 15,
+          "casos_2025_ene_abr": 8,
+          "casos_2026_ene_abr": 1,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 22.4,
+          "tasa_2026_ene_abr": 1.5,
+          "tasa_2026_proyectada": 4.4
+        }
+      }
+    },
+    {
+      "municipio": "San Andrés",
+      "divipola": "88001",
+      "es_capital": true,
+      "poblacion_2025": 57118,
+      "poblacion_2026": 57185,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 38,
+          "casos_2025_ene_abr": 6,
+          "casos_2026_ene_abr": 12,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 66.5,
+          "tasa_2026_ene_abr": 21,
+          "tasa_2026_proyectada": 63
+        },
+        "medleg": {
+          "casos_2025_completo": 41,
+          "casos_2025_ene_abr": 5,
+          "casos_2026_ene_abr": 19,
+          "variacion_pct_ene_abr": 280,
+          "base_pequena": true,
+          "direccion": "sube",
+          "tasa_2025": 71.8,
+          "tasa_2026_ea": 33.2,
+          "tasa_2026_proyectada": 99.7
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 12,
+          "medleg": 19,
+          "diferencia_abs": -7,
+          "diferencia_pct": -36.8,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 241,
+          "casos_2025_ene_abr": 71,
+          "casos_2026_ene_abr": 71,
+          "variacion_pct_ene_abr": 0,
+          "base_pequena": false,
+          "tasa_2025": 421.9,
+          "tasa_2026_ene_abr": 124.2,
+          "tasa_2026_proyectada": 372.5
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 4,
+          "casos_2025_ene_abr": 1,
+          "casos_2026_ene_abr": 2,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 7,
+          "tasa_2026_ene_abr": 3.5,
+          "tasa_2026_proyectada": 10.5
+        }
+      }
+    },
+    {
+      "municipio": "Leticia",
+      "divipola": "91001",
+      "es_capital": true,
+      "poblacion_2025": 53670,
+      "poblacion_2026": 54208,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 15,
+          "casos_2025_ene_abr": 5,
+          "casos_2026_ene_abr": 2,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 27.9,
+          "tasa_2026_ene_abr": 3.7,
+          "tasa_2026_proyectada": 11.1
+        },
+        "medleg": {
+          "casos_2025_completo": 17,
+          "casos_2025_ene_abr": 4,
+          "casos_2026_ene_abr": 5,
+          "variacion_pct_ene_abr": 25,
+          "base_pequena": true,
+          "direccion": "sube",
+          "tasa_2025": 31.7,
+          "tasa_2026_ea": 9.2,
+          "tasa_2026_proyectada": 27.7
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 2,
+          "medleg": 5,
+          "diferencia_abs": -3,
+          "diferencia_pct": -60,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 63,
+          "casos_2025_ene_abr": 23,
+          "casos_2026_ene_abr": 11,
+          "variacion_pct_ene_abr": -52.2,
+          "base_pequena": false,
+          "tasa_2025": 117.4,
+          "tasa_2026_ene_abr": 20.3,
+          "tasa_2026_proyectada": 60.9
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": null,
+          "casos_2025_ene_abr": null,
+          "casos_2026_ene_abr": null,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": false,
+          "tasa_2025": 0,
+          "tasa_2026_ene_abr": 0,
+          "tasa_2026_proyectada": 0
+        }
+      }
+    },
+    {
+      "municipio": "Inírida",
+      "divipola": "94001",
+      "es_capital": true,
+      "poblacion_2025": 39735,
+      "poblacion_2026": 40729,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 4,
+          "casos_2025_ene_abr": null,
+          "casos_2026_ene_abr": null,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": false,
+          "tasa_2025": 10.1,
+          "tasa_2026_ene_abr": 0,
+          "tasa_2026_proyectada": 0
+        },
+        "medleg": {
+          "casos_2025_completo": 3,
+          "casos_2025_ene_abr": 0,
+          "casos_2026_ene_abr": 0,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "direccion": "sin base",
+          "tasa_2025": 7.6,
+          "tasa_2026_ea": 0,
+          "tasa_2026_proyectada": 0
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 0,
+          "medleg": 0,
+          "diferencia_abs": 0,
+          "diferencia_pct": null,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 39,
+          "casos_2025_ene_abr": 11,
+          "casos_2026_ene_abr": 9,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 98.2,
+          "tasa_2026_ene_abr": 22.1,
+          "tasa_2026_proyectada": 66.3
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 7,
+          "casos_2025_ene_abr": 2,
+          "casos_2026_ene_abr": 1,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 17.6,
+          "tasa_2026_ene_abr": 2.5,
+          "tasa_2026_proyectada": 7.4
+        }
+      }
+    },
+    {
+      "municipio": "San José del Guaviare",
+      "divipola": "95001",
+      "es_capital": true,
+      "poblacion_2025": 54434,
+      "poblacion_2026": 54519,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 31,
+          "casos_2025_ene_abr": 10,
+          "casos_2026_ene_abr": 4,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 56.9,
+          "tasa_2026_ene_abr": 7.3,
+          "tasa_2026_proyectada": 22
+        },
+        "medleg": {
+          "casos_2025_completo": 41,
+          "casos_2025_ene_abr": 11,
+          "casos_2026_ene_abr": 5,
+          "variacion_pct_ene_abr": -54.5,
+          "base_pequena": true,
+          "direccion": "baja",
+          "tasa_2025": 75.3,
+          "tasa_2026_ea": 9.2,
+          "tasa_2026_proyectada": 27.5
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 4,
+          "medleg": 5,
+          "diferencia_abs": -1,
+          "diferencia_pct": -20,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 124,
+          "casos_2025_ene_abr": 42,
+          "casos_2026_ene_abr": 40,
+          "variacion_pct_ene_abr": -4.8,
+          "base_pequena": false,
+          "tasa_2025": 227.8,
+          "tasa_2026_ene_abr": 73.4,
+          "tasa_2026_proyectada": 220.1
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 47,
+          "casos_2025_ene_abr": 22,
+          "casos_2026_ene_abr": 11,
+          "variacion_pct_ene_abr": -50,
+          "base_pequena": false,
+          "tasa_2025": 86.3,
+          "tasa_2026_ene_abr": 20.2,
+          "tasa_2026_proyectada": 60.5
+        }
+      }
+    },
+    {
+      "municipio": "Mitú",
+      "divipola": "97001",
+      "es_capital": true,
+      "poblacion_2025": 32040,
+      "poblacion_2026": 32260,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 4,
+          "casos_2025_ene_abr": 1,
+          "casos_2026_ene_abr": 2,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 12.5,
+          "tasa_2026_ene_abr": 6.2,
+          "tasa_2026_proyectada": 18.6
+        },
+        "medleg": {
+          "casos_2025_completo": 6,
+          "casos_2025_ene_abr": 3,
+          "casos_2026_ene_abr": 3,
+          "variacion_pct_ene_abr": 0,
+          "base_pequena": true,
+          "direccion": "igual",
+          "tasa_2025": 18.7,
+          "tasa_2026_ea": 9.3,
+          "tasa_2026_proyectada": 27.9
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 2,
+          "medleg": 3,
+          "diferencia_abs": -1,
+          "diferencia_pct": -33.3,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 22,
+          "casos_2025_ene_abr": 5,
+          "casos_2026_ene_abr": 15,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 68.7,
+          "tasa_2026_ene_abr": 46.5,
+          "tasa_2026_proyectada": 139.5
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 2,
+          "casos_2025_ene_abr": null,
+          "casos_2026_ene_abr": null,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": false,
+          "tasa_2025": 6.2,
+          "tasa_2026_ene_abr": 0,
+          "tasa_2026_proyectada": 0
+        }
+      }
+    },
+    {
+      "municipio": "Puerto Carreño",
+      "divipola": "99001",
+      "es_capital": true,
+      "poblacion_2025": 24341,
+      "poblacion_2026": 24697,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 6,
+          "casos_2025_ene_abr": 1,
+          "casos_2026_ene_abr": null,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 24.6,
+          "tasa_2026_ene_abr": 0,
+          "tasa_2026_proyectada": 0
+        },
+        "medleg": {
+          "casos_2025_completo": 7,
+          "casos_2025_ene_abr": 1,
+          "casos_2026_ene_abr": 1,
+          "variacion_pct_ene_abr": 0,
+          "base_pequena": true,
+          "direccion": "igual",
+          "tasa_2025": 28.8,
+          "tasa_2026_ea": 4,
+          "tasa_2026_proyectada": 12.1
+        },
+        "discrepancia": {
+          "periodo": "ene-abr 2026",
+          "policia": 0,
+          "medleg": 1,
+          "diferencia_abs": -1,
+          "diferencia_pct": -100,
+          "nota": "Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)"
+        }
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 32,
+          "casos_2025_ene_abr": 14,
+          "casos_2026_ene_abr": 5,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 131.5,
+          "tasa_2026_ene_abr": 20.2,
+          "tasa_2026_proyectada": 60.7
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 12,
+          "casos_2025_ene_abr": 1,
+          "casos_2026_ene_abr": 5,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 49.3,
+          "tasa_2026_ene_abr": 20.2,
+          "tasa_2026_proyectada": 60.7
+        }
+      }
+    },
+    {
+      "municipio": "Soacha",
+      "divipola": "25754",
+      "es_capital": false,
+      "poblacion_2025": 870077,
+      "poblacion_2026": 895878,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 193,
+          "casos_2025_ene_abr": 58,
+          "casos_2026_ene_abr": 46,
+          "variacion_pct_ene_abr": -20.7,
+          "base_pequena": false,
+          "tasa_2025": 22.2,
+          "tasa_2026_ene_abr": 5.1,
+          "tasa_2026_proyectada": 15.4
+        },
+        "medleg": null,
+        "discrepancia": null
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 5360,
+          "casos_2025_ene_abr": 1597,
+          "casos_2026_ene_abr": 1672,
+          "variacion_pct_ene_abr": 4.7,
+          "base_pequena": false,
+          "tasa_2025": 616,
+          "tasa_2026_ene_abr": 186.6,
+          "tasa_2026_proyectada": 559.9
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 68,
+          "casos_2025_ene_abr": 12,
+          "casos_2026_ene_abr": 20,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 7.8,
+          "tasa_2026_ene_abr": 2.2,
+          "tasa_2026_proyectada": 6.7
+        }
+      }
+    },
+    {
+      "municipio": "Soledad",
+      "divipola": "08758",
+      "es_capital": false,
+      "poblacion_2025": 722845,
+      "poblacion_2026": 733597,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 209,
+          "casos_2025_ene_abr": 70,
+          "casos_2026_ene_abr": 93,
+          "variacion_pct_ene_abr": 32.9,
+          "base_pequena": false,
+          "tasa_2025": 28.9,
+          "tasa_2026_ene_abr": 12.7,
+          "tasa_2026_proyectada": 38
+        },
+        "medleg": null,
+        "discrepancia": null
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 2645,
+          "casos_2025_ene_abr": 618,
+          "casos_2026_ene_abr": 827,
+          "variacion_pct_ene_abr": 33.8,
+          "base_pequena": false,
+          "tasa_2025": 365.9,
+          "tasa_2026_ene_abr": 112.7,
+          "tasa_2026_proyectada": 338.2
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 313,
+          "casos_2025_ene_abr": 65,
+          "casos_2026_ene_abr": 126,
+          "variacion_pct_ene_abr": 93.8,
+          "base_pequena": false,
+          "tasa_2025": 43.3,
+          "tasa_2026_ene_abr": 17.2,
+          "tasa_2026_proyectada": 51.5
+        }
+      }
+    },
+    {
+      "municipio": "Bello",
+      "divipola": "05088",
+      "es_capital": false,
+      "poblacion_2025": 601916,
+      "poblacion_2026": 609168,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 46,
+          "casos_2025_ene_abr": 12,
+          "casos_2026_ene_abr": 7,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 7.6,
+          "tasa_2026_ene_abr": 1.1,
+          "tasa_2026_proyectada": 3.4
+        },
+        "medleg": null,
+        "discrepancia": null
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 2124,
+          "casos_2025_ene_abr": 658,
+          "casos_2026_ene_abr": 749,
+          "variacion_pct_ene_abr": 13.8,
+          "base_pequena": false,
+          "tasa_2025": 352.9,
+          "tasa_2026_ene_abr": 123,
+          "tasa_2026_proyectada": 368.9
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 214,
+          "casos_2025_ene_abr": 62,
+          "casos_2026_ene_abr": 56,
+          "variacion_pct_ene_abr": -9.7,
+          "base_pequena": false,
+          "tasa_2025": 35.6,
+          "tasa_2026_ene_abr": 9.2,
+          "tasa_2026_proyectada": 27.6
+        }
+      }
+    },
+    {
+      "municipio": "Palmira",
+      "divipola": "76520",
+      "es_capital": false,
+      "poblacion_2025": 380980,
+      "poblacion_2026": 382703,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 203,
+          "casos_2025_ene_abr": 65,
+          "casos_2026_ene_abr": 70,
+          "variacion_pct_ene_abr": 7.7,
+          "base_pequena": false,
+          "tasa_2025": 53.3,
+          "tasa_2026_ene_abr": 18.3,
+          "tasa_2026_proyectada": 54.9
+        },
+        "medleg": null,
+        "discrepancia": null
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 1671,
+          "casos_2025_ene_abr": 496,
+          "casos_2026_ene_abr": 456,
+          "variacion_pct_ene_abr": -8.1,
+          "base_pequena": false,
+          "tasa_2025": 438.6,
+          "tasa_2026_ene_abr": 119.2,
+          "tasa_2026_proyectada": 357.5
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 96,
+          "casos_2025_ene_abr": 27,
+          "casos_2026_ene_abr": 49,
+          "variacion_pct_ene_abr": 81.5,
+          "base_pequena": false,
+          "tasa_2025": 25.2,
+          "tasa_2026_ene_abr": 12.8,
+          "tasa_2026_proyectada": 38.4
+        }
+      }
+    },
+    {
+      "municipio": "Itagüí",
+      "divipola": "05360",
+      "es_capital": false,
+      "poblacion_2025": 304527,
+      "poblacion_2026": 306397,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 11,
+          "casos_2025_ene_abr": 4,
+          "casos_2026_ene_abr": 4,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 3.6,
+          "tasa_2026_ene_abr": 1.3,
+          "tasa_2026_proyectada": 3.9
+        },
+        "medleg": null,
+        "discrepancia": null
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 1351,
+          "casos_2025_ene_abr": 414,
+          "casos_2026_ene_abr": 402,
+          "variacion_pct_ene_abr": -2.9,
+          "base_pequena": false,
+          "tasa_2025": 443.6,
+          "tasa_2026_ene_abr": 131.2,
+          "tasa_2026_proyectada": 393.6
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 81,
+          "casos_2025_ene_abr": 20,
+          "casos_2026_ene_abr": 25,
+          "variacion_pct_ene_abr": 25,
+          "base_pequena": false,
+          "tasa_2025": 26.6,
+          "tasa_2026_ene_abr": 8.2,
+          "tasa_2026_proyectada": 24.5
+        }
+      }
+    },
+    {
+      "municipio": "Floridablanca",
+      "divipola": "68276",
+      "es_capital": false,
+      "poblacion_2025": 314188,
+      "poblacion_2026": 315194,
+      "homicidio": {
+        "policia": {
+          "casos_2025_completo": 45,
+          "casos_2025_ene_abr": 9,
+          "casos_2026_ene_abr": 12,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 14.3,
+          "tasa_2026_ene_abr": 3.8,
+          "tasa_2026_proyectada": 11.4
+        },
+        "medleg": null,
+        "discrepancia": null
+      },
+      "hurto_personas": {
+        "policia": {
+          "casos_2025_completo": 1039,
+          "casos_2025_ene_abr": 313,
+          "casos_2026_ene_abr": 404,
+          "variacion_pct_ene_abr": 29.1,
+          "base_pequena": false,
+          "tasa_2025": 330.7,
+          "tasa_2026_ene_abr": 128.2,
+          "tasa_2026_proyectada": 384.5
+        }
+      },
+      "extorsion": {
+        "policia": {
+          "casos_2025_completo": 40,
+          "casos_2025_ene_abr": 8,
+          "casos_2026_ene_abr": 12,
+          "variacion_pct_ene_abr": null,
+          "base_pequena": true,
+          "tasa_2025": 12.7,
+          "tasa_2026_ene_abr": 3.8,
+          "tasa_2026_proyectada": 11.4
+        }
+      }
+    }
+  ]
+}

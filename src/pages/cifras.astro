@@ -1,0 +1,971 @@
+---
+import Layout from "../layouts/Layout.astro";
+import cifrasData from "../data/cifras.data.json";
+
+const data = cifrasData as any;
+const meta = data.meta;
+const nac  = data.nacional;
+
+// Fechas
+const cortePolicia = new Date(meta.corte_policia + 'T00:00:00-05:00')
+  .toLocaleDateString("es-CO", { day: "numeric", month: "long", year: "numeric", timeZone: "America/Bogota" });
+const generadoStr = new Date(meta.generatedAt)
+  .toLocaleDateString("es-CO", { day: "numeric", month: "long", year: "numeric", timeZone: "America/Bogota" });
+
+// Hero
+const totalMunic     = data.municipios.length;
+const totalCapEA2026 = nac.homicidio_capitales_medleg.total_2026;
+const varNacPct      = nac.homicidio_medleg.variacion_pct;
+const topTasa        = [...data.municipios]
+  .filter((m: any) => m.homicidio.policia.tasa_2026_proyectada)
+  .sort((a: any, b: any) => b.homicidio.policia.tasa_2026_proyectada - a.homicidio.policia.tasa_2026_proyectada)[0];
+
+// Paso 3 — nacionales
+const homNac25ea   = nac.homicidio_capitales_medleg.total_2025;
+const homNac26ea   = nac.homicidio_capitales_medleg.total_2026;
+const homNacVar    = nac.homicidio_capitales_medleg.variacion_pct;
+const hurtoNac25ea = data.municipios.reduce((s: number, m: any) => s + (m.hurto_personas.policia.casos_2025_ene_abr ?? 0), 0);
+const hurtoNac26ea = data.municipios.reduce((s: number, m: any) => s + (m.hurto_personas.policia.casos_2026_ene_abr ?? 0), 0);
+const hurtoNacVar  = hurtoNac25ea > 0 ? Math.round(((hurtoNac26ea - hurtoNac25ea) / hurtoNac25ea) * 1000) / 10 : null;
+const extNac25ea   = data.municipios.reduce((s: number, m: any) => s + (m.extorsion.policia.casos_2025_ene_abr ?? 0), 0);
+const extNac26ea   = data.municipios.reduce((s: number, m: any) => s + (m.extorsion.policia.casos_2026_ene_abr ?? 0), 0);
+const extNacVar    = extNac25ea > 0 ? Math.round(((extNac26ea - extNac25ea) / extNac25ea) * 1000) / 10 : null;
+
+// Paso 6 — Discrepancias Policía vs. Medicina Legal (solo 32 capitales)
+const capitalesDisc = (data.municipios as any[]).filter(m => m.es_capital && m.homicidio?.discrepancia);
+const nacPol26ea    = capitalesDisc.reduce((s: number, m: any) => s + (m.homicidio.policia.casos_2026_ene_abr ?? 0), 0);
+const nacMedleg26ea = nac.homicidio_capitales_medleg.total_2026;
+const discNacAbs    = nacPol26ea - nacMedleg26ea;
+const discNacPct    = nacMedleg26ea > 0 ? Math.round((discNacAbs / nacMedleg26ea) * 1000) / 10 : 0;
+const discCiudades  = [...capitalesDisc].sort((a: any, b: any) =>
+  Math.abs(b.homicidio.discrepancia.diferencia_abs) - Math.abs(a.homicidio.discrepancia.diferencia_abs)
+);
+const maxDiscAbs = Math.max(...discCiudades.map((m: any) => Math.abs(m.homicidio.discrepancia.diferencia_abs)));
+
+// Coordenadas de los 38 municipios
+const COORDS: Record<string, [number, number]> = {
+  "11001": [4.7110, -74.0721],   "05001": [6.2518, -75.5636],
+  "76001": [3.4516, -76.5320],   "08001": [10.9685, -74.7813],
+  "13001": [10.3997, -75.5144],  "54001": [7.8939, -72.5078],
+  "68001": [7.1254, -73.1198],   "73001": [4.4389, -75.2322],
+  "50001": [4.1420, -73.6266],   "47001": [11.2408, -74.1990],
+  "66001": [4.8133, -75.6961],   "20001": [10.4631, -73.2532],
+  "23001": [8.7575, -75.8831],   "52001": [1.2136, -77.2811],
+  "17001": [5.0689, -75.5174],   "41001": [2.9273, -75.2820],
+  "63001": [4.5339, -75.6811],   "19001": [2.4448, -76.6147],
+  "70001": [9.3047, -75.3978],   "44001": [11.5444, -72.9072],
+  "27001": [5.6919, -76.6583],   "15001": [5.5353, -73.3678],
+  "18001": [1.6144, -75.6062],   "85001": [5.3378, -72.3956],
+  "81001": [7.0846, -70.7583],   "86001": [1.1522, -76.6498],
+  "88001": [12.5847, -81.7006],  "91001": [-4.2153, -69.9408],
+  "94001": [3.8653, -67.9239],   "95001": [2.5637, -72.6399],
+  "97001": [1.1983, -70.1742],   "99001": [6.1891, -67.4844],
+  "25754": [4.5793, -74.2169],   "08758": [10.9183, -74.7669],
+  "05088": [6.3292, -75.5576],   "76520": [3.5394, -76.3033],
+  "05360": [6.1843, -75.5985],   "68276": [7.0636, -73.0937],
+};
+
+// cityData compacto (Pasos 3, 4 y 5)
+const cityData = [...data.municipios]
+  .sort((a: any, b: any) => a.municipio.localeCompare(b.municipio, "es"))
+  .map((m: any) => {
+    const coord = COORDS[m.divipola] ?? null;
+    return {
+      municipio: m.municipio,
+      div:  m.divipola,
+      cap:  m.es_capital,
+      lat:  coord?.[0] ?? null,
+      lng:  coord?.[1] ?? null,
+      h26:  m.es_capital ? (m.homicidio.medleg?.casos_2026_ene_abr  ?? null) : m.homicidio.policia.casos_2026_ene_abr,
+      h25:  m.es_capital ? (m.homicidio.medleg?.casos_2025_ene_abr  ?? null) : m.homicidio.policia.casos_2025_ene_abr,
+      hv:   m.es_capital ? (m.homicidio.medleg?.variacion_pct_ene_abr ?? null) : m.homicidio.policia.variacion_pct_ene_abr,
+      hbp:  m.es_capital ? (m.homicidio.medleg?.base_pequena ?? false) : m.homicidio.policia.base_pequena,
+      ht:   m.es_capital ? (m.homicidio.medleg?.tasa_2026_ea  ?? null) : m.homicidio.policia.tasa_2026_ene_abr,
+      htp:  m.es_capital ? (m.homicidio.medleg?.tasa_2026_proyectada ?? null) : m.homicidio.policia.tasa_2026_proyectada,
+      hf:   m.es_capital ? "MedLeg (pr)" : "Policía",
+      u26:  m.hurto_personas.policia.casos_2026_ene_abr,
+      u25:  m.hurto_personas.policia.casos_2025_ene_abr,
+      uv:   m.hurto_personas.policia.variacion_pct_ene_abr,
+      ubp:  m.hurto_personas.policia.base_pequena,
+      ut:   m.hurto_personas.policia.tasa_2026_ene_abr,
+      utp:  m.hurto_personas.policia.tasa_2026_proyectada,
+      e26:  m.extorsion.policia.casos_2026_ene_abr,
+      e25:  m.extorsion.policia.casos_2025_ene_abr,
+      ev:   m.extorsion.policia.variacion_pct_ene_abr,
+      ebp:  m.extorsion.policia.base_pequena,
+      et:   m.extorsion.policia.tasa_2026_ene_abr,
+      etp:  m.extorsion.policia.tasa_2026_proyectada,
+    };
+  });
+
+// Helpers Astro (solo template estático)
+function fmtN(n: number | null) { return n !== null && n !== undefined ? n.toLocaleString("es-CO") : null; }
+function fmtPct(v: number | null) { if (v === null) return null; return `${v > 0 ? "+" : ""}${v.toFixed(1).replace(".", ",")}%`; }
+function varCls(v: number | null) { return v === null ? "neutro" : v > 0 ? "sube" : v < 0 ? "baja" : "neutro"; }
+function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : v < 0 ? "↓ " : "→ "; }
+---
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+<Layout
+  title="Gato en Cifras"
+  description="Dashboard de seguridad ciudadana en Colombia: homicidios, hurto a personas y extorsión por ciudad, con tasas x100.000 hab. y contraste entre Policía Nacional y Medicina Legal."
+>
+  <!-- ═══ HERO ═══════════════════════════════════════════════════════════════ -->
+  <section class="cifras-hero">
+    <div class="wrap cifras-hero__inner">
+      <p class="cifras-hero__kicker">Dashboard de seguridad · Colombia</p>
+      <h1 class="cifras-hero__title">Gato en Cifras</h1>
+      <p class="cifras-hero__sub">
+        Homicidios, hurto a personas y extorsión en {totalMunic} municipios —
+        tasas x100.000 hab., contraste Policía vs. Medicina Legal, datos oficiales verificados.
+      </p>
+      <div class="cifras-kpis">
+        <div class="cifras-kpi">
+          <span class="cifras-kpi__num">{varNacPct > 0 ? "+" : ""}{varNacPct.toFixed(1).replace(".", ",")}%</span>
+          <span class="cifras-kpi__label">homicidios nacionales</span>
+          <span class="cifras-kpi__sub">ene-abr 2026 vs. ene-abr 2025 · MedLeg</span>
+        </div>
+        <div class="cifras-kpi">
+          <span class="cifras-kpi__num">{totalCapEA2026.toLocaleString("es-CO")}</span>
+          <span class="cifras-kpi__label">homicidios en capitales</span>
+          <span class="cifras-kpi__sub">ene-abr 2026 · 32 ciudades · MedLeg (pr)</span>
+        </div>
+        <div class="cifras-kpi">
+          <span class="cifras-kpi__num">{topTasa?.homicidio.policia.tasa_2026_proyectada?.toFixed(0)} x100k</span>
+          <span class="cifras-kpi__label">{topTasa?.municipio}</span>
+          <span class="cifras-kpi__sub">mayor tasa proyectada 2026 · Policía (pr)</span>
+        </div>
+        <div class="cifras-kpi">
+          <span class="cifras-kpi__num">{totalMunic}</span>
+          <span class="cifras-kpi__label">ciudades medidas</span>
+          <span class="cifras-kpi__sub">32 capitales + 6 municipios con datos Policía</span>
+        </div>
+      </div>
+      <div class="cifras-corte">
+        <span>Datos Policía al <strong>{cortePolicia}</strong></span>
+        <span class="cifras-corte__sep">·</span>
+        <span>MedLeg corte <strong>abril 2026</strong></span>
+        <span class="cifras-corte__sep">·</span>
+        <span>Actualizado <strong>{generadoStr}</strong></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ AVISO ════════════════════════════════════════════════════════════ -->
+  <section class="section wrap">
+    <div class="cifras-aviso">
+      <p>
+        <strong>Cifras sujetas a variación.</strong> Policía Nacional se actualiza el día 16
+        de cada mes. Medicina Legal: <em>preliminares (pr)</em>, pueden ajustarse.
+        Series comparables desde 2019. Rankings y mapa siempre por
+        <strong>tasa x100.000 hab.</strong>, nunca por absoluto.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══ ANCLAS ══════════════════════════════════════════════════════════ -->
+  <nav class="cifras-anclas wrap" aria-label="Secciones de Gato en Cifras">
+    <span class="cifras-anclas__label">Ir a</span>
+    <a class="cifras-ancla" href="#indicadores">Indicadores</a>
+    <a class="cifras-ancla" href="#mapa">Mapa</a>
+    <a class="cifras-ancla" href="#ranking">Ranking</a>
+    <a class="cifras-ancla" href="#discrepancias">Discrepancias</a>
+    <a class="cifras-ancla" href="#metodologia-cifras">Fuentes</a>
+  </nav>
+
+  <!-- ═══ INDICADORES (Paso 3) ══════════════════════════════════════════════ -->
+  <section class="section wrap" id="indicadores">
+    <h2 class="section__title">Indicadores por ciudad</h2>
+    <p class="section__byline">ene-abr 2026 vs. ene-abr 2025</p>
+
+    <div class="cifras-ind-bloque">
+      <p class="cifras-ind-bloque__label">Resumen · {totalMunic} municipios</p>
+      <div class="cifras-ind-cards">
+        <div class="cifras-ind-card">
+          <span class="cifras-ind-card__tipo">Homicidios</span>
+          <span class="cifras-ind-card__num">{fmtN(homNac26ea)}</span>
+          <span class={`cifras-ind-card__var ${varCls(homNacVar)}`}>{varArrow(homNacVar)}{fmtPct(homNacVar) ?? "—"}</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(homNac25ea)} en ene-abr 2025</span>
+          <div class="cifras-ind-card__footer"><span>32 capitales</span><span>MedLeg (pr)</span></div>
+        </div>
+        <div class="cifras-ind-card">
+          <span class="cifras-ind-card__tipo">Hurto a personas</span>
+          <span class="cifras-ind-card__num">{fmtN(hurtoNac26ea)}</span>
+          <span class={`cifras-ind-card__var ${varCls(hurtoNacVar)}`}>{varArrow(hurtoNacVar)}{fmtPct(hurtoNacVar) ?? "—"}</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(hurtoNac25ea)} en ene-abr 2025</span>
+          <div class="cifras-ind-card__footer"><span>38 municipios</span><span>Policía</span></div>
+        </div>
+        <div class="cifras-ind-card">
+          <span class="cifras-ind-card__tipo">Extorsión</span>
+          <span class="cifras-ind-card__num">{fmtN(extNac26ea)}</span>
+          <span class={`cifras-ind-card__var ${varCls(extNacVar)}`}>{varArrow(extNacVar)}{fmtPct(extNacVar) ?? "—"}</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(extNac25ea)} en ene-abr 2025</span>
+          <div class="cifras-ind-card__footer"><span>38 municipios</span><span>Policía</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cifras-selector-row">
+      <label class="cifras-selector-label" for="ciudad-select">Ver por ciudad</label>
+      <select class="cifras-selector" id="ciudad-select">
+        {cityData.map((c: any) => <option value={c.div}>{c.municipio}</option>)}
+      </select>
+    </div>
+    <div class="cifras-ind-bloque">
+      <p class="cifras-ind-bloque__label" id="ciudad-nombre">—</p>
+      <div class="cifras-ind-cards" id="ciudad-cards"></div>
+    </div>
+  </section>
+
+  <!-- ═══ MAPA + FILTROS DE DELITO (Paso 4) ════════════════════════════════ -->
+  <section class="section wrap" id="mapa">
+    <h2 class="section__title">Mapa por tasa x100.000 hab.</h2>
+    <p class="section__byline">Gato en Cifras · tasa proyectada ene-abr 2026 × 3</p>
+
+    <!-- Los pills controlan MAPA y RANKING a la vez -->
+    <div class="cifras-mapa-filtros">
+      <span class="cifras-mapa-filtros__label">Delito</span>
+      <div class="cifras-mapa-pills" id="delito-pills">
+        <button class="cifras-pill active" data-delito="hom">Homicidios</button>
+        <button class="cifras-pill" data-delito="hur">Hurto personas</button>
+        <button class="cifras-pill" data-delito="ext">Extorsión</button>
+      </div>
+    </div>
+
+    <div class="cifras-mapa-wrap">
+      <div id="cifras-mapa"></div>
+    </div>
+    <div id="mapa-leyenda" class="cifras-mapa-leyenda"></div>
+    <p class="cifras-mapa-nota">
+      Círculos coloreados por tasa proyectada (casos ene-abr × 3 ÷ pob. 2026 × 100.000).
+      Escala por quintiles del delito activo. Municipios sin dato: gris.
+      Homicidios en capitales: MedLeg (pr). No capitales y otros delitos: Policía Nacional.
+    </p>
+  </section>
+
+  <!-- ═══ RANKING (Paso 5) ═════════════════════════════════════════════════ -->
+  <section class="section wrap" id="ranking">
+    <h2 class="section__title" id="ranking-titulo">Ranking por tasa x100.000 hab.</h2>
+    <p class="section__byline">Gato en Cifras · proyección anual ene-abr 2026</p>
+
+    <div class="cifras-ranking-obs" id="ranking-obs"></div>
+
+    <div class="cifras-ranking-header">
+      <span>#</span>
+      <span>Ciudad</span>
+      <span class="rh-barra">Tasa</span>
+      <span class="rh-val">x100k</span>
+      <span class="rh-casos">Casos&nbsp;ea</span>
+    </div>
+    <div id="ranking-lista" class="cifras-ranking-lista"></div>
+
+    <p class="cifras-mapa-nota" style="margin-top:1rem">
+      Tasa proyectada = casos ene-abr × 3 ÷ pob. 2026 × 100.000 (proyección, no dato anual real).
+      ⚠ = base &lt; 20 casos en ene-abr 2025 — variación % suprimida.
+      Hom. en capitales: MedLeg (pr). No capitales y otros delitos: Policía Nacional.
+    </p>
+  </section>
+
+  <!-- ═══ DISCREPANCIAS (Paso 6) ═══════════════════════════════════════════ -->
+  <section class="section wrap" id="discrepancias">
+    <h2 class="section__title">Contador de discrepancias</h2>
+    <p class="section__byline">Policía Nacional vs. Medicina Legal · homicidios · 32 capitales · ene-abr 2026</p>
+
+    <!-- Totales nacionales enfrentados -->
+    <div class="disc-header">
+      <div class="disc-panel disc-panel--pol">
+        <span class="disc-panel__fuente">Policía Nacional</span>
+        <span class="disc-panel__num">{nacPol26ea.toLocaleString("es-CO")}</span>
+        <span class="disc-panel__sub">casos ene-abr 2026 · 32 capitales</span>
+        <span class="disc-panel__nota">Sujetas a variación posterior · SIEDCO</span>
+      </div>
+      <div class="disc-vs">
+        <span>vs.</span>
+        <div class="disc-gap-pill" class:list={[discNacAbs > 0 ? "pol-mayor" : discNacAbs < 0 ? "medleg-mayor" : "igual"]}>
+          {discNacAbs > 0 ? "+" : ""}{discNacAbs.toLocaleString("es-CO")} casos<br/>
+          <span>({discNacPct > 0 ? "+" : ""}{discNacPct.toFixed(1).replace(".", ",")}% vs. MedLeg)</span>
+        </div>
+      </div>
+      <div class="disc-panel disc-panel--med">
+        <span class="disc-panel__fuente">Medicina Legal (pr)</span>
+        <span class="disc-panel__num">{nacMedleg26ea.toLocaleString("es-CO")}</span>
+        <span class="disc-panel__sub">casos ene-abr 2026 · 32 capitales</span>
+        <span class="disc-panel__nota">Cifras preliminares · INMLCF — SIRDEC</span>
+      </div>
+    </div>
+
+    <!-- Por qué difieren -->
+    <div class="disc-explicacion">
+      <p class="disc-exp__titulo">¿Por qué no coinciden?</p>
+      <p>
+        Policía Nacional y Medicina Legal son fuentes <strong>independientes con metodologías distintas</strong>.
+        La Policía registra en el momento del reporte en la escena del crimen —
+        un homicidio queda contabilizado el día que se informa.
+        El INMLCF (Medicina Legal) certifica forense mente cuando el cuerpo llega al sistema médico legal,
+        lo que puede ocurrir días o semanas después, incluso en un mes distinto.
+        Además, Medicina Legal clasifica como homicidio algunos casos que la Policía registra bajo otra categoría,
+        y viceversa. <strong>Ambas fuentes son oficiales.</strong> La brecha no indica error —
+        indica que dos instituciones responsables miden lo mismo desde ángulos distintos.
+      </p>
+      <p class="disc-exp__regla">
+        Esta tabla muestra las 32 capitales ordenadas por la brecha absoluta más grande.
+        Los 6 municipios no capitales no tienen datos de Medicina Legal.
+      </p>
+    </div>
+
+    <!-- Tabla por ciudad -->
+    <div class="disc-tabla-header">
+      <span class="dt-ciudad">Ciudad</span>
+      <span class="dt-pol">Policía</span>
+      <span class="dt-med">MedLeg (pr)</span>
+      <span class="dt-dif">Dif. abs.</span>
+      <span class="dt-barra">Brecha relativa</span>
+      <span class="dt-pct">%</span>
+    </div>
+    <div class="disc-tabla-body">
+      {discCiudades.map((m: any) => {
+        const d = m.homicidio.discrepancia;
+        const pol = d.policia ?? 0, med = d.medleg ?? 0;
+        const difAbs  = d.diferencia_abs  ?? 0;
+        const difPct  = d.diferencia_pct  ?? null;
+        const barW    = maxDiscAbs > 0 ? Math.abs(difAbs) / maxDiscAbs * 100 : 0;
+        const polMayor = difAbs > 0;
+        const igual    = difAbs === 0;
+        return (
+          <div class={`disc-fila${igual ? " disc-fila--igual" : ""}`}>
+            <span class="dt-ciudad">{m.municipio}</span>
+            <span class="dt-pol">{pol.toLocaleString("es-CO")}</span>
+            <span class="dt-med">{med.toLocaleString("es-CO")}</span>
+            <span class={`dt-dif ${polMayor ? "pol-mayor" : !igual ? "medleg-mayor" : ""}`}>
+              {difAbs > 0 ? "+" : ""}{difAbs.toLocaleString("es-CO")}
+            </span>
+            <div class="dt-barra">
+              {!igual && (
+                <div class={`disc-bar-wrap ${polMayor ? "pol-mayor" : "medleg-mayor"}`}>
+                  <div class="disc-bar" style={`width:${barW.toFixed(1)}%`}></div>
+                </div>
+              )}
+            </div>
+            <span class={`dt-pct ${polMayor ? "pol-mayor" : !igual ? "medleg-mayor" : ""}`}>
+              {difPct == null ? "—" : difPct === 0 ? "0,0%" : `${difPct > 0 ? "+" : ""}${difPct.toFixed(1).replace(".", ",")}%`}
+            </span>
+          </div>
+        );
+      })}
+    </div>
+    <p class="cifras-mapa-nota" style="margin-top:.85rem">
+      Dif. = Policía − Medicina Legal en casos ene-abr 2026. Positivo = Policía registra más.
+      Negativo = Medicina Legal registra más. % calculado sobre MedLeg como base.
+      Columna ordenada por brecha absoluta mayor primero.
+    </p>
+  </section>
+
+  <!-- ═══ PIE METODOLÓGICO ══════════════════════════════════════════════════ -->
+  <section class="section wrap cifras-metodologia" id="metodologia-cifras">
+    <h2 class="section__title">Fuentes y metodología</h2>
+    <p class="section__byline">Gato en Cifras</p>
+    <div class="cifras-fuentes">
+      <div class="cifras-fuente">
+        <strong>Homicidios — Policía Nacional</strong>
+        <span>SIEDCO · datos.gov.co · <code>m8fd-ahd9</code></span>
+        <span class="cifras-fuente__nota">Sujeto a variación. Corte: {cortePolicia}.</span>
+      </div>
+      <div class="cifras-fuente">
+        <strong>Hurto a personas — Policía Nacional</strong>
+        <span>SIEDCO · datos.gov.co · <code>4rxi-8m8d</code></span>
+        <span class="cifras-fuente__nota">Sujeto a variación. Corte: {cortePolicia}.</span>
+      </div>
+      <div class="cifras-fuente">
+        <strong>Extorsión — Policía Nacional</strong>
+        <span>SIEDCO · datos.gov.co · <code>q2ib-t9am</code></span>
+        <span class="cifras-fuente__nota">Sujeto a variación. Corte: {cortePolicia}.</span>
+      </div>
+      <div class="cifras-fuente">
+        <strong>Homicidios — Medicina Legal (INMLCF)</strong>
+        <span>SIRDEC · Boletines mensuales 2025-2026</span>
+        <span class="cifras-fuente__nota">Cifras preliminares (pr). Clasificación forense.</span>
+      </div>
+      <div class="cifras-fuente">
+        <strong>Población</strong>
+        <span>DANE · Proyecciones municipales 2018-2042 (CNPV 2018)</span>
+        <span class="cifras-fuente__nota">Tasa = (casos ÷ pob. mismo año) × 100.000.</span>
+      </div>
+    </div>
+    <p class="cifras-metodologia__nota">
+      Policía y Medicina Legal son fuentes independientes con metodologías distintas —
+      la Policía registra en el momento del reporte; MedLeg certifica forense mente.
+      Ambas son oficiales. El contador de discrepancias muestra la brecha sin juzgarla.
+    </p>
+  </section>
+</Layout>
+
+<style>
+/* ── Anclas ───────────────────────────────────────────────────────────────── */
+.cifras-anclas {
+  display: flex; align-items: center; gap: 0.5rem 1rem; flex-wrap: wrap;
+  padding: 0.65rem 0; border-bottom: 1px solid var(--border);
+  font-size: 0.75rem;
+}
+.cifras-anclas__label {
+  font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--ink-soft); margin-right: 0.25rem; white-space: nowrap;
+}
+.cifras-ancla {
+  color: var(--ink-soft); text-decoration: none; padding: 0.2rem 0.55rem;
+  border: 1px solid transparent; border-radius: 6px; transition: all 0.15s; white-space: nowrap;
+}
+.cifras-ancla:hover { border-color: rgba(230,179,0,0.4); color: var(--accent); }
+
+/* ── Hero ─────────────────────────────────────────────────────────────────── */
+.cifras-hero {
+  background: linear-gradient(180deg, rgba(5,5,8,0) 0%, var(--bg) 100%), var(--surface);
+  border-bottom: 1px solid var(--border); padding: 3.5rem 0 2.5rem;
+}
+.cifras-hero__inner { max-width: 900px; }
+.cifras-hero__kicker {
+  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;
+}
+.cifras-hero__title {
+  font-family: var(--font-display); font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 900; line-height: 1.1; color: var(--ink); margin-bottom: 0.75rem;
+}
+.cifras-hero__sub {
+  font-size: 1rem; color: var(--ink-soft); max-width: 680px;
+  margin-bottom: 2.5rem; line-height: 1.6;
+}
+.cifras-kpis {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+  gap: 1.25rem; margin-bottom: 2rem;
+}
+.cifras-kpi {
+  background: var(--surface-2); border: 1px solid var(--border);
+  border-top: 3px solid var(--accent); border-radius: var(--radius);
+  padding: 1.25rem 1.5rem; display: flex; flex-direction: column; gap: 0.2rem;
+}
+.cifras-kpi__num {
+  font-family: var(--font-display); font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 900; color: var(--ink); line-height: 1; font-variant-numeric: tabular-nums;
+}
+.cifras-kpi__label {
+  font-size: 0.78rem; font-weight: 700; color: var(--ink);
+  text-transform: uppercase; letter-spacing: 0.04em; margin-top: 0.35rem;
+}
+.cifras-kpi__sub { font-size: 0.7rem; color: var(--ink-soft); line-height: 1.4; }
+.cifras-corte {
+  display: flex; flex-wrap: wrap; gap: 0.4rem 0.75rem;
+  font-size: 0.75rem; color: var(--ink-soft); align-items: center;
+}
+.cifras-corte__sep { opacity: 0.4; }
+.cifras-corte strong { color: var(--ink); }
+
+/* ── Aviso ────────────────────────────────────────────────────────────────── */
+.cifras-aviso {
+  background: rgba(230,179,0,0.07); border: 1px solid rgba(230,179,0,0.25);
+  border-left: 4px solid var(--accent); border-radius: var(--radius);
+  padding: 1rem 1.25rem; font-size: 0.82rem; color: var(--ink-soft); line-height: 1.6;
+}
+.cifras-aviso strong, .cifras-aviso em { color: var(--ink); }
+
+/* ── Indicadores ──────────────────────────────────────────────────────────── */
+.cifras-ind-bloque { margin-bottom: 1.75rem; }
+.cifras-ind-bloque__label {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--accent); margin-bottom: 0.75rem;
+}
+.cifras-ind-cards {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem; min-height: 140px;
+}
+.cifras-ind-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-top: 3px solid var(--accent); border-radius: var(--radius);
+  padding: 1.1rem 1.25rem 0.9rem;
+  display: flex; flex-direction: column; gap: 0.15rem;
+  position: relative; overflow: hidden;
+}
+.cifras-ind-card::before {
+  content: ""; position: absolute; top: -40px; left: -40px;
+  width: 130px; height: 130px;
+  background: radial-gradient(circle, rgba(230,179,0,0.08) 0%, transparent 70%);
+  opacity: 0; transition: opacity 0.3s;
+}
+.cifras-ind-card:hover::before { opacity: 1; }
+.cifras-ind-card__tipo {
+  font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 0.25rem;
+}
+.cifras-ind-card__num {
+  font-family: var(--font-display); font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 900; color: var(--ink); line-height: 1.05; font-variant-numeric: tabular-nums;
+}
+.cifras-ind-card__num .sin-dato {
+  font-size: 0.95rem; font-weight: 600; color: var(--ink-soft); font-family: var(--font-body);
+}
+.cifras-ind-card__var { font-size: 0.82rem; font-weight: 700; margin-top: 0.2rem; }
+.cifras-ind-card__var.sube  { color: #c0553b; }
+.cifras-ind-card__var.baja  { color: #3d8a6b; }
+.cifras-ind-card__var.neutro{ color: var(--ink-soft); }
+.cifras-ind-card__var.base-p { font-size: 0.72rem; font-weight: 400; color: var(--ink-soft); font-style: italic; }
+.cifras-ind-card__tasa { font-size: 0.72rem; color: var(--ink-soft); line-height: 1.4; margin-top: 0.15rem; }
+.cifras-ind-card__footer {
+  display: flex; justify-content: space-between; font-size: 0.65rem; color: var(--ink-soft);
+  margin-top: auto; padding-top: 0.6rem; border-top: 1px solid var(--border); opacity: 0.7;
+}
+.cifras-selector-row { display: flex; align-items: center; gap: 0.75rem; margin: 0.5rem 0 1.5rem; }
+.cifras-selector-label { font-size: 0.78rem; font-weight: 700; color: var(--ink-soft); white-space: nowrap; }
+.cifras-selector {
+  background: var(--surface-2); border: 1px solid rgba(230,179,0,0.35);
+  border-radius: 8px; color: var(--ink); font-family: var(--font-body);
+  font-size: 0.85rem; padding: 0.45rem 0.85rem; cursor: pointer; flex: 1; max-width: 340px;
+}
+.cifras-selector:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px rgba(230,179,0,0.2); }
+
+/* ── Mapa ─────────────────────────────────────────────────────────────────── */
+.cifras-mapa-filtros {
+  display: flex; align-items: center; gap: 0.85rem; margin-bottom: 1rem; flex-wrap: wrap;
+}
+.cifras-mapa-filtros__label {
+  font-size: 0.75rem; font-weight: 700; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: 0.06em;
+}
+.cifras-mapa-pills { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.cifras-pill {
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px;
+  color: var(--ink-soft); font-size: 0.78rem; font-weight: 600;
+  padding: 0.35rem 0.85rem; cursor: pointer; transition: all 0.18s;
+}
+.cifras-pill:hover { border-color: rgba(230,179,0,0.5); color: var(--ink); }
+.cifras-pill.active { background: rgba(230,179,0,0.15); border-color: var(--accent); color: var(--accent); }
+.cifras-mapa-wrap { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); margin-bottom: 0.75rem; }
+#cifras-mapa { height: 520px; width: 100%; background: var(--surface-2); }
+:global(.leaflet-container)              { background: #1a2030 !important; font-family: var(--font-body) !important; }
+:global(.leaflet-popup-content-wrapper) { background: #1e2535 !important; color: #f0f4f8 !important; border: 1px solid rgba(255,255,255,0.1) !important; border-radius: 10px !important; box-shadow: 0 4px 20px rgba(0,0,0,0.5) !important; }
+:global(.leaflet-popup-tip)             { background: #1e2535 !important; }
+:global(.leaflet-popup-close-button)    { color: #8892a4 !important; }
+:global(.leaflet-control-zoom a)        { background: #1e2535 !important; color: #f0f4f8 !important; border-color: rgba(255,255,255,0.1) !important; }
+:global(.leaflet-control-attribution)   { background: rgba(13,17,23,0.75) !important; color: #8892a4 !important; font-size: 0.6rem !important; }
+:global(.leaflet-control-attribution a){ color: #e6b300 !important; }
+.cifras-mapa-leyenda {
+  display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center;
+  margin-bottom: 0.75rem; font-size: 0.72rem; color: var(--ink-soft);
+}
+.cifras-mapa-leyenda-item { display: flex; align-items: center; gap: 0.35rem; }
+.cifras-mapa-leyenda-dot  { width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0; border: 1px solid rgba(255,255,255,0.2); }
+.cifras-mapa-nota { font-size: 0.72rem; color: var(--ink-soft); line-height: 1.6; margin-top: 0.25rem; }
+
+/* ── Ranking ──────────────────────────────────────────────────────────────── */
+.cifras-ranking-obs {
+  background: rgba(230,179,0,0.05);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 0.75rem 1rem 0.75rem 1.1rem;
+  font-size: 0.82rem; color: var(--ink-soft); line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+.cifras-ranking-obs strong { color: var(--ink); }
+
+.cifras-ranking-header {
+  display: grid;
+  grid-template-columns: 2.2rem 1fr 120px 70px 70px;
+  gap: 0.5rem;
+  padding: 0.35rem 0.6rem;
+  font-size: 0.63rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--ink-soft);
+  border-bottom: 1px solid var(--border);
+}
+.rh-barra, .rh-val, .rh-casos { text-align: right; }
+
+.cifras-ranking-lista { margin-bottom: 0.5rem; }
+.ranking-row {
+  display: grid;
+  grid-template-columns: 2.2rem 1fr 120px 70px 70px;
+  gap: 0.5rem;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  align-items: center;
+  transition: background 0.15s;
+}
+.ranking-row:hover { background: var(--surface); }
+.ranking-row--sin-dato { opacity: 0.4; }
+
+.rr-pos {
+  font-size: 0.78rem; color: var(--ink-soft);
+  font-variant-numeric: tabular-nums; text-align: right;
+}
+.rr-pos--dest { color: var(--accent); font-weight: 800; font-size: 0.85rem; }
+
+.rr-nombre { font-size: 0.82rem; color: var(--ink); line-height: 1.3; }
+.rr-tag {
+  display: inline-block; font-size: 0.57rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.04em;
+  padding: 0.1em 0.4em; border-radius: 3px; margin-left: 0.35rem; vertical-align: middle;
+}
+.rr-tag--abs { background: rgba(230,179,0,0.15); color: var(--accent); }
+.rr-warn { color: #c0553b; font-size: 0.72rem; margin-left: 0.15rem; }
+
+.rr-barra-wrap {
+  height: 7px; background: rgba(255,255,255,0.07);
+  border-radius: 4px; overflow: hidden;
+}
+.rr-barra { height: 100%; border-radius: 4px; transition: width 0.45s ease; }
+
+.rr-tasa {
+  font-size: 0.8rem; font-weight: 700; color: var(--ink);
+  font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap;
+}
+.rr-tasa.sin-dato { color: var(--ink-soft); font-weight: 400; }
+
+.rr-casos {
+  font-size: 0.7rem; color: var(--ink-soft);
+  text-align: right; line-height: 1.3; white-space: nowrap;
+}
+
+.ranking-sep {
+  padding: 0.4rem 0.6rem;
+  font-size: 0.65rem; color: var(--ink-soft);
+  border-top: 1px dashed rgba(255,255,255,0.08);
+  border-bottom: 1px solid var(--border);
+  opacity: 0.6; margin: 0.25rem 0;
+}
+
+/* ── Discrepancias ────────────────────────────────────────────────────────── */
+.disc-header {
+  display: grid; grid-template-columns: 1fr auto 1fr; gap: 1.25rem;
+  align-items: center; margin-bottom: 2rem;
+}
+.disc-panel {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 1.4rem 1.6rem;
+  display: flex; flex-direction: column; gap: 0.25rem;
+}
+.disc-panel--pol { border-top: 3px solid #4a7fa5; }
+.disc-panel--med { border-top: 3px solid #6a8a6a; }
+.disc-panel__fuente {
+  font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--ink-soft); margin-bottom: 0.2rem;
+}
+.disc-panel__num {
+  font-family: var(--font-display); font-size: clamp(2rem, 3.5vw, 2.8rem);
+  font-weight: 900; color: var(--ink); line-height: 1; font-variant-numeric: tabular-nums;
+}
+.disc-panel__sub  { font-size: 0.72rem; color: var(--ink-soft); line-height: 1.4; margin-top: 0.1rem; }
+.disc-panel__nota { font-size: 0.65rem; color: var(--ink-soft); font-style: italic; opacity: 0.7; }
+.disc-vs {
+  display: flex; flex-direction: column; align-items: center; gap: 0.75rem;
+  font-size: 0.9rem; font-weight: 700; color: var(--ink-soft);
+}
+.disc-gap-pill {
+  background: var(--surface-2); border: 1px solid var(--border);
+  border-radius: 10px; padding: 0.55rem 0.9rem;
+  text-align: center; font-size: 0.78rem; font-weight: 700;
+  color: var(--ink); line-height: 1.5;
+}
+.disc-gap-pill span { font-size: 0.68rem; font-weight: 400; color: var(--ink-soft); }
+.disc-gap-pill.pol-mayor    { border-color: rgba(74,127,165,0.5); }
+.disc-gap-pill.medleg-mayor { border-color: rgba(106,138,106,0.5); }
+
+.disc-explicacion {
+  background: var(--surface); border: 1px solid var(--border);
+  border-left: 4px solid rgba(230,179,0,0.5);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1.1rem 1.4rem; margin-bottom: 1.75rem; line-height: 1.7;
+}
+.disc-exp__titulo {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--accent); margin-bottom: 0.6rem;
+}
+.disc-explicacion p  { font-size: 0.83rem; color: var(--ink-soft); margin: 0 0 0.6rem; }
+.disc-explicacion p:last-child { margin-bottom: 0; }
+.disc-explicacion strong { color: var(--ink); }
+.disc-exp__regla { font-style: italic; font-size: 0.75rem !important; opacity: 0.75; }
+
+.disc-tabla-header {
+  display: grid; grid-template-columns: 1fr 80px 90px 80px 1fr 60px;
+  gap: 0.4rem; padding: 0.3rem 0.6rem;
+  font-size: 0.62rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.05em; color: var(--ink-soft);
+  border-bottom: 1px solid var(--border);
+}
+.disc-tabla-header .dt-pol,
+.disc-tabla-header .dt-med,
+.disc-tabla-header .dt-dif,
+.disc-tabla-header .dt-pct { text-align: right; }
+
+.disc-tabla-body { margin-bottom: 0.25rem; }
+.disc-fila {
+  display: grid; grid-template-columns: 1fr 80px 90px 80px 1fr 60px;
+  gap: 0.4rem; padding: 0.42rem 0.6rem;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  align-items: center; font-size: 0.79rem;
+  transition: background 0.14s;
+}
+.disc-fila:hover  { background: var(--surface); }
+.disc-fila--igual { opacity: 0.55; }
+
+.dt-ciudad { color: var(--ink); line-height: 1.3; }
+.dt-pol, .dt-med { text-align: right; color: var(--ink); font-variant-numeric: tabular-nums; }
+.dt-dif, .dt-pct {
+  text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.dt-dif.pol-mayor, .dt-pct.pol-mayor       { color: #4a7fa5; }
+.dt-dif.medleg-mayor, .dt-pct.medleg-mayor { color: #6a8a6a; }
+
+.disc-bar-wrap { height: 6px; background: rgba(255,255,255,0.07); border-radius: 3px; overflow: hidden; }
+.disc-bar      { height: 100%; border-radius: 3px; }
+.disc-bar-wrap.pol-mayor .disc-bar    { background: #4a7fa5; }
+.disc-bar-wrap.medleg-mayor .disc-bar { background: #6a8a6a; }
+
+@media (max-width: 700px) {
+  .disc-header { grid-template-columns: 1fr; gap: 0.75rem; }
+  .disc-vs { flex-direction: row; }
+  .disc-tabla-header,
+  .disc-fila { grid-template-columns: 1fr 65px 70px 55px; }
+  .disc-tabla-header .dt-barra,
+  .disc-fila .dt-barra,
+  .disc-tabla-header .dt-pct,
+  .disc-fila .dt-pct { display: none; }
+}
+
+/* ── Placeholder ──────────────────────────────────────────────────────────── */
+.cifras-coming {
+  border: 1px dashed rgba(255,255,255,0.12); border-radius: var(--radius);
+  padding: 2.5rem; text-align: center; color: var(--ink-soft); font-size: 0.85rem; opacity: 0.5;
+}
+
+/* ── Fuentes ──────────────────────────────────────────────────────────────── */
+.cifras-fuentes {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem; margin-bottom: 1.5rem;
+}
+.cifras-fuente {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 1rem 1.25rem;
+  display: flex; flex-direction: column; gap: 0.2rem;
+}
+.cifras-fuente strong { font-size: 0.82rem; color: var(--ink); }
+.cifras-fuente span   { font-size: 0.75rem; color: var(--ink-soft); }
+.cifras-fuente code   { font-size: 0.7rem; background: var(--surface-2); padding: 0.1em 0.35em; border-radius: 4px; color: var(--accent); }
+.cifras-fuente__nota  { margin-top: 0.3rem; font-style: italic; opacity: 0.7; }
+.cifras-metodologia__nota {
+  font-size: 0.8rem; color: var(--ink-soft); line-height: 1.7;
+  border-top: 1px solid var(--border); padding-top: 1.25rem;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .cifras-kpis { grid-template-columns: repeat(2, 1fr); }
+  .cifras-ind-cards { grid-template-columns: 1fr; }
+  #cifras-mapa { height: 380px; }
+  .cifras-ranking-header,
+  .ranking-row {
+    grid-template-columns: 1.8rem 1fr 60px 55px;
+  }
+  .rh-barra, .rr-barra-wrap { display: none; }
+}
+</style>
+
+<!-- Leaflet JS ──────────────────────────────────────────────────────────────── -->
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLs=" crossorigin=""></script>
+
+<!-- App: Pasos 3, 4 y 5 ────────────────────────────────────────────────────── -->
+<script is:inline define:vars={{ cityData }}>
+/* ══════════════ HELPERS ════════════════════════════════════════════════════ */
+function numCO(n) { return (n !== null && n !== undefined) ? n.toLocaleString("es-CO") : null; }
+function tasaStr(t) { return (t !== null && t !== undefined) ? t.toFixed(1).replace(".", ",") + " x100k" : null; }
+function varHtml(v, bp) {
+  if (bp) return '<span class="cifras-ind-card__var base-p">⚠ base &lt; 20 casos — variación no significativa</span>';
+  if (v === null || v === undefined) return '<span class="cifras-ind-card__var neutro">—</span>';
+  const s = v > 0 ? "+" : "", a = v > 0 ? "↑ " : v < 0 ? "↓ " : "→ ";
+  const c = v > 0 ? "sube" : v < 0 ? "baja" : "neutro";
+  return `<span class="cifras-ind-card__var ${c}">${a}${s}${v.toFixed(1).replace(".",",")}%</span>`;
+}
+
+/* ══════════════ SELECTORES DE DELITO ═══════════════════════════════════════ */
+function getTasa(c, d)  { return d === "hom" ? c.htp : d === "hur" ? c.utp : c.etp; }
+function getCasos(c, d) { return d === "hom" ? c.h26 : d === "hur" ? c.u26 : c.e26; }
+function getFuente(c,d) { return d === "hom" ? c.hf  : "Policía"; }
+function getBP(c, d)    { return d === "hom" ? c.hbp : d === "hur" ? c.ubp : c.ebp; }
+function getLabel(d) {
+  return d === "hom" ? "Homicidios" : d === "hur" ? "Hurto a personas" : "Extorsión";
+}
+
+/* ══════════════ ESCALA DE COLOR ════════════════════════════════════════════ */
+const PAL = ["#f0d9a8","#e0a96a","#cc7840","#b54e2e","#8a2018"];
+const SIN_COLOR = "#3a4050";
+
+function quintiles(vals) {
+  const s = [...vals].filter(v => v != null).sort((a,b) => a - b);
+  if (!s.length) return [0,10,20,40,60,100];
+  const q = i => s[Math.floor((i/5)*s.length)] ?? s[s.length-1];
+  return [s[0], q(1), q(2), q(3), q(4), s[s.length-1]];
+}
+function palColor(t, brks) {
+  if (t == null) return SIN_COLOR;
+  for (let i = 0; i < PAL.length; i++) if (t <= brks[i+1]) return PAL[i];
+  return PAL[PAL.length-1];
+}
+
+/* ══════════════ PASO 3 — SELECTOR DE CIUDAD ════════════════════════════════ */
+function kpiCard(tipo, n26, n25, vari, bp, tasa, fuente) {
+  const ant = numCO(n25);
+  const ts  = tasaStr(tasa);
+  const nl  = n26 != null ? numCO(n26) : '<span class="sin-dato">sin dato</span>';
+  const tl  = ts ? `${ts} · vs. ${ant ?? "—"} ene-abr 2025` : `vs. ${ant ?? "—"} ene-abr 2025`;
+  return `<div class="cifras-ind-card">
+    <span class="cifras-ind-card__tipo">${tipo}</span>
+    <span class="cifras-ind-card__num">${nl}</span>
+    ${varHtml(vari, bp)}
+    <span class="cifras-ind-card__tasa">${tl}</span>
+    <div class="cifras-ind-card__footer"><span>ene-abr 2026</span><span>${fuente}</span></div>
+  </div>`;
+}
+function renderCity(c) {
+  document.getElementById("ciudad-nombre").textContent = c.municipio;
+  document.getElementById("ciudad-cards").innerHTML = [
+    kpiCard("Homicidios",       c.h26, c.h25, c.hv, c.hbp, c.ht, c.hf),
+    kpiCard("Hurto a personas", c.u26, c.u25, c.uv, c.ubp, c.ut, "Policía"),
+    kpiCard("Extorsión",        c.e26, c.e25, c.ev, c.ebp, c.et, "Policía"),
+  ].join("");
+}
+const sel = document.getElementById("ciudad-select");
+const def = cityData.find(c => c.div === "11001") ?? cityData[0];
+if (def) { sel.value = def.div; renderCity(def); }
+sel.addEventListener("change", () => {
+  const c = cityData.find(c => c.div === sel.value);
+  if (c) renderCity(c);
+});
+
+/* ══════════════ PASO 4 — MAPA ══════════════════════════════════════════════ */
+const map = L.map("cifras-mapa", { center: [4.5, -74.5], zoom: 5, scrollWheelZoom: false });
+L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", {
+  attribution: '© <a href="https://carto.com/">CartoDB</a> · © <a href="https://osm.org/copyright">OSM</a>',
+  maxZoom: 14,
+}).addTo(map);
+const mLayer = L.layerGroup().addTo(map);
+
+function renderMapa(d) {
+  mLayer.clearLayers();
+  const brks = quintiles(cityData.map(c => getTasa(c, d)));
+  cityData.forEach(c => {
+    if (c.lat == null) return;
+    const t  = getTasa(c, d);
+    const cc = getCasos(c, d);
+    const f  = getFuente(c, d);
+    L.circleMarker([c.lat, c.lng], {
+      radius: 9, fillColor: palColor(t, brks),
+      color: "rgba(0,0,0,0.35)", weight: 1, fillOpacity: 0.88,
+    }).bindPopup(`
+      <div style="min-width:175px;line-height:1.5">
+        <strong style="font-size:.94rem">${c.municipio}</strong><br>
+        <span style="font-size:.7rem;color:#8892a4;text-transform:uppercase;letter-spacing:.05em">${getLabel(d)}</span><br>
+        <span style="font-size:.86rem">Casos ene-abr 2026: <strong>${cc != null ? numCO(cc) : "sin dato"}</strong></span><br>
+        <span style="font-size:.86rem">Tasa proy.: ${t != null ? "<strong>" + t.toFixed(1).replace(".",",") + " x100k</strong>" : "sin dato"}</span><br>
+        <span style="font-size:.67rem;color:#8892a4;display:block;margin-top:3px">Fuente: ${f} · ene-abr 2026</span>
+      </div>`, { maxWidth: 230 }).addTo(mLayer);
+  });
+  // Leyenda
+  const items = PAL.map((col, i) => {
+    const lo = i === 0 ? "0" : brks[i].toFixed(0);
+    const hi = i === PAL.length-1 ? brks[i+1].toFixed(0)+"+" : brks[i+1].toFixed(0);
+    return `<div class="cifras-mapa-leyenda-item"><div class="cifras-mapa-leyenda-dot" style="background:${col}"></div><span>${lo}–${hi}</span></div>`;
+  }).join("") + `<div class="cifras-mapa-leyenda-item"><div class="cifras-mapa-leyenda-dot" style="background:${SIN_COLOR}"></div><span>sin dato</span></div>`;
+  document.getElementById("mapa-leyenda").innerHTML =
+    `<span style="font-size:.67rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-right:.25rem">Tasa x100k</span>` + items;
+}
+
+/* ══════════════ PASO 5 — RANKING ═══════════════════════════════════════════ */
+function renderRanking(d) {
+  const brks    = quintiles(cityData.map(c => getTasa(c, d)));
+  const sorted  = [...cityData].sort((a, b) => {
+    const ta = getTasa(a, d) ?? -1, tb = getTasa(b, d) ?? -1;
+    return tb - ta;
+  });
+  const conDato = sorted.filter(c => getTasa(c, d) != null);
+  const sinDato = sorted.filter(c => getTasa(c, d) == null);
+  const maxTasa = conDato.length ? getTasa(conDato[0], d) : 1;
+
+  // Ciudad con más casos absolutos
+  const maxAbsCity = [...cityData].sort((a, b) => (getCasos(b,d) ?? 0) - (getCasos(a,d) ?? 0))[0];
+  const maxAbsRank = conDato.findIndex(c => c.div === maxAbsCity?.div) + 1;
+  const topCity    = conDato[0];
+
+  // Titular dinámico
+  document.getElementById("ranking-titulo").textContent =
+    `${getLabel(d)} — ranking por tasa x100.000 hab.`;
+
+  // Observación
+  let obs = "";
+  if (topCity && maxAbsCity && topCity.div !== maxAbsCity.div) {
+    const topT = getTasa(topCity, d)?.toFixed(1).replace(".", ",");
+    const macC = numCO(getCasos(maxAbsCity, d));
+    obs = `<strong>${topCity.municipio}</strong> lidera en tasa (${topT} x100k proyectado).
+      <strong>${maxAbsCity.municipio}</strong>, con más casos en absoluto (${macC}),
+      ocupa el puesto <strong>${maxAbsRank}</strong> en tasa —
+      el tamaño de una ciudad no define su nivel de violencia por habitante.`;
+  } else if (topCity) {
+    const topT = getTasa(topCity, d)?.toFixed(1).replace(".", ",");
+    obs = `<strong>${topCity.municipio}</strong> lidera tanto en tasa (${topT} x100k) como en casos absolutos para ${getLabel(d).toLowerCase()}.`;
+  }
+  document.getElementById("ranking-obs").innerHTML = obs;
+
+  // Filas
+  function row(c, pos) {
+    const t    = getTasa(c, d);
+    const cc   = getCasos(c, d);
+    const f    = getFuente(c, d);
+    const bp   = getBP(c, d);
+    const isAbsTop = c.div === maxAbsCity?.div;
+    if (t == null) {
+      return `<div class="ranking-row ranking-row--sin-dato">
+        <span class="rr-pos">${pos}</span>
+        <span class="rr-nombre">${c.municipio}</span>
+        <div class="rr-barra-wrap"></div>
+        <span class="rr-tasa sin-dato">sin dato</span>
+        <span class="rr-casos">${cc != null ? numCO(cc) : "—"}</span>
+      </div>`;
+    }
+    const bw  = maxTasa > 0 ? (t / maxTasa * 100).toFixed(1) : 0;
+    const col = palColor(t, brks);
+    const tStr = t.toFixed(1).replace(".", ",");
+    const absTag = isAbsTop ? ` <span class="rr-tag rr-tag--abs">↑ casos abs.</span>` : "";
+    const warn   = bp ? ` <span class="rr-warn" title="Base &lt; 20 casos en 2025">⚠</span>` : "";
+    return `<div class="ranking-row">
+      <span class="rr-pos${pos <= 5 ? " rr-pos--dest" : ""}">${pos}</span>
+      <span class="rr-nombre">${c.municipio}${absTag}${warn}</span>
+      <div class="rr-barra-wrap"><div class="rr-barra" style="width:${bw}%;background:${col}"></div></div>
+      <span class="rr-tasa">${tStr}</span>
+      <span class="rr-casos">${cc != null ? numCO(cc) : "—"}<br><span style="font-size:.62rem;opacity:.6">${f}</span></span>
+    </div>`;
+  }
+
+  const rowsHTML = conDato.map((c, i) => row(c, i + 1)).join("");
+  const sepHTML  = sinDato.length
+    ? `<div class="ranking-sep">Sin dato suficiente (${sinDato.length} ciudad${sinDato.length > 1 ? "es" : ""})</div>`
+      + sinDato.map((c, i) => row(c, conDato.length + i + 1)).join("")
+    : "";
+  document.getElementById("ranking-lista").innerHTML = rowsHTML + sepHTML;
+}
+
+/* ══════════════ ESTADO COMPARTIDO Y FILTROS ════════════════════════════════ */
+let activeDelito = "hom";
+
+function updateAll(d) {
+  renderMapa(d);
+  renderRanking(d);
+}
+
+updateAll(activeDelito);
+
+document.querySelectorAll("[data-delito]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll("[data-delito]").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    activeDelito = btn.dataset.delito;
+    updateAll(activeDelito);
+  });
+});
+</script>

@@ -1,0 +1,22 @@
+{
+  "generado": "2026-07-14T21:31:32.888Z",
+  "nota": "IDs de datasets SIEDCO verificados con consulta en vivo. Reverificar en cada ciclo mensual con ?$limit=3.",
+  "corte_actual": "2026-05-31",
+  "datasets": {
+    "homicidio": {
+      "id": "m8fd-ahd9",
+      "url": "https://www.datos.gov.co/resource/m8fd-ahd9.json",
+      "nombre": "HOMICIDIO — Policía Nacional (SIEDCO)"
+    },
+    "hurto_personas": {
+      "id": "4rxi-8m8d",
+      "url": "https://www.datos.gov.co/resource/4rxi-8m8d.json",
+      "nombre": "HURTO A PERSONAS — Policía Nacional (SIEDCO)"
+    },
+    "extorsion": {
+      "id": "q2ib-t9am",
+      "url": "https://www.datos.gov.co/resource/q2ib-t9am.json",
+      "nombre": "EXTORSIÓN — Policía Nacional (SIEDCO)"
+    }
+  }
+}

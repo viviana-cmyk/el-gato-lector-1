@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "fuente": "DANE — Proyecciones de Población Municipal 2018-2042 (CNPV 2018)",
+    "url_fuente": "https://www.dane.gov.co/files/censo2018/proyecciones-de-poblacion/Municipal/PPED-AreaMun-2018-2042_VP.xlsx",
+    "anios_incluidos": [
+      2025,
+      2026
+    ],
+    "fecha_preparacion": "2026-07-14",
+    "estado": "COMPLETO",
+    "uso": "Denominador para tasas x100.000 habitantes.",
+    "REGLA": "Usar la población del MISMO año que los casos. Tasa 2025 -> poblacion_2025. Tasa 2026 -> poblacion_2026. Para periodos parciales (ej. ene-abr 2026), anualizar los casos (casos x 12/meses) antes de dividir, y ETIQUETAR el resultado como proyección.",
+    "cobertura": "38 municipios = 32 capitales (con datos de Medicina Legal, permiten el contador de discrepancias) + 6 no capitales (Soacha, Soledad, Bello, Palmira, Itagüí, Floridablanca; solo datos de Policía)."
+  },
+  "municipios": [
+    {
+      "municipio": "Bogotá D.C.",
+      "divipola": "11001",
+      "poblacion_2025": 7942867,
+      "poblacion_2026": 7945996,
+      "crecimiento_pct": 0.04
+    },
+    {
+      "municipio": "Medellín",
+      "divipola": "05001",
+      "poblacion_2025": 2528343,
+      "poblacion_2026": 2526795,
+      "crecimiento_pct": -0.06
+    },
+    {
+      "municipio": "Santiago de Cali",
+      "divipola": "76001",
+      "poblacion_2025": 2277296,
+      "poblacion_2026": 2269983,
+      "crecimiento_pct": -0.32
+    },
+    {
+      "municipio": "Barranquilla",
+      "divipola": "08001",
+      "poblacion_2025": 1279344,
+      "poblacion_2026": 1275854,
+      "crecimiento_pct": -0.27
+    },
+    {
+      "municipio": "Cartagena de Indias",
+      "divipola": "13001",
+      "poblacion_2025": 1011520,
+      "poblacion_2026": 1010995,
+      "crecimiento_pct": -0.05
+    },
+    {
+      "municipio": "Cúcuta",
+      "divipola": "54001",
+      "poblacion_2025": 793211,
+      "poblacion_2026": 792180,
+      "crecimiento_pct": -0.13
+    },
+    {
+      "municipio": "Bucaramanga",
+      "divipola": "68001",
+      "poblacion_2025": 617659,
+      "poblacion_2026": 618548,
+      "crecimiento_pct": 0.14
+    },
+    {
+      "municipio": "Ibagué",
+      "divipola": "73001",
+      "poblacion_2025": 554947,
+      "poblacion_2026": 557317,
+      "crecimiento_pct": 0.43
+    },
+    {
+      "municipio": "Villavicencio",
+      "divipola": "50001",
+      "poblacion_2025": 584389,
+      "poblacion_2026": 588645,
+      "crecimiento_pct": 0.73
+    },
+    {
+      "municipio": "Santa Marta",
+      "divipola": "47001",
+      "poblacion_2025": 582394,
+      "poblacion_2026": 588662,
+      "crecimiento_pct": 1.08
+    },
+    {
+      "municipio": "Pereira",
+      "divipola": "66001",
+      "poblacion_2025": 487359,
+      "poblacion_2026": 487820,
+      "crecimiento_pct": 0.09
+    },
+    {
+      "municipio": "Valledupar",
+      "divipola": "20001",
+      "poblacion_2025": 615987,
+      "poblacion_2026": 629217,
+      "crecimiento_pct": 2.15
+    },
+    {
+      "municipio": "Montería",
+      "divipola": "23001",
+      "poblacion_2025": 574570,
+      "poblacion_2026": 585029,
+      "crecimiento_pct": 1.82
+    },
+    {
+      "municipio": "Pasto",
+      "divipola": "52001",
+      "poblacion_2025": 404102,
+      "poblacion_2026": 404775,
+      "crecimiento_pct": 0.17
+    },
+    {
+      "municipio": "Manizales",
+      "divipola": "17001",
+      "poblacion_2025": 472087,
+      "poblacion_2026": 475690,
+      "crecimiento_pct": 0.76
+    },
+    {
+      "municipio": "Neiva",
+      "divipola": "41001",
+      "poblacion_2025": 402479,
+      "poblacion_2026": 408218,
+      "crecimiento_pct": 1.43
+    },
+    {
+      "municipio": "Armenia",
+      "divipola": "63001",
+      "poblacion_2025": 306682,
+      "poblacion_2026": 307103,
+      "crecimiento_pct": 0.14
+    },
+    {
+      "municipio": "Popayán",
+      "divipola": "19001",
+      "poblacion_2025": 352150,
+      "poblacion_2026": 355347,
+      "crecimiento_pct": 0.91
+    },
+    {
+      "municipio": "Sincelejo",
+      "divipola": "70001",
+      "poblacion_2025": 325685,
+      "poblacion_2026": 331045,
+      "crecimiento_pct": 1.65
+    },
+    {
+      "municipio": "Riohacha",
+      "divipola": "44001",
+      "poblacion_2025": 210871,
+      "poblacion_2026": 211811,
+      "crecimiento_pct": 0.45
+    },
+    {
+      "municipio": "Quibdó",
+      "divipola": "27001",
+      "poblacion_2025": 141778,
+      "poblacion_2026": 143332,
+      "crecimiento_pct": 1.1
+    },
+    {
+      "municipio": "Tunja",
+      "divipola": "15001",
+      "poblacion_2025": 189660,
+      "poblacion_2026": 191372,
+      "crecimiento_pct": 0.9
+    },
+    {
+      "municipio": "Florencia",
+      "divipola": "18001",
+      "poblacion_2025": 186497,
+      "poblacion_2026": 188620,
+      "crecimiento_pct": 1.14
+    },
+    {
+      "municipio": "Yopal",
+      "divipola": "85001",
+      "poblacion_2025": 195600,
+      "poblacion_2026": 198423,
+      "crecimiento_pct": 1.44
+    },
+    {
+      "municipio": "Arauca",
+      "divipola": "81001",
+      "poblacion_2025": 91017,
+      "poblacion_2026": 91253,
+      "crecimiento_pct": 0.26
+    },
+    {
+      "municipio": "Mocoa",
+      "divipola": "86001",
+      "poblacion_2025": 67093,
+      "poblacion_2026": 68328,
+      "crecimiento_pct": 1.84
+    },
+    {
+      "municipio": "San Andrés",
+      "divipola": "88001",
+      "poblacion_2025": 57118,
+      "poblacion_2026": 57185,
+      "crecimiento_pct": 0.12
+    },
+    {
+      "municipio": "Leticia",
+      "divipola": "91001",
+      "poblacion_2025": 53670,
+      "poblacion_2026": 54208,
+      "crecimiento_pct": 1.0
+    },
+    {
+      "municipio": "Inírida",
+      "divipola": "94001",
+      "poblacion_2025": 39735,
+      "poblacion_2026": 40729,
+      "crecimiento_pct": 2.5
+    },
+    {
+      "municipio": "San José del Guaviare",
+      "divipola": "95001",
+      "poblacion_2025": 54434,
+      "poblacion_2026": 54519,
+      "crecimiento_pct": 0.16
+    },
+    {
+      "municipio": "Mitú",
+      "divipola": "97001",
+      "poblacion_2025": 32040,
+      "poblacion_2026": 32260,
+      "crecimiento_pct": 0.69
+    },
+    {
+      "municipio": "Puerto Carreño",
+      "divipola": "99001",
+      "poblacion_2025": 24341,
+      "poblacion_2026": 24697,
+      "crecimiento_pct": 1.46
+    },
+    {
+      "municipio": "Soacha",
+      "divipola": "25754",
+      "poblacion_2025": 870077,
+      "poblacion_2026": 895878,
+      "crecimiento_pct": 2.97
+    },
+    {
+      "municipio": "Soledad",
+      "divipola": "08758",
+      "poblacion_2025": 722845,
+      "poblacion_2026": 733597,
+      "crecimiento_pct": 1.49
+    },
+    {
+      "municipio": "Bello",
+      "divipola": "05088",
+      "poblacion_2025": 601916,
+      "poblacion_2026": 609168,
+      "crecimiento_pct": 1.2
+    },
+    {
+      "municipio": "Palmira",
+      "divipola": "76520",
+      "poblacion_2025": 380980,
+      "poblacion_2026": 382703,
+      "crecimiento_pct": 0.45
+    },
+    {
+      "municipio": "Itagüí",
+      "divipola": "05360",
+      "poblacion_2025": 304527,
+      "poblacion_2026": 306397,
+      "crecimiento_pct": 0.61
+    },
+    {
+      "municipio": "Floridablanca",
+      "divipola": "68276",
+      "poblacion_2025": 314188,
+      "poblacion_2026": 315194,
+      "crecimiento_pct": 0.32
+    }
+  ]
+}
