@@ -110,7 +110,7 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
   description="Dashboard de seguridad ciudadana en Colombia: homicidios, hurto a personas y extorsión por ciudad, con tasas x100.000 hab. y contraste entre Policía Nacional y Medicina Legal."
 >
   <Fragment slot="head">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
   </Fragment>
   <!-- ═══ HERO ═══════════════════════════════════════════════════════════════ -->
   <section class="cifras-hero">
@@ -767,7 +767,7 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
 </style>
 
 <!-- Leaflet JS ──────────────────────────────────────────────────────────────── -->
-<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script is:inline src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <!-- App: Pasos 3, 4 y 5 ────────────────────────────────────────────────────── -->
 <script is:inline define:vars={{ cityData }}>
@@ -838,15 +838,21 @@ sel.addEventListener("change", () => {
 });
 
 /* ══════════════ PASO 4 — MAPA ══════════════════════════════════════════════ */
-const map = L.map("cifras-mapa", { center: [4.5, -74.5], zoom: 5, scrollWheelZoom: false });
-L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", {
-  attribution: '© <a href="https://carto.com/">CartoDB</a> · © <a href="https://osm.org/copyright">OSM</a>',
-  maxZoom: 14,
-}).addTo(map);
-const mLayer = L.layerGroup().addTo(map);
+if (typeof L === 'undefined') {
+  document.getElementById('cifras-mapa').innerHTML =
+    '<p style="display:flex;align-items:center;justify-content:center;height:100%;color:#8892a4;font-size:.85rem">El mapa no pudo cargar — verifica tu conexión y recarga la página.</p>';
+}
+const map = typeof L !== 'undefined' && L.map("cifras-mapa", { center: [4.5, -74.5], zoom: 5, scrollWheelZoom: false });
+if (map) {
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", {
+    attribution: '© <a href="https://carto.com/">CartoDB</a> · © <a href="https://osm.org/copyright">OSM</a>',
+    maxZoom: 14,
+  }).addTo(map);
+}
+const mLayer = map ? L.layerGroup().addTo(map) : null;
 
 function renderMapa(d) {
-  mLayer.clearLayers();
+  if (!mLayer) return;
   const brks = quintiles(cityData.map(c => getTasa(c, d)));
   cityData.forEach(c => {
     if (c.lat == null) return;
