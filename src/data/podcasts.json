@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T10:01:35.804Z",
+  "generatedAt": "2026-07-18T10:01:27.969Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -29,14 +29,14 @@
   ],
   "mundo": [
     {
-      "title": "The Joe Rogan Experience",
-      "host": "Joe Rogan",
-      "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272"
-    },
-    {
       "title": "The Daily",
       "host": "The New York Times",
       "url": "https://podcasts.apple.com/us/podcast/the-daily/id1200361736"
+    },
+    {
+      "title": "The Joe Rogan Experience",
+      "host": "Joe Rogan",
+      "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272"
     },
     {
       "title": "Crime Junkie",
