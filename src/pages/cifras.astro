@@ -256,8 +256,8 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
     </div>
     <div id="mapa-leyenda" class="cifras-mapa-leyenda"></div>
     <p class="cifras-mapa-nota">
-      Círculos coloreados por tasa proyectada (casos ene-abr × 3 ÷ pob. 2026 × 100.000).
-      Escala por quintiles del delito activo. Municipios sin dato: gris oscuro.
+      Mapa de calor por tasa proyectada (casos ene-abr × 3 ÷ pob. 2026 × 100.000).
+      Los puntos marcan las 38 ciudades — clic para ver detalle. Sin dato: gris.
       Todas las cifras: Policía Nacional (SIEDCO).
     </p>
   </section>
@@ -474,7 +474,7 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
 .cifras-pill:hover { border-color: rgba(230,179,0,0.5); color: var(--ink); }
 .cifras-pill.active { background: rgba(230,179,0,0.15); border-color: var(--accent); color: var(--accent); }
 .cifras-mapa-wrap { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); margin-bottom: 0.75rem; }
-#cifras-mapa { height: 520px; width: 100%; background: var(--surface-2); }
+#cifras-mapa { height: 580px; width: 100%; background: var(--surface-2); }
 :global(.leaflet-container)              { background: #1a2030 !important; font-family: var(--font-body) !important; }
 :global(.leaflet-popup-content-wrapper) { background: #1e2535 !important; color: #f0f4f8 !important; border: 1px solid rgba(255,255,255,0.1) !important; border-radius: 10px !important; box-shadow: 0 4px 20px rgba(0,0,0,0.5) !important; }
 :global(.leaflet-popup-tip)             { background: #1e2535 !important; }
@@ -599,6 +599,7 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
 
 <!-- Leaflet JS ──────────────────────────────────────────────────────────────── -->
 <script is:inline src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script is:inline src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
 
 <!-- App ──────────────────────────────────────────────────────────────────────── -->
 <script is:inline define:vars={{ cityData }}>
@@ -685,7 +686,10 @@ if (typeof L === 'undefined') {
   document.getElementById('cifras-mapa').innerHTML =
     '<p style="display:flex;align-items:center;justify-content:center;height:100%;color:#8892a4;font-size:.85rem">El mapa no pudo cargar — verifica tu conexión y recarga la página.</p>';
 }
-const map = typeof L !== 'undefined' && L.map("cifras-mapa", { center: [4.5, -74.5], zoom: 5, scrollWheelZoom: false });
+const map = typeof L !== 'undefined' && L.map("cifras-mapa", {
+  center: [4.5, -74.5], zoom: 5, scrollWheelZoom: false,
+  zoomControl: true,
+});
 if (map) {
   L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", {
     attribution: '© <a href="https://carto.com/">CartoDB</a> · © <a href="https://osm.org/copyright">OSM</a>',
@@ -693,28 +697,77 @@ if (map) {
   }).addTo(map);
 }
 const mLayer = map ? L.layerGroup().addTo(map) : null;
+let heatLayer = null;
+
+// Control "Ver todas las ciudades"
+if (map) {
+  const FitControl = L.Control.extend({
+    options: { position: 'topright' },
+    onAdd() {
+      const btn = L.DomUtil.create('button', '');
+      btn.innerHTML = '⊞ Ver todas las ciudades';
+      btn.style.cssText = 'background:rgba(26,32,48,.92);color:#e6b300;border:1px solid rgba(230,179,0,.4);border-radius:6px;padding:6px 11px;font-size:.7rem;font-weight:700;cursor:pointer;font-family:inherit;letter-spacing:.04em;white-space:nowrap;box-shadow:0 2px 6px rgba(0,0,0,.4);';
+      L.DomEvent.on(btn, 'click', function(e) {
+        L.DomEvent.stopPropagation(e);
+        L.DomEvent.preventDefault(e);
+        const pts = cityData.filter(c => c.lat != null).map(c => [c.lat, c.lng]);
+        if (pts.length) map.fitBounds(L.latLngBounds(pts), { padding: [50, 50] });
+      });
+      return btn;
+    }
+  });
+  new FitControl().addTo(map);
+}
 
 function renderMapa(d) {
-  if (!mLayer) return;
-  mLayer.clearLayers();
+  if (!map) return;
+
+  // Limpiar capas anteriores
+  if (mLayer) mLayer.clearLayers();
+  if (heatLayer) { map.removeLayer(heatLayer); heatLayer = null; }
+
   const brks = quintiles(cityData.map(c => getTasa(c, d)));
+  const maxT = cityData.reduce((m, c) => Math.max(m, getTasa(c, d) ?? 0), 0) || 1;
+
+  // ── Capa de calor ──────────────────────────────────────────────────────
+  if (typeof L.heatLayer !== 'undefined') {
+    const heatData = cityData
+      .filter(c => c.lat != null && getTasa(c, d) != null)
+      .map(c => [c.lat, c.lng, getTasa(c, d) / maxT]);
+    if (heatData.length) {
+      heatLayer = L.heatLayer(heatData, {
+        radius: 70,
+        blur: 55,
+        maxZoom: 10,
+        gradient: { 0: 'rgba(0,0,0,0)', 0.2: '#f0d9a8', 0.5: '#cc7840', 0.75: '#b54e2e', 1: '#8a2018' },
+      }).addTo(map);
+    }
+  }
+
+  // ── Marcadores de ciudad (clickables) ──────────────────────────────────
   cityData.forEach(c => {
     if (c.lat == null) return;
     const t  = getTasa(c, d);
     const cc = getCasos(c, d);
+    const col = palColor(t, brks);
     L.circleMarker([c.lat, c.lng], {
-      radius: 9, fillColor: palColor(t, brks),
-      color: "rgba(0,0,0,0.35)", weight: 1, fillOpacity: 0.88,
+      radius: t != null ? 7 : 5,
+      fillColor: col,
+      color: t != null ? 'rgba(255,255,255,0.5)' : 'rgba(255,255,255,0.15)',
+      weight: 1.5,
+      fillOpacity: t != null ? 0.95 : 0.4,
     }).bindPopup(`
-      <div style="min-width:175px;line-height:1.5">
-        <strong style="font-size:.94rem">${c.municipio}</strong><br>
-        <span style="font-size:.7rem;color:#8892a4;text-transform:uppercase;letter-spacing:.05em">${getLabel(d)}</span><br>
-        <span style="font-size:.86rem">Casos ene-abr 2026: <strong>${cc != null ? numCO(cc) : "sin dato"}</strong></span><br>
-        <span style="font-size:.86rem">Tasa proy.: ${t != null ? "<strong>" + t.toFixed(1).replace(".",",") + " x100k</strong>" : "sin dato"}</span><br>
-        <span style="font-size:.67rem;color:#8892a4;display:block;margin-top:3px">Policía Nacional · ene-abr 2026</span>
-      </div>`, { maxWidth: 230 }).addTo(mLayer);
+      <div style="min-width:185px;line-height:1.6">
+        <strong style="font-size:.96rem">${c.municipio}</strong><br>
+        <span style="font-size:.68rem;color:#8892a4;text-transform:uppercase;letter-spacing:.06em">${getLabel(d)}</span><br>
+        <hr style="border:none;border-top:1px solid rgba(255,255,255,.1);margin:5px 0">
+        <span style="font-size:.84rem">Casos ene-abr 2026: <strong>${cc != null ? numCO(cc) : "sin dato"}</strong></span><br>
+        <span style="font-size:.84rem">Tasa proyectada: ${t != null ? "<strong>" + t.toFixed(1).replace(".",",") + " x100k</strong>" : "sin dato"}</span><br>
+        <span style="font-size:.65rem;color:#8892a4;margin-top:4px;display:block">Policía Nacional · ene-abr 2026</span>
+      </div>`, { maxWidth: 240 }).addTo(mLayer);
   });
-  // Leyenda
+
+  // ── Leyenda ────────────────────────────────────────────────────────────
   const items = PAL.map((col, i) => {
     const lo = i === 0 ? "0" : brks[i].toFixed(0);
     const hi = i === PAL.length-1 ? brks[i+1].toFixed(0)+"+" : brks[i+1].toFixed(0);
