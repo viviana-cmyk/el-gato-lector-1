@@ -228,9 +228,9 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
         {cityData.map((c: any) => <option value={c.div}>{c.municipio}</option>)}
       </select>
     </div>
-    <div class="cifras-ind-bloque">
-      <p class="cifras-ind-bloque__label" id="ciudad-nombre">—</p>
-      <div class="cifras-ind-cards" id="ciudad-cards"></div>
+    <div class="cifras-ciudad-bloque">
+      <p class="cifras-ciudad-nombre" id="ciudad-nombre">—</p>
+      <div class="cifras-ciudad-cards" id="ciudad-cards"></div>
     </div>
   </section>
 
@@ -584,10 +584,74 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
   border-top: 1px solid var(--border); padding-top: 1.25rem;
 }
 
+/* ── Cards por ciudad (container scoped, clases de cards con :global) ─────── */
+.cifras-ciudad-bloque { margin-bottom: 1rem; }
+.cifras-ciudad-nombre {
+  font-size: 0.85rem; font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--accent);
+  margin-bottom: 0.9rem; display: flex; align-items: center; gap: 0.5rem;
+}
+.cifras-ciudad-nombre::before {
+  content: ""; display: inline-block; width: 3px; height: 1em;
+  background: var(--accent); border-radius: 2px;
+}
+.cifras-ciudad-cards {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.85rem;
+}
+
+/* :global porque el JS inserta este DOM dinámicamente */
+:global(.ck) {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 1rem 1.15rem 0.9rem;
+  display: flex; flex-direction: column; gap: 0.3rem;
+  border-top: 2px solid var(--border);
+  transition: border-color 0.15s, background 0.15s;
+  position: relative; overflow: hidden;
+}
+:global(.ck::before) {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0;
+  width: 3px; background: var(--accent); border-radius: 0;
+}
+:global(.ck__tipo) {
+  font-size: 0.65rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--ink-soft); margin-left: 0.1rem;
+}
+:global(.ck__main) {
+  display: flex; align-items: baseline; gap: 0.55rem; flex-wrap: wrap;
+  margin-top: 0.1rem;
+}
+:global(.ck__num) {
+  font-family: var(--font-display); font-size: clamp(1.4rem, 2.2vw, 1.85rem);
+  font-weight: 900; color: var(--ink); line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+:global(.ck__num .sin-dato) {
+  font-size: 0.9rem; font-weight: 500; color: var(--ink-soft);
+  font-family: var(--font-body);
+}
+:global(.ck__badge) {
+  font-size: 0.7rem; font-weight: 700;
+  padding: 0.2em 0.6em; border-radius: 5px; white-space: nowrap;
+  line-height: 1.4;
+}
+:global(.ck__badge--sube)  { background: rgba(192,85,59,.18);  color: #e07060; }
+:global(.ck__badge--baja)  { background: rgba(61,138,107,.18); color: #5aaa88; }
+:global(.ck__badge--neutro){ background: rgba(255,255,255,.06); color: var(--ink-soft); }
+:global(.ck__badge--warn)  { background: rgba(230,179,0,.12);  color: var(--accent); font-size: 0.62rem; }
+:global(.ck__tasa) {
+  font-size: 0.72rem; color: var(--ink-soft); line-height: 1.45;
+  margin-top: 0.15rem;
+}
+:global(.ck__tasa strong) { color: var(--ink); font-weight: 700; }
+
 /* ── Responsive ───────────────────────────────────────────────────────────── */
+@media (max-width: 700px) {
+  .cifras-ciudad-cards { grid-template-columns: repeat(2, 1fr); }
+}
 @media (max-width: 600px) {
   .cifras-kpis { grid-template-columns: repeat(2, 1fr); }
   .cifras-ind-cards { grid-template-columns: 1fr; }
+  .cifras-ciudad-cards { grid-template-columns: repeat(2, 1fr); }
   #cifras-mapa { height: 380px; }
   .cifras-ranking-header,
   .ranking-row {
@@ -605,14 +669,6 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
 <script is:inline define:vars={{ cityData }}>
 /* ══════════════ HELPERS ════════════════════════════════════════════════════ */
 function numCO(n) { return (n !== null && n !== undefined) ? n.toLocaleString("es-CO") : null; }
-function tasaStr(t) { return (t !== null && t !== undefined) ? t.toFixed(1).replace(".", ",") + " x100k" : null; }
-function varHtml(v, bp) {
-  if (bp) return '<span class="cifras-ind-card__var base-p">⚠ base &lt; 20 casos — variación no significativa</span>';
-  if (v === null || v === undefined) return '<span class="cifras-ind-card__var neutro">—</span>';
-  const s = v > 0 ? "+" : "", a = v > 0 ? "↑ " : v < 0 ? "↓ " : "→ ";
-  const c = v > 0 ? "sube" : v < 0 ? "baja" : "neutro";
-  return `<span class="cifras-ind-card__var ${c}">${a}${s}${v.toFixed(1).replace(".",",")}%</span>`;
-}
 
 /* ══════════════ SELECTORES DE DELITO (6) ═══════════════════════════════════ */
 function getTasa(c, d) {
@@ -651,15 +707,28 @@ function palColor(t, brks) {
 /* ══════════════ SELECTOR DE CIUDAD ════════════════════════════════════════ */
 function kpiCard(tipo, n26, n25, vari, bp, tasa) {
   const ant = numCO(n25);
-  const ts  = tasaStr(tasa);
+  const ts  = tasa != null ? tasa.toFixed(1).replace(".", ",") + " x100k" : null;
   const nl  = n26 != null ? numCO(n26) : '<span class="sin-dato">sin dato</span>';
-  const tl  = ts ? `${ts} · vs. ${ant ?? "—"} ene-abr 2025` : `vs. ${ant ?? "—"} ene-abr 2025`;
-  return `<div class="cifras-ind-card">
-    <span class="cifras-ind-card__tipo">${tipo}</span>
-    <span class="cifras-ind-card__num">${nl}</span>
-    ${varHtml(vari, bp)}
-    <span class="cifras-ind-card__tasa">${tl}</span>
-    <div class="cifras-ind-card__footer"><span>ene-abr 2026</span><span>Policía</span></div>
+
+  let badge;
+  if (bp) {
+    badge = '<span class="ck__badge ck__badge--warn">⚠ base insuf.</span>';
+  } else if (vari != null) {
+    const sign = vari > 0 ? "+" : "";
+    const cls  = vari > 0 ? "sube" : vari < 0 ? "baja" : "neutro";
+    const arr  = vari > 0 ? "↑" : vari < 0 ? "↓" : "→";
+    badge = `<span class="ck__badge ck__badge--${cls}">${arr} ${sign}${vari.toFixed(1).replace(".", ",")}%</span>`;
+  } else {
+    badge = '<span class="ck__badge ck__badge--neutro">—</span>';
+  }
+
+  const partes = [ts ? `<strong>${ts}</strong>` : null, ant ? `vs. ${ant}` : null].filter(Boolean);
+  const sub = partes.join(" · ") + (partes.length ? " <span style='opacity:.5'>ene-abr 2025</span>" : "—");
+
+  return `<div class="ck">
+    <span class="ck__tipo">${tipo}</span>
+    <div class="ck__main"><span class="ck__num">${nl}</span>${badge}</div>
+    <span class="ck__tasa">${sub}</span>
   </div>`;
 }
 function renderCity(c) {
