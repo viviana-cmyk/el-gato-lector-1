@@ -4,7 +4,6 @@ import cifrasData from "../data/cifras.data.json";
 
 const data = cifrasData as any;
 const meta = data.meta;
-const nac  = data.nacional;
 
 // Fechas
 const cortePolicia = new Date(meta.corte_policia + 'T00:00:00-05:00')
@@ -12,35 +11,27 @@ const cortePolicia = new Date(meta.corte_policia + 'T00:00:00-05:00')
 const generadoStr = new Date(meta.generatedAt)
   .toLocaleDateString("es-CO", { day: "numeric", month: "long", year: "numeric", timeZone: "America/Bogota" });
 
+// Helpers para totales
+const totalMunic = data.municipios.length;
+const sum25 = (campo: string) => (data.municipios as any[]).reduce((s: number, m: any) => s + (m[campo].casos_2025_ene_abr ?? 0), 0);
+const sum26 = (campo: string) => (data.municipios as any[]).reduce((s: number, m: any) => s + (m[campo].casos_2026_ene_abr ?? 0), 0);
+const nacVar = (campo: string) => {
+  const a = sum25(campo), b = sum26(campo);
+  return a > 0 ? Math.round(((b - a) / a) * 1000) / 10 : null;
+};
+
 // Hero
-const totalMunic     = data.municipios.length;
-const totalCapEA2026 = nac.homicidio_capitales_medleg.total_2026;
-const varNacPct      = nac.homicidio_medleg.variacion_pct;
-const topTasa        = [...data.municipios]
-  .filter((m: any) => m.homicidio.policia.tasa_2026_proyectada)
-  .sort((a: any, b: any) => b.homicidio.policia.tasa_2026_proyectada - a.homicidio.policia.tasa_2026_proyectada)[0];
+const topTasa = [...data.municipios]
+  .filter((m: any) => m.homicidio.tasa_2026_proyectada)
+  .sort((a: any, b: any) => b.homicidio.tasa_2026_proyectada - a.homicidio.tasa_2026_proyectada)[0];
 
-// Paso 3 — nacionales
-const homNac25ea   = nac.homicidio_capitales_medleg.total_2025;
-const homNac26ea   = nac.homicidio_capitales_medleg.total_2026;
-const homNacVar    = nac.homicidio_capitales_medleg.variacion_pct;
-const hurtoNac25ea = data.municipios.reduce((s: number, m: any) => s + (m.hurto_personas.policia.casos_2025_ene_abr ?? 0), 0);
-const hurtoNac26ea = data.municipios.reduce((s: number, m: any) => s + (m.hurto_personas.policia.casos_2026_ene_abr ?? 0), 0);
-const hurtoNacVar  = hurtoNac25ea > 0 ? Math.round(((hurtoNac26ea - hurtoNac25ea) / hurtoNac25ea) * 1000) / 10 : null;
-const extNac25ea   = data.municipios.reduce((s: number, m: any) => s + (m.extorsion.policia.casos_2025_ene_abr ?? 0), 0);
-const extNac26ea   = data.municipios.reduce((s: number, m: any) => s + (m.extorsion.policia.casos_2026_ene_abr ?? 0), 0);
-const extNacVar    = extNac25ea > 0 ? Math.round(((extNac26ea - extNac25ea) / extNac25ea) * 1000) / 10 : null;
-
-// Paso 6 — Discrepancias Policía vs. Medicina Legal (solo 32 capitales)
-const capitalesDisc = (data.municipios as any[]).filter(m => m.es_capital && m.homicidio?.discrepancia);
-const nacPol26ea    = capitalesDisc.reduce((s: number, m: any) => s + (m.homicidio.policia.casos_2026_ene_abr ?? 0), 0);
-const nacMedleg26ea = nac.homicidio_capitales_medleg.total_2026;
-const discNacAbs    = nacPol26ea - nacMedleg26ea;
-const discNacPct    = nacMedleg26ea > 0 ? Math.round((discNacAbs / nacMedleg26ea) * 1000) / 10 : 0;
-const discCiudades  = [...capitalesDisc].sort((a: any, b: any) =>
-  Math.abs(b.homicidio.discrepancia.diferencia_abs) - Math.abs(a.homicidio.discrepancia.diferencia_abs)
-);
-const maxDiscAbs = Math.max(...discCiudades.map((m: any) => Math.abs(m.homicidio.discrepancia.diferencia_abs)));
+// Nacionales — 6 delitos
+const homNac25ea = sum25('homicidio'),   homNac26ea = sum26('homicidio'),   homNacVar = nacVar('homicidio');
+const hurNac25ea = sum25('hurto_personas'), hurNac26ea = sum26('hurto_personas'), hurNacVar = nacVar('hurto_personas');
+const extNac25ea = sum25('extorsion'),   extNac26ea = sum26('extorsion'),   extNacVar = nacVar('extorsion');
+const resNac25ea = sum25('hurto_residencias'), resNac26ea = sum26('hurto_residencias'), resNacVar = nacVar('hurto_residencias');
+const vifNac25ea = sum25('violencia_intra'),   vifNac26ea = sum26('violencia_intra'),   vifNacVar = nacVar('violencia_intra');
+const autNac25ea = sum25('hurto_automotores'), autNac26ea = sum26('hurto_automotores'), autNacVar = nacVar('hurto_automotores');
 
 // Coordenadas de los 38 municipios
 const COORDS: Record<string, [number, number]> = {
@@ -65,36 +56,41 @@ const COORDS: Record<string, [number, number]> = {
   "05360": [6.1843, -75.5985],   "68276": [7.0636, -73.0937],
 };
 
-// cityData compacto (Pasos 3, 4 y 5)
+// cityData compacto — 6 delitos, todos Policía
 const cityData = [...data.municipios]
   .sort((a: any, b: any) => a.municipio.localeCompare(b.municipio, "es"))
   .map((m: any) => {
     const coord = COORDS[m.divipola] ?? null;
+    const f = (campo: string, k: string) => m[campo][k] ?? null;
     return {
       municipio: m.municipio,
-      div:  m.divipola,
-      cap:  m.es_capital,
-      lat:  coord?.[0] ?? null,
-      lng:  coord?.[1] ?? null,
-      h26:  m.es_capital ? (m.homicidio.medleg?.casos_2026_ene_abr  ?? null) : m.homicidio.policia.casos_2026_ene_abr,
-      h25:  m.es_capital ? (m.homicidio.medleg?.casos_2025_ene_abr  ?? null) : m.homicidio.policia.casos_2025_ene_abr,
-      hv:   m.es_capital ? (m.homicidio.medleg?.variacion_pct_ene_abr ?? null) : m.homicidio.policia.variacion_pct_ene_abr,
-      hbp:  m.es_capital ? (m.homicidio.medleg?.base_pequena ?? false) : m.homicidio.policia.base_pequena,
-      ht:   m.es_capital ? (m.homicidio.medleg?.tasa_2026_ea  ?? null) : m.homicidio.policia.tasa_2026_ene_abr,
-      htp:  m.es_capital ? (m.homicidio.medleg?.tasa_2026_proyectada ?? null) : m.homicidio.policia.tasa_2026_proyectada,
-      hf:   m.es_capital ? "MedLeg (pr)" : "Policía",
-      u26:  m.hurto_personas.policia.casos_2026_ene_abr,
-      u25:  m.hurto_personas.policia.casos_2025_ene_abr,
-      uv:   m.hurto_personas.policia.variacion_pct_ene_abr,
-      ubp:  m.hurto_personas.policia.base_pequena,
-      ut:   m.hurto_personas.policia.tasa_2026_ene_abr,
-      utp:  m.hurto_personas.policia.tasa_2026_proyectada,
-      e26:  m.extorsion.policia.casos_2026_ene_abr,
-      e25:  m.extorsion.policia.casos_2025_ene_abr,
-      ev:   m.extorsion.policia.variacion_pct_ene_abr,
-      ebp:  m.extorsion.policia.base_pequena,
-      et:   m.extorsion.policia.tasa_2026_ene_abr,
-      etp:  m.extorsion.policia.tasa_2026_proyectada,
+      div: m.divipola,
+      lat: coord?.[0] ?? null,
+      lng: coord?.[1] ?? null,
+      // homicidio
+      h26: f('homicidio','casos_2026_ene_abr'),   h25: f('homicidio','casos_2025_ene_abr'),
+      hv:  f('homicidio','variacion_pct_ene_abr'), hbp: m.homicidio.base_pequena,
+      ht:  f('homicidio','tasa_2026_ene_abr'),     htp: f('homicidio','tasa_2026_proyectada'),
+      // hurto personas
+      u26: f('hurto_personas','casos_2026_ene_abr'),   u25: f('hurto_personas','casos_2025_ene_abr'),
+      uv:  f('hurto_personas','variacion_pct_ene_abr'), ubp: m.hurto_personas.base_pequena,
+      ut:  f('hurto_personas','tasa_2026_ene_abr'),     utp: f('hurto_personas','tasa_2026_proyectada'),
+      // extorsión
+      e26: f('extorsion','casos_2026_ene_abr'),   e25: f('extorsion','casos_2025_ene_abr'),
+      ev:  f('extorsion','variacion_pct_ene_abr'), ebp: m.extorsion.base_pequena,
+      et:  f('extorsion','tasa_2026_ene_abr'),     etp: f('extorsion','tasa_2026_proyectada'),
+      // hurto residencias
+      r26: f('hurto_residencias','casos_2026_ene_abr'),   r25: f('hurto_residencias','casos_2025_ene_abr'),
+      rv:  f('hurto_residencias','variacion_pct_ene_abr'), rbp: m.hurto_residencias.base_pequena,
+      rt:  f('hurto_residencias','tasa_2026_ene_abr'),     rtp: f('hurto_residencias','tasa_2026_proyectada'),
+      // violencia intrafamiliar
+      vi26: f('violencia_intra','casos_2026_ene_abr'),   vi25: f('violencia_intra','casos_2025_ene_abr'),
+      viv:  f('violencia_intra','variacion_pct_ene_abr'), vibp: m.violencia_intra.base_pequena,
+      vit:  f('violencia_intra','tasa_2026_ene_abr'),     vitp: f('violencia_intra','tasa_2026_proyectada'),
+      // hurto automotores
+      a26: f('hurto_automotores','casos_2026_ene_abr'),   a25: f('hurto_automotores','casos_2025_ene_abr'),
+      av:  f('hurto_automotores','variacion_pct_ene_abr'), abp: m.hurto_automotores.base_pequena,
+      at:  f('hurto_automotores','tasa_2026_ene_abr'),     atp: f('hurto_automotores','tasa_2026_proyectada'),
     };
   });
 
@@ -107,46 +103,46 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
 
 <Layout
   title="Gato en Cifras"
-  description="Dashboard de seguridad ciudadana en Colombia: homicidios, hurto a personas y extorsión por ciudad, con tasas x100.000 hab. y contraste entre Policía Nacional y Medicina Legal."
+  description="Dashboard de seguridad ciudadana en Colombia: seis delitos de impacto en 38 municipios, tasas x100.000 hab., datos Policía Nacional verificados."
 >
   <Fragment slot="head">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
   </Fragment>
+
   <!-- ═══ HERO ═══════════════════════════════════════════════════════════════ -->
   <section class="cifras-hero">
     <div class="wrap cifras-hero__inner">
       <p class="cifras-hero__kicker">Dashboard de seguridad · Colombia</p>
       <h1 class="cifras-hero__title">Gato en Cifras</h1>
       <p class="cifras-hero__sub">
-        Homicidios, hurto a personas y extorsión en {totalMunic} municipios —
-        tasas x100.000 hab., contraste Policía vs. Medicina Legal, datos oficiales verificados.
+        Seis delitos de impacto en {totalMunic} municipios —
+        homicidios, hurto, extorsión, violencia intrafamiliar y más.
+        Tasas x100.000 hab., datos oficiales Policía Nacional verificados.
       </p>
       <div class="cifras-kpis">
         <div class="cifras-kpi">
-          <span class="cifras-kpi__num">{varNacPct > 0 ? "+" : ""}{varNacPct.toFixed(1).replace(".", ",")}%</span>
-          <span class="cifras-kpi__label">homicidios nacionales</span>
-          <span class="cifras-kpi__sub">ene-abr 2026 vs. ene-abr 2025 · MedLeg</span>
+          <span class="cifras-kpi__num">{homNac26ea.toLocaleString("es-CO")}</span>
+          <span class="cifras-kpi__label">homicidios · 38 municipios</span>
+          <span class="cifras-kpi__sub">{homNacVar !== null ? (homNacVar > 0 ? "+" : "") + homNacVar.toFixed(1).replace(".", ",") + "%" : "—"} vs. ene-abr 2025 · Policía</span>
         </div>
         <div class="cifras-kpi">
-          <span class="cifras-kpi__num">{totalCapEA2026.toLocaleString("es-CO")}</span>
-          <span class="cifras-kpi__label">homicidios en capitales</span>
-          <span class="cifras-kpi__sub">ene-abr 2026 · 32 ciudades · MedLeg (pr)</span>
+          <span class="cifras-kpi__num">{vifNac26ea.toLocaleString("es-CO")}</span>
+          <span class="cifras-kpi__label">casos violencia intrafamiliar</span>
+          <span class="cifras-kpi__sub">{vifNacVar !== null ? (vifNacVar > 0 ? "+" : "") + vifNacVar.toFixed(1).replace(".", ",") + "%" : "—"} vs. ene-abr 2025 · Policía</span>
         </div>
         <div class="cifras-kpi">
-          <span class="cifras-kpi__num">{topTasa?.homicidio.policia.tasa_2026_proyectada?.toFixed(0)} x100k</span>
+          <span class="cifras-kpi__num">{topTasa?.homicidio.tasa_2026_proyectada?.toFixed(0)} x100k</span>
           <span class="cifras-kpi__label">{topTasa?.municipio}</span>
-          <span class="cifras-kpi__sub">mayor tasa proyectada 2026 · Policía (pr)</span>
+          <span class="cifras-kpi__sub">mayor tasa proyectada homicidio 2026 · Policía</span>
         </div>
         <div class="cifras-kpi">
           <span class="cifras-kpi__num">{totalMunic}</span>
           <span class="cifras-kpi__label">ciudades medidas</span>
-          <span class="cifras-kpi__sub">32 capitales + 6 municipios con datos Policía</span>
+          <span class="cifras-kpi__sub">38 municipios · 6 delitos de impacto</span>
         </div>
       </div>
       <div class="cifras-corte">
         <span>Datos Policía al <strong>{cortePolicia}</strong></span>
-        <span class="cifras-corte__sep">·</span>
-        <span>MedLeg corte <strong>abril 2026</strong></span>
         <span class="cifras-corte__sep">·</span>
         <span>Actualizado <strong>{generadoStr}</strong></span>
       </div>
@@ -157,9 +153,8 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
   <section class="section wrap">
     <div class="cifras-aviso">
       <p>
-        <strong>Cifras sujetas a variación.</strong> Policía Nacional se actualiza el día 16
-        de cada mes. Medicina Legal: <em>preliminares (pr)</em>, pueden ajustarse.
-        Series comparables desde 2019. Rankings y mapa siempre por
+        <strong>Cifras sujetas a variación.</strong> Policía Nacional (SIEDCO) se actualiza el día 16
+        de cada mes. Series comparables desde 2019. Rankings y mapa siempre por
         <strong>tasa x100.000 hab.</strong>, nunca por absoluto.
       </p>
     </div>
@@ -171,30 +166,29 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
     <a class="cifras-ancla" href="#indicadores">Indicadores</a>
     <a class="cifras-ancla" href="#mapa">Mapa</a>
     <a class="cifras-ancla" href="#ranking">Ranking</a>
-    <a class="cifras-ancla" href="#discrepancias">Discrepancias</a>
     <a class="cifras-ancla" href="#metodologia-cifras">Fuentes</a>
   </nav>
 
-  <!-- ═══ INDICADORES (Paso 3) ══════════════════════════════════════════════ -->
+  <!-- ═══ INDICADORES ══════════════════════════════════════════════════════ -->
   <section class="section wrap" id="indicadores">
     <h2 class="section__title">Indicadores por ciudad</h2>
     <p class="section__byline">ene-abr 2026 vs. ene-abr 2025</p>
 
     <div class="cifras-ind-bloque">
-      <p class="cifras-ind-bloque__label">Resumen · {totalMunic} municipios</p>
+      <p class="cifras-ind-bloque__label">Resumen · {totalMunic} municipios · Policía Nacional</p>
       <div class="cifras-ind-cards">
         <div class="cifras-ind-card">
           <span class="cifras-ind-card__tipo">Homicidios</span>
           <span class="cifras-ind-card__num">{fmtN(homNac26ea)}</span>
           <span class={`cifras-ind-card__var ${varCls(homNacVar)}`}>{varArrow(homNacVar)}{fmtPct(homNacVar) ?? "—"}</span>
           <span class="cifras-ind-card__tasa">vs. {fmtN(homNac25ea)} en ene-abr 2025</span>
-          <div class="cifras-ind-card__footer"><span>32 capitales</span><span>MedLeg (pr)</span></div>
+          <div class="cifras-ind-card__footer"><span>38 municipios</span><span>Policía</span></div>
         </div>
         <div class="cifras-ind-card">
           <span class="cifras-ind-card__tipo">Hurto a personas</span>
-          <span class="cifras-ind-card__num">{fmtN(hurtoNac26ea)}</span>
-          <span class={`cifras-ind-card__var ${varCls(hurtoNacVar)}`}>{varArrow(hurtoNacVar)}{fmtPct(hurtoNacVar) ?? "—"}</span>
-          <span class="cifras-ind-card__tasa">vs. {fmtN(hurtoNac25ea)} en ene-abr 2025</span>
+          <span class="cifras-ind-card__num">{fmtN(hurNac26ea)}</span>
+          <span class={`cifras-ind-card__var ${varCls(hurNacVar)}`}>{varArrow(hurNacVar)}{fmtPct(hurNacVar) ?? "—"}</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(hurNac25ea)} en ene-abr 2025</span>
           <div class="cifras-ind-card__footer"><span>38 municipios</span><span>Policía</span></div>
         </div>
         <div class="cifras-ind-card">
@@ -203,6 +197,27 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
           <span class={`cifras-ind-card__var ${varCls(extNacVar)}`}>{varArrow(extNacVar)}{fmtPct(extNacVar) ?? "—"}</span>
           <span class="cifras-ind-card__tasa">vs. {fmtN(extNac25ea)} en ene-abr 2025</span>
           <div class="cifras-ind-card__footer"><span>38 municipios</span><span>Policía</span></div>
+        </div>
+        <div class="cifras-ind-card">
+          <span class="cifras-ind-card__tipo">Hurto a residencias</span>
+          <span class="cifras-ind-card__num">{fmtN(resNac26ea)}</span>
+          <span class={`cifras-ind-card__var ${varCls(resNacVar)}`}>{varArrow(resNacVar)}{fmtPct(resNacVar) ?? "—"}</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(resNac25ea)} en ene-abr 2025</span>
+          <div class="cifras-ind-card__footer"><span>38 municipios</span><span>Policía</span></div>
+        </div>
+        <div class="cifras-ind-card">
+          <span class="cifras-ind-card__tipo">Violencia intrafamiliar</span>
+          <span class="cifras-ind-card__num">{fmtN(vifNac26ea)}</span>
+          <span class={`cifras-ind-card__var ${varCls(vifNacVar)}`}>{varArrow(vifNacVar)}{fmtPct(vifNacVar) ?? "—"}</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(vifNac25ea)} en ene-abr 2025</span>
+          <div class="cifras-ind-card__footer"><span>38 municipios</span><span>Policía</span></div>
+        </div>
+        <div class="cifras-ind-card">
+          <span class="cifras-ind-card__tipo">Hurto automotores</span>
+          <span class="cifras-ind-card__num">{fmtN(autNac26ea)}</span>
+          <span class={`cifras-ind-card__var ${varCls(autNacVar)}`}>{varArrow(autNacVar)}{fmtPct(autNacVar) ?? "—"}</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(autNac25ea)} en ene-abr 2025</span>
+          <div class="cifras-ind-card__footer"><span>33 municipios</span><span>Policía</span></div>
         </div>
       </div>
     </div>
@@ -219,18 +234,20 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
     </div>
   </section>
 
-  <!-- ═══ MAPA + FILTROS DE DELITO (Paso 4) ════════════════════════════════ -->
+  <!-- ═══ MAPA + FILTROS DE DELITO ════════════════════════════════════════ -->
   <section class="section wrap" id="mapa">
     <h2 class="section__title">Mapa por tasa x100.000 hab.</h2>
     <p class="section__byline">Gato en Cifras · tasa proyectada ene-abr 2026 × 3</p>
 
-    <!-- Los pills controlan MAPA y RANKING a la vez -->
     <div class="cifras-mapa-filtros">
       <span class="cifras-mapa-filtros__label">Delito</span>
       <div class="cifras-mapa-pills" id="delito-pills">
         <button class="cifras-pill active" data-delito="hom">Homicidios</button>
         <button class="cifras-pill" data-delito="hur">Hurto personas</button>
         <button class="cifras-pill" data-delito="ext">Extorsión</button>
+        <button class="cifras-pill" data-delito="res">Hurto residencias</button>
+        <button class="cifras-pill" data-delito="vif">Violencia intrafamiliar</button>
+        <button class="cifras-pill" data-delito="aut">Hurto automotores</button>
       </div>
     </div>
 
@@ -240,12 +257,12 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
     <div id="mapa-leyenda" class="cifras-mapa-leyenda"></div>
     <p class="cifras-mapa-nota">
       Círculos coloreados por tasa proyectada (casos ene-abr × 3 ÷ pob. 2026 × 100.000).
-      Escala por quintiles del delito activo. Municipios sin dato: gris.
-      Homicidios en capitales: MedLeg (pr). No capitales y otros delitos: Policía Nacional.
+      Escala por quintiles del delito activo. Municipios sin dato: gris oscuro.
+      Todas las cifras: Policía Nacional (SIEDCO).
     </p>
   </section>
 
-  <!-- ═══ RANKING (Paso 5) ═════════════════════════════════════════════════ -->
+  <!-- ═══ RANKING ════════════════════════════════════════════════════════ -->
   <section class="section wrap" id="ranking">
     <h2 class="section__title" id="ranking-titulo">Ranking por tasa x100.000 hab.</h2>
     <p class="section__byline">Gato en Cifras · proyección anual ene-abr 2026</p>
@@ -264,105 +281,11 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
     <p class="cifras-mapa-nota" style="margin-top:1rem">
       Tasa proyectada = casos ene-abr × 3 ÷ pob. 2026 × 100.000 (proyección, no dato anual real).
       ⚠ = base &lt; 20 casos en ene-abr 2025 — variación % suprimida.
-      Hom. en capitales: MedLeg (pr). No capitales y otros delitos: Policía Nacional.
+      Fuente: Policía Nacional (SIEDCO). Hurto automotores: 33/38 municipios con dato.
     </p>
   </section>
 
-  <!-- ═══ DISCREPANCIAS (Paso 6) ═══════════════════════════════════════════ -->
-  <section class="section wrap" id="discrepancias">
-    <h2 class="section__title">Contador de discrepancias</h2>
-    <p class="section__byline">Policía Nacional vs. Medicina Legal · homicidios · 32 capitales · ene-abr 2026</p>
-
-    <!-- Totales nacionales enfrentados -->
-    <div class="disc-header">
-      <div class="disc-panel disc-panel--pol">
-        <span class="disc-panel__fuente">Policía Nacional</span>
-        <span class="disc-panel__num">{nacPol26ea.toLocaleString("es-CO")}</span>
-        <span class="disc-panel__sub">casos ene-abr 2026 · 32 capitales</span>
-        <span class="disc-panel__nota">Sujetas a variación posterior · SIEDCO</span>
-      </div>
-      <div class="disc-vs">
-        <span>vs.</span>
-        <div class="disc-gap-pill" class:list={[discNacAbs > 0 ? "pol-mayor" : discNacAbs < 0 ? "medleg-mayor" : "igual"]}>
-          {discNacAbs > 0 ? "+" : ""}{discNacAbs.toLocaleString("es-CO")} casos<br/>
-          <span>({discNacPct > 0 ? "+" : ""}{discNacPct.toFixed(1).replace(".", ",")}% vs. MedLeg)</span>
-        </div>
-      </div>
-      <div class="disc-panel disc-panel--med">
-        <span class="disc-panel__fuente">Medicina Legal (pr)</span>
-        <span class="disc-panel__num">{nacMedleg26ea.toLocaleString("es-CO")}</span>
-        <span class="disc-panel__sub">casos ene-abr 2026 · 32 capitales</span>
-        <span class="disc-panel__nota">Cifras preliminares · INMLCF — SIRDEC</span>
-      </div>
-    </div>
-
-    <!-- Por qué difieren -->
-    <div class="disc-explicacion">
-      <p class="disc-exp__titulo">¿Por qué no coinciden?</p>
-      <p>
-        Policía Nacional y Medicina Legal son fuentes <strong>independientes con metodologías distintas</strong>.
-        La Policía registra en el momento del reporte en la escena del crimen —
-        un homicidio queda contabilizado el día que se informa.
-        El INMLCF (Medicina Legal) certifica forense mente cuando el cuerpo llega al sistema médico legal,
-        lo que puede ocurrir días o semanas después, incluso en un mes distinto.
-        Además, Medicina Legal clasifica como homicidio algunos casos que la Policía registra bajo otra categoría,
-        y viceversa. <strong>Ambas fuentes son oficiales.</strong> La brecha no indica error —
-        indica que dos instituciones responsables miden lo mismo desde ángulos distintos.
-      </p>
-      <p class="disc-exp__regla">
-        Esta tabla muestra las 32 capitales ordenadas por la brecha absoluta más grande.
-        Los 6 municipios no capitales no tienen datos de Medicina Legal.
-      </p>
-    </div>
-
-    <!-- Tabla por ciudad -->
-    <div class="disc-tabla-header">
-      <span class="dt-ciudad">Ciudad</span>
-      <span class="dt-pol">Policía</span>
-      <span class="dt-med">MedLeg (pr)</span>
-      <span class="dt-dif">Dif. abs.</span>
-      <span class="dt-barra">Brecha relativa</span>
-      <span class="dt-pct">%</span>
-    </div>
-    <div class="disc-tabla-body">
-      {discCiudades.map((m: any) => {
-        const d = m.homicidio.discrepancia;
-        const pol = d.policia ?? 0, med = d.medleg ?? 0;
-        const difAbs  = d.diferencia_abs  ?? 0;
-        const difPct  = d.diferencia_pct  ?? null;
-        const barW    = maxDiscAbs > 0 ? Math.abs(difAbs) / maxDiscAbs * 100 : 0;
-        const polMayor = difAbs > 0;
-        const igual    = difAbs === 0;
-        return (
-          <div class={`disc-fila${igual ? " disc-fila--igual" : ""}`}>
-            <span class="dt-ciudad">{m.municipio}</span>
-            <span class="dt-pol">{pol.toLocaleString("es-CO")}</span>
-            <span class="dt-med">{med.toLocaleString("es-CO")}</span>
-            <span class={`dt-dif ${polMayor ? "pol-mayor" : !igual ? "medleg-mayor" : ""}`}>
-              {difAbs > 0 ? "+" : ""}{difAbs.toLocaleString("es-CO")}
-            </span>
-            <div class="dt-barra">
-              {!igual && (
-                <div class={`disc-bar-wrap ${polMayor ? "pol-mayor" : "medleg-mayor"}`}>
-                  <div class="disc-bar" style={`width:${barW.toFixed(1)}%`}></div>
-                </div>
-              )}
-            </div>
-            <span class={`dt-pct ${polMayor ? "pol-mayor" : !igual ? "medleg-mayor" : ""}`}>
-              {difPct == null ? "—" : difPct === 0 ? "0,0%" : `${difPct > 0 ? "+" : ""}${difPct.toFixed(1).replace(".", ",")}%`}
-            </span>
-          </div>
-        );
-      })}
-    </div>
-    <p class="cifras-mapa-nota" style="margin-top:.85rem">
-      Dif. = Policía − Medicina Legal en casos ene-abr 2026. Positivo = Policía registra más.
-      Negativo = Medicina Legal registra más. % calculado sobre MedLeg como base.
-      Columna ordenada por brecha absoluta mayor primero.
-    </p>
-  </section>
-
-  <!-- ═══ PIE METODOLÓGICO ══════════════════════════════════════════════════ -->
+  <!-- ═══ FUENTES Y METODOLOGÍA ═══════════════════════════════════════════ -->
   <section class="section wrap cifras-metodologia" id="metodologia-cifras">
     <h2 class="section__title">Fuentes y metodología</h2>
     <p class="section__byline">Gato en Cifras</p>
@@ -383,9 +306,19 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
         <span class="cifras-fuente__nota">Sujeto a variación. Corte: {cortePolicia}.</span>
       </div>
       <div class="cifras-fuente">
-        <strong>Homicidios — Medicina Legal (INMLCF)</strong>
-        <span>SIRDEC · Boletines mensuales 2025-2026</span>
-        <span class="cifras-fuente__nota">Cifras preliminares (pr). Clasificación forense.</span>
+        <strong>Hurto a residencias — Policía Nacional</strong>
+        <span>SIEDCO · datos.gov.co · <code>7mn7-vzqp</code></span>
+        <span class="cifras-fuente__nota">Sujeto a variación. Corte: {cortePolicia}.</span>
+      </div>
+      <div class="cifras-fuente">
+        <strong>Violencia intrafamiliar — Policía Nacional</strong>
+        <span>SIEDCO · datos.gov.co · <code>gepp-dxcs</code></span>
+        <span class="cifras-fuente__nota">Sujeto a variación. Corte: {cortePolicia}.</span>
+      </div>
+      <div class="cifras-fuente">
+        <strong>Hurto automotores — Policía Nacional</strong>
+        <span>SIEDCO · datos.gov.co · <code>csb4-y6v2</code> · tipo_delito = HURTO AUTOMOTORES</span>
+        <span class="cifras-fuente__nota">Sujeto a variación. Dato disponible en 33/38 municipios. Corte: {cortePolicia}.</span>
       </div>
       <div class="cifras-fuente">
         <strong>Población</strong>
@@ -394,9 +327,11 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
       </div>
     </div>
     <p class="cifras-metodologia__nota">
-      Policía y Medicina Legal son fuentes independientes con metodologías distintas —
-      la Policía registra en el momento del reporte; MedLeg certifica forense mente.
-      Ambas son oficiales. El contador de discrepancias muestra la brecha sin juzgarla.
+      Todas las cifras de criminalidad provienen de la <strong>Policía Nacional (SIEDCO)</strong>,
+      sistema único de información estadística delictiva. Los datos son sujetos a variación
+      posterior por procesos de verificación y ajuste. Series comparables únicamente desde 2019
+      (quiebre metodológico SIEDCO-SPOA en 2016-2018). Tasa proyectada = casos ene-abr × 3
+      — es una estimación anual, no un dato definitivo.
     </p>
   </section>
 
@@ -475,7 +410,7 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
   letter-spacing: 0.08em; color: var(--accent); margin-bottom: 0.75rem;
 }
 .cifras-ind-cards {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem; min-height: 140px;
 }
 .cifras-ind-card {
@@ -524,11 +459,11 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
 
 /* ── Mapa ─────────────────────────────────────────────────────────────────── */
 .cifras-mapa-filtros {
-  display: flex; align-items: center; gap: 0.85rem; margin-bottom: 1rem; flex-wrap: wrap;
+  display: flex; align-items: flex-start; gap: 0.85rem; margin-bottom: 1rem; flex-wrap: wrap;
 }
 .cifras-mapa-filtros__label {
   font-size: 0.75rem; font-weight: 700; color: var(--ink-soft);
-  text-transform: uppercase; letter-spacing: 0.06em;
+  text-transform: uppercase; letter-spacing: 0.06em; padding-top: 0.35rem;
 }
 .cifras-mapa-pills { display: flex; gap: 0.5rem; flex-wrap: wrap; }
 .cifras-pill {
@@ -630,110 +565,6 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
   opacity: 0.6; margin: 0.25rem 0;
 }
 
-/* ── Discrepancias ────────────────────────────────────────────────────────── */
-.disc-header {
-  display: grid; grid-template-columns: 1fr auto 1fr; gap: 1.25rem;
-  align-items: center; margin-bottom: 2rem;
-}
-.disc-panel {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius); padding: 1.4rem 1.6rem;
-  display: flex; flex-direction: column; gap: 0.25rem;
-}
-.disc-panel--pol { border-top: 3px solid #4a7fa5; }
-.disc-panel--med { border-top: 3px solid #6a8a6a; }
-.disc-panel__fuente {
-  font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
-  letter-spacing: 0.07em; color: var(--ink-soft); margin-bottom: 0.2rem;
-}
-.disc-panel__num {
-  font-family: var(--font-display); font-size: clamp(2rem, 3.5vw, 2.8rem);
-  font-weight: 900; color: var(--ink); line-height: 1; font-variant-numeric: tabular-nums;
-}
-.disc-panel__sub  { font-size: 0.72rem; color: var(--ink-soft); line-height: 1.4; margin-top: 0.1rem; }
-.disc-panel__nota { font-size: 0.65rem; color: var(--ink-soft); font-style: italic; opacity: 0.7; }
-.disc-vs {
-  display: flex; flex-direction: column; align-items: center; gap: 0.75rem;
-  font-size: 0.9rem; font-weight: 700; color: var(--ink-soft);
-}
-.disc-gap-pill {
-  background: var(--surface-2); border: 1px solid var(--border);
-  border-radius: 10px; padding: 0.55rem 0.9rem;
-  text-align: center; font-size: 0.78rem; font-weight: 700;
-  color: var(--ink); line-height: 1.5;
-}
-.disc-gap-pill span { font-size: 0.68rem; font-weight: 400; color: var(--ink-soft); }
-.disc-gap-pill.pol-mayor    { border-color: rgba(74,127,165,0.5); }
-.disc-gap-pill.medleg-mayor { border-color: rgba(106,138,106,0.5); }
-
-.disc-explicacion {
-  background: var(--surface); border: 1px solid var(--border);
-  border-left: 4px solid rgba(230,179,0,0.5);
-  border-radius: 0 var(--radius) var(--radius) 0;
-  padding: 1.1rem 1.4rem; margin-bottom: 1.75rem; line-height: 1.7;
-}
-.disc-exp__titulo {
-  font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
-  letter-spacing: 0.06em; color: var(--accent); margin-bottom: 0.6rem;
-}
-.disc-explicacion p  { font-size: 0.83rem; color: var(--ink-soft); margin: 0 0 0.6rem; }
-.disc-explicacion p:last-child { margin-bottom: 0; }
-.disc-explicacion strong { color: var(--ink); }
-.disc-exp__regla { font-style: italic; font-size: 0.75rem !important; opacity: 0.75; }
-
-.disc-tabla-header {
-  display: grid; grid-template-columns: 1fr 80px 90px 80px 1fr 60px;
-  gap: 0.4rem; padding: 0.3rem 0.6rem;
-  font-size: 0.62rem; font-weight: 700; text-transform: uppercase;
-  letter-spacing: 0.05em; color: var(--ink-soft);
-  border-bottom: 1px solid var(--border);
-}
-.disc-tabla-header .dt-pol,
-.disc-tabla-header .dt-med,
-.disc-tabla-header .dt-dif,
-.disc-tabla-header .dt-pct { text-align: right; }
-
-.disc-tabla-body { margin-bottom: 0.25rem; }
-.disc-fila {
-  display: grid; grid-template-columns: 1fr 80px 90px 80px 1fr 60px;
-  gap: 0.4rem; padding: 0.42rem 0.6rem;
-  border-bottom: 1px solid rgba(255,255,255,0.04);
-  align-items: center; font-size: 0.79rem;
-  transition: background 0.14s;
-}
-.disc-fila:hover  { background: var(--surface); }
-.disc-fila--igual { opacity: 0.55; }
-
-.dt-ciudad { color: var(--ink); line-height: 1.3; }
-.dt-pol, .dt-med { text-align: right; color: var(--ink); font-variant-numeric: tabular-nums; }
-.dt-dif, .dt-pct {
-  text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap;
-}
-.dt-dif.pol-mayor, .dt-pct.pol-mayor       { color: #4a7fa5; }
-.dt-dif.medleg-mayor, .dt-pct.medleg-mayor { color: #6a8a6a; }
-
-.disc-bar-wrap { height: 6px; background: rgba(255,255,255,0.07); border-radius: 3px; overflow: hidden; }
-.disc-bar      { height: 100%; border-radius: 3px; }
-.disc-bar-wrap.pol-mayor .disc-bar    { background: #4a7fa5; }
-.disc-bar-wrap.medleg-mayor .disc-bar { background: #6a8a6a; }
-
-@media (max-width: 700px) {
-  .disc-header { grid-template-columns: 1fr; gap: 0.75rem; }
-  .disc-vs { flex-direction: row; }
-  .disc-tabla-header,
-  .disc-fila { grid-template-columns: 1fr 65px 70px 55px; }
-  .disc-tabla-header .dt-barra,
-  .disc-fila .dt-barra,
-  .disc-tabla-header .dt-pct,
-  .disc-fila .dt-pct { display: none; }
-}
-
-/* ── Placeholder ──────────────────────────────────────────────────────────── */
-.cifras-coming {
-  border: 1px dashed rgba(255,255,255,0.12); border-radius: var(--radius);
-  padding: 2.5rem; text-align: center; color: var(--ink-soft); font-size: 0.85rem; opacity: 0.5;
-}
-
 /* ── Fuentes ──────────────────────────────────────────────────────────────── */
 .cifras-fuentes {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -769,7 +600,7 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
 <!-- Leaflet JS ──────────────────────────────────────────────────────────────── -->
 <script is:inline src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 
-<!-- App: Pasos 3, 4 y 5 ────────────────────────────────────────────────────── -->
+<!-- App ──────────────────────────────────────────────────────────────────────── -->
 <script is:inline define:vars={{ cityData }}>
 /* ══════════════ HELPERS ════════════════════════════════════════════════════ */
 function numCO(n) { return (n !== null && n !== undefined) ? n.toLocaleString("es-CO") : null; }
@@ -782,13 +613,22 @@ function varHtml(v, bp) {
   return `<span class="cifras-ind-card__var ${c}">${a}${s}${v.toFixed(1).replace(".",",")}%</span>`;
 }
 
-/* ══════════════ SELECTORES DE DELITO ═══════════════════════════════════════ */
-function getTasa(c, d)  { return d === "hom" ? c.htp : d === "hur" ? c.utp : c.etp; }
-function getCasos(c, d) { return d === "hom" ? c.h26 : d === "hur" ? c.u26 : c.e26; }
-function getFuente(c,d) { return d === "hom" ? c.hf  : "Policía"; }
-function getBP(c, d)    { return d === "hom" ? c.hbp : d === "hur" ? c.ubp : c.ebp; }
+/* ══════════════ SELECTORES DE DELITO (6) ═══════════════════════════════════ */
+function getTasa(c, d) {
+  return d==='hom'?c.htp : d==='hur'?c.utp : d==='ext'?c.etp :
+         d==='res'?c.rtp : d==='vif'?c.vitp : c.atp;
+}
+function getCasos(c, d) {
+  return d==='hom'?c.h26 : d==='hur'?c.u26 : d==='ext'?c.e26 :
+         d==='res'?c.r26 : d==='vif'?c.vi26 : c.a26;
+}
+function getBP(c, d) {
+  return d==='hom'?c.hbp : d==='hur'?c.ubp : d==='ext'?c.ebp :
+         d==='res'?c.rbp : d==='vif'?c.vibp : c.abp;
+}
 function getLabel(d) {
-  return d === "hom" ? "Homicidios" : d === "hur" ? "Hurto a personas" : "Extorsión";
+  return d==='hom'?'Homicidios' : d==='hur'?'Hurto a personas' : d==='ext'?'Extorsión' :
+         d==='res'?'Hurto residencias' : d==='vif'?'Violencia intrafamiliar' : 'Hurto automotores';
 }
 
 /* ══════════════ ESCALA DE COLOR ════════════════════════════════════════════ */
@@ -807,8 +647,8 @@ function palColor(t, brks) {
   return PAL[PAL.length-1];
 }
 
-/* ══════════════ PASO 3 — SELECTOR DE CIUDAD ════════════════════════════════ */
-function kpiCard(tipo, n26, n25, vari, bp, tasa, fuente) {
+/* ══════════════ SELECTOR DE CIUDAD ════════════════════════════════════════ */
+function kpiCard(tipo, n26, n25, vari, bp, tasa) {
   const ant = numCO(n25);
   const ts  = tasaStr(tasa);
   const nl  = n26 != null ? numCO(n26) : '<span class="sin-dato">sin dato</span>';
@@ -818,15 +658,18 @@ function kpiCard(tipo, n26, n25, vari, bp, tasa, fuente) {
     <span class="cifras-ind-card__num">${nl}</span>
     ${varHtml(vari, bp)}
     <span class="cifras-ind-card__tasa">${tl}</span>
-    <div class="cifras-ind-card__footer"><span>ene-abr 2026</span><span>${fuente}</span></div>
+    <div class="cifras-ind-card__footer"><span>ene-abr 2026</span><span>Policía</span></div>
   </div>`;
 }
 function renderCity(c) {
   document.getElementById("ciudad-nombre").textContent = c.municipio;
   document.getElementById("ciudad-cards").innerHTML = [
-    kpiCard("Homicidios",       c.h26, c.h25, c.hv, c.hbp, c.ht, c.hf),
-    kpiCard("Hurto a personas", c.u26, c.u25, c.uv, c.ubp, c.ut, "Policía"),
-    kpiCard("Extorsión",        c.e26, c.e25, c.ev, c.ebp, c.et, "Policía"),
+    kpiCard("Homicidios",              c.h26,  c.h25,  c.hv,  c.hbp,  c.ht),
+    kpiCard("Hurto a personas",        c.u26,  c.u25,  c.uv,  c.ubp,  c.ut),
+    kpiCard("Extorsión",               c.e26,  c.e25,  c.ev,  c.ebp,  c.et),
+    kpiCard("Hurto a residencias",     c.r26,  c.r25,  c.rv,  c.rbp,  c.rt),
+    kpiCard("Violencia intrafamiliar", c.vi26, c.vi25, c.viv, c.vibp, c.vit),
+    kpiCard("Hurto automotores",       c.a26,  c.a25,  c.av,  c.abp,  c.at),
   ].join("");
 }
 const sel = document.getElementById("ciudad-select");
@@ -837,7 +680,7 @@ sel.addEventListener("change", () => {
   if (c) renderCity(c);
 });
 
-/* ══════════════ PASO 4 — MAPA ══════════════════════════════════════════════ */
+/* ══════════════ MAPA ═══════════════════════════════════════════════════════ */
 if (typeof L === 'undefined') {
   document.getElementById('cifras-mapa').innerHTML =
     '<p style="display:flex;align-items:center;justify-content:center;height:100%;color:#8892a4;font-size:.85rem">El mapa no pudo cargar — verifica tu conexión y recarga la página.</p>';
@@ -853,12 +696,12 @@ const mLayer = map ? L.layerGroup().addTo(map) : null;
 
 function renderMapa(d) {
   if (!mLayer) return;
+  mLayer.clearLayers();
   const brks = quintiles(cityData.map(c => getTasa(c, d)));
   cityData.forEach(c => {
     if (c.lat == null) return;
     const t  = getTasa(c, d);
     const cc = getCasos(c, d);
-    const f  = getFuente(c, d);
     L.circleMarker([c.lat, c.lng], {
       radius: 9, fillColor: palColor(t, brks),
       color: "rgba(0,0,0,0.35)", weight: 1, fillOpacity: 0.88,
@@ -868,7 +711,7 @@ function renderMapa(d) {
         <span style="font-size:.7rem;color:#8892a4;text-transform:uppercase;letter-spacing:.05em">${getLabel(d)}</span><br>
         <span style="font-size:.86rem">Casos ene-abr 2026: <strong>${cc != null ? numCO(cc) : "sin dato"}</strong></span><br>
         <span style="font-size:.86rem">Tasa proy.: ${t != null ? "<strong>" + t.toFixed(1).replace(".",",") + " x100k</strong>" : "sin dato"}</span><br>
-        <span style="font-size:.67rem;color:#8892a4;display:block;margin-top:3px">Fuente: ${f} · ene-abr 2026</span>
+        <span style="font-size:.67rem;color:#8892a4;display:block;margin-top:3px">Policía Nacional · ene-abr 2026</span>
       </div>`, { maxWidth: 230 }).addTo(mLayer);
   });
   // Leyenda
@@ -881,7 +724,7 @@ function renderMapa(d) {
     `<span style="font-size:.67rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-right:.25rem">Tasa x100k</span>` + items;
 }
 
-/* ══════════════ PASO 5 — RANKING ═══════════════════════════════════════════ */
+/* ══════════════ RANKING ════════════════════════════════════════════════════ */
 function renderRanking(d) {
   const brks    = quintiles(cityData.map(c => getTasa(c, d)));
   const sorted  = [...cityData].sort((a, b) => {
@@ -892,16 +735,13 @@ function renderRanking(d) {
   const sinDato = sorted.filter(c => getTasa(c, d) == null);
   const maxTasa = conDato.length ? getTasa(conDato[0], d) : 1;
 
-  // Ciudad con más casos absolutos
   const maxAbsCity = [...cityData].sort((a, b) => (getCasos(b,d) ?? 0) - (getCasos(a,d) ?? 0))[0];
   const maxAbsRank = conDato.findIndex(c => c.div === maxAbsCity?.div) + 1;
   const topCity    = conDato[0];
 
-  // Titular dinámico
   document.getElementById("ranking-titulo").textContent =
     `${getLabel(d)} — ranking por tasa x100.000 hab.`;
 
-  // Observación
   let obs = "";
   if (topCity && maxAbsCity && topCity.div !== maxAbsCity.div) {
     const topT = getTasa(topCity, d)?.toFixed(1).replace(".", ",");
@@ -916,11 +756,9 @@ function renderRanking(d) {
   }
   document.getElementById("ranking-obs").innerHTML = obs;
 
-  // Filas
   function row(c, pos) {
     const t    = getTasa(c, d);
     const cc   = getCasos(c, d);
-    const f    = getFuente(c, d);
     const bp   = getBP(c, d);
     const isAbsTop = c.div === maxAbsCity?.div;
     if (t == null) {
@@ -942,7 +780,7 @@ function renderRanking(d) {
       <span class="rr-nombre">${c.municipio}${absTag}${warn}</span>
       <div class="rr-barra-wrap"><div class="rr-barra" style="width:${bw}%;background:${col}"></div></div>
       <span class="rr-tasa">${tStr}</span>
-      <span class="rr-casos">${cc != null ? numCO(cc) : "—"}<br><span style="font-size:.62rem;opacity:.6">${f}</span></span>
+      <span class="rr-casos">${cc != null ? numCO(cc) : "—"}</span>
     </div>`;
   }
 
