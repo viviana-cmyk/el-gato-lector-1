@@ -1,6 +1,6 @@
 {
-  "generado": "2026-07-14T21:31:32.888Z",
-  "nota": "IDs de datasets SIEDCO verificados con consulta en vivo. Reverificar en cada ciclo mensual con ?$limit=3.",
+  "generado": "2026-07-20T23:04:10.185Z",
+  "nota": "IDs SIEDCO verificados en vivo el 2026-07-14. Reverificar mensualmente con ?$limit=3.",
   "corte_actual": "2026-05-31",
   "datasets": {
     "homicidio": {
@@ -17,6 +17,22 @@
       "id": "q2ib-t9am",
       "url": "https://www.datos.gov.co/resource/q2ib-t9am.json",
       "nombre": "EXTORSIÓN — Policía Nacional (SIEDCO)"
+    },
+    "hurto_residencias": {
+      "id": "7mn7-vzqp",
+      "url": "https://www.datos.gov.co/resource/7mn7-vzqp.json",
+      "nombre": "HURTO A RESIDENCIAS — Policía Nacional (SIEDCO)"
+    },
+    "violencia_intra": {
+      "id": "gepp-dxcs",
+      "url": "https://www.datos.gov.co/resource/gepp-dxcs.json",
+      "nombre": "VIOLENCIA INTRAFAMILIAR — Policía Nacional (SIEDCO)"
+    },
+    "hurto_automotores": {
+      "id": "csb4-y6v2",
+      "url": "https://www.datos.gov.co/resource/csb4-y6v2.json",
+      "nombre": "HURTO A AUTOMOTORES — Policía Nacional (SIEDCO)",
+      "filtro": "tipo_delito='ARTICULO 239. HURTO AUTOMOTORES'"
     }
   }
 }

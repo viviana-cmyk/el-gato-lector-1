@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-// Pipeline de datos — "Gato en Cifras" (Paso 1)
-// Descarga SIEDCO, calcula tasas x100k y discrepancias, escribe cifras.data.json
+// Pipeline de datos — "Gato en Cifras"
+// Fuente única: Policía Nacional (SIEDCO via datos.gov.co)
+// 6 delitos de impacto · 38 municipios · ene-abr 2025 vs. ene-abr 2026
 
 import fs from 'fs';
 import path from 'path';
@@ -11,33 +12,35 @@ const ROOT = path.join(__dirname, '..');
 
 // ── IDs verificados en vivo el 2026-07-14 ───────────────────────────────────
 const DATASETS = {
-  homicidio:      { id: 'm8fd-ahd9', nombre: 'HOMICIDIO — Policía Nacional (SIEDCO)' },
-  hurto_personas: { id: '4rxi-8m8d', nombre: 'HURTO A PERSONAS — Policía Nacional (SIEDCO)' },
-  extorsion:      { id: 'q2ib-t9am', nombre: 'EXTORSIÓN — Policía Nacional (SIEDCO)' },
+  homicidio:         { id: 'm8fd-ahd9', nombre: 'HOMICIDIO — Policía Nacional (SIEDCO)' },
+  hurto_personas:    { id: '4rxi-8m8d', nombre: 'HURTO A PERSONAS — Policía Nacional (SIEDCO)' },
+  extorsion:         { id: 'q2ib-t9am', nombre: 'EXTORSIÓN — Policía Nacional (SIEDCO)' },
+  hurto_residencias: { id: '7mn7-vzqp', nombre: 'HURTO A RESIDENCIAS — Policía Nacional (SIEDCO)' },
+  violencia_intra:   { id: 'gepp-dxcs', nombre: 'VIOLENCIA INTRAFAMILIAR — Policía Nacional (SIEDCO)' },
+  hurto_automotores: {
+    id: 'csb4-y6v2',
+    nombre: 'HURTO A AUTOMOTORES — Policía Nacional (SIEDCO)',
+    filtroExtra: "tipo_delito='ARTICULO 239. HURTO AUTOMOTORES'",
+  },
 };
-const SODA_BASE = 'https://www.datos.gov.co/resource';
+const SODA_BASE  = 'https://www.datos.gov.co/resource';
 const DESDE_ANIO = 2019;   // quiebre metodológico SIEDCO-SPOA 2016-2018
 const BASE_MINIMA = 20;    // menos de este nº de casos → variación % suprimida
 
-// ── Cargar datos preparados ──────────────────────────────────────────────────
+// ── Cargar población DANE ────────────────────────────────────────────────────
 const poblacionData = JSON.parse(
   fs.readFileSync(path.join(ROOT, 'poblacion.dane.json'), 'utf-8')
 );
-const medlegData = JSON.parse(
-  fs.readFileSync(path.join(ROOT, 'homicidios.medicinalegal.json'), 'utf-8')
-);
-
-const pobByDivipola  = Object.fromEntries(poblacionData.municipios.map(m => [m.divipola, m]));
-const medlegByDiv    = Object.fromEntries(medlegData.municipios.map(m => [m.divipola, m]));
-const capitalesCodes = new Set(Object.keys(medlegByDiv));
-const allCodes       = poblacionData.municipios.map(m => m.divipola);
+const allCodes = poblacionData.municipios.map(m => m.divipola);
 
 // ── Consulta SODA con agregación mensual (server-side) ──────────────────────
-async function fetchMensual(datasetId, codes) {
+async function fetchMensual(datasetId, codes, filtroExtra = '') {
   const codesStr = codes.map(c => `'${c}'`).join(',');
+  let where = `cod_muni IN (${codesStr}) AND fecha_hecho >= '${DESDE_ANIO}-01-01T00:00:00'`;
+  if (filtroExtra) where += ` AND ${filtroExtra}`;
   const params = new URLSearchParams({
     '$select': 'cod_muni,municipio,date_trunc_ym(fecha_hecho) as anio_mes,sum(cantidad) as total',
-    '$where':  `cod_muni IN (${codesStr}) AND fecha_hecho >= '${DESDE_ANIO}-01-01T00:00:00'`,
+    '$where':  where,
     '$group':  'cod_muni,municipio,anio_mes',
     '$order':  'cod_muni,anio_mes',
     '$limit':  '50000',
@@ -71,7 +74,7 @@ function sumar(idx, cod, anio, meses) {
 
 // ── Tasa x100k (1 decimal) ───────────────────────────────────────────────────
 function tasa(casos, pob) {
-  if (!pob) return null;
+  if (!pob || !casos) return null;
   return Math.round((casos / pob) * 100000 * 10) / 10;
 }
 
@@ -85,229 +88,132 @@ function variacion(anterior, actual) {
   };
 }
 
+// ── Calcular campos estándar de un delito para un municipio ─────────────────
+function calcDelito(idx, cod, pob) {
+  const ENE_ABR     = [1, 2, 3, 4];
+  const AÑO_COMPLETO = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+  const c25    = sumar(idx, cod, 2025, AÑO_COMPLETO);
+  const c25ea  = sumar(idx, cod, 2025, ENE_ABR);
+  const c26ea  = sumar(idx, cod, 2026, ENE_ABR);
+  const vari   = variacion(c25ea, c26ea);
+  return {
+    casos_2025_completo:   c25   || null,
+    casos_2025_ene_abr:    c25ea || null,
+    casos_2026_ene_abr:    c26ea || null,
+    variacion_pct_ene_abr: vari.valor,
+    base_pequena:          vari.base_pequena,
+    tasa_2025:             tasa(c25,  pob.poblacion_2025),
+    tasa_2026_ene_abr:     tasa(c26ea, pob.poblacion_2026),
+    tasa_2026_proyectada:  c26ea && pob.poblacion_2026
+      ? Math.round((c26ea * 3 / pob.poblacion_2026) * 100000 * 10) / 10
+      : null,
+  };
+}
+
 // ── MAIN ─────────────────────────────────────────────────────────────────────
 async function main() {
-  console.log('▶  Gato en Cifras — Paso 1: descargando SIEDCO...\n');
+  console.log('▶  Gato en Cifras — descargando SIEDCO (6 datasets en paralelo)...\n');
 
-  const ENE_ABR = [1, 2, 3, 4];
-  const AÑO_COMPLETO = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-
-  // Descargar los tres datasets en paralelo
-  const [rowsHom, rowsHurto, rowsExt] = await Promise.all([
-    fetchMensual(DATASETS.homicidio.id,      allCodes),
-    fetchMensual(DATASETS.hurto_personas.id, allCodes),
-    fetchMensual(DATASETS.extorsion.id,      allCodes),
+  const [rowsHom, rowsHur, rowsExt, rowsRes, rowsVif, rowsAut] = await Promise.all([
+    fetchMensual(DATASETS.homicidio.id,         allCodes),
+    fetchMensual(DATASETS.hurto_personas.id,    allCodes),
+    fetchMensual(DATASETS.extorsion.id,         allCodes),
+    fetchMensual(DATASETS.hurto_residencias.id, allCodes),
+    fetchMensual(DATASETS.violencia_intra.id,   allCodes),
+    fetchMensual(DATASETS.hurto_automotores.id, allCodes, DATASETS.hurto_automotores.filtroExtra),
   ]);
 
-  console.log(`  Homicidio Policía:  ${rowsHom.length.toLocaleString()} filas mensuales`);
-  console.log(`  Hurto a personas:   ${rowsHurto.length.toLocaleString()} filas mensuales`);
-  console.log(`  Extorsión:          ${rowsExt.length.toLocaleString()} filas mensuales`);
+  console.log(`  Homicidio:               ${rowsHom.length.toLocaleString()} filas`);
+  console.log(`  Hurto a personas:        ${rowsHur.length.toLocaleString()} filas`);
+  console.log(`  Extorsión:               ${rowsExt.length.toLocaleString()} filas`);
+  console.log(`  Hurto a residencias:     ${rowsRes.length.toLocaleString()} filas`);
+  console.log(`  Violencia intrafamiliar: ${rowsVif.length.toLocaleString()} filas`);
+  console.log(`  Hurto automotores:       ${rowsAut.length.toLocaleString()} filas`);
   console.log('');
 
-  const homIdx   = indexarMensual(rowsHom);
-  const hurtoIdx = indexarMensual(rowsHurto);
-  const extIdx   = indexarMensual(rowsExt);
+  const homIdx = indexarMensual(rowsHom);
+  const hurIdx = indexarMensual(rowsHur);
+  const extIdx = indexarMensual(rowsExt);
+  const resIdx = indexarMensual(rowsRes);
+  const vifIdx = indexarMensual(rowsVif);
+  const autIdx = indexarMensual(rowsAut);
 
   // ── Construir resultado por municipio ───────────────────────────────────
   const municipiosResult = [];
-  const sinDatoPolicia   = [];
+  const sinDatoHom = [];
 
   for (const pob of poblacionData.municipios) {
-    const cod       = pob.divipola;
-    const esCapital = capitalesCodes.has(cod);
-    const ml        = medlegByDiv[cod] ?? null;
-
-    // — Homicidio Policía —
-    const hom25 = sumar(homIdx, cod, 2025, AÑO_COMPLETO);
-    const hom25ea = sumar(homIdx, cod, 2025, ENE_ABR);
-    const hom26ea = sumar(homIdx, cod, 2026, ENE_ABR);
-    const varHom  = variacion(hom25ea, hom26ea);
-
-    if (hom25 === 0 && hom25ea === 0 && hom26ea === 0) sinDatoPolicia.push(pob.municipio);
-
-    // — Hurto a personas —
-    const hur25   = sumar(hurtoIdx, cod, 2025, AÑO_COMPLETO);
-    const hur25ea = sumar(hurtoIdx, cod, 2025, ENE_ABR);
-    const hur26ea = sumar(hurtoIdx, cod, 2026, ENE_ABR);
-    const varHur  = variacion(hur25ea, hur26ea);
-
-    // — Extorsión —
-    const ext25   = sumar(extIdx, cod, 2025, AÑO_COMPLETO);
-    const ext25ea = sumar(extIdx, cod, 2025, ENE_ABR);
-    const ext26ea = sumar(extIdx, cod, 2026, ENE_ABR);
-    const varExt  = variacion(ext25ea, ext26ea);
-
-    // — Discrepancia Policía vs MedLeg (solo capitales) —
-    let discrepancia = null;
-    if (esCapital && ml) {
-      const polEA  = hom26ea;
-      const mlEA   = ml.homicidios_2026_ene_abr;
-      const difAbs = polEA - mlEA;
-      const difPct = mlEA > 0 ? Math.round((difAbs / mlEA) * 1000) / 10 : null;
-      discrepancia = {
-        periodo: 'ene-abr 2026',
-        policia: polEA,
-        medleg:  mlEA,
-        diferencia_abs: difAbs,
-        diferencia_pct: difPct,
-        nota: 'Cifras sujetas a variación (Policía) y preliminares (Medicina Legal)',
-      };
+    const cod = pob.divipola;
+    const hom = calcDelito(homIdx, cod, pob);
+    if (!hom.casos_2025_completo && !hom.casos_2025_ene_abr && !hom.casos_2026_ene_abr) {
+      sinDatoHom.push(pob.municipio);
     }
-
     municipiosResult.push({
-      municipio:     pob.municipio,
-      divipola:      cod,
-      es_capital:    esCapital,
+      municipio:      pob.municipio,
+      divipola:       cod,
       poblacion_2025: pob.poblacion_2025,
       poblacion_2026: pob.poblacion_2026,
-
-      homicidio: {
-        policia: {
-          casos_2025_completo: hom25  || null,
-          casos_2025_ene_abr:  hom25ea || null,
-          casos_2026_ene_abr:  hom26ea || null,
-          variacion_pct_ene_abr:  varHom.valor,
-          base_pequena:           varHom.base_pequena,
-          // Tasas
-          tasa_2025:              tasa(hom25,  pob.poblacion_2025),
-          tasa_2026_ene_abr:      tasa(hom26ea, pob.poblacion_2026),
-          tasa_2026_proyectada:   pob.poblacion_2026
-            ? Math.round((hom26ea * 3 / pob.poblacion_2026) * 100000 * 10) / 10
-            : null,
-        },
-        medleg: esCapital && ml ? {
-          casos_2025_completo:     ml.homicidios_2025_completo,
-          casos_2025_ene_abr:      ml.homicidios_2025_ene_abr,
-          casos_2026_ene_abr:      ml.homicidios_2026_ene_abr,
-          variacion_pct_ene_abr:   ml.variacion_pct_ene_abr,
-          base_pequena:            ml.homicidios_2025_ene_abr < BASE_MINIMA,
-          direccion:               ml.direccion,
-          // Tasas (usando población del mismo año)
-          tasa_2025:    tasa(ml.homicidios_2025_completo, pob.poblacion_2025),
-          tasa_2026_ea: tasa(ml.homicidios_2026_ene_abr,  pob.poblacion_2026),
-          tasa_2026_proyectada: pob.poblacion_2026
-            ? Math.round((ml.homicidios_2026_ene_abr * 3 / pob.poblacion_2026) * 100000 * 10) / 10
-            : null,
-        } : null,
-        discrepancia,
-      },
-
-      hurto_personas: {
-        policia: {
-          casos_2025_completo:   hur25   || null,
-          casos_2025_ene_abr:    hur25ea || null,
-          casos_2026_ene_abr:    hur26ea || null,
-          variacion_pct_ene_abr: varHur.valor,
-          base_pequena:          varHur.base_pequena,
-          tasa_2025:             tasa(hur25,  pob.poblacion_2025),
-          tasa_2026_ene_abr:     tasa(hur26ea, pob.poblacion_2026),
-          tasa_2026_proyectada:  pob.poblacion_2026
-            ? Math.round((hur26ea * 3 / pob.poblacion_2026) * 100000 * 10) / 10
-            : null,
-        },
-      },
-
-      extorsion: {
-        policia: {
-          casos_2025_completo:   ext25   || null,
-          casos_2025_ene_abr:    ext25ea || null,
-          casos_2026_ene_abr:    ext26ea || null,
-          variacion_pct_ene_abr: varExt.valor,
-          base_pequena:          varExt.base_pequena,
-          tasa_2025:             tasa(ext25,  pob.poblacion_2025),
-          tasa_2026_ene_abr:     tasa(ext26ea, pob.poblacion_2026),
-          tasa_2026_proyectada:  pob.poblacion_2026
-            ? Math.round((ext26ea * 3 / pob.poblacion_2026) * 100000 * 10) / 10
-            : null,
-        },
-      },
+      homicidio:         hom,
+      hurto_personas:    calcDelito(hurIdx, cod, pob),
+      extorsion:         calcDelito(extIdx, cod, pob),
+      hurto_residencias: calcDelito(resIdx, cod, pob),
+      violencia_intra:   calcDelito(vifIdx, cod, pob),
+      hurto_automotores: calcDelito(autIdx, cod, pob),
     });
   }
 
   // ── Resumen de validación ────────────────────────────────────────────────
-  const totMunicipios  = municipiosResult.length;
-  const conHomicidio   = municipiosResult.filter(m => m.homicidio.policia.casos_2025_completo).length;
-  const conHurto       = municipiosResult.filter(m => m.hurto_personas.policia.casos_2025_completo).length;
-  const conExt         = municipiosResult.filter(m => m.extorsion.policia.casos_2025_completo).length;
-  const conDiscrep     = municipiosResult.filter(m => m.homicidio.discrepancia).length;
-
-  // Verificar totales capitales contra referencia MedLeg
-  const polTot25Capitales = municipiosResult
-    .filter(m => m.es_capital)
-    .reduce((s, m) => s + (m.homicidio.policia.casos_2025_completo ?? 0), 0);
-  const mlTot25Capitales  = 5759; // de periodos["2025_completo"].total_32_capitales
+  const conDato  = campo => municipiosResult.filter(m => m[campo].casos_2025_completo).length;
+  const total26  = campo => municipiosResult.reduce((s, m) => s + (m[campo].casos_2026_ene_abr ?? 0), 0);
 
   console.log('── RESUMEN DE VALIDACIÓN ─────────────────────────────────────');
-  console.log(`  Municipios en output:              ${totMunicipios} / 38`);
-  console.log(`  Con datos homicidio Policía 2025:  ${conHomicidio}  / ${totMunicipios}`);
-  console.log(`  Con datos hurto personas 2025:     ${conHurto}  / ${totMunicipios}`);
-  console.log(`  Con datos extorsión 2025:          ${conExt}  / ${totMunicipios}`);
-  console.log(`  Capitales con contador discrepancias: ${conDiscrep} / 32`);
+  console.log(`  Municipios en output:              ${municipiosResult.length} / 38`);
+  console.log(`  Con datos homicidio 2025:          ${conDato('homicidio')} / ${municipiosResult.length}`);
+  console.log(`  Con datos hurto personas 2025:     ${conDato('hurto_personas')} / ${municipiosResult.length}`);
+  console.log(`  Con datos extorsión 2025:          ${conDato('extorsion')} / ${municipiosResult.length}`);
+  console.log(`  Con datos hurto residencias 2025:  ${conDato('hurto_residencias')} / ${municipiosResult.length}`);
+  console.log(`  Con datos violencia intra 2025:    ${conDato('violencia_intra')} / ${municipiosResult.length}`);
+  console.log(`  Con datos hurto automotores 2025:  ${conDato('hurto_automotores')} / ${municipiosResult.length}`);
   console.log('');
-  console.log(`  Total hom. 2025 Policía (32 cap): ${polTot25Capitales.toLocaleString()}`);
-  console.log(`  Total hom. 2025 MedLeg  (32 cap): ${mlTot25Capitales.toLocaleString()}  ← referencia`);
-  console.log(`  Brecha macro 2025:                 ${(polTot25Capitales - mlTot25Capitales).toLocaleString()} casos`);
+  console.log(`  Homicidios ene-abr 2026 (38 mun.):        ${total26('homicidio').toLocaleString()}`);
+  console.log(`  Hurto personas ene-abr 2026:               ${total26('hurto_personas').toLocaleString()}`);
+  console.log(`  Extorsión ene-abr 2026:                    ${total26('extorsion').toLocaleString()}`);
+  console.log(`  Hurto residencias ene-abr 2026:            ${total26('hurto_residencias').toLocaleString()}`);
+  console.log(`  Violencia intrafamiliar ene-abr 2026:      ${total26('violencia_intra').toLocaleString()}`);
+  console.log(`  Hurto automotores ene-abr 2026:            ${total26('hurto_automotores').toLocaleString()}`);
   console.log('');
 
-  if (sinDatoPolicia.length) {
-    console.log(`⚠  Sin datos Policía homicidio (aparecerán como "sin dato"):`);
-    sinDatoPolicia.forEach(m => console.log(`     - ${m}`));
+  if (sinDatoHom.length) {
+    console.log(`⚠  Sin datos homicidio Policía (aparecerán como "sin dato"):`);
+    sinDatoHom.forEach(m => console.log(`     - ${m}`));
     console.log('');
   }
 
   // ── Armar JSON de salida ─────────────────────────────────────────────────
-  const mln = medlegData.comparacion_nacional_misma_ventana;
-  const mlp = medlegData.periodos;
-
   const output = {
     meta: {
       generatedAt:   new Date().toISOString(),
       corte_policia: '2026-05-31',
-      corte_medleg: {
-        completo_2025: mlp['2025_completo']?.etiqueta  ?? 'ene-dic 2025 (pr)',
-        parcial_2025:  mlp['2025_ene_abr']?.etiqueta   ?? 'ene-abr 2025 (pr)',
-        parcial_2026:  mlp['2026_ene_abr']?.etiqueta   ?? 'ene-abr 2026 (pr)',
-      },
       fuentes: {
-        homicidio_policia:  `${SODA_BASE}/${DATASETS.homicidio.id}.json`,
-        hurto_personas:     `${SODA_BASE}/${DATASETS.hurto_personas.id}.json`,
-        extorsion:          `${SODA_BASE}/${DATASETS.extorsion.id}.json`,
-        homicidio_medleg:   'INMLCF — SIRDEC/GNAGD. Boletines mensuales 2025-2026.',
-        poblacion:          'DANE — Proyecciones Municipales 2018-2042 (CNPV 2018)',
+        homicidio:         `${SODA_BASE}/${DATASETS.homicidio.id}.json`,
+        hurto_personas:    `${SODA_BASE}/${DATASETS.hurto_personas.id}.json`,
+        extorsion:         `${SODA_BASE}/${DATASETS.extorsion.id}.json`,
+        hurto_residencias: `${SODA_BASE}/${DATASETS.hurto_residencias.id}.json`,
+        violencia_intra:   `${SODA_BASE}/${DATASETS.violencia_intra.id}.json`,
+        hurto_automotores: `${SODA_BASE}/${DATASETS.hurto_automotores.id}.json`,
+        poblacion:         'DANE — Proyecciones Municipales 2018-2042 (CNPV 2018)',
       },
       advertencias: [
-        'Cifras Policía Nacional: sujetas a variación posterior',
-        'Cifras Medicina Legal 2025-2026: preliminares (pr)',
-        'Series comparables desde 2019; quiebre SIEDCO-SPOA en 2016-2018',
-        'Variación % suprimida cuando base < 20 casos (campo base_pequena: true)',
-        'Tasa proyectada = casos ene-abr × 3; ETIQUETADA como proyección anual',
-        'Rankings y mapa: siempre por tasa x100k, nunca por absoluto',
+        'Cifras Policía Nacional: sujetas a variación posterior. Corte: 2026-05-31.',
+        'Series comparables desde 2019; quiebre SIEDCO-SPOA en 2016-2018.',
+        'Variación % suprimida cuando base < 20 casos (campo base_pequena: true).',
+        'Tasa proyectada = casos ene-abr × 3; ETIQUETADA como proyección anual.',
+        'Rankings y mapa: siempre por tasa x100k, nunca por absoluto.',
+        'Hurto automotores: dataset csb4-y6v2 filtrado por tipo_delito=ARTICULO 239. HURTO AUTOMOTORES.',
       ],
-      ids_verificados: {
-        homicidio:      DATASETS.homicidio.id,
-        hurto_personas: DATASETS.hurto_personas.id,
-        extorsion:      DATASETS.extorsion.id,
-        verificado_el:  '2026-07-14',
-        verificado_con: '?$limit=3 en cada dataset',
-      },
-    },
-    nacional: {
-      homicidio_medleg: {
-        fuente:              medlegData.meta.fuente,
-        ventana_comparacion: mln.ventana,
-        casos_2025:          mln.homicidios_2025,
-        casos_2026:          mln.homicidios_2026,
-        variacion_pct:       5.76,
-        variacion_absoluta:  mln.variacion_absoluta,
-        direccion:           mln.direccion,
-        nota:                mln.nota,
-      },
-      homicidio_capitales_medleg: {
-        ventana: 'ene-abr',
-        total_2025: mlp['2025_ene_abr']?.total_32_capitales ?? 1782,
-        total_2026: mlp['2026_ene_abr']?.total_32_capitales ?? 1857,
-        variacion_pct: medlegData.comparacion_por_ciudad_ene_abr?.variacion_pct ?? 4.21,
-      },
+      ids_verificados: Object.fromEntries(
+        Object.entries(DATASETS).map(([k, v]) => [k, v.id])
+      ),
     },
     municipios: municipiosResult,
   };
@@ -320,13 +226,14 @@ async function main() {
   const outConfig = path.join(ROOT, 'fuentes.config.json');
   fs.writeFileSync(outConfig, JSON.stringify({
     generado:     new Date().toISOString(),
-    nota:         'IDs de datasets SIEDCO verificados con consulta en vivo. Reverificar en cada ciclo mensual con ?$limit=3.',
+    nota:         'IDs SIEDCO verificados en vivo el 2026-07-14. Reverificar mensualmente con ?$limit=3.',
     corte_actual: '2026-05-31',
     datasets:     Object.fromEntries(
       Object.entries(DATASETS).map(([k, v]) => [k, {
         id:     v.id,
         url:    `${SODA_BASE}/${v.id}.json`,
         nombre: v.nombre,
+        ...(v.filtroExtra ? { filtro: v.filtroExtra } : {}),
       }])
     ),
   }, null, 2));
