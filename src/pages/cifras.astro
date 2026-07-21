@@ -555,7 +555,6 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
 
 <!-- Leaflet JS ──────────────────────────────────────────────────────────────── -->
 <script is:inline src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
-<script is:inline src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
 
 <!-- App ──────────────────────────────────────────────────────────────────────── -->
 <script is:inline define:vars={{ cityData }}>
@@ -639,16 +638,6 @@ if (typeof L === 'undefined') {
   document.getElementById('cifras-mapa').innerHTML =
     '<p style="display:flex;align-items:center;justify-content:center;height:100%;color:#8892a4;font-size:.85rem">El mapa no pudo cargar — verifica tu conexión y recarga la página.</p>';
 }
-// ── Gradientes por delito (bajo→medio→alto) ──────────────────────────────────
-const GRADIENTS = {
-  hom: { 0:'rgba(0,0,0,0)', 0.12:'rgba(255,220,80,0.6)', 0.35:'#ff7700', 0.65:'#dd1100', 1:'#6a0000' },
-  hur: { 0:'rgba(0,0,0,0)', 0.12:'rgba(100,200,255,0.6)', 0.35:'#0099ff', 0.65:'#0033cc', 1:'#001166' },
-  ext: { 0:'rgba(0,0,0,0)', 0.12:'rgba(255,220,80,0.6)', 0.35:'#ff9900', 0.65:'#cc4400', 1:'#551100' },
-  res: { 0:'rgba(0,0,0,0)', 0.12:'rgba(210,160,255,0.6)', 0.35:'#bb44ff', 0.65:'#7700bb', 1:'#330055' },
-  vif: { 0:'rgba(0,0,0,0)', 0.12:'rgba(255,160,210,0.6)', 0.35:'#ff44aa', 0.65:'#cc0066', 1:'#550030' },
-  aut: { 0:'rgba(0,0,0,0)', 0.12:'rgba(80,220,190,0.6)', 0.35:'#00cc99', 0.65:'#007755', 1:'#002822' },
-};
-
 const map = typeof L !== 'undefined' && L.map("cifras-mapa", {
   center: [4.5, -74.5], zoom: 5, scrollWheelZoom: false,
   zoomControl: true,
@@ -659,7 +648,7 @@ if (map) {
     maxZoom: 14,
   }).addTo(map);
 }
-let heatLayer = null;
+const mLayer = map ? L.layerGroup().addTo(map) : null;
 
 // Control "Ver todas las ciudades"
 if (map) {
@@ -683,37 +672,51 @@ if (map) {
 
 function renderMapa(d) {
   if (!map) return;
+  if (mLayer) mLayer.clearLayers();
 
-  if (heatLayer) { map.removeLayer(heatLayer); heatLayer = null; }
-
+  const brks = quintiles(cityData.map(c => getTasa(c, d)));
   const maxT = cityData.reduce((m, c) => Math.max(m, getTasa(c, d) ?? 0), 0) || 1;
 
-  // ── Capa de calor (intensidad en escala raíz cuadrada) ─────────────────
-  if (typeof L.heatLayer !== 'undefined') {
-    const heatData = cityData
-      .filter(c => c.lat != null && getTasa(c, d) != null)
-      .map(c => [c.lat, c.lng, Math.sqrt(getTasa(c, d) / maxT)]);
-    if (heatData.length) {
-      heatLayer = L.heatLayer(heatData, {
-        radius: 45,
-        blur: 40,
-        maxZoom: 10,
-        minOpacity: 0.08,
-        gradient: GRADIENTS[d],
-      }).addTo(map);
-    }
-  }
+  // ── Burbujas proporcionales ────────────────────────────────────────────
+  cityData.forEach(c => {
+    if (c.lat == null) return;
+    const t   = getTasa(c, d);
+    const col = palColor(t, brks);
+    // radio: raíz cuadrada para no exagerar los extremos, mín 4px
+    const r   = t != null ? Math.max(4, Math.sqrt(t / maxT) * 22) : 3;
+    L.circleMarker([c.lat, c.lng], {
+      radius:      r,
+      fillColor:   t != null ? col : SIN_COLOR,
+      color:       'rgba(255,255,255,0.8)',
+      weight:      1.5,
+      fillOpacity: t != null ? 0.88 : 0.35,
+    }).bindPopup(
+      `<div style="min-width:170px;line-height:1.65;color:#1a2030">
+        <strong style="font-size:.95rem">${c.municipio}</strong><br>
+        <span style="font-size:.67rem;color:#556;text-transform:uppercase;letter-spacing:.05em">${getLabel(d)}</span>
+        <hr style="border:none;border-top:1px solid rgba(0,0,0,.1);margin:5px 0">
+        <span style="font-size:.83rem">Tasa proyectada:<br>
+          ${t != null ? '<strong style="font-size:1rem">' + t.toFixed(1).replace('.',',') + '</strong> x100k' : '<em>sin dato</em>'}
+        </span>
+      </div>`,
+      { maxWidth: 220 }
+    ).addTo(mLayer);
+  });
 
-  // ── Leyenda — barra de gradiente del delito activo ─────────────────────
-  const grad = GRADIENTS[d];
-  const stops = Object.entries(grad)
-    .map(([p, c]) => `${c} ${(parseFloat(p)*100).toFixed(0)}%`)
-    .join(', ');
+  // ── Leyenda quintil ────────────────────────────────────────────────────
+  const items = PAL.map((col, i) => {
+    const lo = i === 0 ? '0' : brks[i].toFixed(0);
+    const hi = i === PAL.length - 1 ? brks[i+1].toFixed(0) + '+' : brks[i+1].toFixed(0);
+    return `<div class="cifras-mapa-leyenda-item">
+      <div class="cifras-mapa-leyenda-dot" style="background:${col}"></div>
+      <span>${lo}–${hi}</span>
+    </div>`;
+  }).join('') + `<div class="cifras-mapa-leyenda-item">
+    <div class="cifras-mapa-leyenda-dot" style="background:${SIN_COLOR}"></div>
+    <span>sin dato</span>
+  </div>`;
   document.getElementById("mapa-leyenda").innerHTML =
-    `<span style="font-size:.67rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-right:.6rem;white-space:nowrap">Tasa x100k</span>` +
-    `<span style="font-size:.63rem;color:var(--ink-soft);white-space:nowrap">0</span>` +
-    `<div style="flex:1;min-width:60px;height:10px;border-radius:5px;background:linear-gradient(to right,${stops});border:1px solid rgba(0,0,0,.12);margin:0 .4rem"></div>` +
-    `<span style="font-size:.63rem;color:var(--ink-soft);white-space:nowrap">${maxT.toFixed(0)}+</span>`;
+    `<span style="font-size:.67rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-right:.4rem">Tasa x100k</span>` + items;
 }
 
 /* ══════════════ TOP 5 POR DELITO (estático al cargar) ══════════════════════ */
