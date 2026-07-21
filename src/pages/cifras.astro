@@ -11,6 +11,10 @@ const cortePolicia = new Date(meta.corte_policia + 'T00:00:00-05:00')
 const generadoStr = new Date(meta.generatedAt)
   .toLocaleDateString("es-CO", { day: "numeric", month: "long", year: "numeric", timeZone: "America/Bogota" });
 
+// Período dinámico
+const labelPeriodo     = (meta.label_periodo      as string) ?? 'ene-abr';
+const factorProyeccion = (meta.factor_proyeccion  as number) ?? 3;
+
 // Helpers para totales
 const totalMunic = data.municipios.length;
 const sum25 = (campo: string) => (data.municipios as any[]).reduce((s: number, m: any) => s + (m[campo].casos_2025_ene_abr ?? 0), 0);
@@ -125,14 +129,14 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
           <span class="cifras-kpi__num">{homNac26ea.toLocaleString("es-CO")}</span>
           <span class="cifras-kpi__label">homicidios · 38 municipios</span>
           <span class={`cifras-kpi__sub ${homNacVar !== null ? (homNacVar > 0 ? "cifras-kpi__sub--sube" : homNacVar < 0 ? "cifras-kpi__sub--baja" : "") : ""}`}>
-            {homNacVar !== null ? (homNacVar > 0 ? "▲ +" : homNacVar < 0 ? "▼ " : "") + homNacVar.toFixed(1).replace(".", ",") + "%" : "—"} vs. ene-abr 2025 · Policía
+            {homNacVar !== null ? (homNacVar > 0 ? "▲ +" : homNacVar < 0 ? "▼ " : "") + homNacVar.toFixed(1).replace(".", ",") + "%" : "—"} vs. {labelPeriodo} 2025 · Policía
           </span>
         </div>
         <div class="cifras-kpi">
           <span class="cifras-kpi__num">{vifNac26ea.toLocaleString("es-CO")}</span>
           <span class="cifras-kpi__label">casos violencia intrafamiliar</span>
           <span class={`cifras-kpi__sub ${vifNacVar !== null ? (vifNacVar > 0 ? "cifras-kpi__sub--sube" : vifNacVar < 0 ? "cifras-kpi__sub--baja" : "") : ""}`}>
-            {vifNacVar !== null ? (vifNacVar > 0 ? "▲ +" : vifNacVar < 0 ? "▼ " : "") + vifNacVar.toFixed(1).replace(".", ",") + "%" : "—"} vs. ene-abr 2025 · Policía
+            {vifNacVar !== null ? (vifNacVar > 0 ? "▲ +" : vifNacVar < 0 ? "▼ " : "") + vifNacVar.toFixed(1).replace(".", ",") + "%" : "—"} vs. {labelPeriodo} 2025 · Policía
           </span>
         </div>
         <div class="cifras-kpi">
@@ -176,7 +180,7 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
   <!-- ═══ INDICADORES ══════════════════════════════════════════════════════ -->
   <section class="section wrap" id="indicadores">
     <h2 class="section__title">Indicadores por ciudad</h2>
-    <p class="section__byline">ene-abr 2026 vs. ene-abr 2025</p>
+    <p class="section__byline">{labelPeriodo} 2026 vs. {labelPeriodo} 2025</p>
 
     <div class="cifras-ind-bloque">
       <p class="cifras-ind-bloque__label">Resumen · {totalMunic} municipios · Policía Nacional</p>
@@ -185,42 +189,42 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
           <span class="cifras-ind-card__tipo">Homicidios</span>
           <span class="cifras-ind-card__num">{fmtN(homNac26ea)}</span>
           <span class={`cifras-ind-card__var ${varCls(homNacVar)}`}>{varArrow(homNacVar)}{fmtPct(homNacVar) ?? "—"}</span>
-          <span class="cifras-ind-card__tasa">vs. {fmtN(homNac25ea)} en ene-abr 2025</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(homNac25ea)} en {labelPeriodo} 2025</span>
           <div class="cifras-ind-card__footer"><span>38 municipios</span><span>Policía</span></div>
         </div>
         <div class="cifras-ind-card">
           <span class="cifras-ind-card__tipo">Hurto a personas</span>
           <span class="cifras-ind-card__num">{fmtN(hurNac26ea)}</span>
           <span class={`cifras-ind-card__var ${varCls(hurNacVar)}`}>{varArrow(hurNacVar)}{fmtPct(hurNacVar) ?? "—"}</span>
-          <span class="cifras-ind-card__tasa">vs. {fmtN(hurNac25ea)} en ene-abr 2025</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(hurNac25ea)} en {labelPeriodo} 2025</span>
           <div class="cifras-ind-card__footer"><span>38 municipios</span><span>Policía</span></div>
         </div>
         <div class="cifras-ind-card">
           <span class="cifras-ind-card__tipo">Extorsión</span>
           <span class="cifras-ind-card__num">{fmtN(extNac26ea)}</span>
           <span class={`cifras-ind-card__var ${varCls(extNacVar)}`}>{varArrow(extNacVar)}{fmtPct(extNacVar) ?? "—"}</span>
-          <span class="cifras-ind-card__tasa">vs. {fmtN(extNac25ea)} en ene-abr 2025</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(extNac25ea)} en {labelPeriodo} 2025</span>
           <div class="cifras-ind-card__footer"><span>38 municipios</span><span>Policía</span></div>
         </div>
         <div class="cifras-ind-card">
           <span class="cifras-ind-card__tipo">Hurto a residencias</span>
           <span class="cifras-ind-card__num">{fmtN(resNac26ea)}</span>
           <span class={`cifras-ind-card__var ${varCls(resNacVar)}`}>{varArrow(resNacVar)}{fmtPct(resNacVar) ?? "—"}</span>
-          <span class="cifras-ind-card__tasa">vs. {fmtN(resNac25ea)} en ene-abr 2025</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(resNac25ea)} en {labelPeriodo} 2025</span>
           <div class="cifras-ind-card__footer"><span>38 municipios</span><span>Policía</span></div>
         </div>
         <div class="cifras-ind-card">
           <span class="cifras-ind-card__tipo">Violencia intrafamiliar</span>
           <span class="cifras-ind-card__num">{fmtN(vifNac26ea)}</span>
           <span class={`cifras-ind-card__var ${varCls(vifNacVar)}`}>{varArrow(vifNacVar)}{fmtPct(vifNacVar) ?? "—"}</span>
-          <span class="cifras-ind-card__tasa">vs. {fmtN(vifNac25ea)} en ene-abr 2025</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(vifNac25ea)} en {labelPeriodo} 2025</span>
           <div class="cifras-ind-card__footer"><span>38 municipios</span><span>Policía</span></div>
         </div>
         <div class="cifras-ind-card">
           <span class="cifras-ind-card__tipo">Hurto automotores</span>
           <span class="cifras-ind-card__num">{fmtN(autNac26ea)}</span>
           <span class={`cifras-ind-card__var ${varCls(autNacVar)}`}>{varArrow(autNacVar)}{fmtPct(autNacVar) ?? "—"}</span>
-          <span class="cifras-ind-card__tasa">vs. {fmtN(autNac25ea)} en ene-abr 2025</span>
+          <span class="cifras-ind-card__tasa">vs. {fmtN(autNac25ea)} en {labelPeriodo} 2025</span>
           <div class="cifras-ind-card__footer"><span>33 municipios</span><span>Policía</span></div>
         </div>
       </div>
@@ -241,7 +245,7 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
   <!-- ═══ MAPA + FILTROS DE DELITO ════════════════════════════════════════ -->
   <section class="section wrap" id="mapa">
     <h2 class="section__title">Mapa por tasa x100.000 hab.</h2>
-    <p class="section__byline">Gato en Cifras · tasa proyectada ene-abr 2026 × 3</p>
+    <p class="section__byline">Gato en Cifras · tasa proyectada {labelPeriodo} 2026 × {factorProyeccion}</p>
 
     <div class="cifras-mapa-filtros">
       <span class="cifras-mapa-filtros__label">Delito</span>
@@ -260,7 +264,7 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
     </div>
     <div id="mapa-leyenda" class="cifras-mapa-leyenda"></div>
     <p class="cifras-mapa-nota">
-      Mapa de calor por tasa proyectada (casos ene-abr × 3 ÷ pob. 2026 × 100.000).
+      Mapa de calor por tasa proyectada (casos {labelPeriodo} × {factorProyeccion} ÷ pob. 2026 × 100.000).
       Los puntos marcan las 38 ciudades — clic para ver detalle. Sin dato: gris.
       Todas las cifras: Policía Nacional (SIEDCO).
     </p>
@@ -269,12 +273,12 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
   <!-- ═══ TOP 5 POR DELITO ═══════════════════════════════════════════════ -->
   <section class="section wrap" id="ranking">
     <h2 class="section__title">Top 5 ciudades por delito · tasa x100.000 hab.</h2>
-    <p class="section__byline">Policía Nacional (SIEDCO) · proyección ene-abr 2026 × 3</p>
+    <p class="section__byline">Policía Nacional (SIEDCO) · proyección {labelPeriodo} 2026 × {factorProyeccion}</p>
 
     <div class="top5-grid" id="top5-grid"></div>
 
     <p class="cifras-mapa-nota" style="margin-top:1.25rem">
-      Tasa proyectada = casos ene-abr × 3 ÷ pob. 2026 × 100.000 hab. · Policía Nacional (SIEDCO) ·
+      Tasa proyectada = casos {labelPeriodo} × {factorProyeccion} ÷ pob. 2026 × 100.000 hab. · Policía Nacional (SIEDCO) ·
       Hurto automotores: 33/38 municipios.
     </p>
   </section>
@@ -594,7 +598,7 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
 <script is:inline src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <!-- App ──────────────────────────────────────────────────────────────────────── -->
-<script is:inline define:vars={{ cityData }}>
+<script is:inline define:vars={{ cityData, labelPeriodo }}>
 /* ══════════════ HELPERS ════════════════════════════════════════════════════ */
 function numCO(n) { return (n !== null && n !== undefined) ? n.toLocaleString("es-CO") : null; }
 
@@ -643,7 +647,7 @@ function kpiCard(tipo, n26, n25, vari, bp, tasa) {
   }
 
   const partes = [ts ? `<strong>${ts}</strong>` : null, ant ? `vs. ${ant}` : null].filter(Boolean);
-  const sub = partes.join(" · ") + (partes.length ? " <span style='opacity:.5'>ene-abr 2025</span>" : "—");
+  const sub = partes.join(" · ") + (partes.length ? ` <span style='opacity:.5'>${labelPeriodo} 2025</span>` : "—");
 
   return `<div class="ck">
     <span class="ck__tipo">${tipo}</span>

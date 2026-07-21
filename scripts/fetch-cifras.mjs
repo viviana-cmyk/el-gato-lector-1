@@ -27,9 +27,17 @@ const SODA_BASE   = 'https://www.datos.gov.co/resource';
 const DESDE_ANIO  = 2019;   // quiebre metodológico SIEDCO-SPOA 2016-2018
 const BASE_MINIMA = 20;     // menos de este nº de casos → variación % suprimida
 
-// Corte dinámico: último día del mes anterior (SIEDCO publica el día 16 de cada mes)
-const _ahora = new Date();
-const _corteDate = new Date(_ahora.getFullYear(), _ahora.getMonth(), 0);
+// Período dinámico: SIEDCO publica el día 16 con datos del mes anterior
+const _MESES_NOMBRES = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+const _ahora       = new Date();
+const _dia         = _ahora.getDate();
+const _mesActual   = _ahora.getMonth() + 1; // 1-12
+// Si ya pasó el día 16, disponemos del mes anterior; si no, del mes antes de ese
+const MESES_DISP        = Math.max(1, _dia >= 16 ? _mesActual - 1 : _mesActual - 2);
+const MESES_COMPARACION = Array.from({ length: MESES_DISP }, (_, i) => i + 1);
+const LABEL_PERIODO     = MESES_DISP === 1 ? 'ene' : `ene-${_MESES_NOMBRES[MESES_DISP - 1]}`;
+const FACTOR_PROYECCION = Math.round((12 / MESES_DISP) * 100) / 100; // ej. 2 para 6 meses
+const _corteDate    = new Date(_ahora.getFullYear(), _ahora.getMonth(), 0);
 const CORTE_POLICIA = _corteDate.toISOString().slice(0, 10);
 
 // ── Cargar población DANE ────────────────────────────────────────────────────
@@ -95,11 +103,10 @@ function variacion(anterior, actual) {
 
 // ── Calcular campos estándar de un delito para un municipio ─────────────────
 function calcDelito(idx, cod, pob) {
-  const ENE_ABR     = [1, 2, 3, 4];
   const AÑO_COMPLETO = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
   const c25    = sumar(idx, cod, 2025, AÑO_COMPLETO);
-  const c25ea  = sumar(idx, cod, 2025, ENE_ABR);
-  const c26ea  = sumar(idx, cod, 2026, ENE_ABR);
+  const c25ea  = sumar(idx, cod, 2025, MESES_COMPARACION);
+  const c26ea  = sumar(idx, cod, 2026, MESES_COMPARACION);
   const vari   = variacion(c25ea, c26ea);
   return {
     casos_2025_completo:   c25   || null,
@@ -110,7 +117,7 @@ function calcDelito(idx, cod, pob) {
     tasa_2025:             tasa(c25,  pob.poblacion_2025),
     tasa_2026_ene_abr:     tasa(c26ea, pob.poblacion_2026),
     tasa_2026_proyectada:  c26ea && pob.poblacion_2026
-      ? Math.round((c26ea * 3 / pob.poblacion_2026) * 100000 * 10) / 10
+      ? Math.round((c26ea * FACTOR_PROYECCION / pob.poblacion_2026) * 100000 * 10) / 10
       : null,
   };
 }
@@ -180,12 +187,13 @@ async function main() {
   console.log(`  Con datos violencia intra 2025:    ${conDato('violencia_intra')} / ${municipiosResult.length}`);
   console.log(`  Con datos hurto automotores 2025:  ${conDato('hurto_automotores')} / ${municipiosResult.length}`);
   console.log('');
-  console.log(`  Homicidios ene-abr 2026 (38 mun.):        ${total26('homicidio').toLocaleString()}`);
-  console.log(`  Hurto personas ene-abr 2026:               ${total26('hurto_personas').toLocaleString()}`);
-  console.log(`  Extorsión ene-abr 2026:                    ${total26('extorsion').toLocaleString()}`);
-  console.log(`  Hurto residencias ene-abr 2026:            ${total26('hurto_residencias').toLocaleString()}`);
-  console.log(`  Violencia intrafamiliar ene-abr 2026:      ${total26('violencia_intra').toLocaleString()}`);
-  console.log(`  Hurto automotores ene-abr 2026:            ${total26('hurto_automotores').toLocaleString()}`);
+  console.log(`  Período comparado: ${LABEL_PERIODO} 2026 vs ${LABEL_PERIODO} 2025 (${MESES_DISP} meses · factor ×${FACTOR_PROYECCION})`);
+  console.log(`  Homicidios ${LABEL_PERIODO} 2026 (38 mun.):   ${total26('homicidio').toLocaleString()}`);
+  console.log(`  Hurto personas ${LABEL_PERIODO} 2026:          ${total26('hurto_personas').toLocaleString()}`);
+  console.log(`  Extorsión ${LABEL_PERIODO} 2026:               ${total26('extorsion').toLocaleString()}`);
+  console.log(`  Hurto residencias ${LABEL_PERIODO} 2026:       ${total26('hurto_residencias').toLocaleString()}`);
+  console.log(`  Violencia intrafamiliar ${LABEL_PERIODO} 2026: ${total26('violencia_intra').toLocaleString()}`);
+  console.log(`  Hurto automotores ${LABEL_PERIODO} 2026:       ${total26('hurto_automotores').toLocaleString()}`);
   console.log('');
 
   if (sinDatoHom.length) {
@@ -198,7 +206,10 @@ async function main() {
   const output = {
     meta: {
       generatedAt:   new Date().toISOString(),
-      corte_policia: CORTE_POLICIA,
+      corte_policia:      CORTE_POLICIA,
+      label_periodo:      LABEL_PERIODO,
+      meses_disponibles:  MESES_DISP,
+      factor_proyeccion:  FACTOR_PROYECCION,
       fuentes: {
         homicidio:         `${SODA_BASE}/${DATASETS.homicidio.id}.json`,
         hurto_personas:    `${SODA_BASE}/${DATASETS.hurto_personas.id}.json`,
@@ -212,7 +223,7 @@ async function main() {
         `Cifras Policía Nacional: sujetas a variación posterior. Corte: ${CORTE_POLICIA}.`,
         'Series comparables desde 2019; quiebre SIEDCO-SPOA en 2016-2018.',
         'Variación % suprimida cuando base < 20 casos (campo base_pequena: true).',
-        'Tasa proyectada = casos ene-abr × 3; ETIQUETADA como proyección anual.',
+        `Tasa proyectada = casos ${LABEL_PERIODO} × ${FACTOR_PROYECCION}; ETIQUETADA como proyección anual.`,
         'Rankings y mapa: siempre por tasa x100k, nunca por absoluto.',
         'Hurto automotores: dataset csb4-y6v2 filtrado por tipo_delito=ARTICULO 239. HURTO AUTOMOTORES.',
       ],
