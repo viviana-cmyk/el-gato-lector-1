@@ -23,9 +23,14 @@ const DATASETS = {
     filtroExtra: "tipo_delito='ARTICULO 239. HURTO AUTOMOTORES'",
   },
 };
-const SODA_BASE  = 'https://www.datos.gov.co/resource';
-const DESDE_ANIO = 2019;   // quiebre metodológico SIEDCO-SPOA 2016-2018
-const BASE_MINIMA = 20;    // menos de este nº de casos → variación % suprimida
+const SODA_BASE   = 'https://www.datos.gov.co/resource';
+const DESDE_ANIO  = 2019;   // quiebre metodológico SIEDCO-SPOA 2016-2018
+const BASE_MINIMA = 20;     // menos de este nº de casos → variación % suprimida
+
+// Corte dinámico: último día del mes anterior (SIEDCO publica el día 16 de cada mes)
+const _ahora = new Date();
+const _corteDate = new Date(_ahora.getFullYear(), _ahora.getMonth(), 0);
+const CORTE_POLICIA = _corteDate.toISOString().slice(0, 10);
 
 // ── Cargar población DANE ────────────────────────────────────────────────────
 const poblacionData = JSON.parse(
@@ -193,7 +198,7 @@ async function main() {
   const output = {
     meta: {
       generatedAt:   new Date().toISOString(),
-      corte_policia: '2026-05-31',
+      corte_policia: CORTE_POLICIA,
       fuentes: {
         homicidio:         `${SODA_BASE}/${DATASETS.homicidio.id}.json`,
         hurto_personas:    `${SODA_BASE}/${DATASETS.hurto_personas.id}.json`,
@@ -204,7 +209,7 @@ async function main() {
         poblacion:         'DANE — Proyecciones Municipales 2018-2042 (CNPV 2018)',
       },
       advertencias: [
-        'Cifras Policía Nacional: sujetas a variación posterior. Corte: 2026-05-31.',
+        `Cifras Policía Nacional: sujetas a variación posterior. Corte: ${CORTE_POLICIA}.`,
         'Series comparables desde 2019; quiebre SIEDCO-SPOA en 2016-2018.',
         'Variación % suprimida cuando base < 20 casos (campo base_pequena: true).',
         'Tasa proyectada = casos ene-abr × 3; ETIQUETADA como proyección anual.',
@@ -227,7 +232,7 @@ async function main() {
   fs.writeFileSync(outConfig, JSON.stringify({
     generado:     new Date().toISOString(),
     nota:         'IDs SIEDCO verificados en vivo el 2026-07-14. Reverificar mensualmente con ?$limit=3.',
-    corte_actual: '2026-05-31',
+    corte_actual: CORTE_POLICIA,
     datasets:     Object.fromEntries(
       Object.entries(DATASETS).map(([k, v]) => [k, {
         id:     v.id,

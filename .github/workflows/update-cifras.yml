@@ -1,0 +1,46 @@
+name: Actualizar Gato en Cifras (mensual)
+
+on:
+  # Día 18 de cada mes a las 10:00 UTC (5:00 AM Colombia)
+  # SIEDCO publica datos nuevos el día 16 de cada mes
+  schedule:
+    - cron: '0 10 18 * *'
+  # Permite ejecutar manualmente desde la pestaña Actions
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cifras:
+    name: Descargar SIEDCO y actualizar cifras
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Descargar datos SIEDCO (6 delitos · 38 municipios)
+        run: node scripts/fetch-cifras.mjs
+
+      - name: Confirmar y publicar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/cifras.data.json fuentes.config.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los datos de cifras."
+          else
+            git commit -m "chore: actualizar Gato en Cifras ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
