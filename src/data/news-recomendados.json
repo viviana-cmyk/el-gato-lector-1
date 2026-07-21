@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-07-20T10:01:31.562Z",
+  "generatedAt": "2026-07-21T10:01:41.679Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Autodefensas Conquistadoras de la Sierra Nevada (ACSN)",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/los-pachenca/",
+          "pubDate": "2026-07-20T21:34:26.000Z",
+          "snippet": "Autodefensas Conquistadoras de la Sierra Nevada (ACSN) Autodefensas Conquistadoras de la Sierra Nevada (ACSN): historia, líderes, zonas de operación y actividades criminales. Perfil actualizado de 2026. The post Autodefensas Conquistadoras de la Sierra Nevada (ACSN) appeared firs…"
+        },
+        {
+          "title": "Primer Comando Capital (PCC)",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-brasil/primer-comando-capital-pcc-perfil/",
+          "pubDate": "2026-07-20T20:25:53.000Z",
+          "snippet": "Primer Comando Capital (PCC) El Primer Comando Capital (Primeiro Comando da Capital, PCC) es la mayor red criminal de Brasil y participa en el tráfico internacional de drogas. Perfil actualizado de 2026. The post Primer Comando Capital (PCC) appeared first on InSight Crime."
+        },
+        {
+          "title": "¿Cómo se gestó el mayor fraude bancario de la historia de Brasil?",
+          "link": "https://insightcrime.org/es/noticias/como-gesto-mayor-fraude-bancario-historia-brasil/",
+          "pubDate": "2026-07-20T15:42:48.000Z",
+          "snippet": "¿Cómo se gestó el mayor fraude bancario de la historia de Brasil? Casi un año después de que una investigación contra el banco privado Banco Master destapara el mayor escándalo de fraude bancario en la historia de Brasil, las autoridades apenas comienzan a comprender la magnitud…"
+        },
         {
           "title": "El desenlace criminal de Larry Changa,  el ‘papá’ fundador del Tren de Aragua",
           "link": "https://insightcrime.org/es/noticias/el-desenlace-criminal-de-larry-changa-el-papa-fundador-del-tren-de-aragua/",
@@ -22,24 +40,6 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-paraguay/clan-rotela/",
           "pubDate": "2026-07-16T16:47:53.000Z",
           "snippet": "Clan Rotela El Clan Rotela es una organización de carácter familiar de Paraguay, especializado en el microtráfico de crack en barrios populares de ciudades como Asunción y Concepción. Después de la captura de su líder en 2016, este clan se expandió rápidamente a la mayoría de las…"
-        },
-        {
-          "title": "Laboratorios de metanfetamina en África adoptan modelo de producción mexicano",
-          "link": "https://insightcrime.org/es/noticias/laboratorios-metanfetamina-africa-adoptan-modelo-produccion-mexicano/",
-          "pubDate": "2026-07-15T17:17:52.000Z",
-          "snippet": "Laboratorios de metanfetamina en África adoptan modelo de producción mexicano La presencia de cocineros de metanfetamina mexicanos en laboratorios en África fue alguna vez una anomalía, pero una serie de arrestos recientes pone en evidencia que el comercio global de drogas sintét…"
-        },
-        {
-          "title": "La Unión Tepito",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/la-union-tepito/",
-          "pubDate": "2026-07-15T15:53:30.000Z",
-          "snippet": "La Unión Tepito La Unión Tepito es un gran grupo criminal originario de Ciudad de México, que toma su nombre de uno de los barrios más grandes de la capital. The post La Unión Tepito appeared first on InSight Crime."
-        },
-        {
-          "title": "Cartel de Jalisco Nueva Generación (CJNG)",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/cartel-jalisco-nueva-generacion-cjng/",
-          "pubDate": "2026-07-15T15:51:19.000Z",
-          "snippet": "Cartel de Jalisco Nueva Generación (CJNG) El Cartel Jalisco Nueva Generación (CJNG) es un grupo criminal transnacional que surgió del Cartel del Milenio tras una serie de asesinatos, detenciones y fracturas internas. Es conocido por su uso agresivo de la violencia y sus campañas…"
         }
       ]
     },
