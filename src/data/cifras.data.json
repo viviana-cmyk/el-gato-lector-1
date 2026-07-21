@@ -1,7 +1,10 @@
 {
   "meta": {
-    "generatedAt": "2026-07-20T23:04:10.182Z",
-    "corte_policia": "2026-05-31",
+    "generatedAt": "2026-07-21T21:20:47.920Z",
+    "corte_policia": "2026-06-30",
+    "label_periodo": "ene-jun",
+    "meses_disponibles": 6,
+    "factor_proyeccion": 2,
     "fuentes": {
       "homicidio": "https://www.datos.gov.co/resource/m8fd-ahd9.json",
       "hurto_personas": "https://www.datos.gov.co/resource/4rxi-8m8d.json",
@@ -12,10 +15,10 @@
       "poblacion": "DANE — Proyecciones Municipales 2018-2042 (CNPV 2018)"
     },
     "advertencias": [
-      "Cifras Policía Nacional: sujetas a variación posterior. Corte: 2026-05-31.",
+      "Cifras Policía Nacional: sujetas a variación posterior. Corte: 2026-06-30.",
       "Series comparables desde 2019; quiebre SIEDCO-SPOA en 2016-2018.",
       "Variación % suprimida cuando base < 20 casos (campo base_pequena: true).",
-      "Tasa proyectada = casos ene-abr × 3; ETIQUETADA como proyección anual.",
+      "Tasa proyectada = casos ene-jun × 2; ETIQUETADA como proyección anual.",
       "Rankings y mapa: siempre por tasa x100k, nunca por absoluto.",
       "Hurto automotores: dataset csb4-y6v2 filtrado por tipo_delito=ARTICULO 239. HURTO AUTOMOTORES."
     ],
@@ -36,63 +39,63 @@
       "poblacion_2026": 7945996,
       "homicidio": {
         "casos_2025_completo": 1186,
-        "casos_2025_ene_abr": 384,
-        "casos_2026_ene_abr": 357,
-        "variacion_pct_ene_abr": -7,
+        "casos_2025_ene_abr": 588,
+        "casos_2026_ene_abr": 454,
+        "variacion_pct_ene_abr": -22.8,
         "base_pequena": false,
         "tasa_2025": 14.9,
-        "tasa_2026_ene_abr": 4.5,
-        "tasa_2026_proyectada": 13.5
+        "tasa_2026_ene_abr": 5.7,
+        "tasa_2026_proyectada": 11.4
       },
       "hurto_personas": {
         "casos_2025_completo": 123017,
-        "casos_2025_ene_abr": 44407,
-        "casos_2026_ene_abr": 39665,
-        "variacion_pct_ene_abr": -10.7,
+        "casos_2025_ene_abr": 64973,
+        "casos_2026_ene_abr": 47466,
+        "variacion_pct_ene_abr": -26.9,
         "base_pequena": false,
         "tasa_2025": 1548.8,
-        "tasa_2026_ene_abr": 499.2,
-        "tasa_2026_proyectada": 1497.5
+        "tasa_2026_ene_abr": 597.4,
+        "tasa_2026_proyectada": 1194.7
       },
       "extorsion": {
         "casos_2025_completo": 2228,
-        "casos_2025_ene_abr": 663,
-        "casos_2026_ene_abr": 689,
-        "variacion_pct_ene_abr": 3.9,
+        "casos_2025_ene_abr": 1083,
+        "casos_2026_ene_abr": 749,
+        "variacion_pct_ene_abr": -30.8,
         "base_pequena": false,
         "tasa_2025": 28.1,
-        "tasa_2026_ene_abr": 8.7,
-        "tasa_2026_proyectada": 26
+        "tasa_2026_ene_abr": 9.4,
+        "tasa_2026_proyectada": 18.9
       },
       "hurto_residencias": {
         "casos_2025_completo": 6073,
-        "casos_2025_ene_abr": 2117,
-        "casos_2026_ene_abr": 2342,
-        "variacion_pct_ene_abr": 10.6,
+        "casos_2025_ene_abr": 3078,
+        "casos_2026_ene_abr": 2778,
+        "variacion_pct_ene_abr": -9.7,
         "base_pequena": false,
         "tasa_2025": 76.5,
-        "tasa_2026_ene_abr": 29.5,
-        "tasa_2026_proyectada": 88.4
+        "tasa_2026_ene_abr": 35,
+        "tasa_2026_proyectada": 69.9
       },
       "violencia_intra": {
         "casos_2025_completo": 47359,
-        "casos_2025_ene_abr": 13584,
-        "casos_2026_ene_abr": 19975,
-        "variacion_pct_ene_abr": 47,
+        "casos_2025_ene_abr": 21246,
+        "casos_2026_ene_abr": 22621,
+        "variacion_pct_ene_abr": 6.5,
         "base_pequena": false,
         "tasa_2025": 596.2,
-        "tasa_2026_ene_abr": 251.4,
-        "tasa_2026_proyectada": 754.2
+        "tasa_2026_ene_abr": 284.7,
+        "tasa_2026_proyectada": 569.4
       },
       "hurto_automotores": {
         "casos_2025_completo": 3318,
-        "casos_2025_ene_abr": 1043,
-        "casos_2026_ene_abr": 1005,
-        "variacion_pct_ene_abr": -3.6,
+        "casos_2025_ene_abr": 1604,
+        "casos_2026_ene_abr": 1160,
+        "variacion_pct_ene_abr": -27.7,
         "base_pequena": false,
         "tasa_2025": 41.8,
-        "tasa_2026_ene_abr": 12.6,
-        "tasa_2026_proyectada": 37.9
+        "tasa_2026_ene_abr": 14.6,
+        "tasa_2026_proyectada": 29.2
       }
     },
     {
@@ -102,63 +105,63 @@
       "poblacion_2026": 2526795,
       "homicidio": {
         "casos_2025_completo": 333,
-        "casos_2025_ene_abr": 107,
-        "casos_2026_ene_abr": 96,
-        "variacion_pct_ene_abr": -10.3,
+        "casos_2025_ene_abr": 166,
+        "casos_2026_ene_abr": 110,
+        "variacion_pct_ene_abr": -33.7,
         "base_pequena": false,
         "tasa_2025": 13.2,
-        "tasa_2026_ene_abr": 3.8,
-        "tasa_2026_proyectada": 11.4
+        "tasa_2026_ene_abr": 4.4,
+        "tasa_2026_proyectada": 8.7
       },
       "hurto_personas": {
         "casos_2025_completo": 24924,
-        "casos_2025_ene_abr": 7326,
-        "casos_2026_ene_abr": 8317,
-        "variacion_pct_ene_abr": 13.5,
+        "casos_2025_ene_abr": 11138,
+        "casos_2026_ene_abr": 10153,
+        "variacion_pct_ene_abr": -8.8,
         "base_pequena": false,
         "tasa_2025": 985.8,
-        "tasa_2026_ene_abr": 329.2,
-        "tasa_2026_proyectada": 987.5
+        "tasa_2026_ene_abr": 401.8,
+        "tasa_2026_proyectada": 803.6
       },
       "extorsion": {
         "casos_2025_completo": 972,
-        "casos_2025_ene_abr": 221,
-        "casos_2026_ene_abr": 311,
-        "variacion_pct_ene_abr": 40.7,
+        "casos_2025_ene_abr": 395,
+        "casos_2026_ene_abr": 356,
+        "variacion_pct_ene_abr": -9.9,
         "base_pequena": false,
         "tasa_2025": 38.4,
-        "tasa_2026_ene_abr": 12.3,
-        "tasa_2026_proyectada": 36.9
+        "tasa_2026_ene_abr": 14.1,
+        "tasa_2026_proyectada": 28.2
       },
       "hurto_residencias": {
         "casos_2025_completo": 1534,
-        "casos_2025_ene_abr": 560,
-        "casos_2026_ene_abr": 429,
-        "variacion_pct_ene_abr": -23.4,
+        "casos_2025_ene_abr": 797,
+        "casos_2026_ene_abr": 529,
+        "variacion_pct_ene_abr": -33.6,
         "base_pequena": false,
         "tasa_2025": 60.7,
-        "tasa_2026_ene_abr": 17,
-        "tasa_2026_proyectada": 50.9
+        "tasa_2026_ene_abr": 20.9,
+        "tasa_2026_proyectada": 41.9
       },
       "violencia_intra": {
         "casos_2025_completo": 10638,
-        "casos_2025_ene_abr": 3355,
-        "casos_2026_ene_abr": 3527,
-        "variacion_pct_ene_abr": 5.1,
+        "casos_2025_ene_abr": 5150,
+        "casos_2026_ene_abr": 4252,
+        "variacion_pct_ene_abr": -17.4,
         "base_pequena": false,
         "tasa_2025": 420.7,
-        "tasa_2026_ene_abr": 139.6,
-        "tasa_2026_proyectada": 418.8
+        "tasa_2026_ene_abr": 168.3,
+        "tasa_2026_proyectada": 336.6
       },
       "hurto_automotores": {
         "casos_2025_completo": 926,
-        "casos_2025_ene_abr": 283,
-        "casos_2026_ene_abr": 298,
-        "variacion_pct_ene_abr": 5.3,
+        "casos_2025_ene_abr": 442,
+        "casos_2026_ene_abr": 321,
+        "variacion_pct_ene_abr": -27.4,
         "base_pequena": false,
         "tasa_2025": 36.6,
-        "tasa_2026_ene_abr": 11.8,
-        "tasa_2026_proyectada": 35.4
+        "tasa_2026_ene_abr": 12.7,
+        "tasa_2026_proyectada": 25.4
       }
     },
     {
@@ -168,63 +171,63 @@
       "poblacion_2026": 2269983,
       "homicidio": {
         "casos_2025_completo": 1068,
-        "casos_2025_ene_abr": 331,
-        "casos_2026_ene_abr": 354,
-        "variacion_pct_ene_abr": 6.9,
+        "casos_2025_ene_abr": 496,
+        "casos_2026_ene_abr": 460,
+        "variacion_pct_ene_abr": -7.3,
         "base_pequena": false,
         "tasa_2025": 46.9,
-        "tasa_2026_ene_abr": 15.6,
-        "tasa_2026_proyectada": 46.8
+        "tasa_2026_ene_abr": 20.3,
+        "tasa_2026_proyectada": 40.5
       },
       "hurto_personas": {
         "casos_2025_completo": 17985,
-        "casos_2025_ene_abr": 6163,
-        "casos_2026_ene_abr": 4199,
-        "variacion_pct_ene_abr": -31.9,
+        "casos_2025_ene_abr": 8783,
+        "casos_2026_ene_abr": 5362,
+        "variacion_pct_ene_abr": -39,
         "base_pequena": false,
         "tasa_2025": 789.8,
-        "tasa_2026_ene_abr": 185,
-        "tasa_2026_proyectada": 554.9
+        "tasa_2026_ene_abr": 236.2,
+        "tasa_2026_proyectada": 472.4
       },
       "extorsion": {
         "casos_2025_completo": 435,
-        "casos_2025_ene_abr": 86,
-        "casos_2026_ene_abr": 169,
-        "variacion_pct_ene_abr": 96.5,
+        "casos_2025_ene_abr": 140,
+        "casos_2026_ene_abr": 189,
+        "variacion_pct_ene_abr": 35,
         "base_pequena": false,
         "tasa_2025": 19.1,
-        "tasa_2026_ene_abr": 7.4,
-        "tasa_2026_proyectada": 22.3
+        "tasa_2026_ene_abr": 8.3,
+        "tasa_2026_proyectada": 16.7
       },
       "hurto_residencias": {
         "casos_2025_completo": 958,
-        "casos_2025_ene_abr": 314,
-        "casos_2026_ene_abr": 274,
-        "variacion_pct_ene_abr": -12.7,
+        "casos_2025_ene_abr": 471,
+        "casos_2026_ene_abr": 335,
+        "variacion_pct_ene_abr": -28.9,
         "base_pequena": false,
         "tasa_2025": 42.1,
-        "tasa_2026_ene_abr": 12.1,
-        "tasa_2026_proyectada": 36.2
+        "tasa_2026_ene_abr": 14.8,
+        "tasa_2026_proyectada": 29.5
       },
       "violencia_intra": {
         "casos_2025_completo": 6058,
-        "casos_2025_ene_abr": 2005,
-        "casos_2026_ene_abr": 2117,
-        "variacion_pct_ene_abr": 5.6,
+        "casos_2025_ene_abr": 2843,
+        "casos_2026_ene_abr": 2629,
+        "variacion_pct_ene_abr": -7.5,
         "base_pequena": false,
         "tasa_2025": 266,
-        "tasa_2026_ene_abr": 93.3,
-        "tasa_2026_proyectada": 279.8
+        "tasa_2026_ene_abr": 115.8,
+        "tasa_2026_proyectada": 231.6
       },
       "hurto_automotores": {
         "casos_2025_completo": 1415,
-        "casos_2025_ene_abr": 533,
-        "casos_2026_ene_abr": 398,
-        "variacion_pct_ene_abr": -25.3,
+        "casos_2025_ene_abr": 738,
+        "casos_2026_ene_abr": 492,
+        "variacion_pct_ene_abr": -33.3,
         "base_pequena": false,
         "tasa_2025": 62.1,
-        "tasa_2026_ene_abr": 17.5,
-        "tasa_2026_proyectada": 52.6
+        "tasa_2026_ene_abr": 21.7,
+        "tasa_2026_proyectada": 43.3
       }
     },
     {
@@ -234,63 +237,63 @@
       "poblacion_2026": 1275854,
       "homicidio": {
         "casos_2025_completo": 429,
-        "casos_2025_ene_abr": 146,
-        "casos_2026_ene_abr": 195,
-        "variacion_pct_ene_abr": 33.6,
+        "casos_2025_ene_abr": 229,
+        "casos_2026_ene_abr": 255,
+        "variacion_pct_ene_abr": 11.4,
         "base_pequena": false,
         "tasa_2025": 33.5,
-        "tasa_2026_ene_abr": 15.3,
-        "tasa_2026_proyectada": 45.9
+        "tasa_2026_ene_abr": 20,
+        "tasa_2026_proyectada": 40
       },
       "hurto_personas": {
         "casos_2025_completo": 10187,
-        "casos_2025_ene_abr": 2495,
-        "casos_2026_ene_abr": 3134,
-        "variacion_pct_ene_abr": 25.6,
+        "casos_2025_ene_abr": 4408,
+        "casos_2026_ene_abr": 3830,
+        "variacion_pct_ene_abr": -13.1,
         "base_pequena": false,
         "tasa_2025": 796.3,
-        "tasa_2026_ene_abr": 245.6,
-        "tasa_2026_proyectada": 736.9
+        "tasa_2026_ene_abr": 300.2,
+        "tasa_2026_proyectada": 600.4
       },
       "extorsion": {
         "casos_2025_completo": 729,
-        "casos_2025_ene_abr": 213,
-        "casos_2026_ene_abr": 253,
-        "variacion_pct_ene_abr": 18.8,
+        "casos_2025_ene_abr": 351,
+        "casos_2026_ene_abr": 281,
+        "variacion_pct_ene_abr": -19.9,
         "base_pequena": false,
         "tasa_2025": 57,
-        "tasa_2026_ene_abr": 19.8,
-        "tasa_2026_proyectada": 59.5
+        "tasa_2026_ene_abr": 22,
+        "tasa_2026_proyectada": 44
       },
       "hurto_residencias": {
         "casos_2025_completo": 478,
-        "casos_2025_ene_abr": 114,
-        "casos_2026_ene_abr": 142,
-        "variacion_pct_ene_abr": 24.6,
+        "casos_2025_ene_abr": 211,
+        "casos_2026_ene_abr": 179,
+        "variacion_pct_ene_abr": -15.2,
         "base_pequena": false,
         "tasa_2025": 37.4,
-        "tasa_2026_ene_abr": 11.1,
-        "tasa_2026_proyectada": 33.4
+        "tasa_2026_ene_abr": 14,
+        "tasa_2026_proyectada": 28.1
       },
       "violencia_intra": {
         "casos_2025_completo": 3066,
-        "casos_2025_ene_abr": 988,
-        "casos_2026_ene_abr": 1119,
-        "variacion_pct_ene_abr": 13.3,
+        "casos_2025_ene_abr": 1461,
+        "casos_2026_ene_abr": 1380,
+        "variacion_pct_ene_abr": -5.5,
         "base_pequena": false,
         "tasa_2025": 239.7,
-        "tasa_2026_ene_abr": 87.7,
-        "tasa_2026_proyectada": 263.1
+        "tasa_2026_ene_abr": 108.2,
+        "tasa_2026_proyectada": 216.3
       },
       "hurto_automotores": {
         "casos_2025_completo": 415,
-        "casos_2025_ene_abr": 156,
-        "casos_2026_ene_abr": 116,
-        "variacion_pct_ene_abr": -25.6,
+        "casos_2025_ene_abr": 251,
+        "casos_2026_ene_abr": 134,
+        "variacion_pct_ene_abr": -46.6,
         "base_pequena": false,
         "tasa_2025": 32.4,
-        "tasa_2026_ene_abr": 9.1,
-        "tasa_2026_proyectada": 27.3
+        "tasa_2026_ene_abr": 10.5,
+        "tasa_2026_proyectada": 21
       }
     },
     {
@@ -300,63 +303,63 @@
       "poblacion_2026": 1010995,
       "homicidio": {
         "casos_2025_completo": 360,
-        "casos_2025_ene_abr": 107,
-        "casos_2026_ene_abr": 88,
-        "variacion_pct_ene_abr": -17.8,
+        "casos_2025_ene_abr": 169,
+        "casos_2026_ene_abr": 113,
+        "variacion_pct_ene_abr": -33.1,
         "base_pequena": false,
         "tasa_2025": 35.6,
-        "tasa_2026_ene_abr": 8.7,
-        "tasa_2026_proyectada": 26.1
+        "tasa_2026_ene_abr": 11.2,
+        "tasa_2026_proyectada": 22.4
       },
       "hurto_personas": {
         "casos_2025_completo": 6088,
-        "casos_2025_ene_abr": 2487,
-        "casos_2026_ene_abr": 1088,
-        "variacion_pct_ene_abr": -56.3,
+        "casos_2025_ene_abr": 3686,
+        "casos_2026_ene_abr": 1801,
+        "variacion_pct_ene_abr": -51.1,
         "base_pequena": false,
         "tasa_2025": 601.9,
-        "tasa_2026_ene_abr": 107.6,
-        "tasa_2026_proyectada": 322.9
+        "tasa_2026_ene_abr": 178.1,
+        "tasa_2026_proyectada": 356.3
       },
       "extorsion": {
         "casos_2025_completo": 379,
-        "casos_2025_ene_abr": 72,
-        "casos_2026_ene_abr": 126,
-        "variacion_pct_ene_abr": 75,
+        "casos_2025_ene_abr": 139,
+        "casos_2026_ene_abr": 146,
+        "variacion_pct_ene_abr": 5,
         "base_pequena": false,
         "tasa_2025": 37.5,
-        "tasa_2026_ene_abr": 12.5,
-        "tasa_2026_proyectada": 37.4
+        "tasa_2026_ene_abr": 14.4,
+        "tasa_2026_proyectada": 28.9
       },
       "hurto_residencias": {
         "casos_2025_completo": 400,
-        "casos_2025_ene_abr": 146,
-        "casos_2026_ene_abr": 135,
-        "variacion_pct_ene_abr": -7.5,
+        "casos_2025_ene_abr": 207,
+        "casos_2026_ene_abr": 163,
+        "variacion_pct_ene_abr": -21.3,
         "base_pequena": false,
         "tasa_2025": 39.5,
-        "tasa_2026_ene_abr": 13.4,
-        "tasa_2026_proyectada": 40.1
+        "tasa_2026_ene_abr": 16.1,
+        "tasa_2026_proyectada": 32.2
       },
       "violencia_intra": {
         "casos_2025_completo": 3125,
-        "casos_2025_ene_abr": 1070,
-        "casos_2026_ene_abr": 1271,
-        "variacion_pct_ene_abr": 18.8,
+        "casos_2025_ene_abr": 1532,
+        "casos_2026_ene_abr": 1579,
+        "variacion_pct_ene_abr": 3.1,
         "base_pequena": false,
         "tasa_2025": 308.9,
-        "tasa_2026_ene_abr": 125.7,
-        "tasa_2026_proyectada": 377.2
+        "tasa_2026_ene_abr": 156.2,
+        "tasa_2026_proyectada": 312.4
       },
       "hurto_automotores": {
         "casos_2025_completo": 58,
-        "casos_2025_ene_abr": 26,
-        "casos_2026_ene_abr": 17,
-        "variacion_pct_ene_abr": -34.6,
+        "casos_2025_ene_abr": 36,
+        "casos_2026_ene_abr": 21,
+        "variacion_pct_ene_abr": -41.7,
         "base_pequena": false,
         "tasa_2025": 5.7,
-        "tasa_2026_ene_abr": 1.7,
-        "tasa_2026_proyectada": 5
+        "tasa_2026_ene_abr": 2.1,
+        "tasa_2026_proyectada": 4.2
       }
     },
     {
@@ -366,63 +369,63 @@
       "poblacion_2026": 792180,
       "homicidio": {
         "casos_2025_completo": 344,
-        "casos_2025_ene_abr": 84,
-        "casos_2026_ene_abr": 92,
-        "variacion_pct_ene_abr": 9.5,
+        "casos_2025_ene_abr": 154,
+        "casos_2026_ene_abr": 120,
+        "variacion_pct_ene_abr": -22.1,
         "base_pequena": false,
         "tasa_2025": 43.4,
-        "tasa_2026_ene_abr": 11.6,
-        "tasa_2026_proyectada": 34.8
+        "tasa_2026_ene_abr": 15.1,
+        "tasa_2026_proyectada": 30.3
       },
       "hurto_personas": {
         "casos_2025_completo": 2183,
-        "casos_2025_ene_abr": 841,
-        "casos_2026_ene_abr": 574,
-        "variacion_pct_ene_abr": -31.7,
+        "casos_2025_ene_abr": 1218,
+        "casos_2026_ene_abr": 855,
+        "variacion_pct_ene_abr": -29.8,
         "base_pequena": false,
         "tasa_2025": 275.2,
-        "tasa_2026_ene_abr": 72.5,
-        "tasa_2026_proyectada": 217.4
+        "tasa_2026_ene_abr": 107.9,
+        "tasa_2026_proyectada": 215.9
       },
       "extorsion": {
         "casos_2025_completo": 273,
-        "casos_2025_ene_abr": 103,
-        "casos_2026_ene_abr": 99,
-        "variacion_pct_ene_abr": -3.9,
+        "casos_2025_ene_abr": 141,
+        "casos_2026_ene_abr": 108,
+        "variacion_pct_ene_abr": -23.4,
         "base_pequena": false,
         "tasa_2025": 34.4,
-        "tasa_2026_ene_abr": 12.5,
-        "tasa_2026_proyectada": 37.5
+        "tasa_2026_ene_abr": 13.6,
+        "tasa_2026_proyectada": 27.3
       },
       "hurto_residencias": {
         "casos_2025_completo": 231,
-        "casos_2025_ene_abr": 95,
-        "casos_2026_ene_abr": 53,
-        "variacion_pct_ene_abr": -44.2,
+        "casos_2025_ene_abr": 136,
+        "casos_2026_ene_abr": 81,
+        "variacion_pct_ene_abr": -40.4,
         "base_pequena": false,
         "tasa_2025": 29.1,
-        "tasa_2026_ene_abr": 6.7,
-        "tasa_2026_proyectada": 20.1
+        "tasa_2026_ene_abr": 10.2,
+        "tasa_2026_proyectada": 20.4
       },
       "violencia_intra": {
         "casos_2025_completo": 1162,
-        "casos_2025_ene_abr": 216,
-        "casos_2026_ene_abr": 542,
-        "variacion_pct_ene_abr": 150.9,
+        "casos_2025_ene_abr": 356,
+        "casos_2026_ene_abr": 758,
+        "variacion_pct_ene_abr": 112.9,
         "base_pequena": false,
         "tasa_2025": 146.5,
-        "tasa_2026_ene_abr": 68.4,
-        "tasa_2026_proyectada": 205.3
+        "tasa_2026_ene_abr": 95.7,
+        "tasa_2026_proyectada": 191.4
       },
       "hurto_automotores": {
         "casos_2025_completo": 65,
-        "casos_2025_ene_abr": 21,
-        "casos_2026_ene_abr": 23,
-        "variacion_pct_ene_abr": 9.5,
+        "casos_2025_ene_abr": 29,
+        "casos_2026_ene_abr": 31,
+        "variacion_pct_ene_abr": 6.9,
         "base_pequena": false,
         "tasa_2025": 8.2,
-        "tasa_2026_ene_abr": 2.9,
-        "tasa_2026_proyectada": 8.7
+        "tasa_2026_ene_abr": 3.9,
+        "tasa_2026_proyectada": 7.8
       }
     },
     {
@@ -432,63 +435,63 @@
       "poblacion_2026": 618548,
       "homicidio": {
         "casos_2025_completo": 137,
-        "casos_2025_ene_abr": 37,
-        "casos_2026_ene_abr": 51,
-        "variacion_pct_ene_abr": 37.8,
+        "casos_2025_ene_abr": 65,
+        "casos_2026_ene_abr": 63,
+        "variacion_pct_ene_abr": -3.1,
         "base_pequena": false,
         "tasa_2025": 22.2,
-        "tasa_2026_ene_abr": 8.2,
-        "tasa_2026_proyectada": 24.7
+        "tasa_2026_ene_abr": 10.2,
+        "tasa_2026_proyectada": 20.4
       },
       "hurto_personas": {
         "casos_2025_completo": 5383,
-        "casos_2025_ene_abr": 1825,
-        "casos_2026_ene_abr": 1564,
-        "variacion_pct_ene_abr": -14.3,
+        "casos_2025_ene_abr": 2686,
+        "casos_2026_ene_abr": 1844,
+        "variacion_pct_ene_abr": -31.3,
         "base_pequena": false,
         "tasa_2025": 871.5,
-        "tasa_2026_ene_abr": 252.9,
-        "tasa_2026_proyectada": 758.6
+        "tasa_2026_ene_abr": 298.1,
+        "tasa_2026_proyectada": 596.2
       },
       "extorsion": {
         "casos_2025_completo": 114,
-        "casos_2025_ene_abr": 27,
-        "casos_2026_ene_abr": 32,
-        "variacion_pct_ene_abr": 18.5,
+        "casos_2025_ene_abr": 52,
+        "casos_2026_ene_abr": 41,
+        "variacion_pct_ene_abr": -21.2,
         "base_pequena": false,
         "tasa_2025": 18.5,
-        "tasa_2026_ene_abr": 5.2,
-        "tasa_2026_proyectada": 15.5
+        "tasa_2026_ene_abr": 6.6,
+        "tasa_2026_proyectada": 13.3
       },
       "hurto_residencias": {
         "casos_2025_completo": 282,
-        "casos_2025_ene_abr": 87,
-        "casos_2026_ene_abr": 82,
-        "variacion_pct_ene_abr": -5.7,
+        "casos_2025_ene_abr": 141,
+        "casos_2026_ene_abr": 100,
+        "variacion_pct_ene_abr": -29.1,
         "base_pequena": false,
         "tasa_2025": 45.7,
-        "tasa_2026_ene_abr": 13.3,
-        "tasa_2026_proyectada": 39.8
+        "tasa_2026_ene_abr": 16.2,
+        "tasa_2026_proyectada": 32.3
       },
       "violencia_intra": {
         "casos_2025_completo": 1595,
-        "casos_2025_ene_abr": 524,
-        "casos_2026_ene_abr": 598,
-        "variacion_pct_ene_abr": 14.1,
+        "casos_2025_ene_abr": 810,
+        "casos_2026_ene_abr": 753,
+        "variacion_pct_ene_abr": -7,
         "base_pequena": false,
         "tasa_2025": 258.2,
-        "tasa_2026_ene_abr": 96.7,
-        "tasa_2026_proyectada": 290
+        "tasa_2026_ene_abr": 121.7,
+        "tasa_2026_proyectada": 243.5
       },
       "hurto_automotores": {
         "casos_2025_completo": 10,
-        "casos_2025_ene_abr": 2,
+        "casos_2025_ene_abr": 3,
         "casos_2026_ene_abr": 2,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 1.6,
         "tasa_2026_ene_abr": 0.3,
-        "tasa_2026_proyectada": 1
+        "tasa_2026_proyectada": 0.6
       }
     },
     {
@@ -498,63 +501,63 @@
       "poblacion_2026": 557317,
       "homicidio": {
         "casos_2025_completo": 88,
-        "casos_2025_ene_abr": 27,
-        "casos_2026_ene_abr": 31,
-        "variacion_pct_ene_abr": 14.8,
+        "casos_2025_ene_abr": 42,
+        "casos_2026_ene_abr": 33,
+        "variacion_pct_ene_abr": -21.4,
         "base_pequena": false,
         "tasa_2025": 15.9,
-        "tasa_2026_ene_abr": 5.6,
-        "tasa_2026_proyectada": 16.7
+        "tasa_2026_ene_abr": 5.9,
+        "tasa_2026_proyectada": 11.8
       },
       "hurto_personas": {
         "casos_2025_completo": 4461,
-        "casos_2025_ene_abr": 1222,
-        "casos_2026_ene_abr": 1556,
-        "variacion_pct_ene_abr": 27.3,
+        "casos_2025_ene_abr": 1952,
+        "casos_2026_ene_abr": 1999,
+        "variacion_pct_ene_abr": 2.4,
         "base_pequena": false,
         "tasa_2025": 803.9,
-        "tasa_2026_ene_abr": 279.2,
-        "tasa_2026_proyectada": 837.6
+        "tasa_2026_ene_abr": 358.7,
+        "tasa_2026_proyectada": 717.4
       },
       "extorsion": {
         "casos_2025_completo": 165,
-        "casos_2025_ene_abr": 50,
-        "casos_2026_ene_abr": 76,
-        "variacion_pct_ene_abr": 52,
+        "casos_2025_ene_abr": 71,
+        "casos_2026_ene_abr": 87,
+        "variacion_pct_ene_abr": 22.5,
         "base_pequena": false,
         "tasa_2025": 29.7,
-        "tasa_2026_ene_abr": 13.6,
-        "tasa_2026_proyectada": 40.9
+        "tasa_2026_ene_abr": 15.6,
+        "tasa_2026_proyectada": 31.2
       },
       "hurto_residencias": {
         "casos_2025_completo": 482,
-        "casos_2025_ene_abr": 135,
-        "casos_2026_ene_abr": 161,
-        "variacion_pct_ene_abr": 19.3,
+        "casos_2025_ene_abr": 212,
+        "casos_2026_ene_abr": 233,
+        "variacion_pct_ene_abr": 9.9,
         "base_pequena": false,
         "tasa_2025": 86.9,
-        "tasa_2026_ene_abr": 28.9,
-        "tasa_2026_proyectada": 86.7
+        "tasa_2026_ene_abr": 41.8,
+        "tasa_2026_proyectada": 83.6
       },
       "violencia_intra": {
         "casos_2025_completo": 2004,
-        "casos_2025_ene_abr": 692,
-        "casos_2026_ene_abr": 719,
-        "variacion_pct_ene_abr": 3.9,
+        "casos_2025_ene_abr": 962,
+        "casos_2026_ene_abr": 892,
+        "variacion_pct_ene_abr": -7.3,
         "base_pequena": false,
         "tasa_2025": 361.1,
-        "tasa_2026_ene_abr": 129,
-        "tasa_2026_proyectada": 387
+        "tasa_2026_ene_abr": 160.1,
+        "tasa_2026_proyectada": 320.1
       },
       "hurto_automotores": {
         "casos_2025_completo": 21,
-        "casos_2025_ene_abr": 6,
-        "casos_2026_ene_abr": 9,
+        "casos_2025_ene_abr": 10,
+        "casos_2026_ene_abr": 11,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 3.8,
-        "tasa_2026_ene_abr": 1.6,
-        "tasa_2026_proyectada": 4.8
+        "tasa_2026_ene_abr": 2,
+        "tasa_2026_proyectada": 3.9
       }
     },
     {
@@ -564,63 +567,63 @@
       "poblacion_2026": 588645,
       "homicidio": {
         "casos_2025_completo": 156,
-        "casos_2025_ene_abr": 56,
-        "casos_2026_ene_abr": 43,
-        "variacion_pct_ene_abr": -23.2,
+        "casos_2025_ene_abr": 82,
+        "casos_2026_ene_abr": 49,
+        "variacion_pct_ene_abr": -40.2,
         "base_pequena": false,
         "tasa_2025": 26.7,
-        "tasa_2026_ene_abr": 7.3,
-        "tasa_2026_proyectada": 21.9
+        "tasa_2026_ene_abr": 8.3,
+        "tasa_2026_proyectada": 16.6
       },
       "hurto_personas": {
         "casos_2025_completo": 4939,
-        "casos_2025_ene_abr": 1732,
-        "casos_2026_ene_abr": 1542,
-        "variacion_pct_ene_abr": -11,
+        "casos_2025_ene_abr": 2472,
+        "casos_2026_ene_abr": 2019,
+        "variacion_pct_ene_abr": -18.3,
         "base_pequena": false,
         "tasa_2025": 845.2,
-        "tasa_2026_ene_abr": 262,
-        "tasa_2026_proyectada": 785.9
+        "tasa_2026_ene_abr": 343,
+        "tasa_2026_proyectada": 686
       },
       "extorsion": {
         "casos_2025_completo": 341,
-        "casos_2025_ene_abr": 83,
-        "casos_2026_ene_abr": 115,
-        "variacion_pct_ene_abr": 38.6,
+        "casos_2025_ene_abr": 125,
+        "casos_2026_ene_abr": 128,
+        "variacion_pct_ene_abr": 2.4,
         "base_pequena": false,
         "tasa_2025": 58.4,
-        "tasa_2026_ene_abr": 19.5,
-        "tasa_2026_proyectada": 58.6
+        "tasa_2026_ene_abr": 21.7,
+        "tasa_2026_proyectada": 43.5
       },
       "hurto_residencias": {
         "casos_2025_completo": 867,
-        "casos_2025_ene_abr": 265,
-        "casos_2026_ene_abr": 276,
-        "variacion_pct_ene_abr": 4.2,
+        "casos_2025_ene_abr": 416,
+        "casos_2026_ene_abr": 342,
+        "variacion_pct_ene_abr": -17.8,
         "base_pequena": false,
         "tasa_2025": 148.4,
-        "tasa_2026_ene_abr": 46.9,
-        "tasa_2026_proyectada": 140.7
+        "tasa_2026_ene_abr": 58.1,
+        "tasa_2026_proyectada": 116.2
       },
       "violencia_intra": {
         "casos_2025_completo": 1744,
-        "casos_2025_ene_abr": 425,
-        "casos_2026_ene_abr": 670,
-        "variacion_pct_ene_abr": 57.6,
+        "casos_2025_ene_abr": 770,
+        "casos_2026_ene_abr": 847,
+        "variacion_pct_ene_abr": 10,
         "base_pequena": false,
         "tasa_2025": 298.4,
-        "tasa_2026_ene_abr": 113.8,
-        "tasa_2026_proyectada": 341.5
+        "tasa_2026_ene_abr": 143.9,
+        "tasa_2026_proyectada": 287.8
       },
       "hurto_automotores": {
         "casos_2025_completo": 34,
-        "casos_2025_ene_abr": 11,
-        "casos_2026_ene_abr": 11,
-        "variacion_pct_ene_abr": null,
-        "base_pequena": true,
+        "casos_2025_ene_abr": 21,
+        "casos_2026_ene_abr": 13,
+        "variacion_pct_ene_abr": -38.1,
+        "base_pequena": false,
         "tasa_2025": 5.8,
-        "tasa_2026_ene_abr": 1.9,
-        "tasa_2026_proyectada": 5.6
+        "tasa_2026_ene_abr": 2.2,
+        "tasa_2026_proyectada": 4.4
       }
     },
     {
@@ -630,63 +633,63 @@
       "poblacion_2026": 588662,
       "homicidio": {
         "casos_2025_completo": 170,
-        "casos_2025_ene_abr": 56,
-        "casos_2026_ene_abr": 38,
-        "variacion_pct_ene_abr": -32.1,
+        "casos_2025_ene_abr": 85,
+        "casos_2026_ene_abr": 45,
+        "variacion_pct_ene_abr": -47.1,
         "base_pequena": false,
         "tasa_2025": 29.2,
-        "tasa_2026_ene_abr": 6.5,
-        "tasa_2026_proyectada": 19.4
+        "tasa_2026_ene_abr": 7.6,
+        "tasa_2026_proyectada": 15.3
       },
       "hurto_personas": {
         "casos_2025_completo": 2720,
-        "casos_2025_ene_abr": 1244,
-        "casos_2026_ene_abr": 697,
-        "variacion_pct_ene_abr": -44,
+        "casos_2025_ene_abr": 1568,
+        "casos_2026_ene_abr": 1014,
+        "variacion_pct_ene_abr": -35.3,
         "base_pequena": false,
         "tasa_2025": 467,
-        "tasa_2026_ene_abr": 118.4,
-        "tasa_2026_proyectada": 355.2
+        "tasa_2026_ene_abr": 172.3,
+        "tasa_2026_proyectada": 344.5
       },
       "extorsion": {
         "casos_2025_completo": 154,
-        "casos_2025_ene_abr": 39,
-        "casos_2026_ene_abr": 51,
-        "variacion_pct_ene_abr": 30.8,
+        "casos_2025_ene_abr": 62,
+        "casos_2026_ene_abr": 54,
+        "variacion_pct_ene_abr": -12.9,
         "base_pequena": false,
         "tasa_2025": 26.4,
-        "tasa_2026_ene_abr": 8.7,
-        "tasa_2026_proyectada": 26
+        "tasa_2026_ene_abr": 9.2,
+        "tasa_2026_proyectada": 18.3
       },
       "hurto_residencias": {
         "casos_2025_completo": 213,
-        "casos_2025_ene_abr": 61,
-        "casos_2026_ene_abr": 73,
-        "variacion_pct_ene_abr": 19.7,
+        "casos_2025_ene_abr": 92,
+        "casos_2026_ene_abr": 85,
+        "variacion_pct_ene_abr": -7.6,
         "base_pequena": false,
         "tasa_2025": 36.6,
-        "tasa_2026_ene_abr": 12.4,
-        "tasa_2026_proyectada": 37.2
+        "tasa_2026_ene_abr": 14.4,
+        "tasa_2026_proyectada": 28.9
       },
       "violencia_intra": {
         "casos_2025_completo": 1517,
-        "casos_2025_ene_abr": 529,
-        "casos_2026_ene_abr": 550,
-        "variacion_pct_ene_abr": 4,
+        "casos_2025_ene_abr": 742,
+        "casos_2026_ene_abr": 702,
+        "variacion_pct_ene_abr": -5.4,
         "base_pequena": false,
         "tasa_2025": 260.5,
-        "tasa_2026_ene_abr": 93.4,
-        "tasa_2026_proyectada": 280.3
+        "tasa_2026_ene_abr": 119.3,
+        "tasa_2026_proyectada": 238.5
       },
       "hurto_automotores": {
         "casos_2025_completo": 18,
-        "casos_2025_ene_abr": 3,
-        "casos_2026_ene_abr": 9,
+        "casos_2025_ene_abr": 8,
+        "casos_2026_ene_abr": 12,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 3.1,
-        "tasa_2026_ene_abr": 1.5,
-        "tasa_2026_proyectada": 4.6
+        "tasa_2026_ene_abr": 2,
+        "tasa_2026_proyectada": 4.1
       }
     },
     {
@@ -696,63 +699,63 @@
       "poblacion_2026": 487820,
       "homicidio": {
         "casos_2025_completo": 206,
-        "casos_2025_ene_abr": 73,
-        "casos_2026_ene_abr": 57,
-        "variacion_pct_ene_abr": -21.9,
+        "casos_2025_ene_abr": 114,
+        "casos_2026_ene_abr": 66,
+        "variacion_pct_ene_abr": -42.1,
         "base_pequena": false,
         "tasa_2025": 42.3,
-        "tasa_2026_ene_abr": 11.7,
-        "tasa_2026_proyectada": 35.1
+        "tasa_2026_ene_abr": 13.5,
+        "tasa_2026_proyectada": 27.1
       },
       "hurto_personas": {
         "casos_2025_completo": 2265,
-        "casos_2025_ene_abr": 654,
-        "casos_2026_ene_abr": 896,
-        "variacion_pct_ene_abr": 37,
+        "casos_2025_ene_abr": 976,
+        "casos_2026_ene_abr": 1149,
+        "variacion_pct_ene_abr": 17.7,
         "base_pequena": false,
         "tasa_2025": 464.7,
-        "tasa_2026_ene_abr": 183.7,
-        "tasa_2026_proyectada": 551
+        "tasa_2026_ene_abr": 235.5,
+        "tasa_2026_proyectada": 471.1
       },
       "extorsion": {
         "casos_2025_completo": 107,
-        "casos_2025_ene_abr": 25,
-        "casos_2026_ene_abr": 31,
-        "variacion_pct_ene_abr": 24,
+        "casos_2025_ene_abr": 47,
+        "casos_2026_ene_abr": 37,
+        "variacion_pct_ene_abr": -21.3,
         "base_pequena": false,
         "tasa_2025": 22,
-        "tasa_2026_ene_abr": 6.4,
-        "tasa_2026_proyectada": 19.1
+        "tasa_2026_ene_abr": 7.6,
+        "tasa_2026_proyectada": 15.2
       },
       "hurto_residencias": {
         "casos_2025_completo": 329,
-        "casos_2025_ene_abr": 117,
-        "casos_2026_ene_abr": 104,
-        "variacion_pct_ene_abr": -11.1,
+        "casos_2025_ene_abr": 173,
+        "casos_2026_ene_abr": 129,
+        "variacion_pct_ene_abr": -25.4,
         "base_pequena": false,
         "tasa_2025": 67.5,
-        "tasa_2026_ene_abr": 21.3,
-        "tasa_2026_proyectada": 64
+        "tasa_2026_ene_abr": 26.4,
+        "tasa_2026_proyectada": 52.9
       },
       "violencia_intra": {
         "casos_2025_completo": 1077,
-        "casos_2025_ene_abr": 337,
-        "casos_2026_ene_abr": 478,
-        "variacion_pct_ene_abr": 41.8,
+        "casos_2025_ene_abr": 541,
+        "casos_2026_ene_abr": 574,
+        "variacion_pct_ene_abr": 6.1,
         "base_pequena": false,
         "tasa_2025": 221,
-        "tasa_2026_ene_abr": 98,
-        "tasa_2026_proyectada": 294
+        "tasa_2026_ene_abr": 117.7,
+        "tasa_2026_proyectada": 235.3
       },
       "hurto_automotores": {
         "casos_2025_completo": 36,
-        "casos_2025_ene_abr": 10,
-        "casos_2026_ene_abr": 14,
+        "casos_2025_ene_abr": 16,
+        "casos_2026_ene_abr": 17,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 7.4,
-        "tasa_2026_ene_abr": 2.9,
-        "tasa_2026_proyectada": 8.6
+        "tasa_2026_ene_abr": 3.5,
+        "tasa_2026_proyectada": 7
       }
     },
     {
@@ -762,63 +765,63 @@
       "poblacion_2026": 629217,
       "homicidio": {
         "casos_2025_completo": 112,
-        "casos_2025_ene_abr": 37,
-        "casos_2026_ene_abr": 42,
-        "variacion_pct_ene_abr": 13.5,
+        "casos_2025_ene_abr": 56,
+        "casos_2026_ene_abr": 55,
+        "variacion_pct_ene_abr": -1.8,
         "base_pequena": false,
         "tasa_2025": 18.2,
-        "tasa_2026_ene_abr": 6.7,
-        "tasa_2026_proyectada": 20
+        "tasa_2026_ene_abr": 8.7,
+        "tasa_2026_proyectada": 17.5
       },
       "hurto_personas": {
         "casos_2025_completo": 2834,
-        "casos_2025_ene_abr": 853,
-        "casos_2026_ene_abr": 848,
-        "variacion_pct_ene_abr": -0.6,
+        "casos_2025_ene_abr": 1416,
+        "casos_2026_ene_abr": 1120,
+        "variacion_pct_ene_abr": -20.9,
         "base_pequena": false,
         "tasa_2025": 460.1,
-        "tasa_2026_ene_abr": 134.8,
-        "tasa_2026_proyectada": 404.3
+        "tasa_2026_ene_abr": 178,
+        "tasa_2026_proyectada": 356
       },
       "extorsion": {
         "casos_2025_completo": 190,
-        "casos_2025_ene_abr": 54,
-        "casos_2026_ene_abr": 85,
-        "variacion_pct_ene_abr": 57.4,
+        "casos_2025_ene_abr": 88,
+        "casos_2026_ene_abr": 90,
+        "variacion_pct_ene_abr": 2.3,
         "base_pequena": false,
         "tasa_2025": 30.8,
-        "tasa_2026_ene_abr": 13.5,
-        "tasa_2026_proyectada": 40.5
+        "tasa_2026_ene_abr": 14.3,
+        "tasa_2026_proyectada": 28.6
       },
       "hurto_residencias": {
         "casos_2025_completo": 234,
-        "casos_2025_ene_abr": 69,
-        "casos_2026_ene_abr": 87,
-        "variacion_pct_ene_abr": 26.1,
+        "casos_2025_ene_abr": 113,
+        "casos_2026_ene_abr": 101,
+        "variacion_pct_ene_abr": -10.6,
         "base_pequena": false,
         "tasa_2025": 38,
-        "tasa_2026_ene_abr": 13.8,
-        "tasa_2026_proyectada": 41.5
+        "tasa_2026_ene_abr": 16.1,
+        "tasa_2026_proyectada": 32.1
       },
       "violencia_intra": {
         "casos_2025_completo": 1226,
-        "casos_2025_ene_abr": 446,
-        "casos_2026_ene_abr": 282,
-        "variacion_pct_ene_abr": -36.8,
+        "casos_2025_ene_abr": 663,
+        "casos_2026_ene_abr": 351,
+        "variacion_pct_ene_abr": -47.1,
         "base_pequena": false,
         "tasa_2025": 199,
-        "tasa_2026_ene_abr": 44.8,
-        "tasa_2026_proyectada": 134.5
+        "tasa_2026_ene_abr": 55.8,
+        "tasa_2026_proyectada": 111.6
       },
       "hurto_automotores": {
         "casos_2025_completo": 74,
-        "casos_2025_ene_abr": 22,
-        "casos_2026_ene_abr": 33,
-        "variacion_pct_ene_abr": 50,
+        "casos_2025_ene_abr": 34,
+        "casos_2026_ene_abr": 36,
+        "variacion_pct_ene_abr": 5.9,
         "base_pequena": false,
         "tasa_2025": 12,
-        "tasa_2026_ene_abr": 5.2,
-        "tasa_2026_proyectada": 15.7
+        "tasa_2026_ene_abr": 5.7,
+        "tasa_2026_proyectada": 11.4
       }
     },
     {
@@ -828,62 +831,62 @@
       "poblacion_2026": 585029,
       "homicidio": {
         "casos_2025_completo": 43,
-        "casos_2025_ene_abr": 10,
-        "casos_2026_ene_abr": 15,
-        "variacion_pct_ene_abr": null,
-        "base_pequena": true,
-        "tasa_2025": 7.5,
-        "tasa_2026_ene_abr": 2.6,
-        "tasa_2026_proyectada": 7.7
-      },
-      "hurto_personas": {
-        "casos_2025_completo": 1421,
-        "casos_2025_ene_abr": 509,
-        "casos_2026_ene_abr": 336,
-        "variacion_pct_ene_abr": -34,
-        "base_pequena": false,
-        "tasa_2025": 247.3,
-        "tasa_2026_ene_abr": 57.4,
-        "tasa_2026_proyectada": 172.3
-      },
-      "extorsion": {
-        "casos_2025_completo": 48,
         "casos_2025_ene_abr": 16,
         "casos_2026_ene_abr": 16,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
+        "tasa_2025": 7.5,
+        "tasa_2026_ene_abr": 2.7,
+        "tasa_2026_proyectada": 5.5
+      },
+      "hurto_personas": {
+        "casos_2025_completo": 1421,
+        "casos_2025_ene_abr": 748,
+        "casos_2026_ene_abr": 429,
+        "variacion_pct_ene_abr": -42.6,
+        "base_pequena": false,
+        "tasa_2025": 247.3,
+        "tasa_2026_ene_abr": 73.3,
+        "tasa_2026_proyectada": 146.7
+      },
+      "extorsion": {
+        "casos_2025_completo": 48,
+        "casos_2025_ene_abr": 24,
+        "casos_2026_ene_abr": 16,
+        "variacion_pct_ene_abr": -33.3,
+        "base_pequena": false,
         "tasa_2025": 8.4,
         "tasa_2026_ene_abr": 2.7,
-        "tasa_2026_proyectada": 8.2
+        "tasa_2026_proyectada": 5.5
       },
       "hurto_residencias": {
         "casos_2025_completo": 233,
-        "casos_2025_ene_abr": 81,
-        "casos_2026_ene_abr": 70,
-        "variacion_pct_ene_abr": -13.6,
+        "casos_2025_ene_abr": 114,
+        "casos_2026_ene_abr": 85,
+        "variacion_pct_ene_abr": -25.4,
         "base_pequena": false,
         "tasa_2025": 40.6,
-        "tasa_2026_ene_abr": 12,
-        "tasa_2026_proyectada": 35.9
+        "tasa_2026_ene_abr": 14.5,
+        "tasa_2026_proyectada": 29.1
       },
       "violencia_intra": {
         "casos_2025_completo": 556,
-        "casos_2025_ene_abr": 197,
-        "casos_2026_ene_abr": 161,
-        "variacion_pct_ene_abr": -18.3,
+        "casos_2025_ene_abr": 298,
+        "casos_2026_ene_abr": 207,
+        "variacion_pct_ene_abr": -30.5,
         "base_pequena": false,
         "tasa_2025": 96.8,
-        "tasa_2026_ene_abr": 27.5,
-        "tasa_2026_proyectada": 82.6
+        "tasa_2026_ene_abr": 35.4,
+        "tasa_2026_proyectada": 70.8
       },
       "hurto_automotores": {
         "casos_2025_completo": 8,
-        "casos_2025_ene_abr": 2,
-        "casos_2026_ene_abr": 2,
+        "casos_2025_ene_abr": 4,
+        "casos_2026_ene_abr": 3,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 1.4,
-        "tasa_2026_ene_abr": 0.3,
+        "tasa_2026_ene_abr": 0.5,
         "tasa_2026_proyectada": 1
       }
     },
@@ -894,63 +897,63 @@
       "poblacion_2026": 404775,
       "homicidio": {
         "casos_2025_completo": 42,
-        "casos_2025_ene_abr": 6,
-        "casos_2026_ene_abr": 9,
+        "casos_2025_ene_abr": 19,
+        "casos_2026_ene_abr": 11,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 10.4,
-        "tasa_2026_ene_abr": 2.2,
-        "tasa_2026_proyectada": 6.7
+        "tasa_2026_ene_abr": 2.7,
+        "tasa_2026_proyectada": 5.4
       },
       "hurto_personas": {
         "casos_2025_completo": 6499,
-        "casos_2025_ene_abr": 1994,
-        "casos_2026_ene_abr": 2668,
-        "variacion_pct_ene_abr": 33.8,
+        "casos_2025_ene_abr": 2945,
+        "casos_2026_ene_abr": 3233,
+        "variacion_pct_ene_abr": 9.8,
         "base_pequena": false,
         "tasa_2025": 1608.3,
-        "tasa_2026_ene_abr": 659.1,
-        "tasa_2026_proyectada": 1977.4
+        "tasa_2026_ene_abr": 798.7,
+        "tasa_2026_proyectada": 1597.4
       },
       "extorsion": {
         "casos_2025_completo": 65,
-        "casos_2025_ene_abr": 5,
-        "casos_2026_ene_abr": 6,
+        "casos_2025_ene_abr": 16,
+        "casos_2026_ene_abr": 8,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 16.1,
-        "tasa_2026_ene_abr": 1.5,
-        "tasa_2026_proyectada": 4.4
+        "tasa_2026_ene_abr": 2,
+        "tasa_2026_proyectada": 4
       },
       "hurto_residencias": {
         "casos_2025_completo": 280,
-        "casos_2025_ene_abr": 91,
-        "casos_2026_ene_abr": 83,
-        "variacion_pct_ene_abr": -8.8,
+        "casos_2025_ene_abr": 125,
+        "casos_2026_ene_abr": 103,
+        "variacion_pct_ene_abr": -17.6,
         "base_pequena": false,
         "tasa_2025": 69.3,
-        "tasa_2026_ene_abr": 20.5,
-        "tasa_2026_proyectada": 61.5
+        "tasa_2026_ene_abr": 25.4,
+        "tasa_2026_proyectada": 50.9
       },
       "violencia_intra": {
         "casos_2025_completo": 1991,
-        "casos_2025_ene_abr": 723,
-        "casos_2026_ene_abr": 656,
-        "variacion_pct_ene_abr": -9.3,
+        "casos_2025_ene_abr": 1044,
+        "casos_2026_ene_abr": 804,
+        "variacion_pct_ene_abr": -23,
         "base_pequena": false,
         "tasa_2025": 492.7,
-        "tasa_2026_ene_abr": 162.1,
-        "tasa_2026_proyectada": 486.2
+        "tasa_2026_ene_abr": 198.6,
+        "tasa_2026_proyectada": 397.3
       },
       "hurto_automotores": {
         "casos_2025_completo": 64,
-        "casos_2025_ene_abr": 16,
-        "casos_2026_ene_abr": 14,
-        "variacion_pct_ene_abr": null,
-        "base_pequena": true,
+        "casos_2025_ene_abr": 24,
+        "casos_2026_ene_abr": 18,
+        "variacion_pct_ene_abr": -25,
+        "base_pequena": false,
         "tasa_2025": 15.8,
-        "tasa_2026_ene_abr": 3.5,
-        "tasa_2026_proyectada": 10.4
+        "tasa_2026_ene_abr": 4.4,
+        "tasa_2026_proyectada": 8.9
       }
     },
     {
@@ -960,63 +963,63 @@
       "poblacion_2026": 475690,
       "homicidio": {
         "casos_2025_completo": 37,
-        "casos_2025_ene_abr": 10,
-        "casos_2026_ene_abr": 18,
+        "casos_2025_ene_abr": 18,
+        "casos_2026_ene_abr": 20,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 7.8,
-        "tasa_2026_ene_abr": 3.8,
-        "tasa_2026_proyectada": 11.4
+        "tasa_2026_ene_abr": 4.2,
+        "tasa_2026_proyectada": 8.4
       },
       "hurto_personas": {
         "casos_2025_completo": 673,
-        "casos_2025_ene_abr": 262,
-        "casos_2026_ene_abr": 218,
-        "variacion_pct_ene_abr": -16.8,
+        "casos_2025_ene_abr": 360,
+        "casos_2026_ene_abr": 279,
+        "variacion_pct_ene_abr": -22.5,
         "base_pequena": false,
         "tasa_2025": 142.6,
-        "tasa_2026_ene_abr": 45.8,
-        "tasa_2026_proyectada": 137.5
+        "tasa_2026_ene_abr": 58.7,
+        "tasa_2026_proyectada": 117.3
       },
       "extorsion": {
         "casos_2025_completo": 39,
-        "casos_2025_ene_abr": 7,
-        "casos_2026_ene_abr": 10,
+        "casos_2025_ene_abr": 12,
+        "casos_2026_ene_abr": 11,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 8.3,
-        "tasa_2026_ene_abr": 2.1,
-        "tasa_2026_proyectada": 6.3
+        "tasa_2026_ene_abr": 2.3,
+        "tasa_2026_proyectada": 4.6
       },
       "hurto_residencias": {
         "casos_2025_completo": 168,
-        "casos_2025_ene_abr": 43,
-        "casos_2026_ene_abr": 42,
-        "variacion_pct_ene_abr": -2.3,
+        "casos_2025_ene_abr": 68,
+        "casos_2026_ene_abr": 52,
+        "variacion_pct_ene_abr": -23.5,
         "base_pequena": false,
         "tasa_2025": 35.6,
-        "tasa_2026_ene_abr": 8.8,
-        "tasa_2026_proyectada": 26.5
+        "tasa_2026_ene_abr": 10.9,
+        "tasa_2026_proyectada": 21.9
       },
       "violencia_intra": {
         "casos_2025_completo": 475,
-        "casos_2025_ene_abr": 185,
-        "casos_2026_ene_abr": 269,
-        "variacion_pct_ene_abr": 45.4,
+        "casos_2025_ene_abr": 257,
+        "casos_2026_ene_abr": 334,
+        "variacion_pct_ene_abr": 30,
         "base_pequena": false,
         "tasa_2025": 100.6,
-        "tasa_2026_ene_abr": 56.5,
-        "tasa_2026_proyectada": 169.6
+        "tasa_2026_ene_abr": 70.2,
+        "tasa_2026_proyectada": 140.4
       },
       "hurto_automotores": {
         "casos_2025_completo": 8,
-        "casos_2025_ene_abr": 3,
+        "casos_2025_ene_abr": 5,
         "casos_2026_ene_abr": 3,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 1.7,
         "tasa_2026_ene_abr": 0.6,
-        "tasa_2026_proyectada": 1.9
+        "tasa_2026_proyectada": 1.3
       }
     },
     {
@@ -1026,63 +1029,63 @@
       "poblacion_2026": 408218,
       "homicidio": {
         "casos_2025_completo": 85,
-        "casos_2025_ene_abr": 17,
-        "casos_2026_ene_abr": 23,
-        "variacion_pct_ene_abr": null,
-        "base_pequena": true,
+        "casos_2025_ene_abr": 35,
+        "casos_2026_ene_abr": 28,
+        "variacion_pct_ene_abr": -20,
+        "base_pequena": false,
         "tasa_2025": 21.1,
-        "tasa_2026_ene_abr": 5.6,
-        "tasa_2026_proyectada": 16.9
+        "tasa_2026_ene_abr": 6.9,
+        "tasa_2026_proyectada": 13.7
       },
       "hurto_personas": {
         "casos_2025_completo": 4476,
-        "casos_2025_ene_abr": 1425,
-        "casos_2026_ene_abr": 1461,
-        "variacion_pct_ene_abr": 2.5,
+        "casos_2025_ene_abr": 2193,
+        "casos_2026_ene_abr": 1765,
+        "variacion_pct_ene_abr": -19.5,
         "base_pequena": false,
         "tasa_2025": 1112.1,
-        "tasa_2026_ene_abr": 357.9,
-        "tasa_2026_proyectada": 1073.7
+        "tasa_2026_ene_abr": 432.4,
+        "tasa_2026_proyectada": 864.7
       },
       "extorsion": {
         "casos_2025_completo": 127,
-        "casos_2025_ene_abr": 25,
-        "casos_2026_ene_abr": 50,
-        "variacion_pct_ene_abr": 100,
+        "casos_2025_ene_abr": 48,
+        "casos_2026_ene_abr": 56,
+        "variacion_pct_ene_abr": 16.7,
         "base_pequena": false,
         "tasa_2025": 31.6,
-        "tasa_2026_ene_abr": 12.2,
-        "tasa_2026_proyectada": 36.7
+        "tasa_2026_ene_abr": 13.7,
+        "tasa_2026_proyectada": 27.4
       },
       "hurto_residencias": {
         "casos_2025_completo": 250,
-        "casos_2025_ene_abr": 91,
-        "casos_2026_ene_abr": 87,
-        "variacion_pct_ene_abr": -4.4,
+        "casos_2025_ene_abr": 131,
+        "casos_2026_ene_abr": 110,
+        "variacion_pct_ene_abr": -16,
         "base_pequena": false,
         "tasa_2025": 62.1,
-        "tasa_2026_ene_abr": 21.3,
-        "tasa_2026_proyectada": 63.9
+        "tasa_2026_ene_abr": 26.9,
+        "tasa_2026_proyectada": 53.9
       },
       "violencia_intra": {
         "casos_2025_completo": 1131,
-        "casos_2025_ene_abr": 368,
-        "casos_2026_ene_abr": 443,
-        "variacion_pct_ene_abr": 20.4,
+        "casos_2025_ene_abr": 540,
+        "casos_2026_ene_abr": 574,
+        "variacion_pct_ene_abr": 6.3,
         "base_pequena": false,
         "tasa_2025": 281,
-        "tasa_2026_ene_abr": 108.5,
-        "tasa_2026_proyectada": 325.6
+        "tasa_2026_ene_abr": 140.6,
+        "tasa_2026_proyectada": 281.2
       },
       "hurto_automotores": {
         "casos_2025_completo": 16,
-        "casos_2025_ene_abr": 6,
-        "casos_2026_ene_abr": 4,
+        "casos_2025_ene_abr": 9,
+        "casos_2026_ene_abr": 5,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 4,
-        "tasa_2026_ene_abr": 1,
-        "tasa_2026_proyectada": 2.9
+        "tasa_2026_ene_abr": 1.2,
+        "tasa_2026_proyectada": 2.4
       }
     },
     {
@@ -1092,62 +1095,62 @@
       "poblacion_2026": 307103,
       "homicidio": {
         "casos_2025_completo": 105,
-        "casos_2025_ene_abr": 32,
-        "casos_2026_ene_abr": 45,
-        "variacion_pct_ene_abr": 40.6,
+        "casos_2025_ene_abr": 51,
+        "casos_2026_ene_abr": 52,
+        "variacion_pct_ene_abr": 2,
         "base_pequena": false,
         "tasa_2025": 34.2,
-        "tasa_2026_ene_abr": 14.7,
-        "tasa_2026_proyectada": 44
+        "tasa_2026_ene_abr": 16.9,
+        "tasa_2026_proyectada": 33.9
       },
       "hurto_personas": {
         "casos_2025_completo": 960,
-        "casos_2025_ene_abr": 463,
-        "casos_2026_ene_abr": 103,
-        "variacion_pct_ene_abr": -77.8,
+        "casos_2025_ene_abr": 681,
+        "casos_2026_ene_abr": 195,
+        "variacion_pct_ene_abr": -71.4,
         "base_pequena": false,
         "tasa_2025": 313,
-        "tasa_2026_ene_abr": 33.5,
-        "tasa_2026_proyectada": 100.6
+        "tasa_2026_ene_abr": 63.5,
+        "tasa_2026_proyectada": 127
       },
       "extorsion": {
         "casos_2025_completo": 69,
-        "casos_2025_ene_abr": 20,
-        "casos_2026_ene_abr": 16,
-        "variacion_pct_ene_abr": -20,
+        "casos_2025_ene_abr": 29,
+        "casos_2026_ene_abr": 17,
+        "variacion_pct_ene_abr": -41.4,
         "base_pequena": false,
         "tasa_2025": 22.5,
-        "tasa_2026_ene_abr": 5.2,
-        "tasa_2026_proyectada": 15.6
+        "tasa_2026_ene_abr": 5.5,
+        "tasa_2026_proyectada": 11.1
       },
       "hurto_residencias": {
         "casos_2025_completo": 179,
-        "casos_2025_ene_abr": 75,
-        "casos_2026_ene_abr": 13,
-        "variacion_pct_ene_abr": -82.7,
+        "casos_2025_ene_abr": 118,
+        "casos_2026_ene_abr": 24,
+        "variacion_pct_ene_abr": -79.7,
         "base_pequena": false,
         "tasa_2025": 58.4,
-        "tasa_2026_ene_abr": 4.2,
-        "tasa_2026_proyectada": 12.7
+        "tasa_2026_ene_abr": 7.8,
+        "tasa_2026_proyectada": 15.6
       },
       "violencia_intra": {
         "casos_2025_completo": 453,
-        "casos_2025_ene_abr": 120,
-        "casos_2026_ene_abr": 141,
-        "variacion_pct_ene_abr": 17.5,
+        "casos_2025_ene_abr": 199,
+        "casos_2026_ene_abr": 182,
+        "variacion_pct_ene_abr": -8.5,
         "base_pequena": false,
         "tasa_2025": 147.7,
-        "tasa_2026_ene_abr": 45.9,
-        "tasa_2026_proyectada": 137.7
+        "tasa_2026_ene_abr": 59.3,
+        "tasa_2026_proyectada": 118.5
       },
       "hurto_automotores": {
         "casos_2025_completo": 12,
-        "casos_2025_ene_abr": 3,
-        "casos_2026_ene_abr": 2,
+        "casos_2025_ene_abr": 6,
+        "casos_2026_ene_abr": 3,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 3.9,
-        "tasa_2026_ene_abr": 0.7,
+        "tasa_2026_ene_abr": 1,
         "tasa_2026_proyectada": 2
       }
     },
@@ -1158,63 +1161,63 @@
       "poblacion_2026": 355347,
       "homicidio": {
         "casos_2025_completo": 72,
-        "casos_2025_ene_abr": 27,
-        "casos_2026_ene_abr": 34,
-        "variacion_pct_ene_abr": 25.9,
+        "casos_2025_ene_abr": 39,
+        "casos_2026_ene_abr": 36,
+        "variacion_pct_ene_abr": -7.7,
         "base_pequena": false,
         "tasa_2025": 20.4,
-        "tasa_2026_ene_abr": 9.6,
-        "tasa_2026_proyectada": 28.7
+        "tasa_2026_ene_abr": 10.1,
+        "tasa_2026_proyectada": 20.3
       },
       "hurto_personas": {
         "casos_2025_completo": 3888,
-        "casos_2025_ene_abr": 1203,
-        "casos_2026_ene_abr": 1544,
-        "variacion_pct_ene_abr": 28.3,
+        "casos_2025_ene_abr": 1771,
+        "casos_2026_ene_abr": 1880,
+        "variacion_pct_ene_abr": 6.2,
         "base_pequena": false,
         "tasa_2025": 1104.1,
-        "tasa_2026_ene_abr": 434.5,
-        "tasa_2026_proyectada": 1303.5
+        "tasa_2026_ene_abr": 529.1,
+        "tasa_2026_proyectada": 1058.1
       },
       "extorsion": {
         "casos_2025_completo": 173,
-        "casos_2025_ene_abr": 48,
-        "casos_2026_ene_abr": 85,
-        "variacion_pct_ene_abr": 77.1,
+        "casos_2025_ene_abr": 70,
+        "casos_2026_ene_abr": 100,
+        "variacion_pct_ene_abr": 42.9,
         "base_pequena": false,
         "tasa_2025": 49.1,
-        "tasa_2026_ene_abr": 23.9,
-        "tasa_2026_proyectada": 71.8
+        "tasa_2026_ene_abr": 28.1,
+        "tasa_2026_proyectada": 56.3
       },
       "hurto_residencias": {
         "casos_2025_completo": 425,
-        "casos_2025_ene_abr": 99,
-        "casos_2026_ene_abr": 148,
-        "variacion_pct_ene_abr": 49.5,
+        "casos_2025_ene_abr": 174,
+        "casos_2026_ene_abr": 177,
+        "variacion_pct_ene_abr": 1.7,
         "base_pequena": false,
         "tasa_2025": 120.7,
-        "tasa_2026_ene_abr": 41.6,
-        "tasa_2026_proyectada": 124.9
+        "tasa_2026_ene_abr": 49.8,
+        "tasa_2026_proyectada": 99.6
       },
       "violencia_intra": {
         "casos_2025_completo": 1102,
-        "casos_2025_ene_abr": 318,
-        "casos_2026_ene_abr": 364,
-        "variacion_pct_ene_abr": 14.5,
+        "casos_2025_ene_abr": 520,
+        "casos_2026_ene_abr": 488,
+        "variacion_pct_ene_abr": -6.2,
         "base_pequena": false,
         "tasa_2025": 312.9,
-        "tasa_2026_ene_abr": 102.4,
-        "tasa_2026_proyectada": 307.3
+        "tasa_2026_ene_abr": 137.3,
+        "tasa_2026_proyectada": 274.7
       },
       "hurto_automotores": {
         "casos_2025_completo": 204,
-        "casos_2025_ene_abr": 61,
-        "casos_2026_ene_abr": 67,
-        "variacion_pct_ene_abr": 9.8,
+        "casos_2025_ene_abr": 107,
+        "casos_2026_ene_abr": 75,
+        "variacion_pct_ene_abr": -29.9,
         "base_pequena": false,
         "tasa_2025": 57.9,
-        "tasa_2026_ene_abr": 18.9,
-        "tasa_2026_proyectada": 56.6
+        "tasa_2026_ene_abr": 21.1,
+        "tasa_2026_proyectada": 42.2
       }
     },
     {
@@ -1224,53 +1227,53 @@
       "poblacion_2026": 331045,
       "homicidio": {
         "casos_2025_completo": 59,
-        "casos_2025_ene_abr": 21,
-        "casos_2026_ene_abr": 19,
-        "variacion_pct_ene_abr": -9.5,
+        "casos_2025_ene_abr": 29,
+        "casos_2026_ene_abr": 25,
+        "variacion_pct_ene_abr": -13.8,
         "base_pequena": false,
         "tasa_2025": 18.1,
-        "tasa_2026_ene_abr": 5.7,
-        "tasa_2026_proyectada": 17.2
+        "tasa_2026_ene_abr": 7.6,
+        "tasa_2026_proyectada": 15.1
       },
       "hurto_personas": {
         "casos_2025_completo": 537,
-        "casos_2025_ene_abr": 227,
-        "casos_2026_ene_abr": 151,
-        "variacion_pct_ene_abr": -33.5,
+        "casos_2025_ene_abr": 286,
+        "casos_2026_ene_abr": 184,
+        "variacion_pct_ene_abr": -35.7,
         "base_pequena": false,
         "tasa_2025": 164.9,
-        "tasa_2026_ene_abr": 45.6,
-        "tasa_2026_proyectada": 136.8
+        "tasa_2026_ene_abr": 55.6,
+        "tasa_2026_proyectada": 111.2
       },
       "extorsion": {
         "casos_2025_completo": 97,
-        "casos_2025_ene_abr": 46,
-        "casos_2026_ene_abr": 63,
-        "variacion_pct_ene_abr": 37,
+        "casos_2025_ene_abr": 56,
+        "casos_2026_ene_abr": 74,
+        "variacion_pct_ene_abr": 32.1,
         "base_pequena": false,
         "tasa_2025": 29.8,
-        "tasa_2026_ene_abr": 19,
-        "tasa_2026_proyectada": 57.1
+        "tasa_2026_ene_abr": 22.4,
+        "tasa_2026_proyectada": 44.7
       },
       "hurto_residencias": {
         "casos_2025_completo": 136,
-        "casos_2025_ene_abr": 41,
-        "casos_2026_ene_abr": 47,
-        "variacion_pct_ene_abr": 14.6,
+        "casos_2025_ene_abr": 61,
+        "casos_2026_ene_abr": 54,
+        "variacion_pct_ene_abr": -11.5,
         "base_pequena": false,
         "tasa_2025": 41.8,
-        "tasa_2026_ene_abr": 14.2,
-        "tasa_2026_proyectada": 42.6
+        "tasa_2026_ene_abr": 16.3,
+        "tasa_2026_proyectada": 32.6
       },
       "violencia_intra": {
         "casos_2025_completo": 510,
-        "casos_2025_ene_abr": 135,
-        "casos_2026_ene_abr": 197,
-        "variacion_pct_ene_abr": 45.9,
+        "casos_2025_ene_abr": 226,
+        "casos_2026_ene_abr": 268,
+        "variacion_pct_ene_abr": 18.6,
         "base_pequena": false,
         "tasa_2025": 156.6,
-        "tasa_2026_ene_abr": 59.5,
-        "tasa_2026_proyectada": 178.5
+        "tasa_2026_ene_abr": 81,
+        "tasa_2026_proyectada": 161.9
       },
       "hurto_automotores": {
         "casos_2025_completo": 3,
@@ -1280,7 +1283,7 @@
         "base_pequena": true,
         "tasa_2025": 0.9,
         "tasa_2026_ene_abr": 0.3,
-        "tasa_2026_proyectada": 0.9
+        "tasa_2026_proyectada": 0.6
       }
     },
     {
@@ -1290,63 +1293,63 @@
       "poblacion_2026": 211811,
       "homicidio": {
         "casos_2025_completo": 100,
-        "casos_2025_ene_abr": 29,
-        "casos_2026_ene_abr": 38,
-        "variacion_pct_ene_abr": 31,
+        "casos_2025_ene_abr": 46,
+        "casos_2026_ene_abr": 56,
+        "variacion_pct_ene_abr": 21.7,
         "base_pequena": false,
         "tasa_2025": 47.4,
-        "tasa_2026_ene_abr": 17.9,
-        "tasa_2026_proyectada": 53.8
+        "tasa_2026_ene_abr": 26.4,
+        "tasa_2026_proyectada": 52.9
       },
       "hurto_personas": {
         "casos_2025_completo": 391,
-        "casos_2025_ene_abr": 130,
-        "casos_2026_ene_abr": 132,
-        "variacion_pct_ene_abr": 1.5,
+        "casos_2025_ene_abr": 178,
+        "casos_2026_ene_abr": 157,
+        "variacion_pct_ene_abr": -11.8,
         "base_pequena": false,
         "tasa_2025": 185.4,
-        "tasa_2026_ene_abr": 62.3,
-        "tasa_2026_proyectada": 187
+        "tasa_2026_ene_abr": 74.1,
+        "tasa_2026_proyectada": 148.2
       },
       "extorsion": {
         "casos_2025_completo": 71,
-        "casos_2025_ene_abr": 13,
-        "casos_2026_ene_abr": 42,
-        "variacion_pct_ene_abr": null,
-        "base_pequena": true,
+        "casos_2025_ene_abr": 23,
+        "casos_2026_ene_abr": 46,
+        "variacion_pct_ene_abr": 100,
+        "base_pequena": false,
         "tasa_2025": 33.7,
-        "tasa_2026_ene_abr": 19.8,
-        "tasa_2026_proyectada": 59.5
+        "tasa_2026_ene_abr": 21.7,
+        "tasa_2026_proyectada": 43.4
       },
       "hurto_residencias": {
         "casos_2025_completo": 57,
-        "casos_2025_ene_abr": 20,
-        "casos_2026_ene_abr": 17,
-        "variacion_pct_ene_abr": -15,
+        "casos_2025_ene_abr": 25,
+        "casos_2026_ene_abr": 21,
+        "variacion_pct_ene_abr": -16,
         "base_pequena": false,
         "tasa_2025": 27,
-        "tasa_2026_ene_abr": 8,
-        "tasa_2026_proyectada": 24.1
+        "tasa_2026_ene_abr": 9.9,
+        "tasa_2026_proyectada": 19.8
       },
       "violencia_intra": {
         "casos_2025_completo": 177,
-        "casos_2025_ene_abr": 66,
-        "casos_2026_ene_abr": 49,
-        "variacion_pct_ene_abr": -25.8,
+        "casos_2025_ene_abr": 100,
+        "casos_2026_ene_abr": 63,
+        "variacion_pct_ene_abr": -37,
         "base_pequena": false,
         "tasa_2025": 83.9,
-        "tasa_2026_ene_abr": 23.1,
-        "tasa_2026_proyectada": 69.4
+        "tasa_2026_ene_abr": 29.7,
+        "tasa_2026_proyectada": 59.5
       },
       "hurto_automotores": {
         "casos_2025_completo": 30,
-        "casos_2025_ene_abr": 11,
-        "casos_2026_ene_abr": 12,
+        "casos_2025_ene_abr": 17,
+        "casos_2026_ene_abr": 13,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 14.2,
-        "tasa_2026_ene_abr": 5.7,
-        "tasa_2026_proyectada": 17
+        "tasa_2026_ene_abr": 6.1,
+        "tasa_2026_proyectada": 12.3
       }
     },
     {
@@ -1356,53 +1359,53 @@
       "poblacion_2026": 143332,
       "homicidio": {
         "casos_2025_completo": 107,
-        "casos_2025_ene_abr": 36,
-        "casos_2026_ene_abr": 33,
-        "variacion_pct_ene_abr": -8.3,
+        "casos_2025_ene_abr": 57,
+        "casos_2026_ene_abr": 39,
+        "variacion_pct_ene_abr": -31.6,
         "base_pequena": false,
         "tasa_2025": 75.5,
-        "tasa_2026_ene_abr": 23,
-        "tasa_2026_proyectada": 69.1
+        "tasa_2026_ene_abr": 27.2,
+        "tasa_2026_proyectada": 54.4
       },
       "hurto_personas": {
         "casos_2025_completo": 327,
-        "casos_2025_ene_abr": 98,
-        "casos_2026_ene_abr": 57,
-        "variacion_pct_ene_abr": -41.8,
+        "casos_2025_ene_abr": 172,
+        "casos_2026_ene_abr": 69,
+        "variacion_pct_ene_abr": -59.9,
         "base_pequena": false,
         "tasa_2025": 230.6,
-        "tasa_2026_ene_abr": 39.8,
-        "tasa_2026_proyectada": 119.3
+        "tasa_2026_ene_abr": 48.1,
+        "tasa_2026_proyectada": 96.3
       },
       "extorsion": {
         "casos_2025_completo": 187,
-        "casos_2025_ene_abr": 79,
-        "casos_2026_ene_abr": 74,
-        "variacion_pct_ene_abr": -6.3,
+        "casos_2025_ene_abr": 108,
+        "casos_2026_ene_abr": 78,
+        "variacion_pct_ene_abr": -27.8,
         "base_pequena": false,
         "tasa_2025": 131.9,
-        "tasa_2026_ene_abr": 51.6,
-        "tasa_2026_proyectada": 154.9
+        "tasa_2026_ene_abr": 54.4,
+        "tasa_2026_proyectada": 108.8
       },
       "hurto_residencias": {
         "casos_2025_completo": 42,
-        "casos_2025_ene_abr": 15,
+        "casos_2025_ene_abr": 17,
         "casos_2026_ene_abr": 6,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 29.6,
         "tasa_2026_ene_abr": 4.2,
-        "tasa_2026_proyectada": 12.6
+        "tasa_2026_proyectada": 8.4
       },
       "violencia_intra": {
         "casos_2025_completo": 185,
-        "casos_2025_ene_abr": 48,
-        "casos_2026_ene_abr": 64,
-        "variacion_pct_ene_abr": 33.3,
+        "casos_2025_ene_abr": 72,
+        "casos_2026_ene_abr": 84,
+        "variacion_pct_ene_abr": 16.7,
         "base_pequena": false,
         "tasa_2025": 130.5,
-        "tasa_2026_ene_abr": 44.7,
-        "tasa_2026_proyectada": 134
+        "tasa_2026_ene_abr": 58.6,
+        "tasa_2026_proyectada": 117.2
       },
       "hurto_automotores": {
         "casos_2025_completo": 2,
@@ -1428,57 +1431,57 @@
         "base_pequena": true,
         "tasa_2025": 3.7,
         "tasa_2026_ene_abr": 1,
-        "tasa_2026_proyectada": 3.1
+        "tasa_2026_proyectada": 2.1
       },
       "hurto_personas": {
         "casos_2025_completo": 1178,
-        "casos_2025_ene_abr": 299,
-        "casos_2026_ene_abr": 298,
-        "variacion_pct_ene_abr": -0.3,
+        "casos_2025_ene_abr": 523,
+        "casos_2026_ene_abr": 406,
+        "variacion_pct_ene_abr": -22.4,
         "base_pequena": false,
         "tasa_2025": 621.1,
-        "tasa_2026_ene_abr": 155.7,
-        "tasa_2026_proyectada": 467.2
+        "tasa_2026_ene_abr": 212.2,
+        "tasa_2026_proyectada": 424.3
       },
       "extorsion": {
         "casos_2025_completo": 57,
-        "casos_2025_ene_abr": 5,
+        "casos_2025_ene_abr": 17,
         "casos_2026_ene_abr": 17,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 30.1,
         "tasa_2026_ene_abr": 8.9,
-        "tasa_2026_proyectada": 26.6
+        "tasa_2026_proyectada": 17.8
       },
       "hurto_residencias": {
         "casos_2025_completo": 161,
-        "casos_2025_ene_abr": 51,
-        "casos_2026_ene_abr": 40,
-        "variacion_pct_ene_abr": -21.6,
+        "casos_2025_ene_abr": 72,
+        "casos_2026_ene_abr": 44,
+        "variacion_pct_ene_abr": -38.9,
         "base_pequena": false,
         "tasa_2025": 84.9,
-        "tasa_2026_ene_abr": 20.9,
-        "tasa_2026_proyectada": 62.7
+        "tasa_2026_ene_abr": 23,
+        "tasa_2026_proyectada": 46
       },
       "violencia_intra": {
         "casos_2025_completo": 1172,
-        "casos_2025_ene_abr": 378,
-        "casos_2026_ene_abr": 498,
-        "variacion_pct_ene_abr": 31.7,
+        "casos_2025_ene_abr": 617,
+        "casos_2026_ene_abr": 615,
+        "variacion_pct_ene_abr": -0.3,
         "base_pequena": false,
         "tasa_2025": 617.9,
-        "tasa_2026_ene_abr": 260.2,
-        "tasa_2026_proyectada": 780.7
+        "tasa_2026_ene_abr": 321.4,
+        "tasa_2026_proyectada": 642.7
       },
       "hurto_automotores": {
         "casos_2025_completo": 11,
-        "casos_2025_ene_abr": 3,
+        "casos_2025_ene_abr": 5,
         "casos_2026_ene_abr": 1,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 5.8,
         "tasa_2026_ene_abr": 0.5,
-        "tasa_2026_proyectada": 1.6
+        "tasa_2026_proyectada": 1
       }
     },
     {
@@ -1489,52 +1492,52 @@
       "homicidio": {
         "casos_2025_completo": 21,
         "casos_2025_ene_abr": 6,
-        "casos_2026_ene_abr": 15,
+        "casos_2026_ene_abr": 19,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 11.3,
-        "tasa_2026_ene_abr": 8,
-        "tasa_2026_proyectada": 23.9
+        "tasa_2026_ene_abr": 10.1,
+        "tasa_2026_proyectada": 20.1
       },
       "hurto_personas": {
         "casos_2025_completo": 711,
-        "casos_2025_ene_abr": 273,
-        "casos_2026_ene_abr": 250,
-        "variacion_pct_ene_abr": -8.4,
+        "casos_2025_ene_abr": 378,
+        "casos_2026_ene_abr": 317,
+        "variacion_pct_ene_abr": -16.1,
         "base_pequena": false,
         "tasa_2025": 381.2,
-        "tasa_2026_ene_abr": 132.5,
-        "tasa_2026_proyectada": 397.6
+        "tasa_2026_ene_abr": 168.1,
+        "tasa_2026_proyectada": 336.1
       },
       "extorsion": {
         "casos_2025_completo": 82,
-        "casos_2025_ene_abr": 29,
-        "casos_2026_ene_abr": 21,
-        "variacion_pct_ene_abr": -27.6,
+        "casos_2025_ene_abr": 39,
+        "casos_2026_ene_abr": 26,
+        "variacion_pct_ene_abr": -33.3,
         "base_pequena": false,
         "tasa_2025": 44,
-        "tasa_2026_ene_abr": 11.1,
-        "tasa_2026_proyectada": 33.4
+        "tasa_2026_ene_abr": 13.8,
+        "tasa_2026_proyectada": 27.6
       },
       "hurto_residencias": {
         "casos_2025_completo": 200,
-        "casos_2025_ene_abr": 68,
-        "casos_2026_ene_abr": 64,
-        "variacion_pct_ene_abr": -5.9,
+        "casos_2025_ene_abr": 102,
+        "casos_2026_ene_abr": 78,
+        "variacion_pct_ene_abr": -23.5,
         "base_pequena": false,
         "tasa_2025": 107.2,
-        "tasa_2026_ene_abr": 33.9,
-        "tasa_2026_proyectada": 101.8
+        "tasa_2026_ene_abr": 41.4,
+        "tasa_2026_proyectada": 82.7
       },
       "violencia_intra": {
         "casos_2025_completo": 398,
-        "casos_2025_ene_abr": 116,
-        "casos_2026_ene_abr": 174,
-        "variacion_pct_ene_abr": 50,
+        "casos_2025_ene_abr": 185,
+        "casos_2026_ene_abr": 211,
+        "variacion_pct_ene_abr": 14.1,
         "base_pequena": false,
         "tasa_2025": 213.4,
-        "tasa_2026_ene_abr": 92.2,
-        "tasa_2026_proyectada": 276.7
+        "tasa_2026_ene_abr": 111.9,
+        "tasa_2026_proyectada": 223.7
       },
       "hurto_automotores": {
         "casos_2025_completo": 4,
@@ -1544,7 +1547,7 @@
         "base_pequena": false,
         "tasa_2025": 2.1,
         "tasa_2026_ene_abr": 1.1,
-        "tasa_2026_proyectada": 3.2
+        "tasa_2026_proyectada": 2.1
       }
     },
     {
@@ -1554,53 +1557,53 @@
       "poblacion_2026": 198423,
       "homicidio": {
         "casos_2025_completo": 46,
-        "casos_2025_ene_abr": 21,
-        "casos_2026_ene_abr": 9,
-        "variacion_pct_ene_abr": -57.1,
+        "casos_2025_ene_abr": 34,
+        "casos_2026_ene_abr": 13,
+        "variacion_pct_ene_abr": -61.8,
         "base_pequena": false,
         "tasa_2025": 23.5,
-        "tasa_2026_ene_abr": 4.5,
-        "tasa_2026_proyectada": 13.6
+        "tasa_2026_ene_abr": 6.6,
+        "tasa_2026_proyectada": 13.1
       },
       "hurto_personas": {
         "casos_2025_completo": 1317,
-        "casos_2025_ene_abr": 462,
-        "casos_2026_ene_abr": 426,
-        "variacion_pct_ene_abr": -7.8,
+        "casos_2025_ene_abr": 634,
+        "casos_2026_ene_abr": 519,
+        "variacion_pct_ene_abr": -18.1,
         "base_pequena": false,
         "tasa_2025": 673.3,
-        "tasa_2026_ene_abr": 214.7,
-        "tasa_2026_proyectada": 644.1
+        "tasa_2026_ene_abr": 261.6,
+        "tasa_2026_proyectada": 523.1
       },
       "extorsion": {
         "casos_2025_completo": 47,
-        "casos_2025_ene_abr": 5,
-        "casos_2026_ene_abr": 20,
+        "casos_2025_ene_abr": 11,
+        "casos_2026_ene_abr": 22,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 24,
-        "tasa_2026_ene_abr": 10.1,
-        "tasa_2026_proyectada": 30.2
+        "tasa_2026_ene_abr": 11.1,
+        "tasa_2026_proyectada": 22.2
       },
       "hurto_residencias": {
         "casos_2025_completo": 184,
-        "casos_2025_ene_abr": 64,
-        "casos_2026_ene_abr": 70,
-        "variacion_pct_ene_abr": 9.4,
+        "casos_2025_ene_abr": 94,
+        "casos_2026_ene_abr": 89,
+        "variacion_pct_ene_abr": -5.3,
         "base_pequena": false,
         "tasa_2025": 94.1,
-        "tasa_2026_ene_abr": 35.3,
-        "tasa_2026_proyectada": 105.8
+        "tasa_2026_ene_abr": 44.9,
+        "tasa_2026_proyectada": 89.7
       },
       "violencia_intra": {
         "casos_2025_completo": 539,
-        "casos_2025_ene_abr": 198,
-        "casos_2026_ene_abr": 159,
-        "variacion_pct_ene_abr": -19.7,
+        "casos_2025_ene_abr": 270,
+        "casos_2026_ene_abr": 176,
+        "variacion_pct_ene_abr": -34.8,
         "base_pequena": false,
         "tasa_2025": 275.6,
-        "tasa_2026_ene_abr": 80.1,
-        "tasa_2026_proyectada": 240.4
+        "tasa_2026_ene_abr": 88.7,
+        "tasa_2026_proyectada": 177.4
       },
       "hurto_automotores": {
         "casos_2025_completo": 7,
@@ -1610,7 +1613,7 @@
         "base_pequena": true,
         "tasa_2025": 3.6,
         "tasa_2026_ene_abr": 0.5,
-        "tasa_2026_proyectada": 1.5
+        "tasa_2026_proyectada": 1
       }
     },
     {
@@ -1620,53 +1623,53 @@
       "poblacion_2026": 91253,
       "homicidio": {
         "casos_2025_completo": 14,
-        "casos_2025_ene_abr": 1,
-        "casos_2026_ene_abr": 2,
+        "casos_2025_ene_abr": 9,
+        "casos_2026_ene_abr": 3,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 15.4,
-        "tasa_2026_ene_abr": 2.2,
+        "tasa_2026_ene_abr": 3.3,
         "tasa_2026_proyectada": 6.6
       },
       "hurto_personas": {
         "casos_2025_completo": 75,
-        "casos_2025_ene_abr": 17,
-        "casos_2026_ene_abr": 21,
-        "variacion_pct_ene_abr": null,
-        "base_pequena": true,
+        "casos_2025_ene_abr": 29,
+        "casos_2026_ene_abr": 27,
+        "variacion_pct_ene_abr": -6.9,
+        "base_pequena": false,
         "tasa_2025": 82.4,
-        "tasa_2026_ene_abr": 23,
-        "tasa_2026_proyectada": 69
+        "tasa_2026_ene_abr": 29.6,
+        "tasa_2026_proyectada": 59.2
       },
       "extorsion": {
         "casos_2025_completo": 47,
-        "casos_2025_ene_abr": 11,
+        "casos_2025_ene_abr": 21,
         "casos_2026_ene_abr": 16,
-        "variacion_pct_ene_abr": null,
-        "base_pequena": true,
+        "variacion_pct_ene_abr": -23.8,
+        "base_pequena": false,
         "tasa_2025": 51.6,
         "tasa_2026_ene_abr": 17.5,
-        "tasa_2026_proyectada": 52.6
+        "tasa_2026_proyectada": 35.1
       },
       "hurto_residencias": {
         "casos_2025_completo": 27,
-        "casos_2025_ene_abr": 7,
-        "casos_2026_ene_abr": 15,
+        "casos_2025_ene_abr": 15,
+        "casos_2026_ene_abr": 17,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 29.7,
-        "tasa_2026_ene_abr": 16.4,
-        "tasa_2026_proyectada": 49.3
+        "tasa_2026_ene_abr": 18.6,
+        "tasa_2026_proyectada": 37.3
       },
       "violencia_intra": {
         "casos_2025_completo": 168,
-        "casos_2025_ene_abr": 66,
-        "casos_2026_ene_abr": 63,
-        "variacion_pct_ene_abr": -4.5,
+        "casos_2025_ene_abr": 98,
+        "casos_2026_ene_abr": 80,
+        "variacion_pct_ene_abr": -18.4,
         "base_pequena": false,
         "tasa_2025": 184.6,
-        "tasa_2026_ene_abr": 69,
-        "tasa_2026_proyectada": 207.1
+        "tasa_2026_ene_abr": 87.7,
+        "tasa_2026_proyectada": 175.3
       },
       "hurto_automotores": {
         "casos_2025_completo": null,
@@ -1686,63 +1689,63 @@
       "poblacion_2026": 68328,
       "homicidio": {
         "casos_2025_completo": 9,
-        "casos_2025_ene_abr": 5,
+        "casos_2025_ene_abr": 7,
         "casos_2026_ene_abr": 8,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 13.4,
         "tasa_2026_ene_abr": 11.7,
-        "tasa_2026_proyectada": 35.1
+        "tasa_2026_proyectada": 23.4
       },
       "hurto_personas": {
         "casos_2025_completo": 150,
-        "casos_2025_ene_abr": 55,
-        "casos_2026_ene_abr": 60,
-        "variacion_pct_ene_abr": 9.1,
+        "casos_2025_ene_abr": 78,
+        "casos_2026_ene_abr": 68,
+        "variacion_pct_ene_abr": -12.8,
         "base_pequena": false,
         "tasa_2025": 223.6,
-        "tasa_2026_ene_abr": 87.8,
-        "tasa_2026_proyectada": 263.4
+        "tasa_2026_ene_abr": 99.5,
+        "tasa_2026_proyectada": 199
       },
       "extorsion": {
         "casos_2025_completo": 15,
-        "casos_2025_ene_abr": 8,
+        "casos_2025_ene_abr": 12,
         "casos_2026_ene_abr": 1,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 22.4,
         "tasa_2026_ene_abr": 1.5,
-        "tasa_2026_proyectada": 4.4
+        "tasa_2026_proyectada": 2.9
       },
       "hurto_residencias": {
         "casos_2025_completo": 33,
-        "casos_2025_ene_abr": 10,
+        "casos_2025_ene_abr": 14,
         "casos_2026_ene_abr": 10,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 49.2,
         "tasa_2026_ene_abr": 14.6,
-        "tasa_2026_proyectada": 43.9
+        "tasa_2026_proyectada": 29.3
       },
       "violencia_intra": {
         "casos_2025_completo": 137,
-        "casos_2025_ene_abr": 40,
-        "casos_2026_ene_abr": 66,
-        "variacion_pct_ene_abr": 65,
+        "casos_2025_ene_abr": 68,
+        "casos_2026_ene_abr": 80,
+        "variacion_pct_ene_abr": 17.6,
         "base_pequena": false,
         "tasa_2025": 204.2,
-        "tasa_2026_ene_abr": 96.6,
-        "tasa_2026_proyectada": 289.8
+        "tasa_2026_ene_abr": 117.1,
+        "tasa_2026_proyectada": 234.2
       },
       "hurto_automotores": {
         "casos_2025_completo": 1,
-        "casos_2025_ene_abr": null,
+        "casos_2025_ene_abr": 1,
         "casos_2026_ene_abr": 1,
         "variacion_pct_ene_abr": null,
-        "base_pequena": false,
+        "base_pequena": true,
         "tasa_2025": 1.5,
         "tasa_2026_ene_abr": 1.5,
-        "tasa_2026_proyectada": 4.4
+        "tasa_2026_proyectada": 2.9
       }
     },
     {
@@ -1752,53 +1755,53 @@
       "poblacion_2026": 57185,
       "homicidio": {
         "casos_2025_completo": 38,
-        "casos_2025_ene_abr": 6,
-        "casos_2026_ene_abr": 12,
+        "casos_2025_ene_abr": 11,
+        "casos_2026_ene_abr": 16,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 66.5,
-        "tasa_2026_ene_abr": 21,
-        "tasa_2026_proyectada": 63
+        "tasa_2026_ene_abr": 28,
+        "tasa_2026_proyectada": 56
       },
       "hurto_personas": {
         "casos_2025_completo": 241,
-        "casos_2025_ene_abr": 71,
-        "casos_2026_ene_abr": 71,
-        "variacion_pct_ene_abr": 0,
+        "casos_2025_ene_abr": 117,
+        "casos_2026_ene_abr": 94,
+        "variacion_pct_ene_abr": -19.7,
         "base_pequena": false,
         "tasa_2025": 421.9,
-        "tasa_2026_ene_abr": 124.2,
-        "tasa_2026_proyectada": 372.5
+        "tasa_2026_ene_abr": 164.4,
+        "tasa_2026_proyectada": 328.8
       },
       "extorsion": {
         "casos_2025_completo": 4,
-        "casos_2025_ene_abr": 1,
+        "casos_2025_ene_abr": 2,
         "casos_2026_ene_abr": 2,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 7,
         "tasa_2026_ene_abr": 3.5,
-        "tasa_2026_proyectada": 10.5
+        "tasa_2026_proyectada": 7
       },
       "hurto_residencias": {
         "casos_2025_completo": 35,
-        "casos_2025_ene_abr": 10,
-        "casos_2026_ene_abr": 6,
+        "casos_2025_ene_abr": 17,
+        "casos_2026_ene_abr": 9,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 61.3,
-        "tasa_2026_ene_abr": 10.5,
+        "tasa_2026_ene_abr": 15.7,
         "tasa_2026_proyectada": 31.5
       },
       "violencia_intra": {
         "casos_2025_completo": 187,
-        "casos_2025_ene_abr": 61,
-        "casos_2026_ene_abr": 49,
-        "variacion_pct_ene_abr": -19.7,
+        "casos_2025_ene_abr": 80,
+        "casos_2026_ene_abr": 66,
+        "variacion_pct_ene_abr": -17.5,
         "base_pequena": false,
         "tasa_2025": 327.4,
-        "tasa_2026_ene_abr": 85.7,
-        "tasa_2026_proyectada": 257.1
+        "tasa_2026_ene_abr": 115.4,
+        "tasa_2026_proyectada": 230.8
       },
       "hurto_automotores": {
         "casos_2025_completo": null,
@@ -1818,23 +1821,23 @@
       "poblacion_2026": 54208,
       "homicidio": {
         "casos_2025_completo": 15,
-        "casos_2025_ene_abr": 5,
-        "casos_2026_ene_abr": 2,
+        "casos_2025_ene_abr": 9,
+        "casos_2026_ene_abr": 5,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 27.9,
-        "tasa_2026_ene_abr": 3.7,
-        "tasa_2026_proyectada": 11.1
+        "tasa_2026_ene_abr": 9.2,
+        "tasa_2026_proyectada": 18.4
       },
       "hurto_personas": {
         "casos_2025_completo": 63,
-        "casos_2025_ene_abr": 23,
-        "casos_2026_ene_abr": 11,
-        "variacion_pct_ene_abr": -52.2,
+        "casos_2025_ene_abr": 36,
+        "casos_2026_ene_abr": 18,
+        "variacion_pct_ene_abr": -50,
         "base_pequena": false,
         "tasa_2025": 117.4,
-        "tasa_2026_ene_abr": 20.3,
-        "tasa_2026_proyectada": 60.9
+        "tasa_2026_ene_abr": 33.2,
+        "tasa_2026_proyectada": 66.4
       },
       "extorsion": {
         "casos_2025_completo": null,
@@ -1848,23 +1851,23 @@
       },
       "hurto_residencias": {
         "casos_2025_completo": 23,
-        "casos_2025_ene_abr": 8,
-        "casos_2026_ene_abr": 9,
+        "casos_2025_ene_abr": 11,
+        "casos_2026_ene_abr": 13,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 42.9,
-        "tasa_2026_ene_abr": 16.6,
-        "tasa_2026_proyectada": 49.8
+        "tasa_2026_ene_abr": 24,
+        "tasa_2026_proyectada": 48
       },
       "violencia_intra": {
         "casos_2025_completo": 58,
-        "casos_2025_ene_abr": 17,
-        "casos_2026_ene_abr": 23,
-        "variacion_pct_ene_abr": null,
-        "base_pequena": true,
+        "casos_2025_ene_abr": 27,
+        "casos_2026_ene_abr": 26,
+        "variacion_pct_ene_abr": -3.7,
+        "base_pequena": false,
         "tasa_2025": 108.1,
-        "tasa_2026_ene_abr": 42.4,
-        "tasa_2026_proyectada": 127.3
+        "tasa_2026_ene_abr": 48,
+        "tasa_2026_proyectada": 95.9
       },
       "hurto_automotores": {
         "casos_2025_completo": null,
@@ -1884,53 +1887,53 @@
       "poblacion_2026": 40729,
       "homicidio": {
         "casos_2025_completo": 4,
-        "casos_2025_ene_abr": null,
+        "casos_2025_ene_abr": 1,
         "casos_2026_ene_abr": null,
         "variacion_pct_ene_abr": null,
-        "base_pequena": false,
+        "base_pequena": true,
         "tasa_2025": 10.1,
         "tasa_2026_ene_abr": null,
         "tasa_2026_proyectada": null
       },
       "hurto_personas": {
         "casos_2025_completo": 39,
-        "casos_2025_ene_abr": 11,
-        "casos_2026_ene_abr": 9,
+        "casos_2025_ene_abr": 12,
+        "casos_2026_ene_abr": 11,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 98.2,
-        "tasa_2026_ene_abr": 22.1,
-        "tasa_2026_proyectada": 66.3
+        "tasa_2026_ene_abr": 27,
+        "tasa_2026_proyectada": 54
       },
       "extorsion": {
         "casos_2025_completo": 7,
-        "casos_2025_ene_abr": 2,
+        "casos_2025_ene_abr": 3,
         "casos_2026_ene_abr": 1,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 17.6,
         "tasa_2026_ene_abr": 2.5,
-        "tasa_2026_proyectada": 7.4
+        "tasa_2026_proyectada": 4.9
       },
       "hurto_residencias": {
         "casos_2025_completo": 22,
-        "casos_2025_ene_abr": 6,
+        "casos_2025_ene_abr": 8,
         "casos_2026_ene_abr": 9,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 55.4,
         "tasa_2026_ene_abr": 22.1,
-        "tasa_2026_proyectada": 66.3
+        "tasa_2026_proyectada": 44.2
       },
       "violencia_intra": {
         "casos_2025_completo": 90,
-        "casos_2025_ene_abr": 19,
-        "casos_2026_ene_abr": 30,
-        "variacion_pct_ene_abr": null,
-        "base_pequena": true,
+        "casos_2025_ene_abr": 36,
+        "casos_2026_ene_abr": 38,
+        "variacion_pct_ene_abr": 5.6,
+        "base_pequena": false,
         "tasa_2025": 226.5,
-        "tasa_2026_ene_abr": 73.7,
-        "tasa_2026_proyectada": 221
+        "tasa_2026_ene_abr": 93.3,
+        "tasa_2026_proyectada": 186.6
       },
       "hurto_automotores": {
         "casos_2025_completo": null,
@@ -1950,63 +1953,63 @@
       "poblacion_2026": 54519,
       "homicidio": {
         "casos_2025_completo": 31,
-        "casos_2025_ene_abr": 10,
-        "casos_2026_ene_abr": 4,
+        "casos_2025_ene_abr": 16,
+        "casos_2026_ene_abr": 57,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 56.9,
-        "tasa_2026_ene_abr": 7.3,
-        "tasa_2026_proyectada": 22
+        "tasa_2026_ene_abr": 104.6,
+        "tasa_2026_proyectada": 209.1
       },
       "hurto_personas": {
         "casos_2025_completo": 124,
-        "casos_2025_ene_abr": 42,
-        "casos_2026_ene_abr": 40,
-        "variacion_pct_ene_abr": -4.8,
+        "casos_2025_ene_abr": 66,
+        "casos_2026_ene_abr": 48,
+        "variacion_pct_ene_abr": -27.3,
         "base_pequena": false,
         "tasa_2025": 227.8,
-        "tasa_2026_ene_abr": 73.4,
-        "tasa_2026_proyectada": 220.1
+        "tasa_2026_ene_abr": 88,
+        "tasa_2026_proyectada": 176.1
       },
       "extorsion": {
         "casos_2025_completo": 47,
-        "casos_2025_ene_abr": 22,
-        "casos_2026_ene_abr": 11,
-        "variacion_pct_ene_abr": -50,
+        "casos_2025_ene_abr": 30,
+        "casos_2026_ene_abr": 13,
+        "variacion_pct_ene_abr": -56.7,
         "base_pequena": false,
         "tasa_2025": 86.3,
-        "tasa_2026_ene_abr": 20.2,
-        "tasa_2026_proyectada": 60.5
+        "tasa_2026_ene_abr": 23.8,
+        "tasa_2026_proyectada": 47.7
       },
       "hurto_residencias": {
         "casos_2025_completo": 105,
-        "casos_2025_ene_abr": 32,
-        "casos_2026_ene_abr": 26,
-        "variacion_pct_ene_abr": -18.7,
+        "casos_2025_ene_abr": 48,
+        "casos_2026_ene_abr": 28,
+        "variacion_pct_ene_abr": -41.7,
         "base_pequena": false,
         "tasa_2025": 192.9,
-        "tasa_2026_ene_abr": 47.7,
-        "tasa_2026_proyectada": 143.1
+        "tasa_2026_ene_abr": 51.4,
+        "tasa_2026_proyectada": 102.7
       },
       "violencia_intra": {
         "casos_2025_completo": 210,
-        "casos_2025_ene_abr": 59,
-        "casos_2026_ene_abr": 76,
-        "variacion_pct_ene_abr": 28.8,
+        "casos_2025_ene_abr": 89,
+        "casos_2026_ene_abr": 89,
+        "variacion_pct_ene_abr": 0,
         "base_pequena": false,
         "tasa_2025": 385.8,
-        "tasa_2026_ene_abr": 139.4,
-        "tasa_2026_proyectada": 418.2
+        "tasa_2026_ene_abr": 163.2,
+        "tasa_2026_proyectada": 326.5
       },
       "hurto_automotores": {
         "casos_2025_completo": 3,
-        "casos_2025_ene_abr": null,
+        "casos_2025_ene_abr": 1,
         "casos_2026_ene_abr": 2,
         "variacion_pct_ene_abr": null,
-        "base_pequena": false,
+        "base_pequena": true,
         "tasa_2025": 5.5,
         "tasa_2026_ene_abr": 3.7,
-        "tasa_2026_proyectada": 11
+        "tasa_2026_proyectada": 7.3
       }
     },
     {
@@ -2016,53 +2019,53 @@
       "poblacion_2026": 32260,
       "homicidio": {
         "casos_2025_completo": 4,
-        "casos_2025_ene_abr": 1,
+        "casos_2025_ene_abr": 4,
         "casos_2026_ene_abr": 2,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 12.5,
         "tasa_2026_ene_abr": 6.2,
-        "tasa_2026_proyectada": 18.6
+        "tasa_2026_proyectada": 12.4
       },
       "hurto_personas": {
         "casos_2025_completo": 22,
-        "casos_2025_ene_abr": 5,
-        "casos_2026_ene_abr": 15,
+        "casos_2025_ene_abr": 7,
+        "casos_2026_ene_abr": 19,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 68.7,
-        "tasa_2026_ene_abr": 46.5,
-        "tasa_2026_proyectada": 139.5
+        "tasa_2026_ene_abr": 58.9,
+        "tasa_2026_proyectada": 117.8
       },
       "extorsion": {
         "casos_2025_completo": 2,
-        "casos_2025_ene_abr": null,
+        "casos_2025_ene_abr": 1,
         "casos_2026_ene_abr": null,
         "variacion_pct_ene_abr": null,
-        "base_pequena": false,
+        "base_pequena": true,
         "tasa_2025": 6.2,
         "tasa_2026_ene_abr": null,
         "tasa_2026_proyectada": null
       },
       "hurto_residencias": {
         "casos_2025_completo": 10,
-        "casos_2025_ene_abr": 3,
+        "casos_2025_ene_abr": 6,
         "casos_2026_ene_abr": 11,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 31.2,
         "tasa_2026_ene_abr": 34.1,
-        "tasa_2026_proyectada": 102.3
+        "tasa_2026_proyectada": 68.2
       },
       "violencia_intra": {
         "casos_2025_completo": 79,
-        "casos_2025_ene_abr": 27,
-        "casos_2026_ene_abr": 18,
-        "variacion_pct_ene_abr": -33.3,
+        "casos_2025_ene_abr": 42,
+        "casos_2026_ene_abr": 25,
+        "variacion_pct_ene_abr": -40.5,
         "base_pequena": false,
         "tasa_2025": 246.6,
-        "tasa_2026_ene_abr": 55.8,
-        "tasa_2026_proyectada": 167.4
+        "tasa_2026_ene_abr": 77.5,
+        "tasa_2026_proyectada": 155
       },
       "hurto_automotores": {
         "casos_2025_completo": 2,
@@ -2082,7 +2085,7 @@
       "poblacion_2026": 24697,
       "homicidio": {
         "casos_2025_completo": 6,
-        "casos_2025_ene_abr": 1,
+        "casos_2025_ene_abr": 4,
         "casos_2026_ene_abr": null,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
@@ -2092,43 +2095,43 @@
       },
       "hurto_personas": {
         "casos_2025_completo": 32,
-        "casos_2025_ene_abr": 14,
-        "casos_2026_ene_abr": 5,
+        "casos_2025_ene_abr": 17,
+        "casos_2026_ene_abr": 7,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 131.5,
-        "tasa_2026_ene_abr": 20.2,
-        "tasa_2026_proyectada": 60.7
+        "tasa_2026_ene_abr": 28.3,
+        "tasa_2026_proyectada": 56.7
       },
       "extorsion": {
         "casos_2025_completo": 12,
-        "casos_2025_ene_abr": 1,
+        "casos_2025_ene_abr": 4,
         "casos_2026_ene_abr": 5,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 49.3,
         "tasa_2026_ene_abr": 20.2,
-        "tasa_2026_proyectada": 60.7
+        "tasa_2026_proyectada": 40.5
       },
       "hurto_residencias": {
         "casos_2025_completo": 27,
-        "casos_2025_ene_abr": 4,
-        "casos_2026_ene_abr": 10,
+        "casos_2025_ene_abr": 10,
+        "casos_2026_ene_abr": 18,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 110.9,
-        "tasa_2026_ene_abr": 40.5,
-        "tasa_2026_proyectada": 121.5
+        "tasa_2026_ene_abr": 72.9,
+        "tasa_2026_proyectada": 145.8
       },
       "violencia_intra": {
         "casos_2025_completo": 50,
-        "casos_2025_ene_abr": 19,
-        "casos_2026_ene_abr": 29,
-        "variacion_pct_ene_abr": null,
-        "base_pequena": true,
+        "casos_2025_ene_abr": 23,
+        "casos_2026_ene_abr": 32,
+        "variacion_pct_ene_abr": 39.1,
+        "base_pequena": false,
         "tasa_2025": 205.4,
-        "tasa_2026_ene_abr": 117.4,
-        "tasa_2026_proyectada": 352.3
+        "tasa_2026_ene_abr": 129.6,
+        "tasa_2026_proyectada": 259.1
       },
       "hurto_automotores": {
         "casos_2025_completo": null,
@@ -2148,63 +2151,63 @@
       "poblacion_2026": 895878,
       "homicidio": {
         "casos_2025_completo": 193,
-        "casos_2025_ene_abr": 58,
-        "casos_2026_ene_abr": 46,
-        "variacion_pct_ene_abr": -20.7,
+        "casos_2025_ene_abr": 81,
+        "casos_2026_ene_abr": 58,
+        "variacion_pct_ene_abr": -28.4,
         "base_pequena": false,
         "tasa_2025": 22.2,
-        "tasa_2026_ene_abr": 5.1,
-        "tasa_2026_proyectada": 15.4
+        "tasa_2026_ene_abr": 6.5,
+        "tasa_2026_proyectada": 12.9
       },
       "hurto_personas": {
         "casos_2025_completo": 5360,
-        "casos_2025_ene_abr": 1597,
-        "casos_2026_ene_abr": 1672,
-        "variacion_pct_ene_abr": 4.7,
+        "casos_2025_ene_abr": 2316,
+        "casos_2026_ene_abr": 2206,
+        "variacion_pct_ene_abr": -4.7,
         "base_pequena": false,
         "tasa_2025": 616,
-        "tasa_2026_ene_abr": 186.6,
-        "tasa_2026_proyectada": 559.9
+        "tasa_2026_ene_abr": 246.2,
+        "tasa_2026_proyectada": 492.5
       },
       "extorsion": {
         "casos_2025_completo": 68,
-        "casos_2025_ene_abr": 12,
-        "casos_2026_ene_abr": 20,
+        "casos_2025_ene_abr": 19,
+        "casos_2026_ene_abr": 23,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 7.8,
-        "tasa_2026_ene_abr": 2.2,
-        "tasa_2026_proyectada": 6.7
+        "tasa_2026_ene_abr": 2.6,
+        "tasa_2026_proyectada": 5.1
       },
       "hurto_residencias": {
         "casos_2025_completo": 301,
-        "casos_2025_ene_abr": 112,
-        "casos_2026_ene_abr": 108,
-        "variacion_pct_ene_abr": -3.6,
+        "casos_2025_ene_abr": 161,
+        "casos_2026_ene_abr": 127,
+        "variacion_pct_ene_abr": -21.1,
         "base_pequena": false,
         "tasa_2025": 34.6,
-        "tasa_2026_ene_abr": 12.1,
-        "tasa_2026_proyectada": 36.2
+        "tasa_2026_ene_abr": 14.2,
+        "tasa_2026_proyectada": 28.4
       },
       "violencia_intra": {
         "casos_2025_completo": 3187,
-        "casos_2025_ene_abr": 1024,
-        "casos_2026_ene_abr": 1101,
-        "variacion_pct_ene_abr": 7.5,
+        "casos_2025_ene_abr": 1581,
+        "casos_2026_ene_abr": 1427,
+        "variacion_pct_ene_abr": -9.7,
         "base_pequena": false,
         "tasa_2025": 366.3,
-        "tasa_2026_ene_abr": 122.9,
-        "tasa_2026_proyectada": 368.7
+        "tasa_2026_ene_abr": 159.3,
+        "tasa_2026_proyectada": 318.6
       },
       "hurto_automotores": {
         "casos_2025_completo": 149,
-        "casos_2025_ene_abr": 40,
-        "casos_2026_ene_abr": 55,
-        "variacion_pct_ene_abr": 37.5,
+        "casos_2025_ene_abr": 62,
+        "casos_2026_ene_abr": 71,
+        "variacion_pct_ene_abr": 14.5,
         "base_pequena": false,
         "tasa_2025": 17.1,
-        "tasa_2026_ene_abr": 6.1,
-        "tasa_2026_proyectada": 18.4
+        "tasa_2026_ene_abr": 7.9,
+        "tasa_2026_proyectada": 15.9
       }
     },
     {
@@ -2214,63 +2217,63 @@
       "poblacion_2026": 733597,
       "homicidio": {
         "casos_2025_completo": 209,
-        "casos_2025_ene_abr": 70,
-        "casos_2026_ene_abr": 93,
-        "variacion_pct_ene_abr": 32.9,
+        "casos_2025_ene_abr": 102,
+        "casos_2026_ene_abr": 123,
+        "variacion_pct_ene_abr": 20.6,
         "base_pequena": false,
         "tasa_2025": 28.9,
-        "tasa_2026_ene_abr": 12.7,
-        "tasa_2026_proyectada": 38
+        "tasa_2026_ene_abr": 16.8,
+        "tasa_2026_proyectada": 33.5
       },
       "hurto_personas": {
         "casos_2025_completo": 2645,
-        "casos_2025_ene_abr": 618,
-        "casos_2026_ene_abr": 827,
-        "variacion_pct_ene_abr": 33.8,
+        "casos_2025_ene_abr": 1109,
+        "casos_2026_ene_abr": 1013,
+        "variacion_pct_ene_abr": -8.7,
         "base_pequena": false,
         "tasa_2025": 365.9,
-        "tasa_2026_ene_abr": 112.7,
-        "tasa_2026_proyectada": 338.2
+        "tasa_2026_ene_abr": 138.1,
+        "tasa_2026_proyectada": 276.2
       },
       "extorsion": {
         "casos_2025_completo": 313,
-        "casos_2025_ene_abr": 65,
-        "casos_2026_ene_abr": 126,
-        "variacion_pct_ene_abr": 93.8,
+        "casos_2025_ene_abr": 132,
+        "casos_2026_ene_abr": 142,
+        "variacion_pct_ene_abr": 7.6,
         "base_pequena": false,
         "tasa_2025": 43.3,
-        "tasa_2026_ene_abr": 17.2,
-        "tasa_2026_proyectada": 51.5
+        "tasa_2026_ene_abr": 19.4,
+        "tasa_2026_proyectada": 38.7
       },
       "hurto_residencias": {
         "casos_2025_completo": 116,
-        "casos_2025_ene_abr": 26,
-        "casos_2026_ene_abr": 36,
-        "variacion_pct_ene_abr": 38.5,
+        "casos_2025_ene_abr": 51,
+        "casos_2026_ene_abr": 42,
+        "variacion_pct_ene_abr": -17.6,
         "base_pequena": false,
         "tasa_2025": 16,
-        "tasa_2026_ene_abr": 4.9,
-        "tasa_2026_proyectada": 14.7
+        "tasa_2026_ene_abr": 5.7,
+        "tasa_2026_proyectada": 11.5
       },
       "violencia_intra": {
         "casos_2025_completo": 1125,
-        "casos_2025_ene_abr": 298,
-        "casos_2026_ene_abr": 445,
-        "variacion_pct_ene_abr": 49.3,
+        "casos_2025_ene_abr": 461,
+        "casos_2026_ene_abr": 555,
+        "variacion_pct_ene_abr": 20.4,
         "base_pequena": false,
         "tasa_2025": 155.6,
-        "tasa_2026_ene_abr": 60.7,
-        "tasa_2026_proyectada": 182
+        "tasa_2026_ene_abr": 75.7,
+        "tasa_2026_proyectada": 151.3
       },
       "hurto_automotores": {
         "casos_2025_completo": 65,
-        "casos_2025_ene_abr": 21,
-        "casos_2026_ene_abr": 38,
-        "variacion_pct_ene_abr": 81,
+        "casos_2025_ene_abr": 36,
+        "casos_2026_ene_abr": 43,
+        "variacion_pct_ene_abr": 19.4,
         "base_pequena": false,
         "tasa_2025": 9,
-        "tasa_2026_ene_abr": 5.2,
-        "tasa_2026_proyectada": 15.5
+        "tasa_2026_ene_abr": 5.9,
+        "tasa_2026_proyectada": 11.7
       }
     },
     {
@@ -2280,63 +2283,63 @@
       "poblacion_2026": 609168,
       "homicidio": {
         "casos_2025_completo": 46,
-        "casos_2025_ene_abr": 12,
-        "casos_2026_ene_abr": 7,
-        "variacion_pct_ene_abr": null,
-        "base_pequena": true,
+        "casos_2025_ene_abr": 22,
+        "casos_2026_ene_abr": 12,
+        "variacion_pct_ene_abr": -45.5,
+        "base_pequena": false,
         "tasa_2025": 7.6,
-        "tasa_2026_ene_abr": 1.1,
-        "tasa_2026_proyectada": 3.4
+        "tasa_2026_ene_abr": 2,
+        "tasa_2026_proyectada": 3.9
       },
       "hurto_personas": {
         "casos_2025_completo": 2124,
-        "casos_2025_ene_abr": 658,
-        "casos_2026_ene_abr": 749,
-        "variacion_pct_ene_abr": 13.8,
+        "casos_2025_ene_abr": 971,
+        "casos_2026_ene_abr": 931,
+        "variacion_pct_ene_abr": -4.1,
         "base_pequena": false,
         "tasa_2025": 352.9,
-        "tasa_2026_ene_abr": 123,
-        "tasa_2026_proyectada": 368.9
+        "tasa_2026_ene_abr": 152.8,
+        "tasa_2026_proyectada": 305.7
       },
       "extorsion": {
         "casos_2025_completo": 214,
-        "casos_2025_ene_abr": 62,
-        "casos_2026_ene_abr": 56,
-        "variacion_pct_ene_abr": -9.7,
+        "casos_2025_ene_abr": 93,
+        "casos_2026_ene_abr": 69,
+        "variacion_pct_ene_abr": -25.8,
         "base_pequena": false,
         "tasa_2025": 35.6,
-        "tasa_2026_ene_abr": 9.2,
-        "tasa_2026_proyectada": 27.6
+        "tasa_2026_ene_abr": 11.3,
+        "tasa_2026_proyectada": 22.7
       },
       "hurto_residencias": {
         "casos_2025_completo": 176,
-        "casos_2025_ene_abr": 46,
-        "casos_2026_ene_abr": 48,
-        "variacion_pct_ene_abr": 4.3,
+        "casos_2025_ene_abr": 79,
+        "casos_2026_ene_abr": 59,
+        "variacion_pct_ene_abr": -25.3,
         "base_pequena": false,
         "tasa_2025": 29.2,
-        "tasa_2026_ene_abr": 7.9,
-        "tasa_2026_proyectada": 23.6
+        "tasa_2026_ene_abr": 9.7,
+        "tasa_2026_proyectada": 19.4
       },
       "violencia_intra": {
         "casos_2025_completo": 1861,
-        "casos_2025_ene_abr": 595,
-        "casos_2026_ene_abr": 647,
-        "variacion_pct_ene_abr": 8.7,
+        "casos_2025_ene_abr": 883,
+        "casos_2026_ene_abr": 798,
+        "variacion_pct_ene_abr": -9.6,
         "base_pequena": false,
         "tasa_2025": 309.2,
-        "tasa_2026_ene_abr": 106.2,
-        "tasa_2026_proyectada": 318.6
+        "tasa_2026_ene_abr": 131,
+        "tasa_2026_proyectada": 262
       },
       "hurto_automotores": {
         "casos_2025_completo": 165,
-        "casos_2025_ene_abr": 64,
-        "casos_2026_ene_abr": 66,
-        "variacion_pct_ene_abr": 3.1,
+        "casos_2025_ene_abr": 88,
+        "casos_2026_ene_abr": 68,
+        "variacion_pct_ene_abr": -22.7,
         "base_pequena": false,
         "tasa_2025": 27.4,
-        "tasa_2026_ene_abr": 10.8,
-        "tasa_2026_proyectada": 32.5
+        "tasa_2026_ene_abr": 11.2,
+        "tasa_2026_proyectada": 22.3
       }
     },
     {
@@ -2346,63 +2349,63 @@
       "poblacion_2026": 382703,
       "homicidio": {
         "casos_2025_completo": 203,
-        "casos_2025_ene_abr": 65,
-        "casos_2026_ene_abr": 70,
-        "variacion_pct_ene_abr": 7.7,
+        "casos_2025_ene_abr": 94,
+        "casos_2026_ene_abr": 83,
+        "variacion_pct_ene_abr": -11.7,
         "base_pequena": false,
         "tasa_2025": 53.3,
-        "tasa_2026_ene_abr": 18.3,
-        "tasa_2026_proyectada": 54.9
+        "tasa_2026_ene_abr": 21.7,
+        "tasa_2026_proyectada": 43.4
       },
       "hurto_personas": {
         "casos_2025_completo": 1671,
-        "casos_2025_ene_abr": 496,
-        "casos_2026_ene_abr": 456,
-        "variacion_pct_ene_abr": -8.1,
+        "casos_2025_ene_abr": 740,
+        "casos_2026_ene_abr": 553,
+        "variacion_pct_ene_abr": -25.3,
         "base_pequena": false,
         "tasa_2025": 438.6,
-        "tasa_2026_ene_abr": 119.2,
-        "tasa_2026_proyectada": 357.5
+        "tasa_2026_ene_abr": 144.5,
+        "tasa_2026_proyectada": 289
       },
       "extorsion": {
         "casos_2025_completo": 96,
-        "casos_2025_ene_abr": 27,
-        "casos_2026_ene_abr": 49,
-        "variacion_pct_ene_abr": 81.5,
+        "casos_2025_ene_abr": 43,
+        "casos_2026_ene_abr": 51,
+        "variacion_pct_ene_abr": 18.6,
         "base_pequena": false,
         "tasa_2025": 25.2,
-        "tasa_2026_ene_abr": 12.8,
-        "tasa_2026_proyectada": 38.4
+        "tasa_2026_ene_abr": 13.3,
+        "tasa_2026_proyectada": 26.7
       },
       "hurto_residencias": {
         "casos_2025_completo": 177,
-        "casos_2025_ene_abr": 40,
-        "casos_2026_ene_abr": 45,
-        "variacion_pct_ene_abr": 12.5,
+        "casos_2025_ene_abr": 75,
+        "casos_2026_ene_abr": 58,
+        "variacion_pct_ene_abr": -22.7,
         "base_pequena": false,
         "tasa_2025": 46.5,
-        "tasa_2026_ene_abr": 11.8,
-        "tasa_2026_proyectada": 35.3
+        "tasa_2026_ene_abr": 15.2,
+        "tasa_2026_proyectada": 30.3
       },
       "violencia_intra": {
         "casos_2025_completo": 687,
-        "casos_2025_ene_abr": 198,
-        "casos_2026_ene_abr": 335,
-        "variacion_pct_ene_abr": 69.2,
+        "casos_2025_ene_abr": 310,
+        "casos_2026_ene_abr": 421,
+        "variacion_pct_ene_abr": 35.8,
         "base_pequena": false,
         "tasa_2025": 180.3,
-        "tasa_2026_ene_abr": 87.5,
-        "tasa_2026_proyectada": 262.6
+        "tasa_2026_ene_abr": 110,
+        "tasa_2026_proyectada": 220
       },
       "hurto_automotores": {
         "casos_2025_completo": 57,
-        "casos_2025_ene_abr": 25,
-        "casos_2026_ene_abr": 22,
-        "variacion_pct_ene_abr": -12,
+        "casos_2025_ene_abr": 29,
+        "casos_2026_ene_abr": 27,
+        "variacion_pct_ene_abr": -6.9,
         "base_pequena": false,
         "tasa_2025": 15,
-        "tasa_2026_ene_abr": 5.7,
-        "tasa_2026_proyectada": 17.2
+        "tasa_2026_ene_abr": 7.1,
+        "tasa_2026_proyectada": 14.1
       }
     },
     {
@@ -2412,63 +2415,63 @@
       "poblacion_2026": 306397,
       "homicidio": {
         "casos_2025_completo": 11,
-        "casos_2025_ene_abr": 4,
-        "casos_2026_ene_abr": 4,
+        "casos_2025_ene_abr": 6,
+        "casos_2026_ene_abr": 10,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 3.6,
-        "tasa_2026_ene_abr": 1.3,
-        "tasa_2026_proyectada": 3.9
+        "tasa_2026_ene_abr": 3.3,
+        "tasa_2026_proyectada": 6.5
       },
       "hurto_personas": {
         "casos_2025_completo": 1351,
-        "casos_2025_ene_abr": 414,
-        "casos_2026_ene_abr": 402,
-        "variacion_pct_ene_abr": -2.9,
+        "casos_2025_ene_abr": 603,
+        "casos_2026_ene_abr": 491,
+        "variacion_pct_ene_abr": -18.6,
         "base_pequena": false,
         "tasa_2025": 443.6,
-        "tasa_2026_ene_abr": 131.2,
-        "tasa_2026_proyectada": 393.6
+        "tasa_2026_ene_abr": 160.2,
+        "tasa_2026_proyectada": 320.5
       },
       "extorsion": {
         "casos_2025_completo": 81,
-        "casos_2025_ene_abr": 20,
-        "casos_2026_ene_abr": 25,
-        "variacion_pct_ene_abr": 25,
+        "casos_2025_ene_abr": 34,
+        "casos_2026_ene_abr": 28,
+        "variacion_pct_ene_abr": -17.6,
         "base_pequena": false,
         "tasa_2025": 26.6,
-        "tasa_2026_ene_abr": 8.2,
-        "tasa_2026_proyectada": 24.5
+        "tasa_2026_ene_abr": 9.1,
+        "tasa_2026_proyectada": 18.3
       },
       "hurto_residencias": {
         "casos_2025_completo": 128,
-        "casos_2025_ene_abr": 45,
-        "casos_2026_ene_abr": 30,
-        "variacion_pct_ene_abr": -33.3,
+        "casos_2025_ene_abr": 68,
+        "casos_2026_ene_abr": 39,
+        "variacion_pct_ene_abr": -42.6,
         "base_pequena": false,
         "tasa_2025": 42,
-        "tasa_2026_ene_abr": 9.8,
-        "tasa_2026_proyectada": 29.4
+        "tasa_2026_ene_abr": 12.7,
+        "tasa_2026_proyectada": 25.5
       },
       "violencia_intra": {
         "casos_2025_completo": 624,
-        "casos_2025_ene_abr": 229,
-        "casos_2026_ene_abr": 219,
-        "variacion_pct_ene_abr": -4.4,
+        "casos_2025_ene_abr": 320,
+        "casos_2026_ene_abr": 268,
+        "variacion_pct_ene_abr": -16.2,
         "base_pequena": false,
         "tasa_2025": 204.9,
-        "tasa_2026_ene_abr": 71.5,
-        "tasa_2026_proyectada": 214.4
+        "tasa_2026_ene_abr": 87.5,
+        "tasa_2026_proyectada": 174.9
       },
       "hurto_automotores": {
         "casos_2025_completo": 62,
-        "casos_2025_ene_abr": 26,
-        "casos_2026_ene_abr": 12,
-        "variacion_pct_ene_abr": -53.8,
+        "casos_2025_ene_abr": 33,
+        "casos_2026_ene_abr": 13,
+        "variacion_pct_ene_abr": -60.6,
         "base_pequena": false,
         "tasa_2025": 20.4,
-        "tasa_2026_ene_abr": 3.9,
-        "tasa_2026_proyectada": 11.7
+        "tasa_2026_ene_abr": 4.2,
+        "tasa_2026_proyectada": 8.5
       }
     },
     {
@@ -2478,63 +2481,63 @@
       "poblacion_2026": 315194,
       "homicidio": {
         "casos_2025_completo": 45,
-        "casos_2025_ene_abr": 9,
-        "casos_2026_ene_abr": 12,
+        "casos_2025_ene_abr": 14,
+        "casos_2026_ene_abr": 15,
         "variacion_pct_ene_abr": null,
         "base_pequena": true,
         "tasa_2025": 14.3,
-        "tasa_2026_ene_abr": 3.8,
-        "tasa_2026_proyectada": 11.4
+        "tasa_2026_ene_abr": 4.8,
+        "tasa_2026_proyectada": 9.5
       },
       "hurto_personas": {
         "casos_2025_completo": 1039,
-        "casos_2025_ene_abr": 313,
-        "casos_2026_ene_abr": 404,
-        "variacion_pct_ene_abr": 29.1,
+        "casos_2025_ene_abr": 487,
+        "casos_2026_ene_abr": 467,
+        "variacion_pct_ene_abr": -4.1,
         "base_pequena": false,
         "tasa_2025": 330.7,
-        "tasa_2026_ene_abr": 128.2,
-        "tasa_2026_proyectada": 384.5
+        "tasa_2026_ene_abr": 148.2,
+        "tasa_2026_proyectada": 296.3
       },
       "extorsion": {
         "casos_2025_completo": 40,
-        "casos_2025_ene_abr": 8,
+        "casos_2025_ene_abr": 21,
         "casos_2026_ene_abr": 12,
-        "variacion_pct_ene_abr": null,
-        "base_pequena": true,
+        "variacion_pct_ene_abr": -42.9,
+        "base_pequena": false,
         "tasa_2025": 12.7,
         "tasa_2026_ene_abr": 3.8,
-        "tasa_2026_proyectada": 11.4
+        "tasa_2026_proyectada": 7.6
       },
       "hurto_residencias": {
         "casos_2025_completo": 109,
-        "casos_2025_ene_abr": 33,
-        "casos_2026_ene_abr": 35,
-        "variacion_pct_ene_abr": 6.1,
+        "casos_2025_ene_abr": 54,
+        "casos_2026_ene_abr": 40,
+        "variacion_pct_ene_abr": -25.9,
         "base_pequena": false,
         "tasa_2025": 34.7,
-        "tasa_2026_ene_abr": 11.1,
-        "tasa_2026_proyectada": 33.3
+        "tasa_2026_ene_abr": 12.7,
+        "tasa_2026_proyectada": 25.4
       },
       "violencia_intra": {
         "casos_2025_completo": 676,
-        "casos_2025_ene_abr": 282,
-        "casos_2026_ene_abr": 215,
-        "variacion_pct_ene_abr": -23.8,
+        "casos_2025_ene_abr": 417,
+        "casos_2026_ene_abr": 260,
+        "variacion_pct_ene_abr": -37.6,
         "base_pequena": false,
         "tasa_2025": 215.2,
-        "tasa_2026_ene_abr": 68.2,
-        "tasa_2026_proyectada": 204.6
+        "tasa_2026_ene_abr": 82.5,
+        "tasa_2026_proyectada": 165
       },
       "hurto_automotores": {
         "casos_2025_completo": 5,
-        "casos_2025_ene_abr": null,
-        "casos_2026_ene_abr": null,
+        "casos_2025_ene_abr": 3,
+        "casos_2026_ene_abr": 1,
         "variacion_pct_ene_abr": null,
-        "base_pequena": false,
+        "base_pequena": true,
         "tasa_2025": 1.6,
-        "tasa_2026_ene_abr": null,
-        "tasa_2026_proyectada": null
+        "tasa_2026_ene_abr": 0.3,
+        "tasa_2026_proyectada": 0.6
       }
     }
   ]
