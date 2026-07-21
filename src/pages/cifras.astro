@@ -1,9 +1,18 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import cifrasData from "../data/cifras.data.json";
+import lideresData from "../data/lideres.data.json";
 
 const data = cifrasData as any;
 const meta = data.meta;
+
+// Líderes sociales
+const ld = lideresData as any;
+const ldAnual: {year:number,lideres:number,firmantes:number}[] = ld.anual;
+const ldTotal = ldAnual.reduce((s:number, r:any) => s + r.lideres, 0);
+const ldPeorAnio = ldAnual.reduce((p:any, c:any) => c.lideres > p.lideres ? c : p);
+const ldUltimo   = ldAnual[ldAnual.length - 1];
+const ldMaxBar   = Math.max(...ldAnual.map((r:any) => r.lideres));
 
 // Fechas
 const cortePolicia = new Date(meta.corte_policia + 'T00:00:00-05:00')
@@ -175,6 +184,7 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
     <a class="cifras-ancla" href="#indicadores">Indicadores</a>
     <a class="cifras-ancla" href="#mapa">Mapa</a>
     <a class="cifras-ancla" href="#ranking">Top 5</a>
+    <a class="cifras-ancla" href="#lideres">Líderes sociales</a>
   </nav>
 
   <!-- ═══ INDICADORES ══════════════════════════════════════════════════════ -->
@@ -281,6 +291,77 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
       Tasa proyectada = casos {labelPeriodo} × {factorProyeccion} ÷ pob. 2026 × 100.000 hab. · Policía Nacional (SIEDCO) ·
       Hurto automotores: 33/38 municipios.
     </p>
+  </section>
+
+  <!-- ═══ LÍDERES SOCIALES ══════════════════════════════════════════════════ -->
+  <section class="section wrap" id="lideres">
+    <h2 class="section__title">Líderes sociales asesinados</h2>
+    <p class="section__byline">Indepaz · 2016 – {ldUltimo.year}</p>
+
+    <!-- KPIs -->
+    <div class="ld-kpis">
+      <div class="ld-kpi">
+        <span class="ld-kpi__num">{ldTotal.toLocaleString("es-CO")}</span>
+        <span class="ld-kpi__label">asesinados desde 2016</span>
+        <span class="ld-kpi__sub">líderes sociales y defensores de DDHH · Indepaz</span>
+      </div>
+      <div class="ld-kpi">
+        <span class="ld-kpi__num">{ldPeorAnio.lideres}</span>
+        <span class="ld-kpi__label">año más crítico · {ldPeorAnio.year}</span>
+        <span class="ld-kpi__sub">pico tras firma del acuerdo de paz</span>
+      </div>
+      <div class="ld-kpi">
+        <span class="ld-kpi__num">{ldUltimo.lideres}</span>
+        <span class="ld-kpi__label">en {ldUltimo.year}</span>
+        <span class="ld-kpi__sub">incluye {ldUltimo.firmantes} firmantes del acuerdo de paz</span>
+      </div>
+    </div>
+
+    <!-- Tendencia anual -->
+    <div class="ld-trend">
+      <p class="ld-trend__label">Tendencia anual · líderes sociales asesinados</p>
+      <div class="ld-bars">
+        {ldAnual.map((r: any) => (
+          <div class="ld-bar-col">
+            <span class="ld-bar-val">{r.lideres}</span>
+            <div class="ld-bar-wrap">
+              <div
+                class={`ld-bar ${r.lideres === ldMaxBar ? "ld-bar--peak" : ""}`}
+                style={`height: ${Math.round((r.lideres / ldMaxBar) * 100)}%`}
+              ></div>
+            </div>
+            <span class="ld-bar-year">{r.year}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Departamentos más afectados -->
+    <div class="ld-deptos">
+      <p class="ld-deptos__label">Departamentos más afectados · {ld.departamentos_anio}</p>
+      <div class="ld-depto-list">
+        {(ld.departamentos as any[]).map((d: any, i: number) => (
+          <div class="ld-depto-row">
+            <span class="ld-depto-pos">{i + 1}</span>
+            <span class="ld-depto-name">{d.depto}</span>
+            <div class="ld-depto-bar-wrap">
+              <div class="ld-depto-bar" style={`width:${Math.round(d.casos / (ld.departamentos as any[])[0].casos * 100)}%`}></div>
+            </div>
+            <span class="ld-depto-num">{d.casos}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="cifras-aviso" style="margin-top:1.5rem">
+      <p>
+        <strong>Fuente: Indepaz</strong> — Registro de líderes sociales, defensores de derechos humanos y
+        firmantes del acuerdo de paz asesinados. Cifras verificadas con informes anuales publicados en
+        <a href="https://indepaz.org.co" target="_blank" rel="noopener" style="color:var(--accent)">indepaz.org.co</a>.
+        Los datos de firmantes de paz son un subconjunto de los líderes sociales.
+        <strong>Nota:</strong> estas cifras se actualizan manualmente — verificar con el último informe Indepaz.
+      </p>
+    </div>
   </section>
 
 
@@ -577,6 +658,82 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
   margin-top: 0.15rem;
 }
 :global(.ck__tasa strong) { color: var(--ink); font-weight: 700; }
+
+/* ── Líderes sociales ─────────────────────────────────────────────────────── */
+.ld-kpis {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem; margin-bottom: 2rem;
+}
+.ld-kpi {
+  background: var(--surface); border: 1px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius); padding: 1.25rem 1.5rem;
+  display: flex; flex-direction: column; gap: 0.2rem;
+  position: relative; overflow: hidden;
+  box-shadow: 0 4px 22px rgba(0,0,0,0.38);
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.ld-kpi::before {
+  content: ""; position: absolute;
+  bottom: -30px; left: 50%; transform: translateX(-50%);
+  width: 200px; height: 100px;
+  background: radial-gradient(ellipse, rgba(192,85,59,0.15) 0%, transparent 70%);
+  opacity: 0.5; transition: opacity 0.35s; pointer-events: none;
+}
+.ld-kpi:hover::before { opacity: 1; }
+.ld-kpi:hover { border-color: rgba(192,85,59,0.25); box-shadow: 0 6px 28px rgba(0,0,0,0.45); }
+.ld-kpi__num {
+  font-family: var(--font-display); font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 900; color: #e07060; line-height: 1; font-variant-numeric: tabular-nums;
+}
+.ld-kpi__label {
+  font-size: 0.78rem; font-weight: 700; color: var(--ink);
+  text-transform: uppercase; letter-spacing: 0.04em; margin-top: 0.35rem;
+}
+.ld-kpi__sub { font-size: 0.7rem; color: var(--ink-soft); line-height: 1.4; }
+
+.ld-trend { margin-bottom: 2rem; }
+.ld-trend__label {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--ink-soft); margin-bottom: 1rem;
+}
+.ld-bars {
+  display: flex; align-items: flex-end; gap: 0.5rem; height: 140px;
+}
+.ld-bar-col {
+  flex: 1; display: flex; flex-direction: column;
+  align-items: center; gap: 0.25rem; height: 100%;
+}
+.ld-bar-val {
+  font-size: 0.6rem; color: var(--ink-soft); font-variant-numeric: tabular-nums;
+}
+.ld-bar-wrap {
+  flex: 1; width: 100%; display: flex; align-items: flex-end;
+  background: rgba(255,255,255,0.04); border-radius: 3px 3px 0 0;
+}
+.ld-bar {
+  width: 100%; background: rgba(192,85,59,0.55);
+  border-radius: 3px 3px 0 0; transition: background 0.2s;
+}
+.ld-bar--peak { background: #e07060; }
+.ld-bar-year {
+  font-size: 0.6rem; color: var(--ink-soft); white-space: nowrap;
+}
+
+.ld-deptos { margin-bottom: 1.5rem; }
+.ld-deptos__label {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--ink-soft); margin-bottom: 0.75rem;
+}
+.ld-depto-list { display: flex; flex-direction: column; gap: 0.5rem; max-width: 520px; }
+.ld-depto-row {
+  display: grid; grid-template-columns: 1.2rem 1fr 120px 2rem;
+  align-items: center; gap: 0.6rem;
+}
+.ld-depto-pos { font-size: 0.7rem; color: var(--ink-soft); text-align: right; }
+.ld-depto-name { font-size: 0.82rem; color: var(--ink); }
+.ld-depto-bar-wrap { height: 6px; background: rgba(255,255,255,0.07); border-radius: 3px; overflow: hidden; }
+.ld-depto-bar { height: 100%; background: rgba(192,85,59,0.6); border-radius: 3px; }
+.ld-depto-num { font-size: 0.75rem; font-weight: 700; color: #e07060; text-align: right; font-variant-numeric: tabular-nums; }
 
 /* ── Responsive ───────────────────────────────────────────────────────────── */
 @media (max-width: 700px) {

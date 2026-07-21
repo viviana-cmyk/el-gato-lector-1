@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "fuente": "Indepaz — Registro de líderes sociales, defensores de DDHH y firmantes de paz asesinados",
+    "url": "https://indepaz.org.co",
+    "nota": "Cifras verificadas con informes anuales Indepaz. Se actualiza manualmente.",
+    "generatedAt": "2026-07-21"
+  },
+  "anual": [
+    { "year": 2016, "lideres": 133, "firmantes": 0  },
+    { "year": 2017, "lideres": 208, "firmantes": 32 },
+    { "year": 2018, "lideres": 172, "firmantes": 60 },
+    { "year": 2019, "lideres": 281, "firmantes": 77 },
+    { "year": 2020, "lideres": 182, "firmantes": 73 },
+    { "year": 2021, "lideres": 139, "firmantes": 43 },
+    { "year": 2022, "lideres": 190, "firmantes": 99 },
+    { "year": 2023, "lideres": 157, "firmantes": 39 },
+    { "year": 2024, "lideres": 116, "firmantes": 34 }
+  ],
+  "departamentos": [
+    { "depto": "Cauca",               "casos": 28 },
+    { "depto": "Antioquia",           "casos": 19 },
+    { "depto": "Nariño",              "casos": 14 },
+    { "depto": "Valle del Cauca",     "casos": 10 },
+    { "depto": "Norte de Santander",  "casos":  9 }
+  ],
+  "departamentos_anio": 2024
+}
