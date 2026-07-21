@@ -46,6 +46,25 @@ const poblacionData = JSON.parse(
 );
 const allCodes = poblacionData.municipios.map(m => m.divipola);
 
+// ── Fetch con reintentos (datos.gov.co puede ser inestable) ─────────────────
+async function fetchConReintentos(url, intentos = 4, espera = 8000) {
+  for (let i = 1; i <= intentos; i++) {
+    try {
+      const res = await fetch(url, { headers: { Accept: 'application/json' }, signal: AbortSignal.timeout(60000) });
+      if (!res.ok) {
+        const body = await res.text();
+        throw new Error(`HTTP ${res.status}: ${body.slice(0, 200)}`);
+      }
+      return res.json();
+    } catch (err) {
+      if (i === intentos) throw err;
+      console.log(`  ⚠ Intento ${i}/${intentos} fallido (${err.message}) — reintentando en ${espera/1000}s...`);
+      await new Promise(r => setTimeout(r, espera));
+      espera *= 2; // backoff exponencial
+    }
+  }
+}
+
 // ── Consulta SODA con agregación mensual (server-side) ──────────────────────
 async function fetchMensual(datasetId, codes, filtroExtra = '') {
   const codesStr = codes.map(c => `'${c}'`).join(',');
@@ -59,12 +78,7 @@ async function fetchMensual(datasetId, codes, filtroExtra = '') {
     '$limit':  '50000',
   });
   const url = `${SODA_BASE}/${datasetId}.json?${params}`;
-  const res = await fetch(url, { headers: { Accept: 'application/json' } });
-  if (!res.ok) {
-    const body = await res.text();
-    throw new Error(`HTTP ${res.status} en ${datasetId}: ${body.slice(0, 200)}`);
-  }
-  return res.json();
+  return fetchConReintentos(url);
 }
 
 // ── Índice mensual por municipio: { cod_muni → { "2025-01" → nº } } ─────────
