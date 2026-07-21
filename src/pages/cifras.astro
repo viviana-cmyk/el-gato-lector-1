@@ -124,12 +124,16 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
         <div class="cifras-kpi">
           <span class="cifras-kpi__num">{homNac26ea.toLocaleString("es-CO")}</span>
           <span class="cifras-kpi__label">homicidios · 38 municipios</span>
-          <span class="cifras-kpi__sub">{homNacVar !== null ? (homNacVar > 0 ? "+" : "") + homNacVar.toFixed(1).replace(".", ",") + "%" : "—"} vs. ene-abr 2025 · Policía</span>
+          <span class={`cifras-kpi__sub ${homNacVar !== null ? (homNacVar > 0 ? "cifras-kpi__sub--sube" : homNacVar < 0 ? "cifras-kpi__sub--baja" : "") : ""}`}>
+            {homNacVar !== null ? (homNacVar > 0 ? "▲ +" : homNacVar < 0 ? "▼ " : "") + homNacVar.toFixed(1).replace(".", ",") + "%" : "—"} vs. ene-abr 2025 · Policía
+          </span>
         </div>
         <div class="cifras-kpi">
           <span class="cifras-kpi__num">{vifNac26ea.toLocaleString("es-CO")}</span>
           <span class="cifras-kpi__label">casos violencia intrafamiliar</span>
-          <span class="cifras-kpi__sub">{vifNacVar !== null ? (vifNacVar > 0 ? "+" : "") + vifNacVar.toFixed(1).replace(".", ",") + "%" : "—"} vs. ene-abr 2025 · Policía</span>
+          <span class={`cifras-kpi__sub ${vifNacVar !== null ? (vifNacVar > 0 ? "cifras-kpi__sub--sube" : vifNacVar < 0 ? "cifras-kpi__sub--baja" : "") : ""}`}>
+            {vifNacVar !== null ? (vifNacVar > 0 ? "▲ +" : vifNacVar < 0 ? "▼ " : "") + vifNacVar.toFixed(1).replace(".", ",") + "%" : "—"} vs. ene-abr 2025 · Policía
+          </span>
         </div>
         <div class="cifras-kpi">
           <span class="cifras-kpi__num">{topTasa?.homicidio.tasa_2026_proyectada?.toFixed(0)} x100k</span>
@@ -344,6 +348,8 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
   text-transform: uppercase; letter-spacing: 0.04em; margin-top: 0.35rem;
 }
 .cifras-kpi__sub { font-size: 0.7rem; color: var(--ink-soft); line-height: 1.4; }
+.cifras-kpi__sub--sube { color: #e07060; font-weight: 700; }
+.cifras-kpi__sub--baja { color: #5aaa88; font-weight: 700; }
 .cifras-corte {
   display: flex; flex-wrap: wrap; gap: 0.4rem 0.75rem;
   font-size: 0.75rem; color: var(--ink-soft); align-items: center;
