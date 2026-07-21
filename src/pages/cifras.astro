@@ -316,9 +316,24 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
   gap: 1.25rem; margin-bottom: 2rem;
 }
 .cifras-kpi {
-  background: var(--surface-2); border: 1px solid var(--border);
-  border-top: 3px solid var(--accent); border-radius: var(--radius);
+  background: var(--surface-2); border: 1px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius);
   padding: 1.25rem 1.5rem; display: flex; flex-direction: column; gap: 0.2rem;
+  position: relative; overflow: hidden;
+  box-shadow: 0 4px 22px rgba(0,0,0,0.38);
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.cifras-kpi::before {
+  content: ""; position: absolute;
+  bottom: -30px; left: 50%; transform: translateX(-50%);
+  width: 220px; height: 110px;
+  background: radial-gradient(ellipse, rgba(230,179,0,0.15) 0%, transparent 70%);
+  opacity: 0.5; transition: opacity 0.35s; pointer-events: none;
+}
+.cifras-kpi:hover::before { opacity: 1; }
+.cifras-kpi:hover {
+  border-color: rgba(230,179,0,0.22);
+  box-shadow: 0 6px 28px rgba(0,0,0,0.45), 0 0 40px rgba(230,179,0,0.09);
 }
 .cifras-kpi__num {
   font-family: var(--font-display); font-size: clamp(1.8rem, 3.5vw, 2.6rem);
@@ -355,19 +370,26 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
   gap: 1rem; min-height: 140px;
 }
 .cifras-ind-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-top: 3px solid var(--accent); border-radius: var(--radius);
+  background: var(--surface); border: 1px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius);
   padding: 1.1rem 1.25rem 0.9rem;
   display: flex; flex-direction: column; gap: 0.15rem;
   position: relative; overflow: hidden;
+  box-shadow: 0 4px 22px rgba(0,0,0,0.38);
+  transition: border-color 0.25s, box-shadow 0.25s;
 }
 .cifras-ind-card::before {
-  content: ""; position: absolute; top: -40px; left: -40px;
-  width: 130px; height: 130px;
-  background: radial-gradient(circle, rgba(230,179,0,0.08) 0%, transparent 70%);
-  opacity: 0; transition: opacity 0.3s;
+  content: ""; position: absolute;
+  bottom: -30px; left: 50%; transform: translateX(-50%);
+  width: 180px; height: 90px;
+  background: radial-gradient(ellipse, rgba(230,179,0,0.14) 0%, transparent 70%);
+  opacity: 0.5; transition: opacity 0.35s; pointer-events: none;
 }
 .cifras-ind-card:hover::before { opacity: 1; }
+.cifras-ind-card:hover {
+  border-color: rgba(230,179,0,0.22);
+  box-shadow: 0 6px 28px rgba(0,0,0,0.45), 0 0 40px rgba(230,179,0,0.09);
+}
 .cifras-ind-card__tipo {
   font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
   letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 0.25rem;
