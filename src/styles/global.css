@@ -92,10 +92,41 @@ img { max-width: 100%; display: block; }
 
 .topbar__nav { display: flex; gap: 8px; flex-wrap: wrap; }
 
+/* Topbar pills — mismo estilo vidrio dorado que el hero */
+.topbar__nav .pill {
+  background: rgba(230,179,0,0.12);
+  border: 1px solid rgba(230,179,0,0.50);
+  color: #fff;
+  font-size: 0.73rem;
+  padding: 7px 15px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: none;
+}
+.topbar__nav .pill:hover {
+  background: rgba(230,179,0,0.27);
+  border-color: var(--accent);
+  color: #fff;
+  box-shadow: 0 0 14px rgba(230,179,0,0.28);
+  transform: translateY(-1px);
+}
+.topbar__nav .pill--ghost {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.22);
+  color: rgba(255,255,255,0.6);
+  box-shadow: none;
+}
+.topbar__nav .pill--ghost:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.38);
+  color: #fff;
+  box-shadow: none;
+}
+
 @media (max-width: 680px) {
   .topbar__inner { flex-direction: column; align-items: center; gap: 12px; padding: 14px 16px 18px; }
   .topbar__nav { justify-content: center; }
-  .topbar__nav .pill { font-size: 0.72rem; padding: 7px 12px; }
+  .topbar__nav .pill { font-size: 0.68rem; padding: 6px 11px; }
 }
 
 .pill {
