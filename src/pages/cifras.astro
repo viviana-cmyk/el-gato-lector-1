@@ -643,14 +643,14 @@ if (typeof L === 'undefined') {
   document.getElementById('cifras-mapa').innerHTML =
     '<p style="display:flex;align-items:center;justify-content:center;height:100%;color:#8892a4;font-size:.85rem">El mapa no pudo cargar — verifica tu conexión y recarga la página.</p>';
 }
-// ── Gradientes por delito ────────────────────────────────────────────────────
+// ── Gradientes por delito (bajo→medio→alto) ──────────────────────────────────
 const GRADIENTS = {
-  hom: { 0:'rgba(0,0,0,0)', 0.15:'rgba(100,190,70,0.55)', 0.4:'#ffe000', 0.65:'#ff5500', 1:'#cc0000' },
-  hur: { 0:'rgba(0,0,0,0)', 0.15:'rgba(60,140,220,0.55)', 0.4:'#00d4ff', 0.65:'#0055ee', 1:'#002299' },
-  ext: { 0:'rgba(0,0,0,0)', 0.15:'rgba(200,165,50,0.55)', 0.4:'#ffdd40', 0.65:'#ff8800', 1:'#994400' },
-  res: { 0:'rgba(0,0,0,0)', 0.15:'rgba(160,100,210,0.55)', 0.4:'#dd88ff', 0.65:'#9900cc', 1:'#550066' },
-  vif: { 0:'rgba(0,0,0,0)', 0.15:'rgba(220,100,150,0.55)', 0.4:'#ff80cc', 0.65:'#ff0088', 1:'#880044' },
-  aut: { 0:'rgba(0,0,0,0)', 0.15:'rgba(40,185,160,0.55)', 0.4:'#00ffcc', 0.65:'#00997a', 1:'#004433' },
+  hom: { 0:'rgba(0,0,0,0)', 0.04:'rgba(100,190,60,0.75)', 0.2:'#ffe000', 0.5:'#ff5000', 0.75:'#d00000', 1:'#7a0000' },
+  hur: { 0:'rgba(0,0,0,0)', 0.04:'rgba(60,140,220,0.75)', 0.2:'#00d4ff', 0.5:'#0055ee', 0.75:'#0022bb', 1:'#001166' },
+  ext: { 0:'rgba(0,0,0,0)', 0.04:'rgba(200,165,50,0.75)', 0.2:'#ffe060', 0.5:'#ff8800', 0.75:'#bb4400', 1:'#662200' },
+  res: { 0:'rgba(0,0,0,0)', 0.04:'rgba(160,100,210,0.75)', 0.2:'#dd88ff', 0.5:'#9900cc', 0.75:'#660099', 1:'#330055' },
+  vif: { 0:'rgba(0,0,0,0)', 0.04:'rgba(220,100,150,0.75)', 0.2:'#ff80cc', 0.5:'#ff0088', 0.75:'#aa0055', 1:'#550030' },
+  aut: { 0:'rgba(0,0,0,0)', 0.04:'rgba(40,185,160,0.75)', 0.2:'#00ffcc', 0.5:'#00997a', 0.75:'#005544', 1:'#002822' },
 };
 
 const map = typeof L !== 'undefined' && L.map("cifras-mapa", {
@@ -663,7 +663,6 @@ if (map) {
     maxZoom: 14,
   }).addTo(map);
 }
-const mLayer = map ? L.layerGroup().addTo(map) : null;
 let heatLayer = null;
 
 // Control "Ver todas las ciudades"
@@ -689,49 +688,25 @@ if (map) {
 function renderMapa(d) {
   if (!map) return;
 
-  // Limpiar capas anteriores
-  if (mLayer) mLayer.clearLayers();
   if (heatLayer) { map.removeLayer(heatLayer); heatLayer = null; }
 
-  const brks = quintiles(cityData.map(c => getTasa(c, d)));
   const maxT = cityData.reduce((m, c) => Math.max(m, getTasa(c, d) ?? 0), 0) || 1;
 
-  // ── Capa de calor ──────────────────────────────────────────────────────
+  // ── Capa de calor (intensidad en escala raíz cuadrada) ─────────────────
   if (typeof L.heatLayer !== 'undefined') {
     const heatData = cityData
       .filter(c => c.lat != null && getTasa(c, d) != null)
-      .map(c => [c.lat, c.lng, getTasa(c, d) / maxT]);
+      .map(c => [c.lat, c.lng, Math.sqrt(getTasa(c, d) / maxT)]);
     if (heatData.length) {
       heatLayer = L.heatLayer(heatData, {
-        radius: 80,
-        blur: 65,
+        radius: 110,
+        blur: 75,
         maxZoom: 10,
+        minOpacity: 0.45,
         gradient: GRADIENTS[d],
       }).addTo(map);
     }
   }
-
-  // ── Marcadores de ciudad (clickables) ──────────────────────────────────
-  cityData.forEach(c => {
-    if (c.lat == null) return;
-    const t  = getTasa(c, d);
-    const cc = getCasos(c, d);
-    L.circleMarker([c.lat, c.lng], {
-      radius: t != null ? 6 : 4,
-      fillColor: t != null ? '#cc0000' : '#aaa',
-      color: 'rgba(0,0,0,0.55)',
-      weight: 1.2,
-      fillOpacity: t != null ? 0.0 : 0.25,
-    }).bindPopup(`
-      <div style="min-width:185px;line-height:1.6;color:#1a2030">
-        <strong style="font-size:.96rem">${c.municipio}</strong><br>
-        <span style="font-size:.68rem;color:#556;text-transform:uppercase;letter-spacing:.06em">${getLabel(d)}</span><br>
-        <hr style="border:none;border-top:1px solid rgba(0,0,0,.1);margin:5px 0">
-        <span style="font-size:.84rem">Casos ene-abr 2026: <strong>${cc != null ? numCO(cc) : "sin dato"}</strong></span><br>
-        <span style="font-size:.84rem">Tasa proyectada: ${t != null ? "<strong>" + t.toFixed(1).replace(".",",") + " x100k</strong>" : "sin dato"}</span><br>
-        <span style="font-size:.65rem;color:#778;margin-top:4px;display:block">Policía Nacional · ene-abr 2026</span>
-      </div>`, { maxWidth: 240 }).addTo(mLayer);
-  });
 
   // ── Leyenda — barra de gradiente del delito activo ─────────────────────
   const grad = GRADIENTS[d];
