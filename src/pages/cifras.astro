@@ -495,16 +495,24 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
 
 /* :global porque el JS inserta este DOM dinámicamente */
 :global(.ck) {
-  background: var(--surface); border: 1px solid var(--border);
+  background: var(--surface); border: 1px solid rgba(255,255,255,0.07);
   border-radius: var(--radius); padding: 1rem 1.15rem 0.9rem;
   display: flex; flex-direction: column; gap: 0.3rem;
-  border-top: 2px solid var(--border);
-  transition: border-color 0.15s, background 0.15s;
+  transition: border-color 0.25s, box-shadow 0.25s;
   position: relative; overflow: hidden;
+  box-shadow: 0 4px 22px rgba(0,0,0,0.38);
 }
 :global(.ck::before) {
-  content: ""; position: absolute; left: 0; top: 0; bottom: 0;
-  width: 3px; background: var(--accent); border-radius: 0;
+  content: ""; position: absolute;
+  bottom: -30px; left: 50%; transform: translateX(-50%);
+  width: 180px; height: 90px;
+  background: radial-gradient(ellipse, rgba(230,179,0,0.14) 0%, transparent 70%);
+  opacity: 0.55; transition: opacity 0.35s; pointer-events: none;
+}
+:global(.ck:hover::before) { opacity: 1; }
+:global(.ck:hover) {
+  border-color: rgba(230,179,0,0.22);
+  box-shadow: 0 6px 28px rgba(0,0,0,0.45), 0 0 40px rgba(230,179,0,0.09);
 }
 :global(.ck__tipo) {
   font-size: 0.65rem; font-weight: 700; text-transform: uppercase;
