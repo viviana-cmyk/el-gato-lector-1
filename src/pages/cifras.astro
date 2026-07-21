@@ -416,7 +416,8 @@ function varArrow(v: number | null) { return v === null ? "" : v > 0 ? "↑ " : 
 .cifras-mapa-wrap { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); margin-bottom: 0.75rem; }
 #cifras-mapa { height: 580px; width: 100%; background: var(--surface-2); }
 :global(.leaflet-container)              { background: #1a2030 !important; font-family: var(--font-body) !important; }
-:global(.leaflet-popup-content-wrapper) { background: #1e2535 !important; color: #f0f4f8 !important; border: 1px solid rgba(255,255,255,0.1) !important; border-radius: 10px !important; box-shadow: 0 4px 20px rgba(0,0,0,0.5) !important; }
+:global(.leaflet-popup-content-wrapper) { background: #fff !important; color: #1a2030 !important; border: 1px solid rgba(0,0,0,0.12) !important; border-radius: 10px !important; box-shadow: 0 4px 20px rgba(0,0,0,0.18) !important; }
+:global(.leaflet-popup-tip) { background: #fff !important; }
 :global(.leaflet-popup-tip)             { background: #1e2535 !important; }
 :global(.leaflet-popup-close-button)    { color: #8892a4 !important; }
 :global(.leaflet-control-zoom a)        { background: #1e2535 !important; color: #f0f4f8 !important; border-color: rgba(255,255,255,0.1) !important; }
@@ -570,10 +571,6 @@ function getCasos(c, d) {
   return d==='hom'?c.h26 : d==='hur'?c.u26 : d==='ext'?c.e26 :
          d==='res'?c.r26 : d==='vif'?c.vi26 : c.a26;
 }
-function getBP(c, d) {
-  return d==='hom'?c.hbp : d==='hur'?c.ubp : d==='ext'?c.ebp :
-         d==='res'?c.rbp : d==='vif'?c.vibp : c.abp;
-}
 function getLabel(d) {
   return d==='hom'?'Homicidios' : d==='hur'?'Hurto a personas' : d==='ext'?'Extorsión' :
          d==='res'?'Hurto residencias' : d==='vif'?'Violencia intrafamiliar' : 'Hurto automotores';
@@ -646,12 +643,22 @@ if (typeof L === 'undefined') {
   document.getElementById('cifras-mapa').innerHTML =
     '<p style="display:flex;align-items:center;justify-content:center;height:100%;color:#8892a4;font-size:.85rem">El mapa no pudo cargar — verifica tu conexión y recarga la página.</p>';
 }
+// ── Gradientes por delito ────────────────────────────────────────────────────
+const GRADIENTS = {
+  hom: { 0:'rgba(0,0,0,0)', 0.15:'rgba(100,190,70,0.55)', 0.4:'#ffe000', 0.65:'#ff5500', 1:'#cc0000' },
+  hur: { 0:'rgba(0,0,0,0)', 0.15:'rgba(60,140,220,0.55)', 0.4:'#00d4ff', 0.65:'#0055ee', 1:'#002299' },
+  ext: { 0:'rgba(0,0,0,0)', 0.15:'rgba(200,165,50,0.55)', 0.4:'#ffdd40', 0.65:'#ff8800', 1:'#994400' },
+  res: { 0:'rgba(0,0,0,0)', 0.15:'rgba(160,100,210,0.55)', 0.4:'#dd88ff', 0.65:'#9900cc', 1:'#550066' },
+  vif: { 0:'rgba(0,0,0,0)', 0.15:'rgba(220,100,150,0.55)', 0.4:'#ff80cc', 0.65:'#ff0088', 1:'#880044' },
+  aut: { 0:'rgba(0,0,0,0)', 0.15:'rgba(40,185,160,0.55)', 0.4:'#00ffcc', 0.65:'#00997a', 1:'#004433' },
+};
+
 const map = typeof L !== 'undefined' && L.map("cifras-mapa", {
   center: [4.5, -74.5], zoom: 5, scrollWheelZoom: false,
   zoomControl: true,
 });
 if (map) {
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png", {
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png", {
     attribution: '© <a href="https://carto.com/">CartoDB</a> · © <a href="https://osm.org/copyright">OSM</a>',
     maxZoom: 14,
   }).addTo(map);
@@ -666,7 +673,7 @@ if (map) {
     onAdd() {
       const btn = L.DomUtil.create('button', '');
       btn.innerHTML = '⊞ Ver todas las ciudades';
-      btn.style.cssText = 'background:rgba(26,32,48,.92);color:#e6b300;border:1px solid rgba(230,179,0,.4);border-radius:6px;padding:6px 11px;font-size:.7rem;font-weight:700;cursor:pointer;font-family:inherit;letter-spacing:.04em;white-space:nowrap;box-shadow:0 2px 6px rgba(0,0,0,.4);';
+      btn.style.cssText = 'background:rgba(255,255,255,.92);color:#334;border:1px solid rgba(0,0,0,.18);border-radius:6px;padding:6px 11px;font-size:.7rem;font-weight:700;cursor:pointer;font-family:inherit;letter-spacing:.04em;white-space:nowrap;box-shadow:0 2px 6px rgba(0,0,0,.15);';
       L.DomEvent.on(btn, 'click', function(e) {
         L.DomEvent.stopPropagation(e);
         L.DomEvent.preventDefault(e);
@@ -696,10 +703,10 @@ function renderMapa(d) {
       .map(c => [c.lat, c.lng, getTasa(c, d) / maxT]);
     if (heatData.length) {
       heatLayer = L.heatLayer(heatData, {
-        radius: 70,
-        blur: 55,
+        radius: 80,
+        blur: 65,
         maxZoom: 10,
-        gradient: { 0: 'rgba(0,0,0,0)', 0.2: '#f0d9a8', 0.5: '#cc7840', 0.75: '#b54e2e', 1: '#8a2018' },
+        gradient: GRADIENTS[d],
       }).addTo(map);
     }
   }
@@ -709,32 +716,33 @@ function renderMapa(d) {
     if (c.lat == null) return;
     const t  = getTasa(c, d);
     const cc = getCasos(c, d);
-    const col = palColor(t, brks);
     L.circleMarker([c.lat, c.lng], {
-      radius: t != null ? 7 : 5,
-      fillColor: col,
-      color: t != null ? 'rgba(255,255,255,0.5)' : 'rgba(255,255,255,0.15)',
-      weight: 1.5,
-      fillOpacity: t != null ? 0.95 : 0.4,
+      radius: t != null ? 6 : 4,
+      fillColor: t != null ? '#cc0000' : '#aaa',
+      color: 'rgba(0,0,0,0.55)',
+      weight: 1.2,
+      fillOpacity: t != null ? 0.0 : 0.25,
     }).bindPopup(`
-      <div style="min-width:185px;line-height:1.6">
+      <div style="min-width:185px;line-height:1.6;color:#1a2030">
         <strong style="font-size:.96rem">${c.municipio}</strong><br>
-        <span style="font-size:.68rem;color:#8892a4;text-transform:uppercase;letter-spacing:.06em">${getLabel(d)}</span><br>
-        <hr style="border:none;border-top:1px solid rgba(255,255,255,.1);margin:5px 0">
+        <span style="font-size:.68rem;color:#556;text-transform:uppercase;letter-spacing:.06em">${getLabel(d)}</span><br>
+        <hr style="border:none;border-top:1px solid rgba(0,0,0,.1);margin:5px 0">
         <span style="font-size:.84rem">Casos ene-abr 2026: <strong>${cc != null ? numCO(cc) : "sin dato"}</strong></span><br>
         <span style="font-size:.84rem">Tasa proyectada: ${t != null ? "<strong>" + t.toFixed(1).replace(".",",") + " x100k</strong>" : "sin dato"}</span><br>
-        <span style="font-size:.65rem;color:#8892a4;margin-top:4px;display:block">Policía Nacional · ene-abr 2026</span>
+        <span style="font-size:.65rem;color:#778;margin-top:4px;display:block">Policía Nacional · ene-abr 2026</span>
       </div>`, { maxWidth: 240 }).addTo(mLayer);
   });
 
-  // ── Leyenda ────────────────────────────────────────────────────────────
-  const items = PAL.map((col, i) => {
-    const lo = i === 0 ? "0" : brks[i].toFixed(0);
-    const hi = i === PAL.length-1 ? brks[i+1].toFixed(0)+"+" : brks[i+1].toFixed(0);
-    return `<div class="cifras-mapa-leyenda-item"><div class="cifras-mapa-leyenda-dot" style="background:${col}"></div><span>${lo}–${hi}</span></div>`;
-  }).join("") + `<div class="cifras-mapa-leyenda-item"><div class="cifras-mapa-leyenda-dot" style="background:${SIN_COLOR}"></div><span>sin dato</span></div>`;
+  // ── Leyenda — barra de gradiente del delito activo ─────────────────────
+  const grad = GRADIENTS[d];
+  const stops = Object.entries(grad)
+    .map(([p, c]) => `${c} ${(parseFloat(p)*100).toFixed(0)}%`)
+    .join(', ');
   document.getElementById("mapa-leyenda").innerHTML =
-    `<span style="font-size:.67rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-right:.25rem">Tasa x100k</span>` + items;
+    `<span style="font-size:.67rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-right:.6rem;white-space:nowrap">Tasa x100k</span>` +
+    `<span style="font-size:.63rem;color:var(--ink-soft);white-space:nowrap">0</span>` +
+    `<div style="flex:1;min-width:60px;height:10px;border-radius:5px;background:linear-gradient(to right,${stops});border:1px solid rgba(0,0,0,.12);margin:0 .4rem"></div>` +
+    `<span style="font-size:.63rem;color:var(--ink-soft);white-space:nowrap">${maxT.toFixed(0)}+</span>`;
 }
 
 /* ══════════════ TOP 5 POR DELITO (estático al cargar) ══════════════════════ */

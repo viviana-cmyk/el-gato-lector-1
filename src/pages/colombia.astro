@@ -2,8 +2,52 @@
 import Layout from "../layouts/Layout.astro";
 import IndicatorsBar from "../components/IndicatorsBar.astro";
 import NewsGrid from "../components/NewsGrid.astro";
+import RankList from "../components/RankList.astro";
 import UpdatedNote from "../components/UpdatedNote.astro";
 import colombiaData from "../data/news-colombia.json";
+import trendsData from "../data/trends.json";
+import podcastData from "../data/podcasts.json";
+import curated from "../data/curated.json";
+
+const td = trendsData as any;
+
+function hashtagUrl(network: string, tag: string): string {
+  const clean = tag.replace(/^#/, "");
+  if (network === "tiktok") return `https://www.tiktok.com/tag/${encodeURIComponent(clean)}`;
+  return `https://x.com/hashtag/${encodeURIComponent(clean)}`;
+}
+
+function podcastUrl(title: string, url?: string): string {
+  if (url) return url;
+  return `https://podcasts.apple.com/search?term=${encodeURIComponent(title)}`;
+}
+
+const redesColombia = [
+  { title: "Colombia · Top 5", icon: "𝕏",  network: "x",      tags: td.x?.colombia      ?? [] },
+  { title: "TikTok · Colombia · Top 5", icon: "🎵", network: "tiktok", tags: td.tiktok?.colombia ?? [] },
+]
+  .filter((r) => r.tags.length > 0)
+  .map((r) => ({
+    title: r.title,
+    icon: r.icon,
+    items: r.tags.map((tag: string) => ({ primary: tag, url: hashtagUrl(r.network, tag) })),
+  }));
+
+const podcastsColombia = (podcastData as any).colombia?.length
+  ? (podcastData as any).colombia
+  : (curated as any).tendencias.podcasts.colombia;
+
+const podcastListColombia = {
+  title: "Ranking podcasts · Colombia",
+  icon: "🎙️",
+  items: podcastsColombia.map((p: any) => ({
+    primary: p.title,
+    secondary: p.host,
+    url: podcastUrl(p.title, p.url),
+  })),
+};
+
+const hayTendencias = redesColombia.length > 0 || podcastListColombia.items.length > 0;
 ---
 
 <Layout title="Colombia" description="Titulares de Semana, El Espectador, El Tiempo, El Colombiano, Blu Radio, Caracol Radio, RCN Radio y Portafolio, actualizados a diario.">
@@ -12,6 +56,24 @@ import colombiaData from "../data/news-colombia.json";
     <p class="section__byline">El Gato Lector</p>
     <IndicatorsBar />
     <NewsGrid outlets={colombiaData.outlets} />
+
+    {hayTendencias && (
+      <div class="trends" style="margin-top:2.5rem">
+        <div class="trends__header">
+          <span class="trends__live">● EN VIVO</span>
+          <span class="trends__subtitle">Tendencias de hoy en Colombia</span>
+        </div>
+        <div class="rank-sections">
+          {redesColombia.map((list) => (
+            <RankList title={list.title} icon={list.icon} items={list.items} />
+          ))}
+          {podcastListColombia.items.length > 0 && (
+            <RankList title={podcastListColombia.title} icon={podcastListColombia.icon} items={podcastListColombia.items} />
+          )}
+        </div>
+      </div>
+    )}
+
     <UpdatedNote generatedAt={colombiaData.generatedAt} />
   </section>
 </Layout>
