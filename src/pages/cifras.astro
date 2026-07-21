@@ -567,10 +567,6 @@ function getTasa(c, d) {
   return d==='hom'?c.htp : d==='hur'?c.utp : d==='ext'?c.etp :
          d==='res'?c.rtp : d==='vif'?c.vitp : c.atp;
 }
-function getCasos(c, d) {
-  return d==='hom'?c.h26 : d==='hur'?c.u26 : d==='ext'?c.e26 :
-         d==='res'?c.r26 : d==='vif'?c.vi26 : c.a26;
-}
 function getLabel(d) {
   return d==='hom'?'Homicidios' : d==='hur'?'Hurto a personas' : d==='ext'?'Extorsión' :
          d==='res'?'Hurto residencias' : d==='vif'?'Violencia intrafamiliar' : 'Hurto automotores';
@@ -645,12 +641,12 @@ if (typeof L === 'undefined') {
 }
 // ── Gradientes por delito (bajo→medio→alto) ──────────────────────────────────
 const GRADIENTS = {
-  hom: { 0:'rgba(0,0,0,0)', 0.04:'rgba(100,190,60,0.75)', 0.2:'#ffe000', 0.5:'#ff5000', 0.75:'#d00000', 1:'#7a0000' },
-  hur: { 0:'rgba(0,0,0,0)', 0.04:'rgba(60,140,220,0.75)', 0.2:'#00d4ff', 0.5:'#0055ee', 0.75:'#0022bb', 1:'#001166' },
-  ext: { 0:'rgba(0,0,0,0)', 0.04:'rgba(200,165,50,0.75)', 0.2:'#ffe060', 0.5:'#ff8800', 0.75:'#bb4400', 1:'#662200' },
-  res: { 0:'rgba(0,0,0,0)', 0.04:'rgba(160,100,210,0.75)', 0.2:'#dd88ff', 0.5:'#9900cc', 0.75:'#660099', 1:'#330055' },
-  vif: { 0:'rgba(0,0,0,0)', 0.04:'rgba(220,100,150,0.75)', 0.2:'#ff80cc', 0.5:'#ff0088', 0.75:'#aa0055', 1:'#550030' },
-  aut: { 0:'rgba(0,0,0,0)', 0.04:'rgba(40,185,160,0.75)', 0.2:'#00ffcc', 0.5:'#00997a', 0.75:'#005544', 1:'#002822' },
+  hom: { 0:'rgba(0,0,0,0)', 0.12:'rgba(255,220,80,0.6)', 0.35:'#ff7700', 0.65:'#dd1100', 1:'#6a0000' },
+  hur: { 0:'rgba(0,0,0,0)', 0.12:'rgba(100,200,255,0.6)', 0.35:'#0099ff', 0.65:'#0033cc', 1:'#001166' },
+  ext: { 0:'rgba(0,0,0,0)', 0.12:'rgba(255,220,80,0.6)', 0.35:'#ff9900', 0.65:'#cc4400', 1:'#551100' },
+  res: { 0:'rgba(0,0,0,0)', 0.12:'rgba(210,160,255,0.6)', 0.35:'#bb44ff', 0.65:'#7700bb', 1:'#330055' },
+  vif: { 0:'rgba(0,0,0,0)', 0.12:'rgba(255,160,210,0.6)', 0.35:'#ff44aa', 0.65:'#cc0066', 1:'#550030' },
+  aut: { 0:'rgba(0,0,0,0)', 0.12:'rgba(80,220,190,0.6)', 0.35:'#00cc99', 0.65:'#007755', 1:'#002822' },
 };
 
 const map = typeof L !== 'undefined' && L.map("cifras-mapa", {
@@ -699,10 +695,10 @@ function renderMapa(d) {
       .map(c => [c.lat, c.lng, Math.sqrt(getTasa(c, d) / maxT)]);
     if (heatData.length) {
       heatLayer = L.heatLayer(heatData, {
-        radius: 110,
-        blur: 75,
+        radius: 45,
+        blur: 40,
         maxZoom: 10,
-        minOpacity: 0.45,
+        minOpacity: 0.08,
         gradient: GRADIENTS[d],
       }).addTo(map);
     }
