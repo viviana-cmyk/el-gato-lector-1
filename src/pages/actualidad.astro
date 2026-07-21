@@ -1,0 +1,195 @@
+---
+import Layout from "../layouts/Layout.astro";
+import IndicatorsBar from "../components/IndicatorsBar.astro";
+import NewsGrid from "../components/NewsGrid.astro";
+import RankList from "../components/RankList.astro";
+import UpdatedNote from "../components/UpdatedNote.astro";
+import colombiaData from "../data/news-colombia.json";
+import mundoData from "../data/news-mundo.json";
+import trendsData from "../data/trends.json";
+import podcastData from "../data/podcasts.json";
+import curated from "../data/curated.json";
+
+const td = trendsData as any;
+
+function hashtagUrl(network: string, tag: string): string {
+  const clean = tag.replace(/^#/, "");
+  if (network === "tiktok") return `https://www.tiktok.com/tag/${encodeURIComponent(clean)}`;
+  return `https://x.com/hashtag/${encodeURIComponent(clean)}`;
+}
+function podcastUrl(title: string, url?: string): string {
+  if (url) return url;
+  return `https://podcasts.apple.com/search?term=${encodeURIComponent(title)}`;
+}
+
+// ── Tendencias Colombia ───────────────────────────────────────────────────────
+const redesColombia = [
+  { title: "Colombia · Top 5",          icon: "𝕏",  network: "x",      tags: td.x?.colombia      ?? [] },
+  { title: "TikTok · Colombia · Top 5", icon: "🎵", network: "tiktok", tags: td.tiktok?.colombia ?? [] },
+]
+  .filter((r) => r.tags.length > 0)
+  .map((r) => ({
+    title: r.title, icon: r.icon,
+    items: r.tags.map((tag: string) => ({ primary: tag, url: hashtagUrl(r.network, tag) })),
+  }));
+
+const podcastsColombia = (podcastData as any).colombia?.length
+  ? (podcastData as any).colombia
+  : (curated as any).tendencias.podcasts.colombia;
+
+const podcastListColombia = {
+  title: "Ranking podcasts · Colombia", icon: "🎙️",
+  items: podcastsColombia.map((p: any) => ({
+    primary: p.title, secondary: p.host, url: podcastUrl(p.title, p.url),
+  })),
+};
+
+// ── Tendencias Mundo ──────────────────────────────────────────────────────────
+const redesMundo = [
+  { title: "Mundo · Top 5",          icon: "𝕏",  network: "x",      tags: td.x?.mundo      ?? [] },
+  { title: "TikTok · Mundo · Top 5", icon: "🎵", network: "tiktok", tags: td.tiktok?.mundo ?? [] },
+]
+  .filter((r) => r.tags.length > 0)
+  .map((r) => ({
+    title: r.title, icon: r.icon,
+    items: r.tags.map((tag: string) => ({ primary: tag, url: hashtagUrl(r.network, tag) })),
+  }));
+
+const podcastsMundo = (podcastData as any).mundo?.length
+  ? (podcastData as any).mundo
+  : (curated as any).tendencias.podcasts.mundo;
+
+const podcastListMundo = {
+  title: "Ranking podcasts · Mundo", icon: "🌍",
+  items: podcastsMundo.map((p: any) => ({
+    primary: p.title, secondary: p.host, url: podcastUrl(p.title, p.url),
+  })),
+};
+---
+
+<Layout
+  title="Actualidad"
+  description="Noticias de Colombia y el mundo: Semana, El Espectador, El Tiempo, CNN, El País, The Guardian y más, actualizadas a diario."
+>
+  <section class="section wrap">
+    <h2 class="section__title">Actualidad</h2>
+    <p class="section__byline">Noticias</p>
+
+    <!-- Selector de región -->
+    <div class="act-tabs" role="tablist">
+      <button class="act-tab act-tab--active" role="tab" data-panel="colombia" aria-selected="true">
+        Colombia
+      </button>
+      <button class="act-tab" role="tab" data-panel="mundo" aria-selected="false">
+        El Mundo
+      </button>
+    </div>
+
+    <!-- ── Panel Colombia ──────────────────────────────────────────────── -->
+    <div id="panel-colombia" class="act-panel" role="tabpanel">
+      <IndicatorsBar />
+      <NewsGrid outlets={colombiaData.outlets} />
+
+      {(redesColombia.length > 0 || podcastListColombia.items.length > 0) && (
+        <div class="trends" style="margin-top:2.5rem">
+          <div class="trends__header">
+            <span class="trends__live">● EN VIVO</span>
+            <span class="trends__subtitle">Tendencias de hoy en Colombia</span>
+          </div>
+          <div class="rank-sections">
+            {redesColombia.map((list) => (
+              <RankList title={list.title} icon={list.icon} items={list.items} />
+            ))}
+            {podcastListColombia.items.length > 0 && (
+              <RankList title={podcastListColombia.title} icon={podcastListColombia.icon} items={podcastListColombia.items} />
+            )}
+          </div>
+        </div>
+      )}
+
+      <UpdatedNote generatedAt={colombiaData.generatedAt} />
+    </div>
+
+    <!-- ── Panel El Mundo ─────────────────────────────────────────────── -->
+    <div id="panel-mundo" class="act-panel act-panel--hidden" role="tabpanel">
+      <NewsGrid outlets={mundoData.outlets} />
+
+      {(redesMundo.length > 0 || podcastListMundo.items.length > 0) && (
+        <div class="trends" style="margin-top:2.5rem">
+          <div class="trends__header">
+            <span class="trends__live">● EN VIVO</span>
+            <span class="trends__subtitle">Tendencias de hoy en el mundo</span>
+          </div>
+          <div class="rank-sections">
+            {redesMundo.map((list) => (
+              <RankList title={list.title} icon={list.icon} items={list.items} />
+            ))}
+            {podcastListMundo.items.length > 0 && (
+              <RankList title={podcastListMundo.title} icon={podcastListMundo.icon} items={podcastListMundo.items} />
+            )}
+          </div>
+        </div>
+      )}
+
+      <UpdatedNote generatedAt={mundoData.generatedAt} />
+    </div>
+  </section>
+</Layout>
+
+<style>
+.act-tabs {
+  display: flex;
+  gap: 0;
+  margin: 1.75rem 0 0;
+  border-bottom: 2px solid var(--border);
+}
+.act-tab {
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  padding: 0.65rem 1.75rem;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  font-family: var(--font-body);
+  transition: color 0.15s, border-color 0.15s;
+}
+.act-tab:hover { color: var(--ink); }
+.act-tab--active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.act-panel { padding-top: 1.75rem; }
+.act-panel--hidden { display: none; }
+</style>
+
+<script>
+  const tabs   = document.querySelectorAll<HTMLButtonElement>(".act-tab");
+  const panels = document.querySelectorAll<HTMLElement>(".act-panel");
+
+  function activar(panel: string) {
+    tabs.forEach((t) => {
+      const active = t.dataset.panel === panel;
+      t.classList.toggle("act-tab--active", active);
+      t.setAttribute("aria-selected", String(active));
+    });
+    panels.forEach((p) => {
+      p.classList.toggle("act-panel--hidden", p.id !== `panel-${panel}`);
+    });
+  }
+
+  // Activar por hash al cargar (#mundo o #colombia)
+  const hash = location.hash.replace("#", "");
+  if (hash === "mundo" || hash === "colombia") activar(hash);
+
+  tabs.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const panel = btn.dataset.panel!;
+      activar(panel);
+      history.replaceState(null, "", `#${panel}`);
+    });
+  });
+</script>
