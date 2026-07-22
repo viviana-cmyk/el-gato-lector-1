@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#CongresoNuevo2026",
-      "#PetroVsOposición",
-      "#SalarioMínimoInflación",
-      "#HonorioHenríquez",
-      "#CrisisSeguridad"
+      "#PetroVsLara",
+      "#DelaEsprillaGobierno",
+      "#PactóHistóricoOposición",
+      "#CrisisVenezuela",
+      "#UNGRDCorrupción"
     ],
     "mundo": [
-      "#NicaraguaSinElecciones",
-      "#IránVsEEUU",
-      "#TrumpAranceles",
-      "#UcraniaEnGuerra",
-      "#CrisisOrienteProximo"
+      "#IránTrump",
+      "#ZelenskyDespide",
+      "#GuemMaduro2027",
+      "#UcraniaCrisis",
+      "#ConflictoOrienteMedio"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#NuevoCongreso",
-      "#PetroDerrota",
-      "#HonorioPresidente",
+      "#PetroEnojo",
+      "#DelaEsprillaPresidente",
       "#PolíticaColombia",
-      "#InundacionesMeta"
+      "#ViolenciaDigital",
+      "#MedellínCapital"
     ],
     "mundo": [
-      "#OrtegaElecciones",
       "#TrumpIrán",
-      "#GuerraUcrania",
-      "#TrumpAranceles",
-      "#CrisisIrán"
+      "#ZelenskyNoticias",
+      "#MaduroJuicio",
+      "#UcraniaGuerra",
+      "#PolíticaMundial"
     ]
   },
-  "generatedAt": "2026-07-21T10:01:46.624Z"
+  "generatedAt": "2026-07-22T10:02:00.358Z"
 }

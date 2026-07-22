@@ -1,10 +1,34 @@
 {
-  "generatedAt": "2026-07-21T10:01:41.679Z",
+  "generatedAt": "2026-07-22T10:01:44.281Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Juan Orlando Hernández",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-honduras/juan-orlando-hernandez/",
+          "pubDate": "2026-07-21T23:04:05.000Z",
+          "snippet": "Juan Orlando Hernández Juan Orlando Hernández Alvarado, expresidente de Honduras, enfrenta un juicio por narcotráfico en Estados Unidos, después de haber sido acusado durante años de recibir sobornos para proteger traficantes, financiar campañas políticas con dineros de la droga…"
+        },
+        {
+          "title": "Ejército de Liberación Nacional (ELN)",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/eln-colombia/",
+          "pubDate": "2026-07-21T22:08:10.000Z",
+          "snippet": "Ejército de Liberación Nacional (ELN) Ejército de Liberación Nacional (ELN): quiénes lo lideran, dónde opera y cómo se financia. Perfil completo y actualizado en 2026. The post Ejército de Liberación Nacional (ELN) appeared first on InSight Crime."
+        },
+        {
+          "title": "Cuatro décadas de trayectoria criminal de ‘El Mayo’ terminan en cadena perpetua",
+          "link": "https://insightcrime.org/es/noticias/cuatro-decadas-trayectoria-criminal-el-mayo-terminan-cadena-perpetua/",
+          "pubDate": "2026-07-21T21:39:54.000Z",
+          "snippet": "Cuatro décadas de trayectoria criminal de ‘El Mayo’ terminan en cadena perpetua Durante cuatro décadas, Ismael Zambada García, alias “El Mayo”, condenado en Estados Unidos a cadena perpetua sin posibilidad de libertad condicional, fue el fantasma del narcotráfico en México. Duran…"
+        },
+        {
+          "title": "The InSight Take: ¿Es la sentencia de ‘El Mayo’ el fin de una era para el Cartel de Sinaloa?",
+          "link": "https://insightcrime.org/es/noticias/the-insight-take-sentencia-el-mayo-fin-era-cartel-sinaloa/",
+          "pubDate": "2026-07-21T16:47:41.000Z",
+          "snippet": "The InSight Take: ¿Es la sentencia de ‘El Mayo’ el fin de una era para el Cartel de Sinaloa? Ismael Zambada García, alias “El Mayo”, acaba de ser condenado a cadena perpetua sin posibilidad de libertad condicional. La sentencia marca el fin de cuatro décadas de carrera criminal d…"
+        },
         {
           "title": "Autodefensas Conquistadoras de la Sierra Nevada (ACSN)",
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/los-pachenca/",
@@ -16,30 +40,6 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-brasil/primer-comando-capital-pcc-perfil/",
           "pubDate": "2026-07-20T20:25:53.000Z",
           "snippet": "Primer Comando Capital (PCC) El Primer Comando Capital (Primeiro Comando da Capital, PCC) es la mayor red criminal de Brasil y participa en el tráfico internacional de drogas. Perfil actualizado de 2026. The post Primer Comando Capital (PCC) appeared first on InSight Crime."
-        },
-        {
-          "title": "¿Cómo se gestó el mayor fraude bancario de la historia de Brasil?",
-          "link": "https://insightcrime.org/es/noticias/como-gesto-mayor-fraude-bancario-historia-brasil/",
-          "pubDate": "2026-07-20T15:42:48.000Z",
-          "snippet": "¿Cómo se gestó el mayor fraude bancario de la historia de Brasil? Casi un año después de que una investigación contra el banco privado Banco Master destapara el mayor escándalo de fraude bancario en la historia de Brasil, las autoridades apenas comienzan a comprender la magnitud…"
-        },
-        {
-          "title": "El desenlace criminal de Larry Changa,  el ‘papá’ fundador del Tren de Aragua",
-          "link": "https://insightcrime.org/es/noticias/el-desenlace-criminal-de-larry-changa-el-papa-fundador-del-tren-de-aragua/",
-          "pubDate": "2026-07-16T19:19:05.000Z",
-          "snippet": "El desenlace criminal de Larry Changa, el ‘papá’ fundador del Tren de Aragua Larry Amaury Álvarez Núñez, alias “Larry Changa”, será juzgado en Chile por cargos de asociación criminal y secuestro, tras la autorización de su extradición por parte del presidente de Colombia, Gustavo…"
-        },
-        {
-          "title": "On the Radar: El auge de la cocaína líquida",
-          "link": "https://insightcrime.org/es/noticias/on-the-radar-auge-cocaina-liquida/",
-          "pubDate": "2026-07-16T17:46:31.000Z",
-          "snippet": "On the Radar: El auge de la cocaína líquida ¿Podría la cocaína líquida convertirse en el método predilecto de los traficantes en la región? ¿Pasará ‘El Mayo’ Zambada sus últimos años en un ala hospitalaria en lugar de una celda de máxima seguridad como \"El Chapo\"? ¿Los integrante…"
-        },
-        {
-          "title": "Clan Rotela",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-paraguay/clan-rotela/",
-          "pubDate": "2026-07-16T16:47:53.000Z",
-          "snippet": "Clan Rotela El Clan Rotela es una organización de carácter familiar de Paraguay, especializado en el microtráfico de crack en barrios populares de ciudades como Asunción y Concepción. Después de la captura de su líder en 2016, este clan se expandió rápidamente a la mayoría de las…"
         }
       ]
     },
