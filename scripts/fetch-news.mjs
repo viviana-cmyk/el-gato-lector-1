@@ -230,7 +230,7 @@ async function translateEnglishOutlets(apiKey, outletConfigs, builtOutlets) {
 
   const items = [];
   outletConfigs.forEach((config, i) => {
-    if (config.language === "en") items.push(...builtOutlets[i].items);
+    if (config.language && config.language !== "es") items.push(...builtOutlets[i].items);
   });
   if (items.length === 0) return;
 
@@ -563,7 +563,7 @@ async function main() {
   );
 
   // Cargar noticias del día anterior como respaldo por si un medio no publicó
-  let prevColombia = [], prevMundo = [];
+  let prevColombia = [], prevMundo = [], prevLatam = [];
   try {
     const prev = JSON.parse(await readFile(path.join(DATA_DIR, "news-colombia.json"), "utf-8"));
     prevColombia = prev.outlets || [];
@@ -571,6 +571,10 @@ async function main() {
   try {
     const prev = JSON.parse(await readFile(path.join(DATA_DIR, "news-mundo.json"), "utf-8"));
     prevMundo = prev.outlets || [];
+  } catch { /* primera ejecución */ }
+  try {
+    const prev = JSON.parse(await readFile(path.join(DATA_DIR, "news-latam.json"), "utf-8"));
+    prevLatam = prev.outlets || [];
   } catch { /* primera ejecución */ }
 
   console.log("Obteniendo noticias de Colombia...");
@@ -594,6 +598,12 @@ async function main() {
   const featuredMundo = pickFeaturedStory(mundo);
   mundo = enforceRange(mundo, config.mundo);
 
+  console.log("Obteniendo noticias de Latinoamérica...");
+  let latam = await buildSection(config.latam, prevLatam);
+  await translateEnglishOutlets(process.env.ANTHROPIC_API_KEY, config.latam, latam);
+  latam = await prioritizeSection(process.env.ANTHROPIC_API_KEY, latam);
+  latam = enforceRange(latam, config.latam);
+
   console.log("Obteniendo investigaciones recomendadas...");
   const recomendados = enforceRange(await buildSection(config.recomendados), config.recomendados);
 
@@ -605,6 +615,10 @@ async function main() {
   await writeFile(
     path.join(DATA_DIR, "news-mundo.json"),
     JSON.stringify({ generatedAt, outlets: mundo }, null, 2) + "\n",
+  );
+  await writeFile(
+    path.join(DATA_DIR, "news-latam.json"),
+    JSON.stringify({ generatedAt, outlets: latam }, null, 2) + "\n",
   );
   await writeFile(
     path.join(DATA_DIR, "news-recomendados.json"),

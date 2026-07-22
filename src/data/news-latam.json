@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-07-21T10:00:00.000Z",
+  "outlets": [
+    { "name": "G1 (Brasil)", "color": "green", "items": [] },
+    { "name": "La Nación (Argentina)", "color": "sky", "items": [] },
+    { "name": "El Universal (México)", "color": "rose", "items": [] },
+    { "name": "El Comercio (Perú)", "color": "peach", "items": [] },
+    { "name": "La Tercera (Chile)", "color": "blue", "items": [] },
+    { "name": "El Comercio (Ecuador)", "color": "yellow", "items": [] },
+    { "name": "ABC Color (Paraguay)", "color": "mint", "items": [] },
+    { "name": "El País (Uruguay)", "color": "slate", "items": [] },
+    { "name": "La Razón (Bolivia)", "color": "cream", "items": [] },
+    { "name": "El Nacional (Venezuela)", "color": "grey", "items": [] },
+    { "name": "Prensa Libre (Guatemala)", "color": "teal", "items": [] }
+  ]
+}
