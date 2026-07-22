@@ -140,7 +140,7 @@
     {
       "name": "G1 (Brasil)",
       "color": "green",
-      "limit": 4,
+      "limit": 3,
       "language": "pt",
       "feeds": [
         { "type": "google", "query": "site:g1.globo.com" }
@@ -149,7 +149,7 @@
     {
       "name": "La Nación (Argentina)",
       "color": "sky",
-      "limit": 4,
+      "limit": 3,
       "feeds": [
         { "type": "google", "query": "site:lanacion.com.ar" }
       ]
@@ -157,7 +157,7 @@
     {
       "name": "El Universal (México)",
       "color": "rose",
-      "limit": 4,
+      "limit": 3,
       "feeds": [
         { "type": "google", "query": "site:eluniversal.com.mx" }
       ]
@@ -165,7 +165,7 @@
     {
       "name": "El Comercio (Perú)",
       "color": "peach",
-      "limit": 4,
+      "limit": 3,
       "feeds": [
         { "type": "google", "query": "site:elcomercio.pe" }
       ]
@@ -173,7 +173,7 @@
     {
       "name": "La Tercera (Chile)",
       "color": "blue",
-      "limit": 4,
+      "limit": 3,
       "feeds": [
         { "type": "google", "query": "site:latercera.com" }
       ]
@@ -181,7 +181,7 @@
     {
       "name": "El Comercio (Ecuador)",
       "color": "yellow",
-      "limit": 4,
+      "limit": 3,
       "feeds": [
         { "type": "google", "query": "site:elcomercio.com" }
       ]
@@ -189,7 +189,7 @@
     {
       "name": "ABC Color (Paraguay)",
       "color": "mint",
-      "limit": 4,
+      "limit": 3,
       "feeds": [
         { "type": "google", "query": "site:abc.com.py" }
       ]
@@ -197,7 +197,7 @@
     {
       "name": "El País (Uruguay)",
       "color": "slate",
-      "limit": 4,
+      "limit": 3,
       "feeds": [
         { "type": "google", "query": "site:elpais.com.uy" }
       ]
@@ -205,7 +205,7 @@
     {
       "name": "La Razón (Bolivia)",
       "color": "cream",
-      "limit": 4,
+      "limit": 3,
       "feeds": [
         { "type": "google", "query": "site:la-razon.com" }
       ]
@@ -213,7 +213,7 @@
     {
       "name": "El Nacional (Venezuela)",
       "color": "grey",
-      "limit": 4,
+      "limit": 3,
       "feeds": [
         { "type": "google", "query": "site:elnacional.com" }
       ]
@@ -221,7 +221,7 @@
     {
       "name": "Prensa Libre (Guatemala)",
       "color": "teal",
-      "limit": 4,
+      "limit": 3,
       "feeds": [
         { "type": "google", "query": "site:prensalibre.com" }
       ]

@@ -25,6 +25,13 @@ const SECTIONS = {
     categories: ["Geopolítica", "Económica", "Tecnológica", "Social"],
     label: "el resto del mundo",
   },
+  seguridad: {
+    file: "news-colombia.json",
+    extraFile: "news-mundo.json",
+    intro: "Crimen, conflicto y seguridad: análisis transversal Colombia–mundo.",
+    categories: ["Crimen organizado", "Conflictos y violencia", "Justicia y Estado", "Amenazas globales"],
+    label: "la seguridad en Colombia y el mundo",
+  },
 };
 
 function placeholderItems(categories, message) {
@@ -52,9 +59,13 @@ function extractJson(text) {
 }
 
 async function generateSection(client, key) {
-  const { file, intro, categories, label } = SECTIONS[key];
+  const { file, extraFile, intro, categories, label } = SECTIONS[key];
   const news = await readJson(file);
-  const headlines = buildHeadlinesList(news.outlets);
+  let headlines = buildHeadlinesList(news.outlets);
+  if (extraFile) {
+    const extra = await readJson(extraFile);
+    headlines += "\n" + buildHeadlinesList(extra.outlets);
+  }
 
   const categoryList = categories.map((c) => `"${c}"`).join(", ");
   const prompt = `Eres un analista experto que escribe para "El Gato Lector", un boletín de noticias sin ánimo de lucro sobre seguridad, justicia y paz.
@@ -213,7 +224,7 @@ async function main() {
     // primera ejecucion: no hay datos previos
   }
 
-  const result = { generatedAt, colombia: null, mundo: null };
+  const result = { generatedAt, colombia: null, mundo: null, seguridad: null };
 
   if (!apiKey) {
     console.warn(
