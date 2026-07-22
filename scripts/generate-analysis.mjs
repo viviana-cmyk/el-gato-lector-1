@@ -155,6 +155,53 @@ Si no hay nada verificable para esta fecha exacta, responde: null`;
   } catch { return null; }
 }
 
+async function generateTensiones(client, outlets) {
+  // Build full list with source name so Claude can pick the best article per tension
+  const lineas = [];
+  for (const outlet of outlets) {
+    for (const item of outlet.items.slice(0, 8)) {
+      lineas.push(`[${outlet.name}] ${item.title} ||| ${item.link}`);
+    }
+  }
+  const lista = lineas.join("\n");
+
+  const prompt = `Eres analista geopolítico de "El Gato Lector", boletín sobre seguridad, justicia y paz. Tu tarea: identificar el TOP 3 de tensiones o conflictos globales más relevantes del momento a partir de estos titulares de hoy.
+
+Titulares disponibles (formato: [Fuente] Titular ||| URL):
+${lista}
+
+Para cada tensión debes:
+1. Nombrar el conflicto o tensión de forma precisa (ej: "Guerra Rusia-Ucrania", "Tensión EE.UU.-Irán").
+2. Indicar la región geográfica.
+3. Elegir el titular más relevante de la lista para esa tensión. Si no hay ninguno directamente relacionado, usa el titular más reciente disponible sobre temas geopolíticos.
+4. Escribir un análisis CORTO en español: 2-3 oraciones que cubran el contexto actual y las posibles implicaciones geopolíticas. Estilo neutral, objetivo, sin lenguaje de IA ("en este contexto", "cabe señalar", "es importante destacar", etc.). No uses guión largo (—).
+
+Ordena de mayor a menor relevancia/urgencia geopolítica.
+
+Responde ÚNICAMENTE con este JSON exacto, sin texto adicional ni bloques de código:
+{
+  "tensiones": [
+    {
+      "rank": 1,
+      "titulo": "<nombre del conflicto>",
+      "region": "<región>",
+      "noticia": { "titulo": "<titular elegido>", "link": "<URL>", "fuente": "<nombre del medio>" },
+      "analisis": "<contexto e implicaciones geopolíticas, 2-3 oraciones>"
+    },
+    { "rank": 2, ... },
+    { "rank": 3, ... }
+  ]
+}`;
+
+  const response = await client.messages.create({
+    model: MODEL,
+    max_tokens: 1024,
+    messages: [{ role: "user", content: prompt }],
+  });
+  const text = response.content.find((b) => b.type === "text")?.text || "";
+  return extractJson(text);
+}
+
 async function main() {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   const generatedAt = new Date().toISOString();
@@ -242,6 +289,27 @@ async function main() {
     } catch (err) {
       console.warn(`  [aviso] Tendencias: ${err.message}`);
       if (prevTrends) await writeFile(path.join(DATA_DIR, "trends.json"), JSON.stringify(prevTrends, null, 2) + "\n");
+    }
+  }
+
+  // Generar TOP 3 Tensiones Globales
+  let prevTensiones = null;
+  try { prevTensiones = await readJson("tensiones.json"); } catch { /* ok */ }
+
+  if (apiKey) {
+    try {
+      const newsMU = await readJson("news-mundo.json");
+      const client = new Anthropic({ apiKey });
+      const tensiones = await generateTensiones(client, newsMU.outlets);
+      tensiones.generatedAt = generatedAt;
+      await writeFile(
+        path.join(DATA_DIR, "tensiones.json"),
+        JSON.stringify(tensiones, null, 2) + "\n",
+      );
+      console.log("  - Tensiones globales: generadas");
+    } catch (err) {
+      console.warn(`  [aviso] Tensiones: ${err.message}`);
+      if (prevTensiones) await writeFile(path.join(DATA_DIR, "tensiones.json"), JSON.stringify(prevTensiones, null, 2) + "\n");
     }
   }
 
