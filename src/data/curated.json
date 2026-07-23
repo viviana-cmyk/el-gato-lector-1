@@ -1,26 +1,26 @@
 {
-  "_comment": "Contenido editorial curado a mano (no se actualiza automaticamente). Edita libremente estas listas para cambiar los libros recomendados y las tendencias.",
+  "_comment": "Los libros se actualizan automáticamente el 1° de cada mes mediante el workflow update-books.yml. Las tendencias de redes y podcasts siguen siendo manuales.",
   "books": [
     {
-      "title": "Por qué fracasan los países",
-      "author": "Daron Acemoglu & James A. Robinson",
+      "title": "Nexus",
+      "author": "Yuval Noah Harari",
       "color": "blue",
-      "tag": "Política · Economía · Crisis",
-      "description": "Un análisis magistral de cómo las instituciones políticas y económicas determinan la prosperidad o el fracaso de las naciones. Lectura esencial para entender la desigualdad, la corrupción y las crisis en América Latina y el mundo."
+      "tag": "IA · Poder · Democracia",
+      "description": "Harari examina cómo las redes de información han moldeado la historia humana y cómo la inteligencia artificial representa una ruptura sin precedentes: por primera vez, una entidad no humana puede tomar decisiones autónomas con consecuencias políticas y sociales masivas."
     },
     {
-      "title": "El hombre en busca de sentido",
-      "author": "Viktor E. Frankl",
+      "title": "El olvido que seremos",
+      "author": "Héctor Abad Faciolince",
+      "color": "rose",
+      "tag": "Colombia · Memoria · DDHH",
+      "description": "Memoria del asesinato del médico y defensor de derechos humanos Héctor Abad Gómez, eliminado por paramilitares en Medellín en 1987. Una de las crónicas más conmovedoras sobre la violencia política en Colombia y el precio de defender la vida."
+    },
+    {
+      "title": "Cómo mueren las democracias",
+      "author": "Steven Levitsky & Daniel Ziblatt",
       "color": "mint",
-      "tag": "Salud mental",
-      "description": "El psiquiatra austriaco Viktor Frankl relata su experiencia en los campos de concentración nazis y desarrolla la logoterapia: la búsqueda de sentido como motor de la salud mental y la resiliencia ante el sufrimiento."
-    },
-    {
-      "title": "El milagro metabólico",
-      "author": "Dr. Carlos Jaramillo",
-      "color": "yellow",
-      "tag": "Más vendido en Colombia",
-      "description": "El médico colombiano Carlos Jaramillo explica cómo recuperar el equilibrio metabólico a través de la alimentación, el sueño y el manejo del estrés. Actualmente el libro más vendido en Colombia según Planeta de Libros."
+      "tag": "Geopolítica · Democracia",
+      "description": "Dos politólogos de Harvard analizan cómo los regímenes democráticos colapsan desde adentro: no por golpes militares, sino por líderes elegidos que erosionan las instituciones gradualmente. Un mapa de los riesgos que enfrenta América Latina hoy."
     }
   ],
   "tendencias": {
