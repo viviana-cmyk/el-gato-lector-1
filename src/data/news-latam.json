@@ -1,20 +1,21 @@
 {
-  "generatedAt": "2026-07-23T14:57:32.084Z",
+  "generatedAt": "2026-07-23T15:03:13.370Z",
   "outlets": [
     {
       "name": "G1 (Brasil)",
       "color": "green",
       "items": [
         {
-          "title": "Bebé dado por muerto: entiende el caso desde la internación hasta agente funeraria encontrar a Noah Gabriel vivo",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONTluX01oSDNpUVg5TWtwUDVjdjdSMzl0Rk1rNzlNbWhxMFdPUHNSYXVMNUhCamJLUlpLclhoVWx1Z0FyYTJNUm5qb3NheTA0ekRvS2ZQaXJWbXpfbTNiUjlXVF82UHhrR2VqRjAzZ29haTVCSWRyRmlhbS1IMk5IVDVrYkM0bTVKTVZlSWNESU43T1RHWFc1QVVITjRYRHJUVVdLSnh1eWtqTDdiX2JYZWFiaWNuOWVsTmtud2RSTFNTc0hweDY4TzBkYW4tVzFxeHRESHp4ekE3TTlIal9Cb2lvVmJtZ9IB9AFBVV95cUxOQmY0ZkRuS1c0eWtVcTZFQ1p3V0tEVkprekRIRXo3MEdnRE9TZ0lZakZkeDBrNkhwelVSX19neW5CeW00ZkJiZmtuYXVjdkptV1pvVDVabEl2b1ZKYVNJQnBvMHBTYmR6eGNtZ2liVkxpdW1hR3lIMHJPcUY3RlNlaU1mVEQySXFTVXNJU1E3TkVJYlJVaHE0TTBSVHFwelQxYV9nMW5rc3VxZy1jMVRuRzM3YzdnWTZvY2ZCM1doZzY2bmI0VXFQR3hwR0twREVWd3MyVnRLeU12QmZkRnBYek4zcFNLanBhN0VaMGlHeVE2Vkdh?oc=5",
-          "pubDate": "2026-07-21T13:18:41.000Z",
-          "snippet": null
-        },
-        {
           "title": "Argentino denunciado por injuria racial en Morro de São Paulo volvió a Buenos Aires horas después de hacer supuestos gestos racistas",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOT0s2QTFYSTVIUE5WejgzdzlDUXptZ1F0b21iMjR2M0hucU1MUXotN05WSUVyUGlPMW1rWFIyd1BaSndkMG5GZVlnanlCckxfRkZ5UktHaVIzUzVqSEMycnhSTGNEOUVWS21IUlhoYWRLLTk3QXF5Uk5feU50bUNkekVYM1JLNmRTZ3hRaF9rSGdiSUlKdnM0RUxaVUd6N3F4QTg2bWVDaVJ1M1lhUnZNR3Q1cHJRMDFUM3IwYjdVSW83VmZmR05CUm1fbWl5bWpPQzVkZXYtMNIB5gFBVV95cUxNTld1RXF2SHd6R25fT0cybFZ5OWYwRTIxdnpHN2R1Q1E0T1ZNWVpoZm54a1hDR3dHVExhbU1iem5fcHRPNGJNeUhXZWtKVFlCTjB0Yk9pSExZVzNHV0Y0T2ZMenp4eENFSzQ2ZWpYZVJwVDFnRUdvNk5nUVk1UnhTeHNfd3pYM2lpemhGVzZHNHMtWlFTM0s0X1A0Yk5oVzV3SFpCc1lXZ0FwV3k0bFlVa1lzNmxOSnExOWM4YnQ2TGlVVUxNelhsN2pOcUFrWjJpR3V6SHcwRFBjN3lYd0VZSmNpR2g0Zw?oc=5",
           "pubDate": "2026-07-17T11:06:17.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Bebé dado como muerto: entiende el caso desde la internación hasta agente funeraria encontrar a Noah Gabriel vivo",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONTluX01oSDNpUVg5TWtwUDVjdjdSMzl0Rk1rNzlNbWhxMFdPUHNSYXVMNUhCamJLUlpLclhoVWx1Z0FyYTJNUm5qb3NheTA0ekRvS2ZQaXJWbXpfbTNiUjlXVF82UHhrR2VqRjAzZ29haTVCSWRyRmlhbS1IMk5IVDVrYkM0bTVKTVZlSWNESU43T1RHWFc1QVVITjRYRHJUVVdLSnh1eWtqTDdiX2JYZWFiaWNuOWVsTmtud2RSTFNTc0hweDY4TzBkYW4tVzFxeHRESHp4ekE3TTlIal9Cb2lvVmJtZ9IB9AFBVV95cUxOQmY0ZkRuS1c0eWtVcTZFQ1p3V0tEVkprekRIRXo3MEdnRE9TZ0lZakZkeDBrNkhwelVSX19neW5CeW00ZkJiZmtuYXVjdkptV1pvVDVabEl2b1ZKYVNJQnBvMHBTYmR6eGNtZ2liVkxpdW1hR3lIMHJPcUY3RlNlaU1mVEQySXFTVXNJU1E3TkVJYlJVaHE0TTBSVHFwelQxYV9nMW5rc3VxZy1jMVRuRzM3YzdnWTZvY2ZCM1doZzY2bmI0VXFQR3hwR0twREVWd3MyVnRLeU12QmZkRnBYek4zcFNLanBhN0VaMGlHeVE2Vkdh?oc=5",
+          "pubDate": "2026-07-21T13:18:41.000Z",
           "snippet": null
         }
       ]
@@ -31,17 +32,18 @@
           "_priority": "ALTA"
         },
         {
+          "title": "El elogio de un funcionario clave de Trump al sector estrella de la Argentina",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWlYOExCM0V0T3VGZG1aQUpKT0dKVmh4M0pVdHNOemIzeVRqcmFzRFljV2hfVXZ4dm5HZHgyZHQ3UWI0TWJRTzN3M0RPRTdFeF84dWJxV3EyRzZPMFJ2VmFZWHAyMDBPMndieG1KT3lLSTRYaDR5cTA0RVNuMWV1b3BQTkNRUnZYUzR1NXlaOHllbG9DYUZpN09GTTZRTTRJZmtBcS1xQmkwY3BTZkJBak5qRGdXb3BlemRIZER0ZUNXNWVmT3c?oc=5",
+          "pubDate": "2026-07-23T13:34:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "Milei usó una frase que atribuyó a Churchill para meterse en la polémica por los ataques a la Argentina",
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcGpPZzFoUGZnV290bkdYS2E1VzUyQXZvalBMSmdzU2VqLVlLdjRuZDdFYk9nYzlGRl9QUEF4TW9zV2J5LXlYd3prRDF2alB2UzdTbFAwY1FCcHpGX3BFUU9UdUc0THFzTWdXajNzZ1NUR1dpalp0SmdMNTBGTUdxN3djR3ZuRWtBM2ViZjhsLXZUTElZSkNFUnZRUncwZjBxdTFKc05MbkUtS241ZGV1c3V5aHE0amVIQTNpd0ZnWmVLa1hvMGhncmhFbkNfdUdFYXZsckNnZFN2b2M?oc=5",
           "pubDate": "2026-07-23T13:18:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
-        },
-        {
-          "title": "El “curioso” denominador común en las publicaciones de Leandro Paredes, Cuti Romero y Lautaro Martínez",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTUZWQ19oejdFbExmVU5SNjVxSUFoNWZCM295MjNqN216NWF2N2drOHdWc0hfUDdOOXMySkJ1UUN4dVpCdFNrQ1NIcm1PUUxzR2pNZ1NSX05hbmc4YlAyanZYSGZVOUw1Z1NsaF9ia21zY0lxOFN5cWxrU1NyVXRpTzBSZkZFS3JObHk2Mlp6UC0tT2ROTFhEeDRORmxnRUgxUDZid3ZVekp6MWtZdXRKajV6TEVxb0g5S2Z4a1h3VEtNcGk5V1Q2cEdvYWZSeHFCcTdDR1l2bXVzNDQzMWtFdERXRDZWNDBtZHFkTw?oc=5",
-          "pubDate": "2026-07-23T14:08:00.000Z",
-          "snippet": null
         }
       ]
     },
@@ -77,21 +79,23 @@
       "color": "peach",
       "items": [
         {
+          "title": "¿Eres docente o auxiliar? El Gobierno entregará BONO de S/ 487 y estos son los beneficiarios",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbjhkeVZaQ0l4WnVHWkd6UDNmazIxR09ybUpMbXJBamQyMFp6cWhwak5sRWZNWWJvSTNZdG93TDZVZF9CRGN5ejEtRFJFYVFKYlFoMC1PNzI3VkxkLVdNSk4tUFBUOHFCWkpOaHNlNjVNU0d2SDctRGlMTmk5SXZFb3djWjZDNXBPM3ZHZFU1ZnVnN0M5djhyR1V1VkoyNVdwTlZoaXZGc1pkbHlTb25mTkFBd29oYUdLSHhxU05oOFRvNS0wTFU5czNyd2pGRFpYUGY1cXlFU2h3MU5KdFE?oc=5",
+          "pubDate": "2026-07-22T18:19:42.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Partidos de hoy, miércoles 22 de julio del 2026: agenda, hora y dónde ver fútbol en vivo",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQa1ZyeWtHMjhmWkNDS2dVM0lIVWFsZURqcmVpaXlnOFctWnd1VVk3cmJXMTNGVDh6Q2xVSV9UMFRLQzdtVEVKUlVIWWkyTWdlcEpCNHpUSlp0MV8zMUlNT1dXMEdKNV96NkFTOXdRa2p4aXI5dGdPMFNBVS05azFHMEZqa3lEZ3FtaC1DQkpzWXpOUVJJakpjTkl2alNGRUkxcTRJTUJBcjhNYk5YM1NPZEFqLXRpMEtaXzVrcm1yTFBFVmFOZHhVcDNRbVZvc2xyaDhQZURiOXZhZ2M4Qml2VUlVQmhSTkU?oc=5",
+          "pubDate": "2026-07-22T17:33:11.000Z",
+          "snippet": null,
+          "_priority": "DEPORTES"
+        },
+        {
           "title": "Además de Crunchyroll y Netflix: las plataformas de streaming en las que puedes ver “Jujutsu Kaisen”",
           "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOajdLazZnVlFWaVRPYWJoS2ZjejEzWWhzazlLc1ozVHdoLXJDOThmeVJCcnhOeVVfTXVzOU1lQVQzNmdOajh2U3pSOHNONVZRSS15eWdIZXVtaGpQcHhGQXJxMGxrQnNaYmRCbnh3YktPcV9HVDJFUFVaT3YwNmd0VnA2U1p3Z21KWGhlb3ppMDkxV0F0Y1ZDYUJ1MEVnN1BsMTBzTXhHYkFtYVhNd1Vxb2pwRTVQSkJKVzFVUlpGNjlMWkZfQVhBZmlwbVNkamtKanAzeQ?oc=5",
           "pubDate": "2026-07-23T13:52:39.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Resultados de la Tinka: revisa la jugada ganadora del miércoles 22 de julio de 2026",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPeEtVbWk0ZjJVbEJVTDEtUWIzU0Q2WVVTbUsyc1JqMm9WRWZ6V1NYbndjWU00S25odW1NWVM3eXdiMlZURkhwVDdCdmVYb0F5bWRZQUQ3R1Q5QXBvd3Z6MDZmeXQ1NVlrS0R5VE1QLTUxVVFBVm5OTEhZRkl0MmYzZjFGYUtoYXdiMW1wckxlRUFFTFZGSjE4c2tOUEtvVXZxMEppeGlvekpzeE02Zk01bzFRZ1dmdW9FR2poVXgtbGlsbUYxLUh6ODNNMmxZem9nbzEzQXY1NldBX3M5T0dObWppXzRtYU0?oc=5",
-          "pubDate": "2026-07-23T12:12:37.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Valencia vs Eldense (3-0) resumen 22/07/2026 - Amistosos 2026",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOU56Wm81TWJTdEZRS0J0TWhNY2JPaXVfTVZkZ1c5bUxTaDdNdzJneTdyUWozRzRDUk4tckZkUUJRdi1pb1BGaUozVHpzaXdFT2owbFl1b1BjQVVlMDN6QUd6dUFGUktvSlYyanJjMFNnREdMdFZMdmhmcVgxRWpuYQ?oc=5",
-          "pubDate": "2026-07-23T10:26:14.000Z",
           "snippet": null
         }
       ]
@@ -142,9 +146,9 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Ecuador estrena una innovación en el seguro agrícola para proteger a los productores",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTjJidjUycTdMQmFRMGhoVVZmUGYzNG5BcFFMNlE5SjQ5TXMyNm1RLXpqR1ZOemdocUQweEtldS1fRHFmTGpVWFg4MmdvcE1VV0t0anpXN21uUlZYYUpjTzczRXdaa3dPQkZfQ3poeHkyamg0NG1YOGNxUU5BNFFWbmVuSXotOE5lbTFnNEpTd3VPRC1mbC1sejY5RlpjTnV0ZGpEYkY0ckNVMHF0bWFCWFZXSTBRUnc?oc=5",
-          "pubDate": "2026-07-23T02:50:00.000Z",
+          "title": "Un fallecido y un herido dejó un siniestro en la av. Occidental, en Quito",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSFh4VlNtWHVRVUJvbFJMeGkzZjRoelFGb3l2VURkUXpmR3lJMkF2c0FKUFhEektrT05Xd2FTS1MyWjJjTV83YTFHd0lFby1kSHRRZDhhQ0NCLUZtTG5ZLTMweTNjU21Lbm9FWS1zN1I2S2JrVmFDVk1WVVRITUJXQ0lOeUZhdzh0MEhodGt4MjlpaTY1M3M5emdOX3g?oc=5",
+          "pubDate": "2026-07-23T14:19:43.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -169,10 +173,11 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Ejercicios de propiocepción para perros: cuándo y cómo",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcm52WGptVmliVHZvNzltN0YydFFGNkJyZ3B1dlJ2QVNwQXpIbUh6M3Z4UUgyWXEtTXQ5ZHU0bGt6Zk1IY1k5RkJSUGxVRWNWcG1QVjlEcUJVS2g0WUw0QU1hZWdwbFJQdWRMb0lSVHo5b05LeWRJM1NmZ2U2c3ZOeWtzNjBRZW81ckFKQ1dKSEpRZ3c2NnFLTFlNd29WUUlFcHZ2ZVBYN05DWXdsVkIwNWtEOVRlN1VXU1VVX9IB0AFBVV95cUxPNWNZZEVkM1dfV0dFZUY2dFhpVGdYdWtjamQtRkRqVUtkUDE1WDd4T2k1T2pHZlZkaDJSem9iUmtNbkRuZllvQ0N6Q3pSYnZobnlWRjFHcVZpQ29zZnBFVHlZdXFZQnY0UGdrLTF3Y1NQZUVOX1g5R3ptSGR6SEpLck5jMS0zbzVJNWoyQmk2NDJRUDcxY0RXcDJ6dXdkRXVyRW5rQXFWQjEteFJ0UGp1RVJ1NmNUYU5BS3JpQlRNRUU3RG55R3FqQVJFbGZPTlpm?oc=5",
-          "pubDate": "2026-07-23T14:44:02.000Z",
-          "snippet": null
+          "title": "Caso asalto a comisaría en Canindeyú: Familiares dan el último adiós al suboficial Herminio Ojeda",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE90M3FzVTdwcE1lV01JQ3FNN2tsQmlRLW5JSGV3eG13bHhLbnRGa0NlRmtLekw2NUFQWjFCajV4Tzc3WG43Y2RzeWVNd09ETEExbXc?oc=5",
+          "pubDate": "2026-07-23T13:35:21.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -181,15 +186,16 @@
       "color": "slate",
       "items": [
         {
-          "title": "A los 22 años falleció Bruno Bentancor, el exjugador de Peñarol que defendía a Deportivo Italiano",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLTZtUXY3OHczRkg4bmI5TXBRcVdWNmdzX0o3OXpLZk1NRXNBcTA5LWtINXdYeUNVeGwyVTdJbzdVclNzZmpXVF9XUG9xMkVOZG1KTm12UnNCTHVoZi1VUzA4Q3I2LXBBSXFtdjZmWno4d2JROS1KUXZkWTRoX0tNWkYzVEJhc2JwODJ3RzZqbzdtMjduWkEzdVU0bldUOU1UX3RGdGNEN1U1MlU4Q0tiRG03R0EtX1JhaHJrdUttUFZFc3ZIVHRQTHFlNl8zWUN0OTJB?oc=5",
-          "pubDate": "2026-07-23T12:12:29.000Z",
-          "snippet": null
-        },
-        {
           "title": "España campeona",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1pRGVyUHBaeENIZDhDSFZwb21sVG9kT1gxakl0cjVhNm41R3owV0lYeWFpOUxxeUdwTW1fQ2hFb2g3UW56WFRrVUNoRHhtRkZ5dTZVTm93TUJJRGVCLW5ENUY4bXh0NVZORVpN?oc=5",
           "pubDate": "2026-07-23T07:19:02.000Z",
+          "snippet": null,
+          "_priority": "DEPORTES"
+        },
+        {
+          "title": "A los 22 años falleció Bruno Bentancor, el exjugador de Peñarol que defendía a Deportivo Italiano",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLTZtUXY3OHczRkg4bmI5TXBRcVdWNmdzX0o3OXpLZk1NRXNBcTA5LWtINXdYeUNVeGwyVTdJbzdVclNzZmpXVF9XUG9xMkVOZG1KTm12UnNCTHVoZi1VUzA4Q3I2LXBBSXFtdjZmWno4d2JROS1KUXZkWTRoX0tNWkYzVEJhc2JwODJ3RzZqbzdtMjduWkEzdVU0bldUOU1UX3RGdGNEN1U1MlU4Q0tiRG03R0EtX1JhaHJrdUttUFZFc3ZIVHRQTHFlNl8zWUN0OTJB?oc=5",
+          "pubDate": "2026-07-23T12:12:29.000Z",
           "snippet": null
         },
         {
@@ -229,16 +235,16 @@
       "color": "grey",
       "items": [
         {
-          "title": "Corte Suprema de Perú ratifica un año más de prisión preventiva contra Pedro Castillo",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdHE4NWRjckpROGFfZkN3SllfdTBOQ1FnV3ZqOXphSUpNaGk0dnZMMldMa0VDaVNxWjFoUnZ3bUFhaWJlZVBDTjlXeFRKdk12OS1zV083am1icW9tN0VHanBrVlRqUGVmSlpyUDI2d0VlUUZjQUE5emktRkV3LTI5cWM4R1EyZjFpSm93a1F4cldIbVNrWWVVa1JmdVQ4dUpSVXZDcEZtWnI3ZUlhOUFubjZlRjhoRTAyQ3JDLTh3?oc=5",
-          "pubDate": "2026-07-23T01:10:16.000Z",
+          "title": "3 investigaciones internacionales sobre Nicolás Maduro y su gobierno además del proceso judicial de Nueva York",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNanBnR0FHMkdLME04YkE4dkhoSjcxMkFOOC15YzhZWTJ1MmhjNlpOeVBZTHFNT3BZMUhoQ3VyRnhhd3V4YzVrbVg5WWY5MGRwVTNwLTNrLVRYWmJEV1pOcUZHUG1kdUhtYVp5MExSRHZCalVMR2M3OHdkai1ac2FDS044YnBvREczSGktVzRWVHEyd3piNE9tVC14LXZ4emZMa3RHUEZ0QlR4dU51amdKejlQVDFqdms0SXplS19WWFlJY2xhRUpjOG14S2stcDlZWUxoUE1Ya2h1dnZ5cllv?oc=5",
+          "pubDate": "2026-07-23T11:57:39.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "3 investigaciones internacionales sobre Nicolás Maduro y su gobierno además del proceso judicial de Nueva York",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNanBnR0FHMkdLME04YkE4dkhoSjcxMkFOOC15YzhZWTJ1MmhjNlpOeVBZTHFNT3BZMUhoQ3VyRnhhd3V4YzVrbVg5WWY5MGRwVTNwLTNrLVRYWmJEV1pOcUZHUG1kdUhtYVp5MExSRHZCalVMR2M3OHdkai1ac2FDS044YnBvREczSGktVzRWVHEyd3piNE9tVC14LXZ4emZMa3RHUEZ0QlR4dU51amdKejlQVDFqdms0SXplS19WWFlJY2xhRUpjOG14S2stcDlZWUxoUE1Ya2h1dnZ5cllv?oc=5",
-          "pubDate": "2026-07-23T11:57:39.000Z",
+          "title": "Corte Suprema de Perú ratifica un año más de prisión preventiva contra Pedro Castillo",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdHE4NWRjckpROGFfZkN3SllfdTBOQ1FnV3ZqOXphSUpNaGk0dnZMMldMa0VDaVNxWjFoUnZ3bUFhaWJlZVBDTjlXeFRKdk12OS1zV083am1icW9tN0VHanBrVlRqUGVmSlpyUDI2d0VlUUZjQUE5emktRkV3LTI5cWM4R1EyZjFpSm93a1F4cldIbVNrWWVVa1JmdVQ4dUpSVXZDcEZtWnI3ZUlhOUFubjZlRjhoRTAyQ3JDLTh3?oc=5",
+          "pubDate": "2026-07-23T01:10:16.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
@@ -263,16 +269,16 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Los nuevos aranceles de Trump a Brasil podrían inclinar la balanza a favor de Lula sobre Bolsonaro en las elecciones",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOQ3EyUHc4MDk1LVNsS0hUd1RTQllvY1plVFFpTHlxS0xDQ0s3dTJfRy1jZ2RoMW40U3I3anZqTk01bmJSWk5PU0Z1U1p0UjZ3TFEwQkVrb1YybUg1Q2UyOUVuRTB5dUpOWjVxa3g5R1A4TWY0cU1YOENmdEsxb2hRNlIzMFJiNmtOa2FSVHJfdVVIQ3FIMW9aMHVSVWVrZzVjUTBmRU5NV0p6dS1CZnd2eUhGVnBHZmwxUHFuTFVPNTlpMnRVM2J0U1J2ZEJ1RmsweExFWjd6aFdyaUlMTXVZV3BVWlFaQTEweTRIa1huNEE?oc=5",
-          "pubDate": "2026-07-23T06:05:00.000Z",
+          "title": "Sectores productores y exportadores a la expectativa por próximas decisiones arancelarias de Estados Unidos",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTS11MlJWNjJKcG5ZNWRBc3U3S1lkX01JTFc2VTVpT1Zhc2ZuV2EtazNhbXluaGhDQWF1dHpldUxGY3FjeE9NUkRub0w0VVROU045UENPU0swUXlqT2d6TjZ0SDRxNTJFWTlLbEpQdVpHdE82ZE40eFFpX1dHWTJReF9FYlpIQU8zTkVtZmFkWlQ3MVVJaUdHS2R5eDk5dTktaTJfOU5oTmlEeTUyTzNzcFRXaW9mOVRiVzdYa2liQ3FybWdWTWR1alFkVTNsalBlMm9vak1NblZiNk5TWkE?oc=5",
+          "pubDate": "2026-07-23T06:16:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Sectores productores y exportadores a la expectativa por próximas decisiones arancelarias de Estados Unidos",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTS11MlJWNjJKcG5ZNWRBc3U3S1lkX01JTFc2VTVpT1Zhc2ZuV2EtazNhbXluaGhDQWF1dHpldUxGY3FjeE9NUkRub0w0VVROU045UENPU0swUXlqT2d6TjZ0SDRxNTJFWTlLbEpQdVpHdE82ZE40eFFpX1dHWTJReF9FYlpIQU8zTkVtZmFkWlQ3MVVJaUdHS2R5eDk5dTktaTJfOU5oTmlEeTUyTzNzcFRXaW9mOVRiVzdYa2liQ3FybWdWTWR1alFkVTNsalBlMm9vak1NblZiNk5TWkE?oc=5",
-          "pubDate": "2026-07-23T06:16:00.000Z",
+          "title": "Los nuevos aranceles de Trump a Brasil podrían inclinar la balanza a favor de Lula sobre Bolsonaro en las elecciones",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOQ3EyUHc4MDk1LVNsS0hUd1RTQllvY1plVFFpTHlxS0xDQ0s3dTJfRy1jZ2RoMW40U3I3anZqTk01bmJSWk5PU0Z1U1p0UjZ3TFEwQkVrb1YybUg1Q2UyOUVuRTB5dUpOWjVxa3g5R1A4TWY0cU1YOENmdEsxb2hRNlIzMFJiNmtOa2FSVHJfdVVIQ3FIMW9aMHVSVWVrZzVjUTBmRU5NV0p6dS1CZnd2eUhGVnBHZmwxUHFuTFVPNTlpMnRVM2J0U1J2ZEJ1RmsweExFWjd6aFdyaUlMTXVZV3BVWlFaQTEweTRIa1huNEE?oc=5",
+          "pubDate": "2026-07-23T06:05:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }

@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-07-23T14:57:32.084Z",
+  "generatedAt": "2026-07-23T15:03:13.370Z",
   "colombia": [
     {
       "city": "Bogotá",
-      "temp": 16,
+      "temp": 17,
       "description": "Llovizna ligera",
       "icon": "🌦️"
     },
     {
       "city": "Medellín",
-      "temp": 23,
+      "temp": 24,
       "description": "Nublado",
       "icon": "☁️"
     },
     {
       "city": "Cali",
-      "temp": 23,
+      "temp": 24,
       "description": "Llovizna ligera",
       "icon": "🌦️"
     },
@@ -59,7 +59,7 @@
     },
     {
       "city": "Ciudad de México",
-      "temp": 16,
+      "temp": 17,
       "description": "Nublado",
       "icon": "☁️"
     }

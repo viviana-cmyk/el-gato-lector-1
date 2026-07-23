@@ -1,4 +1,38 @@
 {
-  "generatedAt": "2026-07-23T00:00:00.000Z",
-  "tensiones": []
+  "generatedAt": "2026-07-23T15:03:38.222Z",
+  "tensiones": [
+    {
+      "rank": 1,
+      "titulo": "Crisis nuclear y confrontación militar en el Golfo Pérsico",
+      "region": "Oriente Medio",
+      "noticia": {
+        "titulo": "Rubio dice que Irán está 'suplicando' por un acuerdo 'todos los días'",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYnhYTzltR25NaTQ2VFdaRExHZGN2SW5KQndJdEd1eGdjeDY5XzZudDhxWGZMTVg1UXFKWktnNzBaOFFSeURiUXh6Zl9mbzlObTZPSmhNa0xzd3Jjd3ZtZWREX1pSWnB2ZVRma04tbElTQTFKOVdKU0ltM25BNzBnUXpKSzlScjFNT2R6Vi1R?oc=5",
+        "fuente": "CNN en Español"
+      },
+      "analisis": "La administración Trump condiciona un acuerdo nuclear con Arabia Saudí a la normalización de relaciones con Israel, mientras mantiene una postura agresiva contra Irán que ha provocado tensiones militares en el Mar Rojo y disparado el precio del petróleo a 100 dólares. Esta estrategia de vincular proliferación nuclear, alianzas regionales y seguridad energética genera riesgos de escalada militar y una posible carrera armamentística en la región."
+    },
+    {
+      "rank": 2,
+      "titulo": "Escalada militar Israel-Palestina y ocupación territorial",
+      "region": "Levante",
+      "noticia": {
+        "titulo": "Israeli security minister joins Jewish extremists as they storm al-Aqsa mosque compound",
+        "link": "https://www.theguardian.com/world/2026/jul/23/israel-security-minister-itamar-ben-gvir-jewish-extremists-storm-al-aqsa-mosque-compound-jerusalem",
+        "fuente": "The Guardian"
+      },
+      "analisis": "La participación de un ministro de Seguridad israelí en el asalto a la Explanada de las Mezquitas junto a grupos extremistas representa una escalada institucional de la política de ocupación que históricamente ha detonado confrontaciones regionales. La orden de detención de Netanyahu de la Corte Penal Internacional añade un componente de fragmentación política internacional que complejiza cualquier resolución diplomática."
+    },
+    {
+      "rank": 3,
+      "titulo": "Guerra Rusia-Ucrania con proyección hacia Europa oriental",
+      "region": "Europa del Este",
+      "noticia": {
+        "titulo": "Zelenskyy warns Russia could step up Black Sea attacks and hints at more US talks – Europe live",
+        "link": "https://www.theguardian.com/world/live/2026/jul/23/eu-sanctions-russia-ukraine-marcio-rubio-sergei-lavrov-kallas-google-latest-news-updates",
+        "fuente": "The Guardian"
+      },
+      "analisis": "Zelenskyy advierte sobre intensificación de ataques rusos en el Mar Negro mientras busca mayor respaldo estadounidense, reflejando una guerra de desgaste donde Rusia adquiere capacidades militares avanzadas de China y mantiene presión en múltiples frentes. La reconfiguración de la presencia militar estadounidense bajo Trump y las tensiones en Malí señalan un desplazamiento de prioridades geopolíticas que podría afectar el apoyo a Kiev."
+    }
+  ]
 }

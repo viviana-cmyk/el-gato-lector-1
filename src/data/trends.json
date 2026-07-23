@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#PosesiónDelaEspriella",
-      "#CentroDemocráticoEnCrisis",
-      "#SeguidadEnColombia",
-      "#ExodoMigratorio",
-      "#ReformaaSalud"
+      "#CongresoTenso",
+      "#SeguridadEnCrisis",
+      "#ReformaALaSalud",
+      "#ViolenciaDelictiva",
+      "#ProcuraduríaInvestiga"
     ],
     "mundo": [
       "#AcuerdoNuclearSaudí",
-      "#TensionesEnMarRojo",
-      "#PrecioDelPetróleo",
-      "#CrisisEnVenezuela",
-      "#ConflictoIrán"
+      "#TensiónEnIrán",
+      "#PetróleoA100Dólares",
+      "#CrisisVenezuela",
+      "#MayorAlerta"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#PoliticaColombiana",
-      "#DelaEspriella",
-      "#CrisisSeguridad",
-      "#ÉxodoMigratorio",
-      "#TensionPolitica"
+      "#NoMásBalas",
+      "#ReformaEnCongreso",
+      "#SeguridadYa",
+      "#ViolenciaEnColombia",
+      "#JusticiaPendiente"
     ],
     "mundo": [
-      "#NuevoAcuerdoNuclear",
-      "#MarRojo",
-      "#PrecioDelPetróleo",
-      "#CrisisGeopolítica",
-      "#TensionesIrán"
+      "#GuerraEnMarRojo",
+      "#PetróleoCaro",
+      "#CrisisGlobal",
+      "#TrumpNuclear",
+      "#TensiónIrán"
     ]
   },
-  "generatedAt": "2026-07-23T14:57:38.810Z"
+  "generatedAt": "2026-07-23T15:03:38.222Z"
 }
