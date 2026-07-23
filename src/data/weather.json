@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T14:42:32.977Z",
+  "generatedAt": "2026-07-23T14:57:32.084Z",
   "colombia": [
     {
       "city": "Bogotá",
@@ -15,13 +15,13 @@
     },
     {
       "city": "Cali",
-      "temp": 22,
+      "temp": 23,
       "description": "Llovizna ligera",
       "icon": "🌦️"
     },
     {
       "city": "Cartagena",
-      "temp": 29,
+      "temp": 30,
       "description": "Nublado",
       "icon": "☁️"
     },
@@ -35,7 +35,7 @@
   "mundo": [
     {
       "city": "Nueva York",
-      "temp": 23,
+      "temp": 24,
       "description": "Despejado",
       "icon": "☀️"
     },
