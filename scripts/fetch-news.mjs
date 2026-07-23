@@ -269,14 +269,17 @@ Responde ÚNICAMENTE con un array JSON del mismo tamaño y en el mismo orden, co
 // ALTA (política, economía, seguridad, ciencia, crisis) primero;
 // DEPORTES solo si son de relevancia nacional, siempre al final.
 // Los ítems excluidos (farándula, vida privada, entretenimiento, etc.) se eliminan.
+// Retorna { outlets, topItem } donde topItem es el #1 global (para noticia del día).
 async function prioritizeSection(apiKey, builtOutlets) {
-  if (!apiKey || builtOutlets.every(o => o.items.length === 0)) return builtOutlets;
+  if (!apiKey || builtOutlets.every(o => o.items.length === 0)) {
+    return { outlets: builtOutlets, topItem: null };
+  }
 
   const indexed = [];
   builtOutlets.forEach((outlet, oi) => {
     outlet.items.forEach((item, ii) => indexed.push({ oi, ii, title: item.title }));
   });
-  if (indexed.length === 0) return builtOutlets;
+  if (indexed.length === 0) return { outlets: builtOutlets, topItem: null };
 
   const prompt = `Eres el editor de El Gato Lector, boletín de noticias enfocado en política, seguridad, justicia y paz.
 
@@ -294,7 +297,7 @@ Responde ÚNICAMENTE con un array JSON ordenado así: primero los ALTA de mayor 
     const client = new Anthropic({ apiKey });
     const response = await client.messages.create({
       model: TRANSLATE_MODEL,
-      max_tokens: 2048,
+      max_tokens: 4096,
       messages: [{ role: "user", content: prompt }],
     });
     const text = response.content.find(b => b.type === "text")?.text || "";
@@ -302,51 +305,66 @@ Responde ÚNICAMENTE con un array JSON ordenado así: primero los ALTA de mayor 
     if (!match) throw new Error("respuesta sin array JSON");
     const ranked = JSON.parse(match[0]);
 
-    // Reconstruir outlets con ítems reordenados y sin excluidos
-    const result = builtOutlets.map(o => ({ ...o, items: [] }));
+    // Recopilar links de ítems excluidos para limpiar _all (evita que enforceRange los reintroduzca)
+    const excludedLinks = new Set();
+    for (const { oi, ii, label } of ranked) {
+      if (label === "EXCLUIR") {
+        const link = builtOutlets[oi]?.items[ii]?.link;
+        if (link) excludedLinks.add(link);
+      }
+    }
+
+    // Reconstruir outlets: ítems en orden global, _all filtrado de excluidos
+    const result = builtOutlets.map(o => ({
+      ...o,
+      items: [],
+      _all: (o._all || []).filter(item => !excludedLinks.has(item.link)),
+    }));
+
     for (const { oi, ii, label } of ranked) {
       if (label === "EXCLUIR") continue;
       const item = builtOutlets[oi]?.items[ii];
-      if (item) result[oi].items.push(item);
+      if (item) {
+        item._priority = label;
+        result[oi].items.push(item);
+      }
     }
-    // Marcar cada ítem con su prioridad para que pickFeaturedStory la use
-    for (const { oi, ii, label } of ranked) {
-      if (label === "EXCLUIR") continue;
-      const item = result[oi]?.items.find(i => i === builtOutlets[oi]?.items[ii]);
-      if (item) item._priority = label;
+
+    // Noticia del día: el primer ALTA del ranking global (orden ya es de mayor a menor importancia)
+    const firstAlta = ranked.find(r => r.label === "ALTA");
+    let topItem = null;
+    if (firstAlta) {
+      const src = builtOutlets[firstAlta.oi];
+      const item = src?.items[firstAlta.ii];
+      if (item && src) topItem = { ...item, source: src.name };
     }
-    console.log(`  - Priorización: ${ranked.filter(r => r.label !== "EXCLUIR").length} titulares ordenados`);
-    return result;
+
+    console.log(`  - Priorización: ${ranked.filter(r => r.label !== "EXCLUIR").length} titulares ordenados, excluidos: ${excludedLinks.size}`);
+    return { outlets: result, topItem };
   } catch (err) {
     console.warn(`  [aviso] priorización: ${err.message}`);
-    return builtOutlets;
+    return { outlets: builtOutlets, topItem: null };
   }
 }
 
-// Elige la mejor noticia destacada de una sección (colombia o mundo).
-// Elige la noticia destacada del conjunto ya priorizado por IA.
-// Busca el primer ítem ALTA con snippet; preserva el orden de importancia que asignó la IA.
+// Fallback para noticia del día cuando la IA no devuelve topItem.
+// Usa el primer ítem ALTA sin exigir snippet (snippet es opcional en la UI).
 function pickFeaturedStory(outlets) {
-  // Recorre en orden: outlets[0].items[0], outlets[0].items[1], outlets[1].items[0]...
-  // Los outlets ya están ordenados con los ítems ALTA al inicio (resultado de prioritizeSection).
-  // Primero busca cualquier ALTA con snippet.
   for (const outlet of outlets) {
     for (const item of outlet.items) {
-      if (item._priority === "ALTA" && item.snippet) {
+      if (item._priority === "ALTA") {
         const best = { ...item, source: outlet.name };
         delete best._priority;
         return best;
       }
     }
   }
-  // Fallback: cualquier ítem con snippet (DEPORTES u otros)
+  // Último recurso: primer ítem disponible
   for (const outlet of outlets) {
-    for (const item of outlet.items) {
-      if (item.snippet) {
-        const best = { ...item, source: outlet.name };
-        delete best._priority;
-        return best;
-      }
+    if (outlet.items.length > 0) {
+      const best = { ...outlet.items[0], source: outlet.name };
+      delete best._priority;
+      return best;
     }
   }
   return null;
@@ -587,21 +605,23 @@ async function main() {
   await translateEnglishOutlets(process.env.ANTHROPIC_API_KEY, config.mundo, mundo);
 
   console.log("Priorizando titulares por relevancia temática...");
-  colombia = await prioritizeSection(process.env.ANTHROPIC_API_KEY, colombia);
-  // Noticia destacada se elige DESPUÉS de priorizar para que _priority esté asignado
-  console.log("Eligiendo la noticia del dia (Colombia)...");
-  const featuredColombia = pickFeaturedStory(colombia);
+  { const r = await prioritizeSection(process.env.ANTHROPIC_API_KEY, colombia);
+    colombia = r.outlets;
+    console.log("Eligiendo la noticia del dia (Colombia)...");
+    var featuredColombia = r.topItem ?? pickFeaturedStory(colombia); }
   colombia = enforceRange(colombia, config.colombia);
 
-  mundo = await prioritizeSection(process.env.ANTHROPIC_API_KEY, mundo);
-  console.log("Eligiendo la noticia del dia (Mundo)...");
-  const featuredMundo = pickFeaturedStory(mundo);
+  { const r = await prioritizeSection(process.env.ANTHROPIC_API_KEY, mundo);
+    mundo = r.outlets;
+    console.log("Eligiendo la noticia del dia (Mundo)...");
+    var featuredMundo = r.topItem ?? pickFeaturedStory(mundo); }
   mundo = enforceRange(mundo, config.mundo);
 
   console.log("Obteniendo noticias de Latinoamérica...");
   let latam = await buildSection(config.latam, prevLatam);
   await translateEnglishOutlets(process.env.ANTHROPIC_API_KEY, config.latam, latam);
-  latam = await prioritizeSection(process.env.ANTHROPIC_API_KEY, latam);
+  { const r = await prioritizeSection(process.env.ANTHROPIC_API_KEY, latam);
+    latam = r.outlets; }
   latam = enforceRange(latam, config.latam);
 
   console.log("Obteniendo investigaciones recomendadas...");
