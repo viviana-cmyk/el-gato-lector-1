@@ -1,4 +1,7 @@
 {
-  "generatedAt": "2026-07-23T10:01:43.707Z",
-  "dia": null
+  "generatedAt": "2026-07-23T14:42:38.324Z",
+  "dia": {
+    "nombre": "Día Internacional de la Protección de los Datos Personales",
+    "descripcion": "Se conmemora el derecho fundamental a la privacidad y protección de datos personales, promoviendo la conciencia sobre su importancia en la era digital."
+  }
 }

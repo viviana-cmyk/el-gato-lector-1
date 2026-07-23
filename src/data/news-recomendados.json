@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T10:01:40.379Z",
+  "generatedAt": "2026-07-23T14:42:32.977Z",
   "outlets": [
     {
       "name": "InSight Crime",
@@ -90,6 +90,18 @@
       "color": "yellow",
       "items": [
         {
+          "title": "Event Details - Arusha Hub",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOHVxYUpGeEZXN0w0bXotOGZUOE1fY2dQWWlvdVlCdzlENTJGWE4wWnlWbjAzUnVxUkw3UGlVaC1yM0hDQ0pRc2tEU1RNWENEZ3pmVnNNQnVpNVBpbjZTaS1iV2JIdTVBMFRHdU1Dc0s5dm91M05rZUhnU1RESklFYzh2SzFYN2NnQ29naGJoeWxyNzVwVERKVWVENHdVeGlqZ2tQYUNISFNJeWRHLVh1cVdZYkZ1Y2l6d25jRE5PZzJMX3dKUW5ZWGs1ZkMxZERfZUxjVGRn?oc=5",
+          "pubDate": "2026-07-23T11:01:54.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Event Details - Arusha Hub",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWDNETVdfSjc5YjNQc3RZQzA4RVJZNjFzRHlHcFdOdnBHMHBTMUs4TGlRSjJZTGhxc3UyMW8ybWxzZGF4TVNvaUxDZGNxY3h6cUtKVlNKa3UxTlZuTGJGWXlEcHd1Rlk2OEh6ZUw1TG5MZ1U1X2c5ZndjeWFyUVJtXzE4MWE0N1A2c1h6RVlvcUxlWnpuTWZzUEdqRi13Q3Awcllhcw?oc=5",
+          "pubDate": "2026-07-18T08:00:00.000Z",
+          "snippet": null
+        },
+        {
           "title": "Estos son los cinco mayores riesgos a los que se enfrentará el mundo en 2026",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPamJSemRNeGkzajFjZFN2X1I0UGhsa1UtMWVLdEc1SEU0MEUzTUNvX21fMGpibVhWdG9vVUVVVjZTY3VoWHR3d1A3SmpRR3NmZWEzLTE1YVZhQVYtMDNhQ1kzeGZqVThYZ0tHeG1qdzJYZ2tsVVBwVUVqWkExakZCUWxCdEU4OG5QRVZxb21CeGdqQnFFdXVRdXBZcllqa2JvRG9WeFB3ZXpjaGc?oc=5",
           "pubDate": "2026-07-17T05:02:13.000Z",
@@ -111,18 +123,6 @@
           "title": "Global Water Partnership (GWP)",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnpvb0RWaU4tYl9qRHVidnFmenpSVTlmUGN6MDhvbHB3SW1KZ25WLXZoVnhubVMtS1dNMVNyMHk4VzU0cmxRV2xOQWNlaGxoY0tIRjhlemRvTlgzeDIzQnZzYVBQMTJpYUZOUEJPODc2dklzOGNZaUN5djAzejFERldoaw?oc=5",
           "pubDate": "2026-07-16T05:37:11.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Ministry for Economy, Trade and Enterprise of Spain",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORjZJX0VRSlBkM2lFNnQ3LXI0WEZRSlhCWHRBcnhQS19RZVNlQnFSdS1vQjgybmNCX1VmSi1UcWNOcmVzcTJxek9hRnczRjBVbVVlOGl0dmFaTHFoU3lNNzlEMEs3cGJqVU1MRVdzNUg1dXBmY0wtUGtyY05OUXVnVmozV2xRMWhPUUREMFdCQ3hrZw?oc=5",
-          "pubDate": "2026-07-15T23:34:12.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Long Thanh Golf Investment and Trading",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUkNQSzc2YXJULThCN2tVeXFpWU95ZnpyVWk2c04zd1FjYjF4SWgtTUVyTjRsdFNoaWlEN21BWVRRUXpZSU1kMFVkSDlqQTlxaW1Ia1hGdXBSNi1lVVlsWVBYVDlYUVlYYVdISk9xbFV1cDZzaXQ0M3hCUDZvVFBVRXJPMUxiNUNTSVc1S0Q3WURONk5tTkI2QzRfdUI?oc=5",
-          "pubDate": "2026-07-15T16:58:59.000Z",
           "snippet": null
         }
       ]
