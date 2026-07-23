@@ -1,38 +1,4 @@
 {
-  "generatedAt": "2026-07-21T10:00:00.000Z",
-  "tensiones": [
-    {
-      "rank": 1,
-      "titulo": "Conflicto Rusia-Ucrania",
-      "region": "Europa del Este",
-      "noticia": {
-        "titulo": "Datos pendientes de actualización diaria",
-        "link": "#",
-        "fuente": "El Gato Lector"
-      },
-      "analisis": "Las tensiones en el este europeo continúan marcando la agenda geopolítica global. Este análisis se actualiza automáticamente cada mañana con los titulares del día."
-    },
-    {
-      "rank": 2,
-      "titulo": "Tensión EE.UU.-Irán",
-      "region": "Oriente Medio",
-      "noticia": {
-        "titulo": "Datos pendientes de actualización diaria",
-        "link": "#",
-        "fuente": "El Gato Lector"
-      },
-      "analisis": "La situación en Oriente Medio sigue generando incertidumbre en los mercados energéticos y en la estabilidad regional. Análisis disponible con la actualización diaria."
-    },
-    {
-      "rank": 3,
-      "titulo": "Relaciones EE.UU.-China",
-      "region": "Asia-Pacífico",
-      "noticia": {
-        "titulo": "Datos pendientes de actualización diaria",
-        "link": "#",
-        "fuente": "El Gato Lector"
-      },
-      "analisis": "La competencia estratégica entre las dos mayores potencias mundiales define gran parte del orden geopolítico actual. Análisis disponible con la actualización diaria."
-    }
-  ]
+  "generatedAt": "2026-07-23T00:00:00.000Z",
+  "tensiones": []
 }

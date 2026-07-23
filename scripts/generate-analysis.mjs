@@ -233,6 +233,59 @@ async function main() {
     }
   }
 
+  // Generar TOP 3 Tensiones Globales
+  if (apiKey) {
+    let prevTensiones = null;
+    try { prevTensiones = await readJson("tensiones.json"); } catch { /* ok */ }
+    try {
+      const newsMU = await readJson("news-mundo.json");
+      // Máximo 30 titulares para mantener el prompt conciso y confiable
+      const lineas = [];
+      for (const o of newsMU.outlets) {
+        for (const item of (o.items || []).slice(0, 4)) {
+          lineas.push(`[${o.name}] ${item.title} >>> ${item.link}`);
+          if (lineas.length >= 30) break;
+        }
+        if (lineas.length >= 30) break;
+      }
+      const lista = lineas.join("\n");
+      const client = new Anthropic({ apiKey });
+      const prompt = `Eres analista geopolítico de "El Gato Lector". A partir de estos titulares de hoy identifica el TOP 3 de tensiones o conflictos globales más relevantes.
+
+Titulares (formato [Fuente] Titular >>> URL):
+${lista}
+
+Para cada tensión:
+1. Nombre preciso del conflicto o tensión.
+2. Región geográfica.
+3. El titular de la lista más relacionado (si hay uno; si no, pon "noticia": null).
+4. Análisis: 2 oraciones en español. Contexto actual + posibles implicaciones geopolíticas. Neutro, sin lenguaje genérico de IA.
+
+Responde SOLO con este JSON (sin texto extra, sin bloques de código):
+{"tensiones":[{"rank":1,"titulo":"...","region":"...","noticia":{"titulo":"...","link":"...","fuente":"..."},"analisis":"..."},{"rank":2,...},{"rank":3,...}]}`;
+
+      const res = await client.messages.create({
+        model: MODEL, max_tokens: 1200,
+        messages: [{ role: "user", content: prompt }],
+      });
+      const txt = res.content.find(b => b.type === "text")?.text || "";
+      const match = txt.match(/\{[\s\S]*\}/);
+      if (!match) throw new Error("respuesta sin JSON");
+      const parsed = JSON.parse(match[0]);
+      if (!Array.isArray(parsed.tensiones) || parsed.tensiones.length === 0) throw new Error("tensiones vacías");
+      await writeFile(
+        path.join(DATA_DIR, "tensiones.json"),
+        JSON.stringify({ generatedAt, tensiones: parsed.tensiones }, null, 2) + "\n",
+      );
+      console.log("  - Tensiones globales: generadas");
+    } catch (err) {
+      console.warn(`  [aviso] Tensiones: ${err.message}`);
+      if (prevTensiones) {
+        await writeFile(path.join(DATA_DIR, "tensiones.json"), JSON.stringify(prevTensiones, null, 2) + "\n");
+      }
+    }
+  }
+
   // Generar tendencias de X y TikTok con IA
   let prevTrends = null;
   try { prevTrends = await readJson("trends.json"); } catch { /* ok */ }
