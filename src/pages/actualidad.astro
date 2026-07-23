@@ -9,7 +9,6 @@ import mundoData from "../data/news-mundo.json";
 import trendsData from "../data/trends.json";
 import podcastData from "../data/podcasts.json";
 import curated from "../data/curated.json";
-import tensionesData from "../data/tensiones.json";
 import latamData from "../data/news-latam.json";
 
 const td = trendsData as any;
@@ -88,9 +87,6 @@ const podcastListMundo = {
       <button class="act-tab" role="tab" data-panel="mundo" aria-selected="false">
         El Mundo
       </button>
-      <button class="act-tab" role="tab" data-panel="tensiones" aria-selected="false">
-        TOP 3 · Tensiones
-      </button>
     </div>
 
     <!-- ── Panel Colombia ──────────────────────────────────────────────── -->
@@ -150,36 +146,6 @@ const podcastListMundo = {
       <UpdatedNote generatedAt={mundoData.generatedAt} />
     </div>
 
-    <!-- ── Panel Tensiones Globales ──────────────────────────────────── -->
-    <div id="panel-tensiones" class="act-panel act-panel--hidden" role="tabpanel">
-      <div class="tensiones-header">
-        <span class="tensiones-badge">● EN VIVO</span>
-        <span class="tensiones-sub">Conflictos y tensiones geopolíticas con mayor impacto global hoy</span>
-      </div>
-
-      <div class="tensiones-list">
-        {(tensionesData as any).tensiones.map((t: any) => (
-          <article class="tension-card">
-            <div class="tension-rank">#{t.rank}</div>
-            <div class="tension-body">
-              <div class="tension-meta">
-                <span class="tension-titulo">{t.titulo}</span>
-                <span class="tension-region">{t.region}</span>
-              </div>
-              <p class="tension-analisis">{t.analisis}</p>
-              {t.noticia?.link && t.noticia.link !== "#" && (
-                <a class="tension-noticia" href={t.noticia.link} target="_blank" rel="noopener">
-                  <span class="tension-noticia__fuente">{t.noticia.fuente}</span>
-                  <span class="tension-noticia__titulo">{t.noticia.titulo}</span>
-                </a>
-              )}
-            </div>
-          </article>
-        ))}
-      </div>
-
-      <UpdatedNote generatedAt={(tensionesData as any).generatedAt} />
-    </div>
   </section>
 </Layout>
 
@@ -212,81 +178,7 @@ const podcastListMundo = {
 .act-panel { padding-top: 1.75rem; }
 .act-panel--hidden { display: none; }
 
-/* ── Tensiones Globales ─────────────────────────────────────────────────── */
-.tensiones-header {
-  display: flex; align-items: center; gap: 0.75rem;
-  margin-bottom: 1.5rem;
-}
-.tensiones-badge {
-  font-size: 0.65rem; font-weight: 800; letter-spacing: 0.08em;
-  color: #e07060; text-transform: uppercase;
-}
-.tensiones-sub {
-  font-size: 0.78rem; color: var(--ink-soft);
-}
-.tensiones-list {
-  display: flex; flex-direction: column; gap: 1.25rem;
-  max-width: 780px;
-}
-.tension-card {
-  display: flex; gap: 1.25rem; align-items: flex-start;
-  background: var(--surface-2); border: 1px solid rgba(255,255,255,0.07);
-  border-radius: var(--radius); padding: 1.25rem 1.5rem;
-  position: relative; overflow: hidden;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.32);
-  transition: border-color 0.25s, box-shadow 0.25s;
-}
-.tension-card::before {
-  content: ""; position: absolute;
-  bottom: -30px; left: 50%; transform: translateX(-50%);
-  width: 300px; height: 120px;
-  background: radial-gradient(ellipse, rgba(230,179,0,0.08) 0%, transparent 70%);
-  opacity: 0; transition: opacity 0.35s; pointer-events: none;
-}
-.tension-card:hover::before { opacity: 1; }
-.tension-card:hover {
-  border-color: rgba(230,179,0,0.18);
-  box-shadow: 0 6px 26px rgba(0,0,0,0.42);
-}
-.tension-rank {
-  font-family: var(--font-display); font-size: 2rem; font-weight: 900;
-  color: rgba(230,179,0,0.35); line-height: 1; flex-shrink: 0;
-  min-width: 2.5rem; text-align: center; margin-top: 0.1rem;
-}
-.tension-body { flex: 1; display: flex; flex-direction: column; gap: 0.6rem; }
-.tension-meta { display: flex; align-items: baseline; gap: 0.75rem; flex-wrap: wrap; }
-.tension-titulo {
-  font-size: 1rem; font-weight: 800; color: var(--ink); letter-spacing: -0.01em;
-}
-.tension-region {
-  font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
-  letter-spacing: 0.07em; color: var(--ink-soft);
-  background: rgba(255,255,255,0.06); padding: 0.15rem 0.5rem;
-  border-radius: 999px;
-}
-.tension-analisis {
-  font-size: 0.875rem; color: var(--ink-soft); line-height: 1.6; margin: 0;
-}
-.tension-noticia {
-  display: flex; flex-direction: column; gap: 0.2rem;
-  border-left: 2px solid rgba(230,179,0,0.4);
-  padding-left: 0.75rem; text-decoration: none;
-  transition: border-color 0.2s;
-}
-.tension-noticia:hover { border-color: rgba(230,179,0,0.8); }
-.tension-noticia__fuente {
-  font-size: 0.62rem; font-weight: 700; text-transform: uppercase;
-  letter-spacing: 0.08em; color: var(--accent);
-}
-.tension-noticia__titulo {
-  font-size: 0.8rem; color: var(--ink); line-height: 1.4;
-}
-.tension-noticia:hover .tension-noticia__titulo { color: var(--accent); }
 
-@media (max-width: 480px) {
-  .tension-rank { font-size: 1.5rem; min-width: 2rem; }
-  .tension-card { padding: 1rem; gap: 0.75rem; }
-}
 </style>
 
 <script>
