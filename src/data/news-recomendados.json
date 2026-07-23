@@ -1,15 +1,21 @@
 {
-  "generatedAt": "2026-07-22T10:01:44.281Z",
+  "generatedAt": "2026-07-23T10:01:40.379Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
         {
+          "title": "La ‘nueva’ guerra de Estados Unidos contra el crimen organizado",
+          "link": "https://insightcrime.org/es/noticias/nueva-guerra-estados-unidos-contra-crimen-organizado/",
+          "pubDate": "2026-07-22T18:09:38.000Z",
+          "snippet": "La ‘nueva’ guerra de Estados Unidos contra el crimen organizado Estados Unidos ha retomado algunas de sus estrategias antidrogas más severas con nuevas y poderosas herramientas. ¿Logrará debilitar a los grupos criminales y obtener resultados a largo plazo? The post La ‘nueva’ gue…"
+        },
+        {
           "title": "Juan Orlando Hernández",
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-honduras/juan-orlando-hernandez/",
           "pubDate": "2026-07-21T23:04:05.000Z",
-          "snippet": "Juan Orlando Hernández Juan Orlando Hernández Alvarado, expresidente de Honduras, enfrenta un juicio por narcotráfico en Estados Unidos, después de haber sido acusado durante años de recibir sobornos para proteger traficantes, financiar campañas políticas con dineros de la droga…"
+          "snippet": "Juan Orlando Hernández Juan Orlando Hernández: quién es, dónde está y últimas noticias sobre su indulto. Perfil completo actualizado de 2026. The post Juan Orlando Hernández appeared first on InSight Crime."
         },
         {
           "title": "Ejército de Liberación Nacional (ELN)",
@@ -34,12 +40,6 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/los-pachenca/",
           "pubDate": "2026-07-20T21:34:26.000Z",
           "snippet": "Autodefensas Conquistadoras de la Sierra Nevada (ACSN) Autodefensas Conquistadoras de la Sierra Nevada (ACSN): historia, líderes, zonas de operación y actividades criminales. Perfil actualizado de 2026. The post Autodefensas Conquistadoras de la Sierra Nevada (ACSN) appeared firs…"
-        },
-        {
-          "title": "Primer Comando Capital (PCC)",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-brasil/primer-comando-capital-pcc-perfil/",
-          "pubDate": "2026-07-20T20:25:53.000Z",
-          "snippet": "Primer Comando Capital (PCC) El Primer Comando Capital (Primeiro Comando da Capital, PCC) es la mayor red criminal de Brasil y participa en el tráfico internacional de drogas. Perfil actualizado de 2026. The post Primer Comando Capital (PCC) appeared first on InSight Crime."
         }
       ]
     },
@@ -102,6 +102,12 @@
           "snippet": null
         },
         {
+          "title": "- The World Economic Forum",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYjlIZWVHU3JiUFNjeUJwS28tQXYzUnMwcFU0MVFKVlY0UFJhaDJNVmpuamFvamVnNnY2YUV5MkxnNVpyLTZseEQxbGhTRW1FcXdUUDJfREh4dE03WGJjQkFyS1BPV19nODctN1V4NVBETEJTS0VvSmpnMnRPUVZXSF9fekYwMUNBNXdqclFWVTBwbXdu?oc=5",
+          "pubDate": "2026-07-16T20:29:26.000Z",
+          "snippet": null
+        },
+        {
           "title": "Global Water Partnership (GWP)",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnpvb0RWaU4tYl9qRHVidnFmenpSVTlmUGN6MDhvbHB3SW1KZ25WLXZoVnhubVMtS1dNMVNyMHk4VzU0cmxRV2xOQWNlaGxoY0tIRjhlemRvTlgzeDIzQnZzYVBQMTJpYUZOUEJPODc2dklzOGNZaUN5djAzejFERldoaw?oc=5",
           "pubDate": "2026-07-16T05:37:11.000Z",
@@ -117,12 +123,6 @@
           "title": "Long Thanh Golf Investment and Trading",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUkNQSzc2YXJULThCN2tVeXFpWU95ZnpyVWk2c04zd1FjYjF4SWgtTUVyTjRsdFNoaWlEN21BWVRRUXpZSU1kMFVkSDlqQTlxaW1Ia1hGdXBSNi1lVVlsWVBYVDlYUVlYYVdISk9xbFV1cDZzaXQ0M3hCUDZvVFBVRXJPMUxiNUNTSVc1S0Q3WURONk5tTkI2QzRfdUI?oc=5",
           "pubDate": "2026-07-15T16:58:59.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Global Energy Alliance for People and Planet",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQX28yRzVFUXUzRFYzTlRKaFNQNEVTTzgtSGhydUZnRnFKVzBaekoxalBhR3FiZXprdGlFUG5WTlZnSW1va2V3QzZkVGlDNllRd2FBUXNuMmVOb3AwbVdyTDlZT25OTWZ5N2R3enBIR0V6OHVQNmJXRkh5QnlQeDA5VWl6ZGxpOFNGQkE?oc=5",
-          "pubDate": "2026-07-15T16:08:44.000Z",
           "snippet": null
         }
       ]

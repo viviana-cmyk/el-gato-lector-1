@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#PetroVsLara",
-      "#DelaEsprillaGobierno",
-      "#PactóHistóricoOposición",
-      "#CrisisVenezuela",
-      "#UNGRDCorrupción"
+      "#CrisisSeguridad",
+      "#AtentadoCesar",
+      "#EleccionesTunja",
+      "#SecuestrosJamundí",
+      "#ReformasSalud"
     ],
     "mundo": [
-      "#IránTrump",
-      "#ZelenskyDespide",
-      "#GuemMaduro2027",
-      "#UcraniaCrisis",
-      "#ConflictoOrienteMedio"
+      "#GuerraIrán",
+      "#MarRojo",
+      "#CrisisUcrania",
+      "#TratadoNuclearSaudí",
+      "#EbolaCongo"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#PetroEnojo",
-      "#DelaEsprillaPresidente",
-      "#PolíticaColombia",
-      "#ViolenciaDigital",
-      "#MedellínCapital"
+      "#AtaquePolicía",
+      "#DronesExplosivos",
+      "#TunjaCaos",
+      "#DesalojosCali",
+      "#PetroGobierno"
     ],
     "mundo": [
-      "#TrumpIrán",
-      "#ZelenskyNoticias",
-      "#MaduroJuicio",
-      "#UcraniaGuerra",
-      "#PolíticaMundial"
+      "#MarRojoAtaque",
+      "#Guerra2026",
+      "#IránEEUU",
+      "#EbolaÁfrica",
+      "#UcraniaBatalla"
     ]
   },
-  "generatedAt": "2026-07-22T10:02:00.358Z"
+  "generatedAt": "2026-07-23T10:01:43.707Z"
 }
