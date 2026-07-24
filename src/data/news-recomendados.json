@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-07-23T15:03:13.370Z",
+  "generatedAt": "2026-07-24T10:01:38.538Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Pódcast | Una casa marcada: extorsión en Ecuador",
+          "link": "https://insightcrime.org/es/audio-es/insight-crime-espanol/podcast-una-casa-marcada-extorsion-ecuador/",
+          "pubDate": "2026-07-23T23:28:40.000Z",
+          "snippet": "Pódcast | Una casa marcada: extorsión en Ecuador Sobre este episodio Andrés y Juliana amaban vivir en Durán. Allí compraron su casa, criaron a sus hijos y montaron su pequeño negocio. Cuando extorsionadores enmascarados dispararon cinco balas contra […] The post Pódcast | Una cas…"
+        },
+        {
+          "title": "On the Radar: Fijan fecha a juicio contra Maduro y Brasil golpea finanzas del PCC",
+          "link": "https://insightcrime.org/es/noticias/on-the-radar-fecha-juicio-maduro-brasil-golpea-finanzas-pcc/",
+          "pubDate": "2026-07-23T16:24:04.000Z",
+          "snippet": "On the Radar: Fijan fecha a juicio contra Maduro y Brasil golpea finanzas del PCC Esta semana analizamos el juicio contra Nicolás Maduro, una ofensiva financiera contra el PCC de Brasil y la captura de un exgobernador mexicano vinculado al robo de combustible. The post On the Rad…"
+        },
         {
           "title": "La ‘nueva’ guerra de Estados Unidos contra el crimen organizado",
           "link": "https://insightcrime.org/es/noticias/nueva-guerra-estados-unidos-contra-crimen-organizado/",
@@ -28,18 +40,6 @@
           "link": "https://insightcrime.org/es/noticias/cuatro-decadas-trayectoria-criminal-el-mayo-terminan-cadena-perpetua/",
           "pubDate": "2026-07-21T21:39:54.000Z",
           "snippet": "Cuatro décadas de trayectoria criminal de ‘El Mayo’ terminan en cadena perpetua Durante cuatro décadas, Ismael Zambada García, alias “El Mayo”, condenado en Estados Unidos a cadena perpetua sin posibilidad de libertad condicional, fue el fantasma del narcotráfico en México. Duran…"
-        },
-        {
-          "title": "The InSight Take: ¿Es la sentencia de ‘El Mayo’ el fin de una era para el Cartel de Sinaloa?",
-          "link": "https://insightcrime.org/es/noticias/the-insight-take-sentencia-el-mayo-fin-era-cartel-sinaloa/",
-          "pubDate": "2026-07-21T16:47:41.000Z",
-          "snippet": "The InSight Take: ¿Es la sentencia de ‘El Mayo’ el fin de una era para el Cartel de Sinaloa? Ismael Zambada García, alias “El Mayo”, acaba de ser condenado a cadena perpetua sin posibilidad de libertad condicional. La sentencia marca el fin de cuatro décadas de carrera criminal d…"
-        },
-        {
-          "title": "Autodefensas Conquistadoras de la Sierra Nevada (ACSN)",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/los-pachenca/",
-          "pubDate": "2026-07-20T21:34:26.000Z",
-          "snippet": "Autodefensas Conquistadoras de la Sierra Nevada (ACSN) Autodefensas Conquistadoras de la Sierra Nevada (ACSN): historia, líderes, zonas de operación y actividades criminales. Perfil actualizado de 2026. The post Autodefensas Conquistadoras de la Sierra Nevada (ACSN) appeared firs…"
         }
       ]
     },
@@ -90,20 +90,32 @@
       "color": "yellow",
       "items": [
         {
+          "title": "Event Details - Ahmedabad Hub",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOY01rWnlFT0xsR2tjY2R4RUkzb01UZWxjcFR2QnppeWlhQ2g4UzlpV2VRZmFGaFE0eU9fbmREMFZfMUlsREJWbjZSak9Ud1R2XzdDN1d6STFNeVZuMnVuVzFUT2cyM0tZVnpXZkZTVjY4ZVh1UzdyZUpHWjFPbmVPOXFUWjJobUZINEVMU2FVa19zWjJCVWtwa0E5cXFNdUZVbG54cGZpTFNZR0I0RDFlSmwtMTZselN5U1M0Vmg2Y3pLd083NVpmYWhnZkxsQjBnRWdDS2FXQWQzQQ?oc=5",
+          "pubDate": "2026-07-23T17:13:02.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Event Details - Ahmedabad Hub",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT3czN0g2WXZnOENGSmU5d0l3STM4eE1ESmlHbk0wNTRzUGQtMnJTUjlycEVKcXg0SzBPaVl4cWFLTTB2WEF5U3FUNmJPV0NjUXZZN0sydmRsem1uaXd0Rmo4QU12eTBHSnNUOUlab3J1Q244VVEzbm5XNm9nRlhYdjhhc0MzQzJzbDlTWTdHTmh2WC04T2psQzFVRDdNMk4xUmNhLUhHazhaUzYwaXBLN3kzMUtucVg0?oc=5",
+          "pubDate": "2026-07-23T17:13:02.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Event Details - Ahmedabad Hub",
+          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOWkZJM1gxbXlEaHFzRGRFcFNONnJCUTN0NTR2RktHcGZqVUNSMWpXeHNXcWdYOVZibDg4a3dzZUwtVVNZaGplWk9JRXNud250U3pyRnZRUHZwbUlFbHYweVhYcVVqSWFReW14c2tYZVVWVVJYUGZYbUgyMkpvTVBVUXYtTmVCU042SldZNGJYX3RIU0hnSEZIenVOUm41Vl9lNGc4R3hvUmRRX3ZhNG5jenlYdDFULTViNDJEdTg2SkFlZkJ4Q3JfN3dPWHByenlZLVdIOXJwVTdKY3I5eFZ3ei1aQ1N5RW5fNjM3Q1lmMDJZNVFYd21Vdk92VDdqbzdCTG53MTRTVnYwNlZDWWdFWjVkVQ?oc=5",
+          "pubDate": "2026-07-23T17:13:01.000Z",
+          "snippet": null
+        },
+        {
           "title": "\"Not just small men\" - how healthcare is failing women, and what can be done",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZmd5TVR4Szg0NGNCSjMyZTN4eHYtNmNjbHNSeHptWENxbzZ0S2ZIcUFNbThsV2VoeEpxeUdJSmE4Y3NhcTVRUUhvenI2eTF1LU9nd0gwXzJ1S0R3NzhNRUlodmlmRmZPazhzbXl0Ymc2UHBQRHhXZWNwdVNFWUQxWHNublNleTVNU1RPRjlFdnhDc2Y3a0ZmZDZB?oc=5",
           "pubDate": "2026-07-23T13:20:42.000Z",
           "snippet": null
         },
         {
-          "title": "Event Details - Arusha Hub",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOHVxYUpGeEZXN0w0bXotOGZUOE1fY2dQWWlvdVlCdzlENTJGWE4wWnlWbjAzUnVxUkw3UGlVaC1yM0hDQ0pRc2tEU1RNWENEZ3pmVnNNQnVpNVBpbjZTaS1iV2JIdTVBMFRHdU1Dc0s5dm91M05rZUhnU1RESklFYzh2SzFYN2NnQ29naGJoeWxyNzVwVERKVWVENHdVeGlqZ2tQYUNISFNJeWRHLVh1cVdZYkZ1Y2l6d25jRE5PZzJMX3dKUW5ZWGs1ZkMxZERfZUxjVGRn?oc=5",
-          "pubDate": "2026-07-23T11:01:54.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Event Details - Arusha Hub",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWDNETVdfSjc5YjNQc3RZQzA4RVJZNjFzRHlHcFdOdnBHMHBTMUs4TGlRSjJZTGhxc3UyMW8ybWxzZGF4TVNvaUxDZGNxY3h6cUtKVlNKa3UxTlZuTGJGWXlEcHd1Rlk2OEh6ZUw1TG5MZ1U1X2c5ZndjeWFyUVJtXzE4MWE0N1A2c1h6RVlvcUxlWnpuTWZzUEdqRi13Q3Awcllhcw?oc=5",
+          "title": "Event Details - Ahmedabad Hub",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT3dpQm5jZlBRVXp1M3F0YndtcWE5TEwwQVdNOTFkVTFZWjE3bTJnTWlTVkRqWDdNbjJ6c0JTMVlsVl9wZk9mWElkRlMzQ2F3b05ubzJFVi15UzNZUEdwclF4WGZjRVVObGRGbXY4VTFQVnp3bHp5THpqVldZSmRtUWdhVGFBSmgyUUYzb0pVdjVob285ck5kY2RxMnJaVElDX0lxd3g1SDQ?oc=5",
           "pubDate": "2026-07-18T08:00:00.000Z",
           "snippet": null
         },
@@ -111,18 +123,6 @@
           "title": "Estos son los cinco mayores riesgos a los que se enfrentará el mundo en 2026",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPamJSemRNeGkzajFjZFN2X1I0UGhsa1UtMWVLdEc1SEU0MEUzTUNvX21fMGpibVhWdG9vVUVVVjZTY3VoWHR3d1A3SmpRR3NmZWEzLTE1YVZhQVYtMDNhQ1kzeGZqVThYZ0tHeG1qdzJYZ2tsVVBwVUVqWkExakZCUWxCdEU4OG5QRVZxb21CeGdqQnFFdXVRdXBZcllqa2JvRG9WeFB3ZXpjaGc?oc=5",
           "pubDate": "2026-07-17T05:02:13.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Davos AM23 - Reinventing the Wheel",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03c1ZPYUVhMEFHdERUbGRsQkl0T2ZYM2lVeVQtNWk2Q3NjU3VxNG5XcXJWTXVjOC1QZDAtS0Q2WTRRWEM1OHJuRm9iUnVpWHZnT3JMdHFtZGl4QVVQbFpMYmIxQzkyWGRjWHNnTkNhaHhodnFoTy1rNWZKcw?oc=5",
-          "pubDate": "2026-07-17T03:34:33.000Z",
-          "snippet": null
-        },
-        {
-          "title": "- The World Economic Forum",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYjlIZWVHU3JiUFNjeUJwS28tQXYzUnMwcFU0MVFKVlY0UFJhaDJNVmpuamFvamVnNnY2YUV5MkxnNVpyLTZseEQxbGhTRW1FcXdUUDJfREh4dE03WGJjQkFyS1BPV19nODctN1V4NVBETEJTS0VvSmpnMnRPUVZXSF9fekYwMUNBNXdqclFWVTBwbXdu?oc=5",
-          "pubDate": "2026-07-16T20:29:26.000Z",
           "snippet": null
         }
       ]
