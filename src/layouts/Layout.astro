@@ -13,6 +13,9 @@ const {
   description = "Recopilación sin ánimo de lucro de noticias de Colombia y el mundo, indicadores económicos y recomendados sobre seguridad, justicia y paz.",
   hideTopbar = false,
 } = Astro.props;
+
+const SITE = "https://viviana-cmyk.github.io/el-gato-lector-1";
+const canonicalUrl = SITE + Astro.url.pathname.replace(/\/?$/, "/");
 ---
 
 <!doctype html>
@@ -27,12 +30,12 @@ const {
     <meta property="og:site_name" content="El Gato Lector" />
     <meta property="og:title" content={`${title} · El Gato Lector`} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content="https://viviana-cmyk.github.io/el-gato-lector-1/cat-logo.png" />
-    <meta property="og:url" content="https://viviana-cmyk.github.io/el-gato-lector-1/" />
+    <meta property="og:image" content={`${SITE}/cat-logo.png`} />
+    <meta property="og:url" content={canonicalUrl} />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={`${title} · El Gato Lector`} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content="https://viviana-cmyk.github.io/el-gato-lector-1/cat-logo.png" />
+    <meta name="twitter:image" content={`${SITE}/cat-logo.png`} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
