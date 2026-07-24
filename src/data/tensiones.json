@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-07-23T15:03:38.222Z",
+  "generatedAt": "2026-07-24T15:18:37.873Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Crisis nuclear y confrontación militar en el Golfo Pérsico",
+      "titulo": "Escalada Irán-Estados Unidos en el Golfo Pérsico",
       "region": "Oriente Medio",
       "noticia": {
-        "titulo": "Rubio dice que Irán está 'suplicando' por un acuerdo 'todos los días'",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYnhYTzltR25NaTQ2VFdaRExHZGN2SW5KQndJdEd1eGdjeDY5XzZudDhxWGZMTVg1UXFKWktnNzBaOFFSeURiUXh6Zl9mbzlObTZPSmhNa0xzd3Jjd3ZtZWREX1pSWnB2ZVRma04tbElTQTFKOVdKU0ltM25BNzBnUXpKSzlScjFNT2R6Vi1R?oc=5",
-        "fuente": "CNN en Español"
+        "titulo": "Iran War Live Updates: Strikes Persist After Iran Is Said to Reject U.S. Proposal",
+        "link": "https://www.nytimes.com/live/2026/07/24/world/iran-war-us-strikes-trump-oil",
+        "fuente": "The New York Times"
       },
-      "analisis": "La administración Trump condiciona un acuerdo nuclear con Arabia Saudí a la normalización de relaciones con Israel, mientras mantiene una postura agresiva contra Irán que ha provocado tensiones militares en el Mar Rojo y disparado el precio del petróleo a 100 dólares. Esta estrategia de vincular proliferación nuclear, alianzas regionales y seguridad energética genera riesgos de escalada militar y una posible carrera armamentística en la región."
+      "analisis": "Irán rechazó la propuesta de cese al fuego presentada por Irak mientras Estados Unidos continúa con operaciones militares en la región, indicando un ciclo de escalada sin señales de desescalada diplomática. Esta dinámica amenaza la estabilidad global de precios del petróleo y la seguridad del transporte marítimo en una zona crítica para el comercio internacional."
     },
     {
       "rank": 2,
-      "titulo": "Escalada militar Israel-Palestina y ocupación territorial",
-      "region": "Levante",
+      "titulo": "Disputa marítima China-Filipinas en el Mar de China Meridional",
+      "region": "Asia-Pacífico",
       "noticia": {
-        "titulo": "Israeli security minister joins Jewish extremists as they storm al-Aqsa mosque compound",
-        "link": "https://www.theguardian.com/world/2026/jul/23/israel-security-minister-itamar-ben-gvir-jewish-extremists-storm-al-aqsa-mosque-compound-jerusalem",
-        "fuente": "The Guardian"
+        "titulo": "Barco chino dispara un cañón de agua contra una embarcación filipina en la que iba un equipo de CNN",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQkl2cFU2b1E2T2dkeFNRTnV0c3o5cWFRMGhlWmxPM1dMLVlrUzMyWVc2NjE1eDZoY1o3eEdMcU9iQmV6UTRBSG9UNl9vY25RaXhTUVVuWi02UFRqS0tUaGdNaktUSWFuckNhY3l0MU9GSTlxanZsdVpLUnBTR00wYUZIVFIxdTNHbUt1WWNJemQ5WWZOMWItNzRXVndjZTQ?oc=5",
+        "fuente": "CNN en Español"
       },
-      "analisis": "La participación de un ministro de Seguridad israelí en el asalto a la Explanada de las Mezquitas junto a grupos extremistas representa una escalada institucional de la política de ocupación que históricamente ha detonado confrontaciones regionales. La orden de detención de Netanyahu de la Corte Penal Internacional añade un componente de fragmentación política internacional que complejiza cualquier resolución diplomática."
+      "analisis": "La agresión de la Armada china contra embarcaciones filipinas refleja la intensificación de fricciones territoriales en el Mar de China Meridional, donde Pekín busca consolidar su control sobre zonas disputadas de alto valor estratégico. Este tipo de incidentes incrementan el riesgo de una escalada accidental en una región donde convergen intereses de potencias globales como Estados Unidos y aliados de la OTAN."
     },
     {
       "rank": 3,
-      "titulo": "Guerra Rusia-Ucrania con proyección hacia Europa oriental",
-      "region": "Europa del Este",
+      "titulo": "Ofensiva arancelaria de Trump contra cadenas globales de suministro",
+      "region": "Global",
       "noticia": {
-        "titulo": "Zelenskyy warns Russia could step up Black Sea attacks and hints at more US talks – Europe live",
-        "link": "https://www.theguardian.com/world/live/2026/jul/23/eu-sanctions-russia-ukraine-marcio-rubio-sergei-lavrov-kallas-google-latest-news-updates",
-        "fuente": "The Guardian"
+        "titulo": "Trump anuncia nuevos aranceles de hasta 12,5 % a importaciones de decenas de países",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNGJKUEViS2l3SHJuVmhQOHJxZWNiZUVyTUI4WWNqTU5MU3d3SV8yYm9SOHZ2RGcySDQyZU0wOVRoTVdCRGJsekNxV2VQNWhSdVRuUVdQbTNIaXVqSFg3UGllMjJ5Nkx4bjBlM3Z1aHp6cjdSSWRBT3VpYndmYzZDMFVPN21KaGQtUFE?oc=5",
+        "fuente": "CNN en Español"
       },
-      "analisis": "Zelenskyy advierte sobre intensificación de ataques rusos en el Mar Negro mientras busca mayor respaldo estadounidense, reflejando una guerra de desgaste donde Rusia adquiere capacidades militares avanzadas de China y mantiene presión en múltiples frentes. La reconfiguración de la presencia militar estadounidense bajo Trump y las tensiones en Malí señalan un desplazamiento de prioridades geopolíticas que podría afectar el apoyo a Kiev."
+      "analisis": "La implementación de aranceles masivos busca reconfigurar las relaciones comerciales globales mediante presión económica, afectando principalmente a aliados tradicionales de Estados Unidos y potencias económicas como China y la Unión Europea. Esta política genera incertidumbre en mercados internacionales y fragmenta aún más el sistema de comercio multilateral, con consecuencias inflacionarias y recesivas para economías interdependientes."
     }
   ]
 }
