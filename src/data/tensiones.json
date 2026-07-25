@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-07-24T15:18:37.873Z",
+  "generatedAt": "2026-07-25T10:01:47.458Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Escalada Irán-Estados Unidos en el Golfo Pérsico",
+      "titulo": "Escalada militar EE.UU.-Irán y reposicionamiento estratégico de Trump",
       "region": "Oriente Medio",
       "noticia": {
-        "titulo": "Iran War Live Updates: Strikes Persist After Iran Is Said to Reject U.S. Proposal",
-        "link": "https://www.nytimes.com/live/2026/07/24/world/iran-war-us-strikes-trump-oil",
+        "titulo": "Iran War Live Updates: U.S. Strikes Abate, Even as Trump Considers Escalation",
+        "link": "https://www.nytimes.com/live/2026/07/25/world/iran-war-us-strikes-trump-oil",
         "fuente": "The New York Times"
       },
-      "analisis": "Irán rechazó la propuesta de cese al fuego presentada por Irak mientras Estados Unidos continúa con operaciones militares en la región, indicando un ciclo de escalada sin señales de desescalada diplomática. Esta dinámica amenaza la estabilidad global de precios del petróleo y la seguridad del transporte marítimo en una zona crítica para el comercio internacional."
+      "analisis": "Trump oscila entre diplomacia y escalada militar contra Irán mientras mantiene abierta la posibilidad de nuevos ataques, creando incertidumbre sobre la arquitectura de seguridad del Golfo Pérsico. Esta volatilidad en la política exterior estadounidense afecta directamente los precios del petróleo, los equilibrios regionales y la posición de aliados como Israel y Arabia Saudita."
     },
     {
       "rank": 2,
-      "titulo": "Disputa marítima China-Filipinas en el Mar de China Meridional",
-      "region": "Asia-Pacífico",
+      "titulo": "Crisis institucional y seguridad en Venezuela con giro diplomático",
+      "region": "América Latina",
       "noticia": {
-        "titulo": "Barco chino dispara un cañón de agua contra una embarcación filipina en la que iba un equipo de CNN",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQkl2cFU2b1E2T2dkeFNRTnV0c3o5cWFRMGhlWmxPM1dMLVlrUzMyWVc2NjE1eDZoY1o3eEdMcU9iQmV6UTRBSG9UNl9vY25RaXhTUVVuWi02UFRqS0tUaGdNaktUSWFuckNhY3l0MU9GSTlxanZsdVpLUnBTR00wYUZIVFIxdTNHbUt1WWNJemQ5WWZOMWItNzRXVndjZTQ?oc=5",
+        "titulo": "Nuevo canciller de Venezuela da un giro diplomático: inicia retiro de la Corte Penal Internacional y tiende puente con Perú",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQXJmbGFkX2JMYTA5bFBZQ3NVU1RnRFlKSGZxbmRWVzlzQU9KOUhmdktCRzA0LUZUaHdnUzY5WFJlSkZyVW90RlVhUmFROTNJYlY4b3FoSE12NXdWVTdkSkJSdy00Wmx5UlJoVE13TGZjVWpuakJHTUQ1aW01LW1HM2tyaUZlU3dFbjg3cU41bEJOX0U1X19ZdW82Zm5qR0VSc21zekluTlA",
         "fuente": "CNN en Español"
       },
-      "analisis": "La agresión de la Armada china contra embarcaciones filipinas refleja la intensificación de fricciones territoriales en el Mar de China Meridional, donde Pekín busca consolidar su control sobre zonas disputadas de alto valor estratégico. Este tipo de incidentes incrementan el riesgo de una escalada accidental en una región donde convergen intereses de potencias globales como Estados Unidos y aliados de la OTAN."
+      "analisis": "El nuevo canciller venezolano busca rehabilitación diplomática mediante la retirada de la CPI y apertura hacia Perú, mientras el país enfrenta una profunda crisis de reconstrucción tras años de colapso institucional. Esta maniobra indica intento de normalización internacional pero no resuelve los conflictos internos ni la fragmentación estatal que caracteriza la transición política regional."
     },
     {
       "rank": 3,
-      "titulo": "Ofensiva arancelaria de Trump contra cadenas globales de suministro",
-      "region": "Global",
+      "titulo": "Transferencia de capacidades militares China-Rusia y reconfiguración del orden regional",
+      "region": "Asia-Pacífico y Europa del Este",
       "noticia": {
-        "titulo": "Trump anuncia nuevos aranceles de hasta 12,5 % a importaciones de decenas de países",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNGJKUEViS2l3SHJuVmhQOHJxZWNiZUVyTUI4WWNqTU5MU3d3SV8yYm9SOHZ2RGcySDQyZU0wOVRoTVdCRGJsekNxV2VQNWhSdVRuUVdQbTNIaXVqSFg3UGllMjJ5Nkx4bjBlM3Z1aHp6cjdSSWRBT3VpYndmYzZDMFVPN21KaGQtUFE?oc=5",
-        "fuente": "CNN en Español"
+        "titulo": "China is gaining troubling military know-how from Russia",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON2oyLTdjV3dnaUtpcFp4Q3lsUUZ5dGgteFVKRkItRzJERlZWa2t5T1Y5MVVqM2tDRmlHMUJjVURXLUdpSDU1czQzQ0lDcGtsUmpqSlFVRHdmcUZqZ0x2WndDc1poUTEtRXZHelp1TnVraWJzbWY3S0xfZVlabXJ3TkpmZ2tFdVc2aWtPTlctdjQwSUdPVWxQT2xxdzJqc1BBLXpSSg",
+        "fuente": "The Economist"
       },
-      "analisis": "La implementación de aranceles masivos busca reconfigurar las relaciones comerciales globales mediante presión económica, afectando principalmente a aliados tradicionales de Estados Unidos y potencias económicas como China y la Unión Europea. Esta política genera incertidumbre en mercados internacionales y fragmenta aún más el sistema de comercio multilateral, con consecuencias inflacionarias y recesivas para economías interdependientes."
+      "analisis": "La cooperación militar China-Rusia, acelerada por el aislamiento occidental de Moscú, implica transferencia de conocimientos en sistemas de defensa aérea, electrónica y tácticas navales que potencian las capacidades de Pekín en el Teatro Indopacífico. Este fortalecimiento conjunto redimensiona el equilibrio de fuerzas globales y eleva los riesgos de confrontación en Taiwán y el Mar del Este de China."
     }
   ]
 }
