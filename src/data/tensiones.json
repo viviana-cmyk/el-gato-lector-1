@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-07-25T10:01:47.458Z",
+  "generatedAt": "2026-07-26T10:01:52.760Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Escalada militar EE.UU.-Irán y reposicionamiento estratégico de Trump",
+      "titulo": "Escalada U.S.-Irán y pausa diplomática",
       "region": "Oriente Medio",
       "noticia": {
-        "titulo": "Iran War Live Updates: U.S. Strikes Abate, Even as Trump Considers Escalation",
-        "link": "https://www.nytimes.com/live/2026/07/25/world/iran-war-us-strikes-trump-oil",
+        "titulo": "U.S.-Iran War Pauses for 2nd Straight Day",
+        "link": "https://www.nytimes.com/2026/07/26/world/middleeast/us-iran-war-pause.html",
         "fuente": "The New York Times"
       },
-      "analisis": "Trump oscila entre diplomacia y escalada militar contra Irán mientras mantiene abierta la posibilidad de nuevos ataques, creando incertidumbre sobre la arquitectura de seguridad del Golfo Pérsico. Esta volatilidad en la política exterior estadounidense afecta directamente los precios del petróleo, los equilibrios regionales y la posición de aliados como Israel y Arabia Saudita."
+      "analisis": "La pausa de 48 horas en ataques entre EE.UU. e Irán marca un giro hacia la contención tras intensificación previa, mientras la administración Trump evalúa reservas de municiones y opciones diplomáticas. Esta oscilación entre confrontación y negociación refleja incertidumbre estratégica en una región donde cualquier escalada podría impactar mercados energéticos globales y comprometer acuerdos nucleares."
     },
     {
       "rank": 2,
-      "titulo": "Crisis institucional y seguridad en Venezuela con giro diplomático",
-      "region": "América Latina",
+      "titulo": "Crisis climática con consecuencias humanitarias masivas en Europa",
+      "region": "Europa Occidental",
       "noticia": {
-        "titulo": "Nuevo canciller de Venezuela da un giro diplomático: inicia retiro de la Corte Penal Internacional y tiende puente con Perú",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQXJmbGFkX2JMYTA5bFBZQ3NVU1RnRFlKSGZxbmRWVzlzQU9KOUhmdktCRzA0LUZUaHdnUzY5WFJlSkZyVW90RlVhUmFROTNJYlY4b3FoSE12NXdWVTdkSkJSdy00Wmx5UlJoVE13TGZjVWpuakJHTUQ1aW01LW1HM2tyaUZlU3dFbjg3cU41bEJOX0U1X19ZdW82Zm5qR0VSc21zekluTlA",
-        "fuente": "CNN en Español"
+        "titulo": "Europe wildfires: more than 300,000 flee homes and holiday accommodation in France and Spain as fires rage",
+        "link": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations",
+        "fuente": "The Guardian"
       },
-      "analisis": "El nuevo canciller venezolano busca rehabilitación diplomática mediante la retirada de la CPI y apertura hacia Perú, mientras el país enfrenta una profunda crisis de reconstrucción tras años de colapso institucional. Esta maniobra indica intento de normalización internacional pero no resuelve los conflictos internos ni la fragmentación estatal que caracteriza la transición política regional."
+      "analisis": "Los incendios forestales descontrolados en Francia y España han provocado la evacuación de más de 300.000 personas, evidenciando la vulnerabilidad de infraestructuras europeas frente a fenómenos climáticos extremos. Esta crisis expone grietas en la coordinación transfronteriza de emergencias y plantea preguntas sobre la capacidad de respuesta de gobiernos democráticos ante desastres de escala sin precedentes."
     },
     {
       "rank": 3,
-      "titulo": "Transferencia de capacidades militares China-Rusia y reconfiguración del orden regional",
-      "region": "Asia-Pacífico y Europa del Este",
+      "titulo": "Extremismo doméstico y polarización en ciudades europeas",
+      "region": "Europa Central (Alemania)",
       "noticia": {
-        "titulo": "China is gaining troubling military know-how from Russia",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON2oyLTdjV3dnaUtpcFp4Q3lsUUZ5dGgteFVKRkItRzJERlZWa2t5T1Y5MVVqM2tDRmlHMUJjVURXLUdpSDU1czQzQ0lDcGtsUmpqSlFVRHdmcUZqZ0x2WndDc1poUTEtRXZHelp1TnVraWJzbWY3S0xfZVlabXJ3TkpmZ2tFdVc2aWtPTlctdjQwSUdPVWxQT2xxdzJqc1BBLXpSSg",
-        "fuente": "The Economist"
+        "titulo": "Police hunt for suspect after one killed and 16 injured in attack at Berlin Pride",
+        "link": "https://www.theguardian.com/world/2026/jul/25/berlin-pride-march-called-off-after-car-crashes-into-crowd-of-people-near-route",
+        "fuente": "The Guardian"
       },
-      "analisis": "La cooperación militar China-Rusia, acelerada por el aislamiento occidental de Moscú, implica transferencia de conocimientos en sistemas de defensa aérea, electrónica y tácticas navales que potencian las capacidades de Pekín en el Teatro Indopacífico. Este fortalecimiento conjunto redimensiona el equilibrio de fuerzas globales y eleva los riesgos de confrontación en Taiwán y el Mar del Este de China."
+      "analisis": "El atropellamiento masivo contra celebraciones del Orgullo LGBTQ en Berlín, atribuido a motivación islamista, refleja la persistencia de conflictos identitarios en espacios urbanos europeos. Este incidente subraya la tensión entre integración migratoria, pluralismo social y resurgimiento de narrativas extremistas que explota la vulnerabilidad de comunidades minoritarias."
     }
   ]
 }

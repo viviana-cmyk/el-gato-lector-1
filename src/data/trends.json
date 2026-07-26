@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#CorrupciónUNGRD",
+      "#EcopetrolCorrupción",
+      "#VenezuelaCPI",
       "#CrisisSeguridad",
-      "#ArancelesEEUU",
-      "#PetroGobierno",
-      "#DisidenciasNariño"
+      "#CongresoCondicionado",
+      "#DesplazadosCauca"
     ],
     "mundo": [
+      "#IránEEUU",
       "#IncendiosEuropa",
-      "#VenezuelaReconstrucción",
-      "#IránEscalada",
-      "#PeriodistasAsesinos",
+      "#AtaqueBeríln",
+      "#CrisisClimatica",
       "#TrumpDiplomacia"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#CorruptosAgarrados",
-      "#MafiasJusticia",
-      "#ArancelesQuebrantoFlores",
-      "#SeguidaAlCrimen",
-      "#GobiernoEnCrisis"
+      "#EcopetrolPetro",
+      "#VenezuelaAbandonaCPI",
+      "#BogotáInsegura",
+      "#CongresoPetro",
+      "#CaucaEmergencia"
     ],
     "mundo": [
-      "#IncendiosDelMundo",
-      "#VenezuelaEnCaos",
-      "#GuarraIrán",
-      "#MéxicoMuerte",
-      "#TrumpVSMundo"
+      "#GuerraContinúa",
+      "#IncendiosEuropa",
+      "#BerlínAtaque",
+      "#FranciaEspaña",
+      "#TrumpVsIrán"
     ]
   },
-  "generatedAt": "2026-07-25T10:01:47.458Z"
+  "generatedAt": "2026-07-26T10:01:52.760Z"
 }
