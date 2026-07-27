@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-26T10:01:34.601Z",
+  "generatedAt": "2026-07-27T10:01:55.907Z",
   "colombia": [
     {
       "city": "Bogotá",
-      "temp": 12,
-      "description": "Nublado",
-      "icon": "☁️"
+      "temp": 10,
+      "description": "Despejado",
+      "icon": "☀️"
     },
     {
       "city": "Medellín",
-      "temp": 17,
+      "temp": 16,
       "description": "Nublado",
       "icon": "☁️"
     },
     {
       "city": "Cali",
-      "temp": 20,
-      "description": "Llovizna ligera",
-      "icon": "🌦️"
+      "temp": 21,
+      "description": "Mayormente despejado",
+      "icon": "🌤️"
     },
     {
       "city": "Cartagena",
@@ -28,34 +28,34 @@
     {
       "city": "Barranquilla",
       "temp": 26,
-      "description": "Parcialmente nublado",
-      "icon": "⛅"
+      "description": "Nublado",
+      "icon": "☁️"
     }
   ],
   "mundo": [
     {
       "city": "Nueva York",
-      "temp": 16,
+      "temp": 20,
       "description": "Despejado",
       "icon": "☀️"
     },
     {
       "city": "Londres",
-      "temp": 24,
-      "description": "Mayormente despejado",
-      "icon": "🌤️"
+      "temp": 21,
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     },
     {
       "city": "Madrid",
-      "temp": 24,
+      "temp": 27,
       "description": "Despejado",
       "icon": "☀️"
     },
     {
       "city": "Tokio",
-      "temp": 28,
-      "description": "Lluvia ligera",
-      "icon": "🌧️"
+      "temp": 27,
+      "description": "Parcialmente nublado",
+      "icon": "⛅"
     },
     {
       "city": "Ciudad de México",

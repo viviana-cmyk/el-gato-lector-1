@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-07-26T10:01:52.760Z",
+  "generatedAt": "2026-07-27T10:02:10.920Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Escalada U.S.-Irán y pausa diplomática",
+      "titulo": "Crisis Irán-Estados Unidos: escalada nuclear y opciones limitadas",
       "region": "Oriente Medio",
       "noticia": {
-        "titulo": "U.S.-Iran War Pauses for 2nd Straight Day",
-        "link": "https://www.nytimes.com/2026/07/26/world/middleeast/us-iran-war-pause.html",
-        "fuente": "The New York Times"
+        "titulo": "En cada encrucijada sobre Irán, las opciones de Trump empeoran",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN0FHVHFxTXN3dEFWYTBMc21ybjN1eldoTUNDcWVIanB0cUc4SjdBOWRhRmVpNEtON1NnVFJ3bS1QRHQ4QW1HWVFBaEh0d3ZHTGQ1c1VjdHZQSGlHcnhFNUstZWV4anpHQzdrTW44clIzTzZzOV9RNmM1ZTlGSEpnRTBVeGFSNHlhZTY2bUh4NHU2Zw",
+        "fuente": "CNN en Español"
       },
-      "analisis": "La pausa de 48 horas en ataques entre EE.UU. e Irán marca un giro hacia la contención tras intensificación previa, mientras la administración Trump evalúa reservas de municiones y opciones diplomáticas. Esta oscilación entre confrontación y negociación refleja incertidumbre estratégica en una región donde cualquier escalada podría impactar mercados energéticos globales y comprometer acuerdos nucleares."
+      "analisis": "La administración Trump enfrenta una encrucijada estratégica con Irán donde cada opción militar (ataque masivo, sanciones adicionales, bloqueos) deteriora su posición diplomática y geoeconómica. La pausa temporal en ataques estadounidenses refleja la complejidad de una escalada que podría derivar en una confrontación abierta con implicaciones globales en mercados energéticos y equilibrios regionales."
     },
     {
       "rank": 2,
-      "titulo": "Crisis climática con consecuencias humanitarias masivas en Europa",
-      "region": "Europa Occidental",
+      "titulo": "Conflicto Houthíes-Arabia Saudí: reconfiguración del orden regional yemení",
+      "region": "Oriente Medio (Yemen/Golfo Pérsico)",
       "noticia": {
-        "titulo": "Europe wildfires: more than 300,000 flee homes and holiday accommodation in France and Spain as fires rage",
-        "link": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations",
-        "fuente": "The Guardian"
+        "titulo": "How the Iran-Backed Houthis Cornered Saudi Arabia Into a New Conflict",
+        "link": "https://www.nytimes.com/2026/07/27/world/middleeast/houthis-saudi-arabia-iran-war.html",
+        "fuente": "The New York Times"
       },
-      "analisis": "Los incendios forestales descontrolados en Francia y España han provocado la evacuación de más de 300.000 personas, evidenciando la vulnerabilidad de infraestructuras europeas frente a fenómenos climáticos extremos. Esta crisis expone grietas en la coordinación transfronteriza de emergencias y plantea preguntas sobre la capacidad de respuesta de gobiernos democráticos ante desastres de escala sin precedentes."
+      "analisis": "Los hutíes, respaldados por Irán, han logrado transformar el conflicto yemení en una amenaza estructural para la seguridad saudí mediante ataques a infraestructuras críticas, obligando a Riad a replantear su estrategia defensiva. Este escenario consolida la influencia regional de Irán y fragmenta aún más el Golfo Pérsico, con consecuencias directas en la estabilidad energética global y los equilibrios de poder entre potencias regionales."
     },
     {
       "rank": 3,
-      "titulo": "Extremismo doméstico y polarización en ciudades europeas",
-      "region": "Europa Central (Alemania)",
+      "titulo": "Guerra Ucrania-Rusia: intensificación de operaciones en Crimea y bloqueo energético",
+      "region": "Europa del Este",
       "noticia": {
-        "titulo": "Police hunt for suspect after one killed and 16 injured in attack at Berlin Pride",
-        "link": "https://www.theguardian.com/world/2026/jul/25/berlin-pride-march-called-off-after-car-crashes-into-crowd-of-people-near-route",
-        "fuente": "The Guardian"
+        "titulo": "Ukrainian Attacks in Crimea Deprive Towns of Power and Water",
+        "link": "https://www.nytimes.com/2026/07/27/world/europe/ukraine-drones-crimea-blackouts.html",
+        "fuente": "The New York Times"
       },
-      "analisis": "El atropellamiento masivo contra celebraciones del Orgullo LGBTQ en Berlín, atribuido a motivación islamista, refleja la persistencia de conflictos identitarios en espacios urbanos europeos. Este incidente subraya la tensión entre integración migratoria, pluralismo social y resurgimiento de narrativas extremistas que explota la vulnerabilidad de comunidades minoritarias."
+      "analisis": "Ucrania ha escalado sus operaciones de drones contra infraestructuras críticas en Crimea, generando apagones masivos que afectan civiles y revela la nueva naturaleza de la guerra de desgaste energético. Esta tácticacomparte paralelismos con el bloqueo económico cubano, mostrando cómo conflictos regionales utilizan el colapso de servicios básicos como instrumento geopolítico con impacto humanitario significativo."
     }
   ]
 }
