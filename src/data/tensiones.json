@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-07-27T10:02:10.920Z",
+  "generatedAt": "2026-07-28T10:01:50.980Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Crisis Irán-Estados Unidos: escalada nuclear y opciones limitadas",
+      "titulo": "Escalada Irán-Estados Unidos en Oriente Medio",
       "region": "Oriente Medio",
       "noticia": {
-        "titulo": "En cada encrucijada sobre Irán, las opciones de Trump empeoran",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN0FHVHFxTXN3dEFWYTBMc21ybjN1eldoTUNDcWVIanB0cUc4SjdBOWRhRmVpNEtON1NnVFJ3bS1QRHQ4QW1HWVFBaEh0d3ZHTGQ1c1VjdHZQSGlHcnhFNUstZWV4anpHQzdrTW44clIzTzZzOV9RNmM1ZTlGSEpnRTBVeGFSNHlhZTY2bUh4NHU2Zw",
-        "fuente": "CNN en Español"
+        "titulo": "As U.S. Pauses Strikes, Iran Is No Rush to Resume Cease-Fire Talks",
+        "link": "https://www.nytimes.com/2026/07/28/world/middleeast/iran-war-us-trump.html",
+        "fuente": "The New York Times"
       },
-      "analisis": "La administración Trump enfrenta una encrucijada estratégica con Irán donde cada opción militar (ataque masivo, sanciones adicionales, bloqueos) deteriora su posición diplomática y geoeconómica. La pausa temporal en ataques estadounidenses refleja la complejidad de una escalada que podría derivar en una confrontación abierta con implicaciones globales en mercados energéticos y equilibrios regionales."
+      "analisis": "La pausa estadounidense en ataques no genera reciprocidad iraní en negociaciones de alto al fuego, indicando un punto muerto táctico donde ambas potencias evitan compromisos diplomáticos mientras mantienen capacidades ofensivas. Este estancamiento amenaza con prolongar la inestabilidad regional y limita opciones de desescalada, con implicaciones para cadenas de suministro energético global y alianzas en el Golfo Pérsico."
     },
     {
       "rank": 2,
-      "titulo": "Conflicto Houthíes-Arabia Saudí: reconfiguración del orden regional yemení",
-      "region": "Oriente Medio (Yemen/Golfo Pérsico)",
+      "titulo": "Crisis climática extrema en Europa Occidental",
+      "region": "Europa",
       "noticia": {
-        "titulo": "How the Iran-Backed Houthis Cornered Saudi Arabia Into a New Conflict",
-        "link": "https://www.nytimes.com/2026/07/27/world/middleeast/houthis-saudi-arabia-iran-war.html",
-        "fuente": "The New York Times"
+        "titulo": "Incendios forestales en Francia y España: Macron alerta sobre la peor situación desde la Segunda Guerra Mundial",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeHVDcGJWd3A0bDM0V05RajJGWGdCYy12Wk5nUXNXbl9UZ2dmeFdkV3c0UzJReS15ZUZBNjdndi1rcGEtSnN1NDY5a19KSzQwM29IYkh4dWJHbkxHY3dTMDNyOVVQUzhBMjhwVVNsXzMtcV9QRVhmcWZ1N0VhNUZiRnNKck5ERTN5c1Rqeg?oc=5",
+        "fuente": "CNN en Español"
       },
-      "analisis": "Los hutíes, respaldados por Irán, han logrado transformar el conflicto yemení en una amenaza estructural para la seguridad saudí mediante ataques a infraestructuras críticas, obligando a Riad a replantear su estrategia defensiva. Este escenario consolida la influencia regional de Irán y fragmenta aún más el Golfo Pérsico, con consecuencias directas en la estabilidad energética global y los equilibrios de poder entre potencias regionales."
+      "analisis": "Los incendios forestales sin precedentes en Francia y España, catalogados por Macron como la peor crisis desde 1945, reflejan la aceleración de efectos climáticos extremos en territorios desarrollados de la UE. La convergencia de estos fenómenos con crisis energéticas previas expone vulnerabilidades en infraestructuras críticas europeas y plantea desafíos de coordinación transnacional en una agenda ya saturada de tensiones geopolíticas."
     },
     {
       "rank": 3,
-      "titulo": "Guerra Ucrania-Rusia: intensificación de operaciones en Crimea y bloqueo energético",
-      "region": "Europa del Este",
+      "titulo": "Inestabilidad política en Venezuela con negociaciones sobre sanciones",
+      "region": "América Latina",
       "noticia": {
-        "titulo": "Ukrainian Attacks in Crimea Deprive Towns of Power and Water",
-        "link": "https://www.nytimes.com/2026/07/27/world/europe/ukraine-drones-crimea-blackouts.html",
-        "fuente": "The New York Times"
+        "titulo": "Gobierno venezolano pedirá levantamiento de sanciones en diálogo con sector opositor",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcjBDYnIzYmVaY3JXRmJ5bm5nRUFLN2pBUTZPd2xmeUNKa0FXeFFMNnQtZlM2QWZDckVXOGVsdnJXMmZtNHY2NE9WalJaV3h5Nlk1N1YxYlBtcF83SmtYYUFaekIxZGZlX1pfMDVoNkdLNjl3TFFfRG5QaHJ0QVl5U0NMY2dJSGt3SlFlRGJBRmpBV0x6RW5vd1pydmZFdmto?oc=5",
+        "fuente": "CNN en Español"
       },
-      "analisis": "Ucrania ha escalado sus operaciones de drones contra infraestructuras críticas en Crimea, generando apagones masivos que afectan civiles y revela la nueva naturaleza de la guerra de desgaste energético. Esta tácticacomparte paralelismos con el bloqueo económico cubano, mostrando cómo conflictos regionales utilizan el colapso de servicios básicos como instrumento geopolítico con impacto humanitario significativo."
+      "analisis": "La apertura del gobierno Maduro a negociaciones sobre levantamiento de sanciones sugiere presión económica creciente y posibles fisuras en la coalición gobernante, aunque mantiene ambigüedad sobre reformas democráticas reales. Este movimiento podría representar una salida negociada de la crisis o una maniobra táctica para aliviar presión externa mientras consolida control interno, con implicaciones para migraciones regionales y polarización hemisférica."
     }
   ]
 }

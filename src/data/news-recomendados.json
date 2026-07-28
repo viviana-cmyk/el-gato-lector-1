@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-07-27T10:01:55.907Z",
+  "generatedAt": "2026-07-28T10:01:48.088Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Ataque fronterizo en Guatemala evidencia el regreso del clan de los Lorenzana",
+          "link": "https://insightcrime.org/es/noticias/ataque-fronterizo-guatemala-evidencia-regreso-clan-lorenzana/",
+          "pubDate": "2026-07-27T15:17:29.000Z",
+          "snippet": "Ataque fronterizo en Guatemala evidencia el regreso del clan de los Lorenzana Los reportes que vinculan un ataque armado en la frontera entre Guatemala y Honduras con la red de tráfico de drogas de los Lorenzana evidencian la capacidad de resistencia de los clanes familiares en e…"
+        },
         {
           "title": "Pódcast | Una casa marcada: extorsión en Ecuador",
           "link": "https://insightcrime.org/es/audio-es/insight-crime-espanol/podcast-una-casa-marcada-extorsion-ecuador/",
@@ -34,12 +40,6 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/eln-colombia/",
           "pubDate": "2026-07-21T22:08:10.000Z",
           "snippet": "Ejército de Liberación Nacional (ELN) Ejército de Liberación Nacional (ELN): quiénes lo lideran, dónde opera y cómo se financia. Perfil completo y actualizado en 2026. The post Ejército de Liberación Nacional (ELN) appeared first on InSight Crime."
-        },
-        {
-          "title": "Cuatro décadas de trayectoria criminal de ‘El Mayo’ terminan en cadena perpetua",
-          "link": "https://insightcrime.org/es/noticias/cuatro-decadas-trayectoria-criminal-el-mayo-terminan-cadena-perpetua/",
-          "pubDate": "2026-07-21T21:39:54.000Z",
-          "snippet": "Cuatro décadas de trayectoria criminal de ‘El Mayo’ terminan en cadena perpetua Durante cuatro décadas, Ismael Zambada García, alias “El Mayo”, condenado en Estados Unidos a cadena perpetua sin posibilidad de libertad condicional, fue el fantasma del narcotráfico en México. Duran…"
         }
       ]
     },
@@ -90,27 +90,15 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Abdullah M. Kassim",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fREtqaFRJQVlzWGwydTNFOWIyVENyR2ZUOUhhOXZwLW53UGlYQVNjSE1RNjlEX2dtR0ZCMWRJMFA0S1R5RUNsLXY3OW5kNjkxcmJXc1JQYUhNOVBQbi1RVVowOXQwbk1z?oc=5",
-          "pubDate": "2026-07-25T10:11:23.000Z",
+          "title": "Face Uncertainty and Take Action: Lessons from a Blind Sailor's Pacific Crossing",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWlo3V3phbGhyWnNkMllLSzNzNjByaFBnNmowcENSd0VqQ0hndE1lb2xiM2Q2aTFWS0dfMk1TZXdaRkRSQ013NXBVSWk1cHdSdy1XeEM5eUZwLTdGUkNKSDduTFczN25heGREMVFfSFdFNjdwcGhXX3cyMFpGZnVoeWtjRzBlQXZnX2FXbVlsNkJkclIwNDFfQXZTeWdYNmt0MExxYnlqSHY?oc=5",
+          "pubDate": "2026-07-27T14:02:00.000Z",
           "snippet": null
         },
         {
-          "title": "Event Details - Ahmedabad Hub",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOY01rWnlFT0xsR2tjY2R4RUkzb01UZWxjcFR2QnppeWlhQ2g4UzlpV2VRZmFGaFE0eU9fbmREMFZfMUlsREJWbjZSak9Ud1R2XzdDN1d6STFNeVZuMnVuVzFUT2cyM0tZVnpXZkZTVjY4ZVh1UzdyZUpHWjFPbmVPOXFUWjJobUZINEVMU2FVa19zWjJCVWtwa0E5cXFNdUZVbG54cGZpTFNZR0I0RDFlSmwtMTZselN5U1M0Vmg2Y3pLd083NVpmYWhnZkxsQjBnRWdDS2FXQWQzQQ?oc=5",
-          "pubDate": "2026-07-23T17:13:02.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Event Details - Ahmedabad Hub",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT3dpQm5jZlBRVXp1M3F0YndtcWE5TEwwQVdNOTFkVTFZWjE3bTJnTWlTVkRqWDdNbjJ6c0JTMVlsVl9wZk9mWElkRlMzQ2F3b05ubzJFVi15UzNZUEdwclF4WGZjRVVObGRGbXY4VTFQVnp3bHp5THpqVldZSmRtUWdhVGFBSmgyUUYzb0pVdjVob285ck5kY2RxMnJaVElDX0lxd3g1SDQ?oc=5",
-          "pubDate": "2026-07-18T08:00:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "- The World Economic Forum",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYU5teUZjbE1lRng2SjFHSERlRkRPa3d2YzVJSm1NUWZuOUJKM0plTnVQb3Y1ZDVYbndMSk4taVRnNzBxQS1hZzZjdWJRSHlVcDFVaU0zS1VRM3o0eGlaN0pHOVQwRGE3VEJqODNoRDVuYzZpazd0NkRWM2hhWElhUTk4YlA2UU0wOFBqRzJqd09sN09IejMxNE9QUFZiNGMzaGhfQzNDOA?oc=5",
-          "pubDate": "2026-07-16T20:31:24.000Z",
+          "title": "15th Five-Year Plan, Unpacked",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOXB6dTVGSGkzR1lJVGNRdXV4Ry1RRk1wNXluVVlNWjdrVjFESTZrQ3p2QXhiUWtDVmdlQzZXQ3QxLV8xQWR3N3ZPWE1ndFpOMUIyOWRBYUxSR08yX1lUU0JicjNhaHFFNXRXZ2drNlotZlNjbHlmT2pmakpBdVVZMVhSWDRWV19XNzh1UndhRERzX2tjb2VkaG13?oc=5",
+          "pubDate": "2026-07-22T13:21:08.000Z",
           "snippet": null
         },
         {
@@ -123,6 +111,18 @@
           "title": "How leaders can fix focus and happiness in an AI Era: Psychologist Jonathan Haidt",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVE53LTZjeXRkX1FEQWNtWWh2RUs0alN2VktQQjA4WjBMVEZKbE54MTNLQ3FwTDZ1eFQ0WUdHUkJTVFhtMWdmcXRwNDdzMU1jQzhoV2JaYkJpUWstNGJOa1VTWU53NEdlT1ZIUE16WjNVaHlMcm5UemtMQUcxdlowYUx3TFpFdUt5TUhLdjd5V1l2Qy1QNFg5eUVzWm5PRkE?oc=5",
           "pubDate": "2026-07-13T21:00:53.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Promoviendo la prevención óptima y la intervención temprana de las enfermedades no transmisibles en España",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92X3U1UFNyWGhHTmtUOEQ2Q2ZreEwtbmVmNnhiUF9OQ0M0UzZRd21KcmRfOHIxS0Vjc0l0ZEFpT1ppVkhPM1FDY3I1ZmxaYjA5Vlp6ZEo2aUtHc1JyMS16OVFlY3MzT29oUG9wOUxPMA?oc=5",
+          "pubDate": "2026-07-13T12:20:53.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Veeam",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXOVEwcWZrNTc3Y0hGeGNqYTZ0UXR0TS1oNGlfTjNZY2dhdlBhWWE1VWRvOVcwZHRrekwtb2ZPR2I5V3VUUlZGQ2w3bktmUVMwenlpTnVB?oc=5",
+          "pubDate": "2026-07-01T05:19:37.000Z",
           "snippet": null
         }
       ]
