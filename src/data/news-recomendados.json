@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-07-28T10:01:48.088Z",
+  "generatedAt": "2026-07-29T10:01:41.571Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "The InSight Take: Juan Orlando Hernández, de la acusación al indulto",
+          "link": "https://insightcrime.org/es/noticias/the-insight-take-juan-orlando-hernandez-acusacion-al-indulto/",
+          "pubDate": "2026-07-28T17:02:39.000Z",
+          "snippet": "The InSight Take: Juan Orlando Hernández, de la acusación al indulto Esta semana repasamos la trayectoria de Juan Orlando Hernández (JOH), expresidente de Honduras, desde sus acciones en el poder hasta su condena a 45 años de prisión por narcotráfico y […] The post The InSight Ta…"
+        },
         {
           "title": "Ataque fronterizo en Guatemala evidencia el regreso del clan de los Lorenzana",
           "link": "https://insightcrime.org/es/noticias/ataque-fronterizo-guatemala-evidencia-regreso-clan-lorenzana/",
@@ -34,12 +40,6 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-honduras/juan-orlando-hernandez/",
           "pubDate": "2026-07-21T23:04:05.000Z",
           "snippet": "Juan Orlando Hernández Juan Orlando Hernández: quién es, dónde está y últimas noticias sobre su indulto. Perfil completo actualizado de 2026. The post Juan Orlando Hernández appeared first on InSight Crime."
-        },
-        {
-          "title": "Ejército de Liberación Nacional (ELN)",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/eln-colombia/",
-          "pubDate": "2026-07-21T22:08:10.000Z",
-          "snippet": "Ejército de Liberación Nacional (ELN) Ejército de Liberación Nacional (ELN): quiénes lo lideran, dónde opera y cómo se financia. Perfil completo y actualizado en 2026. The post Ejército de Liberación Nacional (ELN) appeared first on InSight Crime."
         }
       ]
     },

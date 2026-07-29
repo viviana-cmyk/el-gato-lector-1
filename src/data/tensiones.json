@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-07-28T10:01:50.980Z",
+  "generatedAt": "2026-07-29T10:01:46.740Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Escalada Irán-Estados Unidos en Oriente Medio",
+      "titulo": "Escalada de tensiones EE.UU.-Irán en Irak",
       "region": "Oriente Medio",
       "noticia": {
-        "titulo": "As U.S. Pauses Strikes, Iran Is No Rush to Resume Cease-Fire Talks",
-        "link": "https://www.nytimes.com/2026/07/28/world/middleeast/iran-war-us-trump.html",
-        "fuente": "The New York Times"
+        "titulo": "Arabia Saudí lanza un ataque coordinado con Estados Unidos contra milicias proiraníes en Irak",
+        "link": "https://elpais.com/internacional/2026-07-29/arabia-saudi-lanza-un-ataque-coordinado-con-estados-unidos-contra-milicias-proiranies-en-irak.html",
+        "fuente": "El País"
       },
-      "analisis": "La pausa estadounidense en ataques no genera reciprocidad iraní en negociaciones de alto al fuego, indicando un punto muerto táctico donde ambas potencias evitan compromisos diplomáticos mientras mantienen capacidades ofensivas. Este estancamiento amenaza con prolongar la inestabilidad regional y limita opciones de desescalada, con implicaciones para cadenas de suministro energético global y alianzas en el Golfo Pérsico."
+      "analisis": "La coordinación militar entre Washington y Riad contra actores proiraníes marca una intensificación del enfrentamiento indirecto entre EE.UU. e Irán en Irak, territorio donde ambas potencias compiten por influencia. Este patrón de ataques aéreos refleja la estrategia de desgaste estadounidense mientras Trump negocia simultáneamente con Netanyahu, sugiriendo una campaña regional coordinada de contención frente a Irán."
     },
     {
       "rank": 2,
-      "titulo": "Crisis climática extrema en Europa Occidental",
-      "region": "Europa",
+      "titulo": "Crisis institucional y represión en Venezuela",
+      "region": "América Latina",
       "noticia": {
-        "titulo": "Incendios forestales en Francia y España: Macron alerta sobre la peor situación desde la Segunda Guerra Mundial",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeHVDcGJWd3A0bDM0V05RajJGWGdCYy12Wk5nUXNXbl9UZ2dmeFdkV3c0UzJReS15ZUZBNjdndi1rcGEtSnN1NDY5a19KSzQwM29IYkh4dWJHbkxHY3dTMDNyOVVQUzhBMjhwVVNsXzMtcV9QRVhmcWZ1N0VhNUZiRnNKck5ERTN5c1Rqeg?oc=5",
+        "titulo": "Venezuela anuncia su salida de la Corte Penal Internacional. ¿Qué impacto tiene en las víctimas?",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSk9YRFNCaGEzZTRvZElvTWpyZVRLbXAwcGczVW9ySkw5bDhiYlY1bUMtU09STlJRVjlFSDJiSWVJZnhLYVFHVW5ac3hIQ3RVQk5vQjEybzVMRFViLU9EZmxYUDhZU05RTG10WG5aeF8yVl9EYldWRnllUC1rb2RKbUtWTUtNdWQ3eHR1aWZnSHo2Mms1aVY5SmNRUDVNOUdpWS0zNHJnNklZUQ",
         "fuente": "CNN en Español"
       },
-      "analisis": "Los incendios forestales sin precedentes en Francia y España, catalogados por Macron como la peor crisis desde 1945, reflejan la aceleración de efectos climáticos extremos en territorios desarrollados de la UE. La convergencia de estos fenómenos con crisis energéticas previas expone vulnerabilidades en infraestructuras críticas europeas y plantea desafíos de coordinación transnacional en una agenda ya saturada de tensiones geopolíticas."
+      "analisis": "La retirada de Venezuela de la CPI constituye un movimiento defensivo ante investigaciones sobre crímenes de lesa humanidad, eliminando un mecanismo de rendición de cuentas internacional mientras consolida el autoritarismo de Maduro. A dos años de elecciones cuestionadas y con la oposición exigiendo cambios, esta acción refleja la estrategia del régimen de inmunizarse frente a presión externa mientras sofoca resistencia interna."
     },
     {
       "rank": 3,
-      "titulo": "Inestabilidad política en Venezuela con negociaciones sobre sanciones",
-      "region": "América Latina",
+      "titulo": "Represión digital y disidencia en Rusia",
+      "region": "Europa/Rusia",
       "noticia": {
-        "titulo": "Gobierno venezolano pedirá levantamiento de sanciones en diálogo con sector opositor",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcjBDYnIzYmVaY3JXRmJ5bm5nRUFLN2pBUTZPd2xmeUNKa0FXeFFMNnQtZlM2QWZDckVXOGVsdnJXMmZtNHY2NE9WalJaV3h5Nlk1N1YxYlBtcF83SmtYYUFaekIxZGZlX1pfMDVoNkdLNjl3TFFfRG5QaHJ0QVl5U0NMY2dJSGt3SlFlRGJBRmpBV0x6RW5vd1pydmZFdmto?oc=5",
-        "fuente": "CNN en Español"
+        "titulo": "Rusia declara en busca y captura a Pável Durov, fundador de Telegram, por 'colaborar con actividad terrorista'",
+        "link": "https://elpais.com/internacional/2026-07-29/rusia-declara-en-busca-y-captura-a-pavel-durov-fundador-de-telegram-por-colaborar-con-actividad-terrorismo.html",
+        "fuente": "El País"
       },
-      "analisis": "La apertura del gobierno Maduro a negociaciones sobre levantamiento de sanciones sugiere presión económica creciente y posibles fisuras en la coalición gobernante, aunque mantiene ambigüedad sobre reformas democráticas reales. Este movimiento podría representar una salida negociada de la crisis o una maniobra táctica para aliviar presión externa mientras consolida control interno, con implicaciones para migraciones regionales y polarización hemisférica."
+      "analisis": "La orden de captura contra Durov evidencia el control estatal ruso sobre plataformas de comunicación mediante criminalización de disidentes y periodistas bajo acusaciones vagas de 'terrorismo'. Este patrón refleja la ofensiva del Kremlin contra espacios digitales independientes durante la guerra en Ucrania, donde Telegram representa un canal crítico para información y coordinación que escapa a censura oficial."
     }
   ]
 }
