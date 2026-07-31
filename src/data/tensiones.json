@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-07-29T10:01:46.740Z",
+  "generatedAt": "2026-07-31T10:01:53.054Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Escalada de tensiones EE.UU.-Irán en Irak",
-      "region": "Oriente Medio",
+      "titulo": "Escalada militar entre Estados Unidos e Irán en Oriente Medio",
+      "region": "Oriente Medio (Irán, Kuwait, Irak)",
       "noticia": {
-        "titulo": "Arabia Saudí lanza un ataque coordinado con Estados Unidos contra milicias proiraníes en Irak",
-        "link": "https://elpais.com/internacional/2026-07-29/arabia-saudi-lanza-un-ataque-coordinado-con-estados-unidos-contra-milicias-proiranies-en-irak.html",
-        "fuente": "El País"
+        "titulo": "Iran Says It Targeted U.S. Military in Kuwait With Drones",
+        "link": "https://www.nytimes.com/2026/07/31/world/middleeast/iran-says-it-targeted-us-military-in-kuwait-with-drones.html",
+        "fuente": "The New York Times"
       },
-      "analisis": "La coordinación militar entre Washington y Riad contra actores proiraníes marca una intensificación del enfrentamiento indirecto entre EE.UU. e Irán en Irak, territorio donde ambas potencias compiten por influencia. Este patrón de ataques aéreos refleja la estrategia de desgaste estadounidense mientras Trump negocia simultáneamente con Netanyahu, sugiriendo una campaña regional coordinada de contención frente a Irán."
+      "analisis": "Los ataques con drones iraníes contra posiciones estadounidenses en Kuwait, junto con represalias aéreas estadounidenses en territorio iraní, marcan un peligroso ciclo de escalada que ha dejado 6 soldados estadounidenses muertos. Esta tensión directa entre Teherán y Washington amenaza con desestabilizar la región y podría arrastrar a aliados regionales como Arabia Saudí e Irak, especialmente ante la debilidad de mecanismos diplomáticos de contención."
     },
     {
       "rank": 2,
-      "titulo": "Crisis institucional y represión en Venezuela",
-      "region": "América Latina",
+      "titulo": "Crisis migratoria en Ceuta: entrada masiva desde Marruecos",
+      "region": "Europa (España-Marruecos), Mediterráneo",
       "noticia": {
-        "titulo": "Venezuela anuncia su salida de la Corte Penal Internacional. ¿Qué impacto tiene en las víctimas?",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSk9YRFNCaGEzZTRvZElvTWpyZVRLbXAwcGczVW9ySkw5bDhiYlY1bUMtU09STlJRVjlFSDJiSWVJZnhLYVFHVW5ac3hIQ3RVQk5vQjEybzVMRFViLU9EZmxYUDhZU05RTG10WG5aeF8yVl9EYldWRnllUC1rb2RKbUtWTUtNdWQ3eHR1aWZnSHo2Mms1aVY5SmNRUDVNOUdpWS0zNHJnNklZUQ",
-        "fuente": "CNN en Español"
+        "titulo": "At least 18 die as 49,000 people cross to Spanish enclave of Ceuta from Morocco",
+        "link": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths",
+        "fuente": "The Guardian"
       },
-      "analisis": "La retirada de Venezuela de la CPI constituye un movimiento defensivo ante investigaciones sobre crímenes de lesa humanidad, eliminando un mecanismo de rendición de cuentas internacional mientras consolida el autoritarismo de Maduro. A dos años de elecciones cuestionadas y con la oposición exigiendo cambios, esta acción refleja la estrategia del régimen de inmunizarse frente a presión externa mientras sofoca resistencia interna."
+      "analisis": "La entrada de aproximadamente 49.000 migrantes en Ceuta en pocas horas, aparentemente facilitada por la pasividad de autoridades marroquíes, revela tensiones diplomáticas subyacentes entre Madrid y Rabat y expone las fracturas del sistema Schengen europeo. Francia ya ha anunciado refuerzo de controles fronterizos con España, señalando que la crisis migratoria puede fragmentar la cohesión interna de la UE y reactivar conflictos migratorios más amplios."
     },
     {
       "rank": 3,
-      "titulo": "Represión digital y disidencia en Rusia",
-      "region": "Europa/Rusia",
+      "titulo": "Brote de ébola acelerado en República Democrática del Congo",
+      "region": "África Central (RDC)",
       "noticia": {
-        "titulo": "Rusia declara en busca y captura a Pável Durov, fundador de Telegram, por 'colaborar con actividad terrorista'",
-        "link": "https://elpais.com/internacional/2026-07-29/rusia-declara-en-busca-y-captura-a-pavel-durov-fundador-de-telegram-por-colaborar-con-actividad-terrorismo.html",
-        "fuente": "El País"
+        "titulo": "Ebola outbreak in DRC the fastest growing in the history of the virus",
+        "link": "https://www.theguardian.com/global-development/2026/jul/31/ebola-outbreak-in-drc-the-fastest-growing-in-the-history-of-the-virus",
+        "fuente": "The Guardian"
       },
-      "analisis": "La orden de captura contra Durov evidencia el control estatal ruso sobre plataformas de comunicación mediante criminalización de disidentes y periodistas bajo acusaciones vagas de 'terrorismo'. Este patrón refleja la ofensiva del Kremlin contra espacios digitales independientes durante la guerra en Ucrania, donde Telegram representa un canal crítico para información y coordinación que escapa a censura oficial."
+      "analisis": "El brote de ébola en la RDC es el de mayor velocidad de propagación registrado en la historia de la enfermedad, evidenciando debilidades críticas en infraestructura sanitaria y capacidad de respuesta en la región subsahariana. Esta crisis sanitaria amenaza con desbordar sistemas de salud regionales y generar desplazamientos poblacionales masivos, con potencial para convertirse en una emergencia humanitaria y geopolítica que requeriría intervención coordinada internacional."
     }
   ]
 }

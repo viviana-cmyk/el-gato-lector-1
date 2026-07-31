@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#DelaEsprillaPresidente",
-      "#CrisisSeguridad",
-      "#AliasGavilán",
-      "#CongresoColombiano",
-      "#AcuerdoPaz"
+      "#CrisisSaludColombia",
+      "#InseguridadUniversitaria",
+      "#GobiernoDelaEspriella",
+      "#ViolenciaArbitrariaEnCauca",
+      "#CiberataquesIA"
     ],
     "mundo": [
-      "#UcraniaBajoAtaque",
-      "#IránVsEEUU",
+      "#CrisizMigratoriaCeuta",
+      "#AcuerdoIsraelHamás",
+      "#TensionesIránEEUU",
       "#IncendiosEuropa",
-      "#CrisisOrienteMedio",
-      "#SegurridadCibernética"
+      "#RegulacionesIAUE"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#DelaEspriella2024",
-      "#ViolenciaEnCali",
-      "#PolíticaColombiana",
-      "#JusticiaYa",
-      "#TransiciónGobierno"
+      "#CrisisdelSistemadesalud",
+      "#AtaqueeneslaUniversidadNacional",
+      "#NuevoGobiernoDelaEspriella",
+      "#MasacredelCauca",
+      "#AlertaCiberseguridad"
     ],
     "mundo": [
-      "#GuerraUcrania",
-      "#IránAtaca",
-      "#IncendiosForestales",
-      "#CrisisGlobal",
-      "#Noticias"
+      "#CrisisMigratoriaCeuta",
+      "#PazEnGaza",
+      "#AtaqueIrán",
+      "#IncendiosRecord",
+      "#IAYCiberseguridad"
     ]
   },
-  "generatedAt": "2026-07-30T10:01:52.474Z"
+  "generatedAt": "2026-07-31T10:01:53.054Z"
 }
