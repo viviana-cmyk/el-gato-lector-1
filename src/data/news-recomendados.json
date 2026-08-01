@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-07-31T10:01:47.080Z",
+  "generatedAt": "2026-08-01T10:01:45.944Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Operativo en Brasil revela nueva estrategia del Tren de Aragua",
+          "link": "https://insightcrime.org/es/noticias/operativo-brasil-revela-nueva-estrategia-tren-aragua/",
+          "pubDate": "2026-07-31T18:54:05.000Z",
+          "snippet": "Operativo en Brasil revela nueva estrategia del Tren de Aragua Una operación policial revela cómo el Tren de Aragua se alió con el Comando Rojo para traficar armas, lavar dinero y expandirse en Brasil. The post Operativo en Brasil revela nueva estrategia del Tren de Aragua appear…"
+        },
         {
           "title": "Pódcast | «Nos van a matar»: sobrevivir como trabajadora sexual en Perú",
           "link": "https://insightcrime.org/es/noticias/podcast-nos-van-a-matar-sobrevivir-como-trabajadora-sexual-en-peru/",
@@ -34,12 +40,6 @@
           "link": "https://insightcrime.org/es/noticias/ataque-fronterizo-guatemala-evidencia-regreso-clan-lorenzana/",
           "pubDate": "2026-07-27T15:17:29.000Z",
           "snippet": "Ataque fronterizo en Guatemala evidencia el regreso del clan de los Lorenzana Los reportes que vinculan un ataque armado en la frontera entre Guatemala y Honduras con la red de tráfico de drogas de los Lorenzana evidencian la capacidad de resistencia de los clanes familiares en e…"
-        },
-        {
-          "title": "Pódcast | Una casa marcada: extorsión en Ecuador",
-          "link": "https://insightcrime.org/es/audio-es/insight-crime-espanol/podcast-una-casa-marcada-extorsion-ecuador/",
-          "pubDate": "2026-07-23T23:28:40.000Z",
-          "snippet": "Pódcast | Una casa marcada: extorsión en Ecuador Sobre este episodio Andrés y Juliana amaban vivir en Durán. Allí compraron su casa, criaron a sus hijos y montaron su pequeño negocio. Cuando extorsionadores enmascarados dispararon cinco balas contra […] The post Pódcast | Una cas…"
         }
       ]
     },
@@ -90,27 +90,39 @@
       "color": "yellow",
       "items": [
         {
+          "title": "Horizon3.ai",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CUWtmTEc3SG9ONElGWGJzMlpjaktFSDdWT294ZnZqMDI3ZVc1TFJ1RmQ4dDFuNlZ3ZVAzd2RpSkdqZFJUbnZuWlNOU0VoemE5ajg5eDBHU1d0OW9DM3c?oc=5",
+          "pubDate": "2026-08-01T04:50:46.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Genspark",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01R1NucXl0UDllOFk5NHY1Q2Z6QnBUU2Rpd3Y4TENxcnpfdWtXYUlqdnQ4WEY5a0c3dEEwcXRCeV9WZWRzWVBMTjdJcTE5TGtoYW9lWFd5WWZNQQ?oc=5",
+          "pubDate": "2026-08-01T04:50:46.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Event Details - Tijuana Hub",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU25XeDEtbm9MNjZERzAxTTRMb3F5SWsyVzE1TVFyYWxEeW5JeHlUMmYtY2Q1OWtSQWFRdjBkZWhnR18zQmlDQ2dMc0RDMjMtTU5XV0w3Ry1hbVhGNEdUUTNHQW12RWZCWDUtNmxUMUphTjdva294MElqbl9NSjVYdEVmeEY2V1NUbEFhd3BQSG04VllJU3YyTjJmdWFhTkRlblE?oc=5",
+          "pubDate": "2026-07-30T13:20:21.000Z",
+          "snippet": null
+        },
+        {
+          "title": "¿Cómo pueden prepararse los recién graduados para el mundo laboral cuando la IA está reemplazando los empleos de nivel inicial?",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNODJ6Wk1KWHh5Y0V4SWZuMWdUUlpCZW9IaDlyQ1lpZldtbW50b2EtZkU1Nk4ySnhRcTRMMXJqbTdoWDlmd2VUMlYzOWVDcThwNnZjM2dsRWU3Tmt6N0l6TUxabll3TGcxOXA0TERwWlhhVlBzT1lUVy1vMVRYQm5Qb2VUSGJaa21mYWhIc05QM3pMWU8zWk15Y3F0M1Mzd1BGSUllVFhCSHlxVXNRYzlkYjFndXJlOGlyMnJESEdwUzVBTkFkcFh0NURxZmdTUHpoRVdpUkJRclRqRTBMaDRDYU1WY2Fxc0JrcG1XOA?oc=5",
+          "pubDate": "2026-07-29T14:54:12.000Z",
+          "snippet": null
+        },
+        {
+          "title": "From 'polycrisis' to 'polytunity' - the future of geopolitics with Prof Yuen Yuen Ang",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM29mUGJJbVB0RWhzdTJXNFppLW82MFBUYjJ6NEF0VURnUzVlOWJoX3hiZ051bWxDQ0FnSV9rU2dmZk9zXzRjWklUbTR3QTZMY1VxOS03eW1ab3EyZnBfN2dpU2REUXF6RzEta0lyNmFCQUZuSE1SUUc1UTFEcW50M0dVb2hIX2Z1ZF9wbXdINGZXaURBOWdWVDNtZEVEdFV3c25sQlFpbUV4bzQ?oc=5",
+          "pubDate": "2026-07-29T09:46:00.000Z",
+          "snippet": null
+        },
+        {
           "title": "Este CEO Tiene 3 Consejos Para Seguir Una Carrera Basada En Tu Pasión",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZTlQc3V4dDBYaGhPZVZLTDZrS25LRDd3S3dUZm5nR2lfVi1ENm1VU1ZvU1ZVb0Z4aGk0YVVmaGEzQXZxUk9HUHhfOWdKZzlNRm9TejJiR19ob21hRmRJZUw1RTB2Qy1ma0N6T1JhXzRfcm4yMFdtZ2I4RHp5WDlTbi13Z1B6SGZtVmR5OF94V3doajJLdGZkQ1ZBb0FnMElOWXpR?oc=5",
           "pubDate": "2026-07-15T14:07:10.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Promoviendo la prevención óptima y la intervención temprana de las enfermedades no transmisibles en España",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92X3U1UFNyWGhHTmtUOEQ2Q2ZreEwtbmVmNnhiUF9OQ0M0UzZRd21KcmRfOHIxS0Vjc0l0ZEFpT1ppVkhPM1FDY3I1ZmxaYjA5Vlp6ZEo2aUtHc1JyMS16OVFlY3MzT29oUG9wOUxPMA?oc=5",
-          "pubDate": "2026-07-13T12:20:53.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Así es como las cuatro ciudades más grandes del mundo han cambiado con el tiempo",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNWZ4NVBlMHFvaVRJaWsxR2tRYTd5N2dtT1Jqa2w5Mzh0RU82T2lxMWczQlRWNFNnZW1iNGhpTWtqeUJsN25KN3F3RDNFNEFfYlZTMW8zZDcxZVlBS2hEaURXMDF4Tnk5bzhfdS1adnhzX2d6U3l1LVl6d01RSVJiWnFiUnk0ZkJ4dXJhd0tIQkdHTkVIYldsWVNrc056OGtpUDdBWXJwT0lNanRRT2ZCbjhn?oc=5",
-          "pubDate": "2023-11-10T08:26:01.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Estas son las 10 mejores habilidades del trabajo del futuro",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc0pZRWVHWWM4V0Q5SUdjWEtiS21aQndGZ3BCYjc3Zy1fcFhJWlhLb0JuXzU4U2RscVBhN284S2t6b05ja3pqU0xQdi04RWlkZWZobC10Uk5pbVhFRXA2Q2NOZXNiSnJZcWJEMnVrcThCS0dOYVFDa1h3UlQ0cFM4cm84dVlNVGh0ZEphbUZ6cEpUVjU4VlE?oc=5",
-          "pubDate": "2023-01-18T13:20:32.000Z",
           "snippet": null
         }
       ]
