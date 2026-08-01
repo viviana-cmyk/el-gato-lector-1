@@ -2,25 +2,25 @@
   "_comment": "Los libros se actualizan automáticamente el 1° de cada mes mediante el workflow update-books.yml. Las tendencias de redes y podcasts siguen siendo manuales.",
   "books": [
     {
-      "title": "Nexus",
-      "author": "Yuval Noah Harari",
+      "title": "Enemigos Íntimos: La larga guerra entre Petrismo y Uribismo",
+      "author": "Mauricio Aranguren Molina",
       "color": "blue",
-      "tag": "IA · Poder · Democracia",
-      "description": "Harari examina cómo las redes de información han moldeado la historia humana y cómo la inteligencia artificial representa una ruptura sin precedentes: por primera vez, una entidad no humana puede tomar decisiones autónomas con consecuencias políticas y sociales masivas."
+      "tag": "Colombia · Política",
+      "description": "Análisis profundo de la rivalidad política que domina Colombia, esencial para entender los conflictos actuales entre el gobierno De la Espriella y las fuerzas tradicionales. Contextualiza las acusaciones recientes y la lucha por el poder institucional que marca la agenda nacional."
     },
     {
-      "title": "El olvido que seremos",
-      "author": "Héctor Abad Faciolince",
-      "color": "rose",
-      "tag": "Colombia · Memoria · DDHH",
-      "description": "Memoria del asesinato del médico y defensor de derechos humanos Héctor Abad Gómez, eliminado por paramilitares en Medellín en 1987. Una de las crónicas más conmovedoras sobre la violencia política en Colombia y el precio de defender la vida."
-    },
-    {
-      "title": "Cómo mueren las democracias",
-      "author": "Steven Levitsky & Daniel Ziblatt",
+      "title": "Renta Básica: Un Ensayo sobre la Libertad",
+      "author": "Philippe Van Parijs",
       "color": "mint",
-      "tag": "Geopolítica · Democracia",
-      "description": "Dos politólogos de Harvard analizan cómo los regímenes democráticos colapsan desde adentro: no por golpes militares, sino por líderes elegidos que erosionan las instituciones gradualmente. Un mapa de los riesgos que enfrenta América Latina hoy."
+      "tag": "Economía · Desigualdad",
+      "description": "Propone modelos alternativos de protección social frente a crisis económicas, relevante ante los retos presupuestales de 30 billones que enfrenta De la Espriella en 2027. Ofrece perspectivas sobre redistribución y estabilidad social en contextos de austeridad fiscal."
+    },
+    {
+      "title": "Drogas y Democracia: Hacia un Cambio de Paradigma",
+      "author": "Hempy Cole & Juan Carlos Garzón",
+      "color": "rose",
+      "tag": "Seguridad · Narcotráfico",
+      "description": "Examina la relación entre economías ilícitas, control territorial y estabilidad institucional en América Latina. Fundamental para comprender los operativos contra 'Calarcá', los ataques en Cúcuta y la persistente amenaza del ELN en contextos de transición política."
     }
   ],
   "tendencias": {
@@ -59,18 +59,48 @@
     ],
     "podcasts": {
       "colombia": [
-        { "title": "Conclusiones", "host": "Fernando del Rincón · CNN" },
-        { "title": "A Fondo con María Jimena Duzán", "host": "María Jimena Duzán" },
-        { "title": "Vox Populi", "host": "La Silla Vacía" },
-        { "title": "Semana en Vivo", "host": "Revista Semana" },
-        { "title": "Hoy por Hoy", "host": "Caracol Radio" }
+        {
+          "title": "Conclusiones",
+          "host": "Fernando del Rincón · CNN"
+        },
+        {
+          "title": "A Fondo con María Jimena Duzán",
+          "host": "María Jimena Duzán"
+        },
+        {
+          "title": "Vox Populi",
+          "host": "La Silla Vacía"
+        },
+        {
+          "title": "Semana en Vivo",
+          "host": "Revista Semana"
+        },
+        {
+          "title": "Hoy por Hoy",
+          "host": "Caracol Radio"
+        }
       ],
       "mundo": [
-        { "title": "The Daily", "host": "The New York Times" },
-        { "title": "Global News Podcast", "host": "BBC World Service" },
-        { "title": "Aprendemos Juntos", "host": "BBVA" },
-        { "title": "El Mundo Hoy", "host": "El País" },
-        { "title": "The Economist: Editor's Picks", "host": "The Economist" }
+        {
+          "title": "The Daily",
+          "host": "The New York Times"
+        },
+        {
+          "title": "Global News Podcast",
+          "host": "BBC World Service"
+        },
+        {
+          "title": "Aprendemos Juntos",
+          "host": "BBVA"
+        },
+        {
+          "title": "El Mundo Hoy",
+          "host": "El País"
+        },
+        {
+          "title": "The Economist: Editor's Picks",
+          "host": "The Economist"
+        }
       ]
     }
   }
