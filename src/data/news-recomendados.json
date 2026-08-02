@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T10:01:45.944Z",
+  "generatedAt": "2026-08-02T10:01:32.063Z",
   "outlets": [
     {
       "name": "InSight Crime",
@@ -90,6 +90,12 @@
       "color": "yellow",
       "items": [
         {
+          "title": "Holganix",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHekV1aHpXR1FZTUFFVGtvdUhsUTBqNVdkeTc4cHhnbUJSckhvUktpRHhVVVFrNkdkR1JmMU12MGV5LTVwNVVGMi1wb1pob1Bxa2Nucl83dDJXQQ?oc=5",
+          "pubDate": "2026-08-01T20:49:37.000Z",
+          "snippet": null
+        },
+        {
           "title": "Horizon3.ai",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CUWtmTEc3SG9ONElGWGJzMlpjaktFSDdWT294ZnZqMDI3ZVc1TFJ1RmQ4dDFuNlZ3ZVAzd2RpSkdqZFJUbnZuWlNOU0VoemE5ajg5eDBHU1d0OW9DM3c?oc=5",
           "pubDate": "2026-08-01T04:50:46.000Z",
@@ -108,21 +114,15 @@
           "snippet": null
         },
         {
-          "title": "¿Cómo pueden prepararse los recién graduados para el mundo laboral cuando la IA está reemplazando los empleos de nivel inicial?",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNODJ6Wk1KWHh5Y0V4SWZuMWdUUlpCZW9IaDlyQ1lpZldtbW50b2EtZkU1Nk4ySnhRcTRMMXJqbTdoWDlmd2VUMlYzOWVDcThwNnZjM2dsRWU3Tmt6N0l6TUxabll3TGcxOXA0TERwWlhhVlBzT1lUVy1vMVRYQm5Qb2VUSGJaa21mYWhIc05QM3pMWU8zWk15Y3F0M1Mzd1BGSUllVFhCSHlxVXNRYzlkYjFndXJlOGlyMnJESEdwUzVBTkFkcFh0NURxZmdTUHpoRVdpUkJRclRqRTBMaDRDYU1WY2Fxc0JrcG1XOA?oc=5",
-          "pubDate": "2026-07-29T14:54:12.000Z",
+          "title": "Cómo los aeropuertos siguen funcionando en tiempos de crisis",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU0UtTGxsd25jcXFfdFN0ZmpfVjUxNjdyYnlEdzBYVldsWXlDXzIzYWJ1NzdpUVMweVQ4SWJGVnNDRE9hSnBRX1o2VjQ5Y0YxWUZLbFlLOVhXRDdfT1F6aXg5eWZwdHNEOUIzUGlSZVBfUGwxNTBDa3hyTTRyNFRnRk96a1Nvbm1EWEVwanVnSmZTUW9WWFE?oc=5",
+          "pubDate": "2026-07-30T13:11:33.000Z",
           "snippet": null
         },
         {
-          "title": "From 'polycrisis' to 'polytunity' - the future of geopolitics with Prof Yuen Yuen Ang",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM29mUGJJbVB0RWhzdTJXNFppLW82MFBUYjJ6NEF0VURnUzVlOWJoX3hiZ051bWxDQ0FnSV9rU2dmZk9zXzRjWklUbTR3QTZMY1VxOS03eW1ab3EyZnBfN2dpU2REUXF6RzEta0lyNmFCQUZuSE1SUUc1UTFEcW50M0dVb2hIX2Z1ZF9wbXdINGZXaURBOWdWVDNtZEVEdFV3c25sQlFpbUV4bzQ?oc=5",
-          "pubDate": "2026-07-29T09:46:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Este CEO Tiene 3 Consejos Para Seguir Una Carrera Basada En Tu Pasión",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZTlQc3V4dDBYaGhPZVZLTDZrS25LRDd3S3dUZm5nR2lfVi1ENm1VU1ZvU1ZVb0Z4aGk0YVVmaGEzQXZxUk9HUHhfOWdKZzlNRm9TejJiR19ob21hRmRJZUw1RTB2Qy1ma0N6T1JhXzRfcm4yMFdtZ2I4RHp5WDlTbi13Z1B6SGZtVmR5OF94V3doajJLdGZkQ1ZBb0FnMElOWXpR?oc=5",
-          "pubDate": "2026-07-15T14:07:10.000Z",
+          "title": "Corregir el workslop puede llevar horas. Así es como puedes deshacerte de él",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83YnhhUEZURjdRSk90SkEtQjRqUDN3bDlMUUJMZU1xckRCUVVSU2IyZkxPRzdUbGd3cGViM2UyQ05vTURvTERqdHdqbGNTNGF6RHpJWA?oc=5",
+          "pubDate": "2026-07-29T15:02:45.000Z",
           "snippet": null
         }
       ]
