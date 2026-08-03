@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T10:01:32.063Z",
+  "generatedAt": "2026-08-03T10:01:36.891Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -12,11 +12,6 @@
       "url": "https://podcasts.apple.com/co/podcast/dianauribe-fm/id1440323217"
     },
     {
-      "title": "Seminario Fenix | Brian Tracy",
-      "host": "matiasmartinez16",
-      "url": "https://podcasts.apple.com/co/podcast/seminario-fenix-brian-tracy/id1735157109"
-    },
-    {
       "title": "365 con Dios",
       "host": "Wenddy Neciosup | Genuina Media",
       "url": "https://podcasts.apple.com/co/podcast/365-con-dios/id1546917854"
@@ -25,6 +20,11 @@
       "title": "Estoicismo Filosofia",
       "host": "Estoicismo Filosofia",
       "url": "https://podcasts.apple.com/co/podcast/estoicismo-filosofia/id1740616448"
+    },
+    {
+      "title": "Seminario Fenix | Brian Tracy",
+      "host": "matiasmartinez16",
+      "url": "https://podcasts.apple.com/co/podcast/seminario-fenix-brian-tracy/id1735157109"
     }
   ],
   "mundo": [
@@ -49,9 +49,9 @@
       "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
     },
     {
-      "title": "Morbid",
-      "host": "Ash Kelley & Alaina Urquhart",
-      "url": "https://podcasts.apple.com/us/podcast/morbid/id1379959217"
+      "title": "Pod Save America",
+      "host": "Pod Save America",
+      "url": "https://podcasts.apple.com/us/podcast/pod-save-america/id1192761536"
     }
   ]
 }

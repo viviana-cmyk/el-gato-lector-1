@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T10:01:32.063Z",
+  "generatedAt": "2026-08-03T10:01:36.891Z",
   "outlets": [
     {
       "name": "InSight Crime",
@@ -90,6 +90,18 @@
       "color": "yellow",
       "items": [
         {
+          "title": "Power of Focus: Strategies from Top Leaders",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUHFZMVpnekdPMkJXR2tHVjl1OEpfMXZ4ZEtXTllVX3JLazBKLTl6bTd5Q1dCRVZFLXFRZ0JZTVozUHh5ZzdQVEhod1hVTnZjczN6Ry0wOGEtdUw2aU94aF9qUjlSOElmTFZKVU9pZnY1ZndnZUlFVGtkMUp4c09RWllITU5IRjlaSGhQa1JIZzlfOGYzM2lad0VSQ2dyem9nWGc?oc=5",
+          "pubDate": "2026-08-03T05:10:57.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Etched",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBUNExmak5ySFppNTktT2Z2OHF0TVhlam85TDl4YmlXMndkTEdwUnFpUmZaM3dXSk5iY0cwcFBUb1I2RGVJeUlWMS1pM3VXR0ZxUEhaSHVNQQ?oc=5",
+          "pubDate": "2026-08-02T12:47:27.000Z",
+          "snippet": null
+        },
+        {
           "title": "Holganix",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHekV1aHpXR1FZTUFFVGtvdUhsUTBqNVdkeTc4cHhnbUJSckhvUktpRHhVVVFrNkdkR1JmMU12MGV5LTVwNVVGMi1wb1pob1Bxa2Nucl83dDJXQQ?oc=5",
           "pubDate": "2026-08-01T20:49:37.000Z",
@@ -111,18 +123,6 @@
           "title": "Event Details - Tijuana Hub",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU25XeDEtbm9MNjZERzAxTTRMb3F5SWsyVzE1TVFyYWxEeW5JeHlUMmYtY2Q1OWtSQWFRdjBkZWhnR18zQmlDQ2dMc0RDMjMtTU5XV0w3Ry1hbVhGNEdUUTNHQW12RWZCWDUtNmxUMUphTjdva294MElqbl9NSjVYdEVmeEY2V1NUbEFhd3BQSG04VllJU3YyTjJmdWFhTkRlblE?oc=5",
           "pubDate": "2026-07-30T13:20:21.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Cómo los aeropuertos siguen funcionando en tiempos de crisis",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU0UtTGxsd25jcXFfdFN0ZmpfVjUxNjdyYnlEdzBYVldsWXlDXzIzYWJ1NzdpUVMweVQ4SWJGVnNDRE9hSnBRX1o2VjQ5Y0YxWUZLbFlLOVhXRDdfT1F6aXg5eWZwdHNEOUIzUGlSZVBfUGwxNTBDa3hyTTRyNFRnRk96a1Nvbm1EWEVwanVnSmZTUW9WWFE?oc=5",
-          "pubDate": "2026-07-30T13:11:33.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Corregir el workslop puede llevar horas. Así es como puedes deshacerte de él",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83YnhhUEZURjdRSk90SkEtQjRqUDN3bDlMUUJMZU1xckRCUVVSU2IyZkxPRzdUbGd3cGViM2UyQ05vTURvTERqdHdqbGNTNGF6RHpJWA?oc=5",
-          "pubDate": "2026-07-29T15:02:45.000Z",
           "snippet": null
         }
       ]

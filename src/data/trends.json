@@ -1,35 +1,35 @@
 {
   "x": {
     "colombia": [
-      "#CartoBombaCúcuta",
-      "#CorrupciónGobiernoPetro",
-      "#VolcánPuracéEnAlerta",
+      "#AtentadoIquira",
+      "#TransiciónDelaEspriella",
       "#CrisisSeguridad",
-      "#ViolenciaOrganizadaColombia"
+      "#IncendiosForestales",
+      "#GobernarEnFragmentación"
     ],
     "mundo": [
-      "#IránEjecutaJoven",
-      "#UcraniaDronesContraRusia",
-      "#IsraelGaza",
-      "#CeutaMigrantes",
-      "#TrumpIrán"
+      "#TensiónIrán",
+      "#CrisisCeuta",
+      "#ApagónCuba",
+      "#MigraciónMundial",
+      "#GeopolíticaGlobal"
     ]
   },
   "tiktok": {
     "colombia": [
-      "#CúcutaBomba",
-      "#CorrupciónPetro",
-      "#PuracéVulcán",
-      "#ViolenciaEnColombia",
-      "#EmergenciaNacional"
+      "#ColombiaEnCrisis",
+      "#IncendiosYa",
+      "#NuevaEra",
+      "#PolicíaAtacada",
+      "#AmazoniaEnRiesgo"
     ],
     "mundo": [
-      "#IránEjecuta",
-      "#GuerraUcrania",
-      "#IsraelGaza",
-      "#CrisisMigrante",
-      "#TrumpAtaque"
+      "#CeutaEnCaos",
+      "#CubasinLuz",
+      "#TensiónsConIrán",
+      "#MigraciónMundial",
+      "#CalorExtremo"
     ]
   },
-  "generatedAt": "2026-08-02T10:01:38.430Z"
+  "generatedAt": "2026-08-03T10:01:42.953Z"
 }
