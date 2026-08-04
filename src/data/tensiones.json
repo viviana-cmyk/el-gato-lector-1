@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-08-03T10:01:42.953Z",
+  "generatedAt": "2026-08-04T10:02:09.028Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Escalada EE.UU.-Irán y negociaciones nucleares",
-      "region": "Oriente Medio",
+      "titulo": "Escalada de ataques de drones entre Ucrania y Rusia",
+      "region": "Europa Oriental",
       "noticia": {
-        "titulo": "Pese a que EE.UU. detuvo sus ataques, persiste la tensión con Irán y hay temor en la región",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORlUxeWNxMVFSLTZsdW9mVlQ1ZEJrTDJPclMzaWJqOXpZV1NWc28xaXQ4NE9JNm1pMEZUVG1wcWlyNnhLQzYzMlpHWVpnckZWWXB4MFVZSExiMlhWckJFVEgxNTJTVDktMTEyYWluN3BtUUMyakNrdkM4QmlDWEt2MDBiLXhQd1NZWFlrWklVdjVhRHB4V1ZLbHhB?oc=5",
+        "titulo": "Video muestra el momento en que un dron ucraniano impacta en una playa de Rusia y deja siete muertos",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb2ZvMkZFaTRocWVqeWs4ZklTenNQY1B2bVNxemZ3SWxScGxNRHhlUzVWMG1EX0VGUVVqWVBXRm11eWlxSUE2VlRUWjBheXpoM18zY1lQVlJhTDYwajh1UkR3TTRKMzlhcGZqU1BxSjNJVVpFaXBnUnQxdklvZUhxSVJXTEtJZi1MOFVJMFI4RDdZdw?oc=5",
         "fuente": "CNN en Español"
       },
-      "analisis": "Trump canceló represalias militares contra Irán pero mantiene la presión diplomática con negociaciones programadas para el lunes, evidenciando una estrategia de contención sin escalada directa. La persistencia de la tensión regional amenaza la estabilidad del Golfo Pérsico y complica los equilibrios con actores como Israel, Hezbolá y proxies iraníes distribuidos por la zona."
+      "analisis": "Ucrania intensifica operaciones de ataque directo contra territorio ruso incluyendo infraestructura civil y plazas de playa, marcando un cambio táctico hacia objetivos de mayor visibilidad dentro de Rusia. Esta escalada responde parcialmente a la estrategia rusa de atacar infraestructura ucraniana como Wildberries, evidenciando una guerra de desgaste económico y psicológico que trasciende los frentes militares tradicionales."
     },
     {
       "rank": 2,
-      "titulo": "Crisis migratoria Ceuta-Marruecos y tensión bilateral España-Marruecos",
-      "region": "Mediterráneo occidental y norte de África",
+      "titulo": "Crisis migratoria en el Mediterráneo y presión fronteriza en Ceuta",
+      "region": "Europa Meridional / Magreb",
       "noticia": {
-        "titulo": "Ceuta Migration Crisis Exposes Despair Among Morocco's Young People",
-        "link": "https://www.nytimes.com/2026/08/03/world/middleeast/morocco-ceuta-spain-migrants.html",
-        "fuente": "The New York Times"
+        "titulo": "Última hora de la entrada de inmigrantes a Ceuta, en directo | El PP lleva la crisis de Ceuta al Parlamento Europeo para presionar al Gobierno",
+        "link": "https://elpais.com/espana/2026-08-04/ultima-hora-de-la-entrada-de-inmigrantes-a-ceuta-en-directo.html",
+        "fuente": "El País"
       },
-      "analisis": "El flujo masivo de migrantes hacia Ceuta refleja una crisis socioeconómica en Marruecos que Rabat ha instrumentalizado como herramienta de presión contra Madrid en disputas sobre soberanía territorial y reconocimiento del Sáhara. La crisis expone grietas en la cooperación bilateral y aumenta la fragilidad política en un territorio español enclave donde confluyen migraciones subsaharianas, presiones internas marroquíes y disputas de control fronterizo."
+      "analisis": "La nueva ola migratoria en Ceuta refleja dinámicas estructurales de inestabilidad en el Magreb y presión demográfica no resuelta, con actores políticos españoles llevando el tema a instancias europeas para exigir acción coordinada de la UE. La instrumentalización política interna muestra fragmentación sobre política migratoria mientras Europa carece de mecanismos de distribución de responsabilidades solidarios."
     },
     {
       "rank": 3,
-      "titulo": "Colapso institucional y energético en Cuba",
-      "region": "Caribe",
+      "titulo": "Crisis hídrica y energética europea por sequía extrema",
+      "region": "Europa Central",
       "noticia": {
-        "titulo": "Cuba enfrenta otro apagón nacional tras colapso de la red eléctrica",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObDc4QW9Bald5bXhvanE5OWo4WVBERzRhOVBOZDN5R21heExmMlZuTHVmTW52ZGxFSTlMeUpVR2NrS0dvN05yYVlpc1JPMnZYRGdlVkNfZDUySURfcEpGbm1vdUZYUXF6SlBFVi1ORzhQY3l4d3d4WkZyZkpZVUVLUGpNdGpVTTRfSkxLZzdsRU90Z3M?oc=5",
-        "fuente": "CNN en Español"
+        "titulo": "Hungary comes 'within millimetres' of shutting down nuclear power plant amid drought crisis – Europe live",
+        "link": "https://www.theguardian.com/world/live/2026/aug/04/europe-drought-extreme-heat-wildfires-climate-crisis-hungary-romania-ceuta-spain-migration-eu-latest-news-updates",
+        "fuente": "The Guardian"
       },
-      "analisis": "Los apagones nacionales recurrentes en Cuba reflejan el colapso de infraestructura energética tras el embargo estadounidense prolongado y la debilidad fiscal del régimen para importar combustible. Esta degradación institucional genera inestabilidad doméstica con potencial para aumentar presiones migratorias hacia EE.UU. y alienta demandas judiciales (como la recientemente presentada contra la Unión Eléctrica cubana) que profundizan la crisis de legitimidad del gobierno."
+      "analisis": "La sequía europea amenaza el funcionamiento de centrales nucleares y plantas térmicas por falta de agua de refrigeración, exponiendo vulnerabilidades críticas en la seguridad energética del continente durante transición hacia renovables. Este colapso potencial de infraestructura vital coincide con presiones inflacionarias en energía y alimentos, generando riesgos de inestabilidad económica y social en múltiples Estados miembros de la UE simultáneamente."
     }
   ]
 }

@@ -1,21 +1,14 @@
 {
-  "generatedAt": "2026-08-03T10:01:36.891Z",
+  "generatedAt": "2026-08-04T10:01:49.676Z",
   "outlets": [
     {
       "name": "G1 (Brasil)",
       "color": "green",
       "items": [
         {
-          "title": "Muertes, desapariciones y apagones: vea lo que el vendaval en Río de Janeiro causó este miércoles",
+          "title": "Muertes, desapariciones y apagones: ve qué causó la ventisca en Río de Janeiro este miércoles",
           "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcmQ5TEZ5VzViamVxRzNWLTZHVWRWM2NSdnEyWkJLcnRIY29hYkV0QTJfdS1UVWlRUFIyVXNxUXU2NVBWQXFwdUFWZWg2dmRhenFPUUkzeGVpc0YtUE54OWRvZDAwY2V1VDYtXzQwM19aU2hPOERuTnB1eGl6YzRnSzByaTVlLVpBMUNUbTZzaFBQRnlwR3BjY0ZOSk1TLWVwbEJyVDNDc3V1b29hSFgwZFl1c28zN01NVWdfNUw3UjRiUngzMF85SWVKX3BXUVJJcl9BOVFqbHBSN3RabVcyTUpweDM2MUZkdVHSAfgBQVVfeXFMT0d6TDhmNEFvVUJfQ2JVX3l0V1JlMFFGY1NrMnRvTEdnZlA4c185ZFlxdFk1WmNuaW1LdFMtb0k5VWJEQTRabmhKS09QcWlHLXdReFZ2V0p3THdDMlVGY1VxOWowaGF0d0pEak5DME1SUDRQR1h4UVdvWWY1cWlzME55Wko2R193VDY2d1BIb3ZtV2F4Q2JQUmEyc0VxczZaVnVVdlFCTVFROTZIbjR2aXUzSkRHSjBCRGdwMElOektuRkc2ZjVwdXpmLTNoMkIxbU0wWkZGa0IzNjNyWlRKck5qVldBZmg2dHI3b2JMQzBkalY4LUFwSXY?oc=5",
           "pubDate": "2026-07-29T23:11:15.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Convenciones partidarias: PT y partidos aliados oficializan las candidaturas",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZ2lRRTJQUm85UlJPWGdiTjFHWUFLclJWc1BPd0lGZjhnekdEcHhtUkF4N1JrU3YxZUVxbEhGRnhjaU42QmFiYXBxMmxYY2lUbTdoaUhoQzhvVjNlQXZyMXdNZUVSUUFwUmVFWGNDSzJ6NU41d0x0ZzhmOThpRTZqX0xXSXJjeHdOcWpQUzR6SWJJYmFYb0VlWkc1aDJ0YXN4ZTk1WVA3RndDSVZWVHpSaFVvT1lfMm9wZ2dXVHgwNlExU0szM1h4YzZjbnFYcFZLc1VuQi11SlgwR1Br0gHrAUFVX3lxTE1TUEtzV0tVYTc3bVB0TVl5bkpDbmdtX25YWndYU1ZjSEhRRElLWWpZWHFINTF0c010emhfZXFWdnZBb3Y0dDlZQlYxbjh0cGs0REdkUUNWS1JWZklpMTNEV2VDUzdMVWxhQXlsY0dJRVBlYVdGaDFWNVZTM3lnT1Z4SHRNdHl3elNoT0Y0eHJlbldicDZDaXdkOWVnR2s0ZWJ2NnQ3cFRSU19BQzhTOGM5eWMzd2l2ZTk4dTBFUDVLSzVrMWh1YmhFdzlkVTlIVGw5WlpiV3NDQ3VvUXduWDhHSkdCRHNJMEhhajA?oc=5",
-          "pubDate": "2026-07-27T14:11:12.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -26,25 +19,23 @@
       "color": "sky",
       "items": [
         {
-          "title": "Milei dijo que los extranjeros deberían pagar los servicios: “Eso de que vengan, usen nuestros recursos y se vayan, no”",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMmtYYzRULXhkeE04OF80aGUzeE5lS1FvNHpvV2RKUVJqWFduVGRuWHc4VkVKdEYza3BkZXBWZlJyQ2tqaHdJS1J5ejBBajVVM1lpa2ZBSkI2OEI1UEZxMkVrc3RUTk5qZ1hnbjNpLTFXU0Q4aTV6UmVsa3VuWFdLNWNqRFBPWlZXQzdidGdtbDFENkpOUXBEdmhvb01YRWM1SzBDVUdZUmstbmdUQW4ycVNzeEdFVUxfbThnVHdkeWxSa1l0MFVoaFZzYnhvb2hmN1MyaXdxam16RFVxSXd6WA?oc=5",
-          "pubDate": "2026-08-03T02:25:00.000Z",
+          "title": "El paro de prácticos genera un caos en el comercio exterior de la Argentina",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVnkzbzd3eU8ySE1GTEl1dVRKaWtfbDNfTzBnTUlDWUxabC1vQ01LUG5EcGRVRzNhaFRIcUw2a0pNbjJ1SERPbFpUcUxBUzI3YVNKams2bm1sUXR1WUlYbmN4cklabEMtellkSFp6U3d5WGE3YkJuVWV1ajZZMkdGVmdYSnhHUHA5TkRaSHJJRlJyczdIenJoQnhyUDYteVpCY2pEU2I0Wi1oMlFMTFJaNVJzcXZlRTVCdHk4Um5OY0hXWTA?oc=5",
+          "pubDate": "2026-08-03T23:15:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Flavio Bolsonaro sufre un traspié para cerrar su fórmula y expone dificultades para pactar alianzas",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZmN5UG1vSVVFUG95VWcwcVVBSjBYd2NjeWJMV09nRVhYRVZfaTJldVJzSElUWlNQQWlFM0o2Rk5sUVpRUWxyV3ZvcFJCUFZmbk9yTTZwQW5YLWQ2NmJ0bU44d2xTdmg5M1p5VDFjcDZkY1NDOGFlNmNUVVVscTZFT3RHaVh2UmhHYi14SkwyNVhRX29vQWRzekVMaHZYdnBUa0N1UGsxMDE3R1RKbEhlVVc1ZFYyUnh6RllKZUk5Y092dEpPZnU2SVktQ0FjeUF5dmpQSGtnbFRRczVIN1E5NGdBYw?oc=5",
-          "pubDate": "2026-08-02T22:51:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Ni Punta del Este, ni José Ignacio: la zona de Uruguay que promete un boom inmobiliario con propiedades que se revalorizaron hasta 80% en cuatro años",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNenR6eEhHdlpUeWZaUEdXV0lEMjdZTXUxbEJXRjNSTDFLMUl6dGs1ejktcklraVNGX1N4OXUwUG1jSG5LazByajN5NWlWQ25IeDhHS3RfRTFzTjkxZDBkVXlkT21hdHFxclc1bmRRYXFBa3UwOGZObUFhbkZDMGg3NFhaend1X2p6ay1vNGpoYXRNdlRKNkx4c3FQLTg4UmhZVHhRX2VodnhOaXZyQXU5X25EVXVYVFlzWDMxNzd3OGctMkRaaFRTck1GeFllTU02RS1JNUdnVUpYY0JGeGNEQWxlMTFiU1BpNWhBQjdRMkpmOE9OUUtWbzlpLU9qOFk?oc=5",
+          "pubDate": "2026-08-04T09:44:00.000Z",
+          "snippet": null
         },
         {
-          "title": "Los bancos anticipan mayores exigencias para prestar: la respuesta del Gobierno por la mora récord",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORndqQng2dWYxQlJHV1RqMHRub0ZwUzI0ckpNLUlZTjZhOGNLWFE0SGNXU3NRaVFHanotLWJyalBDaHlBZ2VNaDJMaFA4Wlg0VklMQzQwZ0dwcmNwc3dNZHlLQlhXMHJsVWtzQVB1aVZTUkVLRnZ4RTlGeWd4MWppZUpwR2ZhRWJlN2hhemFLVUMxdnV2SkV5cURjdlNYZEpOU3RSNE12U1B2cFFPMzJQaDNpNE1NTTlZUDVOV0tKQlB1ekRDR0RyOXI1VGlPLVE4VFJQOFdlc1ppTXVOM1NDYQ?oc=5",
-          "pubDate": "2026-08-02T21:26:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Fue la “novia del país” y rompió con todo cuando se supo de su amor secreto: la historia que se llevó puesta una idea de 65 millones de dólares",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNU0ZZMDFnanlPeEU1UXRRaTBqMzVXdVhDN2hGUmhMRXpCQU5wZFJXYnRqWThHelhOSUZ0cWJ4Zi05NFh6Tm14d05sNjF6Z0tYVjhHRm14ME1qcHg4MmczRmJfcnBkSkE4SWtHYTRENDhkN1dNbGs2MWtEQ21nM3RRQWJrVHFycGM1aHVlY3BaT1p3Rll0MHFKaTFjMjkwcWlVOVdaaXlEU2xJSkpsOUt1NWcyWVdvVUd3TXFiRHBYdnkyYmNmRm8wT2dlSTY3NmVyb2Q1cTZackR4clVYTmRNcUtVOVR5UQ?oc=5",
+          "pubDate": "2026-08-04T09:11:00.000Z",
+          "snippet": null
         }
       ]
     },
@@ -53,25 +44,25 @@
       "color": "rose",
       "items": [
         {
-          "title": "Vinculan a proceso a “El Diente de Oro” por probable trata de personas",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQ1huT1BFcFluVmlYeXVjb19pNThwc2lscEh4U0M4a2ZoVFFTZmZxMTFiVHJfN1lHaE5oUGJLZXJ1aVY4dlhMVlA2cEpEck5zWVBLN3l5dTR6bnFFeUNLc0ZrY1Q4Z0xMd29aQmN6ekhOb2ozN2xKQUJXNU5xWFQ3SmNKWm9GWURMSnFEN0FxdTA4WlJ3M2JVZl9kaGNBXzAwczZsc2w0cjZTMUhicTMxZHVNbGZ2a0Rua29jU9IB0AFBVV95cUxNTk02SjBYZWFlNlZDam1DQjdNYnRhUFBYcl9iMGpVckZyaldCV3V1SFh5ZF9pRHFEaTBQTlNqLXZ5MklWajN2S2owNXJsSWRHNzdncC1zWTMyTldxb050YUJPdDJ4Uzl2bVhiNkUtOS1ld2xzQVE2TjFISURSeDhzQWZFMjF5MmxPN2MtbjN3ckJNU1ZXb0dTLXgyUG9BSnNXT3h0SEVHUTNEVTN2ZUpWNDNvRjMxclllTUVhdjNhTTRQdjNhQVJTLWctVnJfblRZ?oc=5",
-          "pubDate": "2026-08-02T21:07:00.000Z",
+          "title": "Coca-Cola aumenta hasta 5 pesos precios de refrescos, aguas y bebidas",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOX2VIUVJjVDAtaUY5MHpjR1dXSk1pTDhpMjQyX3RybzVZUU9oNFZzRHpPRmxxX1QzX3U0OGoxOG1KS2hVVHQybTg4UWJtWmkxUm5NZDAtdThLVzNteGFEcXhacWg5LWxzZXR6Tkhhc0dmTUJpRm9SWE5MVHNqMTZpV0d2dGxwSmVTelIyVDM1LWxaTXd2YXBLNzdKcGpsczR0eUdGV3U4WHVLVlhrRXdIOFJrREFjMko1TDF3Smdmb0JJSlRxQ0FoNFQ2X3ZzSmp2UjRXT0JqcXBQWkt2RllUOG1sb21TVkRY0gH8AUFVX3lxTE1felJuQ2ZBazZld2FHYktFNEl0R0ZrOTBfeUR6MlVpV3dEamVSNm5yd0JQcW92SEwyM2podWFMQjlnVDNkTVphb3ZweFE4Y29oUnhCVGk0ZWVad0xidTZPeTdlWTlDNFdycXFfSnVuYURlSXFZVjVUZHJiNEJHbHZSZHY5NkptOW9obms2Zmpmb01ienFScFFKc1VteldzT1RMUUlJc0RmOGIwaG5kQlRfcjFreE9raG5LZHBnZ2lQaWJWMWlvaUpCSGVpN3hlMzhqWEtsU254cWVOUThmdVd0V0UwVzhaT1ItSFZPXzZSRFQ2dmNjR0FoZmlEUA?oc=5",
+          "pubDate": "2026-08-04T01:07:58.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "IECM repondrá jornadas de participación ciudadana en Cuauhtémoc",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPc24yNDh4My1iTE1IelBmZWVVSGlKb2tQTXNiVHk4bXdxYlNqbFJaVTRxdzNfYkhTSnZGd29JNmtiZF9UWUdCZnBwVDNxaHZlc3ZPSVFBenp4S2p2QUtxdHFrVFRDcWdqTXUtRzJ4SEdtd1hTckgzNlZCVmpwTTVDNXcySzRac25GUEE5enBoMjRPYXpCLTIwREdDTmFpdDZHVU9xMmFiSTFvTFM0YlNKakl6cXFnNGIzQmtBRUxQV1Qtc3hwYVIydlgyY1lvYng3ZzNQMktya9IB6wFBVV95cUxQRWYwTnJmZlAyLXRvcjNBaXpOdnBiVUtXcUIxcjh3WkV3U3hnYk13MGYzRkxqM28yMW9LZ3FaM1F0MUtiQy1XbVVubXhsRW9KWnEybnI0dS1UcXN5cHQwLXpRbExXRGlBLXpfeTdoM2ZBMEI2Mi0tUy1OaEFoV2I4bjdYcTJGbUxiUU02U0J2aWtVQkRhSzlrWWljXzh3bk00WXZfMkEydFFKOGFMLXpTcGR0OWJXRkpKdWxVeWpRSkFsSDZsRV9UdGY2T25LeTcwUHp3UVI2TXlTeER3MzZYRVFtcE41aXk2TmdR?oc=5",
-          "pubDate": "2026-08-02T20:17:28.000Z",
+          "title": "La empresa que metió en problemas a la UNAM y próximamente al gobierno, escribe Claudio Ochoa Huerta",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdk41THNVN2x1RXltYzRYYWFfSjBKcVU1VktTc2toR2V4alZITnE4QmY1TTg1S2hqblBTdDA3SzNfY1RsUnpCeHhldldkcTJlYlktWi1iZWFQN1BpdW5Na3dzYUNaX2haYUxfbDd6aTcxbl93dlY1ZENVMWRyYU9DZzJCRzQwQ05nQk1IZEkzem1GdERTZTdOa1Aza2RvenVmcEY2N01zTUxWa3pCMGVNREQ0ZExTeGZEamRoSng3Rkp3dEVRY1dsbUZDMA?oc=5",
+          "pubDate": "2026-08-03T23:28:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Zyanya Parra gana oro en trampolín de tres metros en los Juegos Centroamericanos 2026",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPT1FCQUY2RnhWbTFnMkpsRkdaZWotUGtaZEd0TlJnMWRxTV9zQ2YwUHVlZ2thMzY4SjA3clh0ME16UlVRZWRrWlpRMGNhaC02ZzBvbE9SLUJrd0Y1cG5yVktScmc4REVCc2VFLVhIVmM3QlBYa01uYldiLTFGX3JBT2ltY01Fdk01UjdXX29POUc2dl9hYUFoSkw2Sk16UGhtQncydG9oNFNlVmo3MTVVUVctUmVVZzEzd0VLU2REQjBTZHYyWHRYYVBLX2JHRXdhU1NR0gHnAUFVX3lxTE51UjZtX251VVJDNUZmdWhWa2picnhNYUxzODRFNkI5bmd4eUJkSEpzQUlIY1VtT1IxUUROdHNaNV9aX3RNWm9Fb0ZBcmFxOHBPbjVaU01ZYjcwa1NJLWVBNk44YXllR2o4aVZOSEtEX2Rxa2ZHX0NBNG94Y0xRcWxIc19IOGtwT1FuUGZKZDdmdDRaOHlQUGpHaUZsNTdQR2NUTm1UNVZzSFBEa1hlZkFBMDl1MS1Bd25WaGV0UDFGWHI0cDljZG1BeEJPZV9XTkZ4STZITHRwdXhKV2pGOXoyMTgzbUZrMA?oc=5",
-          "pubDate": "2026-08-02T20:59:43.000Z",
+          "title": "UNAM pagó el doble a Territorium por examen fallido",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMUhEZHdaMDlDWFlQSGRNNlF2RV9LdXhtaWJvQW1ndHNzNnlNSHlfYkcxekdNQjh5eEc5Y2xDVzhWdzcyWFJ6SHRIY3FWaTZFam4weVFHRWE5ZFE0V1otUV9OZUZPOVU0dDFRMzRGWmlhSHQyLURJS2hwcXhvSER3X0RPTGZSUGFKYVR6Ql93aWhoT1pQVEdMZ1BWcURGMG84RHlHTUo1M2RfQTk3bWJzbFMzZUtzTDhPUlhoYTRTcElpN3NtWEx3VXNMNGhOSzRwZnhJV9IB6AFBVV95cUxPYVpuWFhZVXdaZjNKem90QjZRRXduY0tIU1dySGhNaGxqaE52eTdYTHUweTRzOTh4UThncGh2NUpPU09BaWx1X01VcktvSGN4SkZ0Q0x5T3UyU3o5a1dJbnVmbkxQS2pWbXd5N3BENGVTQTBKMnpEUVlfdkFMTVlhMGJwZFhzTFd3VEliWWljYm50Ni1mUzBIaFBXeFJoX05NNkg4VmlZWExiSDd1OThFWUF1dUNFYWVrTEZaRW9XT05lN3VHcVpiVFB5cHhuMXViN2owOFphM25FbWVtY0R0Q1RLV3N4WUQ0?oc=5",
+          "pubDate": "2026-08-03T23:28:00.000Z",
           "snippet": null,
-          "_priority": "DEPORTES"
+          "_priority": "ALTA"
         }
       ]
     },
@@ -80,22 +71,23 @@
       "color": "peach",
       "items": [
         {
-          "title": "Accidente en Nasca deja 13 fallecidos durante vuelo turístico: las diligencias de las autoridades y la respuesta de la empresa operadora",
-          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMjZ0UVd2RFVKcE0tSVF5NnNTQUc1b1k4YklKNG5aazJIVjlpOG9yTVc3WmRTQWgyTWdTN3oyQ3h5dXpfSzhabVBWc1I0WE5vUExsMEpRWGVwMVZ0aEtFdlpjd3A3alV1MU0yNW5Eck5ycHcxZENKY0FOY2dvU21hQXFEVkRfdnBVWUtEcXdJRlVCQnZ1S3VmZl9ZWFB6cl96bVZiQXgzcTJEZTNQbmQzZnRPczRjNFZJZTVjWXdTcS15dGhSVDJCd2ljUWZnWUYybWRwdzlWNXdQNjdQdWE4UGFpbTlPaEFSZXE0eWVJRHlSckFVZ2o2Tm9fU0g0b29Q?oc=5",
-          "pubDate": "2026-08-02T11:03:51.000Z",
+          "title": "Precio del Dólar en México hoy, lunes 03 de agosto 2026: a cuánto cerró el USD en MXN (Pesos mexicanos)",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQjM2NGlEQzU5bjN1bV9MczE4bzBORHdSbVVlMzQtQy1KWjI0V2d2RzBRLTB0bENhR2p4UEFSYzV0c1lvLVBER3o3WXY1Y3BURUVhUlA2OXJHWUROSnBEM0wtNV9ZNkRRQmlfQl9iWE52TDl6ak9YOVJuQXR3cV92eGdMYjJncC1YanFjdF9ZOGx4dS1ES290YlBFaW5lUGk3c3dwbEpTNVhlenVRb2ZPRjctM1JUZ0F3Mk5tb0pJNTBiTi1rT3FrY3NCYVRYeGI3LWYtNFNR?oc=5",
+          "pubDate": "2026-08-03T22:25:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Samahara Lobatón se sincera sobre los gastos de sus hijos: “La que aporta más soy yo”",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQaVdZdzhLdzZkZnRJM3lKX2xieDBrQUowX2g2WTdoVXZMelZoOXdKRUd3c1E5elc0OVI4UUpJV3NCTlJnNVUwWFQxUkxhdy1BN2VmSW9MX19TNkwxRlM0MmRfY1BGNlQ1eHhnQTFxX1hja3FpZmU2M24zbC1vS1hpMk5QWEpUQ1p3Vm91a2VHSUpXd0ljMDhNT05oVVdYLTR3OWdUSlpmNk81cHNLWk43ZjltckxGd3FRRXBUM0lGN1MtZVE1Qy1KTDZERU1yd0Q2TVlMMkhSeDQtbXQyMkUyc1Z3QjRab1JuUWdqcVlqdkFmSWZvUkNkNUdDbDFEa2ZQdHlv?oc=5",
-          "pubDate": "2026-08-03T04:07:38.000Z",
-          "snippet": null
+          "title": "La ruta que seguirá la solicitud de facultades de Keiko Fujimori en el Congreso bicameral",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNUxTT1cyTmVyYmE3dnZncmt5ckI4ZXQwUXVGbVduczV4Q1FnV2M4VXRub3lKS0wxMjFxZlpQcUlhcUFaV2dSd2F5Z3ZoZXFYYWdYLS1nOVAzMVR0RFBpbnhheGVsSlY4SE90UVZ5U0RHb1ZjcFdjWUc4aS0zNUJVLThUOFpIdUdQZHlVX1dRWG5qVVFDSTY1QlFHVnotbFhfUU1pWFBsall1bXVobmZPMVJKUk1ObWpUMDRjN0VEeHNpODlaaElwNnlOc2JqV2ZQeGxvVQ?oc=5",
+          "pubDate": "2026-08-03T16:18:52.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
         },
         {
-          "title": "Lista de actores y personajes de “Mi vida con los chicos Walter” - Temporada 3: quién es quién en la serie de Netflix",
-          "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPV2c4YUN0U05rbzNvb0U1SEJjcVlJMnFnQXpMQVc3Z2JEb2R6TFAtMGV0RjktdGJ6VnBScnZab3BvT1pzVlB3SDhhOWFMVFBaNlhvUUtUMjVVcWduMHlCVnB4ZjJMMEQ4cXVzZHNvTFRKWldvMFU5YmRpSUJ0eF9icGdTSFVCNUhEMGQ3N3l4Z3g5b25VUkU4LVUycGhDQ1dQdE9BY3htX0R6OGZKRzNoeDM5czBlOS1ySXRnWFpLMFF5MGlCdDBMcFlZblBIcmJiTnFpaks0LUM1bGtBN2VfcG96eTQ1S1ZFMXhNdW13cXM0SGI0d2FkYTZreWV4Zng4dDNra1h4VmJhMXBzU2Z1Tzg5SHh0ZTA?oc=5",
-          "pubDate": "2026-08-02T15:51:10.000Z",
+          "title": "“Demasiado literario para los periodistas y demasiado periodista para los literatos”: Tom Wolfe, el reportero que creó el ‘nuevo periodismo’",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdk1DcnphYTZDUVY4R0RNNjBHeE5iVklLRFk4MkJmZTVmZllpR0xXakVaZHAxd1NDSlZtRmRlN1I1RmZiTkI0XzAyZGdCRHdNeDZyRlUxbURnNzFaM0EyWnRtZkxCa0xiV3pwWlZETjhLRlpXYWZqaG85TzNiZTB1a2Y1UEMxTGwwVmU0aXVycWlMcVdpTEpFMDRLSEJFX19JQ3p5RTFMQVNUUS1jSTNyXzg1R3B1WlNHb0E?oc=5",
+          "pubDate": "2026-08-03T20:09:08.000Z",
           "snippet": null
         }
       ]
@@ -105,6 +97,13 @@
       "color": "blue",
       "items": [
         {
+          "title": "Reforma previsional: empleadores empiezan a cotizar este mes otro 1% adicional y parte el préstamo reembolsable al Estado",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNM1RlTkJ1QlIzbExFcXlLeEZKakt5OGdleFdHUTlBdmVVODU3dU5lM0hTOFB1by0tTUhoS3pxVXptZ0tkN19KajdDNjVzWU93ZlctV3FMVmdmckRMZ0d6N3U2WVA2YWNLaEZXR1h1Z0o4WGREcTJtZEtzSUNhYUFIQXRWRlJTZFBEZVd3VVlWbmMwYWhWZGFwNlZudlVqYkJja1ZocWhmOW14TUlTanoyRFpoQVo0Z1pLMHdmc3lYV3c1VnJmV1VTQi1FN3VoVzB2czRmTWJ6dHBRajR1SWFBSS1nSnY3cE93RE9sOHE1TzR2d9IBkwJBVV95cUxPd3lXMWlvREVfUzBaWnJ1RXFleks5eFJic2k1LWpEOG95RDB6dHhjSUF5NURzWmZsaUxuTGxmdnkzSFpSMFhNS0R0QThIWWpBc25XcmZzeGNucnIxVTRJZEFCc0huOFJzR3Q5czBMbkVldHl0RTJMN3NEWGV4a01kWFQxeHhseEM2bmdvai1EZHlMNElXb0xZMnh0d0pxeVFpMDk5T043Z2FZdzlmMURLUUpPTlZwNmpmMkt2aVEzNHR4bmcycDBGTHhndW52V2daa19QUW85S28yRHZBRWZxRnNIcnVROUtTNHNYZ0VNUlJTaktQLWVyUmRkUVVvSXRCS00wdDJfYXpzSEVhald0bUpCQQ?oc=5",
+          "pubDate": "2026-08-03T10:30:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "Fórmula del Gobierno por compensación municipal: más de 160 alcaldes respaldan la propuesta y piden aprobarla en el Senado",
           "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPYjVhME10NlpqbTFLNm5GUXlETGRmWGs1R1pNWEV2bWJkWHlkVEt5MU1WbWh6SHhSSk9sak5EbWhoalVtcnM3dmlqNXAtcmpQZXRPRHI0SzFpVk93cVFUNXZFQ1JaWDcxR3Q1dGJSODZMSXVtNmlEMXNueF9xeE5zRWw5VEpTc2xQYkxueWEwSHpYZWZFX3c4bE5zb3dINnM4MUR2QU9RaTNxdzR6cWhjekZ0LUVXYVJVbU1NeGNId011WGJCdUpSQ2tBRVhwWjRXVkpTSmJvSGIyMUNmNWk4bEhrSmNlYkFseml5bHBkckhjYkFmZXpSWdIBmgJBVV95cUxPS0NlQkFBd2hZNWxtbW9CU1VNcVhnYlZ5VkhRQU5yMFJOdWI1TXdpLVN4U0VZRlA4Vk5rZGp5NXZKcTdNRlg1RUpqV2J3Q2xRQmtTbWQ2Q09kZmtZSG9ULXpLeFlJbHFBMXJ6UEFQcHZDQmpJdEdlQ2dLZmNLeXhUeVBTM1RpbU1ZVS1pSmtLUXJSRmFmbmxJcFBRU3hZZlB0WE1IQTEtWjZVRGZTeUVubkMybHp4bHBNd0J4Q2hJcUc1RU1oUlRvMldfbFhjWS1zNDZGRnlwZEZiWXUtM2JBX2xGSW9adnBOYTJfT1BtSXZJZy11R3FtU2Y1OVZIOVRMdEVBWjRDdnZNdXdUS2lQVnMyTHJHNlUybGc?oc=5",
           "pubDate": "2026-08-02T22:23:55.000Z",
@@ -112,16 +111,9 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Accidente aéreo en Grecia: dos helicópteros chocan durante combate de incendio forestal",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaEdzVEM0eklENndPYjJlZnRwcDJTcHR6aEVFanBhNDBQRFZnRElpb1ZvTk9Id2otbDBPaVpJNkdSVVh4bmUxdUhDMFFnYmJuOTFnUkxNU1hwVUVKb3BjdUR0d3ZiZ3ZidXRNWkItRzdnSUR6SmFZUV83V3ZmNVlzLURvV2Vpdm1qeHVISFpnOUtJQjhsYUtjeUFaOEFpeVVyalRidHAxbl9vQ29BTmJ2TlUzalhMb3o2YnBsa3RLRW8tOFhGcnfSAecBQVVfeXFMT1pPazFQc3l3S19lMGt4TnpQRFp2eEMzRUNPbFk4QmtLbnZCOVNwQjB5YUVZLUZFZ0prNEhEMGgxU1h4TTJvWnhVZkI3YW9JZ3FmclNLcVk2RV9MdkcwWnlGQnA3VElUSkhMMjBod251V2E3Z0lUeTJOQlNMZVB5bTBFcl9ubFVzRWVTSHZraXpwVVBrV2pvZHdqWHh4NGUzaDh0anhpMEVaSk1kUUhGVm55QVEtUWxkNTdEWnN6YkRBdUtQZGVobFpNdElxbDFtU1NxeTJiVk9pSnlrQnBiUzBSRnk2OG5n?oc=5",
-          "pubDate": "2026-08-02T14:30:44.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Juan Andrés Fontaine: “Büchi tuvo que ganarse la confianza de Pinochet, empresarios y civiles para hacer las reformas económicas de los ‘80”",
-          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVnk0OXExYVFpMXJ1Q2NnenNCU2x2bEpLTEVmbHpPT2plSS00SFM3ZTRLWU1aOHR4ZF9BT3JybGstMk9vVGU1eTBIVFlYRlRHZGM2LXFqcEJsUEN4M29MZjgzX3pNaVYxd1BUZzdUdk9Yc1BHODZ6clJydlpyWksxZnFFQlI0dUtKZ0FPNk1NOW5HdjA4RkRjVHNyWnNabGZNQ1J6c0JTT1pMMjY3N3EwTFhkV2J4aHdacWc5eHp3ZmtHZnl6QUNNQTRuWHZuLUdIVFBUNG5vdG5HX3JsX19qRTVMVWk3ZFVtUWVhSzFqbzV1SHJQRTJabGZVWHZBNFRKdmUwQnB2Z9IBqAJBVV95cUxNZEdyX0dSRy00S0pjNkp3eVZoN1FPUWVhUkc1eG00TmRrY2lHSjdFYU9BOXJIREU2TGZaRlQyUXQ4WDJSMDJuRmxaU2kyc3Vfdmx0b3VVaE1ycHBKZEZkYWpUSzFNbHVSYnhkZ0lZU2hOazA3TkV3QzBzLTZIQUVEa2tKdGh6RjhfeVVDQ3hoSUliVG1PUlNmTG16TUVRcVQwRDhiRjBvTUVEajlCdjRtWlhTc21YYVcxRXZuUW9tcmpzQWFMRUZVUzlFUW1YZjhLV0tyODFTYlVUVlgyZllDTVNnZ2hoaGxkVThaYncyc25Uc3hvbGNMdHJfM0tWc3h1QzE1U29fbUY2MmJKcEJnTXNERjNidWR0ak5rNmJpRDZ1cVJZLXdoYw?oc=5",
-          "pubDate": "2026-08-02T11:00:00.000Z",
+          "title": "Gobierno presentará “plan integral” de infraestructura carcelaria y descarta indultos generales a uniformados por estallido social",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbUhLRFJpUGhrak1SUGhvZnQ5Q2NWMmxSYUk2bUlEVXlDN01pWG5SVk1zOWpMckNuNzBLTzZIc2V3U2U1aXRiQWVjcUUxd00tNWIxZzdZa0doZ0pKNUtUY1d6RUhVZzdVMmtkbDlwRXlBV2dBX3pPbkpzWWFlNFpzOFNaRmk1M1hZOWx2alh3S21rSUFZX01VTjVFaFRhb3dzQXB6c2dZcjNkSGszWWV3dllxQlVMeDZJYXRtRGhzY0lLQ1NZZEc4ZExuUmVITlhVUXltYjl6eTVHQlJOTUE4bTJfY3hTUWVNeHc0bFd5RkdjaXJD0gGWAkFVX3lxTE95OU4wSXdNNVpmckd2RXRaR1BBa050MU1FaFAyS2ZJMDBzQ3ptS0dhQzlaLU1jek1zTVg1SkswUnlmYXJabzlndFJLM1NJT1FzbHNPMkl2eWN5N3c3LTZabGpNTEZZYnZSR3JXZWctUzc3LU5kOWNmaE5iN0d3eU9GdzZMQzdXaEtucFRNOFVlUGhEeGEzbTdSWG1JTGxqQ0xnNk5ycUN3dlpXRnNGTi1kWE1VNTQwcTBaakt3MjE2YlBZR2dpaEF3RmJwSy0yd1hhZWFmdzJmQTF1bUkwSlZOV2RLLVhaTGRPR1RGaHRZTEJJakZBYkRVeVEtVTRxUExqVlIwclM0UlBnQTd5OHNjTE42ZUJ3?oc=5",
+          "pubDate": "2026-08-02T16:36:32.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -132,23 +124,23 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Alias ‘Pan de Piña’ llega a la cárcel del Encuentro",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMlRXY3RZdmVoNjRNSDg5bzdNelA3VEFsUnNaTTBqSi1rUDlmeHFLYmNlN3B5R05LRWQ3MDFBNVVwN3VlSW9HWGVoei1KWGRybjRNU0R1NjFDZWNrU3ZjMTJUVDlTUWtoa1lSbFNXMzBndFN5UHZSdUtLNHpCdENRdFFKTm1lWGdrWG9ET0M3S00?oc=5",
-          "pubDate": "2026-08-02T17:52:52.000Z",
+          "title": "Quito refuerza su seguridad con 2 000 policías adicionales",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeVNwMTBmNlB2THBSaExIRDkzOXRDZmpRWjAwbHBpcTd6TEtOajU3Q0FSYmJHeDNZb0NramNidk1HbU0zbjJmNUZkdFZVUi1nTVRuTkpIZE55MnpUYXluUk1uaEhkaFpVLXlSX1NRMnA2VkI1QmtraTF4aXQwY1FNZHhiNDVPQkVwRFhoNndhZFFleGZrWWVJcVhR?oc=5",
+          "pubDate": "2026-08-04T03:17:43.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Vía Cuenca–Girón–Pasaje vuelve a cerrarse por deslizamiento de rocas",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFZYVVRRRzY1RWpDM3NTQ3U0V3hVUFY2U2I0UlFOeGt1UEJxZDV2R1lUUTIwenZkYjl1bjFkdFUtTUlyR0Z0SV95VXR5SkFBcGl3R2lnR1hUc2ZQX051U2FPRVA0cExGcDZQenNNaHZCRHhpREpuVHNPa0c5VGpjamdtRXpJNHdYc2RYUU15c0kwQVpvbU16RUhSaWREWTFHb3FhcVBnUURzUQ?oc=5",
-          "pubDate": "2026-08-01T22:00:36.000Z",
+          "title": "CNE inadmite nuevo pedido para la revocatoria de mandato contra Daniel Noboa y María José Pinto",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSFRTbGxLUDNLWnhuX0VYb3g2VGxvbkZhWnl1ZElCNFNKWEhpTVZXcG1XU3ZsOHk1OUM4cWtHRE5PTy1kcUpGdGxweG10N2pMejFPelI1T2MwU0J4RnlJajdjVDRpakNEcXc0bE9mY296X2syeGxrcXBiOC00SkpNa3RWazZGbzdDSTlFRGQ2UEVXeGNPUURuQw?oc=5",
+          "pubDate": "2026-08-03T23:23:46.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Valeria Márquez habría sido amenazada por Francisco ‘N’ antes de su asesinato",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONkFQazNrM0Z5Q1FNQnlTVlJkeHFnUWtqM0lGV211VVlwcXZMUGRwbEVyZDlWbmJ5eVJnNTZvVkM5MG1RMXlRM1ZZSlU1RmVkSlh1NW0xZ3BWMG42SjJ0OHNCeWoxdlR6UGI4UUUxaElJQlNqTVBuaHZES2dWQTIybERnQUNnSmNYSGVoSkNLcGpDNy1D?oc=5",
-          "pubDate": "2026-08-01T17:26:14.000Z",
+          "title": "Proyecto de 9,4 millones de dólares transforma la educación en Ecuador",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOXhxV3FmWWVLaDlQaDVjNjdtZExYNFducjFELUNDMjJhYWhxRnpGRnZsNEtBMVhRVmh3SjB6U2IxbG5oSDhBUlU4QVVmd2Frb3l3WVRFei15cnRYeVh2YVZna2VYcEhQeXVZdy16cm9jaW5acmxjbWQ1T1hTQjJpbmdERTZGTHNtY2JySl9KUVNGOFZObUd0MQ?oc=5",
+          "pubDate": "2026-08-03T22:05:57.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -159,23 +151,23 @@
       "color": "mint",
       "items": [
         {
-          "title": "Precio de petróleo cae casi 5% por anuncio de negociaciones EEUU-Irán",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNREVDa1dXSUlIYkNYdGRTel9WcWhJTjFVNUxVc1VnVERjTGl2WmhySVYzaDJIYnMybm5QWXN5RGxUZlJFQ0ZObERPNzJTa3ROLTRTNkp5dkpNWXp5VktiNnB3Y19WRk1ISTAycFJuTHNwcEFEZ3ZURUZaOGYyYTM4U3VhT0FNZ1lubmtmLVp5RFUxeklNSVZuNjRVMmxFcEpBNi1TTDFBQWRyM3N2eUtBN1djbnRlOXRkVnhB0gHPAUFVX3lxTE9OYmJhU0ZJdmRHZUtyZHNjaTliakxCUlNocGs0OXVWRWhPVDN2WGw5MEt5b3Eyaml2cms4N3hhM3RfUUhLcFNoS05Ob3V5LTZUdS16eUpiaFZpclJQSllNRUFqWkYzMVNzYVZrTGQ5bWk5TDJJdzZRdVVFWDRpcUdSUXVvSVRjUmw4cHZhVzM3aHdCejhDX0ZHQWdmTEJyZ2xHOU9ERDhUYjVZUGRka0otVnVmU3dBMlBuelZOcHpTSlVRbUhiTE5yUlRoSG42UQ?oc=5",
-          "pubDate": "2026-08-03T05:08:32.000Z",
+          "title": "Tres nuevos casos elevan a al menos 150 los feminicidios en Argentina en lo que va de 2026",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVjQ0NVpKOE95WnRUcFhzX3lZaDRwRjRsYUg5N0tDdUZOMy1RUUJ1VjNtQWVON0VHZzk1c3ZuQmZRb21OUEdrR2xnb3JhZVlXZkVqTHp2d093ZEFiUUhUUTN2Qm14UTVnM003VWhkR3ZqcThGeGJPMF94cEx0RVRzeHBEai1qeGkyQlAyOUJBVWlkYlMwc3VsMjRvcjlBN1VHYmhqV1ZvUkprSC1qOFFIRzhuaGtLMEV0WHNVaG9rdlhhc1pJVU8td2l0aUJ4TlZtNjBaSk9KSlDSAewBQVVfeXFMTWNabnJydURSUDZfSmtyWE83RUhJb3dGRF9DOHZBbGhOYVBYVXJKeURvdFdjYjJkZGJQTEFPTlVuUmd4OEVCQmFqdkplNkpHWlV1OW9aSWRDblNSRFpKOU14YW5ucnlCRmxWVU1HRTdFejVIQVhSb2ZuNHhfdGZkRzRXOTRjTWROMWF4NC13NzV5a0M2cXJXRzdqdVdQRVQ3Q1I4YlpXUUVsbEZDRUpmWFN3d1VLbUYzOVdfcV8xd1BiNG9Sc2dudkk0M1RkRFgwbjA2dG5BT0FJdWxFMmliRjd1d0pqeHl3bTZNTEo?oc=5",
+          "pubDate": "2026-08-04T00:49:53.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Paraguay sigue entre países con mayor informalidad laboral de A. Latina y Caribe",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSjBYRTFENF9aTVNqeEZKY0d6emtlVHNfWVpqTmVfckRYSy0wLUxoY1JNeUlxbEROYVZ2TkVlU3NGaUd2OVEtVER0d0dqV1h6aWpaY1JWS1RVUENlZUswTmZoTjFhYnZveFRTalUwYzBRNktBTzdCbmp3UlkxcFJIT21adWN2bGZSb0hjOVR0YVZxbzdLU1VvalgtMTd0X2hxcWZVWDg5OFp0Vkl5MXp0VjZBTVIxeHNVVzh0eFB6ajDSAdQBQVVfeXFMTk1CQko4OWdGREpVYk9pTFpZTm1UY2c2S3BJUzVLWW5hRGJ4S0dpUzFyOGtVdlc5RkgzUXRsTm1jR3B1elpaRnd2U0dRWnQtRnd4MXZCRk9BeWtESm16VHVGRWtIRUZZUE5ScTc1dUNhRjJmSVlWX0xRdTBxVjM0Qm1yYkd5cElZLVZpeHRpc0tUVF9jcERmaU96SDNxdWhzenY1WGtkT2J4T2Zob3Uyblhpckp3RXJObEFXNU9QSVJQVXBiZXlKRGt2R3hsejRGU3NuSy0?oc=5",
-          "pubDate": "2026-08-03T04:28:19.000Z",
+          "title": "Puente de la Integración: sin acuerdo con autoridades, protesta se extendería hasta el 12 de agosto",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb3ZmeU5oNWF6MmVILVVrMnNTdFl6VHd4REcyQkViUlNDNjlleVdCVVZYb2FOYkk5ZzdVSWVGZ0QzLWRvYzVwVGo1QU0yY19BUlk5QUxxMUZWTGY2N3VHNDFCU3BMLXdqVk9xMjRFSXNVcjVFMVVydVBiN3lqX20wcVVoVHphQmhsVVRPbGxsNzd4Z0hwcWZVX05DWTc3Ul85ZmtUbklXSldXUllfeUVLamNoc21vZkJsc2NWdmxxZjhkR3YzckpyeHpOek5KOHFIOGpB0gHnAUFVX3lxTE5BanpKeU92a2U2VGJtQ0xvWnFpT1BoeEtHVjQwZWNpQ1MxejFITzhCQTlfU3k0NTJ5ZEdpWDQzUkZDcHlnVjBDbVRWQ0lpMUNkekwydU1TRzFwTllTbzRkSXFzY2xUUkJIMFRNaG9JaS1NV1R4RWZENVBvZXRUV09iZzlxZi1RZmROYjVBQmU4R2RWWGZUWjY0RGhBQkN4RS1wM2ZUU1ZBNUlKZ1ZNdENvT1NDZUNlRHhXaGpFbThLY2N0ZFBSbF82cjJHUDI3OTJ0NHVNTzJwNk1DanhPNlNPV1VfSzJrMA?oc=5",
+          "pubDate": "2026-08-04T00:12:03.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Trump dice que el lunes se iniciarán nuevas conversaciones con Irán tras aplazar ataques",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaTlxaHhKa0lqUFdRalZ3YUdRZk84MHc4VkFPa0ZkZ1VmdjZUWm9JNEVXQ1U4eFZUOHBQN0R6TVp5cUhNTzliS3BSNW16Z05YS014cTgtQmNnRWFhRTZteC1IOEpudXRaeE9NR0hiZXlWcHFhWU9MZWxGU2xtU0pNb0xZaXdIeFRySWpnZktZbVdab2t0b0tEc0hmOTR1UUFJN0lYWV9QandTR0JNSXlOUURKOGlGZzg1S0F2aG5EZDQ2VFhfdEFoQ2FxbmRXU0h6Qy0tZVNR0gHqAUFVX3lxTE1lWVZMSnBjZ0NnSkhwY1E3dk02b2Q5MTFTcTEyZW9zWWZ0Vm9RdXdDbEp3eW9ueG5hU2otNnAtMW9CSHN5YmkxZzBuYlpwMHNuQ2FqcHBzYzZKS0hjS21tRkNyVi02S2ZncGJsWTFISnhQX2phU3BSVmhXSFkzZkg4anZ2V1lUdXdVdDMycl9FaTVmbmdHRlpxc0ctMXMwZGR6djhTN0c1ejJNSF8zUjNlUVc0MFVzVmlUMWpvc1NuMEpIQW80NWdmU1QwckZrTWZSWWt0Tl9Qa1g3enpzNzB5ZXZtOXVSemJEUQ?oc=5",
-          "pubDate": "2026-08-03T00:22:02.000Z",
+          "title": "DNIT reduce el interés para pagar impuestos en cuotas desde septiembre",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX3pPN3dVa3B3SzN1eG9WQ1cxcF9ucHlQNFNfYUgyR3RHQkllYnJCZXgwd25vaWNqblRFTldFWjJxVTdpOUVDN0ZRUnFra0NfYnlTeEEwcXZGMkhTT2dyVEpzWFhHZ3JXbEdDVjQ5ZUl5M3NMZ0RwNlJCTjJaM3Z1ZUZQSUZDZTNhbzZYR1dTbHJ2RnQ1bFZrSWRucEt1YUNab2ZuaFM2WnU1cmlyVUZnZ1JhR2nSAcgBQVVfeXFMUEdVOVptdTBjR3RrdWNhU3E2Nmpjc3FXVEwzNDlkYVc1Zm5hYUZ0MG9saDZuVjJCRV8xQnRsd3F6b2hxalM2aW5McUgwelJpRUxoTVRzVmdtUHgtN0RHOHk3UEl5WjVibU96SzA5UGZKOHIxVHJkYVM2UlFMTnlBWGdWVG1GRzMwZmVMZjAzZkpWa1lhZkZGUUdwXzhXMmtTaVJzRnN0WDZ3aXZiX09jNWFHaDBQLW1FWEZxaUZsM3YyZHZvVWFlQUk?oc=5",
+          "pubDate": "2026-08-03T23:31:20.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -186,23 +178,23 @@
       "color": "slate",
       "items": [
         {
-          "title": "Adolescente de 17 años fue asesinado a tiros en Santa Catalina: en la escena se encontraron siete vainas",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTjNYUWwtcEVRT3c0akN2V0NHZjB4ZlFoeFZESElJUlpWWmxwaV90Zmx6d2VCa1JoaUxHanFsSXNyYk5hbjdUSkgydlhwQk5iZnFDX29xRTNCcndrcWFoYUE5TklwNjNJQW1Yc3gzT1FIaHcyUVh2Q1JkWVNoR3VCOVZuenZrbl9pU1BZd2JoTmhXSkRWNVdkYXdidVA4ajJac1hrcE5YU18xQ1lMOF9JN0ZiVWY2ZFdGczIyMlFxOHJqLVc3UGNta0h0ZTgwVW8xcFh5Nm5Dc0hQakEtWFZmUFpWcXhTemM?oc=5",
-          "pubDate": "2026-08-02T16:55:12.000Z",
+          "title": "Con cupos para 1.000 adolescentes, comienza a funcionar Tumo, el centro armenio de tecnologías creativas",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOb3cwNEhyT0VpWWN5V2NxbjkzWmxGd0pLZlpyOUJwdmRJcjFnRHdmQzRwbTh2ZGJBRzhHNlFUR2xLREpOMUJWZVFYMTA2WDE0cm9SdzdEWDRJTXhLTkdfSkRvSzNJdE1wNWhReUdFRmhGZ0FyMGJSaVZMTVY1bDIwaWI5eWhfenZ1bXZSWndYRDFaNTdKNTBGVUhacWFHZTJ2bE83V25rTVhyeXJ6bVlweWlDRHhMU2Jzck9CU0h2akpjWGNldWY3d1ctX3NXNlctazFsczRCMUtQc1Q2eFZtekhiMXo?oc=5",
+          "pubDate": "2026-08-04T03:00:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Caso de Julio Montero Castillo abre debate sobre pensiones graciables, ¿cuánto le salen al Estado?",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSUI0b0pNOW9rNnU0TGZNTE5FQWhsYkRsbVlWMXo2WmdNSFlNWl9aSF9XN1Q5U1I5ZVdoWTNqZm9DU3A5SDROVExNVkJ0NVExZlVBZXBkWWJNb094VHk1bGV3NjRzS0s0bXE0WFNmQUFkMG9JU2VMbFJSMzhwT1VUdmZRV2lPUHBiQlpwdVgyc1ZacUx1VmRJMWdKLU16LVladDRYZGI3V0hGNjl5THJNZFpabmlfa1ZtZWxtUlV1ekZPWmFRWGdGamF6MGhURGVDV3BPTmk5X29KUQ?oc=5",
-          "pubDate": "2026-08-02T06:53:20.000Z",
+          "title": "\"Mujeres que emprenden\", el programa de la IMM otorga hasta $ 200.000 a las mujeres que cumplan estos requisitos",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTVZzYWM1ejEySXIwVXpWUFp2dmpfZ1g0ZnN3dTVGQS1BX2E5cllqWG5uazdJZXRVX184R3k2bFdWYjlGcnNjTnRYaHU4Q2xIRTRyNnBEd1dvT3JDZ2xqVUJvelJzTGhOYnFNTUY2ZnBKbENPZExnVFFjYm4xVGdXb0VSTlFCUUNtalNFT3FpdXp0QVI5UTFfQXNrVlViVXU4SlRrZzR4ZkZ3QjRBMm9HRzZ5WktRUG93QjlKRVBRX1JLbTNXa0tiblFyb2NHOUViUktQeElNMHM0bXZPeWxWWXFobENNQQ?oc=5",
+          "pubDate": "2026-08-03T14:52:40.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "El País (Uruguay) - agosto 03, 2026",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPRVNNZ3VJbm5SU1ladDk3THUyV09ncV9vRWw5akF4b3ZaZzF0Yy1lbGk0dEppMU55b2lLLVp1amxnTXZMNzJVZDRhbTVYV2tOUW9RbFZRbw?oc=5",
-          "pubDate": "2026-08-03T07:31:50.000Z",
+          "title": "La Escapada De Cami Rajchman A Río De Janeiro",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9TLTQ1S2RQS2hWS2FwZ0NQV0VOMVUxRjVValBVVWF0VVFTYmU0OTVuTFN6NV9KZ0ZUZWo0aFV1cVE3dzN2dlhhdERqcUtZUGxueWpMSEdSd05CdkpSUTJkaThkeGVkMkFUMVR1dFBaUEU1cGFlbVQtSk5ZZw?oc=5",
+          "pubDate": "2026-08-04T07:36:19.000Z",
           "snippet": null
         }
       ]
@@ -212,15 +204,15 @@
       "color": "cream",
       "items": [
         {
-          "title": "02 de agosto del 2026 - go.la-razon.com",
-          "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBHaUNSdDlrVkRCODl4MWM3XzNZa24yVDV1QjRzczYybExtR3Zud04weHUzdDdtZUViU1lmUTVIV3NzaV84?oc=5",
-          "pubDate": "2026-08-02T23:03:52.000Z",
+          "title": "03 de agosto del 2026 - La Razón - epaper.la-razon.com",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRVXNpa3Z3dXJfaEdvZTJodWNQaUJ3LU9NYXBPVFZrbTRkNTBrQy1lSjFsRGFhdlE3YW5Ha2pCT2VRNHU1cVZrSGtTOC1jVGI2a01WakxQdWNhcHNBN1YxQ1pCVVoxaGpHYWJtcmxXdXNCcUd4ZmVYSkljcWVwdw?oc=5",
+          "pubDate": "2026-08-03T04:05:06.000Z",
           "snippet": null
         },
         {
-          "title": "01 de agosto del 2026 - La Razón",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsYVROZGlEaGN2aWpXMVZsbWdzMGRiYnNZVG5NLUR3THpnWHkwTDNDd3JIRm95MFZpUHJKUG05NFJHcUswMjVzYjduTk9IQk9HRjZMSXNraVgtWl9nWXo4T0hYY1pJY1F4ejJqbW92anZjdVRqTU40ejdneTVaUQ?oc=5",
-          "pubDate": "2026-08-01T04:16:39.000Z",
+          "title": "02 de agosto del 2026 - go.la-razon.com",
+          "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBHaUNSdDlrVkRCODl4MWM3XzNZa24yVDV1QjRzczYybExtR3Zud04weHUzdDdtZUViU1lmUTVIV3NzaV84?oc=5",
+          "pubDate": "2026-08-02T23:03:52.000Z",
           "snippet": null
         }
       ]
@@ -230,23 +222,23 @@
       "color": "grey",
       "items": [
         {
-          "title": "La petrolera estadounidense Hunt Oil confirmó su entrada a Venezuela",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl8yWkpqSHh3S2Y1RzNmU0FpRThZc0tsR1Vrd240dVNmVXBTMzNHQjVneEZINXd2RnA4RVctc1RvNHIxclpjVUpUUVZaR0Q5R0pLekdzUU5ZOFB6SkFfX1FXTmV5ODUxZXVIdnowSkZudnJQUFktaGpHMGZvWmluVk5UX3A0SmJkNUFsdzJKVW5SbGpiZTZncnZFbUppbVF6UHFjdU1Xbw?oc=5",
-          "pubDate": "2026-08-03T00:55:30.000Z",
+          "title": "Ecarri afirma que la transición debe priorizar un plan de reconstrucción para evitar una nueva crisis",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT1VWUUh2QWs5eF9ObXhJWHFWdkZqaWVqTkVzTkVJWG44R2dSeGs5cDBTTmFNNnV0dEVnX0I0bm43WV9STlZERXplU0VpWW5HTG1TVGdsRjctcmZuLTF2dFIxQWhfUDZXLV9MTUNuT2I3RlluWklmN3VwNDVuaDY4V0hsV2RKT1RRZ2oyTlJMcm5feUMyTkQtMDBkcHZLMHlKZENBMkRUQ2JneTAzTjk0R1RDMjRzamNURzVZcVBHRFdaMWhja3hzNWFPc1JoQU5NNFhj?oc=5",
+          "pubDate": "2026-08-04T01:03:31.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Ofrecen hasta 270.000 dólares por información de atentado que dejó 11 heridos en Colombia",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMDBvay04ZUc0RUUxeDhqaW1FWndjdmhpQlR2bEVKUlRkQWV0MmxWcV9sMjQ1OEtQa2M4Q0FXZDlvZl8yMjM4MURibE5xaTFkWW5BZHFuV1BNT1V3ZXA0LXkzV3hEdzA2YlRNdnpCVG1tSVJmYjdyclF5bnVLcFI2MV9SN2RMYWNiZkxNY21mRVFhMWNWSllLcFZmc0tPMjQ1ZUJKSzVncE4wc25zZWhHZVZSSEs2TUE4NWJUZklHUi1VYVU?oc=5",
-          "pubDate": "2026-08-02T19:49:56.000Z",
+          "title": "Fijan para septiembre el juicio contra Alex Saab por lavado de dinero en EE UU",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ0pCWk5xU1lyaWVOWGNaeVN2QU9qcE02MWR3enM1NzFlVFc1RE5RaVY2N2tWWlVJTkY5RkhlVUZPdGVocS1CUU04azVEaFZDbmZ0LXhIcDl5cHY2Qy1IU054WVpfWnVvNm5xN29WX1dXLTZzLXFLMWc0Wkd2S1o5dTVlbFlkSmV6ODhOSmRpRThsNG5ma2J0amlLMjh0a1JQY3o3NjlPalgyZ3dOUmJDZVZXTnA?oc=5",
+          "pubDate": "2026-08-03T18:48:13.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Perkins Rocha criticó los puntos del diálogo entre representantes del gobierno y un sector de la oposición",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZUJOX3lSbFlTWHp6bllZNmx2UlZpNHN5djVBcm1neVVHMUZOQkxEWlJyOHlnUVItY2J2aWdKTzRpby1lakFIT3I0dm9OVWJNQXdsbU1qTXRWVU95czZFZl9sRmVWQkI3dzVTQzk0Qnp6NkpQLTdLVDFZVy0xblp3RDFha1JmS1lJbEw5bk1SWjZjaEJpT3dCa3IyTmNPRGgwV2F2S2RvNkt0Uk1EdEdjcGl0NzgtZFdDUl9GYTJpQU1FRm81MWZjbTlYR2ZGQlZscHd4OVpHeThhQQ?oc=5",
-          "pubDate": "2026-08-02T19:29:17.000Z",
+          "title": "Gobierno interino no puede retirarse del Estatuto de Roma",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNRFVkcDJ5amJzN0VZX0xhaWF1QVB5bnJ6cE81ODE5WjBNVldDODZ3bXF3VFZHUmJjcDdxQkljbHFOVTZBajBtbUplTXVQMjZhc1Nia1lHSTJZcE5Dbkt1bXVERUNacHJOeWkxLU1mamo1RDFIbjBYNkVDN3BKRmdCaHRyOGRCMHp5WF9jWElkNWJVbHEwN21yWGVsUlM0cTZwNFc3dEVaeTFReFFWT1JFU3FubHFpbkNBWFZ4bUlxdGhwNy1idEVGM2JpbVRwdEoyZ29XbnI3MDB1ZFItUzNqOG5HYXE1ZlhpME9ScGtYaW9iRE5Ldk8wS2dB?oc=5",
+          "pubDate": "2026-08-03T15:25:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -257,23 +249,23 @@
       "color": "teal",
       "items": [
         {
+          "title": "Mueren un recluso y su esposa en incidente armado en preventivo de la zona 18",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVDVQX0lYUG81VDI5SWxLOUVjR0Z1UHdJME9FUkk0OGY3ZXozNnBYRnI0M1JzMEhKNGMtTGlCYjBnWXBPcDQwaWJSNGcwcDR5em9GNGlmLTlUVm9fdVN1TTRCUkNLNmVIdFpMbzAyNHNFQ2xfTF80NWZrMW1IeEtJY0xQcUE1aUM3dFVWSlBiRzFTX1FzSnJjdEo5SDNSS29vU19yQWlOWjBGaWpHbi1aa0Y0enlnSVd4R01yMHFXa1RsaTJtb3l4dzJQcERIdw?oc=5",
+          "pubDate": "2026-08-02T22:17:14.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Guatemala es finalista en los P3 Awards por impulsar proyectos de infraestructura mediante alianzas público-privadas",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOU0JmSXFIQVNSUW92VHdad0F1VVQxNlRjazA3UkZhMVJ1QU9VWlZLX2ZTc1ZjWXEtQ2VUd1N6a0FsMzVZTXhHNjJQUGJoVVZEbVhaeHdaZFlOOXJOOGNxSGtOdjRNYVRTUTZRT0ZzV1BCYl9ZRTVYcWNZXzQ3UWF1NHU0OGtmY081U0NYT0x1emdfMVlCQUJiYVgwbE5Kc1ZyUDNkeVp5MDdzR3hNSlh2Q3VxeTVqdzlLQzJ5RjBoTngzMTZNNm82UUhTazlWdWpnV1NnQ0RaSTZPN1h0THU3VktESmNFNWRDQmc?oc=5",
+          "pubDate": "2026-08-02T17:55:28.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "Capturan en México a líder del Cartel de Los Reyes, buscado por Estados Unidos",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOGphT2ROVmFQWmVqVmNFZ1B2dFJrNl9CZ0tUWnBPSjRFbUI1ekFLQ2N6Sy1FcFV2UDRwb3VuQVlGODRCR2FpOWE4Nk9XYXhUV2hPNEh6TlV5OG9rcUY4N2VzbmNab2lhRnpBSlA3ckdNYTVtV2xtQzZRUW9UZUNVRG95bVlCajdJbS11aGJRQjhMSkZYa1F6NVBtS0w2aVBFTE9uSEw1MGNIRVJsVXVYcElCMW05emV0ZFlFcE1FQmZ5eVI1OTNXSQ?oc=5",
           "pubDate": "2026-08-02T04:01:42.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Metro de Panamá confirma un incidente de ciberseguridad: qué se sabe hasta ahora",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZk16MUdoemRhbkhDblc2c2hpVEdIRE1VczVQWERRVThNZFNnc2VzT0pWRW9rYmpDYm56bS16R2lhSTQwUU9nUFc4WTI4cDVEU0VNZVkxVjNHT1hDbUh3STRPZ1FNMEVIYlRnT0k1dm1oS1QwN1JIQ3lGUTVzY25XM0lwOGZ6Zk9USnlEWXBadHhpNzZrdGFWWkN5RGFTckNjel9hcGhIN29YVXN4RERSRkFyZWQ0NzVBTW1NRnNRdw?oc=5",
-          "pubDate": "2026-08-02T00:41:46.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "El Cang se pronuncia por los disturbios en Nebaj y pide esclarecer lo ocurrido tras un desalojo de mujer",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPM005NnYwanQxT1BuaUVGaUJuYUg0Z0VSbE5IOEQ4S3FzX21SMG5YSlAtdG9GeVdUYnpyTFZKaFllNnowdVBTd2pTcTlZUjljRVJJNlVVckI0MThfaFk1V3ctY2dLcFVjTlEzVThyMXVSbTA4Q3BqckxJV1JzTmtnMTJ5cmh5TUVBSUpucFI0SkU0Zi1Fc0x6M1E1RnktUU9XdmZWN1RZTHlYRFMyOExORWs1SEN3OVlZU0N0NTFzRnhCWjc5OVg5dDV0SVl2cGVoaTMteFl4M3JkUkItRkNZbWEya0MySDNnOTl6eVp4MUJwQVE?oc=5",
-          "pubDate": "2026-08-01T19:29:11.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }

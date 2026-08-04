@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-08-03T10:01:36.891Z",
+  "generatedAt": "2026-08-04T10:01:49.676Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Mapa de las megacárceles de América Latina",
+          "link": "https://insightcrime.org/es/noticias/mapa-megacarceles-america-latina/",
+          "pubDate": "2026-08-03T21:32:43.000Z",
+          "snippet": "Mapa de las megacárceles de América Latina Desde que el presidente de El Salvador, Nayib Bukele, inauguró su famoso Centro de Confinamiento del Terrorismo (CECOT) hace tres años, varios líderes de América Latina han intentado seguir sus pasos con la esperanza de replicar el éxito…"
+        },
         {
           "title": "Operativo en Brasil revela nueva estrategia del Tren de Aragua",
           "link": "https://insightcrime.org/es/noticias/operativo-brasil-revela-nueva-estrategia-tren-aragua/",
@@ -34,12 +40,6 @@
           "link": "https://insightcrime.org/es/noticias/the-insight-take-juan-orlando-hernandez-acusacion-al-indulto/",
           "pubDate": "2026-07-28T17:02:39.000Z",
           "snippet": "The InSight Take: Juan Orlando Hernández, de la acusación al indulto Esta semana repasamos la trayectoria de Juan Orlando Hernández (JOH), expresidente de Honduras, desde sus acciones en el poder hasta su condena a 45 años de prisión por narcotráfico y […] The post The InSight Ta…"
-        },
-        {
-          "title": "Ataque fronterizo en Guatemala evidencia el regreso del clan de los Lorenzana",
-          "link": "https://insightcrime.org/es/noticias/ataque-fronterizo-guatemala-evidencia-regreso-clan-lorenzana/",
-          "pubDate": "2026-07-27T15:17:29.000Z",
-          "snippet": "Ataque fronterizo en Guatemala evidencia el regreso del clan de los Lorenzana Los reportes que vinculan un ataque armado en la frontera entre Guatemala y Honduras con la red de tráfico de drogas de los Lorenzana evidencian la capacidad de resistencia de los clanes familiares en e…"
         }
       ]
     },
@@ -96,20 +96,14 @@
           "snippet": null
         },
         {
-          "title": "Etched",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBUNExmak5ySFppNTktT2Z2OHF0TVhlam85TDl4YmlXMndkTEdwUnFpUmZaM3dXSk5iY0cwcFBUb1I2RGVJeUlWMS1pM3VXR0ZxUEhaSHVNQQ?oc=5",
-          "pubDate": "2026-08-02T12:47:27.000Z",
+          "title": "AMNC26: Can Intelligence Feed the World?",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNk5CRmp6ZGUxeVVrc0lCWVIycU5IR2NRZ3dFcUFucHhiVmZmT2hYeXFqVnBza3ZhQUIwT1JNQzc4b3ltRGR0MEFoNEVxZXk1M2tiOThjVDdUbUc2NE8zUWM5R1FERW1hTWpjOTFUeHU4LXY3NDRLQ2liR3NsTGNHM1hvQmM1S1JyRU9wZFhjTk1ZNzlwWVZ4ZVBUYy03QQ?oc=5",
+          "pubDate": "2026-08-02T07:00:00.000Z",
           "snippet": null
         },
         {
-          "title": "Holganix",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHekV1aHpXR1FZTUFFVGtvdUhsUTBqNVdkeTc4cHhnbUJSckhvUktpRHhVVVFrNkdkR1JmMU12MGV5LTVwNVVGMi1wb1pob1Bxa2Nucl83dDJXQQ?oc=5",
-          "pubDate": "2026-08-01T20:49:37.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Horizon3.ai",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CUWtmTEc3SG9ONElGWGJzMlpjaktFSDdWT294ZnZqMDI3ZVc1TFJ1RmQ4dDFuNlZ3ZVAzd2RpSkdqZFJUbnZuWlNOU0VoemE5ajg5eDBHU1d0OW9DM3c?oc=5",
+          "title": "Clio",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvZGI4N2txcV9HdS0zM295Yzl4VWVpVVFyLUxNUHo5bHRYLVIwbjI4LU5xejFWSEp6MlhlQXhtd18tYjhsZk1xdFJsSWhOTTgwVHo2eA?oc=5",
           "pubDate": "2026-08-01T04:50:46.000Z",
           "snippet": null
         },
@@ -123,6 +117,12 @@
           "title": "Event Details - Tijuana Hub",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU25XeDEtbm9MNjZERzAxTTRMb3F5SWsyVzE1TVFyYWxEeW5JeHlUMmYtY2Q1OWtSQWFRdjBkZWhnR18zQmlDQ2dMc0RDMjMtTU5XV0w3Ry1hbVhGNEdUUTNHQW12RWZCWDUtNmxUMUphTjdva294MElqbl9NSjVYdEVmeEY2V1NUbEFhd3BQSG04VllJU3YyTjJmdWFhTkRlblE?oc=5",
           "pubDate": "2026-07-30T13:20:21.000Z",
+          "snippet": null
+        },
+        {
+          "title": "How leaders can fix focus and happiness in an AI Era: Psychologist Jonathan Haidt",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVE53LTZjeXRkX1FEQWNtWWh2RUs0alN2VktQQjA4WjBMVEZKbE54MTNLQ3FwTDZ1eFQ0WUdHUkJTVFhtMWdmcXRwNDdzMU1jQzhoV2JaYkJpUWstNGJOa1VTWU53NEdlT1ZIUE16WjNVaHlMcm5UemtMQUcxdlowYUx3TFpFdUt5TUhLdjd5V1l2Qy1QNFg5eUVzWm5PRkE?oc=5",
+          "pubDate": "2026-07-13T21:00:53.000Z",
           "snippet": null
         }
       ]

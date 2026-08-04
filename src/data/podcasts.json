@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T10:01:36.891Z",
+  "generatedAt": "2026-08-04T10:01:49.676Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -34,24 +34,24 @@
       "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
     },
     {
-      "title": "The Joe Rogan Experience",
-      "host": "Joe Rogan",
-      "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272"
-    },
-    {
       "title": "The Daily",
       "host": "The New York Times",
       "url": "https://podcasts.apple.com/us/podcast/the-daily/id1200361736"
     },
     {
-      "title": "Dateline NBC",
-      "host": "NBC News",
-      "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
+      "title": "The Joe Rogan Experience",
+      "host": "Joe Rogan",
+      "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272"
     },
     {
-      "title": "Pod Save America",
-      "host": "Pod Save America",
-      "url": "https://podcasts.apple.com/us/podcast/pod-save-america/id1192761536"
+      "title": "Mick Unplugged",
+      "host": "Mick Hunt",
+      "url": "https://podcasts.apple.com/us/podcast/mick-unplugged/id1731755953"
+    },
+    {
+      "title": "Morbid",
+      "host": "Ash Kelley & Alaina Urquhart",
+      "url": "https://podcasts.apple.com/us/podcast/morbid/id1379959217"
     }
   ]
 }
