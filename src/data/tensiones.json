@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-08-06T10:01:43.122Z",
+  "generatedAt": "2026-08-07T10:02:07.663Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Escalada Israel-Hezbollah y crisis humanitaria en Levante",
-      "region": "Oriente Medio (Israel, Líbano, Gaza)",
+      "titulo": "Escalada de tensiones Irán-Arabia Saudita en el Golfo Pérsico",
+      "region": "Oriente Medio",
       "noticia": {
-        "titulo": "Israel Strikes Lebanon After Accusing Hezbollah of Cease-Fire Violation",
-        "link": "https://www.nytimes.com/2026/08/05/world/middleeast/israel-lebanon-hezbollah-cease-fire.html",
-        "fuente": "The New York Times"
+        "titulo": "Arabia Saudita se prepara para ataques contra puertos y aeropuertos de milicias iraquíes aliadas a hutíes apoyados por Irán",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNczhOLWJKWUhsNHVUZDJXQk80WUt3QlRuaWRBTHhFMHdXOWMxUUtSLUxacmsyRzZPNEh4Z0lXM2hJSXZ0SWJZMmJwYVVoWHdjcGZ6dVhFMHFrS0NrR3lvVkt5R3ZpYW9PSmtkLXNCdklqaFVJOXZVUE9mYjdSOG0wMVZxWExhOXNULV9RTUlTaTU?oc=5",
+        "fuente": "CNN en Español"
       },
-      "analisis": "Los ataques israelíes contra Líbano tras alegadas violaciones de tregua por Hezbollah evidencian la fragilidad de cualquier acuerdo de cese al fuego en la región, especialmente con grupos no estatales que controlan territorio. Las negociaciones de Irán con Omán sobre el Estrecho de Ormuz sugieren intentos paralelos de contención, pero la dinámica de represalias tácticas mantiene el riesgo de escalada incontrolada que podría involucrar actores regionales más amplios."
+      "analisis": "Arabia Saudita refuerza defensas ante amenazas de actores iraníes en Irak, lo que refleja la persistente competencia regional por el control del Golfo tras años de tensiones nucleares y económicas. La implicación es que cualquier escalada podría afectar el tráfico marítimo global de petróleo y energía, con consecuencias en mercados internacionales."
     },
     {
       "rank": 2,
-      "titulo": "Crisis migratoria en Ceuta y fricción geopolítica Marruecos-España-EE.UU.",
-      "region": "Mediterráneo occidental (Ceuta, Marruecos, España)",
+      "titulo": "Reconfiguración geopolítica en América Latina bajo administración Trump",
+      "region": "América Latina",
       "noticia": {
-        "titulo": "Morocco feels emboldened: Trump's influence in spotlight after Ceuta disaster",
-        "link": "https://www.theguardian.com/world/2026/08/06/trump-influence-morocco-spotlight-ceuta-border-disaster",
-        "fuente": "The Guardian"
+        "titulo": "Trump Administration Fast-Tracks Military Partnership With Colombia to Target Drug Traffickers",
+        "link": "https://www.nytimes.com/2026/08/07/world/americas/trump-administration-military-partnership-colombia.html",
+        "fuente": "The New York Times"
       },
-      "analisis": "La entrada masiva de migrantes en Ceuta, aparentemente tolerada por las autoridades marroquíes, expone la instrumentalización de flujos migratorios como herramienta de presión política en disputas territoriales y comerciales. La percepción de que Trump incentiva posturas más agresivas de Marruecos complica los equilibrios europeos y atlánticos, transformando un problema humanitario en vector de confrontación geopolítica entre potencias."
+      "analisis": "Trump acelera alianzas militares con Colombia mientras simultáneamente se produce un giro a la derecha en gobiernos latinoamericanos, consolidando una esfera de influencia estadounidense frente a actores como China y Rusia. Este realineamiento regional tiene implicaciones para el control del narcotráfico y la migración, pero también abre interrogantes sobre la soberanía e independencia de políticas domésticas en países de la región."
     },
     {
       "rank": 3,
-      "titulo": "Tensión Rusia-OTAN en el Báltico y amenaza de operaciones encubiertas",
-      "region": "Europa del Este (Lituania, Bálticos, Ucrania)",
+      "titulo": "Escalada de política restrictiva migratoria y comercial de EE.UU.",
+      "region": "América del Norte y Global",
       "noticia": {
-        "titulo": "Lithuania warns Russia could be considering possible 'false flag' strike on the Baltics – Europe live",
-        "link": "https://www.theguardian.com/world/live/2026/aug/06/ukraine-volodymyr-zelenskyy-russia-nato-germany-leipzig-wildfires-heatwaves-europe-live-news",
-        "fuente": "The Guardian"
+        "titulo": "Trump firma nuevos decretos que vuelven a apuntar a la ciudadanía por nacimiento",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMk4yeFd0Ym54YldRVllmZklSNEE5YTNSei0xWlYxbzVWYjhpdlZnUkhBc1pFWXlPcEZXX21fRmZrbEhDUVo4TTBZNA?oc=5",
+        "fuente": "CNN en Español"
       },
-      "analisis": "La advertencia de Lituania sobre posibles operaciones de bandera falsa rusa en los Bálticos refleja el deterioro de la seguridad en la periferia europea, donde la ambigüedad entre acciones terroristas, ciberataques y operaciones militares dificulta la respuesta colectiva de la OTAN. El hallazgo de drones explosivos en infraestructuras alemanas sugiere que el teatro de operaciones híbridas se ha expandido hacia objetivos civiles y de transporte, elevando el riesgo de escalada involuntaria."
+      "analisis": "Trump avanza simultáneamente en restricciones migratorias (ciudadanía por nacimiento) y arancelarias (15% en materiales para paneles solares y microchips), señalando un giro hacia proteccionismo económico que afecta a aliados comerciales tradicionales. Estas medidas generarán fricciones con México, Canadá y socios asiáticos, redefiniendo cadenas de suministro global y polarizando mercados internacionales."
     }
   ]
 }

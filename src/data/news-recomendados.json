@@ -1,10 +1,34 @@
 {
-  "generatedAt": "2026-08-06T10:01:38.334Z",
+  "generatedAt": "2026-08-07T10:01:47.828Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Pódcast | Tres maneras de perder a un hijo",
+          "link": "https://insightcrime.org/es/noticias/podcast-tres-maneras-perder-hijo/",
+          "pubDate": "2026-08-06T20:46:14.000Z",
+          "snippet": "Pódcast | Tres maneras de perder a un hijo Sobre este episodio Buenaventura es el principal puerto de Colombia sobre el Pacífico y uno de los corredores más estratégicos del continente para el tráfico de cocaína. Durante décadas, la […] The post Pódcast | Tres maneras de perder a…"
+        },
+        {
+          "title": "Cartel de Jalisco Nueva Generación (CJNG)",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/cartel-jalisco-nueva-generacion-cjng/",
+          "pubDate": "2026-08-06T19:58:30.000Z",
+          "snippet": "Cartel de Jalisco Nueva Generación (CJNG) El Cartel Jalisco Nueva Generación (CJNG) es un grupo criminal transnacional que surgió del Cartel del Milenio tras una serie de asesinatos, detenciones y fracturas internas. Es conocido por su uso agresivo de la violencia y sus campañas…"
+        },
+        {
+          "title": "On The Radar: Atentado del ELN sacude a Colombia antes de la asunción del nuevo presidente",
+          "link": "https://insightcrime.org/es/noticias/on-the-radar-atentado-eln-sacude-colombia-antes-asuncion-nuevo-presidente/",
+          "pubDate": "2026-08-06T18:36:43.000Z",
+          "snippet": "On The Radar: Atentado del ELN sacude a Colombia antes de la asunción del nuevo presidente ¿Cómo se preparan los grupos armados de Colombia ante la llegada de un nuevo presidente de mano dura? ¿La violencia de las bandas criminales de Ecuador está llegando a la […] The post On Th…"
+        },
+        {
+          "title": "Autodefensas Conquistadoras de la Sierra Nevada (ACSN)",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/los-pachenca/",
+          "pubDate": "2026-08-06T17:15:42.000Z",
+          "snippet": "Autodefensas Conquistadoras de la Sierra Nevada (ACSN) Autodefensas Conquistadoras de la Sierra Nevada (ACSN): historia, líderes, zonas de operación y actividades criminales. Perfil actualizado de 2026. The post Autodefensas Conquistadoras de la Sierra Nevada (ACSN) appeared firs…"
+        },
         {
           "title": "Sendero Luminoso",
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-peru/sendero-luminoso-perfil/",
@@ -16,30 +40,6 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/ismael-zambada-garcia-el-mayo/",
           "pubDate": "2026-08-05T22:18:19.000Z",
           "snippet": "Ismael Zambada García, alias ‘El Mayo’ Ismael “El Mayo” Zambada fue condenado a cadena perpetua en Estados Unidos. Su historia, su papel en el Cartel de Sinaloa, todo en nuestro perfil completo actualizado de 2026. The post Ismael Zambada García, alias ‘El Mayo’ appeared first on…"
-        },
-        {
-          "title": "Cárteles Unidos",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/carteles-unidos/",
-          "pubDate": "2026-08-05T21:03:03.000Z",
-          "snippet": "Cárteles Unidos Cárteles Unidos es una alianza criminal de Michoacán enfrentada al CJNG. Su historia, líderes, zonas de operación y últimas noticias en nuestro perfil actualizado de 2026. The post Cárteles Unidos appeared first on InSight Crime."
-        },
-        {
-          "title": "Alexander Díaz, alias ‘Calarcá Córdoba’",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/alexander-diaz-alias-calarca-cordoba/",
-          "pubDate": "2026-08-05T20:07:47.000Z",
-          "snippet": "Alexander Díaz, alias ‘Calarcá Córdoba’ ¿Quién es Alexander Calarcá Córdoba y cuál es su trayectoria profesional? Su historia, liderazgo del EMBF y actividades criminales. Perfil completo actualizado de 2026. The post Alexander Díaz, alias ‘Calarcá Córdoba’ appeared first on InSi…"
-        },
-        {
-          "title": "El fracturado futuro del Cartel de Sinaloa",
-          "link": "https://insightcrime.org/es/noticias/fracturado-futuro-cartel-sinaloa/",
-          "pubDate": "2026-08-05T16:31:04.000Z",
-          "snippet": "El fracturado futuro del Cartel de Sinaloa El Cartel de Sinaloa alguna vez dominó el mundo criminal. Ahora está en guerra consigo mismo. Conozca cómo una supuesta traición desató una sangrienta lucha por el poder que está redibujando el panorama criminal de México y dejando vacío…"
-        },
-        {
-          "title": "The InSight Take: Ecuador y su estrategia contra los capos, entre victorias tácticas e incertidumbre estratégica",
-          "link": "https://insightcrime.org/es/noticias/the-insight-take-ecuador-estrategia-capos-victorias-tacticas-incertidumbre-estrategica/",
-          "pubDate": "2026-08-04T21:54:34.000Z",
-          "snippet": "The InSight Take: Ecuador y su estrategia contra los capos, entre victorias tácticas e incertidumbre estratégica La captura del jefe criminal ecuatoriano Wilmer Chavarría, alias “Pipo”, representó una importante victoria para la estrategia del presidente Daniel Noboa de perseguir…"
         }
       ]
     },
@@ -90,6 +90,12 @@
       "color": "yellow",
       "items": [
         {
+          "title": "Meet the Leader: author Jonathan Haidt",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ3FFMzhIZ0JxU1NVdWFiblFjTHdIdmZlV09zMDFMVXRfWjcyU1IxN05rZm16Z251MGpLakRIMFZNaXVDSjBkUno0cnA4QVo4b0gxZW5qWC1aaWpjOGNJTU9zUzdUN0pzb1VZTXhxSWJNX2hCaGxfZUFtSWV2Y005a0tpRHZBQWY0Y0dKUA?oc=5",
+          "pubDate": "2026-08-06T17:33:22.000Z",
+          "snippet": null
+        },
+        {
           "title": "Event Details - Berlin Hub",
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOck9kaDBQOXVoRGlQT19VOVc1aEl2aEtRR1prNmlfZmp5OFNGaDZEc2NITnRHamZWeTVYV1RqRWNzVEhXNTBSV19MZWk0WXNhLTdoSXdXU2dZWjFaSkFwOVFNQW1lUEtHZUhHS2Z2UW5DbHh5NVdZa3FNWEZsTUxWZmFmdDJXTUwyMW1HVFN1d3NPNzlad1hLTG5RVDFJWWJ1T1ZfZl9sTUNKbTBlQ1o4Z0FDb2ZIaGhONEt6amp5NFZYNExVMzZSUko4blRzSW5hVDRCMmx3?oc=5",
           "pubDate": "2026-08-06T03:08:34.000Z",
@@ -108,21 +114,15 @@
           "snippet": null
         },
         {
+          "title": "Las “nubes de fuego” podrían estar agravando los incendios forestales en Europa",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONU9SZWo0RGtUaXRlcHU1MUVhUFJLblJOWHhjWUtvampibTJIOHV1SW9CM0pVejNZa1plaGhTOENYSGlvSnZ0ZnBROHM1QUY1bm04NkNNT0RMTTJhN3FRYVo4dGFDTTMwS051RmF1dk5KbVlRak5SYXdDT1JXRjRneHJtSU1LUU1kUW56MmJhQlBJRnNPTWFXNFFwbnh3NWNqUmpwejdiMmNxZDVC?oc=5",
+          "pubDate": "2026-08-04T10:08:47.000Z",
+          "snippet": null
+        },
+        {
           "title": "AMNC26: Can Intelligence Feed the World?",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNk5CRmp6ZGUxeVVrc0lCWVIycU5IR2NRZ3dFcUFucHhiVmZmT2hYeXFqVnBza3ZhQUIwT1JNQzc4b3ltRGR0MEFoNEVxZXk1M2tiOThjVDdUbUc2NE8zUWM5R1FERW1hTWpjOTFUeHU4LXY3NDRLQ2liR3NsTGNHM1hvQmM1S1JyRU9wZFhjTk1ZNzlwWVZ4ZVBUYy03QQ?oc=5",
           "pubDate": "2026-08-02T07:00:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Event Details - Tijuana Hub",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU25XeDEtbm9MNjZERzAxTTRMb3F5SWsyVzE1TVFyYWxEeW5JeHlUMmYtY2Q1OWtSQWFRdjBkZWhnR18zQmlDQ2dMc0RDMjMtTU5XV0w3Ry1hbVhGNEdUUTNHQW12RWZCWDUtNmxUMUphTjdva294MElqbl9NSjVYdEVmeEY2V1NUbEFhd3BQSG04VllJU3YyTjJmdWFhTkRlblE?oc=5",
-          "pubDate": "2026-07-30T13:20:21.000Z",
-          "snippet": null
-        },
-        {
-          "title": "How leaders can fix focus and happiness in an AI Era: Psychologist Jonathan Haidt",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVE53LTZjeXRkX1FEQWNtWWh2RUs0alN2VktQQjA4WjBMVEZKbE54MTNLQ3FwTDZ1eFQ0WUdHUkJTVFhtMWdmcXRwNDdzMU1jQzhoV2JaYkJpUWstNGJOa1VTWU53NEdlT1ZIUE16WjNVaHlMcm5UemtMQUcxdlowYUx3TFpFdUt5TUhLdjd5V1l2Qy1QNFg5eUVzWm5PRkE?oc=5",
-          "pubDate": "2026-07-13T21:00:53.000Z",
           "snippet": null
         }
       ]
