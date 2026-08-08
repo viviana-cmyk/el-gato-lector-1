@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-08-07T10:01:47.828Z",
+  "generatedAt": "2026-08-08T10:01:37.349Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Alex Saab",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-venezuela/alex-saab-2/",
+          "pubDate": "2026-08-07T17:07:30.000Z",
+          "snippet": "Alex Saab Alex Saab enfrenta un nuevo juicio en Estados Unidos por lavado de dinero tras ser deportado desde Venezuela. Perfil completo y actualizado de 2026. The post Alex Saab appeared first on InSight Crime."
+        },
+        {
+          "title": "Cartel del Golfo",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/cartel-del-golfo-perfil/",
+          "pubDate": "2026-08-07T16:34:22.000Z",
+          "snippet": "Cartel del Golfo Cartel del Golfo 2026: quién lidera sus principales facciones, dónde opera y qué poder conserva en México. Perfil completo actualizado. The post Cartel del Golfo appeared first on InSight Crime."
+        },
         {
           "title": "Pódcast | Tres maneras de perder a un hijo",
           "link": "https://insightcrime.org/es/noticias/podcast-tres-maneras-perder-hijo/",
@@ -28,18 +40,6 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/los-pachenca/",
           "pubDate": "2026-08-06T17:15:42.000Z",
           "snippet": "Autodefensas Conquistadoras de la Sierra Nevada (ACSN) Autodefensas Conquistadoras de la Sierra Nevada (ACSN): historia, líderes, zonas de operación y actividades criminales. Perfil actualizado de 2026. The post Autodefensas Conquistadoras de la Sierra Nevada (ACSN) appeared firs…"
-        },
-        {
-          "title": "Sendero Luminoso",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-peru/sendero-luminoso-perfil/",
-          "pubDate": "2026-08-05T22:50:23.000Z",
-          "snippet": "Sendero Luminoso Sendero Luminoso o el Militarizado Partido Comunista es el último remanente del movimiento guerrillero de finales del siglo XX de Perú. Aunque se encuentra en declive, aún conserva influencia en la región del Valle de los Ríos Apurímac, Ene y Mantaro (VRAEM) debi…"
-        },
-        {
-          "title": "Ismael Zambada García, alias ‘El Mayo’",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/ismael-zambada-garcia-el-mayo/",
-          "pubDate": "2026-08-05T22:18:19.000Z",
-          "snippet": "Ismael Zambada García, alias ‘El Mayo’ Ismael “El Mayo” Zambada fue condenado a cadena perpetua en Estados Unidos. Su historia, su papel en el Cartel de Sinaloa, todo en nuestro perfil completo actualizado de 2026. The post Ismael Zambada García, alias ‘El Mayo’ appeared first on…"
         }
       ]
     },
