@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T10:01:39.735Z",
+  "generatedAt": "2026-08-10T10:04:29.781Z",
   "outlets": [
     {
       "name": "InSight Crime",
@@ -46,86 +46,12 @@
     {
       "name": "International Crisis Group",
       "color": "teal",
-      "items": [
-        {
-          "title": "Bahrain 29 July 2026 #1",
-          "link": "https://www.crisisgroup.org/content/bahrain-29-july-2026-1",
-          "pubDate": "2026-07-30T21:36:21.000Z",
-          "snippet": "Bahrain 29 July 2026 #1 lalasor Thu, 07/30/2026 - 23:36 Bahrain Thu, 07/30/2026 - 12:00 29 July 2026 U.S. Central Command that it had conducted “a heavy wave of strikes against Iran”, targeting “military command centres, missile and drone facilities, coastal surveillance and defe…"
-        },
-        {
-          "title": "Washington 29 July 2026 #3",
-          "link": "https://www.crisisgroup.org/content/washington-29-july-2026-3",
-          "pubDate": "2026-07-30T21:35:21.000Z",
-          "snippet": "Washington 29 July 2026 #3 lalasor Thu, 07/30/2026 - 23:35 Washington Thu, 07/30/2026 - 12:00 29 July 2026 U.S. Central Command that it had conducted “a heavy wave of strikes against Iran”, targeting “military command centres, missile and drone facilities, coastal surveillance an…"
-        },
-        {
-          "title": "Tehran 29 July 2026 #3",
-          "link": "https://www.crisisgroup.org/content/tehran-29-july-2026-3",
-          "pubDate": "2026-07-30T21:34:42.000Z",
-          "snippet": "Tehran 29 July 2026 #3 lalasor Thu, 07/30/2026 - 23:34 Tehran Thu, 07/30/2026 - 12:00 29 July 2026 U.S. Central Command that it had conducted “a heavy wave of strikes against Iran”, targeting “military command centres, missile and drone facilities, coastal surveillance and defenc…"
-        },
-        {
-          "title": "Hormuz 30 July 2026 #1",
-          "link": "https://www.crisisgroup.org/content/hormuz-30-july-2026-1",
-          "pubDate": "2026-07-30T21:34:03.000Z",
-          "snippet": "Hormuz 30 July 2026 #1 lalasor Thu, 07/30/2026 - 23:34 Strait of Hormuz Thu, 07/30/2026 - 12:00 30 July 2026 The IRGC that “the Strait of Hormuz is not reopenable as long as the excessive rhetoric and threats by U.S. officials and their interference in maritime movements in the r…"
-        },
-        {
-          "title": "Tehran 30 July 2026 #1",
-          "link": "https://www.crisisgroup.org/content/tehran-30-july-2026-1",
-          "pubDate": "2026-07-30T21:33:29.000Z",
-          "snippet": "Tehran 30 July 2026 #1 lalasor Thu, 07/30/2026 - 23:33 Tehran Thu, 07/30/2026 - 12:00 30 July 2026 The IRGC that “the Strait of Hormuz is not reopenable as long as the excessive rhetoric and threats by U.S. officials and their interference in maritime movements in the region cont…"
-        },
-        {
-          "title": "Washington 30 July 2026 #2",
-          "link": "https://www.crisisgroup.org/content/washington-30-july-2026-2",
-          "pubDate": "2026-07-30T21:32:45.000Z",
-          "snippet": "Washington 30 July 2026 #2 lalasor Thu, 07/30/2026 - 23:32 Washington Thu, 07/30/2026 - 12:00 30 July 2026 The IRGC that “the Strait of Hormuz is not reopenable as long as the excessive rhetoric and threats by U.S. officials and their interference in maritime movements in the reg…"
-        }
-      ]
+      "items": []
     },
     {
       "name": "World Economic Forum",
       "color": "yellow",
-      "items": [
-        {
-          "title": "Event Details - Ibadan Hub",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHZDSF90Z1ZSQlVlWlh1Z19TTlJBZGg0ZWdlYmd2S1k4c0c2RzU3M0lJWGYyQnFZY3gzOVdOWTRrMktvU19Rcks1UmZoeHJ0U05VRWtLVW5VWGxaWGVzOXR3VmRESWdtRXNSaUFraV9xRno1YXNoNUtOdnlPdjJFUzdVMU1yTDFJeWVpYkpXNS1FbEotM1VOYk1DQmhwN3F0WFFzWDN4Z1I5b2FOcDBlT01hTWZzbTZUcmplTjNCV0tsT3ZUcllIRk5hU0lYNEthLVFyQjN3?oc=5",
-          "pubDate": "2026-08-09T02:27:02.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Event Details - Ibadan Hub",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRDdLSExYRFhqMUR6eXJyQTI1TnkzYXBad0h3T01DMWV4Z3ZzVkxEbmVTUXhrOG5YZzdHRFhNcVIyNGRZakxuQVo2VFk2V2tJQ1FhOS03OEJhbkJVSGtvRUVQb0x4MVkyUVpBeVlsRWZrS3JZTURaMTRlUGdqV1JlRUJ4SmlUV0pqNWNZLVV0SUhnZnl4TUNwbWpid1NobTRxczg4ZQ?oc=5",
-          "pubDate": "2026-08-09T02:27:02.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Sean A. Arnold",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lVUR0SkRuWlVWTjdkRW9BVEJMVS02azNBV2EyZkJGQ09QQzRubk0xN2tCbTdlOTNqWWwyTGFtMG5EQVNjNGpwdHE4RHpOOTgtNnZrQVlxeld1SzVUeEluclJzQQ?oc=5",
-          "pubDate": "2026-08-08T17:06:51.000Z",
-          "snippet": null
-        },
-        {
-          "title": "¿Por qué hay empresas interesadas en el polvo lunar?",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zQjgzR2lKTHBDYWhNTXFXNTVMcHp1emlkYVYzSU84RFhEb1o2SE1FSm94NHpaQ0dxMXlDM3VzbjNDVEJiR3l3Sy1uZU9WYUZYWVBINk5EcUkxd1FuV0RMNTJzRmJJampFSHZCYlQ2SUFGcGgxU3kyVGM4QTJxUQ?oc=5",
-          "pubDate": "2026-08-07T15:47:38.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Meet the Leader: author Jonathan Haidt",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ3FFMzhIZ0JxU1NVdWFiblFjTHdIdmZlV09zMDFMVXRfWjcyU1IxN05rZm16Z251MGpLakRIMFZNaXVDSjBkUno0cnA4QVo4b0gxZW5qWC1aaWpjOGNJTU9zUzdUN0pzb1VZTXhxSWJNX2hCaGxfZUFtSWV2Y005a0tpRHZBQWY0Y0dKUA?oc=5",
-          "pubDate": "2026-08-06T17:33:22.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Colaboradores de la Agenda",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xX285RDA2NzlWUmh4UURjMUVYZWp6V0JJZm9DRmg2cElaUXFyTmk0endQd0FDMmpSTkxwdkFJdGpXREY0X3Z0T3RLblAwbk41U1FvandlNTlzcjVK?oc=5",
-          "pubDate": "2026-08-05T06:19:58.000Z",
-          "snippet": null
-        }
-      ]
+      "items": []
     }
   ]
 }
