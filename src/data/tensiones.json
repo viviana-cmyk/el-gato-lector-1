@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-08-07T10:02:07.663Z",
+  "generatedAt": "2026-08-11T10:01:41.383Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Escalada de tensiones Irán-Arabia Saudita en el Golfo Pérsico",
-      "region": "Oriente Medio",
+      "titulo": "Amenaza iraní contra Trump y escalada en el Golfo Pérsico",
+      "region": "Oriente Medio - Golfo Pérsico",
       "noticia": {
-        "titulo": "Arabia Saudita se prepara para ataques contra puertos y aeropuertos de milicias iraquíes aliadas a hutíes apoyados por Irán",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNczhOLWJKWUhsNHVUZDJXQk80WUt3QlRuaWRBTHhFMHdXOWMxUUtSLUxacmsyRzZPNEh4Z0lXM2hJSXZ0SWJZMmJwYVVoWHdjcGZ6dVhFMHFrS0NrR3lvVkt5R3ZpYW9PSmtkLXNCdklqaFVJOXZVUE9mYjdSOG0wMVZxWExhOXNULV9RTUlTaTU?oc=5",
-        "fuente": "CNN en Español"
+        "titulo": "Contradicting public statements, Trump took secret flight from Turkey amid Iranian threat",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ19xNGhGZ0JaLTNDVWtsdmQxLW1WU0xOeG5iLTJjZ1QxUDdrYWZGMGR6TnJ...",
+        "fuente": "The Washington Post"
       },
-      "analisis": "Arabia Saudita refuerza defensas ante amenazas de actores iraníes en Irak, lo que refleja la persistente competencia regional por el control del Golfo tras años de tensiones nucleares y económicas. La implicación es que cualquier escalada podría afectar el tráfico marítimo global de petróleo y energía, con consecuencias en mercados internacionales."
+      "analisis": "La amenaza iraní que obligó a Trump a cambiar de avión en secreto durante la cumbre de la OTAN en Turquía refleja una escalada en las tensiones entre Washington y Teherán que trasciende lo diplomático hacia acciones operativas de seguridad. Esta dinámica indica que Irán mantiene capacidad de proyección de amenaza contra figuras estadounidenses de alto nivel, complicando la arquitectura de seguridad de la región y las negociaciones futuras sobre el programa nuclear iraní."
     },
     {
       "rank": 2,
-      "titulo": "Reconfiguración geopolítica en América Latina bajo administración Trump",
-      "region": "América Latina",
+      "titulo": "Colapso geopolítico en Siria y condena internacional a Bashar al-Assad",
+      "region": "Levante - Siria",
       "noticia": {
-        "titulo": "Trump Administration Fast-Tracks Military Partnership With Colombia to Target Drug Traffickers",
-        "link": "https://www.nytimes.com/2026/08/07/world/americas/trump-administration-military-partnership-colombia.html",
-        "fuente": "The New York Times"
+        "titulo": "Condenan al expresidente sirio Bashar al-Assad a muerte en ausencia",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPb3NIYmJyUFp3UzMtYVVMZE52VE8xT2gycnkwaWdMRm5jaHFxYVZ...",
+        "fuente": "CNN en Español"
       },
-      "analisis": "Trump acelera alianzas militares con Colombia mientras simultáneamente se produce un giro a la derecha en gobiernos latinoamericanos, consolidando una esfera de influencia estadounidense frente a actores como China y Rusia. Este realineamiento regional tiene implicaciones para el control del narcotráfico y la migración, pero también abre interrogantes sobre la soberanía e independencia de políticas domésticas en países de la región."
+      "analisis": "La condena a muerte del expresidente al-Assad marca un punto de quiebre en la legitimidad del régimen sirio dentro de espacios internacionales, con implicaciones para la reconstrucción post-conflicto y la repatriación de refugiados sirios dispersos globalmente. Este fallo fortalece la narrativa de responsabilidad internacional pero complica la negociación con gobiernos que aún mantienen intereses en Siria, particularmente Rusia e Irán."
     },
     {
       "rank": 3,
-      "titulo": "Escalada de política restrictiva migratoria y comercial de EE.UU.",
-      "region": "América del Norte y Global",
+      "titulo": "Escalada militar en Ucrania con armamento norcoreano y debilitamiento de aliados árabes estadounidenses",
+      "region": "Europa Oriental y Golfo Pérsico",
       "noticia": {
-        "titulo": "Trump firma nuevos decretos que vuelven a apuntar a la ciudadanía por nacimiento",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMk4yeFd0Ym54YldRVllmZklSNEE5YTNSei0xWlYxbzVWYjhpdlZnUkhBc1pFWXlPcEZXX21fRmZrbEhDUVo4TTBZNA?oc=5",
-        "fuente": "CNN en Español"
+        "titulo": "Overnight Russian strikes on Ukraine used North Korean missiles, claims Zelenskyy – Europe live",
+        "link": "https://www.theguardian.com/world/live/2026/aug/11/russia-strikes-ukraine-wildberries-hungary-heat-latest-news-updates",
+        "fuente": "The Guardian"
       },
-      "analisis": "Trump avanza simultáneamente en restricciones migratorias (ciudadanía por nacimiento) y arancelarias (15% en materiales para paneles solares y microchips), señalando un giro hacia proteccionismo económico que afecta a aliados comerciales tradicionales. Estas medidas generarán fricciones con México, Canadá y socios asiáticos, redefiniendo cadenas de suministro global y polarizando mercados internacionales."
+      "analisis": "La incorporación confirmada de misiles norcoreanos en operaciones rusas contra Ucrania evidencia una alianza de facto entre Moscú y Pyongyang que rompe el aislamiento de ambos regímenes y crea un eje de potencias revisionistas que desafía la arquitectura de seguridad occidental. Simultáneamente, la guerra en Gaza ha debilitado la influencia de aliados estadounidenses clave en la región (Arabia Saudí y Emiratos), reconfigurado la estructura de poder regional y limitado la capacidad de Washington para contener simultáneamente el teatro europeo y el del Índico-Pacífico."
     }
   ]
 }
