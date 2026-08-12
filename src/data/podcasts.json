@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T10:01:37.239Z",
+  "generatedAt": "2026-08-12T10:01:40.325Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -22,36 +22,36 @@
       "url": "https://podcasts.apple.com/co/podcast/365-con-dios/id1546917854"
     },
     {
-      "title": "Estoicismo Filosofia",
-      "host": "Estoicismo Filosofia",
-      "url": "https://podcasts.apple.com/co/podcast/estoicismo-filosofia/id1740616448"
+      "title": "Se Regalan Dudas",
+      "host": "Dudas Media",
+      "url": "https://podcasts.apple.com/co/podcast/se-regalan-dudas/id1416903369"
     }
   ],
   "mundo": [
-    {
-      "title": "Crime Junkie",
-      "host": "Audiochuck",
-      "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
-    },
     {
       "title": "The Daily",
       "host": "The New York Times",
       "url": "https://podcasts.apple.com/us/podcast/the-daily/id1200361736"
     },
     {
+      "title": "Crime Junkie",
+      "host": "Audiochuck",
+      "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
+    },
+    {
+      "title": "Dateline NBC",
+      "host": "NBC News",
+      "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
+    },
+    {
+      "title": "Good Hang with Amy Poehler",
+      "host": "The Ringer",
+      "url": "https://podcasts.apple.com/us/podcast/good-hang-with-amy-poehler/id1795483480"
+    },
+    {
       "title": "The Joe Rogan Experience",
       "host": "Joe Rogan",
       "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272"
-    },
-    {
-      "title": "Pardon My Take",
-      "host": "Barstool Sports",
-      "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
-    },
-    {
-      "title": "Mick Unplugged",
-      "host": "Mick Hunt",
-      "url": "https://podcasts.apple.com/us/podcast/mick-unplugged/id1731755953"
     }
   ]
 }

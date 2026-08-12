@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-08-11T10:01:37.239Z",
+  "generatedAt": "2026-08-12T10:01:40.325Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "The InSight Take: Abelardo de la Espriella hereda un panorama criminal fragmentado en Colombia",
+          "link": "https://insightcrime.org/es/noticias/the-insight-take-abelardo-de-la-espriella-hereda-panorama-criminal-fragmentado-colombia/",
+          "pubDate": "2026-08-11T21:55:27.000Z",
+          "snippet": "The InSight Take: Abelardo de la Espriella hereda un panorama criminal fragmentado en Colombia El nuevo presidente de Colombia enfrenta uno de los panoramas criminales más complejos del mundo. En el InSight Take de esta semana, nuestro codirector Jeremy McDermott y la investigado…"
+        },
         {
           "title": "El tráfico de ketamina se expande por América Latina",
           "link": "https://insightcrime.org/es/noticias/trafico-ketamina-expande-america-latina/",
@@ -34,12 +40,6 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/cartel-jalisco-nueva-generacion-cjng/",
           "pubDate": "2026-08-06T19:58:30.000Z",
           "snippet": "Cartel de Jalisco Nueva Generación (CJNG) El Cartel Jalisco Nueva Generación (CJNG) es un grupo criminal transnacional que surgió del Cartel del Milenio tras una serie de asesinatos, detenciones y fracturas internas. Es conocido por su uso agresivo de la violencia y sus campañas…"
-        },
-        {
-          "title": "On The Radar: Atentado del ELN sacude a Colombia antes de la asunción del nuevo presidente",
-          "link": "https://insightcrime.org/es/noticias/on-the-radar-atentado-eln-sacude-colombia-antes-asuncion-nuevo-presidente/",
-          "pubDate": "2026-08-06T18:36:43.000Z",
-          "snippet": "On The Radar: Atentado del ELN sacude a Colombia antes de la asunción del nuevo presidente ¿Cómo se preparan los grupos armados de Colombia ante la llegada de un nuevo presidente de mano dura? ¿La violencia de las bandas criminales de Ecuador está llegando a la […] The post On Th…"
         }
       ]
     },
