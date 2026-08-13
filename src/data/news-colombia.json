@@ -1,49 +1,42 @@
 {
-  "generatedAt": "2026-08-12T10:01:40.325Z",
+  "generatedAt": "2026-08-13T10:01:46.062Z",
   "outlets": [
     {
       "name": "Semana",
       "color": "blue",
       "items": [
         {
-          "title": "Abelardo De La Espriella recorrió el Eje Cafetero tras el terremoto y alista emergencia económica: estos fueron sus anuncios",
-          "link": "https://www.semana.com/politica/articulo/abelardo-de-la-espriella-recorrio-el-eje-cafetero-tras-el-terremoto-y-alista-emergencia-economica-estos-fueron-sus-anuncios/202658/",
-          "pubDate": "2026-08-12T03:16:58.000Z",
+          "title": "Enrique Gómez rechazó la autorización del Senado para que Gustavo Petro salga del país",
+          "link": "https://www.semana.com/politica/articulo/enrique-gomez-rechazo-la-autorizacion-del-senado-para-que-gustavo-petro-salga-del-pais/202613/",
+          "pubDate": "2026-08-13T03:39:13.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Ana Lucía Pineda confirma alianza con funerarias para atender gratis a víctimas del sismo",
-          "link": "https://www.semana.com/gente/articulo/ana-lucia-pineda-confirma-alianza-con-funerarias-para-atender-gratis-a-victimas-del-sismo/202610/",
-          "pubDate": "2026-08-12T04:21:10.000Z",
+          "title": "Arriendos tras un terremoto: cuándo se puede reducir el canon o terminar el contrato",
+          "link": "https://www.semana.com/economia/macroeconomia/articulo/arriendos-tras-un-terremoto-cuando-se-puede-reducir-el-canon-o-terminar-el-contrato/202636/",
+          "pubDate": "2026-08-13T09:22:36.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Alcalde Alejandro Eder hace desesperado pedido a Cali: “Pueden marcar la diferencia para salvar más vidas”",
-          "link": "https://www.semana.com/confidenciales/articulo/alcalde-alejandro-eder-hace-desesperado-pedido-a-cali-pueden-marcar-la-diferencia-para-salvar-mas-vidas/202635/",
-          "pubDate": "2026-08-12T04:06:35.000Z",
+          "title": "Federico Gutiérrez confirma trágica noticia del edificio Rincón, en Pereira: mujer de 80 años fue hallada sin vida",
+          "link": "https://www.semana.com/nacion/pereira/articulo/federico-gutierrez-confirma-tragica-noticia-del-edificio-rincon-en-pereira-mujer-de-80-anos-fue-hallada-sin-vida/202625/",
+          "pubDate": "2026-08-13T03:33:25.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Donald Trump asegura que EE. UU. tiene el “control total” del estrecho de Ormuz",
-          "link": "https://www.semana.com/mundo/articulo/donald-trump-asegura-que-ee-uu-tiene-el-control-total-del-estrecho-de-ormuz/202647/",
-          "pubDate": "2026-08-12T03:40:47.000Z",
+          "title": "“Somos dos grupos diferentes”, ‘Topos de Tlatelolco’ de México se refieren a los ‘Topos Azteca’ que llegaron a Colombia. Insisten en certificación de los grupos de rescate internacional",
+          "link": "https://www.semana.com/nacion/articulo/somos-dos-grupos-diferentes-topos-de-tlatelolco-de-mexico-se-refieren-a-los-topos-azteca-que-llegaron-a-colombia-insisten-en-certificacion-de-los-grupos-de-rescate-internacional/202624/",
+          "pubDate": "2026-08-13T09:18:24.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Contralmirante John Henry Ruiz asumió como jefe de la Casa Militar de la presidencia de Abelardo De La Espriella",
-          "link": "https://www.semana.com/nacion/articulo/contralmirante-john-henry-ruiz-asumio-como-jefe-de-la-casa-militar-de-la-presidencia-de-abelardo-de-la-espriella/202620/",
-          "pubDate": "2026-08-12T03:27:20.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "El jefe del Pentágono se reunirá con funcionarios de Colombia en Panamá",
-          "link": "https://www.semana.com/confidenciales/articulo/el-jefe-del-pentagono-se-reunira-con-funcionarios-de-colombia-en-panama/202648/",
-          "pubDate": "2026-08-12T03:08:48.000Z",
+          "title": "Aldesarrollo emprende campaña de donaciones para atender a familias afectadas por el terremoto",
+          "link": "https://www.semana.com/economia/capsulas/articulo/aldesarrollo-emprende-campana-de-donaciones-para-atender-a-familias-afectadas-por-el-terremoto/202609/",
+          "pubDate": "2026-08-13T03:25:09.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -54,6 +47,34 @@
       "color": "peach",
       "items": [
         {
+          "title": "Congreso en pleno eligió a Jorge Eliécer Laverde como nuevo contralor con 269 votos",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQzNnTklhaUNEcW85R0VQTnRVdVlzQjM1YUpqRDJiVGZtWDVid2ZEdGQ1eEM2bnRaRVdsTExpRklrcEdsT2pubm9xOVY3NFJPOThQRVFod014TTRfNlRpVk5PZFFTTmFqMXZJLTBENWc5YXg3U2YxQmN3UlRUREVZMHZDNmlMZ2ZEdnN6emlhX2FFVmg4VVEweFhVREZ4c256dXNMdElMUG81ei1HMU5UQlhYMmZmemlpTDhZUlZvZ29MVTFFcUlaSmRERjhmSWdfMjVqck9tbTZ5VE1pSm1nMnRZWmJFclBQZmNmbmZn0gHuAUFVX3lxTE1DM2dOSWFpQ0RxbzlHRVBOdFV1WXNCMzVhSmpEMmJUZm1YNWJ3ZkR0ZDV4QzZudFpFV2xMTGlGSWtwR2xPam5ub3E5Vjc0Uk85OFBFUWh3TXhNNF82VGlWTk9kUVNOYWoxdkktMEQ1ZzlheDdTZjFCY3dSVFRERVkwdkM2aUxnZkR2c3p6aWFfYUVWaDhVUTB4WFVERnhzbnp1c0x0SUxQbzV6LUcxTlRCWFgyZmZ6aWlMOFlSVm9nb0xVMUVxSVpKZERGOGZJZ18yNWpyT21tNnlUTWlKbWcydFlaYkVyUFBmY2ZuZmc?oc=5",
+          "pubDate": "2026-08-12T20:31:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Este es el nuevo contralor Jorge Eliécer Laverde: el país político reaccionó a su elección",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNLWdfbHZoZ0NhUFpkRVFEUm1LeGVwTTBCTXdZTUlKV0FQYzVSbXFISDZOb2JlNi0wV013UndaZXRXdzFYVzNfc1RHelBnWnBkNUNhb2FsZTBBZ0RBVHM4VTY3WDYybzJrTWlKdklWMVd3SHBtMmtPZzEzM0tqVFRhWDYydFdobmZCNThjSHJIOVQyMl9acjg4emF3bTJBdmtweEtZMWI1V1o4WUZVNWdoRmJpSmY0OTgyUXVwSE1XZmd0bGsxa05jY1FLMEZwNG1wTWxmQWJfbEFheFRlbFR3ZEE1aDJ5RjdzN2did0U3VkRpd9IB8gFBVV95cUxNLWdfbHZoZ0NhUFpkRVFEUm1LeGVwTTBCTXdZTUlKV0FQYzVSbXFISDZOb2JlNi0wV013UndaZXRXdzFYVzNfc1RHelBnWnBkNUNhb2FsZTBBZ0RBVHM4VTY3WDYybzJrTWlKdklWMVd3SHBtMmtPZzEzM0tqVFRhWDYydFdobmZCNThjSHJIOVQyMl9acjg4emF3bTJBdmtweEtZMWI1V1o4WUZVNWdoRmJpSmY0OTgyUXVwSE1XZmd0bGsxa05jY1FLMEZwNG1wTWxmQWJfbEFheFRlbFR3ZEE1aDJ5RjdzN2did0U3VkRpdw?oc=5",
+          "pubDate": "2026-08-13T01:28:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Senado aprobó solicitud de Petro para salir del país: deberá informar destinos y fechas",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQUGxnMFk3N1ZrRWEyWXFtZk44SGJ4M29JeHdoTWc2ZjE1czZVLTdYOUNtU1N5bVhrdzlwT0gwMG5NbXlTN3hnY3FPVm9iSVRQS3pZNTdBSzlnVXl2dHVDMzlVdkxzZU8wUlpVTGtfM19pVkdPVXpMTXNMcUozelhfR1JrcWF0eDFSY0RvdGRqSjVJN0RDVUIxVkFwS1Q4dTlLNVk4ZWRHRG8xblc1NWY0Y1hGSW1yMndPaDg1UDRGd2llVVZOdlZiZVZnMlZEeGV4QTNsd3FCZ1lxOVVQeVpJN3VwTHJza1BHMUh0R2s0b9IB7wFBVV95cUxQUGxnMFk3N1ZrRWEyWXFtZk44SGJ4M29JeHdoTWc2ZjE1czZVLTdYOUNtU1N5bVhrdzlwT0gwMG5NbXlTN3hnY3FPVm9iSVRQS3pZNTdBSzlnVXl2dHVDMzlVdkxzZU8wUlpVTGtfM19pVkdPVXpMTXNMcUozelhfR1JrcWF0eDFSY0RvdGRqSjVJN0RDVUIxVkFwS1Q4dTlLNVk4ZWRHRG8xblc1NWY0Y1hGSW1yMndPaDg1UDRGd2llVVZOdlZiZVZnMlZEeGV4QTNsd3FCZ1lxOVVQeVpJN3VwTHJza1BHMUh0R2s0bw?oc=5",
+          "pubDate": "2026-08-12T22:50:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Este es el decreto con el que se declara desastre nacional por el terremoto",
+          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPZHhvdG1aTG50OTgyckw0OGFMSzIxcWNNV3plOG95M2hmWXgxOGpvVjJLQnNqSlRvTVRyeWNLbEE3Mkpvcll3OE1wOEFJU1djeDBXbHYwbG5CMzd1VVUyRFY4V1M2VTYyR1c2a3YzdUJObXRpZ2lSdlFzZXNfZnNQUW82UmxaQTlPTXgtaS1uVUNUWlBtYmQybmNyYjdDU1Vyc2NSN18zbFNkd3BWYmh5cmo0bFlaT3pLUmpSLUdEV2xaOGJ4dUlEYThUU0FLY2QtTUVXQmxqNVhfM1lRYVBVVDVOWDV1bWNSN1lKRDFkVWZ6V212N0JqWnZBb1TSAfwBQVVfeXFMT2R4b3RtWkxudDk4MnJMNDhhTEsyMXFjTVd6ZThveTNoZll4MThqb1YyS0JzakpUb01UcnljS2xBNzJKb3JZdzhNcDhBSVNXY3gwV2x2MGxuQjM3dVVVMkRWOFdTNlU2MkdXNmt2M3VCTm10aWdpUnZRc2VzX2ZzUFFvNlJsWkE5T014LWktblVDVFpQbWJkMm5jcmI3Q1NVcnNjUjdfM2xTZHdwVmJoeXJqNGxZWk96S1JqUi1HRFdsWjhieHVJRGE4VFNBS2NkLU1FV0JsajVYXzNZUWFQVVQ1Tlg1dW1jUjdZSkQxZFVmeldtdjdCalp2QW9U?oc=5",
+          "pubDate": "2026-08-12T11:30:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "De la Espriella oficializó la declaratoria de situación de desastre de carácter nacional",
           "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcFJZcFBzczd0akNPenlIYVZJZXlWTDByM0o2U0pNV2VxMlFaSUJObHZYV2FRbGJvblljS0hhUVM0Z0xhN3dXdXU4cWRzQjREcVRZXzVTaFpiWnlrX05MUVFiUjB3OU1lZDFtQnA4ZHhxSlNra2owUC04SzVZMUhja1Z6UmZaeGRaMGxJQUo2Uk9rZ1VYU24xNl9MWmkzOFlMS0ZKanBXVHdzYVc2WThOSHBPemhCRWxUOWhIY21DZHJyWS05eUNwaHdRUmlELU9ZZm93YUJpMXpVQWhvbElUeGRZWGtPNnBZbjlKUUo4Y25HQTh1YXB3ekFyY3l6ZUXSAf8BQVVfeXFMTnBSWXBQc3M3dGpDT3p5SGFWSWV5VkwwcjNKNlNKTVdlcTJRWklCTmx2WFdhUWxib25ZY0tIYVFTNGdMYTd3V3V1OHFkc0I0RHFUWV81U2haYlp5a19OTFFRYlIwdzlNZWQxbUJwOGR4cUpTa2tqMFAtOEs1WTFIY2tWelJmWnhkWjBsSUFKNlJPa2dVWFNuMTZfTFppMzhZTEtGSmpwV1R3c2FXNlk4TkhwT3poQkVsVDloSGNtQ2RyclktOXlDcGh3UVJpRC1PWWZvd2FCaTF6VUFob2xJVHhkWVhrTzZwWW45SlFKOGNuR0E4dWFwd3pBcmN5emVF?oc=5",
           "pubDate": "2026-08-12T03:09:00.000Z",
@@ -61,37 +82,9 @@
           "_priority": "ALTA"
         },
         {
-          "title": "Gobierno reafirma declaratoria de emergencia y canaliza ayudas internacionales por terremoto",
-          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMXYwU0FjUVpKTm5UY2t6dFJWWmtsMTZMU2d0UVNYZVVVT1hIdDJ6dmlHQko1MGRQWXBWMFdhOTNQSTc2eTlXN3JwanBNaGJJM21SamlCR19WdzRPUmxweDdkcVZjaGk2Y1hBb01fT3V4TnBybVhETGVfNkFMWWZtMHV1N0dVUVV0a1lLRk5fTngwZFRxazZPQUxPVVh5S0ZOY296a2I0R05mazQ3RXFsTmZXOGtfSkF2NEVGVHlnYXZiOVBCZ3Y3RU1aSEUyUmhhcWNvTmJEU25qVnFubFp3SGlidTM5MjRjQ2RTRXRmSWkzbmJnTk5sOXlsWS1lYWVw0gGAAkFVX3lxTE0xdjBTQWNRWkpOblRja3p0UlZaa2wxNkxTZ3RRU1hlVVVPWEh0Mnp2aUdCSjUwZFBZcFYwV2E5M1BJNzZ5OVc3cnBqcE1oYkkzbVJqaUJHX1Z3NE9SbHB4N2RxVmNoaTZjWEFvTV9PdXhOcHJtWERMZV82QUxZZm0wdXU3R1VRVXRrWUtGTl9OeDBkVHFrNk9BTE9VWHlLRk5jb3prYjRHTmZrNDdFcWxOZlc4a19KQXY0RUZUeWdhdmI5UEJndjdFTVpIRTJSaGFxY29OYkRTbmpWcW5sWndIaWJ1MzkyNGNDZFNFdGZJaTNuYmdOTmw5eWxZLWVhZXA?oc=5",
-          "pubDate": "2026-08-12T01:49:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "De la Espriella anunció apoyos para la reconstrucción de infraestructura desde Manizales",
-          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxON0dPMFA3R1N3Z2ZidTJOUlotczBjbFJiREszUnJsSU1sdl9tRXRnZWtSd2ZhaUxlZDJrMklVSVpvVDNaakp6T1R0TmxBVjhuNjZQYVJvSzVHbnBFM2htdUxTdkVRVGo5QlVmdjVSWUdmWXdDRGctaXUyOGpjMl9jR2l4VTc1bFZhajNGdThnZS14M3I0cWc1akYwUk1qWTF2STBjc3cwamFUWUhOZHUtMmFmSXpQRHZqQldRdC1KTUpYUy1UeVk4cnVJOWZRZE0xRFFRSWxkcUFHOXFvMnJscXNDc1BzU2lETHBKcHJjUmx2bmhWRm9HRW5pRy1PcTht0gGAAkFVX3lxTE43R08wUDdHU3dnZmJ1Mk5SWi1zMGNsUmJESzNScmxJTWx2X21FdGdla1J3ZmFpTGVkMmsySVVJWm9UM1pqSnpPVHRObEFWOG42NlBhUm9LNUducEUzaG11TFN2RVFUajlCVWZ2NVJZR2ZZd0NEZy1pdTI4amMyX2NHaXhVNzVsVmFqM0Z1OGdlLXgzcjRxZzVqRjBSTWpZMXZJMGNzdzBqYVRZSE5kdS0yYWZJelBEdmpCV1F0LUpNSlhTLVR5WThydUk5ZlFkTTFEUVFJbGRxQUc5cW8ycmxxc0NzUHNTaURMcEpwcmNSbHZuaFZGb0dFbmlHLU9xOG0?oc=5",
-          "pubDate": "2026-08-11T20:37:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "El Congreso mide fuerzas en un pulso inaplazable por la Contraloría: lo que está en juego",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSVNiQTFnQVZfaUFqb3FxNmlObkVKS3cyVGxhYjdMU2ptNGNtNE5XRHVHaFhocm8wUTRHNTJ2UnoyRzJMaVNIZm1BVENxS2padG9qVm9rYUpuZGprNlp2ck9MclRSOHVqZ0ZIaVFqem1TdTI2Z2NSSzlabmtiNzRhMmQ0RUdtQVFabXdRN25KSGg4MzJGV0w0SGZlbUM2SUs5ZHpSenY1X1VFWlM4QjgxcWhQZnE5OU9VZk9FTVBlQVV6ZFhqVmZEWkRETWVIaHp5Vkl6OUJvYWRCYWIta2tvNmNDY1FiWnVyWjgwQkFR0gHuAUFVX3lxTE1JU2JBMWdBVl9pQWpvcXE2aU5uRUpLdzJUbGFiN0xTam00Y200TldEdUdoWGhybzBRNEc1MnZSejJHMkxpU0hmbUFUQ3FLalp0b2pWb2thSm5kams2WnZyT0xyVFI4dWpnRkhpUWp6bVN1MjZnY1JLOVpua2I3NGEyZDRFR21BUVptd1E3bkpIaDgzMkZXTDRIZmVtQzZJSzlkelJ6djVfVUVaUzhCODFxaFBmcTk5T1VmT0VNUGVBVXpkWGpWZkRaRERNZUhoenlWSXo5Qm9hZEJhYi1ra282Y0NjUWJadXJaODBCQVE?oc=5",
-          "pubDate": "2026-08-12T02:05:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Así será el homenaje a Miguel Uribe Turbay a un año de su muerte: incluirá misa y monumento",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONmtBVUU2eFZwdy1UbjduNEV5M3NHa1ktSnhiS2wzNk05QTZ5Y1FWN1JNU1lQeGRyNUpQci1aOWZXMXZOc041SmQ4SlpLb0Vmem9ZcEp5MmNPLTRoYWU0bXhtc0JqSDd0Yl9NZjFlTUxFSFF6VEZQdEJsd1Bmd2poUWtnemswejlpckxyNjd2bjJJQUZyS29kTlRpVzBkZ1ZHMGNxWmZ0WlVHUnhXUEt6U0dlZEpEYnJEX3FpMlRRYjdITUp1dnN6Mm5UVU54dmh5RE5PMVRiMW5ZYjMw0gHcAUFVX3lxTE42a0FVRTZ4VnB3LVRuN240RXkzc0drWS1KeGJLbDM2TTlBNnljUVY3Uk1TWVB4ZHI1SlByLVo5Zlcxdk5zTjVKZDhKWktvRWZ6b1lwSnkyY08tNGhhZTRteG1zQmpIN3RiX01mMWVNTEVIUXpURlB0Qmx3UGZ3amhRa2d6azB6OWlyTHI2N3ZuMklBRnJLb2ROVGlXMGRnVkcwY3FaZnRaVUdSeFdQS3pTR2VkSkRickRfcWkyVFFiN0hNSnV2c3oyblRVTnh2aHlETk8xVGIxblliMzA?oc=5",
-          "pubDate": "2026-08-11T13:20:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Expresidente Petro solicitó permiso al Congreso para salir del país por el plazo de un año",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPRFdSUTQ5eURuUU9LTDJnYXpYNFhpNXA0UHhoUjlZZFh1ZjlDZUhPZ3J2S0pQa3RDMTNFQVBhcUlzRnN1N0M4NzV4SzFDWEYtN05vbkVKd25FOEQyY0JxQVZxUE5ObmdDRlhxanY3R295ZVNDQzh0dEtGY1JkWnQ1bEVTdTk2T0NpMTE0cjFzbHhHWUN0ajBlQlZqYjlzSE4xcDNUTmlRQWstbldLZzAzd0Y3ekMxbDRfZlhXb3A2ZHRwNE5ZczFVTXBHQWY4OVZibURPVXpFLVZicDU4LXRTLVdBM0g1NDlkLW5YQzlqVXJOaG5fY1Zoa3MwaTbSAfwBQVVfeXFMT0RXUlE0OXlEblFPS0wyZ2F6WDRYaTVwNFB4aFI5WWRYdWY5Q2VIT2dydktKUGt0QzEzRUFQYXFJc0ZzdTdDODc1eEsxQ1hGLTdOb25FSnduRThEMmNCcUFWcVBOTm5nQ0ZYcWp2N0dveWVTQ0M4dHRLRmNSZFp0NWxFU3U5Nk9DaTExNHIxc2x4R1lDdGowZUJWamI5c0hOMXAzVE5pUUFrLW5XS2cwM3dGN3pDMWw0X2ZYV29wNmR0cDROWXMxVU1wR0FmODlWYm1ET1V6RS1WYnA1OC10Uy1XQTNINTQ5ZC1uWEM5alVyTmhuX2NWaGtzMGk2?oc=5",
-          "pubDate": "2026-08-11T19:25:00.000Z",
+          "title": "Gobierno también decretó tres días de duelo nacional por las víctimas del terremoto",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc3M2QkJ6TUR6UDQ3TGJ5em51eEVqZmtyM0ctdTB1RlZPeFdzWnhqQ2lMVTJ5RFE5SkNyMFlsUFRhOVk4d0RTal9RSVZfSlB2V0xBWGdNRldZQjl6ZDZkb09FNU1tdnY3Z3piaHNPWXV6Nmc1dGJhTFJJV3RVdlFHMWxTUVRYTFdBV3A4dEVBLUgtN0FpTXFKNG9fZG5xUFVJcjRSb1QwWkNYWVZod2dKbUxHM1Fzb05HVTNzbkNkU1F0TzY0X2IwM3pYaTZtR3JuQjlMOWZiaDN3eUVzUmtfMk1GVVHSAeQBQVVfeXFMT3NzNkJCek1EelA0N0xieXpudXhFamZrcjNHLXUwdUZWT3hXc1p4akNpTFUyeURROUpDcjBZbFBUYTlZOHdEU2pfUUlWX0pQdldMQVhnTUZXWUI5emQ2ZG9PRTVNbXZ2N2d6YmhzT1l1ejZnNXRiYUxSSVd0VXZRRzFsU1FUWExXQVdwOHRFQS1ILTdBaU1xSjRvX2RucVBVSXI0Um9UMFpDWFlWaHdnSm1MRzNRc29OR1Uzc25DZFNRdE82NF9iMDN6WGk2bUdybkI5TDlmYmgzd3lFc1JrXzJNRlVR?oc=5",
+          "pubDate": "2026-08-12T12:24:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -102,45 +95,45 @@
       "color": "rose",
       "items": [
         {
-          "title": "Terremoto en Colombia hoy 12 de agosto, últimas noticias: el presidente de El Salvador, Nayib Bukele, anunció el primer envío de ayuda hacia el país",
-          "link": "https://www.eltiempo.com/colombia/otras-ciudades/terremoto-en-colombia-hoy-12-de-agosto-ultimas-noticias-presidente-de-la-espriella-celebro-rescate-de-daniela-largo-tras-36-horas-bajo-los-escombros-3577781",
-          "pubDate": "2026-08-12T09:44:47.000Z",
-          "snippet": "Según Asocapitales, Cali y Pereira presentan la situación más crítica: con estructuras colapsadas y personas atrapadas.",
+          "title": "Terremoto en Colombia hoy 13 de agosto: primer ministro de Israel, Benjamín Netanyahu, ordenó el envío 'inmediato' de una misión de ayuda al país",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/terremoto-en-colombia-hoy-13-de-agosto-director-de-la-ungrd-dijo-que-el-pais-esta-recibiendo-ayuda-internacional-para-busqueda-y-rescate-de-victimas-3578053",
+          "pubDate": "2026-08-13T09:36:18.000Z",
+          "snippet": "Tras el fuerte movimiento telúrico, el presidente de la República confirmó que declarará la emergencia económica en todo el territorio nacional.",
           "_priority": "ALTA"
         },
         {
-          "title": "Tragedia en terremoto en Colombia: piso 12 de icónico edificio en Pereira colapsó y aplastó a personas; impactantes imágenes de daños y rescate",
-          "link": "https://www.eltiempo.com/colombia/otras-ciudades/tragedia-en-terremoto-en-colombia-piso-12-de-iconico-edificio-en-pereira-colapso-y-aplasto-a-personas-impactantes-imagenes-de-danos-y-rescate-3577778",
-          "pubDate": "2026-08-12T09:36:55.000Z",
-          "snippet": "Este es uno de los edificios más antiguos de la ciudad y se vio fuertemente afectado por el movimiento telúrico.",
+          "title": "Defensoría del Pueblo alerta por comunidades indígenas del Chocó incomunicadas tras terremoto de 7,4 en Colombia: 'Respuestas urgentes'",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/defensoria-del-pueblo-alerta-por-comunidades-indigenas-del-choco-que-siguen-incomunicadas-tras-terremoto-de-magnitud-7-4-en-colombia-3578048",
+          "pubDate": "2026-08-13T04:08:05.000Z",
+          "snippet": "La entidad pidió acelerar los censos y reforzar la atención para conocer la magnitud de la emergencia en el departamento.",
           "_priority": "ALTA"
         },
         {
-          "title": "Terremoto de magnitud 7,4 en Colombia: Starlink, empresa de Elon Musk, ofrece conexión a internet gratuita en zonas afectadas del país: así funciona",
-          "link": "https://www.eltiempo.com/colombia/otras-ciudades/terremoto-de-magnitud-7-4-en-colombia-starlink-empresa-de-elon-musk-ofrece-conexion-a-internet-gratuita-en-zonas-afectadas-del-pais-asi-funciona-3577777",
-          "pubDate": "2026-08-12T08:05:42.000Z",
-          "snippet": "La compañía hizo el anuncio este 11 de agosto. Este servicio aplica tanto para clientes nuevos como para los que tienen una cuenta activa.",
+          "title": "Revelan nuevas y aterradoras imágenes en video del momento exacto del terremoto en HUV, el colapso y la angustia de enfermos: plan de reconstrucción",
+          "link": "https://www.eltiempo.com/colombia/cali/revelan-nuevas-y-aterradoras-imagenes-en-video-del-momento-exacto-del-terremoto-en-huv-el-colapso-y-la-angustia-de-enfermos-plan-de-reconstruccion-3578034",
+          "pubDate": "2026-08-13T04:02:32.000Z",
+          "snippet": "La ministra de Transporte, Elsa Noguera, junto con la gobernadora, inspeccionó los daños para coordinar la inversión del Gobierno Nacional.",
           "_priority": "ALTA"
         },
         {
-          "title": "Temblor hoy en Colombia | Reportan nueva réplica en epicentro de terremoto de 7,4 la noche de este 11 de agosto: afirman percibirlo en Cali y Medellín",
-          "link": "https://www.eltiempo.com/colombia/otras-ciudades/temblor-hoy-en-colombia-reportan-nueva-replica-en-epicentro-de-terremoto-de-7-4-la-noche-de-este-11-de-agosto-afirman-percibirlo-en-cali-y-medellin-3577780",
-          "pubDate": "2026-08-12T06:05:12.000Z",
-          "snippet": "El Servicio Geológico realizó el reporte. Usuarios en redes manifestaron sentirlo en varios puntos.",
+          "title": "Estadios y coliseos, los refugios de quienes lo perdieron todo en el terremoto de 7,4 en Colombia",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/estadios-y-coliseos-los-refugios-de-quienes-lo-perdieron-todo-en-el-terremoto-de-7-4-en-colombia-3578049",
+          "pubDate": "2026-08-13T04:25:17.000Z",
+          "snippet": "Las alcaldías distritales dispuseron de espacios. Mientras algunos buscan refugio, otros se resisten a abandonar sus casas.",
           "_priority": "ALTA"
         },
         {
-          "title": "Mamá de Salomón, bebé de dos meses rescatado entre los escombros en Cali tras el terremoto en Colombia, sigue desaparecida; su familia clama por ayuda",
-          "link": "https://www.eltiempo.com/colombia/cali/mama-de-salomon-bebe-de-dos-meses-rescatado-entre-los-escombros-en-cali-tras-el-terremoto-en-colombia-sigue-desaparecida-su-familia-clama-por-ayuda-3577783",
-          "pubDate": "2026-08-12T09:36:02.000Z",
-          "snippet": "Bajo la estructura colapsada del edificio Torres de Limonar permanece Valentina, de 39 años. El tío del menor tampoco ha sido localizado.",
+          "title": "Los héroes de cuatro patas que no dejan de buscar sobrevivientes tras el terremoto de magnitud 7,4 en Colombia: 'Nunca se rinden'",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/los-heroes-de-cuatro-patas-que-no-dejan-de-buscar-sobrevivientes-tras-el-terremoto-de-magnitud-7-4-en-colombia-nunca-se-rinden-3578045",
+          "pubDate": "2026-08-13T04:21:39.000Z",
+          "snippet": "Los nombres de estos caninos son Urko, Perla, Júpiter, Polo, Urbi y Nala, perros especializados en labores de búsqueda y rescate.",
           "_priority": "ALTA"
         },
         {
-          "title": "Antes de salir, consulte el pico y placa en Bucaramanga para este miércoles 12 de agosto de 2026",
-          "link": "https://www.eltiempo.com/colombia/santander/antes-de-salir-consulte-el-pico-y-placa-en-bucaramanga-para-este-miercoles-12-de-agosto-de-3577615",
-          "pubDate": "2026-08-12T07:32:00.000Z",
-          "snippet": "La medida aplica entre las 6:00 a. m. y las 8:00 p. m. para vehículos particulares y motocicletas en la capital santandereana.",
+          "title": "Entre escombros y ollas comunitarias: la otra batalla que libra Buenaventura tras el sismo de magnitud 7.4",
+          "link": "https://www.eltiempo.com/colombia/cali/entre-escombros-y-ollas-comunitarias-la-otra-batalla-que-libra-buenaventura-tras-el-sismo-de-magnitud-7-3578050",
+          "pubDate": "2026-08-13T04:14:56.000Z",
+          "snippet": "La gestora social Jimena Toro coordina recorridos locales, censo de afectados y la llegada de donaciones por vía aérea y terrestre.",
           "_priority": "ALTA"
         }
       ]
@@ -150,44 +143,44 @@
       "color": "slate",
       "items": [
         {
-          "title": "Sube a 188 la cifra de muertos por el terremoto en Colombia: hay más de 1.600 heridos y al menos 99 réplicas | El Colombiano",
+          "title": "Presidente De la Espriella confirma emergencia económica y anuncia “Fondo Milagro” para reconstrucción tras terremoto | El Colombiano",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYW9kdzlWTlVNTkxzbkExbE1JSXNiZkxkaUp4bjZyX3I5TnRmN2Qxc3BGTkpvWjktYmFjYll3M01NcTRSSGlPaGJ4cXoxRDlQNzlBT08tWnJRUjY1ZjhGRjFFVDdjbDZIMkJLUWlFTTd4elA0NWQ2OFg2M1dwaTFDcHM3V1FvZzZQRC1rQ3NqVFN2MG5ZeWN3SWRvNFZwM1V5c0ZRVUZmbV85dkQyT1pLNTllTkstc2p40gG-AUFVX3lxTE1LMGs0YUFXOV92SWxYWWgxN3dHY295RFZ5QzJjZzFkajRhSGMyT1RNcVVqLUxINFVYU1lNTFFzcWdBYVRFaktLVGdwMXZSb1F3dGt6NUFvblg3MmYxOVUtZFVraS1IWFhJTmgtOHV3NzR3ZV96YWtjYkdnV05RbV9PSnNoOGFVVS0xalBLSnRGYzktbWVJeHM2eG5CXzljNTFnWnU3NzR4WlVlejR1MHYtU2tmQ2xOM3BmTm94M3c?oc=5",
+          "pubDate": "2026-08-13T01:29:20.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Sube a 239 la cifra de muertos por el terremoto en Colombia: hay más de 3.700 heridos y 287 desaparecidas | El Colombiano",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON3NtTE1aMmRTX1lCTjIxcklIeFU1QUd1Mk1BZkpRVGZlUm1NbXBnMmtCdHRueEFiNjZGdktCSDEwWXVMWFoyWW5tbnZGVG9XcFFSN2pCSWVpQWdQTVdoaWRuU3NUMDZIcjF4XzlRN3pBSDhBTU5VTkFRVmRYcUJOU29icVdUbzF6VHJLQ21LS1BrSi03QjVZN3lZcXFiTWF0akhzU0p3VE7SAa4BQVVfeXFMT08wM1FoUVQwUXJsY2xidVkyNTBVZFNMbFF3el9aR1owMjBzQnRaOWNxeHdTS3NyT2VMdFNEWVJYb2dZSmUwSmg0Z2FKTWpiT1FsNHV3VURsLUpCclFnQ3VCSXZ6TzFqamh2Z0JrU1cyaXhPeFMxU180c3o0dGRMTTZlMDZ5NDI0Y21DOWM2bmZPUFZ1c0ZvTnB1TUltVlBUN0xNZFlRUy1yODkxTy1B?oc=5",
-          "pubDate": "2026-08-11T22:40:27.000Z",
+          "pubDate": "2026-08-12T20:45:11.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "¿Cuánto costará reconstruir a Colombia tras el terremoto? La cifra inicial asciende a $20 billones | El Colombiano",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNY3gyQjhaZDFScWkzMlZfVnlnSVN6TFJYS0M1S3lQQms4bWxwZlBGcUQxejY5ai1DVWRVS2VwNHZ6R3pnWFk2MzlKT3doekV0TnIwQld3T3kwN2lUTUZyQnhhMVI1TWF0ZURmR3hMQ3hmNndoZS1DMnNPZllqNmxRUlVkVmhoSTFXUnp2Q1ZzUHV4dnJLLV9KTWE5Uk54WkFj0gGmAUFVX3lxTFAyMXpUSnNjdDVNQzRWeVVhVzhkd2ZPX2VVUm9EamF5X2M2bGlkUFJsQTR0NWJodG5ZTUszOVRuNjlrRnE1TmpITmYtMVUxMExDbm5iWHNrRm9ta2VDZVM3cVZzaUU4eGh6RkZNd0VlTFNHQUQwZ0hhbGI1Nk1pQkoydzIxeFdIOURTcnRVeFFUWXhEUmYtV1g5N0w5QzZIWkh4ZFJFS3c?oc=5",
-          "pubDate": "2026-08-11T16:19:44.000Z",
+          "title": "“No hemos excluido a ningún país”: canciller confirma llegada de ayuda internacional tras el terremoto | El Colombiano",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN3J4Vk05bWQ2VFUzR3JiMUw0QzhLSzRDaE02MDFvYUFSZUU1VldMSEtudW9Jd25VVWdWQ0x1SzdRWkZvMFhtN0J2ajFmYzRkWmlyR3d3QU1oSU85bFk3MjRpLUFNNFRWd3FXU3l2Zi1BVnhyZUpscnZ3ZjlSS01KMmdzNUhWS29IelYzOFdhNVN4clB6UUQ5RkYyRGlzMEhYOTRJQ1F5ZERUQdIBrwFBVV95cUxNOXlzU29pclkzSzNyUkdrZEVOOEZuZE1SYld1NlVSbHZaTV9GTlo0YjBTU1JsYmpRbGM5alNxZS15U1RabUJhYlNIdGxtdG4xQlN1aThXei1jOWNVN2l0MHlkY3BSSk9PejFvaHRWSWlHZ2xPS1dDVWg0U2lldWlkMFEtSGE4Y21JNi1pLWZYUnlyT1F0REFSVFRtUi1EQndaRF9tSnRMTnVIRjVBaGZR?oc=5",
+          "pubDate": "2026-08-12T19:51:07.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "¿Qué provocó el terremoto de magnitud 7,4 en Colombia? Esto dijo un experto",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQU45cllvUmJvVlBjZlZfZkMtRHhRenNCamptd0NNN1l1dXJzWnBfRXMtU29JWFlDZkJVd1hySXpWN2t6N3dFLXdSRzFseFVsUW5PQ3VjSjdOOWVKWjJWWW5VUU1mcjhIeXNYNFVMNm9JQ2tmRWNVYi1nNjNjVFVaOC1jLUhjaXY4NHd3NnA2a3pWR1hZc3A3WE9fYlRrZUlr?oc=5",
-          "pubDate": "2026-08-11T00:29:43.000Z",
+          "title": "Último balance del terremoto en Antioquia: 90 municipios afectados y 22 sedes de alcaldías con daños | El Colombiano",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSnhVNkJXTTBrc2JEM0IyTUZ4WFdCRE1KYzBFNGJBaWJRMWtFUGJOXzhZakZsS2ZCNDVfMzlwdnJDWDZzMWxEblpQRHpYR21QbHlmWlFOVW10YVdiNHl6Ym5nR3dNU2EydldXT0w2YXZyaElkbDhNaWZRc1VBcFdvV1RhdzdIWVpPdWRlc2hJYzNVNzQ4cXo4Xy1Sb3BIOWtENGlzajQza0ttMjBvQXBoWDVyNi1mNmJ1NjVDYW5XRkNhUdIBxwFBVV95cUxQWWxiakRFM0Y5OTktSHhudXFRNmU4Qy15ZXgyNUdMeEZFSHRqVU1QUkJvcm5NelpUU2h5Qy11SlJ1T3A1LUF5bC1jYnhKZ3ctWGxxNGhwMThuYjYtNzUxbkUwaXpNWlJfZlRfYm1reVVaLU5Uc0NCbjZMaTM0SThqclEwdnhzdkpSTFhXU21lYmRJV3d1UnpXQ1d3Sk8yQ2x3a212T1dJc011d2ZGVkVUYk5ad2wxVWRETHJDSzV6bWVISmdjdjFn?oc=5",
+          "pubDate": "2026-08-12T17:16:19.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Atención: Sismo de 3.8 volvió a sacudir al departamento del Chocó: ya van más de 55 réplicas",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTVZmOEs1VmN1aXdTUGtfcUNJd3hRVWtIRmhjNmV4T2c3cU8zNGJ2YjJSbjFfTGlKQ2RYZEY4d2hPRHZQMmV5NlViUkNZRC1WRnZRaVhHMkZQQnBwSnI0eFJYS0VmcVlDTmszWDhQbDczYlNFZnZjMUN0b0h1MTBXeU5BaTZfOWxORjRuQVBlLVU1dkZPYzhuS1REOUhuTS1RQkhV?oc=5",
-          "pubDate": "2026-08-12T02:51:42.000Z",
+          "title": "Expresidente Gustavo Petro podrá salir del país: el Senado le dio permiso | El Colombiano",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZ1owODhRTWdYaU9rNmQxNWlmd0QwamNSVzZUb2JUYWNHSlNQQy1Lck5kdWpJbW5mZkZ3SC1qVGQ4TGtQQk80U3FBcl9yZ2lqcW50QVFBbHlBeDhELXo5TFhheVRsTlVPUWppb0pRM0dpOWgtems0YjMtaDRaUlFiSWdzYlFGXy1zM1dOZ3BVXzN2YmhUOGVUZmRWaDRrZ045ZUZkYnNvUnVyY0I0WEdLVzRzWW5yNEp2OWFFRHNnMGxYZDJNLVB2MDJn0gHPAUFVX3lxTE9fTlhtVVVEaGg2UXJXbUhsTURvNDF5NmEyUmxPM0o2bUx0UFl3VHg1Rm0zdWY2OGZBbmRPODNQWkRnblFGMEQzZ2NCQzRtOHVCcVljOU1YYjk5RlFLWUR0aE13MWhzbFNKd0w3ZWRqWUFYVmFmcUFFdmVZUFR0bkVNRUVkWHdQUnBZTjU5V0lMTDVsM3UtX3RiTjBwTlRCcVh5S2wwT3J1NmFpbnZZQkRuYXZIc3IwekxkMmRmU05kUEpONl9qbE5fbG15akNDZw?oc=5",
+          "pubDate": "2026-08-13T01:24:25.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Ya van más de $3.800 millones en ayuda internacional para atender la emergencia del terremoto en Colombia | El Colombiano",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWkpLc2FlalRaWXJSOFF5TEhwcmlkVi1saS03MW1XakZzU215TTVVTUJsb2VtOXIwdFhJQXl3UERsR3hDcjhsdDJnUXlESG54SVpzcU52X1IwVW9ZQmt0VDJ3N0FqY0tvR3ZKaU5Pai1UOE9USUdrN0EwR296U0tEYXRDS1ZpOERnLXVhLTlwZXQzOGNndWpJSXZVZVc4MlXSAaQBQVVfeXFMTXV0RFVBNzljRW9pSHM1cDRiSGozaVlZbS1vblM5SDhqbG9WNmRqaHVvZW9mdU9rckZtdktRcHhWN0tTd2lOLVlDMGVDd2J0UVZPMmFXQ1dzTzFuZUx5OUxHLUxtdDNlVEhoU3B4MGxoYV9raWVYTTZKTnB2RUVuX1dXZ3JqRlJQcVdzWk9VZE9wVWd6M1lBRWg4QnBSajh1NlNzeEg?oc=5",
-          "pubDate": "2026-08-11T16:12:04.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Qué es la placa de Nazca y por qué genera los terremotos en Colombia | El Colombiano",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN0k3QzhfdHhma0tZSndmU2hQZTJBYS1kRVNHWkRFVS11d2xZbzdYZldsaWE5RVpWaFM5a2UxbDQ5OXVqX2hPdTBvWGlBak12WjlWTGVHMHVEMXZpSEVOdTlDcU5pQ3FXSjNyNVdJa0w2czlZOUIyckwyS2lOWWpVNmFVa0NnVHZxWXZIbERWOTJEcnRJYU5qMjA2YjBWMVJyYjE3X0p5V2FscWdMWGZDXzVxZi1uYnE00gG-AUFVX3lxTFAydXowQlMtVVhycU1GQUR1T0FGd201Yi1fWGVVUW8xYUs1US1pUXBpYzNtalRwTGprN245OGZyNUVpOWZHZktXNzM0RVBGNUpJcENpOHBRSjAwUUZkS1ZlcW5EZ3pwM0R6TGNHWDRjLUNmWjRWWUg0emQxalhuNmV0VGtzUVdXOVZuaDZTMk1HQlp6aUVfTlMtU1pCWXpJVWFOaHQycFFxektIc2tXSmZNbURiTnRPMDZRUVFncWc?oc=5",
-          "pubDate": "2026-08-11T13:09:06.000Z",
+          "title": "Cada vez más niñas. Cada vez más pequeñas",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNenM3ZEg2TG1wMWx1LUtudzV2MmtKWHZJbWFjZEp1THM1VnFWTS1YcXFqU1J1amtkXzIzMUg2MXFsRzBKLWdrSFNqU2lDWm1tNDRsQjBXdVZkLVFxZlZrcWxwbVVudmlWUUplXzd5ZWw5ejlBcGhMU0dhOFJUbEt3akp6bU9jaFB2WHc3QkxlQVNBeE5JYUFSbXN0TkVTcy16d3c?oc=5",
+          "pubDate": "2026-08-13T05:04:06.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -198,44 +191,44 @@
       "color": "cream",
       "items": [
         {
-          "title": "Primeros vuelos de ayuda internacional llegarán a Colombia tras el terremoto",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOei11OV9WaGcxX2lCRFcyY04wUGRKQTZrZS1QXzQtcGxuOFJqX0VvUjl0YWhsVmctTTY4NTlLV0VhWjN2RFJRdi1venlMN2ZYQkY2V0hCelllZ21wU2ZQYUFhUUlzV2o1c29zQmNEalV2Tzk0RWpJWlRQbzBuLWREcWVjalRlZ2c5TmdUOEc5Y3Y5VlpBblFyd2dlbTdZS25uY0dBWElNS2JjMEJIc2YzRmU5ONIBwAFBVV95cUxNdTduQUQtY053REM4Y2dYR05QMDhnaW44Rl83Y1VkSjVZM2JVSURLeE1kY0ttLV92dmpSNTgtLWJFQTdYS0JvQUdIemtlM013MHUzUDk4MjhURGxNSnBmTnRZdEdQU0hRZ1U3X3hqdXM1eFI3OFNiQkZtc1E2el85TE45VWpmTWlVSW9odGhoVUJOUXg3TmRpaUJpX2FrS3dLbnpCYkV1MXJKS3B0N1E3UEx5elJLczlwN3lobXFtYnQ?oc=5",
-          "pubDate": "2026-08-12T04:37:04.000Z",
+          "title": "El presidente De La Espriella \"autorizó\" operaciones militares con EEUU en Colombia: Pete Hegseth",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeHhLa3FMTkcxNnB6T1Q0WTVVTFRPX1dCOEpjRnpsV1hLVEUyaXdyZGdKTmxEdlNIa2NqUWY2bHdLMzNycmJ1Vk80enloTGxLbE4yeHdZTEV2eUlVcTA5aHpMNWtDQWJjdmUzcTk5WXhhRG54UEJwR0FXb1lPb3ZwRVp0R2tMc251bTVQdFJXUmRHdkZEUXc3M19HeVFvNXhZTGtGZjlrc1BTOGZQRWVLdDRvcDNKMlI3ci1Fd281dDQ5QUtwM25XaE1tY9IB2AFBVV95cUxQdDR4YjNmZWhtWnpFS0FVRld3NFRHR29jY29DZl9PVnNWMVpLNWZJVk5RMjVLS2JxUHB3RnF3ZXlST0VLZ0otZUlNSUxQYmFRaF8zRFBOVlFoV1BRd3hhSHY2djBXdUZSeUJGdW5TTWZwXzIwOGo1UEpfQUwwNjFqZXBJcGdOYmhlakM1enNfbnhrSWZCY3RDUVFzQXl6Y1pnb0t2OUVJSGNoZXBHdXZlODlPd2JrY2dreHJQbk1XdDIwZzRuQzh1TDc3dTlIX29xNUQ2SmJkVm8?oc=5",
+          "pubDate": "2026-08-12T21:31:42.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Terremoto ya afecta el 20% de la demanda eléctrica nacional: Andesco",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORFZqV3ZWSTVQMmRqV1F5TWxsM3oyNXhaYzFVOHFrbDU1anhXVVdvZE5sOEJjbzkxeUJXa1RxNFFWYnpseVMyYk5PN081T3NIbUFQazdpVXRBRGRwdHNJSEN6RDh5bXBsb1lPY09IREktOTk5Y1U1NHNUOUlsTGxPRXVzTkVYdFZkQ3V0VWhuV1JrS2FYNDdtbmpJZzZVSHJYeFZpa1Z30gGzAUFVX3lxTE5xR3dlc0FISXQyaWczTU92dW1uaW5qelg1VmpFX1daUXpOZUlnN0dtemRkMDN5VjRuTklpaVA5VXYyb2FrZTVJRHA4WXp0anpsZldscW1jeFNiSDdwMVB3NXMyUDBKUWc4TVRrZTU3cTVkZGx1amRzRGcyckNONEZ3SEg0Mmw2YThiaFhFVVRBdEtqbmU1N3VzVzVGNFQ1bGpNQWhWcTE5ZEJubkVtSzdNRWNV?oc=5",
-          "pubDate": "2026-08-11T21:23:04.000Z",
+          "title": "Abatido alias ‘Max Max’, principal explosivista de disidencias de 'Iván Mordisco'",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVUw5Y2xIdkRTM1duTXdDWkwyWXlacDBrWDlQZDJFS0NqZDh4RTBPRk1JcWhrZElNNllCMVVHdG1zS0x0SVhZQkQ0NU9NcmN4YzdiV1Npc213blNlQ091N3Y0NmNjYTJnWnQ3anVvczViblp3eDhIZTFSdDFvMGlPVnZ4b1FyRURsV00xN1hhT1VyNThCRU1pU3NQa0Z2aFh4WmM0clRSbms5TWl5YjBFeDJCWURJcXp10gHGAUFVX3lxTE5DRW8xcC10ckdUSVo1a3Y0STdFOC1jbmVaT19NTk9EcmVqVkdBSVJYWUZVUVJJUkttZjVvMVAtZHgxcDdDaWJVYmp2VWc0MWl4SzZKYVhkMElobWh6VWhkWjkxZGk4QTVLaXJHNXNId2tMY2tuNkkza3FhRXN2MHVhRlJNYkwzbEJTdlZLVExIQkhkUUlFSmRvdkRCRWkzZWU0aWJMaWl2RllTTG9CVkUxOU1NeEtFSFJMemZwVFhfTF8xUkxkZw?oc=5",
+          "pubDate": "2026-08-13T05:12:05.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "De La Espriella visita Pereira, una de las ciudades más afectadas por el terremoto",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaFRqb3lnN3pIeGdQMUUzcWhGc3hyVnpkaEVuRWJkdmJfZDB1TFIzeTFUeFlRVGMwU3pJQ29TYmYtbURFMjJfWEgyWXJyeWFsM2tKbzUzVUZnZ3JhTV9XREx2ZTZiRE16X1JlR1Y4WjRlM2xXQUZLZFp3VW9tRDY1OXctUVcwcHBpU2Y3YjJJVG9jdmoycVdjOC1WLV9zNUFTUmxTdFRDMUY4QUVXTjgxbFcxY3BXM0cwb2laQUpGNGYzVG5BSFVyUHhMaFc1UdIB2wFBVV95cUxQaTBTT3Z3NU5aV29NMUtzaGFTOExEQVRTRzZSMm45dXZIR2JUTDh4U214VF83dHYzN1FRR3BwZGJ3TFpOb2hHWWhhS21GOU55UWlXSVlzY0NsZTV0V1RmanZuR1AwTHBkSFRVWk01cVFsUkFFbUk5TjJTbGZLZER4MHBORk5OajlCN0ZYekE3TEFIOGlIclRON3RqdkRCcEZhNlh5RmRYVjhXV0FsdV9YRWhKUHdrbWJUVjJLaG9HU1VzX1JxdXNVTTNRNE1NUkRwRmVCMDRVajJ5R28?oc=5",
-          "pubDate": "2026-08-11T17:46:04.000Z",
+          "title": "Colombia defiende su presencia en la alianza del gobierno Trump: no está en riesgo la soberanía",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdTNuX0RaNXROMExqXzlJT3E2d3BjazZTaWE5VHpjTXNmRkwxbDlaS3lpYUstS3ZhMGNSSmI5UkNYUDJEM3BCeUgyZXV6Y2N1RWRHbmlJWnBLNk9oLVZKLUpNNGNTQVNLVXd6cnVfTDZEdGhiN0NNVDdNdE1CaXFtek1oMnRxQjIzSnhvb1E2OGxtZEdkX0JHb19NMlpjelNTWEFTbzBZRXEzb0d5SUthNWN3QTF3RHBJOWs3N3E4dk9fdkxBOTFvTVc2MNIB2AFBVV95cUxPa2htT2c3Y1dBNzQwR2NWZktsdzVzZkcyUFROcEptcEYzSUR3NnhheDI2S3dSWmFmamFXRjY2Wjl4dDdUY0psNmRUOE5ZdjhzV0UxQUtyS0VsdEd4Y0FCc2E1OFFiMkV0M0oyenFaV3pjU1k1RkxiT0ZkdEljQjJyeVlHOEVwYlRaa01uVkhZYlRmSjM3MUlJckljRkV3VUlhbmN3SWR6bE9LdGRoVTBObHNDdjNSaW5FSlRjOW82dmY0M0JVSThFZmxZT2pRSVVpUU5aMXhGWlo?oc=5",
+          "pubDate": "2026-08-13T00:28:33.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Cinco partidos respaldan candidatura de Jorge Eliecer Laverde a la Contraloría",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUnktdkFKRFY1bEZNbVQ4MXZHRk9jT2tqdUZhVHRtNEctZ3BYQW4wS3JEN0E3b1ZNOHplZE9YMm82LXpmUWpkOEFQYjJKSEVpNGhjQU9henJqemstU3d6U2NjYS0wdk1XZklBWGRwWnAtc2c5bHd2VzNya3N4bVJOWGY3WmF3WEY3ZVNhQ005NE10cDlOLWkyNDhjcFhabi1kYnR2cjQ1WWlVOXd5TmxiX3lQN2xTMkJtWkowb1MyemtaRGvSAcMBQVVfeXFMTVJ5LXZBSkRWNWxGTW1UODF2R0ZPY09ranVGYVR0bTRHLWdwWEFuMEtyRDdBN29WTTh6ZWRPWDJvNi16ZlFqZDhBUGIySkhFaTRoY0FPYXpyanprLVN3elNjY2EtMHZNV2ZJQVhkcFpwLXNnOWx3dlczcmtzeG1STlhmN1phd1hGN2VTYUNNOTRNdHA5Ti1pMjQ4Y3BYWm4tZGJ0dnI0NVlpVTl3eU5sYl95UDdsUzJCbVpKMG9TMnprWkRr?oc=5",
-          "pubDate": "2026-08-12T00:02:26.000Z",
+          "title": "Carlos Eduardo Sepúlveda será el nuevo director de Planeación Nacional",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdWY2a2JNLWdZMzZqY2V1SnhPcWo2WGpqblNDLUZRV2RuQnpqMTFoSDJMZXlUX2VINWhKOWNqRmk0VXRHVU5DcDhHTHZ4cUd0SE11cEFqYWhkQ0NHLWNSSm5HaHJ5N0gyNmxhT2pJaGJYUWt3bjg4QlEzNzFhNlVOWjJwclVDcUNMYncwcjVCdTctOTJBbnZIQmh0dVdhQXFnc05kOE02clBYblXSAbgBQVVfeXFMUFBxTXI1U0ZIYWE3YmFSc0Z4N2liaEhQZE5JY3ZrUlZqX2p0c2JCNlVWMVhzWG1wLTFUM2pObVU2eXJDd0ZBNHphWDJwQzN2Q0ZSREVKM0tESk1jM21TbXAxX3N5QVJBaWRjMkotd3Vxc3hldWZNbWMyS2JPc1g3XzFMVVBBTjRYMDd1U3Z2RDNiaUU2S3dIUGNQN3V2eWQ3MXRKb3o1ZXJYRlh6RzAxSWFCVzd6Nk9uWA?oc=5",
+          "pubDate": "2026-08-13T01:57:07.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Amenazas por WhatsApp desencadenaron la salida de Richard Páez del Cúcuta",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZWotS0lScnhMYkUwdE81emZNQjliV2dVNi05RzVEdXVuV2JfMjJkN0g2UEN4MGJCV3ZTbk9sWmVLVDhIS0otOXRFb2lxWkdkbDZzQTJNdW1QbVRuMkNGdHNXSWJrdEZmRUlZQTA0VkdpckszbXBNb1VuNlZnd0hJSGxGSXZ2VDFBYmJHQnBJS2RDUzdPX2Z5cW96U25pLWZRQV9xSkx0NlN1OXlyZmFaZWpreWtlY0lGbW5nNk5PZy1ZOEE0MmxkcUln?oc=5",
-          "pubDate": "2026-08-11T21:15:15.000Z",
+          "title": "Grave emergencia en Mogotes, Santander, por incendio forestal: piden ayuda",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbm96SVVZSHl3OG04ZWxFVWYzT0Y4TVQ4Mm5EZDVRTktEUUZQamIwRlZrNUYzYnYxc3Bzb1BWZU0wcDZkRHgwZ21HSHhVVG11YXloWnZsN0hPUTlObDhNREhIMzBELVNBYWg0SXJqYjQ2UV9MVWJ1RURYcExkMTJCNjcyM0JKLUxmVURROXpvMUppNUp3WkpjT013azFYbWRMb2VhOGlQSnJRbVltTXJYdnVnZi1NemlFdXJMMDdnVmlYWHVWSlQtNDNxSkPSAcwBQVVfeXFMTW5veklVWUh5dzhtOGVsRVVmM09GOE1UODJuRGQ1UU5LRFFGUGpiMEZWazVGM2J2MXNwc29QVmVNMHA2ZER4MGdtR0h4VVRtdWF5aFp2bDdIT1E5Tmw4TURISDMwRC1TQWFoNElyamI0NlFfTFVidUVEWHBMZDEyQjY3MjNCSi1MZlVEUTl6bzFKaTVKd1pKY09Nd2sxWG1kTG9lYThpUEpyUW1ZbU1yWHZ1Z2YtTXppRXVyTDA3Z1ZpWFh1VkpULTQzcUpD?oc=5",
+          "pubDate": "2026-08-12T20:16:43.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Temblor hoy en Colombia: réplicas, epicentro y sismo cercano a mí",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWERoNnVuMWRvSE04RU9pUm55ZGd4UDJkdlJqWGpDN2xwUGJlNzVFOVlsMnYyb0gxN1BfTkpDUU40MWJPTGZJN2YzTzlVWV9WS2ZpZ2lDR1pxUERidGhaWEppS2tmZmFDV0t1S05uZWtXcWVhMW0tM08yNWdpUWRjM3VBckpVV3d2MUNIWEQ5amxuR2ExN2NzRm12cFl1TGs5QXfSAa8BQVVfeXFMUFlKb3c2aG9JV0ZPZUYxMFVnTlA3N0NITmdJTElvRDJWNlM4cW5BUTdDdzFkMFdHcjRKRzZ1dlk1SFkwLWZHcnJ0RkVxWldqYW5POVpLamZYdFgzQlF1U2Q2V09ITGdicklBU1hQS3FCXzNLRkNPamdPMS1EUU9vaHJZdUttVUl4SkFBcUJWaklrU1lhRDdnWW5PcXdSSktiTlVpd2owcG5MSkMxS3dWQQ?oc=5",
-          "pubDate": "2026-08-12T09:44:32.000Z",
+          "title": "Prosperidad Social anuncia segunda transferencia para hogares damnificados de Renta Ciudadana",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPM0hucS1QMENZNmVzellfZloteVFReGpfSmIwTEt2R3dwOXRBWk1HRzNvTHlXRXA5ZTlNNnhhTVByZTdZZVFLUUt4M1VQWE9wc0k5V1Q1MkptY05OOHJYdzdrRXZoZGF4enN6RlZOd3hBWlhxbU9rYjJwM0M5OEJWNzdtOThJNEIza3ZONlVvWWVBN0lIWkZWbURjaU5oQ2YyaHU0ODBjNVRmUXNSQUtfTXhLVVFicUFrWUt1Q0ViN3lWVnRSblpxRXZmVmjSAdoBQVVfeXFMUHZ5S3hmcG5DR25jb3gxbHBabDZNbVdIa0tjNTgzdVU3UlRrNWJJRW8tU0JKYXYtQjFMb0F0RTRsRUdmOTdwd3dqelkySXVheHlzemtHMHdnY2NoZ1JIbnJLeDdOcFF4SEpIMkZUd3ZHU1d3MG9qUVNxZ3NMa1FnSUZNNUhmZlpYak9leE5GZnAtYTg2WXBaRG1PdjQ4N3plSnVEZkxKdUVFR3J0OEVCZGtuWmpnOThLYXc1dlhxR3NaTEo0UjF5VS1lYmxBVDkxR2dUeUdKOVJudFE?oc=5",
+          "pubDate": "2026-08-13T00:08:33.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -246,44 +239,37 @@
       "color": "mint",
       "items": [
         {
-          "title": "Presidente Abelardo de la Espriella confirmó la declaratoria de emergencia nacional",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPem05WV9ZMnB2NzU0SFlCNkRtRHhCNGl0aVJQaWJNMWxjUU90R2dhX2Q3bUJoVFlYeFNBczhTOEw2VmMyRm9lQUcxazZYOG9PblVqZDR4Q1F3SzhucGFidmlsZjlyX2xPYnhaX1VBVGJHam05X2p0MVA5QWgzM3JDZVFMY3luUWtQVDVPQVlKSnY1Z0YtZzFUbTZNbllTOC02OG52RVp3bnNybU5raWk4N2tEamdtVGdFWkHSAc4BQVVfeXFMTTQteGZiUHBLMzc1LWdwWXd0c3IzMmZmV0lXdE5kdV9HYm93SFpTdXAzTFdyck1CZUZHb1lZVDFVMUtncG5kM0JDcXpsMTg5NFhrYTJhU1loTDRHZEVaTGhzbW5xZnZkSU5GUC1uazZSeVZmUnF4RndIdHVjUm95RVl0UTIzdkVhWjMwRlAwdE9TeHg0NXVuVmJXeGRiOXo4dGttSjBOWTlJamEweHI0NE56QVNCMVJaMU8tcF9XaFRVRFh6dE5YUzZ2QUZsN0E?oc=5",
-          "pubDate": "2026-08-12T01:57:52.000Z",
+          "title": "Cifra de muertos por terremoto en Colombia ascendió a 265: presidente Abelardo de la Espriella",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMDhxVm9mOVp2Q3dncWl3My1xMEpZVU42dWR3NlV3T2JJVmxteEt2SHFDbmtFQmJ1eFZzTTlMRF9VVVNMTkZUV2I2WW9ieXBTT2JwZk1aS3NtcXdxV3ZfUUVHdmIzdnNKa0lHSHAwaXN3enhwb2xndTNKem1VTlh4MUs3emVudTA1aC1DZXZfSDd2QnVsaGNkUWZRd3VsTmZnMlpmcnViOGNReUc3Y1U1dTdvVjVpQWl1Q09aSE81Si1GSXliNzI00gHbAUFVX3lxTE9RSTJiNXNsRVlPeXlsYUpBYS1rOW9nSmVaUWpkNndZLTNYdWRNeHJaYnhuMEo0ZDk2NDJWbElNZkdHRmhuUk0tVmJSN1VhVHZCNW5VUXNJbW1jRDNRMnBEb0ZkU2FvanM5MURXZ3RaRDA4V2NvN1pwVjVseTEzS2pjYmt2cDdvLXowTWNJR0dLd0xES3phU0NCdUQ2eGIwUWh0TUxrODRzRy14OGNQS21ZOXl3WG5FNHBXanloYk1LVW5JYnQybW9MSjFzY09YdXpYMkNWSE5IT0dpNA?oc=5",
+          "pubDate": "2026-08-13T01:58:24.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Cancillería activa canales internacionales para recibir ayuda humanitaria tras sismo",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV0dIT1VhT25uelVmaTk2NjZvOWFZOUZxUWRyMzJWWWJ0aWdwRllOWmVNem1NTGJoV3FCdDFwUkhwSl9ERXFHZ25jZVpKd05HYzZwNktEdFFnZGs5RnpQM005RHpxQTJwbkRkT0FONk0zUHlCakdpZVBIWHhYYnNoWWpfN3NaQXBWTm5XRFl2ZGt4ZlRZYW9RclBXbk9Ldll3a09KTW40eDU1OXJNOUZLU1hoM3dzT0pZUTAzRGVkcktVNVFwWDl2T19pWVRxMEnSAc8BQVVfeXFMTldHSE9VYU9ubnpVZmk5NjY2bzlhWTlGcVFkcjMyVllidGlncEZZTlplTXptTUxiaFdxQnQxcFJIcEpfREVxR2duY2VaSndOR2M2cDZLRHRRZ2RrOUZ6UDNNOUR6cUEycG5EZE9BTjZNM1B5QmpHaWVQSFh4WGJzaFlqXzdzWkFwVk5uV0RZdmRreGZUWWFvUXJQV25PS3ZZd2tPSk1uNHg1NTlyTTlGS1NYaDN3c09KWVEwM0RlZHJLVTVRcFg5dk9faVlUcTBJ?oc=5",
-          "pubDate": "2026-08-12T08:13:58.000Z",
+          "title": "Venezuela: gobierno y oposición acuerdan impulsar “transformación” del sistema judicial",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSmpWWWFPSEE0Z0xtYUIxanNLOVZfXzBrenplR0JVamF3a0U3REJxTzNVZWcyZHQ3Zk9rTU5wWnExRVNWTTU0NHI1anNPbG1TYnRHcU5QalhZUks4UmRsVHRaaHlCeFpGd2VBd3ZFQlRnenp5eXJaM3lqcGpxVGwxeVNzbk1tM1VQaTE5YS1vQnR3ZFhWVHRRdTdVb01SMkMzUW81N2JlSVJ0bk42WXlWOEt5UUVfNEdLVFF5S1I5T1kwZjN3Zk9zN21TLURMT2fSAc8BQVVfeXFMTkpqVllhT0hBNGdMbWFCMWpzSzlWX18wa3p6ZUdCVWphd2tFN0RCcU8zVWVnMmR0N2ZPa01OcFpxMUVTVk01NDRyNWpzT2xtU2J0R3FOUGpYWVJLOFJkbFR0Wmh5QnhaRndlQXd2RUJUZ3p6eXlyWjN5anBqcVRsMXlTc25NbTNVUGkxOWEtb0J0d2RYVlR0UXU3VW9NUjJDM1FvNTdiZUlSdG5ONll5VjhLeVFFXzRHS1RReUtSOU9ZMGYzd2ZPczdtUy1ETE9n?oc=5",
+          "pubDate": "2026-08-13T01:36:58.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Tras el terremoto, Cortolima alerta por el potencial sísmico de la “falla de Ibagué”",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTExlaFNrOENHQ1ZWUzl6cm9aeGN6RnpsY0V6UUYyRmdzdVBnMWl4RHVXSlhnTW14Vm94T2JUc01rWmFWWm0yblFEMzlGNmMwR3duQlEtSlhMV1VneTB4MUtMdU9hZXRNUVJpOEhLbG9jTWxabnY1d2NFTko0VFpRdU41b3F2NkVXV2pzRHVIc2Y5cnVJVGZHWlEzVEVlejc1aWFoTURCV0JGYTI1M0JOWkxTam1ENjDSAcsBQVVfeXFMT0JNMVhWVDVpME9Dajlla0pqMVllSmJ6S09qTnItUGxOVXBPNFM4WTd2UDFRQUgzMVFjZlZlZWdCODN1R0Z2dGtNOVpkX09ZNjBoSi1oblpvVzFJelRYaXVaaVB5bzN5Mkd2SDhHWDZ3NjZvUk5zRjVLQWpuc2pkS29fdVo4dEF1ZTNLMnByZEpqNHplY1RxbTlSVlNDYUI5Z0gxX3hmalVpa2o5TkZoT2N0Y3dRT1FaTE1YaV9NV1p2dzBadUlvOXhmU0k?oc=5",
-          "pubDate": "2026-08-11T22:53:43.000Z",
+          "title": "Dos presuntos delincuentes fueron capturados durante operativos nocturnos en Cartagena",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQy1iSlN1LTNfUUhxQlNoQ3hNOWNRN0JqakFGYXhQLThiOFRYcHlldHJ3NklaaWNJRUNmY2JYSnFyb3J1YjlFeFd1MlhaZWZIR2o2SGRETTYyc1BFX1VJWWFaTWNTNFZxNmxvYWdqVFdMVC1SSGwzM3JrX3NNTXo3V3I4UFBfT2dpMG1ocEthOWhkZVNMQUxFVm9FTFhQbW42aHZ5cFotM0dZalZHbmZCaVNGMlNpVDdsQkx3X2FB0gHSAUFVX3lxTE5zY2UxZlo0LWN6X2xhbm9kT1JLRFRueXQ3YUxBSXFQNHpWSUFZSDdTSF9MaGQ1NGxsRUtPY0dCR2RHYy16a3A1V3ZBNTA3Ti1jUGdtNU9rWjZ2eUduT3ZsNkVGeUU5RFpMVU1nSnktbF84T0hMNkFpdVVFWlpLT2FZZUN4MzVTbE5iRGRGaldMSHh5Z291QTRpcEFHTTAyd21JaG9QNWRJR3pmMjFYRkhENXdBRXBfTkdSVnk5aURfbm1BR0FXdHg5TmJjZ1lYTDZDZw?oc=5",
+          "pubDate": "2026-08-13T00:18:09.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Bombardeo en el Catatumbo: Defensoría advierte que tres civiles resultaron heridos",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMWNCNEV6a0FyZ1NZZVk1bzUwejFTWmEtOVMydDc5UzJCYzdOOWd6aGN0WDVwSHlZNDJRVTh3VlFqanB4YzlzdDhDbHBseWRMZ2hYck9na2lvWkUwT2hoMElUZmttZzNiQ0YyRFM4N21wRmpFc3YyYi0zLVVwaVZ1Z0VPMWMzbXp3WHI0WmRsaFM2ZU5fSnFkVXVqZTZGRzdBcl9OLXpST0UwNmxKZ21KSUxRZ3VSakXSAcsBQVVfeXFMUHpVSnBHdkdKbTBEUVJSTEhZOXUxWVlxSnFwMlh5U0tQNGs5Q0VvQ0VzdE55clE5ZjBBcU1iNG1LV3BsTFdLZENVUHFZZ2t1ajM1UjlnRDJvUVlEM2ZSY0lqeEFhVkJsQWp4LTUxMnVLdzFEaHdQdHhVMldYRWY1WEM2RFhtT3FBckIyQUpwampYeXE1Q3BDb21PSDZwUWRrUVVSQUFMTC1DcVF4ZC1ic3NKdHQ4VmY4NG5obHZMaUZacmNFbVA1U3k2dms?oc=5",
-          "pubDate": "2026-08-11T21:49:34.000Z",
+          "title": "Personería Distrital rechaza presuntos mecanismos de presión de Afinia",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdWt6QjZaVGZsMFNMR29XcHhRTWY1dlVoYXFjSTNfbzJOU2RhYWtOODdkaGdrWHlRdkl3SGk3RXBYNGJHQnJyZGxFalNGMzN1eGd6c2dBT1RkNmROekxUVzlKYzZiWjlvQ2kwSmg0M0lXWHd0ZUM1aW8xbW84cU00eHNPLUhlSHlJdHAtSjBxdlVHazNhU0s4UXFWX0NQOG5IelAzblZ0YUhFS2lsM0xidkNnWE91dzRfVGp5ZtIBvAFBVV95cUxNdWt6QjZaVGZsMFNMR29XcHhRTWY1dlVoYXFjSTNfbzJOU2RhYWtOODdkaGdrWHlRdkl3SGk3RXBYNGJHQnJyZGxFalNGMzN1eGd6c2dBT1RkNmROekxUVzlKYzZiWjlvQ2kwSmg0M0lXWHd0ZUM1aW8xbW84cU00eHNPLUhlSHlJdHAtSjBxdlVHazNhU0s4UXFWX0NQOG5IelAzblZ0YUhFS2lsM0xidkNnWE91dzRfVGp5Zg?oc=5",
+          "pubDate": "2026-08-13T00:17:17.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Se aprobó la devolución del presupuesto nacional presentado por el gobierno Petro por $575 billones",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPN3J2ZVhxYmtoeUc3VHI5UUc2V0V2aUQzajdmVWttemp6NUc0U2lmYmhqUzBDaWRvbS15NjVhQ1RoMXB2WWd0SURqNHpnRXZOU3VxeVFiaEJyQkZmVWNZWGk1eGpUWmlPWEZKOGpNQkx2RDdSVTFBZXZlQ3Y4OTlsNnUyYnhwLXZCZkFkcWg2VlVwS2VFMEt2M3NnQkJzbk5lS1dlZ2s3dy14ejdiTmwwSEpyRGYxSEJqQjdQWms1YXZVYzJaQlRvV2otbTNHUdIB4gFBVV95cUxNLTJwTXdFSVhwcldITHEyUWNZMTBHdHZQcnIxRkNZSlRjQjhCVlhBdGRySjlPa0tjRHRxVjBWTGg2RndMS3JwQU40TTFZdWZYd252ZllqVFM1NndNVE0yWUxmUndVejVqRkhSNXBacXdVY25pOGtoUzFqMHItUHpCWnhMRV92WDRhX3g1WGRGQUZqaDQ1YjdWVXBFSHB1QkR4RS03Yk5URTY0eEsxR0ZFUFdJdXkxRk91dkMwSlJTYXA0QXZjRzBzNld5cHBOeEM5MmYySlJ0emNDTk1LXzNfa1NR?oc=5",
-          "pubDate": "2026-08-11T23:49:42.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Aumentó a 188 la cifra de muertos tras el terremoto de magnitud 7,4 en Colombia",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRWlPR2RyUnJmXzZTNTl5cEo3NzRRMlJXOWZWb08xNUdXZlptOE9NSmVWVTl2bHcxWUUyQTA1TUxoRWlXZjJodmRtM1VYRmVBQ1U1ZWN3UVdodEIyczI2X3d6Z0JsLWR0Nnczc2FvM3lCbjVSSTRqX0J1WFplSkhDY1M4SkdOSDFTejAzMzhlT2RsVDZTMzZFekgwYWF1bFhReFpJ0gG3AUFVX3lxTE1RaTNrYV9iUmxMdmwxVGVqaWI1amV5ZjJSNWI3blNTNkp5WVZoeUl6cEFPZUhpbkhXSjA4bF9PQXc5N0hFa2JFSnNwckdHTnVDTXN4WEFpQS1TdVVCb2NjZThFM0dBWkVOQnFJRURLZGZSMlNtWjNlWVZVdk9VakdablJmX2FkTEE3MThvMngwbHplT2xuc1R1NzBYMUN5R2drVnhCTHdUVjlxWnp3eUhXQkZENFF4bw?oc=5",
-          "pubDate": "2026-08-11T23:58:36.000Z",
+          "title": "Cinco municipios del Magdalena tendrán nuevos hospitales",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd0FBTTVSODlsckZ1MnE5SzBrR1p3eVhPS0RNaFBjTnFNUlppblhEcjY2LVpTS3ZWMUtyNC1nSkhWVG9mNVdfLWxMNTk0ZDRyMmJiZ0FONld2eFpCOW1FWGpwLVVZZFI1eFl3aTA3OVVnOFVTMW9QcUVLSTB5elBtVlBwQzdwMUlGNl9PYzc5SjF1ejVuM0HSAaoBQVVfeXFMTU5Kd0RDbkF1a1ZQbzhRT0hjaGtUZU5fYl9UZjFlYjVqVTFrLVVUU0lRY0Zkd1Z4dzFRSngzUjdUbTBqclFydnZ0U3NUa095WTZYdmZ3ZUZ4LTU0Rl9JTW1tZ1pmalhMWWNCMmFhZ25HTktVeVpzTzZLdThWb09JU0VTSlJsaTJjX0dXd1hsNEtzb3NqN282aXNheTFTQTJncllpOGhyNUNTN2c?oc=5",
+          "pubDate": "2026-08-12T23:34:26.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -294,44 +280,44 @@
       "color": "grey",
       "items": [
         {
-          "title": "Reforma pensional: ¿qué propone Abelardo de la Espriella y qué cambiaría para los trabajadores y cotizantes?",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdWpaalBfSk1ETFRxcm5QUkRzZGROd2tSUHVRaEVUUHZ0N2s0cHF6ejlKb0Q1MFVTOS16OGFVSEVNb3RVYXVVMFJoZDNjT1dROWxNR3lmd0xXZEtWZFd3QlJOZVpZcEtFVmlHeGlpdVd0dzF3Q24xaTA1b0FWYVhBLXJFQTNRVU9SbU5jSTJjMHRTd2ZnV2VXYU9OX3RYSVBad1V1NGdkNzdueDBOeWZ5ejBrMC1mNldnSHJwQzZfWjVTMmlxSXFlemhzQQ?oc=5",
-          "pubDate": "2026-08-12T09:37:38.000Z",
+          "title": "Cortes de agua en Bogotá este 13 de agosto de 2026: Horarios y barrios afectados",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkd2bG5razBlRW5sQ21xMDdGNzJ0N1dpLUc4YzFpYzlZT0YtN0JKek9xaUNfRG1nYTQyWnpibUEzVmVuY25CTzNKZ2w0aVZqdDUzYWMtbGVndXpNNkxWM25EOGR1M2p2S3Jobm03WjVTRXpBXzZJUTBNbk9INThCVUFSeHRmWG9DdF82NjZUa0ZEWkt4ekdpQkdrOURhdmN2bjY1TTlhRUJzanFhWHk3ZzBJY0g4VUk?oc=5",
+          "pubDate": "2026-08-13T01:13:22.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Abelardo de la Espriella anuncia clases virtuales para colegios afectados por el terremoto",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSEhsZm94c2cyaENaeWtkNkFNUVp3UkpMYjU0SmtFRUdKak5MUi1FX09UWUhOZEpBRGV0ckhOeklPbmktUXVvU2U0aFBhRUZ1SDZ6TG1xQ3NiMDNvc2F4NU1qcWc3dVcxdG1Od01NYk5yQXg4TGZBOElpRWtyV2ttaWFtRXJrQi1PVEoxU09IemV5UFBfX2hkU3dMVDRWZ1o3S205R1BMZnltSjNod01vbDNrUmpvd1JDRWxWSmN6cHRJVDlQZGtLT2puRFVBcnliX0trMVRnY3g2XzFUU2ZvNlZrdXl5cWxlZUNR?oc=5",
-          "pubDate": "2026-08-12T02:31:19.000Z",
+          "title": "ADRES indemnizará a las víctimas del terremoto en Colombia: ¿Cómo obtener la ayuda?",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbDBsWHFlUi1IdjJqeUI2bnFnRW15ZGJQZXdJSGtVSkc1OUJPZHVrckdzbU15QkZqeDNQbkFvLUNQc2lqemFaRmxvbllud2FfYkZ3U3Y3Zlk2NEVnVUM3Nk96cTN2LWRZd3Vwdm1RbEp1UlpvemVxVU1RSExvY0pYc2FmcFhvV2dBSjRUdWlKYzF2eXdNWnlhMi1MR3dJcC11NWpXUHJzYkUtMGJwMEZyX2s2SXI2c3kxRzdV?oc=5",
+          "pubDate": "2026-08-13T00:03:22.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Toque de queda en Cali tras el terremoto en Colombia: ¿Quiénes están exentos de la medida?",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeXF5NUdYdERvdnM2N2d5cXJ1Nk50M25OdGhUVXA1ZHpzOGR5T2dBdDJ1Z1RuOURFVkxWa0VvdUxvcU9MdkNpcGVRMG0yRWlEaXlKNTV6WDVxUFEtNEs2ZkNHOExYcDdGVU92bl9JaGkxdEFLVURieTgzaHVDWFA1bDZEcnBHR0VSNTBTTlNqQmpsdmhfWUZWZVhtMlNsdmZJZXJsY2RTYktjSy0zSEQ0a2htanM2dml2ZU05S1pYdWxodUR6?oc=5",
-          "pubDate": "2026-08-11T22:41:15.000Z",
+          "title": "Servicios funerarios gratuitos para damnificados por el terremoto en Colombia: ¿Cómo funcionará esta medida?",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa05sWWZ3eDY3ZEZuVlJiMDI1Ty0xa2tDdUNpM05XbGZGbEVnWXNDdEpJVkp3M2RubFQwMmVDNkpGdE5NYnI5Mk8tQ2pUNmM3YklmMnR3dmRPX1F0UDRmMm4zRHpWNmdpVlF0OUYxbnlaT3pDa3JqdUJjWlJDRmpPcHNMRmRmOUE5eU01TzlWekd1Zzd1ZnVyVlhlZEU3N2pLNmktcGozU2pqRlBlVmhjTEE1bnBiRnpiSzNVcGFwRGVucE4tU3RETHJQY3F6dFFvcml4NEpHUmRHVGFG?oc=5",
+          "pubDate": "2026-08-12T22:32:16.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Impuesto de renta en Colombia: ¿Quiénes tendrán más plazo para pagar tras terremoto?",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSUZqaURiMVRkMHdxa3Y0d1ZRYThTczdENGhlSWVqemMxZjFGUFNDczFoSVJMV2N0STFfY0xnM0RRWG1OZnhTS2R5SmtDNnZqbXczeWNHRVJnY1R6UHpHcDN3dVBoYVNYTjVyZFJoN3ppNVNBSVo1aHZndEZzdHRGalhzTlFpRUc1SVhwdjNVYnFXWk1tWkt5ZUZnYWxnRlJwX3djT3hpakVtTjBaVFFNMnN3WTZqRm9xYmhLcmVjY2c2cjFxZGFHUUY0ZVBjUFBfZ1lFdkJxUjFueUdULVBjUndySV9IVS1YMW9XeTRkWQ?oc=5",
-          "pubDate": "2026-08-11T22:26:06.000Z",
+          "title": "¿Pueden obligarte a volver a la oficina tras un terremoto? Esto dice la ley en Colombia",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb0tpVWhmS1BFMmhDT0ZVaHJvMFFJaTM4MWNaM20tSS1OaS1wMi1LejdSWE94MmhuU2hmM2F4OUdPV21sUkZOTVVPRjVkMTBPb2tjTXA3LURXYmhnenl2cF9wdzAwNms3WHBLVW1SZC10VV9lWGFERFVJSHB6eTBwaDdrLXBNd3AwRHhKdzZsbE1hS293RXRCLWc3UGw2RGZTUk9WcHRtRjd1SHN6d1FXb0ln?oc=5",
+          "pubDate": "2026-08-12T22:12:16.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Estadio El Campín será el centro de acopio más grande de Colombia tras el terremoto: ¿qué ayudas se necesitan?",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNeklLVHh3MEtlQTMxY2V5RjQ5QzFIc1YwSWRBRVNLdjVsaEI5dDJjMjFkRklaeThzdEJ5eWsxTWhweTlDdy1fZVA3cVJ6S2ZjNF9qc2I0UDRxclgyb2VIcjQxUDFvLWFjeUNsR0JqWElVQmFoQnNvMzRTcEJvcTVRaHdSYWFhMUlaVXFTbkNfQmN1U1IyYllrNXFub3RHbGVhakJuSGg4eXFQYm1VOEFack5QT0ZoMmttZF9wLXNELUxWX2JuYzFibU9xV0VwNDJ1eXFFNkpoSnVSSGZWNy1r?oc=5",
-          "pubDate": "2026-08-11T21:41:06.000Z",
+          "title": "¿Seguirá temblando en Colombia? Esto dice el SGC tras el terremoto",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS3hfa0czUWltLWdFYjA2SEVuS0FZV2h4YXdrNmg5dlJBa2k1cTZ6SmIxbktuUHVNdWJaOU5JVlRWSmRFM0NNeXJIcUxNWFBoNDBKTU9EVnVyQ2tJVEM0MUMwaEdxUVE5Tk9tS1VVNWFoeWl3dXM1TTUydGxrNzFfYUoxUnB2ZDFBdXcyRm41SUZwYWVFV0lDRmRVVHNOamk4NTNnMkdB?oc=5",
+          "pubDate": "2026-08-12T21:32:45.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Onda tropical en Colombia: Así estará el clima en las zonas afectadas por el terremoto de magnitud 7.4",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRW1FWkJCVlhqVWd0YUNLOVRPS2lCQll3TjBCUmRja3FyaE5TY2Y1TFhXU0twSzhiVW9UVGxQa0UyRWJNYlRCRGRCblB3WjVWQ3pWOTJaQ3Y0b1UtN0M2alRYZFlkNkRzMVRTQXJ1QjhLeTBMdXNSTG5uVXoxTzAxSVdvRXF0elNIV0tzYUxMNmhodkc0OGJBckRVbmtyZE5JamlyUVZXa3hsbzQ2Z3V2Yk9GdEFPSXVCTm9pbm1VRV9YODVRcEtsY1NiVTZPLW1KTktEZXV0dw?oc=5",
-          "pubDate": "2026-08-11T23:31:06.000Z",
+          "title": "Estas son las vías que presentan cierres en Colombia tras el terremoto de magnitud 7.4",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMmdiUmYxUjRacFU4alBteHVYRWx4dWhwVkhKZFpGaVo3UUp5OWlQbGM5eWdWdDFvWm1mVldVWktoaHY0TTZNazFDT3BXOUk0cUZhYXlIWXZxOU8xeF9oY29BZWFReGxnZ1VTbmdHeFJUbmlERlNldHMyRy1fNWJveEdsZHFRdWZwTjh0U2pTaEhLdVBYdkNYZlotTnNpZ0pQeFJfSVpYc3Z4T0xqY1JHNy1pZjVJVnRqLXpSLVZwQWxYX2c?oc=5",
+          "pubDate": "2026-08-12T21:22:45.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -342,46 +328,22 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Atención: De La Espriella firmó el decreto que declara desastre nacional tras terremoto de 7,4",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSlViOEloYWNGY1hLU0lBRVE3MFJZc0JpS3NPZGJCTkt5NXJOS25YOGxmUkJIWmx1dlhmNFk2bnhpU3E2MklkbjhkV19NeXBHZ3JHRGV5S1NCVlYwbXpiaXc5LUFFbUlhaW02X2tUR0VOTnhXNFE0bDE2MHBsN19GODk4MXpPY2FLTVZub0tJT25LcHFIWHAyZHhMY05SdjU0TXYyVndEeVZnYjNObVdPVHVaU2tCdTRaU0RLUXlYVWphUzBVRk94NllYRnJPYjZ6VGkzbHZXdFZ1d9IB3wFBVV95cUxQQkJ4ZXY2eU5LbHR0YU9reW5TYi01NVNIcnRtTVV5VEw5RWd5aElwRHVvWkV1aTVTV09BVEtTcS13OFo0emRxNkpFN19wZWRkaTVkc2k5clphdWFVNGlORE5VbjVjTkhZLXdHUHNyVnBLSW52YjFmTVRDU0xDSHY2TS1nczFsTGY3R2NPTVZkNDhFSkpJclBCbEZHTHk0UFFUQTNvcldreUI0QVNGNVFZaVRESC1QbFdEMVNXS3JiWWxLU281VzRsbWRzOVJSMmtiYlpjaGd1ekRqbTNDaWdz?oc=5",
-          "pubDate": "2026-08-12T05:15:52.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Datos e informes financieros sobre Union Temporal Aei",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10bGd6Zy1pXzNBbGhfSWxKSnkyT0ZvNGY3OG1NQWV2N0FTb1VpQWxFbmNaSXUxVGJZWTFmeXdDa0pTcUtmZ0J5bGF3aWswakEwU1BEazFLaUxpNTVrbnpkRlplYkg?oc=5",
+          "pubDate": "2026-08-13T09:15:07.000Z",
+          "snippet": null
         },
         {
-          "title": "Reconstruir a Colombia tras el terremoto tendría un costo inicial de $20 billones, según estimaciones preliminares",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPU3NtcVlpUEk4ZllzX25jQXhoVExNU0laZGxUUmlVcTF1MjB0OUVXNU5xTzNFNEU4aTBhaVRVTURLa2lnVkFBMlFzazRydVZXUU82TW9SZW5FWm5xS1F3MThwLWpESmdLUE1KRGd6cW1vYTUyN0hmTDFoWnpGWG9nRTZyaHNHeEVmTFIzemlrVEs1N0FscFlMSEVOSEZWWFk0QkNXMXdBTVlnMGRJSHZ6TDNMbDJKdTFUcUFYbV9rTFJXa1l2M3NSVVpVMUJ1SXZoS0N5MXJMc2dBLV9UODh2RHlKMUdyQm5JOFHSAe8BQVVfeXFMTkN3eXQ1S05TLWNDSDF0aC1yMnpzUV9fQjZ0RTc0V3kxOE5uVHU3YTFXeXZhTTBScnNWZWRUQjVoS1M3VmtMUmdsNWw0X3cwYWNtU29nc01lb2g1Tl9UUFh1SXhMdGY3UEN1UzY1azBrNllVYmRBVEVBS3oyMXhKVlJHTmg3cEUtWUdIajY5LW5vVEJ6UWd0OVJZcl9vS3NkaHdtVGRzQV95YVg0cmhDbG9UQlpENGZicWdrOURWVXprRkRqM1pmdTdObzdXa3lSMjNlMEtfQ0xrT2tFa3hnakNtcXp6RkZYTmlOM0NTZGc?oc=5",
-          "pubDate": "2026-08-11T21:41:45.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Datos e informes financieros sobre Consorcio Parque Primavera",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBseHd4NEYzc0FiZEljaktKZk40YXk4OGstNXE5Sm43T19QekFVQmo5SlBXejY1cU9PUXl4bnFHU0hNRGRaZ1MtUktmWGhfUHA4Z3B4UXVhbkRmckZTMG1NLVJfYkJDWld1ZlRMREV0bw?oc=5",
+          "pubDate": "2026-08-13T09:15:07.000Z",
+          "snippet": null
         },
         {
-          "title": "Borrón y cuenta nueva al Presupuesto de Petro: Congreso devolvió el proyecto para revisión del nuevo Gobierno",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVEVpdlA0OWhjbkJ4a2N5ZUw2Q1JZN1RtTFV4dk96bGg3R3ZFcDFaMm5zSzA0VktON1FmamQxdUVZSEgzb1VDVUFmeVdaZ2hKbDhENmpYS01RTEs1bjE5NHE5NG9KYUFGeEFGLUhqQWxPRGpXcm14SzJuS1lxeG5UQXJicjVOZk9USGNnS2xGVnp4b3BOcDhNbXBNano5b0tOVXkzcHBOMjVKbkRaNVdRVEJhcWdjdkVIbTZtcEpTTTN4YzhzTU9Da29pTWpyejBpdm5SRVJMNkgyZVZtVEM4X0hhcWN3QdIB6wFBVV95cUxNaU00UWJoaEg4U2xlc0xZZE16TmE0ZFdSeFVvV3ZSTzZ2Y05URzhIMDBEMVdZZlBsZXU5SXFPZzNFc0tsREoxRGkzOXEyRHZ6ekliTkN5NTI4ZUFiQkRzRm43RXlsajF6M2tYWmdOMEFNV2gxS0ExT1pyYWNyV0tqT3NWMzNOUE9GR1hmQ1VCVllNQ05mLUFJOVFEWFNfd2hNa2daUk0wbDRlYzRNN2NTVGkwVldmS1FpMFA2bFM4clNwbzNFZktkWXhvazBIZnNUQWNOR2JaR0Q4YVVyQjBfWHItZDBrQ3hDWWhj?oc=5",
-          "pubDate": "2026-08-11T21:07:35.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Congreso no aplazará elección del contralor bajo argumento del terremoto: advierten riesgo de 'vicios'",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWXJtbVEtN2xxbk81MHVEQjJwMDMxMUZTbC1FNldVa3MwMWR3cnZwRnZXRl9DQnlZaWxUaWVFcXd5czhoQkp0SmU5RV9pOGhhSy1WTUdLSXdBZnB2Q1JoQTYyQjRDMXp0WlJGMjB6c1EwZmV6N21PcGg2azA2TnhsT25rajhqc3J2YlRSVjVHTFpnVFh5Rkt6eTRqUEU0LVE1c0IzLVMtSWpfTWhSS2JMN01nYmlCdjd3VGFqLUFYNkpNaUdYSGR6M05qcHE1NVVQLWdfV09BSEt5Qzh0aVVhMUljaFjSAeoBQVVfeXFMT3czaEVob1E1Z0d0NUlUODBoNVhWNFhOV1h3V24yMGtHVm5LVmNnaDljWDI1SHp5ZVdhTy1uS1RlRjEwWmpmbkFteUE3V0lhZ3RLbmlldWRNcFFhRENTejZvMktwUGc0UEY2eW9JY3FxU0tDXzVQLUwtQWJ5cHo5NDVJbGRQMVNmMnp5d0ZLc3hvR2pOQXNpdFNIeS01ZEJxTUFUWk41aGZBbHFvenNXTWh0M1o3R19PSk1jSE5TYjgtSkFhYlBpUndRbk53MXBJR0xxMnNjeWpzeERBNnBheHpLWGFTRzhDckx3?oc=5",
-          "pubDate": "2026-08-11T22:30:23.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Se aplaza pago de renta y retenciones tras terremoto: estos serían los nuevos vencimientos en nueve ciudades",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVnBGZmFHbGZxNHVWU0k4OHNvQUczaTdKZlpGSUYxZ0JDVE1qRTEyTkt2Qnh1R3hZQ0ZOX1dnQmZ6aG56RU9FcDJPbElJV1UtR2llUzcyOEZrWGg5SGZPaC1VbE9TeEFZWHRfeTdkYi0yVWY0ZWlSb25YVHZaLXQ3T0toemJqMGNGSWJiZF93YlpUNkRVbWZ6V2ZzZ1hZOUVXdEQ3Zlg3NVFQTkxxRGtpN3l4elRBMGxlOV9XMjNzQlNsdDBMTHpNZWlLdVlyZXpveGQxdFlaaW9HS0I1TEhMZF8xb25LNzV0bkRQTGg3RWvSAfYBQVVfeXFMT1N1eTNGdmg5eW9URWM2TGFfMHJST3FBeG5GWXZVckt2cjhUV0VVV3paY09ZcFV0bWx0bm1pNjNIdnVVaGhKbnNNWEFLaWRuRXBFN0pZOGY0MkZ1TTd4MjAzeUZUX09Ha3RDWEpMcFpXMkVPUVI1eWM4Sm5fRHBlNEV0SzhJTmVSZUgxMnJ2a0pPOE54MVR5WkxVYmtldUxhQ0dILVg5a2lpcTQ2Rl9mTmRnUnFXb3FDRkR5T1lLdVJud1hEM3BKRVRPUUNfa1UyZDUxR3FuZHlzZWUtRlkwWWNfbGlLaFBIRXNtYUR2VUZlMl9VamtR?oc=5",
-          "pubDate": "2026-08-12T01:21:46.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Margarita Bernal: Noticias, Fotos y Videos de Margarita Bernal",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fY2FtcERYQ2lPQlhrTkd6TE1KWnItSldRdmVSRzZrUnZVekp6UWN0cC11Q2dBQWl2SUxCVkZwTkRGMll2akVTbTRTeGVlRXcyT1JiUnJLNW44c3RuRndZ?oc=5",
-          "pubDate": "2026-08-11T22:00:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Datos e informes financieros sobre Ferreteria Ks Sasaima Sas",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE53ZWdYV1loaVZoMXRWOFV5bVNCOVZLWW5sUzJMSnc1U3R1NVRGbEF3TlNYLXpvcXVwTlZIcC1QNV9JOGVsRDNSYjktRzZnUTJJdlhTRW5iLWQ2NU4zX0s0YkludWY4eEZHUjhxTjNn?oc=5",
+          "pubDate": "2026-08-13T09:15:07.000Z",
+          "snippet": null
         }
       ]
     }

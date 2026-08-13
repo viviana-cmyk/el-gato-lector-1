@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-08-12T10:01:40.325Z",
+  "generatedAt": "2026-08-13T10:01:46.062Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Ejército de Liberación Nacional (ELN)",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/eln-colombia/",
+          "pubDate": "2026-08-12T17:59:23.000Z",
+          "snippet": "Ejército de Liberación Nacional (ELN) Ejército de Liberación Nacional (ELN): quiénes lo lideran, dónde opera y cómo se financia. Perfil completo y actualizado en 2026. The post Ejército de Liberación Nacional (ELN) appeared first on InSight Crime."
+        },
+        {
+          "title": "El ‘efecto Bukele’ en la seguridad de América Latina",
+          "link": "https://insightcrime.org/es/noticias/efecto-bukele-seguridad-america-latina/",
+          "pubDate": "2026-08-12T15:33:56.000Z",
+          "snippet": "El ‘efecto Bukele’ en la seguridad de América Latina Bajo el gobierno del presidente Nayib Bukele, El Salvador se ha convertido en uno de los mayores exponentes de la lucha contra el crimen organizado en América Latina. Distintos líderes de toda América Latina y el Caribe intenta…"
+        },
         {
           "title": "The InSight Take: Abelardo de la Espriella hereda un panorama criminal fragmentado en Colombia",
           "link": "https://insightcrime.org/es/noticias/the-insight-take-abelardo-de-la-espriella-hereda-panorama-criminal-fragmentado-colombia/",
@@ -28,18 +40,6 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/cartel-del-golfo-perfil/",
           "pubDate": "2026-08-07T16:34:22.000Z",
           "snippet": "Cartel del Golfo Cartel del Golfo 2026: quién lidera sus principales facciones, dónde opera y qué poder conserva en México. Perfil completo actualizado. The post Cartel del Golfo appeared first on InSight Crime."
-        },
-        {
-          "title": "Pódcast | Tres maneras de perder a un hijo",
-          "link": "https://insightcrime.org/es/noticias/podcast-tres-maneras-perder-hijo/",
-          "pubDate": "2026-08-06T20:46:14.000Z",
-          "snippet": "Pódcast | Tres maneras de perder a un hijo Sobre este episodio Buenaventura es el principal puerto de Colombia sobre el Pacífico y uno de los corredores más estratégicos del continente para el tráfico de cocaína. Durante décadas, la […] The post Pódcast | Tres maneras de perder a…"
-        },
-        {
-          "title": "Cartel de Jalisco Nueva Generación (CJNG)",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/cartel-jalisco-nueva-generacion-cjng/",
-          "pubDate": "2026-08-06T19:58:30.000Z",
-          "snippet": "Cartel de Jalisco Nueva Generación (CJNG) El Cartel Jalisco Nueva Generación (CJNG) es un grupo criminal transnacional que surgió del Cartel del Milenio tras una serie de asesinatos, detenciones y fracturas internas. Es conocido por su uso agresivo de la violencia y sus campañas…"
         }
       ]
     },
@@ -97,12 +97,6 @@
         },
         {
           "title": "Event Details - Ibadan Hub",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHZDSF90Z1ZSQlVlWlh1Z19TTlJBZGg0ZWdlYmd2S1k4c0c2RzU3M0lJWGYyQnFZY3gzOVdOWTRrMktvU19Rcks1UmZoeHJ0U05VRWtLVW5VWGxaWGVzOXR3VmRESWdtRXNSaUFraV9xRno1YXNoNUtOdnlPdjJFUzdVMU1yTDFJeWVpYkpXNS1FbEotM1VOYk1DQmhwN3F0WFFzWDN4Z1I5b2FOcDBlT01hTWZzbTZUcmplTjNCV0tsT3ZUcllIRk5hU0lYNEthLVFyQjN3?oc=5",
-          "pubDate": "2026-08-09T02:27:02.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Event Details - Ibadan Hub",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRDdLSExYRFhqMUR6eXJyQTI1TnkzYXBad0h3T01DMWV4Z3ZzVkxEbmVTUXhrOG5YZzdHRFhNcVIyNGRZakxuQVo2VFk2V2tJQ1FhOS03OEJhbkJVSGtvRUVQb0x4MVkyUVpBeVlsRWZrS3JZTURaMTRlUGdqV1JlRUJ4SmlUV0pqNWNZLVV0SUhnZnl4TUNwbWpid1NobTRxczg4ZQ?oc=5",
           "pubDate": "2026-08-09T02:27:02.000Z",
           "snippet": null
@@ -123,6 +117,12 @@
           "title": "Colaboradores de la Agenda",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xX285RDA2NzlWUmh4UURjMUVYZWp6V0JJZm9DRmg2cElaUXFyTmk0endQd0FDMmpSTkxwdkFJdGpXREY0X3Z0T3RLblAwbk41U1FvandlNTlzcjVK?oc=5",
           "pubDate": "2026-08-05T06:19:58.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Entrevistamos a 4600 jóvenes sobre la situación actual del mundo. Esto es lo que dijeron.",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb0FGN0phcXlOeWFOYWtxZGEwN2pUYkFKci01SHVoSE1rYVIyRU9QQ1piNzJGblpXWWJDN3dQamxCVlBTZGxFa19yUkxBRW53WVFISm5DbU9NMnVrLXRpV2pDbjRpVmZPMEJ5dDJsbGt1UFBEaUJfUDlHQlI0djZxUjV4QWFvWml2NVVNWnVWdk9zOE5jSkRwUHhCY1lGelhNMHVqdGN1TC1VNUYzNHl5REZDbDN4QlVULVA4?oc=5",
+          "pubDate": "2026-06-21T20:04:57.000Z",
           "snippet": null
         }
       ]

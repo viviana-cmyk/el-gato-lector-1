@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-08-12T10:01:44.897Z",
+  "generatedAt": "2026-08-13T10:02:06.132Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Escalada de misiles balísticos de Corea del Norte",
-      "region": "Asia del Este",
+      "titulo": "Bloqueo ruso de puertos ucranianos y seguridad alimentaria global",
+      "region": "Europa Oriental / Mar Negro",
       "noticia": {
-        "titulo": "Corea del Norte dispara su segundo misil balístico en seis días",
-        "link": "https://elpais.com/internacional/2026-08-12/corea-del-norte-dispara-su-segundo-misil-balistico-en-seis-dias.html",
-        "fuente": "El País"
+        "titulo": "Russian Blockade of Major Ukrainian Ports Threatens Global Grain Supplies",
+        "link": "https://www.nytimes.com/2026/08/13/world/europe/russia-ukraine-ports-odesa-cargo-ship-attacks.html",
+        "fuente": "The New York Times"
       },
-      "analisis": "Corea del Norte ejecuta una rápida cadencia de pruebas balísticas que demuestra capacidad operativa y potencial provocación ante cualquier negociación diplomática pendiente. Este patrón agresivo de dos lanzamientos en seis días eleva la tensión en el estrecho de Corea y genera presión sobre Japón y Corea del Sur para reforzar defensas aéreas."
+      "analisis": "El bloqueo ruso de puertos ucranianos como Odesa representa una escalada en la instrumentalización de recursos alimentarios como arma de guerra, afectando directamente a economías vulnerables en África y Asia Central. Esta estrategia de estrangulamiento económico amplifica la presión sobre gobiernos occidentales para intensificar el suministro de defensa aérea, como sugiere la petición de Zelensky sobre sistemas Patriot, elevando el riesgo de confrontación directa OTAN-Rusia."
     },
     {
       "rank": 2,
-      "titulo": "Crisis humanitaria y conflictiva en Oriente Medio: deterioro de aliados árabes de EE.UU.",
-      "region": "Oriente Medio",
+      "titulo": "Reclamos territoriales Japón-Rusia sobre las Kuriles y reconfiguración del Pacífico",
+      "region": "Asia-Pacífico",
       "noticia": {
-        "titulo": "War in the Gulf has weakened two of America's Arab allies",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcnpGMy15WHAxeXRkM19oLW1SeEtjSzdlTjVnaTlNTjZUbURtY09OWm1oOWRrdjh5R2dTNmZuNFNmZ200T3RGRGNGWm9qTzZ3YWg2bktkdXY1Mk8zT2NobjN5V0cwcUQ3b0pGcFNFWUEwQXV3QzZtM1A0QnFycnBJM3VpV1AyTHM4OUZobUI3VWVGeFk5SDlJX2dpWFEwU0pWaHAyRGVrbjBBVkpoeEppQW13b3p4RQ==",
-        "fuente": "The Economist"
+        "titulo": "Japón protesta por la primera visita de Putin a las islas Kuriles que Tokio reclama desde la II Guerra Mundial",
+        "link": "https://elpais.com/internacional/2026-08-13/japon-protesta-por-la-primera-visita-de-putin-a-las-islas-kuriles-que-tokio-reclama-desde-la-ii-guerra-mundial.html",
+        "fuente": "El País"
       },
-      "analisis": "La guerra en el Golfo ha erosionado significativamente la cohesión de socios árabes clave de Washington, particularmente Arabia Saudita y Emiratos Árabes Unidos, cuyas posiciones geopolíticas oscilan entre presiones estadounidenses e iraníes. Este debilitamiento de alianzas tradicionales redefine el equilibrio regional y abre espacios para que actores como Irán consoliden influencia."
+      "analisis": "La visita de Putin a las Kuriles y la protesta japonesa reactivan disputas territoriales dormidas que erosionan la estabilidad en el Pacífico, coincidiendo con un contexto de redefinición de alianzas entre EE.UU., Japón y Corea del Sur frente a la influencia china y rusa. Este gesto simbólico de Moscú intensifica la competencia por el dominio geopolítico en una región crítica para el comercio global y la seguridad nuclear."
     },
     {
       "rank": 3,
-      "titulo": "Crisis sanitaria: epidemia de Ébola en República Democrática del Congo",
-      "region": "África Central",
+      "titulo": "Crisis humanitaria y gobernanza en Colombia tras terremoto de 7.4 magnitud",
+      "region": "América del Sur",
       "noticia": {
-        "titulo": "Ebola deaths surpass 2,000 in Democratic Republic of Congo",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWTAyRlJaeDRnUXFhVVlPZnZtTXB0THJsVUs4ZDFxTnIxSkJwUHh5QW5uSmctbkdCRllIMWZaT2F3ZVZXZk13cDdGMXU1SXRMWUc1TUlKMXJQcndkVV9zcnp1dnVoeElVaC1QWHdENkJybEZFWUJqX3RIcl9wNnNxWEZTLVVzZmRKSFkzT1BsejlOVUlCQ21QdEVlT1Vzc3NIekRSQlRiVWtWV09MU0REZA==",
+        "titulo": "Colombia earthquake deaths climb to 239; hundreds remain missing",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY0RCUTVEeWZQalh3MzEzZkg0WDV5ZGt0MTJtUm5rMzRNZS14NDVXTXhoSWEwY1pIOThxT1dyNkFFZEtWcFNWXzUwdFZyMl9Hak9WcEt5VnFVTGVpa3M0ME50Y09WSzBEM18wbW1qTUJ2dVBvQjhsS0Fma1RreC1Td1JBdEQ4U09jekNMS1A4SzlTMEdRVG5xQ2xPLWZNb0tkX3hqRUR4R1FEY2lwSkE?oc=5",
         "fuente": "The Washington Post"
       },
-      "analisis": "El superávit de 2.000 muertes por Ébola en la RDC evidencia colapso de infraestructura sanitaria y capacidad limitada de respuesta estatal en una región históricamente frágil. La crisis amenaza con convertirse en foco de inestabilidad regional y refugio para propagación transfronteriza hacia países vecinos con sistemas de salud igualmente precarios."
+      "analisis": "El terremoto expone la vulnerabilidad estructural de Colombia frente a desastres naturales y la fragmentación en respuesta estatal, con implicaciones para la continuidad de operaciones militares conjuntas EEUU-Colombia contra narcotráfico. La crisis humanitaria puede desestabilizar territorios rurales controladosNarcolíderes, complicando la arquitectura de seguridad regional que Washington busca consolidar en su confrontación con la influencia de potencias rivales."
     }
   ]
 }
