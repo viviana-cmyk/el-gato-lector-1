@@ -46,7 +46,7 @@ function looksLikeAuthorName(title) {
   return AUTHOR_NAME_RE.test(title);
 }
 
-// POLÍTICA EDITORIAL PERMANENTE: El Gato Lector excluye farándula y derivados.
+// POLÍTICA EDITORIAL PERMANENTE: El LECTOR excluye farándula y derivados.
 // No modificar ni debilitar este filtro sin instrucción explícita.
 // Categorías excluidas: astrología/esotérico, vida privada de celebridades,
 // rumores sin verificar, apariencia física, drama en redes, fuentes anónimas,
@@ -281,7 +281,7 @@ async function prioritizeSection(apiKey, builtOutlets) {
   });
   if (indexed.length === 0) return { outlets: builtOutlets, topItem: null };
 
-  const prompt = `Eres el editor de El Gato Lector, boletín de noticias enfocado en política, seguridad, justicia y paz.
+  const prompt = `Eres el editor de El LECTOR, boletín de noticias enfocado en política, seguridad, justicia y paz.
 
 Clasifica cada titular con UNA de estas etiquetas:
 - ALTA: política, geopolítica, seguridad, economía, regulación, decisiones públicas, tecnología/ciencia con impacto social, crisis o emergencias, temas de importancia nacional

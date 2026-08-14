@@ -26,11 +26,11 @@ const calDia = diaFecha.toLocaleDateString("es-CO", { day: "numeric", timeZone: 
 <Layout title="Inicio" hideTopbar>
   <section class="hero" style={`background-image: linear-gradient(180deg, rgba(5,5,8,0.55) 0%, rgba(5,5,8,0.75) 55%, rgba(5,5,8,0.97) 100%), url('${withBase('/biblioteca.jpeg')}')`}>
     <div class="hero__inner">
-      <img class="hero__cat" src={withBase("/cat-logo.png")} alt="El Gato Lector" />
+      <img class="hero__cat" src={withBase("/cat-logo.png")} alt="El LECTOR" />
 
       <div class="hero__badge">● {fechaHoy}</div>
 
-      <h1>El Gato <span>Lector</span></h1>
+      <h1>El <span>LECTOR</span></h1>
 
       <p class="subtitle">Noticias, actualidad y más.....</p>
 
@@ -58,19 +58,19 @@ const calDia = diaFecha.toLocaleDateString("es-CO", { day: "numeric", timeZone: 
 
   <section id="inicio-contenido" class="section wrap">
     <h2 class="section__title">La noticia del día</h2>
-    <p class="section__byline">El Gato Lector</p>
+    <p class="section__byline">El LECTOR</p>
     <FeaturedStory />
   </section>
 
   <section class="section wrap">
     <h2 class="section__title">Indicadores económicos</h2>
-    <p class="section__byline">El Gato Lector</p>
+    <p class="section__byline">El LECTOR</p>
     <IndicatorsBar />
   </section>
 
   <section class="section wrap">
     <h2 class="section__title">Clima · principales ciudades</h2>
-    <p class="section__byline">El Gato Lector</p>
+    <p class="section__byline">El LECTOR</p>
     <WeatherSection />
   </section>
 

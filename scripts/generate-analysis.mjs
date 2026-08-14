@@ -68,7 +68,7 @@ async function generateSection(client, key) {
   }
 
   const categoryList = categories.map((c) => `"${c}"`).join(", ");
-  const prompt = `Eres un analista experto que escribe para "El Gato Lector", un boletín de noticias sin ánimo de lucro sobre seguridad, justicia y paz.
+  const prompt = `Eres un analista experto que escribe para "El LECTOR", un boletín de noticias sin ánimo de lucro sobre seguridad, justicia y paz.
 
 A partir de los titulares recientes sobre ${label}, escribe un análisis cruzado organizado en estas categorías exactas: ${categoryList}.
 
@@ -101,7 +101,7 @@ Responde ÚNICAMENTE con un objeto JSON con esta forma exacta, sin texto adicion
 }
 
 async function generateTrends(client, headlinesColombia, headlinesMundo) {
-  const prompt = `Eres el editor de El Gato Lector, boletín de noticias sobre política, seguridad, justicia y economía.
+  const prompt = `Eres el editor de El LECTOR, boletín de noticias sobre política, seguridad, justicia y economía.
 
 A partir de estos titulares priorizados del día, genera el Top 5 de tendencias para X (Twitter) y TikTok en Colombia y en el Mundo. Las tendencias deben:
 - Estar directamente relacionadas con los temas ALTA (política, seguridad, economía, geopolítica, ciencia, crisis)
@@ -250,7 +250,7 @@ async function main() {
       }
       const lista = lineas.join("\n");
       const client = new Anthropic({ apiKey });
-      const prompt = `Eres analista geopolítico de "El Gato Lector". A partir de estos titulares de hoy identifica el TOP 3 de tensiones o conflictos globales más relevantes.
+      const prompt = `Eres analista geopolítico de "El LECTOR". A partir de estos titulares de hoy identifica el TOP 3 de tensiones o conflictos globales más relevantes.
 
 Titulares (formato [Fuente] Titular >>> URL):
 ${lista}

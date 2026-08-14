@@ -27,13 +27,13 @@ const canonicalUrl = SITE + Astro.url.pathname.replace(/\/?$/, "/");
     <link rel="icon" href={withBase("/cat-logo.png")} type="image/png" />
     <!-- Open Graph / WhatsApp / redes sociales -->
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="El Gato Lector" />
-    <meta property="og:title" content={`${title} · El Gato Lector`} />
+    <meta property="og:site_name" content="El LECTOR" />
+    <meta property="og:title" content={`${title} · El LECTOR`} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={`${SITE}/cat-logo.png`} />
     <meta property="og:url" content={canonicalUrl} />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content={`${title} · El Gato Lector`} />
+    <meta name="twitter:title" content={`${title} · El LECTOR`} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={`${SITE}/cat-logo.png`} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -42,7 +42,7 @@ const canonicalUrl = SITE + Astro.url.pathname.replace(/\/?$/, "/");
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins:wght@700;800;900&display=swap"
       rel="stylesheet"
     />
-    <title>{title} · El Gato Lector</title>
+    <title>{title} · El LECTOR</title>
     <slot name="head" />
   </head>
   <body>
@@ -51,7 +51,7 @@ const canonicalUrl = SITE + Astro.url.pathname.replace(/\/?$/, "/");
         <div class="topbar__inner">
           <a class="topbar__brand" href={withBase("/")}>
             <img src={withBase("/cat-logo.png")} alt="" />
-            El Gato Lector
+            El LECTOR
           </a>
           <nav class="topbar__nav">
             <a class="pill" href={withBase("/")}>Inicio</a>
@@ -71,13 +71,13 @@ const canonicalUrl = SITE + Astro.url.pathname.replace(/\/?$/, "/");
     <footer class="footer">
       <div class="wrap">
         <span class="pin">📍</span>
-        <div class="footer__brand">El Gato Lector</div>
+        <div class="footer__brand">El LECTOR</div>
         <p>
           Recopilación sin ánimo de lucro en temas de seguridad, justicia y paz, realizada
           desde la curiosidad innata de los gatos. <strong>Lee, actualízate y edifica</strong>
           tus propias conjeturas a partir de datos, tendencias y contemporaneidad.
         </p>
-        <img class="footer__cat" src={withBase("/cat-logo.png")} alt="El Gato Lector" />
+        <img class="footer__cat" src={withBase("/cat-logo.png")} alt="El LECTOR" />
       </div>
     </footer>
   </body>

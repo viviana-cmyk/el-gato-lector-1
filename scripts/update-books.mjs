@@ -1,5 +1,5 @@
 // Genera 3 recomendaciones de libros mensuales con IA, alineadas con los temas
-// principales de El Gato Lector (política, seguridad, justicia, economía, paz).
+// principales de El LECTOR (política, seguridad, justicia, economía, paz).
 // Lee los titulares actuales para que las recomendaciones sean pertinentes al mes.
 // Actualiza únicamente el campo "books" en src/data/curated.json.
 
@@ -57,7 +57,7 @@ async function main() {
   const mesActual = new Date().toLocaleDateString("es-CO", { month: "long", year: "numeric", timeZone: "America/Bogota" });
   const coloresDisp = COLORS.join(", ");
 
-  const prompt = `Eres el editor de "El Gato Lector", un boletín enfocado en política, seguridad, justicia, economía y paz en Colombia y el mundo.
+  const prompt = `Eres el editor de "El LECTOR", un boletín enfocado en política, seguridad, justicia, economía y paz en Colombia y el mundo.
 
 Mes actual: ${mesActual}
 
