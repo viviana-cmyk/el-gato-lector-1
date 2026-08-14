@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Pipeline de datos — "Gato en Cifras"
+// Pipeline de datos — "Datos y Cifras"
 // Fuente única: Policía Nacional (SIEDCO via datos.gov.co)
 // 6 delitos de impacto · 38 municipios · ene-abr 2025 vs. ene-abr 2026
 
@@ -138,7 +138,7 @@ function calcDelito(idx, cod, pob) {
 
 // ── MAIN ─────────────────────────────────────────────────────────────────────
 async function main() {
-  console.log('▶  Gato en Cifras — descargando SIEDCO (6 datasets en paralelo)...\n');
+  console.log('▶  Datos y Cifras — descargando SIEDCO (6 datasets en paralelo)...\n');
 
   const [rowsHom, rowsHur, rowsExt, rowsRes, rowsVif, rowsAut] = await Promise.all([
     fetchMensual(DATASETS.homicidio.id,         allCodes),
