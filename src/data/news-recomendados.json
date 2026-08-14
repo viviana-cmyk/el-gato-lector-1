@@ -1,10 +1,34 @@
 {
-  "generatedAt": "2026-08-13T10:01:46.062Z",
+  "generatedAt": "2026-08-14T01:19:15.569Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "On The Radar: Dudas sobre coalición anticarteles y golpe a red del CJNG en Chequia",
+          "link": "https://insightcrime.org/es/noticias/on-the-radar-dudas-coalicion-anticarteles-golpe-red-cjng-chequia/",
+          "pubDate": "2026-08-13T18:12:11.000Z",
+          "snippet": "On The Radar: Dudas sobre coalición anticarteles y golpe a red del CJNG en Chequia Esta semana analizamos la nueva coalición anticarteles, el golpe a la red de tráfico de armas del CJNG en Chequia y más. The post On The Radar: Dudas sobre coalición anticarteles y golpe a red del…"
+        },
+        {
+          "title": "Comando Vermelho",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-brasil/comando-rojo/",
+          "pubDate": "2026-08-13T17:48:41.000Z",
+          "snippet": "Comando Vermelho El Comando Rojo (Comando Vermelho, CV) es el grupo criminal más antiguo de Brasil, conformado en una prisión de Río de Janeiro en los años setenta como un grupo de autoprotección de los prisioneros. Comenzó con delitos menores, como asaltos y robos a bancos, pero…"
+        },
+        {
+          "title": "Pódcast | Gio y Fito: Cuando el rap Gangsta se vuelve real",
+          "link": "https://insightcrime.org/es/noticias/podcast-gio-fito-cuando-rap-gangsta-se-vuelve-real/",
+          "pubDate": "2026-08-13T17:36:08.000Z",
+          "snippet": "Pódcast | Gio y Fito: Cuando el rap Gangsta se vuelve real Gio era un rapero gangsta. También era la mano derecha del criminal más conocido de Ecuador, el líder de Los Choneros, alias “Fito”. The post Pódcast | Gio y Fito: Cuando el rap Gangsta se vuelve real appeared first on In…"
+        },
+        {
+          "title": "Guerreros Unidos",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/guerreros-unidos/",
+          "pubDate": "2026-08-13T16:43:23.000Z",
+          "snippet": "Guerreros Unidos Guerreros Unidos es un grupo escindido de la OBL, que opera en la región central de México. El grupo se dedica principalmente a la extorsión y el secuestro, pero también trafica drogas a Estados Unidos. Los Guerreros Unidos se caracterizan por sus tácticas agresi…"
+        },
         {
           "title": "Ejército de Liberación Nacional (ELN)",
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/eln-colombia/",
@@ -16,30 +40,6 @@
           "link": "https://insightcrime.org/es/noticias/efecto-bukele-seguridad-america-latina/",
           "pubDate": "2026-08-12T15:33:56.000Z",
           "snippet": "El ‘efecto Bukele’ en la seguridad de América Latina Bajo el gobierno del presidente Nayib Bukele, El Salvador se ha convertido en uno de los mayores exponentes de la lucha contra el crimen organizado en América Latina. Distintos líderes de toda América Latina y el Caribe intenta…"
-        },
-        {
-          "title": "The InSight Take: Abelardo de la Espriella hereda un panorama criminal fragmentado en Colombia",
-          "link": "https://insightcrime.org/es/noticias/the-insight-take-abelardo-de-la-espriella-hereda-panorama-criminal-fragmentado-colombia/",
-          "pubDate": "2026-08-11T21:55:27.000Z",
-          "snippet": "The InSight Take: Abelardo de la Espriella hereda un panorama criminal fragmentado en Colombia El nuevo presidente de Colombia enfrenta uno de los panoramas criminales más complejos del mundo. En el InSight Take de esta semana, nuestro codirector Jeremy McDermott y la investigado…"
-        },
-        {
-          "title": "El tráfico de ketamina se expande por América Latina",
-          "link": "https://insightcrime.org/es/noticias/trafico-ketamina-expande-america-latina/",
-          "pubDate": "2026-08-10T18:53:34.000Z",
-          "snippet": "El tráfico de ketamina se expande por América Latina Cada vez más países de América Latina y el Caribe registran casos de tráfico de ketamina, lo que refleja una transformación de los mercados de drogas de la región, impulsada por el auge de los cócteles sintéticos y por cadenas…"
-        },
-        {
-          "title": "Alex Saab",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-venezuela/alex-saab-2/",
-          "pubDate": "2026-08-07T17:07:30.000Z",
-          "snippet": "Alex Saab Alex Saab enfrenta un nuevo juicio en Estados Unidos por lavado de dinero tras ser deportado desde Venezuela. Perfil completo y actualizado de 2026. The post Alex Saab appeared first on InSight Crime."
-        },
-        {
-          "title": "Cartel del Golfo",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/cartel-del-golfo-perfil/",
-          "pubDate": "2026-08-07T16:34:22.000Z",
-          "snippet": "Cartel del Golfo Cartel del Golfo 2026: quién lidera sus principales facciones, dónde opera y qué poder conserva en México. Perfil completo actualizado. The post Cartel del Golfo appeared first on InSight Crime."
         }
       ]
     },
@@ -90,9 +90,9 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Find your purpose: Katie Piper on how to adapt, reinvent and lead after setbacks",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYUVIRmVsMkxNUW1KWUQzR0I5Y3Z3Z1lub0VrdGZiLWdBMWd3OE5tNHBpYXBwWWFlZnJYeXdqV2FlcmcyV3dCVlBhbHdsUHJfSGN3NXVtZDJHa1dkRDVNUV9OR1Z2MW5xWkZtLXplS01PdWlvZzZKcnlldUtsYXRRV0syUU5PbFFqLXhnS2xzQm00OHNIZEtodjgzWnRtQlotbThMeTVB?oc=5",
-          "pubDate": "2026-08-10T20:57:16.000Z",
+          "title": "Trade, tech and geopolitical rivalry: what you need to understand about China today",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcDZMaGcydi1IV09USDBSQ1VJb1pqdFRRQXVjZlV3anJxM2h0ZC14ZnBBZUtYRkl3bTZlTmw5c3dFemJqZDZfTlZ2eWlSeUozTFhsd0gzV2hWQ2Y0Z2twNTBZN3dVUVR3RmR3bGllZW81Vl8zNkw0bkxaTUlMSjRmOWxOZkNOTjd2Mml3SzlLWkR1VlNUbXd2cnY5NWc3Y1R6ZzQxQk1VZG0zeDV0TWtKYThR?oc=5",
+          "pubDate": "2026-08-12T07:00:00.000Z",
           "snippet": null
         },
         {
@@ -108,21 +108,21 @@
           "snippet": null
         },
         {
-          "title": "Meet the Leader: author Jonathan Haidt",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ3FFMzhIZ0JxU1NVdWFiblFjTHdIdmZlV09zMDFMVXRfWjcyU1IxN05rZm16Z251MGpLakRIMFZNaXVDSjBkUno0cnA4QVo4b0gxZW5qWC1aaWpjOGNJTU9zUzdUN0pzb1VZTXhxSWJNX2hCaGxfZUFtSWV2Y005a0tpRHZBQWY0Y0dKUA?oc=5",
-          "pubDate": "2026-08-06T17:33:22.000Z",
-          "snippet": null
-        },
-        {
           "title": "Colaboradores de la Agenda",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xX285RDA2NzlWUmh4UURjMUVYZWp6V0JJZm9DRmg2cElaUXFyTmk0endQd0FDMmpSTkxwdkFJdGpXREY0X3Z0T3RLblAwbk41U1FvandlNTlzcjVK?oc=5",
           "pubDate": "2026-08-05T06:19:58.000Z",
           "snippet": null
         },
         {
-          "title": "Entrevistamos a 4600 jóvenes sobre la situación actual del mundo. Esto es lo que dijeron.",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb0FGN0phcXlOeWFOYWtxZGEwN2pUYkFKci01SHVoSE1rYVIyRU9QQ1piNzJGblpXWWJDN3dQamxCVlBTZGxFa19yUkxBRW53WVFISm5DbU9NMnVrLXRpV2pDbjRpVmZPMEJ5dDJsbGt1UFBEaUJfUDlHQlI0djZxUjV4QWFvWml2NVVNWnVWdk9zOE5jSkRwUHhCY1lGelhNMHVqdGN1TC1VNUYzNHl5REZDbDN4QlVULVA4?oc=5",
-          "pubDate": "2026-06-21T20:04:57.000Z",
+          "title": "How leaders can fix focus and happiness in an AI Era: Psychologist Jonathan Haidt",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVE53LTZjeXRkX1FEQWNtWWh2RUs0alN2VktQQjA4WjBMVEZKbE54MTNLQ3FwTDZ1eFQ0WUdHUkJTVFhtMWdmcXRwNDdzMU1jQzhoV2JaYkJpUWstNGJOa1VTWU53NEdlT1ZIUE16WjNVaHlMcm5UemtMQUcxdlowYUx3TFpFdUt5TUhLdjd5V1l2Qy1QNFg5eUVzWm5PRkE?oc=5",
+          "pubDate": "2026-08-03T04:45:00.000Z",
+          "snippet": null
+        },
+        {
+          "title": "AMNC26: Can Intelligence Feed the World?",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNk5CRmp6ZGUxeVVrc0lCWVIycU5IR2NRZ3dFcUFucHhiVmZmT2hYeXFqVnBza3ZhQUIwT1JNQzc4b3ltRGR0MEFoNEVxZXk1M2tiOThjVDdUbUc2NE8zUWM5R1FERW1hTWpjOTFUeHU4LXY3NDRLQ2liR3NsTGNHM1hvQmM1S1JyRU9wZFhjTk1ZNzlwWVZ4ZVBUYy03QQ?oc=5",
+          "pubDate": "2026-08-02T07:00:00.000Z",
           "snippet": null
         }
       ]
