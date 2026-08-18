@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-08-13T10:02:06.132Z",
+  "generatedAt": "2026-08-18T10:34:29.562Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Bloqueo ruso de puertos ucranianos y seguridad alimentaria global",
-      "region": "Europa Oriental / Mar Negro",
+      "titulo": "Escalada militar Rusia-Ucrania con implicaciones atlánticas",
+      "region": "Europa Oriental y Atlántico Norte",
       "noticia": {
-        "titulo": "Russian Blockade of Major Ukrainian Ports Threatens Global Grain Supplies",
-        "link": "https://www.nytimes.com/2026/08/13/world/europe/russia-ukraine-ports-odesa-cargo-ship-attacks.html",
-        "fuente": "The New York Times"
+        "titulo": "Al menos 10 muertos en un ataque ruso con misiles en la región ucrania de Járkov",
+        "link": "https://elpais.com/internacional/2026-08-18/varios-muertos-en-un-ataque-ruso-con-misiles-en-la-region-ucrania-de-jarkov.html",
+        "fuente": "El País"
       },
-      "analisis": "El bloqueo ruso de puertos ucranianos como Odesa representa una escalada en la instrumentalización de recursos alimentarios como arma de guerra, afectando directamente a economías vulnerables en África y Asia Central. Esta estrategia de estrangulamiento económico amplifica la presión sobre gobiernos occidentales para intensificar el suministro de defensa aérea, como sugiere la petición de Zelensky sobre sistemas Patriot, elevando el riesgo de confrontación directa OTAN-Rusia."
+      "analisis": "Los ataques rusos continuos en Járkov coinciden con advertencias de Moscú a Reino Unido sobre el uso de drones británicos en territorio ruso, señalando una intensificación del conflicto y una estrategia de disuasión hacia Occidente. Esta escalada refuerza la fragmentación entre potencias nucleares y erosiona los mecanismos de contención que existían, mientras la OTAN potencia su presencia en el flanco este europeo."
     },
     {
       "rank": 2,
-      "titulo": "Reclamos territoriales Japón-Rusia sobre las Kuriles y reconfiguración del Pacífico",
-      "region": "Asia-Pacífico",
+      "titulo": "Tensión crítica Irán-Estados Unidos con ramificaciones en Oriente Medio",
+      "region": "Oriente Medio y Golfo Pérsico",
       "noticia": {
-        "titulo": "Japón protesta por la primera visita de Putin a las islas Kuriles que Tokio reclama desde la II Guerra Mundial",
-        "link": "https://elpais.com/internacional/2026-08-13/japon-protesta-por-la-primera-visita-de-putin-a-las-islas-kuriles-que-tokio-reclama-desde-la-ii-guerra-mundial.html",
-        "fuente": "El País"
+        "titulo": "Trump threatens to bomb Oman if it 'gets in the way'",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYkpvYWY4dExUNDRiaVd3RWNlOFRpd0loZDVTdm94SlpRWHJldnJTd1QtTlQ4Ukx5c3Q4X3NsaEgxci1LVmNVWC1KczFJcW55TTVZemd5M0xiTG1zU2Nyb3NHTVhtWENRVmk5dDl0N3BwNWhZR3lQWllGRDZSM0VZOUJNcDZ4WGtNQUNyUUEwRFhHaE0?oc=5",
+        "fuente": "The Washington Post"
       },
-      "analisis": "La visita de Putin a las Kuriles y la protesta japonesa reactivan disputas territoriales dormidas que erosionan la estabilidad en el Pacífico, coincidiendo con un contexto de redefinición de alianzas entre EE.UU., Japón y Corea del Sur frente a la influencia china y rusa. Este gesto simbólico de Moscú intensifica la competencia por el dominio geopolítico en una región crítica para el comercio global y la seguridad nuclear."
+      "analisis": "Las amenazas directas de Trump contra Omán revelan una estrategia de máxima presión contra Irán que ignora los canales diplomáticos tradicionales y desestabiliza a actores regionales clave como mediadores potenciales. El bloqueo financiero israelí a Palestina documentado por NYT amplifica esta volatilidad, creando un escenario donde múltiples conflictos de baja intensidad podrían converger en una crisis sistémica."
     },
     {
       "rank": 3,
-      "titulo": "Crisis humanitaria y gobernanza en Colombia tras terremoto de 7.4 magnitud",
-      "region": "América del Sur",
+      "titulo": "Crisis de confianza en alianzas americanas y competencia Corea-China",
+      "region": "Indopacífico y América del Norte",
       "noticia": {
-        "titulo": "Colombia earthquake deaths climb to 239; hundreds remain missing",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY0RCUTVEeWZQalh3MzEzZkg0WDV5ZGt0MTJtUm5rMzRNZS14NDVXTXhoSWEwY1pIOThxT1dyNkFFZEtWcFNWXzUwdFZyMl9Hak9WcEt5VnFVTGVpa3M0ME50Y09WSzBEM18wbW1qTUJ2dVBvQjhsS0Fma1RreC1Td1JBdEQ4U09jekNMS1A4SzlTMEdRVG5xQ2xPLWZNb0tkX3hqRUR4R1FEY2lwSkE?oc=5",
-        "fuente": "The Washington Post"
+        "titulo": "South Korea president calls for military independence in wake of Trump call to cut joint drills",
+        "link": "https://www.theguardian.com/world/2026/aug/18/south-korea-president-trump-military-drills-control-opcon-kim-jong-un",
+        "fuente": "The Guardian"
       },
-      "analisis": "El terremoto expone la vulnerabilidad estructural de Colombia frente a desastres naturales y la fragmentación en respuesta estatal, con implicaciones para la continuidad de operaciones militares conjuntas EEUU-Colombia contra narcotráfico. La crisis humanitaria puede desestabilizar territorios rurales controladosNarcolíderes, complicando la arquitectura de seguridad regional que Washington busca consolidar en su confrontación con la influencia de potencias rivales."
+      "analisis": "El llamado de Trump a reducir maniobras conjuntas ha obligado a Corea del Sur a replantearse su estrategia de defensa, acelerador de una posible militarización independiente que erosiona el andamiaje de seguridad estadounidense en Asia-Pacífico. Simultáneamente, las negociaciones de aranceles con Canadá y el giro hacia gobiernos de oligarcas en Washington (57 multimillonarios) sugieren una reconfiguración del orden transatlántico que prioriza transacciones sobre compromisos institucionales."
     }
   ]
 }

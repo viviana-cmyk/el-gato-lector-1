@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-08-14T01:19:15.569Z",
+  "generatedAt": "2026-08-18T10:29:39.180Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Familias desplazadas por Los Ardillos regresan a sus hogares en Guerrero, México",
+          "link": "https://insightcrime.org/es/noticias/ardillos-grupo-criminal-provocado-desplazamientos-masivos-mexico/",
+          "pubDate": "2026-08-17T19:01:55.000Z",
+          "snippet": "Familias desplazadas por Los Ardillos regresan a sus hogares en Guerrero, México Los Ardillos provocaron el desplazamiento de más de 1.000 personas en Guerrero y ahora algunas familias comienzan a regresar. ¿Quiénes son, cómo operan y cómo ganó poder este grupo criminal? The post…"
+        },
+        {
+          "title": "Por qué el crimen organizado en Venezuela no desaparece tras la captura de Maduro",
+          "link": "https://insightcrime.org/es/noticias/por-que-crimen-organizado-venezuela-no-desaparece-tras-captura-maduro/",
+          "pubDate": "2026-08-14T15:49:15.000Z",
+          "snippet": "Por qué el crimen organizado en Venezuela no desaparece tras la captura de Maduro Nuestro más reciente video explica cómo evolucionó el crimen organizado en Venezuela y qué tendría que ocurrir para realmente debilitar las redes y economías criminales del país. The post Por qué el…"
+        },
         {
           "title": "On The Radar: Dudas sobre coalición anticarteles y golpe a red del CJNG en Chequia",
           "link": "https://insightcrime.org/es/noticias/on-the-radar-dudas-coalicion-anticarteles-golpe-red-cjng-chequia/",
@@ -28,101 +40,52 @@
           "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/guerreros-unidos/",
           "pubDate": "2026-08-13T16:43:23.000Z",
           "snippet": "Guerreros Unidos Guerreros Unidos es un grupo escindido de la OBL, que opera en la región central de México. El grupo se dedica principalmente a la extorsión y el secuestro, pero también trafica drogas a Estados Unidos. Los Guerreros Unidos se caracterizan por sus tácticas agresi…"
-        },
-        {
-          "title": "Ejército de Liberación Nacional (ELN)",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-colombia/eln-colombia/",
-          "pubDate": "2026-08-12T17:59:23.000Z",
-          "snippet": "Ejército de Liberación Nacional (ELN) Ejército de Liberación Nacional (ELN): quiénes lo lideran, dónde opera y cómo se financia. Perfil completo y actualizado en 2026. The post Ejército de Liberación Nacional (ELN) appeared first on InSight Crime."
-        },
-        {
-          "title": "El ‘efecto Bukele’ en la seguridad de América Latina",
-          "link": "https://insightcrime.org/es/noticias/efecto-bukele-seguridad-america-latina/",
-          "pubDate": "2026-08-12T15:33:56.000Z",
-          "snippet": "El ‘efecto Bukele’ en la seguridad de América Latina Bajo el gobierno del presidente Nayib Bukele, El Salvador se ha convertido en uno de los mayores exponentes de la lucha contra el crimen organizado en América Latina. Distintos líderes de toda América Latina y el Caribe intenta…"
         }
       ]
     },
     {
       "name": "International Crisis Group",
       "color": "teal",
-      "items": [
-        {
-          "title": "Bahrain 29 July 2026 #1",
-          "link": "https://www.crisisgroup.org/content/bahrain-29-july-2026-1",
-          "pubDate": "2026-07-30T21:36:21.000Z",
-          "snippet": "Bahrain 29 July 2026 #1 lalasor Thu, 07/30/2026 - 23:36 Bahrain Thu, 07/30/2026 - 12:00 29 July 2026 U.S. Central Command that it had conducted “a heavy wave of strikes against Iran”, targeting “military command centres, missile and drone facilities, coastal surveillance and defe…"
-        },
-        {
-          "title": "Washington 29 July 2026 #3",
-          "link": "https://www.crisisgroup.org/content/washington-29-july-2026-3",
-          "pubDate": "2026-07-30T21:35:21.000Z",
-          "snippet": "Washington 29 July 2026 #3 lalasor Thu, 07/30/2026 - 23:35 Washington Thu, 07/30/2026 - 12:00 29 July 2026 U.S. Central Command that it had conducted “a heavy wave of strikes against Iran”, targeting “military command centres, missile and drone facilities, coastal surveillance an…"
-        },
-        {
-          "title": "Tehran 29 July 2026 #3",
-          "link": "https://www.crisisgroup.org/content/tehran-29-july-2026-3",
-          "pubDate": "2026-07-30T21:34:42.000Z",
-          "snippet": "Tehran 29 July 2026 #3 lalasor Thu, 07/30/2026 - 23:34 Tehran Thu, 07/30/2026 - 12:00 29 July 2026 U.S. Central Command that it had conducted “a heavy wave of strikes against Iran”, targeting “military command centres, missile and drone facilities, coastal surveillance and defenc…"
-        },
-        {
-          "title": "Hormuz 30 July 2026 #1",
-          "link": "https://www.crisisgroup.org/content/hormuz-30-july-2026-1",
-          "pubDate": "2026-07-30T21:34:03.000Z",
-          "snippet": "Hormuz 30 July 2026 #1 lalasor Thu, 07/30/2026 - 23:34 Strait of Hormuz Thu, 07/30/2026 - 12:00 30 July 2026 The IRGC that “the Strait of Hormuz is not reopenable as long as the excessive rhetoric and threats by U.S. officials and their interference in maritime movements in the r…"
-        },
-        {
-          "title": "Tehran 30 July 2026 #1",
-          "link": "https://www.crisisgroup.org/content/tehran-30-july-2026-1",
-          "pubDate": "2026-07-30T21:33:29.000Z",
-          "snippet": "Tehran 30 July 2026 #1 lalasor Thu, 07/30/2026 - 23:33 Tehran Thu, 07/30/2026 - 12:00 30 July 2026 The IRGC that “the Strait of Hormuz is not reopenable as long as the excessive rhetoric and threats by U.S. officials and their interference in maritime movements in the region cont…"
-        },
-        {
-          "title": "Washington 30 July 2026 #2",
-          "link": "https://www.crisisgroup.org/content/washington-30-july-2026-2",
-          "pubDate": "2026-07-30T21:32:45.000Z",
-          "snippet": "Washington 30 July 2026 #2 lalasor Thu, 07/30/2026 - 23:32 Washington Thu, 07/30/2026 - 12:00 30 July 2026 The IRGC that “the Strait of Hormuz is not reopenable as long as the excessive rhetoric and threats by U.S. officials and their interference in maritime movements in the reg…"
-        }
-      ]
+      "items": []
     },
     {
       "name": "World Economic Forum",
       "color": "yellow",
       "items": [
         {
-          "title": "Trade, tech and geopolitical rivalry: what you need to understand about China today",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcDZMaGcydi1IV09USDBSQ1VJb1pqdFRRQXVjZlV3anJxM2h0ZC14ZnBBZUtYRkl3bTZlTmw5c3dFemJqZDZfTlZ2eWlSeUozTFhsd0gzV2hWQ2Y0Z2twNTBZN3dVUVR3RmR3bGllZW81Vl8zNkw0bkxaTUlMSjRmOWxOZkNOTjd2Mml3SzlLWkR1VlNUbXd2cnY5NWc3Y1R6ZzQxQk1VZG0zeDV0TWtKYThR?oc=5",
-          "pubDate": "2026-08-12T07:00:00.000Z",
+          "title": "Reading still matters. The books that shaped 5 tech founders",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNejZEQnRxUmJxdU1pOUJTTjZVRjRJdFpMeV9QVFAxYlpGMkIzN0RHMGp3Z3ZuXzhSM1BjZ3plOG5xeVhOVU9OMDV6VS1HQjJFa2ZuS1NPQWNIaTVxUHlEQnhoYTBYR3F6TnhYOEJmcEZUQXMtdzVsTGNEdEZFaGFyaGNyOXA0QnBYejQ0Zmxlejl2RUFKTF9XVk83Yw?oc=5",
+          "pubDate": "2026-08-18T04:44:39.000Z",
           "snippet": null
         },
         {
-          "title": "Event Details - Ibadan Hub",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRDdLSExYRFhqMUR6eXJyQTI1TnkzYXBad0h3T01DMWV4Z3ZzVkxEbmVTUXhrOG5YZzdHRFhNcVIyNGRZakxuQVo2VFk2V2tJQ1FhOS03OEJhbkJVSGtvRUVQb0x4MVkyUVpBeVlsRWZrS3JZTURaMTRlUGdqV1JlRUJ4SmlUV0pqNWNZLVV0SUhnZnl4TUNwbWpid1NobTRxczg4ZQ?oc=5",
-          "pubDate": "2026-08-09T02:27:02.000Z",
+          "title": "Michael B. Horn",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oY0lHa05NRXdzd3hzMTFMR2dhaVRJZTBwbkozQ3cwOUZSd25uRWVINzJnU3JubzVZRXh1UVptSXU4enktNnllNEIzTG9oM3U2R3d3c19YaHBFSjhNR3RiN25kTzI?oc=5",
+          "pubDate": "2026-08-17T12:19:27.000Z",
           "snippet": null
         },
         {
-          "title": "Sean A. Arnold",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lVUR0SkRuWlVWTjdkRW9BVEJMVS02azNBV2EyZkJGQ09QQzRubk0xN2tCbTdlOTNqWWwyTGFtMG5EQVNjNGpwdHE4RHpOOTgtNnZrQVlxeld1SzVUeEluclJzQQ?oc=5",
-          "pubDate": "2026-08-08T17:06:51.000Z",
+          "title": "Intelligent Industrial Ecosystems: Turning Proximity into Intelligence",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVUppNE9xM0x4RW9FTnBBd0d4Qjl6LS1lVF8tdTk4eDJiVkxqYi13SGhqbXMwWDNzWExsMk41OENmbHVQSXQ5RVF2cEx3TmVXNE1sQi1oQkhGR0Y1bnVRVEVLNXptZXZHYVV5Q3J4VWRVZHhpTUhTdk5qNXpzVGhXTVpDTVlxNW81aUp2UTZQYW9VRlROYTE0eUU1bmxrTXNwbnhwVi1oRUVqUQ?oc=5",
+          "pubDate": "2026-08-17T10:20:20.000Z",
           "snippet": null
         },
         {
-          "title": "Colaboradores de la Agenda",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xX285RDA2NzlWUmh4UURjMUVYZWp6V0JJZm9DRmg2cElaUXFyTmk0endQd0FDMmpSTkxwdkFJdGpXREY0X3Z0T3RLblAwbk41U1FvandlNTlzcjVK?oc=5",
-          "pubDate": "2026-08-05T06:19:58.000Z",
+          "title": "From Evidence to Enterprise: Unlocking the Innovation Economy for Women‘s Health",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZmVwT1p2VVRzTGs3WFJYTXpxc3V2eFVCdzlJcDNjMlo1bGhKQjkwUGItcll0dDlpSzZhQmdPaUpGUEpEdDA4aDNvSUtPVjRmeS1vVTFVdG51OVloQk9IbkN0RlFKa3dhR281LUxXdEU2c1pPSENvYVhHRkU5dEhvVEJqbnprc0JhMkZWdmRteW5FTUdGRjR2eXNNSmlESWhRQ3kwM0JJcUxNblFTNHJsOTZBUHJuNm5ncnZpTzk2dnNzZkFPaERHQ1ktQzZDX0dFRGtZcg?oc=5",
+          "pubDate": "2026-08-09T07:00:00.000Z",
           "snippet": null
         },
         {
-          "title": "How leaders can fix focus and happiness in an AI Era: Psychologist Jonathan Haidt",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVE53LTZjeXRkX1FEQWNtWWh2RUs0alN2VktQQjA4WjBMVEZKbE54MTNLQ3FwTDZ1eFQ0WUdHUkJTVFhtMWdmcXRwNDdzMU1jQzhoV2JaYkJpUWstNGJOa1VTWU53NEdlT1ZIUE16WjNVaHlMcm5UemtMQUcxdlowYUx3TFpFdUt5TUhLdjd5V1l2Qy1QNFg5eUVzWm5PRkE?oc=5",
-          "pubDate": "2026-08-03T04:45:00.000Z",
+          "title": "Entrevistamos a 4600 jóvenes sobre la situación actual del mundo. Esto es lo que dijeron.",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb0FGN0phcXlOeWFOYWtxZGEwN2pUYkFKci01SHVoSE1rYVIyRU9QQ1piNzJGblpXWWJDN3dQamxCVlBTZGxFa19yUkxBRW53WVFISm5DbU9NMnVrLXRpV2pDbjRpVmZPMEJ5dDJsbGt1UFBEaUJfUDlHQlI0djZxUjV4QWFvWml2NVVNWnVWdk9zOE5jSkRwUHhCY1lGelhNMHVqdGN1TC1VNUYzNHl5REZDbDN4QlVULVA4?oc=5",
+          "pubDate": "2026-06-21T20:04:57.000Z",
           "snippet": null
         },
         {
-          "title": "AMNC26: Can Intelligence Feed the World?",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNk5CRmp6ZGUxeVVrc0lCWVIycU5IR2NRZ3dFcUFucHhiVmZmT2hYeXFqVnBza3ZhQUIwT1JNQzc4b3ltRGR0MEFoNEVxZXk1M2tiOThjVDdUbUc2NE8zUWM5R1FERW1hTWpjOTFUeHU4LXY3NDRLQ2liR3NsTGNHM1hvQmM1S1JyRU9wZFhjTk1ZNzlwWVZ4ZVBUYy03QQ?oc=5",
-          "pubDate": "2026-08-02T07:00:00.000Z",
+          "title": "Google Puede Predecir El Peligro De Inundaciones Cerca De Tu Casa",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMlZlSlNYX0xGVzYzWWRucUtwY0tuWWJJS25iMWhVQlBuUnhYT0sxV0xVenFlRTJ2TW9qdFVLcG5PZ3YxczktZ2Nra3dEakxPYUd1WVRXRHlLckJqcnJnZTBKdjduT0JPOUd3VnB6VFN3dktBeDRHNFJFSEhhVVJFbk9YY3lyaWRWM1hRSHJRT1ItMlJkZ0lmZWtRRVhQQQ?oc=5",
+          "pubDate": "2023-11-07T12:27:42.000Z",
           "snippet": null
         }
       ]
