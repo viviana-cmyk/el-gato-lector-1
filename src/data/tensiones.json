@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-08-18T10:34:29.562Z",
+  "generatedAt": "2026-08-19T10:29:53.112Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Escalada militar Rusia-Ucrania con implicaciones atlánticas",
-      "region": "Europa Oriental y Atlántico Norte",
+      "titulo": "Escalada Iran-EE.UU. y crisis de misiles en Oriente Medio",
+      "region": "Oriente Medio / Golfo Pérsico",
       "noticia": {
-        "titulo": "Al menos 10 muertos en un ataque ruso con misiles en la región ucrania de Járkov",
-        "link": "https://elpais.com/internacional/2026-08-18/varios-muertos-en-un-ataque-ruso-con-misiles-en-la-region-ucrania-de-jarkov.html",
-        "fuente": "El País"
+        "titulo": "La última advertencia de Irán a Estados Unidos evidencia la influencia creciente de los sectores más intransigentes",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX3g1T3ZFcUlHOXY1V3ozWXZueDZCY3p4X0VQaEo4VzZtSTJtTWhCc3dxYlBsQ0pOQzVkQ1RPZTc0UHZxUXRJS09CTFo3ZHcydzVMNTdrQUZoWmU0NldkTUxuVklkQkdHaHlvR0Z1V1dLbFVJU20wOVdUTUdwbXpLT3g2VmJONmlZWW1Mc1hQSEJydVkyVk5R?oc=5",
+        "fuente": "CNN en Español"
       },
-      "analisis": "Los ataques rusos continuos en Járkov coinciden con advertencias de Moscú a Reino Unido sobre el uso de drones británicos en territorio ruso, señalando una intensificación del conflicto y una estrategia de disuasión hacia Occidente. Esta escalada refuerza la fragmentación entre potencias nucleares y erosiona los mecanismos de contención que existían, mientras la OTAN potencia su presencia en el flanco este europeo."
+      "analisis": "Irán refuerza su postura confrontacional mientras sectores halcones ganan influencia en Teherán, coincidiendo con la estrategia de sanciones económicas de Trump hacia la república islámica. Esta dinámica augura un ciclo de escalada en el Golfo Pérsico que podría desestabilizar mercados energéticos globales y comprometer negociaciones multilaterales."
     },
     {
       "rank": 2,
-      "titulo": "Tensión crítica Irán-Estados Unidos con ramificaciones en Oriente Medio",
-      "region": "Oriente Medio y Golfo Pérsico",
+      "titulo": "Crisis política en Ucrania: colapso institucional mientras continúa la guerra",
+      "region": "Europa del Este / Ucrania",
       "noticia": {
-        "titulo": "Trump threatens to bomb Oman if it 'gets in the way'",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYkpvYWY4dExUNDRiaVd3RWNlOFRpd0loZDVTdm94SlpRWHJldnJTd1QtTlQ4Ukx5c3Q4X3NsaEgxci1LVmNVWC1KczFJcW55TTVZemd5M0xiTG1zU2Nyb3NHTVhtWENRVmk5dDl0N3BwNWhZR3lQWllGRDZSM0VZOUJNcDZ4WGtNQUNyUUEwRFhHaE0?oc=5",
-        "fuente": "The Washington Post"
+        "titulo": "El popular exministro de Defensa ucranio Mijailo Fedorov desafía a Zelenski y pide elecciones",
+        "link": "https://elpais.com/internacional/2026-08-19/el-popular-exministro-de-defensa-ucranio-mijailo-fedorov-desafia-a-zelenski-y-pide-elecciones.html",
+        "fuente": "El País"
       },
-      "analisis": "Las amenazas directas de Trump contra Omán revelan una estrategia de máxima presión contra Irán que ignora los canales diplomáticos tradicionales y desestabiliza a actores regionales clave como mediadores potenciales. El bloqueo financiero israelí a Palestina documentado por NYT amplifica esta volatilidad, creando un escenario donde múltiples conflictos de baja intensidad podrían converger en una crisis sistémica."
+      "analisis": "La fractura interna ucraniana se profundiza con figuras clave cuestionando la legitimidad de Zelenski en plena guerra contra Rusia, debilitando la cohesión política necesaria para resistencia y negociaciones futuras. Esta fragmentación llega mientras ataques rusos siguen deteriorando infraestructura económica crítica, creando un escenario donde colapso institucional y desgaste militar convergen."
     },
     {
       "rank": 3,
-      "titulo": "Crisis de confianza en alianzas americanas y competencia Corea-China",
-      "region": "Indopacífico y América del Norte",
+      "titulo": "Deterioro de la arquitectura internacional de justicia penal y expansión de conflictos Israel-Gaza-Siria",
+      "region": "Oriente Medio / Sistema internacional",
       "noticia": {
-        "titulo": "South Korea president calls for military independence in wake of Trump call to cut joint drills",
-        "link": "https://www.theguardian.com/world/2026/aug/18/south-korea-president-trump-military-drills-control-opcon-kim-jong-un",
-        "fuente": "The Guardian"
+        "titulo": "La campaña de Trump para desmantelar el Tribunal Penal Internacional consigue sus primeros aliados en África y América Latina",
+        "link": "https://elpais.com/internacional/2026-08-19/la-campana-de-trump-para-desmantelar-el-tribunal-penal-internacional-consigue-sus-primeros-aliados-en-africa-y-america-latina.html",
+        "fuente": "El País"
       },
-      "analisis": "El llamado de Trump a reducir maniobras conjuntas ha obligado a Corea del Sur a replantearse su estrategia de defensa, acelerador de una posible militarización independiente que erosiona el andamiaje de seguridad estadounidense en Asia-Pacífico. Simultáneamente, las negociaciones de aranceles con Canadá y el giro hacia gobiernos de oligarcas en Washington (57 multimillonarios) sugieren una reconfiguración del orden transatlántico que prioriza transacciones sobre compromisos institucionales."
+      "analisis": "La socavación del TPI por parte de Washington, con apoyo de países africanos y latinoamericanos, elimina mecanismos de rendición de cuentas justo cuando Israel intensifica operaciones en Gaza y Siria que generan dudas sobre cumplimiento con derecho internacional. Este vacío normativo facilita impunidad para potencias regionales y erosiona el marco multilateral de resolución de conflictos en un momento de máxima tensión."
     }
   ]
 }

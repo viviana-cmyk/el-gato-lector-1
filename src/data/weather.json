@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T10:29:39.180Z",
+  "generatedAt": "2026-08-19T10:29:49.556Z",
   "colombia": [
     {
       "city": "Bogotá",
@@ -9,39 +9,39 @@
     },
     {
       "city": "Medellín",
-      "temp": 17,
-      "description": "Llovizna ligera",
-      "icon": "🌦️"
+      "temp": 15,
+      "description": "Nublado",
+      "icon": "☁️"
     },
     {
       "city": "Cali",
-      "temp": 20,
-      "description": "Nublado",
-      "icon": "☁️"
-    },
-    {
-      "city": "Cartagena",
-      "temp": 26,
-      "description": "Nublado",
-      "icon": "☁️"
-    },
-    {
-      "city": "Barranquilla",
-      "temp": 25,
-      "description": "Nublado",
-      "icon": "☁️"
-    }
-  ],
-  "mundo": [
-    {
-      "city": "Nueva York",
       "temp": 22,
       "description": "Parcialmente nublado",
       "icon": "⛅"
     },
     {
+      "city": "Cartagena",
+      "temp": 26,
+      "description": "Despejado",
+      "icon": "☀️"
+    },
+    {
+      "city": "Barranquilla",
+      "temp": 27,
+      "description": "Despejado",
+      "icon": "☀️"
+    }
+  ],
+  "mundo": [
+    {
+      "city": "Nueva York",
+      "temp": 20,
+      "description": "Despejado",
+      "icon": "☀️"
+    },
+    {
       "city": "Londres",
-      "temp": 22,
+      "temp": 19,
       "description": "Nublado",
       "icon": "☁️"
     },
@@ -54,14 +54,14 @@
     {
       "city": "Tokio",
       "temp": 27,
-      "description": "Nublado",
-      "icon": "☁️"
+      "description": "Mayormente despejado",
+      "icon": "🌤️"
     },
     {
       "city": "Ciudad de México",
       "temp": 13,
-      "description": "Despejado",
-      "icon": "☀️"
+      "description": "Mayormente despejado",
+      "icon": "🌤️"
     }
   ]
 }

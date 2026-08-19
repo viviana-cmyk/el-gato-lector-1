@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-08-18T10:29:39.180Z",
+  "generatedAt": "2026-08-19T10:29:49.556Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "The InSight Take: El Escudo de las Américas crece, pero ¿tiene una estrategia?",
+          "link": "https://insightcrime.org/es/noticias/the-insight-take-escudo-de-americas-crece-pero-tiene-una-estrategia/",
+          "pubDate": "2026-08-18T22:26:41.000Z",
+          "snippet": "The InSight Take: El Escudo de las Américas crece, pero ¿tiene una estrategia? Colombia acaba de sumarse al Escudo de las Américas, pocos días después de que el secretario de Defensa de Estados Unidos, Pete Hegseth, viajara a Panamá para proclamar su nuevo lema: “Hacemos cosas ma…"
+        },
         {
           "title": "Familias desplazadas por Los Ardillos regresan a sus hogares en Guerrero, México",
           "link": "https://insightcrime.org/es/noticias/ardillos-grupo-criminal-provocado-desplazamientos-masivos-mexico/",
@@ -34,24 +40,61 @@
           "link": "https://insightcrime.org/es/noticias/podcast-gio-fito-cuando-rap-gangsta-se-vuelve-real/",
           "pubDate": "2026-08-13T17:36:08.000Z",
           "snippet": "Pódcast | Gio y Fito: Cuando el rap Gangsta se vuelve real Gio era un rapero gangsta. También era la mano derecha del criminal más conocido de Ecuador, el líder de Los Choneros, alias “Fito”. The post Pódcast | Gio y Fito: Cuando el rap Gangsta se vuelve real appeared first on In…"
-        },
-        {
-          "title": "Guerreros Unidos",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-mexico/guerreros-unidos/",
-          "pubDate": "2026-08-13T16:43:23.000Z",
-          "snippet": "Guerreros Unidos Guerreros Unidos es un grupo escindido de la OBL, que opera en la región central de México. El grupo se dedica principalmente a la extorsión y el secuestro, pero también trafica drogas a Estados Unidos. Los Guerreros Unidos se caracterizan por sus tácticas agresi…"
         }
       ]
     },
     {
       "name": "International Crisis Group",
       "color": "teal",
-      "items": []
+      "items": [
+        {
+          "title": "Bahrain 29 July 2026 #1",
+          "link": "https://www.crisisgroup.org/content/bahrain-29-july-2026-1",
+          "pubDate": "2026-07-30T21:36:21.000Z",
+          "snippet": "Bahrain 29 July 2026 #1 lalasor Thu, 07/30/2026 - 23:36 Bahrain Thu, 07/30/2026 - 12:00 29 July 2026 U.S. Central Command that it had conducted “a heavy wave of strikes against Iran”, targeting “military command centres, missile and drone facilities, coastal surveillance and defe…"
+        },
+        {
+          "title": "Washington 29 July 2026 #3",
+          "link": "https://www.crisisgroup.org/content/washington-29-july-2026-3",
+          "pubDate": "2026-07-30T21:35:21.000Z",
+          "snippet": "Washington 29 July 2026 #3 lalasor Thu, 07/30/2026 - 23:35 Washington Thu, 07/30/2026 - 12:00 29 July 2026 U.S. Central Command that it had conducted “a heavy wave of strikes against Iran”, targeting “military command centres, missile and drone facilities, coastal surveillance an…"
+        },
+        {
+          "title": "Tehran 29 July 2026 #3",
+          "link": "https://www.crisisgroup.org/content/tehran-29-july-2026-3",
+          "pubDate": "2026-07-30T21:34:42.000Z",
+          "snippet": "Tehran 29 July 2026 #3 lalasor Thu, 07/30/2026 - 23:34 Tehran Thu, 07/30/2026 - 12:00 29 July 2026 U.S. Central Command that it had conducted “a heavy wave of strikes against Iran”, targeting “military command centres, missile and drone facilities, coastal surveillance and defenc…"
+        },
+        {
+          "title": "Hormuz 30 July 2026 #1",
+          "link": "https://www.crisisgroup.org/content/hormuz-30-july-2026-1",
+          "pubDate": "2026-07-30T21:34:03.000Z",
+          "snippet": "Hormuz 30 July 2026 #1 lalasor Thu, 07/30/2026 - 23:34 Strait of Hormuz Thu, 07/30/2026 - 12:00 30 July 2026 The IRGC that “the Strait of Hormuz is not reopenable as long as the excessive rhetoric and threats by U.S. officials and their interference in maritime movements in the r…"
+        },
+        {
+          "title": "Tehran 30 July 2026 #1",
+          "link": "https://www.crisisgroup.org/content/tehran-30-july-2026-1",
+          "pubDate": "2026-07-30T21:33:29.000Z",
+          "snippet": "Tehran 30 July 2026 #1 lalasor Thu, 07/30/2026 - 23:33 Tehran Thu, 07/30/2026 - 12:00 30 July 2026 The IRGC that “the Strait of Hormuz is not reopenable as long as the excessive rhetoric and threats by U.S. officials and their interference in maritime movements in the region cont…"
+        },
+        {
+          "title": "Washington 30 July 2026 #2",
+          "link": "https://www.crisisgroup.org/content/washington-30-july-2026-2",
+          "pubDate": "2026-07-30T21:32:45.000Z",
+          "snippet": "Washington 30 July 2026 #2 lalasor Thu, 07/30/2026 - 23:32 Washington Thu, 07/30/2026 - 12:00 30 July 2026 The IRGC that “the Strait of Hormuz is not reopenable as long as the excessive rhetoric and threats by U.S. officials and their interference in maritime movements in the reg…"
+        }
+      ]
     },
     {
       "name": "World Economic Forum",
       "color": "yellow",
       "items": [
+        {
+          "title": "Replit, Inc.",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BTk1aNFozUG9JSENJUVE5WV9fRHNlT2ZfYlhGOEVBSjVoNGxxQ2NsVjZpSmpXczNJUW1lQ0Q5ZFpyUFVNand0REdlWk50VzNVWWc0Uk91b2hhSENV?oc=5",
+          "pubDate": "2026-08-19T04:16:55.000Z",
+          "snippet": null
+        },
         {
           "title": "Reading still matters. The books that shaped 5 tech founders",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNejZEQnRxUmJxdU1pOUJTTjZVRjRJdFpMeV9QVFAxYlpGMkIzN0RHMGp3Z3ZuXzhSM1BjZ3plOG5xeVhOVU9OMDV6VS1HQjJFa2ZuS1NPQWNIaTVxUHlEQnhoYTBYR3F6TnhYOEJmcEZUQXMtdzVsTGNEdEZFaGFyaGNyOXA0QnBYejQ0Zmxlejl2RUFKTF9XVk83Yw?oc=5",
@@ -77,15 +120,9 @@
           "snippet": null
         },
         {
-          "title": "Entrevistamos a 4600 jóvenes sobre la situación actual del mundo. Esto es lo que dijeron.",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb0FGN0phcXlOeWFOYWtxZGEwN2pUYkFKci01SHVoSE1rYVIyRU9QQ1piNzJGblpXWWJDN3dQamxCVlBTZGxFa19yUkxBRW53WVFISm5DbU9NMnVrLXRpV2pDbjRpVmZPMEJ5dDJsbGt1UFBEaUJfUDlHQlI0djZxUjV4QWFvWml2NVVNWnVWdk9zOE5jSkRwUHhCY1lGelhNMHVqdGN1TC1VNUYzNHl5REZDbDN4QlVULVA4?oc=5",
-          "pubDate": "2026-06-21T20:04:57.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Google Puede Predecir El Peligro De Inundaciones Cerca De Tu Casa",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMlZlSlNYX0xGVzYzWWRucUtwY0tuWWJJS25iMWhVQlBuUnhYT0sxV0xVenFlRTJ2TW9qdFVLcG5PZ3YxczktZ2Nra3dEakxPYUd1WVRXRHlLckJqcnJnZTBKdjduT0JPOUd3VnB6VFN3dktBeDRHNFJFSEhhVVJFbk9YY3lyaWRWM1hRSHJRT1ItMlJkZ0lmZWtRRVhQQQ?oc=5",
-          "pubDate": "2023-11-07T12:27:42.000Z",
+          "title": "Sustainable fashion is at a turning point - what's needed now",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbncxdFozdFl4Nk1lZjRyM0RwR1d5dlBEVzd6U2VRQ2dOWVFpVDFtSC1EN1cwMnIzTG5BMGJPZVh5T3VSUGlRcXh6Ym12SlFYRHBRZzU4UXJMVjRxa1FTejlwTnplRjRWMFJ0X2RSX0xMSGtGM05pUjZ6WExzeGFFblpOWlpfa0pJM0NzaXl0TklacW5DMUxTTjBzcEY1T0tDR0RfWg?oc=5",
+          "pubDate": "2026-08-04T07:00:00.000Z",
           "snippet": null
         }
       ]

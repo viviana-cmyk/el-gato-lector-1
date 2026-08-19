@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T10:29:39.180Z",
+  "generatedAt": "2026-08-19T10:29:49.556Z",
   "colombia": [
     {
       "title": "LA DOSIS DIARIA ROKA",
@@ -29,14 +29,14 @@
   ],
   "mundo": [
     {
-      "title": "Crime Junkie",
-      "host": "Audiochuck",
-      "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
-    },
-    {
       "title": "The Daily",
       "host": "The New York Times",
       "url": "https://podcasts.apple.com/us/podcast/the-daily/id1200361736"
+    },
+    {
+      "title": "Crime Junkie",
+      "host": "Audiochuck",
+      "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
     },
     {
       "title": "The Truth About Natalie",
@@ -44,14 +44,14 @@
       "url": "https://podcasts.apple.com/us/podcast/the-truth-about-natalie/id1750724132"
     },
     {
+      "title": "Dateline NBC",
+      "host": "NBC News",
+      "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
+    },
+    {
       "title": "The Joe Rogan Experience",
       "host": "Joe Rogan",
       "url": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272"
-    },
-    {
-      "title": "Pardon My Take",
-      "host": "Barstool Sports",
-      "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
     }
   ]
 }
