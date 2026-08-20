@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T10:29:49.556Z",
+  "generatedAt": "2026-08-20T10:32:01.509Z",
   "outlets": [
     {
       "name": "InSight Crime",
@@ -90,9 +90,21 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Replit, Inc.",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BTk1aNFozUG9JSENJUVE5WV9fRHNlT2ZfYlhGOEVBSjVoNGxxQ2NsVjZpSmpXczNJUW1lQ0Q5ZFpyUFVNand0REdlWk50VzNVWWc0Uk91b2hhSENV?oc=5",
-          "pubDate": "2026-08-19T04:16:55.000Z",
+          "title": "Colaboradores de la Agenda",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLYko2bkxQMmx3LWZyUG5xdjJwd0hDNU4wbFNkMi1CM1BjdTdzYUROS1BHT0tvRkc1WEtLaVhaN1Z5Xy0zVDU0ME5UTW1ZQlFpZ2FBRV9YNXZqZkhX?oc=5",
+          "pubDate": "2026-08-18T15:21:03.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Colaboradores de la Agenda",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10dTNDUzZoQWpWM2p1dTZLakxZb1pQWC1Hd29VNDhUczhhRVRnbjg1RnR1eFdYbzRHdVFialhyN3FQMEpnOTVVcXIzNEFNZ3U3ZUM0SHdQYlp0S1Bs?oc=5",
+          "pubDate": "2026-08-18T07:04:23.000Z",
+          "snippet": null
+        },
+        {
+          "title": "Colaboradores de la Agenda",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WWlZ5Z0RTa2JhTWFFZjdWdFdRdVQwOGNoWWw1UDFUeTV3cHJwdnBCUndmWkdSVkh2MEp5NDVUSFB0TVRDMEJmTmhXazJjSnBfRThxVlZ6QlVmejEx?oc=5",
+          "pubDate": "2026-08-18T05:49:23.000Z",
           "snippet": null
         },
         {
@@ -111,18 +123,6 @@
           "title": "Intelligent Industrial Ecosystems: Turning Proximity into Intelligence",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVUppNE9xM0x4RW9FTnBBd0d4Qjl6LS1lVF8tdTk4eDJiVkxqYi13SGhqbXMwWDNzWExsMk41OENmbHVQSXQ5RVF2cEx3TmVXNE1sQi1oQkhGR0Y1bnVRVEVLNXptZXZHYVV5Q3J4VWRVZHhpTUhTdk5qNXpzVGhXTVpDTVlxNW81aUp2UTZQYW9VRlROYTE0eUU1bmxrTXNwbnhwVi1oRUVqUQ?oc=5",
           "pubDate": "2026-08-17T10:20:20.000Z",
-          "snippet": null
-        },
-        {
-          "title": "From Evidence to Enterprise: Unlocking the Innovation Economy for Women‘s Health",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZmVwT1p2VVRzTGs3WFJYTXpxc3V2eFVCdzlJcDNjMlo1bGhKQjkwUGItcll0dDlpSzZhQmdPaUpGUEpEdDA4aDNvSUtPVjRmeS1vVTFVdG51OVloQk9IbkN0RlFKa3dhR281LUxXdEU2c1pPSENvYVhHRkU5dEhvVEJqbnprc0JhMkZWdmRteW5FTUdGRjR2eXNNSmlESWhRQ3kwM0JJcUxNblFTNHJsOTZBUHJuNm5ncnZpTzk2dnNzZkFPaERHQ1ktQzZDX0dFRGtZcg?oc=5",
-          "pubDate": "2026-08-09T07:00:00.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Sustainable fashion is at a turning point - what's needed now",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbncxdFozdFl4Nk1lZjRyM0RwR1d5dlBEVzd6U2VRQ2dOWVFpVDFtSC1EN1cwMnIzTG5BMGJPZVh5T3VSUGlRcXh6Ym12SlFYRHBRZzU4UXJMVjRxa1FTejlwTnplRjRWMFJ0X2RSX0xMSGtGM05pUjZ6WExzeGFFblpOWlpfa0pJM0NzaXl0TklacW5DMUxTTjBzcEY1T0tDR0RfWg?oc=5",
-          "pubDate": "2026-08-04T07:00:00.000Z",
           "snippet": null
         }
       ]
