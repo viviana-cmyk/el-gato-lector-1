@@ -1,10 +1,28 @@
 {
-  "generatedAt": "2026-08-20T10:32:01.509Z",
+  "generatedAt": "2026-08-21T10:31:31.746Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Tío Lako, jefe regional del CJNG, vuelve a evadir su captura",
+          "link": "https://insightcrime.org/es/noticias/jefe-regional-del-cjng-tio-lako-vuelve-a-evadir-captura/",
+          "pubDate": "2026-08-20T20:13:50.000Z",
+          "snippet": "Tío Lako, jefe regional del CJNG, vuelve a evadir su captura Heraclio Guerrero Martínez, alias “Tío Lako”, continúa siendo una figura clave del CJNG tras escapar esta semana de un operativo militar en Michoacán, México. The post Tío Lako, jefe regional del CJNG, vuelve a evadir s…"
+        },
+        {
+          "title": "Podcast | El Monstruo: Desapariciones forzadas en México",
+          "link": "https://insightcrime.org/es/audio-es/insight-crime-espanol/podcast-monstruo-desapariciones-forzadas-mexico/",
+          "pubDate": "2026-08-20T18:48:04.000Z",
+          "snippet": "Podcast | El Monstruo: Desapariciones forzadas en México El hijo de Héctor desapareció en Guadalajara, México. Él sospecha que quienes deberían estar buscándolo podrían estar involucrados en su desaparición. The post Podcast | El Monstruo: Desapariciones forzadas en México appear…"
+        },
+        {
+          "title": "On the Radar: EE. UU. evalúa ampliar su ofensiva antidrogas con operaciones terrestres en la región",
+          "link": "https://insightcrime.org/es/noticias/on-the-radar-ee-uu-evalua-ampliar-su-ofensiva-antidrogas-con-operaciones-terrestres-en-region/",
+          "pubDate": "2026-08-20T15:57:28.000Z",
+          "snippet": "On the Radar: EE. UU. evalúa ampliar su ofensiva antidrogas con operaciones terrestres en la región Esta semana, en On the Radar: Estados Unidos evalúa realizar operaciones terrestres en América Latina como parte de su guerra contra las drogas, nuevas medidas de mano dura en Chil…"
+        },
         {
           "title": "The InSight Take: El Escudo de las Américas crece, pero ¿tiene una estrategia?",
           "link": "https://insightcrime.org/es/noticias/the-insight-take-escudo-de-americas-crece-pero-tiene-una-estrategia/",
@@ -22,24 +40,6 @@
           "link": "https://insightcrime.org/es/noticias/por-que-crimen-organizado-venezuela-no-desaparece-tras-captura-maduro/",
           "pubDate": "2026-08-14T15:49:15.000Z",
           "snippet": "Por qué el crimen organizado en Venezuela no desaparece tras la captura de Maduro Nuestro más reciente video explica cómo evolucionó el crimen organizado en Venezuela y qué tendría que ocurrir para realmente debilitar las redes y economías criminales del país. The post Por qué el…"
-        },
-        {
-          "title": "On The Radar: Dudas sobre coalición anticarteles y golpe a red del CJNG en Chequia",
-          "link": "https://insightcrime.org/es/noticias/on-the-radar-dudas-coalicion-anticarteles-golpe-red-cjng-chequia/",
-          "pubDate": "2026-08-13T18:12:11.000Z",
-          "snippet": "On The Radar: Dudas sobre coalición anticarteles y golpe a red del CJNG en Chequia Esta semana analizamos la nueva coalición anticarteles, el golpe a la red de tráfico de armas del CJNG en Chequia y más. The post On The Radar: Dudas sobre coalición anticarteles y golpe a red del…"
-        },
-        {
-          "title": "Comando Vermelho",
-          "link": "https://insightcrime.org/es/noticias-crimen-organizado-brasil/comando-rojo/",
-          "pubDate": "2026-08-13T17:48:41.000Z",
-          "snippet": "Comando Vermelho El Comando Rojo (Comando Vermelho, CV) es el grupo criminal más antiguo de Brasil, conformado en una prisión de Río de Janeiro en los años setenta como un grupo de autoprotección de los prisioneros. Comenzó con delitos menores, como asaltos y robos a bancos, pero…"
-        },
-        {
-          "title": "Pódcast | Gio y Fito: Cuando el rap Gangsta se vuelve real",
-          "link": "https://insightcrime.org/es/noticias/podcast-gio-fito-cuando-rap-gangsta-se-vuelve-real/",
-          "pubDate": "2026-08-13T17:36:08.000Z",
-          "snippet": "Pódcast | Gio y Fito: Cuando el rap Gangsta se vuelve real Gio era un rapero gangsta. También era la mano derecha del criminal más conocido de Ecuador, el líder de Los Choneros, alias “Fito”. The post Pódcast | Gio y Fito: Cuando el rap Gangsta se vuelve real appeared first on In…"
         }
       ]
     },
@@ -90,6 +90,12 @@
       "color": "yellow",
       "items": [
         {
+          "title": "Meet the Leader: Why AI 'workslop' is a leadership problem",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd3N5WVBvMlJZWWE4Sm1pdy1IbzFNUVJPSzFfTHJBWEZJdjFBc0lmcklHaXBNVVoydVRIdmRzZ014QzR1NEpYbVJLU1REcmM1NjYtZkpLVVZDcERkWUZNY0Jld29mZkJTUktDWkJESlRDLTNjUnd5WkszcmhPd1lrX2FDWkJmVXY4azhYVUh0QTVGZl9TNUpvUFQtczE4YzA?oc=5",
+          "pubDate": "2026-08-19T07:00:00.000Z",
+          "snippet": null
+        },
+        {
           "title": "Colaboradores de la Agenda",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLYko2bkxQMmx3LWZyUG5xdjJwd0hDNU4wbFNkMi1CM1BjdTdzYUROS1BHT0tvRkc1WEtLaVhaN1Z5Xy0zVDU0ME5UTW1ZQlFpZ2FBRV9YNXZqZkhX?oc=5",
           "pubDate": "2026-08-18T15:21:03.000Z",
@@ -114,15 +120,9 @@
           "snippet": null
         },
         {
-          "title": "Michael B. Horn",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oY0lHa05NRXdzd3hzMTFMR2dhaVRJZTBwbkozQ3cwOUZSd25uRWVINzJnU3JubzVZRXh1UVptSXU4enktNnllNEIzTG9oM3U2R3d3c19YaHBFSjhNR3RiN25kTzI?oc=5",
-          "pubDate": "2026-08-17T12:19:27.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Intelligent Industrial Ecosystems: Turning Proximity into Intelligence",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVUppNE9xM0x4RW9FTnBBd0d4Qjl6LS1lVF8tdTk4eDJiVkxqYi13SGhqbXMwWDNzWExsMk41OENmbHVQSXQ5RVF2cEx3TmVXNE1sQi1oQkhGR0Y1bnVRVEVLNXptZXZHYVV5Q3J4VWRVZHhpTUhTdk5qNXpzVGhXTVpDTVlxNW81aUp2UTZQYW9VRlROYTE0eUU1bmxrTXNwbnhwVi1oRUVqUQ?oc=5",
-          "pubDate": "2026-08-17T10:20:20.000Z",
+          "title": "From Evidence to Enterprise: Unlocking the Innovation Economy for Women‘s Health",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZmVwT1p2VVRzTGs3WFJYTXpxc3V2eFVCdzlJcDNjMlo1bGhKQjkwUGItcll0dDlpSzZhQmdPaUpGUEpEdDA4aDNvSUtPVjRmeS1vVTFVdG51OVloQk9IbkN0RlFKa3dhR281LUxXdEU2c1pPSENvYVhHRkU5dEhvVEJqbnprc0JhMkZWdmRteW5FTUdGRjR2eXNNSmlESWhRQ3kwM0JJcUxNblFTNHJsOTZBUHJuNm5ncnZpTzk2dnNzZkFPaERHQ1ktQzZDX0dFRGtZcg?oc=5",
+          "pubDate": "2026-08-09T07:00:00.000Z",
           "snippet": null
         }
       ]

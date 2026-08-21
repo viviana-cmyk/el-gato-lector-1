@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-08-19T10:29:53.112Z",
+  "generatedAt": "2026-08-21T10:31:36.378Z",
   "tensiones": [
     {
       "rank": 1,
-      "titulo": "Escalada Iran-EE.UU. y crisis de misiles en Oriente Medio",
-      "region": "Oriente Medio / Golfo Pérsico",
+      "titulo": "Escalada Rusia-Japón en las Islas Kuriles",
+      "region": "Asia-Pacífico",
       "noticia": {
-        "titulo": "La última advertencia de Irán a Estados Unidos evidencia la influencia creciente de los sectores más intransigentes",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX3g1T3ZFcUlHOXY1V3ozWXZueDZCY3p4X0VQaEo4VzZtSTJtTWhCc3dxYlBsQ0pOQzVkQ1RPZTc0UHZxUXRJS09CTFo3ZHcydzVMNTdrQUZoWmU0NldkTUxuVklkQkdHaHlvR0Z1V1dLbFVJU20wOVdUTUdwbXpLT3g2VmJONmlZWW1Mc1hQSEJydVkyVk5R?oc=5",
-        "fuente": "CNN en Español"
+        "titulo": "Rusia eleva la tensión con Japón al confirmar pruebas con misiles en las islas Kuriles",
+        "link": "https://elpais.com/internacional/2026-08-21/rusia-eleva-la-tension-con-japon-al-confirmar-pruebas-con-misiles-en-las-islas-kuriles.html",
+        "fuente": "El País"
       },
-      "analisis": "Irán refuerza su postura confrontacional mientras sectores halcones ganan influencia en Teherán, coincidiendo con la estrategia de sanciones económicas de Trump hacia la república islámica. Esta dinámica augura un ciclo de escalada en el Golfo Pérsico que podría desestabilizar mercados energéticos globales y comprometer negociaciones multilaterales."
+      "analisis": "Las pruebas de misiles rusos en territorio disputado refuerzan la militarización del Pacífico occidental en un contexto de alianzas cambiantes post-Ucrania, señalando la intención de Moscú de consolidar control sobre posiciones estratégicas. Esta demostración de fuerza presiona directamente sobre Japón, que lidia simultáneamente con la incertidumbre sobre compromisos de seguridad estadounidenses bajo la administración Trump."
     },
     {
       "rank": 2,
-      "titulo": "Crisis política en Ucrania: colapso institucional mientras continúa la guerra",
-      "region": "Europa del Este / Ucrania",
+      "titulo": "Colapso del sistema hospitalario palestino bajo bloqueo israelí en Gaza",
+      "region": "Medio Oriente",
       "noticia": {
-        "titulo": "El popular exministro de Defensa ucranio Mijailo Fedorov desafía a Zelenski y pide elecciones",
-        "link": "https://elpais.com/internacional/2026-08-19/el-popular-exministro-de-defensa-ucranio-mijailo-fedorov-desafia-a-zelenski-y-pide-elecciones.html",
+        "titulo": "La falta de aceite y de recambios para los generadores de los hospitales de Gaza, por el bloqueo israelí, amenaza la vida de los pacientes",
+        "link": "https://elpais.com/planeta-futuro/2026-08-21/la-falta-de-aceite-y-de-recambios-para-los-generadores-de-los-hospitales-de-gaza-por-el-bloqueo-israeli-amenaza-la-vida-de-los-pacientes.html",
         "fuente": "El País"
       },
-      "analisis": "La fractura interna ucraniana se profundiza con figuras clave cuestionando la legitimidad de Zelenski en plena guerra contra Rusia, debilitando la cohesión política necesaria para resistencia y negociaciones futuras. Esta fragmentación llega mientras ataques rusos siguen deteriorando infraestructura económica crítica, creando un escenario donde colapso institucional y desgaste militar convergen."
+      "analisis": "El deterioro crítico de la infraestructura médica palestina representa una crisis humanitaria con potencial de generar nuevas olas de violencia y radicalización en la región. La escasez sistémica de recursos vitales alimenta narrativas de castigo colectivo que podrían precipitar un nuevo ciclo de intifada, especialmente dado el aumento documentado de ataques de colonos en áreas palestinas bajo control directo."
     },
     {
       "rank": 3,
-      "titulo": "Deterioro de la arquitectura internacional de justicia penal y expansión de conflictos Israel-Gaza-Siria",
-      "region": "Oriente Medio / Sistema internacional",
+      "titulo": "Ofensiva diplomática y amenazas económicas de Trump contra Irán y sus socios comerciales",
+      "region": "Medio Oriente y Asia",
       "noticia": {
-        "titulo": "La campaña de Trump para desmantelar el Tribunal Penal Internacional consigue sus primeros aliados en África y América Latina",
-        "link": "https://elpais.com/internacional/2026-08-19/la-campana-de-trump-para-desmantelar-el-tribunal-penal-internacional-consigue-sus-primeros-aliados-en-africa-y-america-latina.html",
-        "fuente": "El País"
+        "titulo": "Trump's Economic Threat Puts Focus on Iran's Trading Partners",
+        "link": "https://www.nytimes.com/2026/08/20/world/middleeast/iran-trade-trump-threat-china.html",
+        "fuente": "The New York Times"
       },
-      "analisis": "La socavación del TPI por parte de Washington, con apoyo de países africanos y latinoamericanos, elimina mecanismos de rendición de cuentas justo cuando Israel intensifica operaciones en Gaza y Siria que generan dudas sobre cumplimiento con derecho internacional. Este vacío normativo facilita impunidad para potencias regionales y erosiona el marco multilateral de resolución de conflictos en un momento de máxima tensión."
+      "analisis": "La amenaza explícita de Trump de castigar económicamente a los socios comerciales de Irán (particularmente China) busca aislar Teherán antes de potenciales negociaciones, reposicionando la presión sobre actores clave como Pekín que podrían abandonar compromisos con Irán bajo presión. Esta estrategia de coerción económica global incrementa la volatilidad en los mercados energéticos y obliga a realineamientos geopolíticos en Asia Central y el Golfo Pérsico."
     }
   ]
 }
