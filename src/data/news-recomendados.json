@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-08-21T10:31:31.746Z",
+  "generatedAt": "2026-08-22T10:24:37.926Z",
   "outlets": [
     {
       "name": "InSight Crime",
       "color": "grey",
       "items": [
+        {
+          "title": "Los Choneros",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-ecuador/los-choneros/",
+          "pubDate": "2026-08-21T16:40:10.000Z",
+          "snippet": "Los Choneros Los Choneros son uno de los grupos criminales más prominentes de Ecuador y un actor principal en la violencia que ha desestabilizado al país en los últimos años. Los Choneros surgieron por primera vez en la década de 1990 como una banda local en la provincia occident…"
+        },
+        {
+          "title": "Los Lobos",
+          "link": "https://insightcrime.org/es/noticias-crimen-organizado-ecuador/lobos/",
+          "pubDate": "2026-08-21T16:38:22.000Z",
+          "snippet": "Los Lobos Los Lobos han pasado de ser un grupo disidente de Los Choneros a una de las organizaciones criminales más poderosas e innovadoras de Ecuador. The post Los Lobos appeared first on InSight Crime."
+        },
         {
           "title": "Tío Lako, jefe regional del CJNG, vuelve a evadir su captura",
           "link": "https://insightcrime.org/es/noticias/jefe-regional-del-cjng-tio-lako-vuelve-a-evadir-captura/",
@@ -28,18 +40,6 @@
           "link": "https://insightcrime.org/es/noticias/the-insight-take-escudo-de-americas-crece-pero-tiene-una-estrategia/",
           "pubDate": "2026-08-18T22:26:41.000Z",
           "snippet": "The InSight Take: El Escudo de las Américas crece, pero ¿tiene una estrategia? Colombia acaba de sumarse al Escudo de las Américas, pocos días después de que el secretario de Defensa de Estados Unidos, Pete Hegseth, viajara a Panamá para proclamar su nuevo lema: “Hacemos cosas ma…"
-        },
-        {
-          "title": "Familias desplazadas por Los Ardillos regresan a sus hogares en Guerrero, México",
-          "link": "https://insightcrime.org/es/noticias/ardillos-grupo-criminal-provocado-desplazamientos-masivos-mexico/",
-          "pubDate": "2026-08-17T19:01:55.000Z",
-          "snippet": "Familias desplazadas por Los Ardillos regresan a sus hogares en Guerrero, México Los Ardillos provocaron el desplazamiento de más de 1.000 personas en Guerrero y ahora algunas familias comienzan a regresar. ¿Quiénes son, cómo operan y cómo ganó poder este grupo criminal? The post…"
-        },
-        {
-          "title": "Por qué el crimen organizado en Venezuela no desaparece tras la captura de Maduro",
-          "link": "https://insightcrime.org/es/noticias/por-que-crimen-organizado-venezuela-no-desaparece-tras-captura-maduro/",
-          "pubDate": "2026-08-14T15:49:15.000Z",
-          "snippet": "Por qué el crimen organizado en Venezuela no desaparece tras la captura de Maduro Nuestro más reciente video explica cómo evolucionó el crimen organizado en Venezuela y qué tendría que ocurrir para realmente debilitar las redes y economías criminales del país. The post Por qué el…"
         }
       ]
     },
@@ -120,9 +120,9 @@
           "snippet": null
         },
         {
-          "title": "From Evidence to Enterprise: Unlocking the Innovation Economy for Women‘s Health",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZmVwT1p2VVRzTGs3WFJYTXpxc3V2eFVCdzlJcDNjMlo1bGhKQjkwUGItcll0dDlpSzZhQmdPaUpGUEpEdDA4aDNvSUtPVjRmeS1vVTFVdG51OVloQk9IbkN0RlFKa3dhR281LUxXdEU2c1pPSENvYVhHRkU5dEhvVEJqbnprc0JhMkZWdmRteW5FTUdGRjR2eXNNSmlESWhRQ3kwM0JJcUxNblFTNHJsOTZBUHJuNm5ncnZpTzk2dnNzZkFPaERHQ1ktQzZDX0dFRGtZcg?oc=5",
-          "pubDate": "2026-08-09T07:00:00.000Z",
+          "title": "Los combustibles suministran la mayor parte de la energía mundial",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMktvRWFadWdwdXFhMXFEYjVpOVF0S2RRRnNoVkdxZXN3a3hRa2NIaE1VX003bzFsV044T0FnYV9GX2c1MndCWnp4UTZOb21jQ2trUDNMWmZ0bEdPcVhZU2hBZUJjbmxNMEx5N043M2FtQ0xHLXZVd0ZoclZHam84dDRiYmVjV0RCZ002STVlTkhua2MyWVJIZU5Xd05tQQ?oc=5",
+          "pubDate": "2026-08-17T10:00:00.000Z",
           "snippet": null
         }
       ]

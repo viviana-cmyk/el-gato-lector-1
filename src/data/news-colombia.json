@@ -1,49 +1,49 @@
 {
-  "generatedAt": "2026-08-21T10:31:31.746Z",
+  "generatedAt": "2026-08-22T10:24:37.926Z",
   "outlets": [
     {
       "name": "Semana",
       "color": "blue",
       "items": [
         {
-          "title": "Polémica resolución de la Fiscalía eliminaría despachos que investigan al Clan del Golfo y la Oficina de Envigado",
-          "link": "https://www.semana.com/nacion/articulo/polemica-resolucion-de-la-fiscalia-eliminaria-despachos-que-investigan-al-clan-del-golfo-y-la-oficina-de-envigado/202651/",
-          "pubDate": "2026-08-21T09:59:51.000Z",
+          "title": "Hablan los grandes empresarios de Colombia que se unieron con el presidente Abelardo De La Espriella para ayudar a los damnificados del terremoto",
+          "link": "https://www.semana.com/nacion/articulo/hablan-los-grandes-empresarios-de-colombia-que-se-unieron-con-el-presidente-abelardo-de-la-espriella-para-ayudar-a-los-damnificados-del-terremoto/202629/",
+          "pubDate": "2026-08-22T09:01:29.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Trump en el estrecho de Ormuz y China en América Latina",
-          "link": "https://www.semana.com/opinion/articulo/trump-en-el-estrecho-de-ormuz-y-china-en-america-latina/202600/",
-          "pubDate": "2026-08-21T10:00:00.000Z",
+          "title": "Esta es la nueva estrategia militar del nuevo Gobierno para enfrentar la escalada terrorista del ELN en el Catatumbo",
+          "link": "https://www.semana.com/politica/articulo/esta-es-la-nueva-estrategia-militar-del-nuevo-gobierno-para-enfrentar-la-escalada-terrorista-del-eln-en-el-catatumbo/202651/",
+          "pubDate": "2026-08-22T08:36:51.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Cayó alias Carlos, señalado como el dolor de cabeza de los comerciantes de Tuluá",
-          "link": "https://www.semana.com/nacion/cali/articulo/cayo-alias-carlos-senalado-como-el-dolor-de-cabeza-de-los-comerciantes-de-tulua/202637/",
-          "pubDate": "2026-08-21T10:05:37.000Z",
+          "title": "Exclusivo: el drástico cambio de la paz total y el trato que tendrán los grupos criminales",
+          "link": "https://www.semana.com/nacion/articulo/exclusivo-el-drastico-cambio-de-la-paz-total-y-el-trato-que-tendran-los-grupos-criminales/202604/",
+          "pubDate": "2026-08-22T08:34:04.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Los retos del contralor",
-          "link": "https://www.semana.com/opinion/articulo/los-retos-del-contralor/202600/",
-          "pubDate": "2026-08-21T10:00:00.000Z",
+          "title": "Tras la tragedia del terremoto, así avanzará el Gobierno de Abelardo De La Espriella en la reconstrucción de las viviendas",
+          "link": "https://www.semana.com/politica/articulo/tras-la-tragedia-del-terremoto-asi-avanzara-el-gobierno-de-abelardo-de-la-espriella-en-la-reconstruccion-de-las-viviendas/202629/",
+          "pubDate": "2026-08-22T08:28:29.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "El escudo antidrones",
-          "link": "https://www.semana.com/opinion/articulo/el-escudo-antidrones/202600/",
-          "pubDate": "2026-08-21T10:00:00.000Z",
+          "title": "“Ricardo Roa sería investigado por lavado de activos. SEMANA revela el documento con el que la Fiscalía argumenta los motivos \"",
+          "link": "https://www.semana.com/nacion/articulo/ricardo-roa-seria-investigado-por-lavado-de-activos-semana-revela-el-documento-con-el-que-la-fiscalia-argumenta-los-motivos/202617/",
+          "pubDate": "2026-08-22T08:46:17.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Piden reforzar la protección de la familia de Miguel Uribe Turbay tras condenas por su asesinato",
-          "link": "https://www.semana.com/nacion/articulo/piden-reforzar-la-proteccion-de-la-familia-de-miguel-uribe-turbay-tras-condenas-por-su-asesinato/202623/",
-          "pubDate": "2026-08-21T03:34:53.000Z",
+          "title": "Millonaria contrarreloj del Gobierno Petro: exvice de Transporte está en la mira por presuntas irregularidades en una operación que movería 20 billones de pesos",
+          "link": "https://www.semana.com/nacion/articulo/millonaria-contrarreloj-del-gobierno-petro-exvice-de-transporte-esta-en-la-mira-por-presuntas-irregularidades-en-una-operacion-que-moveria-20-billones-de-pesos/202629/",
+          "pubDate": "2026-08-22T08:21:29.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -54,44 +54,44 @@
       "color": "peach",
       "items": [
         {
-          "title": "Emergencia económica: ¿se puede financiar la reconstrucción sin nuevos impuestos?",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMmlpcGswWEEyQ0xJMkQ0VFFnekpreVNIak1WdEE2S3NPbzlZaXk5UDJ0NTRCaWpMZXlhRzRUYkZwN1JNRFAtWU5pemwtNnc5M1JpT2lQaEx2Y3NwNHlIVTZ1TkcySUZEQmhiZGo1ZjJnLVgxVjNOODEtVzNLUnZzREctYjFSRUh3bUpSdTg0bzZwVzNhTVhwdldpQTI0WldOa2NDd1RFd0JuMUtrMjdTMHRyejZHQndQ?oc=5",
-          "pubDate": "2026-08-21T09:28:32.000Z",
+          "title": "Canciller Bula recibe a nuevos embajadores de Israel, El Salvador, India y Kosovo",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaVUyUUFNRDRYRWlPMGRkVElWTHdQWDNJMnhMekozRlB6Q0Q0YlJLazlGcndzOHljbmxXUC1OZG1kMU1Jc2JDXzZPTmxKU3I5dUxJNU5WbV9wNU4xd29vSWlsYXg2YTVBSjR3ZDBqUHBGTkxFWlJWLWl0LVh4YWgtT1M4YUhQbWRDd2xKN3lOdTBCRmduaFAwZEJjQ0RYTjRIS09WUE9yNDdyRUIxYVJNRlJvTjNMUkZQb1gwcTVjQ3Y0eUdhWGc3TFJFS0JPdnNxZ0lvVUYwQ0tHWGNHcWlLbNIB4AFBVV95cUxNaVUyUUFNRDRYRWlPMGRkVElWTHdQWDNJMnhMekozRlB6Q0Q0YlJLazlGcndzOHljbmxXUC1OZG1kMU1Jc2JDXzZPTmxKU3I5dUxJNU5WbV9wNU4xd29vSWlsYXg2YTVBSjR3ZDBqUHBGTkxFWlJWLWl0LVh4YWgtT1M4YUhQbWRDd2xKN3lOdTBCRmduaFAwZEJjQ0RYTjRIS09WUE9yNDdyRUIxYVJNRlJvTjNMUkZQb1gwcTVjQ3Y0eUdhWGc3TFJFS0JPdnNxZ0lvVUYwQ0tHWGNHcWlLbA?oc=5",
+          "pubDate": "2026-08-22T01:20:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "“El control fiscal se ejercerá sin sesgos y ni distinción del color político”: Jorge Laverde",
-          "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNYTFXSzZnN25raDE0QXJWSE5wcmtseWdDSGVGSUFIaEt5MWtxa0xvMUZFcWJMdlVuaTdRdUs3dUpYQ1VPRTFVUHAyQkR6ZTJVTV9sR2FKM0NMLXdVUXVKUUEzdWliNDhYd01hcU93M1pzUUgyUjc4NUZYNml6NXBmR2w5RHB4dWdBcFE2OWVTNGl5d0tzWTN5bXFKSW1pREFuNDVQX1N4MG9VbnFfZ0VwNUx3a0VEaTdjNjJCZDNoejhnRG9CMGJIbkVmYXc0VUFVdGhfTGtPaUVaTG83NHRwRkI3RWd0U2xnS1VIUlVOajZtZS11Vm82Nm8xN1VvbXFnMG1UY0lVOXBWZXU1R3dsTlFmUk94bE1Z0gGYAkFVX3lxTE1hMVdLNmc3bmtoMTRBclZITnBya2x5Z0NIZUZJQUhoS3kxa3FrTG8xRkVxYkx2VW5pN1F1Szd1SlhDVU9FMVVQcDJCRHplMlVNX2xHYUozQ0wtd1VRdUpRQTN1aWI0OFh3TWFxT3czWnNRSDJSNzg1Rlg2aXo1cGZHbDlEcHh1Z0FwUTY5ZVM0aXl3S3NZM3ltcUpJbWlEQW40NVBfU3gwb1VucV9nRXA1THdrRURpN2M2MkJkM2h6OGdEb0IwYkhuRWZhdzRVQVV0aF9Ma09pRVpMbzc0dHBGQjdFZ3RTbGdLVUhSVU5qNm1lLXVWbzY2bzE3VW9tcWcwbVRjSVU5cFZldTVHd2xOUWZST3hsTVk?oc=5",
-          "pubDate": "2026-08-21T02:14:00.000Z",
+          "title": "Gustavo Petro informó al Senado que saldrá del país entre agosto y septiembre: ¿a dónde irá?",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPMU9LSHJNMFhWMkNESGNNUmVrLTRJOUR3cDBPUWF3Q3FCTzJycTVrYmR3YkJLR0Fmbm02YXZpTUp1ZlVwWTJ2cmdmQ1Y2NnN0QkM3cmJvdHZfMlhNcWtlRzVfM3VuTDRQaDA1azRLdVZCU0dGdkhZSHpNSlZGVzFPaHpYVXRhOVZUQ01pZ0NUZkx6X3BzZWtjQzhCWnFEQUxTcENGOHhhc3VIemhHcUNuclhkNjhEZ1NUZ2hBeDVpQ3kxZEJCUS1aOURVbjNsYXRYZ1Q5eHJ4b2ZHcV93Wmp4OTRjUWd5bWV5eUNhYk5NTUtNMmhrOWxPUHBYdkdaZzVN0gGAAkFVX3lxTE8xT0tIck0wWFYyQ0RIY01SZWstNEk5RHdwME9RYXdDcUJPMnJxNWtiZHdiQktHQWZubTZhdmlNSnVmVXBZMnZyZ2ZDVjY2c3RCQzdyYm90dl8yWE1xa2VHNV8zdW5MNFBoMDVrNEt1VkJTR0Z2SFlIek1KVkZXMU9oelhVdGE5VlRDTWlnQ1RmTHpfcHNla2NDOEJacURBTFNwQ0Y4eGFzdUh6aEdxQ25yWGQ2OERnU1RnaEF4NWlDeTFkQkJRLVo5RFVuM2xhdFhnVDl4cnhvZkdxX3daang5NGNRZ3ltZXl5Q2FiTk1NS00yaGs5bE9QcFh2R1pnNU0?oc=5",
+          "pubDate": "2026-08-21T23:48:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Presidente De la Espriella firmó 11 decretos claves para la conformación de su gobierno",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOem5XMXNIVkN2NTh6UFk4YmVMblV3VDR5MG02VnpXSGdlSVpqVkMzdG83dTRjZXJmR0t1QjI5bkF2S2NHVkk1SlcyemJoYUdpcGhPcW9lVXZsOW15UXVLTUpRR2Z2U2k0VEVwdjRRVmd5aVdPX1hhcDFVRjRsT1FKRWJER0FsZVZzWi03QU5LendNTzZJb3ljdThyc0tSanloejI0OFM0YWNuanlqdzg4UmZmb1dNZ3dHWm5tNG5yTW5HamQzUkx1LWxPZWZTdC1wTmFXdmpIM3Y3YUFhWlQyLVk4QlNjSVNWMEHSAeoBQVVfeXFMTnpuVzFzSFZDdjU4elBZOGJlTG5Vd1Q0eTBtNlZ6V0hnZUlaalZDM3RvN3U0Y2VyZkdLdUIyOW5BdktjR1ZJNUpXMnpiaGFHaXBoT3FvZVV2bDlteVF1S01KUUdmdlNpNFRFcHY0UVZneWlXT19YYXAxVUY0bE9RSkViREdBbGVWc1otN0FOS3p3TU82SW95Y3U4cnNLUmp5aHoyNDhTNGFjbmp5anc4OFJmZm9XTWd3R1pubTRuck1uR2pkM1JMdS1sT2VmU3QtcE5hV3ZqSDN2N2FBYVpUMi1ZOEJTY0lTVjBB?oc=5",
-          "pubDate": "2026-08-21T01:26:00.000Z",
+          "title": "Gobierno explica objeción a requisitos públicos que tensionó relación con Centro Democrático",
+          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOUmc5OHk5VzBGRDNjNGwxUkZMekptd3JrNXZzb3JBMzJ1aXBVZlVmdDVhcVFlZXNrSHNaZ3VNRzl5ZlZPSHVUODFFcVQ3RDI4b0JCVF9Ia0tLQl9WNWdMQkVLb3BERHhhcDBnNXNtOU5iUVYtTW5faVNVamJxY1dTNzQxSUt5d3pRblJiRy1ic3dweWs3b0lzYzlFYlNNR25qUnFEMVg3NndrVkdRM2U2NjNvQ1RVcEJ3QzdKZk1vY0x2V19kQURMM0NRMTVxSFhWLWRKakpkSy1oYlYxUkpGQXpFMlBhWGwxRFY1QkJmQXpqbXZ6TkNKTmc2YVpBenBFQkJlZ2RLaFlQRE9IU1NRNVQzTdIBkwJBVV95cUxOUmc5OHk5VzBGRDNjNGwxUkZMekptd3JrNXZzb3JBMzJ1aXBVZlVmdDVhcVFlZXNrSHNaZ3VNRzl5ZlZPSHVUODFFcVQ3RDI4b0JCVF9Ia0tLQl9WNWdMQkVLb3BERHhhcDBnNXNtOU5iUVYtTW5faVNVamJxY1dTNzQxSUt5d3pRblJiRy1ic3dweWs3b0lzYzlFYlNNR25qUnFEMVg3NndrVkdRM2U2NjNvQ1RVcEJ3QzdKZk1vY0x2V19kQURMM0NRMTVxSFhWLWRKakpkSy1oYlYxUkpGQXpFMlBhWGwxRFY1QkJmQXpqbXZ6TkNKTmc2YVpBenBFQkJlZ2RLaFlQRE9IU1NRNVQzTQ?oc=5",
+          "pubDate": "2026-08-21T22:28:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Congreso pone foco en control político y pedirá explicaciones a varios ministerios",
-          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNR2JLa3ZXUW0xa1JfSE41XzhrZkxUcWV4c1cwaW1MSGtTM3ZBZmQ5V185N0s1WWdMR0hmM0pyemF3MUxYaTAwSk94RkY5TEtFTWgtS0NxelptRFB0cEkzSWg1amdQV2tmcEctOW1WVHNDZkJLdmlSQ1FrWlhHTHpWWGFMeW1EMWVHdnpPUktEc1B3UVJJajd6RTZuM3lkN2xrb3VjODlLMUd6TU1NUjdodUJJUVNJQXRMa0pWNTF0clZwS0o2SFl2V3Q5ZGxHUU1zclVtZEM4Z0ZQamlOVXFiMUlHN25teEV2dzBzN3RZbHp0RmhHbEo1NVRBMkJEY3FPV3fSAYICQVVfeXFMTUdiS2t2V1FtMWtSX0hONV84a2ZMVHFleHNXMGltTEhrUzN2QWZkOVdfOTdLNVlnTEdIZjNKcnphdzFMWGkwMEpPeEZGOUxLRU1oLUtDcXpabURQdHBJM0loNWpnUFdrZnBHLTltVlRzQ2ZCS3ZpUkNRa1pYR0x6VlhhTHltRDFlR3Z6T1JLRHNQd1FSSWo3ekU2bjN5ZDdsa291Yzg5SzFHek1NTVI3aHVCSVFTSUF0TGtKVjUxdHJWcEtKNkhZdld0OWRsR1FNc3JVbWRDOGdGUGppTlVxYjFJRzdubXhFdncwczd0WWx6dEZoR2xKNTVUQTJCRGNxT1d3?oc=5",
-          "pubDate": "2026-08-20T16:51:00.000Z",
+          "title": "Abelardo de la Espriella adelantó reuniones con el sector petrolero, ¿qué significa?",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPVDBkOWI0WE5uc1JhY1A5SUJlamRGRGNnY2ZMb2F5eWdPYXkyYk84QjNVcmdMdDg3NGtuSHExOTZucDlqMExtNlJ2b2p3bGxhc2hIZ3N0WEtWN2ltVUpEa2loQXQzbU9nN3pyUjFFQmkweFd6SXpUTUdOTnhHd1IzNS1JbVBwemtueGRmMnpRSHJpZ1YwZmRPc0hfTGROQl9CbmMwNE1OZ1RSNDVBcWgtaUdCdlFEbmtpSTJGdGlDZnBvcGpLM2lyeG9iNUZtczhwRnN0UFdfbGR5MVpYTUhmTy16VWdMMTVmbWh0WHdXV2l1aFBHVUc2TFhxa2stMmPSAf8BQVVfeXFMT1QwZDliNFhObnNSYWNQOUlCZWpkRkRjZ2NmTG9heXlnT2F5MmJPOEIzVXJnTHQ4NzRrbkhxMTk2bnA5ajBMbTZSdm9qd2xsYXNoSGdzdFhLVjdpbVVKRGtpaEF0M21PZzd6clIxRUJpMHhXekl6VE1HTk54R3dSMzUtSW1QcHprbnhkZjJ6UUhyaWdWMGZkT3NIX0xkTkJfQm5jMDRNTmdUUjQ1QXFoLWlHQnZRRG5raUkyRnRpQ2Zwb3BqSzNpcnhvYjVGbXM4cEZzdFBXX2xkeTFaWE1IZk8telVnTDE1Zm1odFh3V1dpdWhQR1VHNkxYcWtrLTJj?oc=5",
+          "pubDate": "2026-08-21T21:25:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Lo que hay detrás de la advertencia del procurador sobre las elecciones presidenciales",
-          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNb3VFYW9VWm1ZcEp5a282d0ZRYXpYT2E1Rm8zSTlkOHlBNlZQR1ltUHdLd1d0cURjSEhlQ280Q3F1NlZyVHNUUG5qRW05MWdYX25aN0JkMndBRzliZDJJX3lMQURfZER5OVQ0U2RPLWN6dHNhWF80d29KYTFhUFdIMU5wWllvLUczUGhfWnBlTkR6anJaZzdRWXF6R2JqSnM5VFB0U0ZTSjRuUmxUYXkxRDZqTzFQUVRKVHI0Uk1rR2ZDYTd6ajZxYUlhNWVidGZDUDVGckc5UklZT282RE4zMXlILWtwSm00TGNLdEtlMElldzZ2QmNsUWI5RmFqOVMzSHU5NjItVjNjRkxwdFZZRlZn0gGSAkFVX3lxTE1vdUVhb1VabVlwSnlrbzZ3RlFhelhPYTVGbzNJOWQ4eUE2VlBHWW1Qd0t3V3RxRGNISGVDbzRDcXU2VnJUc1RQbmpFbTkxZ1hfblo3QmQyd0FHOWJkMklfeUxBRF9kRHk5VDRTZE8tY3p0c2FYXzR3b0phMWFQV0gxTnBaWW8tRzNQaF9acGVORHpqclpnN1FZcXpHYmpKczlUUHRTRlNKNG5SbFRheTFENmpPMVBRVEpUcjRSTWtHZkNhN3pqNnFhSWE1ZWJ0ZkNQNUZyRzlSSVlPbzZETjMxeUgta3BKbTRMY0t0S2UwSWV3NnZCY2xRYjlGYWo5UzNIdTk2Mi1WM2NGTHB0VllGVmc?oc=5",
-          "pubDate": "2026-08-20T23:44:00.000Z",
+          "title": "Antiguo secretariado de las Farc exige claridad sobre el acuerdo al gobierno De la Espriella",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOVjNmS3hfUUtaQzNJQnBfN1gwVk5NMVRJZmNJbzdNMW80T0dLZU9FVFk0dUVnZXZvcWZyWXM0Yy0zU05LMkFkVUZnTWk3eVh5bjhRdHpQUWxORHdpWGx3Zng3NkRtN21BaEZCOFRqX2pPaGppSTJUWVJUSUFRWTRQVGlnSEo5RmxXeTVzRHBxc1o5LUY4czdfQndnbWRjRE5lM2w1LXZMb3BYUWN3cDZEZ0pfSmk4WWJlcWNxalNmTVRKQjkyQ3E4TTlTZHlqMkxWcEkyQmFpV29QOExuSWtjQkM5WEpvRW5JQUZnWjdUNUpRdXVmQ3pCT01vNGc2NHdDYzNMbXdn0gGGAkFVX3lxTE5WM2ZLeF9RS1pDM0lCcF83WDBWTk0xVElmY0lvN00xbzRPR0tlT0VUWTR1RWdldm9xZnJZczRjLTNTTksyQWRVRmdNaTd5WHluOFF0elBRbE5Ed2lYbHdmeDc2RG03bUFoRkI4VGpfak9oamlJMlRZUlRJQVFZNFBUaWdISjlGbFd5NXNEcHFzWjktRjhzN19Cd2dtZGNETmUzbDUtdkxvcFhRY3dwNkRnSl9KaThZYmVxY3FqU2ZNVEpCOTJDcThNOVNkeWoyTFZwSTJCYWlXb1A4TG5Ja2NCQzlYSm9FbklBRmdaN1Q1SlF1dWZDekJPTW80ZzY0d0NjM0xtd2c?oc=5",
+          "pubDate": "2026-08-21T19:30:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Estos los últimos nombramientos del gobierno de Abelardo de la Espriella: SAE, Dane y otros",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWmdUa1YyUDZoTzFLS3lyQWJUVHdjNGcwRS1wUGdOUmI3dTVCNDhEcWQ1S0g5RldPckVqVC1yZVpqaTRlYzhzcVQ2dDBHTHk0RjFHbWVpemJ0T0k0eVdQalVqV2luWHhvWTcwMkxxZ0tOaUdrTHpFeGs4WU1sR3VJUkZ6NEVrdEpMN20xVXBlWUQyYUNpWllOV19WQV9uYndha21hbkJfTEMtYm8xVU5GeHBvS0FYaWtMeGNSN2RYOUJOaHV5MGk5M0JJYzJuWjQ1a2U2RUtiXzV3Vl9EVklER0I2QjhGUVNyU3fSAeoBQVVfeXFMUFpnVGtWMlA2aE8xS0t5ckFiVFR3YzRnMEUtcFBnTlJiN3U1QjQ4RHFkNUtIOUZXT3JFalQtcmVaamk0ZWM4c3FUNnQwR0x5NEYxR21laXpidE9JNHlXUGpValdpblh4b1k3MDJMcWdLTmlHa0x6RXhrOFlNbEd1SVJGejRFa3RKTDdtMVVwZVlEMmFDaVpZTldfVkFfbmJ3YWttYW5CX0xDLWJvMVVORnhwb0tBWGlrTHhjUjdkWDlCTmh1eTBpOTNCSWMyblo0NWtlNkVLYl81d1ZfRFZJREdCNkI4RlFTclN3?oc=5",
-          "pubDate": "2026-08-20T15:03:00.000Z",
+          "title": "De la Espriella adelantó reuniones con sector petrolero y da nuevo reporte sobre terremoto",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQaXU3YTRIUzRzczFJUGpwX3FUSG9yTnlhVXNEbUhqYUd6LUkwekRWM0J3SWVSQzBHRUZUUW9GYTdDWEpaTXRUeTNXajk4bFRUUl9uZW5aLTRINnMtQno5S1pEYWhsN0ZaYUNPOEVwNzNsWWtpN1JWOFp2bXRjRGw3blYtVmkzT18zNDJPd082b1haTTVnaUVUV0l1ZFl2RGNha3RVbDhVbS02aXVtVG56cXJfdWpNc05tYmJ0aUNjQU92OG5teGlmN2lqYld6MzE0SEhGUHpvRVBTTzJ5bGtscE8wai1aYklkdTlv0gH_AUFVX3lxTE9UMGQ5YjRYTm5zUmFjUDlJQmVqZEZEY2djZkxvYXl5Z09heTJiTzhCM1VyZ0x0ODc0a25IcTE5Nm5wOWowTG02UnZvandsbGFzaEhnc3RYS1Y3aW1VSkRraWhBdDNtT2c3enJSMUVCaTB4V3pJelRNR05OeEd3UjM1LUltUHB6a254ZGYyelFIcmlnVjBmZE9zSF9MZE5CX0JuYzA0TU5nVFI0NUFxaC1pR0J2UURua2lJMkZ0aUNmcG9wakszaXJ4b2I1Rm1zOHBGc3RQV19sZHkxWlhNSGZPLXpVZ0wxNWZtaHRYd1dXaXVoUEdVRzZMWHFray0yYw?oc=5",
+          "pubDate": "2026-08-21T19:25:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -102,38 +102,45 @@
       "color": "rose",
       "items": [
         {
-          "title": "Terremoto en Colombia hoy viernes 21 de agosto: últimas noticias, balance de la emergencia y nuevos temblores en el país",
-          "link": "https://www.eltiempo.com/colombia/otras-ciudades/terremoto-en-colombia-hoy-viernes-21-de-agosto-ultimas-noticias-balance-de-la-emergencia-y-nuevos-temblores-en-el-pais-3579889",
-          "pubDate": "2026-08-21T10:01:00.000Z",
+          "title": "Terremoto en Colombia hoy sábado 22 de agosto: últimas noticias, balance de la emergencia y nuevos temblores en el país",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/terremoto-en-colombia-hoy-sabado-22-de-agosto-ultimas-noticias-balance-de-la-emergencia-y-nuevos-temblores-en-el-pais-3580221",
+          "pubDate": "2026-08-22T10:01:00.000Z",
           "snippet": "Siga acá las actualizaciones constantes de la situación en el Chocó, Eje Cafetero y Valle del Cauca.",
           "_priority": "ALTA"
         },
         {
-          "title": "Reportan un fuerte incendio en Gualanday, Tolima, que amenaza varias zonas: ministro del Interior, Rodrigo Lara, entregó un balance de la emergencia",
-          "link": "https://www.eltiempo.com/colombia/otras-ciudades/reportan-un-fuerte-incendio-en-gualanday-tolima-que-amenaza-varias-zonas-ministro-del-interior-rodrigo-lara-entrego-un-balance-de-la-emergencia-3579892",
-          "pubDate": "2026-08-21T07:49:13.000Z",
-          "snippet": "Las autoridades mantienen un monitoreo constante en la zona e intentan apagar los focos activos.",
+          "title": "Incendios forestales en Colombia hoy sábado 22 de agosto: últimas noticias, balance de la emergencia y nuevos puntos activos en el país",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/incendios-forestales-en-colombia-hoy-sabado-22-de-agosto-ultimas-noticias-balance-de-la-emergencia-y-nuevos-puntos-activos-en-el-pais-3580222",
+          "pubDate": "2026-08-22T09:01:00.000Z",
+          "snippet": "Las autoridades mantienen un monitoreo constante en las zonas e intentan controlar el fuego. Siga el minuto a minuto aquí.",
           "_priority": "ALTA"
         },
         {
-          "title": "Federico Gutiérrez, alcalde de Medellín, se pronunció sobre la muerte de un niño en el Parque de las Aguas: 'No hay palabras suficientes'",
-          "link": "https://www.eltiempo.com/colombia/medellin/federico-gutierrez-alcalde-de-medellin-se-pronuncio-sobre-la-muerte-de-un-nino-en-el-parque-de-las-aguas-no-hay-palabras-suficientes-3579891",
-          "pubDate": "2026-08-21T09:30:00.000Z",
-          "snippet": "El Área Metropolitana del Valle de Aburrá lamentó el fallecimiento del menor de edad.",
+          "title": "'El fuego crece frente a nuestros ojos': habitantes de Peñalisa, en Ricaurte, Cundinamarca, alertan por incendios en Tolima visibles desde la zona",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/el-fuego-crece-frente-a-nuestros-ojos-habitantes-de-penalisa-en-ricaurte-cundinamarca-alertan-por-incendios-en-tolima-visibles-desde-la-zona-3580207",
+          "pubDate": "2026-08-22T04:59:31.000Z",
+          "snippet": "El relato expone las consecuencias sobre bosques, cultivos, fauna, ecosistemas y comunidades del sector.",
           "_priority": "ALTA"
         },
         {
-          "title": "Familiares de tres policías secuestrados en Norte de Santander realizaron una velatón para exigir su liberación: 'Que Dios les conmueva el corazón'",
-          "link": "https://www.eltiempo.com/colombia/otras-ciudades/familiares-de-tres-policias-secuestrados-en-norte-de-santander-realizaron-una-velaton-para-exigir-su-liberacion-que-dios-les-conmueva-el-corazon-3579893",
-          "pubDate": "2026-08-21T08:31:17.000Z",
-          "snippet": "La actividad se llevó a cabo en Cúcuta mientras se cumplen cuatro días sin saber el paradero de los uniformados.",
+          "title": "Habló el juez que declaró inocentes a dos hombres acusados falsamente por el crimen de una menor en Atlántico: 'Solo queda este perdón'",
+          "link": "https://www.eltiempo.com/colombia/barranquilla/hablo-el-juez-que-declaro-inocentes-a-dos-hombres-acusados-falsamente-por-el-crimen-de-una-menor-en-atlantico-solo-queda-este-perdon-3580182",
+          "pubDate": "2026-08-22T03:59:00.000Z",
+          "snippet": "Uno de los señalados murió en la cárcel durante un incendio.",
           "_priority": "ALTA"
         },
         {
-          "title": "El gran reto de atención de los adultos mayores tras el terremoto en Colombia",
-          "link": "https://www.eltiempo.com/colombia/cali/el-gran-reto-de-atencion-de-los-adultos-mayores-tras-el-terremoto-en-colombia-3579854",
-          "pubDate": "2026-08-21T03:01:00.000Z",
-          "snippet": "Ancianatos y centros de atención de Cali, Manizales, Pereira y Dosquebradas sufrieron graves daños por el sismo de magnitud 7,4.",
+          "title": "Torres del Limonar, uno de los símbolos más dolorosos de la tragedia por el terremoto de 7,4 que se quedó grabado en la memoria de Cali",
+          "link": "https://www.eltiempo.com/colombia/cali/torres-del-limonar-uno-de-los-simbolos-mas-dolorosos-de-la-tragedia-por-el-terremoto-de-7-4-que-se-quedo-grabado-en-la-memoria-de-cali-3580179",
+          "pubDate": "2026-08-22T03:25:20.000Z",
+          "snippet": "A casi dos semanas del sismo, lo que era un referente de vecinos es hoy una zona cero de tristeza, pero también de milagros. Velitas por víctimas.",
+          "_priority": "ALTA"
+        },
+        {
+          "title": "Sigue temblando en Chocó: nuevo sismo de 2.6 de intensidad en Istmina hoy 21 de agosto; reporte del SGC",
+          "link": "https://www.eltiempo.com/colombia/otras-ciudades/sigue-temblando-en-choco-nuevo-sismo-de-2-6-de-intensidad-en-istmina-hoy-21-de-agosto-reporte-del-sgc-3580192",
+          "pubDate": "2026-08-22T03:15:12.000Z",
+          "snippet": "Las alertas en la población del departamento no amainan ante la seguidilla de temblores de variada intensidad que se siguen presentando.",
           "_priority": "ALTA"
         }
       ]
@@ -143,46 +150,22 @@
       "color": "slate",
       "items": [
         {
-          "title": "“Estuvimos muy cerca de que el terremoto provocara un apagón nacional”: gerente de XM | El Colombiano",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMTZiNlBFNUlqUFZETG45dVA4NnM3RlVqVFBFVlQwblFOVkpsNkVWclJPVEFocGh4eVl0TmdRbVBvaTJMQWRjbUJsSEVEeDFaRWxfam1YVkFnZHJnYzd6WDlQWnlwV3g1RVhkcGdWeTFqUE9vU3hfWWx6QmxidUdNek1XMUJkaTJ4cUNZeEJmTmppYUxEWWlBX2l3N2tVLWV5M3JJR9IBqgFBVV95cUxNY3N2SDhPZGM0b2llS3B6SFJ3SzJ3YmNVWGx4Z0JwZVlidzMyMUVrWDRkWXNZUEdyTTkxa1RFcnVnV0U1TEFrMEtBRFljNjdqckhTay0zLTZYYUkwMzFLdkEwY0FuRFZXbXl2N1FvXzROOWtQQVdrM2gtUm1JOWxPUDVya2FNUW1IelNhT284SUdnRk1EbWlIRl90SDAxQlJZR2ZOdktlcUJvQQ?oc=5",
-          "pubDate": "2026-08-20T02:23:32.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Volver siempre a Antioquia",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYm1JR0xBNkd4emVOcGVVRHZnZHpQZnc3MkM5N01sUzF3NmR1TnBFckhtam95OUhHVlFsU05VMWh3Q21ESjdTX3RKSHVsNGduRk5kUnNPTWREcnJ6U0s3aWdtblFVMlV2a09Qa2p3Z1gxbE1SX2ZXZDVhSnQzVUtWRkgwdFYxTFBSb2UtMl9MRDhkQ1Z5T1FsaHdHQ1ZQcU0xMzE2bXNHMnhDWnBY?oc=5",
+          "pubDate": "2026-08-22T05:01:49.000Z",
+          "snippet": null
         },
         {
-          "title": "Aumenta cifra de fallecidos a 319 tras el terremoto en medio de la nueva fase de recolección | El Colombiano",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNlpRTDduT3pPcEw0RG9vRVp4MjdFam5obzFVRWIyMXQyQlNlUGhWLTl6VFRkOGR1QXFndnVDT2ZXRzRZN3ZNWVc5S1Z6ZFRkNHRreHJFcTN0bFRQMFJCQTdlOWt4NmpTZi01UmxSV3hxT0Jxd1o1OWdJOGZaT2wtT3FCUTlhdjAxaHIwX2VXdU0yV3pmRFM3a3pIRFE2LUJUVVllT3pqazlta01Y0gGyAUFVX3lxTE9idmp1em1IVDVTSFMtYi1KZXpCTXZMWk51WGJSenlWMlJMbVk3T1NCX0dIWEdxN0E5bVBreTJnXzRsQm5PbVhuSm9YcW1ZZjRhZy11bWhQeVhKeXJ4SjVULUxKdW5qMXJrbDE2SjRGSnM5M29pc0JNQlplNXJQNzNiVHRwTnIxS1FMcy1SVk16X1hhMUUtQk1tdTJGR19wejdrcUdKSG4wSjNuTkxRWHpadWc?oc=5",
-          "pubDate": "2026-08-19T20:01:13.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Sinaloa",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RbEZQMmlYb3phYlNhejVrTk4wMTR0TmxOcnBGcEstT1EwZVlYOTl6YnFfZ2M2RDBSLXpXT2owNHdISHY2R1VhTGl3VE9sYnlkUG4ybWlieUctazh0WmhjY3pXd3BGdUpJdGZtYXF3?oc=5",
+          "pubDate": "2026-08-22T02:14:58.000Z",
+          "snippet": null
         },
         {
-          "title": "Petro y Cepeda podrán hacer réplica de 20 minutos a la alocución de De la Espriella tras el terremoto | El Colombiano",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb2d6TWhPYVB3d0c1WUh1ekJETUhVeFp5UllBa040SkVrd0gyNDloWlA4QzhvUjJqZHBwNU02ODhkMFRqa3dsV2g0ZGlndjFNWnpMdzFTMjlkRm5TeGNiamY4bkZoRURQRERibVFfa3NWMmFkR1JFcXllMldaUUhfVmppSWFnSWlVX2pUcm1hdE1fd09DanplV2dMcE5IREFWd2J3OC130gGrAUFVX3lxTE9ZSUI4ZUZoUjMxNkZOLXB6cV9aTUZ6cWxDQXdveDZYRDl3ZmpFOTE0aC1FQkxQU3JxbTJ5NDdJV1ZvaFdJQ2VZdWhLdFNWM0tLcmNEMzRJc2ZtYS1KbGdGTFlsOUJaLVBqSUN6bEhTUFlPUmZya1RVTUxBbFU1S0YtNHhNZnJQUlBjOThsLXNhTEpvNWozVXRrQW9UM3E0SW03ZGV3RktQTWxTYw?oc=5",
-          "pubDate": "2026-08-19T22:11:04.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Vacuna contra cáncer de piel sería una realidad: laboratorios Moderna y Merck anuncian resultados positivos | El Colombiano",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNk81YjctZDY2SGpqX29ZZGs2eUpual83aHFjeGpoWVFyTWFfaGRwbjVsY0FWNlIzeVhWT2JtNlU2MHpjZ2dJVzJqdVYxSHlQcEs2ZUVqX0VMUlhqbXlkb0xvU1NmSFlfLXU3YnZaSGtfSlE4VUhvRGdvTTNFX1F5LWowazRzeTNqUEltRUxEN1YzRkJXSlBoNnFDXzZ2X28zQkNNYlhLYi1mVGpCanJ1OUtySVA2bkVWUElEc0Z5cXhXOG1hY19Z0gHMAUFVX3lxTE05SkNlTjFxZFp0alZEMzI2QTg1WTJiOVNRN3dlOVdfSTB5aWlmeXV2d29ORTZBSWxzRzFNNkVCTEVDbDNocW9EektqN1hNYlRhUm0wZWtxV3RWRng0cU9qZXg3eHd6cWZIU2tiWTNzVWNlamJ4NmFHRDlxM2Z6MnY0aTByS3AyNGdPZV9pbHlFTUJhMm1BT0ppMFJqb2V2UzdaeU80MGxpeXVLYzNVY29wc0FKQUdoMVpPOVBXWUpKZ3VtQmFGNWJIMjViSQ?oc=5",
-          "pubDate": "2026-08-19T21:48:27.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Proyecto de cobre Quebradona seguirá en exploración hasta 2027 | El Colombiano",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNlphR0dIVXYyeGpyZjNhV0xnQUR1Yk1KWkh0RUdjc2MyaFdxdXJLQ0tMamotNGlENGphc0tjclFVTGxwYnUyamN4Zjc2cmYyRmxVLTdtRDF5dHNYT1gwV3lpMEV2cldaUDBoX3ktdk9vYlB1UGxNZU5WSXZHMHdRcXRqMk9mS0hDMzNMZHBDOTRoQUhGU0NGd2w0aU5YbXNGbTJJOUNKekV6a2pV0gGyAUFVX3lxTE43X2xKNWhWQ1d6WThFckZWX2Y5RFJ3dkVYNU5QblFoTUhxY2gwZnlISFNSaGFodm9Xdk9rRmowVG1xSzFqTGtFaGM5ZFpOSUZndjAzcWZMa3ppSFFFeTZPWnpuOU1hZmhiUVMyU21yUlJQVUpCMUlPN0ViU0s3OUxKVXZDTG1hMlNMdG42V0dFN0Y5Z1ZGemgzYUVMdVNxM2xyalJqdThqYTQzeW5GWnlpN2c?oc=5",
-          "pubDate": "2026-08-19T23:48:01.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "El Crecimiento como Propósito Nacional",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZnV4Unp4MzRvS0tzRnVIM0puT0N2VjUtV1dULWdyaTZOQ0NPQkl5ZjBGV2ozX2JndmJfVS0ydWZxZV9BVjVEY1VERlNRQWVLQWxzMzFaQTl3Ql9zZHpUSDYtYU1KdGYtZUlMOUZfMGdMTGdGWEt6dUs0c19KUjRqRV9hNUtwYnRWYU1ldFBZTU5hdUo0V0JVRnctbjU5SzhhRzRCSS1pZFdmTHhlNEVoTmJxa21VaElmR3RySGVn?oc=5",
-          "pubDate": "2026-08-20T05:04:05.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "El escandaloso libro de la verdad sobre Petro",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYm1SNWRNVXdJWmhlOXVHanhrOTZYdWNHdl9pUTR3MmMzcFQwcG96V3hTSFlPWUpGS3VhV2hNZGZGdTBkSmtNLTU1NVFXNElLU2ZuT1I0ZTB5YzktNVpNSm9aYkllbnVwWUtYY2pGM3M5MlZ0aVRqemdnV29iLWRHMU4ydm80dmlBdnlqTVBjd0p4T2U0cm12VC15NnNLbWtFczVlYkdn?oc=5",
+          "pubDate": "2026-08-21T21:56:29.000Z",
+          "snippet": null
         }
       ]
     },
@@ -191,44 +174,44 @@
       "color": "cream",
       "items": [
         {
-          "title": "De La Espriella confirma su nueva cúpula militar para su Gobierno",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ0VLVVNUUEJLckw0d05vOFNRa2U1Ty1kRDM5WUFRZWlKcmZRNklJTXJfM3dab21yZ3pVb3EzOU8yUVpQUE9EN0wxV0otU0FIalozYWNlbmtZTXJCelZtQ1Z2MUR3OXhMSkVIWURZVVFEMEx0UDBvSUNhTWluSjAyRWlteG9MZVN2c2REUmZrU0hrUkt5dEdTRTl2cnl6XzZnNngzTDJKeFY5Tm41ZHptNWZ30gGyAUFVX3lxTE1nRUtVU1RQQktyTDR3Tm84U1FrZTVPLWREMzlZQVFlaUpyZlE2SUlNcl8zd1pvbXJnelVvcTM5TzJRWlBQT0Q3TDFXSi1TQUhqWjNhY2Vua1lNckJ6Vm1DVnYxRHc5eExKRUhZRFlVUUQwTHRQMG9JQ2FNaW5KMDJFaW14b0xlU3ZzZERSZmtTSGtSS3l0R1NFOXZyeXpfNmc2eDNMMkp4VjlObjVkem01Znc?oc=5",
-          "pubDate": "2026-08-20T18:48:36.000Z",
+          "title": "Defensoría reporta aumento de quejas contra Nueva EPS durante 2026",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSDB2NGJlRWtqOFhvTGhNSWNhNl94NzZFbFpGYXFwVGU2SWFRVVo1UFd0MVZJNUlGUHBQejNWUmt2Uzd2cVVSenhEX0o3M0Rfb0NmcW9VWFBOVnhMWkhqNHNyT3o4NEJmRXo3OWtJNjloMWtVQVZKcDlPalVLdzBGWGJiVXR6NlcyQ1NWQlJGa2FNUkJBVXRYY3o0WG9ZMFNVd3R2StIBsgFBVV95cUxNSWxteTNuY0JKc2dkbHdETmxlY2xOakMxV2NhejFQbllnUlY5YlNKMFFSZ2pIMlA0bmdrbzRvcDNFeVVGUGF5ZV96YURlNzVCU0g5VmtBdEZGSHFDMWIyNkdZem5hYjY5Mm9LZ1diX2Yya1pQbmd2SElyME9lcFE5NU40R1VkUFVXN1VRa3NCYlJLR3daMTlHbEYxRWxNWUVsQV9Pa2hMTXZFSW8weE1zTmFn?oc=5",
+          "pubDate": "2026-08-21T22:32:19.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Coronel Daniel Gutiérrez fue ratificado como director del INPEC",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOb0Q0NkVxaXloOG9xREIzUE5SSEVXYmo3TEJkT2NIbHpHcVdRaHM4U3JoRkszLUdvbHk4cHhDQktINUdRanBodmZTTnE4X0tEeXota0ZLOUx4QTNPOXAtaEtjenZ6UVV1R1RNM0VJNmR0cEpHSmEyNGwtNWMzSThUOXhWTTBlUmtzQlV1TXl4SHg2VDVHVGRQNjIzeFlvaWZvcGfSAa8BQVVfeXFMTXY0VmxkeEJNNHhPek1EdUktLUd2Qm9uVGRDekJIZXZOMXRXSzV1QzIxZ0hsaHFSTlJuMVR6Nk8zTlhvLW9URURacVh0U3FhT3pfQVZqLVdHeE9RTS1tb1kzSDVNMmhSbnhtVFdKeDVacnEyYTFOTlJfMTlSZmpvdG1Ld20zY1d4akhubnUzUm9iNTd2ZTdjUVBPX2F6c2tVN1JOeEdpR2hvY1FHT0JGUQ?oc=5",
-          "pubDate": "2026-08-20T23:07:28.000Z",
+          "title": "Aeropuerto de Pereira todavía no podrá operar por afectaciones en edificación",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZDVjaXdvaVZtTG5pdlJha1hYNy1JelpTTEg1c1lNT2RoQWgwbG1xUm9ZQXpTWHVwSTYwWmJNSzgwR2EtSE9kbDZwem4zNy1oYTZvLVVtRGhmWHJVTEtPeTd5eVc1WXpZcV80cXJDUGd3ZmdpTmt1SlhKR1NHdmFoMnUtbG9rQUtPS3VHVXhkZkNBOTNaOXlLREdHNHExQ3FrZHRDMUNUUi1XSkdHNjBrbUs3Sm1FY25jbmFBQ1IxTXQ4d9IBwgFBVV95cUxQZDVjaXdvaVZtTG5pdlJha1hYNy1JelpTTEg1c1lNT2RoQWgwbG1xUm9ZQXpTWHVwSTYwWmJNSzgwR2EtSE9kbDZwem4zNy1oYTZvLVVtRGhmWHJVTEtPeTd5eVc1WXpZcV80cXJDUGd3ZmdpTmt1SlhKR1NHdmFoMnUtbG9rQUtPS3VHVXhkZkNBOTNaOXlLREdHNHExQ3FrZHRDMUNUUi1XSkdHNjBrbUs3Sm1FY25jbmFBQ1IxTXQ4dw?oc=5",
+          "pubDate": "2026-08-21T21:16:54.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Gobierno anuncia plan especial para recuperar municipios del Valle afectados por el sismo",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUzBsZ0laZnU0aDhfSi1QQmdVZ0p1UExGVHVpQmx5TEhFbVQtMXN4SENjVHJGZVdwOE5ORlhxVDJwMklabUpYTW9sd3UzaERsTUdabTRrQm9lRTJ4WnBQb0d2a1pucmQ4a2pZWnhTaDBjXzJVb3VWc2t2RlJ4MXI0cF9EeG4yQjFUV3FyLXUtVzVrdExvdERBYUNnUlR0QUdLVDl0MjB0WmFkbHRCSGo5OEZaNmhCNVJ5RENnZUo1OENYVFFoREtVREhTd1RNbVVJRDNEa2puSzFJanZQS1hZ0gHsAUFVX3lxTE9PdkFPX1RiS0FhWHVJa3U1bmRwMVd1LXBJYlN3cWh6M3k2dVdiX2JxM2FyMDRJakJiR3VYN09VRlY1YTRzOTdjd0xUYWphcVU0cFo5WFhyWU95RTV5MVlBN0cwRzhmRzlKZXV3bDdGTngzdk5LaTF5RW9wckFqcDVJN1UtZzAzaFdYNl80ZDZRQ1l1dFg3VkllRGdlaHZBTDBET01lRmpOcHJ0SFdGd1dVZE4zaFVJTFdMbzNIR3JnaVNLQXR6d1kyZWRrUWVGeXZVQnZBMzRmQlVsb19KX1lPZGVrTUdsTkYxSTEy?oc=5",
-          "pubDate": "2026-08-20T21:30:23.000Z",
+          "title": "Fiscalía imputará a General Federico Mejía por liberación de presunto narcotraficante en Cauca",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORVp3Q3FzR0szZzRZMnM4eDVYdnFsRk9CNDMyNWZ1NzItTXNnS3lqZE9tdTFVbGxkdDFQZDh3WS1DUFdSdG1MbzNfazZiWk5xSmxSLWRPVXNjbW9vbVNuZ3NLbnBxY3Q5WFNQek5uV3daeHRza2huaV83bVN5ZUxEcDcwRVR1N3FwdUZST092dGJQS3QxZzk0cjR2VFRaOTl1aGlmTlBWU3J4RDd5ZUlkeldiSnVEYzZ2U0NpZDByS0Y4OWtyeHdueGJJSGlKQdIB2wFBVV95cUxPcnlJeG91bFJOLUpWTWZjdHZRcVdLbmFpSzlLVFZLcVFTaTM4OXBJY3NXaVdUcnRlR0FZLUxkQXdQN0ZsS3Uwa0ljaEpwUDN2WndiQUVYblh6SHpjNG9ZaExMVVRzOWotMjdxbXZlc1NTRDhRUnduTVJGek81S2VocmVWWC1oa0FPZ3ZWZjVHZjh1WUFIM1dtTzR0eTZ3T0ZaR0o2aVRhMTVhQ2x6dHZRVHlQZmwwclJXS2t0YXQzWi1aN0RRRUNkZ2N1a0JUMmhfOFZ5Z29vMDhZcUU?oc=5",
+          "pubDate": "2026-08-21T17:47:59.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "20 de agosto de 2026 - Voz Populi, programa completo",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOczhMQTcwUUZZS0JQZnN6VVI5YjRJUDRTeWpFTldVbXBIdnF1VjZKN0FPMXNKb1AybmlUMUlkWUFxRnhoV0N1MDdVRnVVWnp1aHV1SVBMN0Q0VTlWNWp5bTJnRVZFYUJMdFpTNGpvaktiOGFxcHpyRHN1aDJoR3NSVUFqdzZqbjd1Z2JpM2dEaE15Ynh6TWNkaWhaYmdyM296Y2fSAaIBQVVfeXFMTnM4TEE3MFFGWUtCUGZzelVSOWI0SVA0U3lqRU5XVW1wSHZxdVY2SjdBTzFzSm9QMm5pVDFJZFlBcUZ4aFdDdTA3VUZ1VVp6dWh1dUlQTDdENFU5VjVqeW0yZ0VWRWFCTHRaUzRqb2pLYjhhcXB6ckRzdWgyaEdzUlVBanc2am43dWdiaTNnRGhNeWJ4ek1jZGloWmJncjNvemNn?oc=5",
-          "pubDate": "2026-08-21T01:21:30.000Z",
+          "title": "Magistrados piden revisar actuación de Cristina Lombana en caso Martha Peralta",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdy11MWxxN0V6cWNUeVlVTVFmWllvU1lXTG0wRko4a0FDdjlWTHlGV1BnOW03X1haX2RDWENERmZucDlLN1BkT2lLQm9UMENKcndFajdGZEZveEVkUFNERHoyb0RMUk9kZ1h0TXc0V19XQmY2R3NKcVpEOW1BSmotN18xN25nSXIyeXFfamVUVnBRcExFajAwQ1FxUjJVbTVwWUFLNzBwUWRZSFB6OWRxcUZwOTFpVWFl0gHGAUFVX3lxTE5RRkNNdi0xZTNvMmJjcWdyQkliazRqRDNySkg2azBYOExIOUlHXzZGY2o5azZFSUI2VXdBOEpnNXc2X3Z2YlFJTnBwcU1TdTRqWXVEb0l3V3IwdmRrNU5rWnNDdkE2NFh6alhwdW9XcFVBREZ4VUFCVzNtNnI3NGVlQ25xWE5rSWplVkVYQlRILVJOZkN2WlRQd2xlZ1lYdmRPbEFvN29XRXZlUHhiRTVVUDdnOC03aVZqbHg0ajdjdnJLbDd3Zw?oc=5",
+          "pubDate": "2026-08-21T16:15:49.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "MinEducación revisará educación sexual en colegios; hay movimientos para “apoderarse” de formación",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOemVCQXNYS0ExdzVVNEVac3JJMl9LcDBENmJrdVNrSFhJcUhBQko3VFUtS18yWS16QWNnSm1zWVdrQzdtc1R1aDMwY0l2ZGhSallJZWhXZDU3WEMxSVA3aXF5Q2I2bE5mOHRIRVV5SWg0RmpLS3pIQlh4RUtGX1paSVZfVGZ2RGdGbl83WU43b3NsVzB5V0d3a2k2M3hoTzczN28wcGQ5LTFiNjlFSkt1NEkxTncyR29SaEpaN2ZOeTYxWHJ4dGtyYTJkWnVHd254eHBCSlJUY2hEczhJ0gHqAUFVX3lxTE9ITW00MmNjZUVGOWEybTNrN0ZaZDdlRHZwcWxaQzVZcEdyTEtnLW5ZTUZvcDJ6R2p1R1BqeUU2N3VBZ1N5bjBEQm8xZFdNT2tyY3VIblZCZVJLUWY0ZE1UV1FVa3VNSW9zenZRVkpSZTNKMjhfbGQ4bzBHU0RLcGpmLXVtODNPWEw0N1pIWWJNcG5JZlpsaHpmbW1uNFc5Nm9TTTMzcllDMWlFMHBOVXBtMWpmbUtRdmE5cGE4T2pSMk82OWNua2RJYVJaY3UxbTZBbHNmanZDQ0FGc084bU5pSE9UUzV2RDVrUQ?oc=5",
-          "pubDate": "2026-08-20T21:20:17.000Z",
+          "title": "Gobernador de Santander respalda el fracking en el Magdalena Medio",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUG00TGo0ZFFDakVWS1ltMVhfMW9BWmNnaWxRTTRGbTZELTZkSUwtQmt6VGtJeV9kNmhud0VRVERpbzBQYzFfVnFRb3lOMkpob1V2bUprem9IYU55dTdhZ3F1MVhHVHhBTWxTNDUyZ0s4dUtGdjluZHJ5b0VBX2NDUmFyMjU1Y1hkQTZCUzNxT0VDcTZyaGFldU03SHJfSDFBb2RVMzR1YTFMWlk4S0dCMHFLRUdhZjNN0gHGAUFVX3lxTE1DYXVyMjhjdEwzX2NkQkQ2eG9KODFpLUdVandEbWwybTAxR0V5SndadFVVV3ozaFZQSW5PSjkxdC1haF9HUGhKUG5MTWphdDYzampaY2QtUmk3Z21jM3VoOXlIbjNCWGJNQkwwVUNIWGZPZTFQVEVRdldFT1hyajA1bE00WWFmN1RQVGNuX0xzWVdYSXVQR1hEa0pPeWZqRmMyU1hiandfQWp3clVHMEh3aGtwZUozdkJPay1naWFJTW9FdkhGdw?oc=5",
+          "pubDate": "2026-08-21T12:32:38.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Senador Miguel Ángel Barreto tendrá que ir al Congreso con brazalete electrónico; esto dijo la Corte",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdm5xVE1oTHNpZGJwUUU1dy1TMi1uYmRKWjBoUHR4Sjh3ekwxMzBueWlabmlfZnBjOHVwc1BKY3gwektKcVhWSkgyREY5Q3hZQUZUTnZrRzNtTmI0dHJIVW5KaXFHbjlVX3ZoQ2NYTUpibDFLLVFLZnN4NHMtcmNJb3JHZU9qMFJMdUYwZnI5WGlWUnpyM2lWZ2NSb21yQVlzQlRLbWpaaldPSl91aXJtbUYtRU9GcGtQWHVLWDJFb2JYTFhpd3JhVkNaNGlwVHpjckHSAd8BQVVfeXFMT1EtVGdkVWd2V0hiMzdhdUxvWjh4NEFlZW1hR1llTlZlWW9ZbFlJcFJocU5NLWJEcDFUbnppbVplMDg2Q1NHM0VoNVlXc2dFZ0lYMTYzQzlmNmE0ZWhGendrcEdLSkRoUzZTMHEtQWZSRmJVbXJHVlZ0ZXFJNFVPT1RWZmZFaGpBdGd5N1doVHZlSE1TQlVQNUVnckc0NWE2TXhzWlVRTGFzdHZrcThKbDBrdVU4Q1VUbVczR3d5VWc4TnpqeVU3R0JLODhkRnJVUV9BS3J2RzFiX2lIQUxuWQ?oc=5",
-          "pubDate": "2026-08-20T23:23:49.000Z",
+          "title": "22 incendios forestales permanecen activos en 14 municipios del Tolima",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc0NDOXZGWkxGeFItUm56MEZVYWRlRG1oYVZfckcwbS1zSmhabEdic0g3VVBqbUpkSjd1NFFmNlYwVkpRWFBYa0Z2OVlla1h3MXpScWpYNU5xUUJNNGR6Y29sMmRJODdGRDFRbEMyc2dJUkhwWVExY2QtQ3hubXJhMGlmeXlRN0U0LW93NU1HOWNaN2piTVZZYkJ3LVRwbEJHbDI3bWwwZVl0RTTSAbgBQVVfeXFMUEktd0pfUDU1NlRTWG1vcndmZWhqQU00ME9pMzV5bTQwRXJjNmlFR0x5a1JUSzJtLVhuVVBGR0JWVHZoZnRCOUxXY0JIaF9ZeTkwREdTc0RVZ3hDRnJZWWV6SlJhNHI4Wnoyc3BXT3N3TzBqVnIzNG9uLVNWYkN0eVpHYktRMWlhTFNGX1RNbGFzSGhfMlRpTlJESkozcnpPOUI5Yy1lMUlPbVowYkN0bWpHZm1CQnBrZQ?oc=5",
+          "pubDate": "2026-08-21T12:01:43.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -239,44 +222,44 @@
       "color": "mint",
       "items": [
         {
-          "title": "Estos son los 26 generales y almirantes que saldrían de las FFMM tras cambios en la cúpula militar",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWThtX1lFZUV2elNweTFkb3MxRjB5X0Y4RDhPa0RlNjRBWVJVemQ0TWxldkVVcEpEbkdBYU5CWk9SaUZpbE5VVHg1a3N5ZUJ4SWdRRkF3amd2LWRrYl9yOTY0bmVueXZseldjTE5YdXlmLU1Rb2lEb3FkUUYtZ0pZYVJxMHpMOExDRENXNDZKaVlVTzJmNDB5YTRVamFNYWN0WVZhNW9KT3lFQXMyLTlBeUc2MnFkb3JkRXBTck5hTW4yRC1fY1p1RENfWWJZd9IB4gFBVV95cUxPNHZldjI1OF9kT1l3MWI2a3hucjdWSWtMbDRvV3EzZWVjVzEwa3BYbVB1TmxSZ2RYbEstTi03UlZnTWZtTVdkcjZzYTc0YVlJWEd5LXZYbUZUQzlvSzVsejZ0eDFScEg5T01JTWlFTDlsMnZwMEtsY2ZnbldVX21jUDZoRy1DcGhmRms3TkZ6M3lwM2hoNV8yY09ZQkxDalUxSmxMVzA3MlNLNHFLRjBubDVOVkRIcXNDVXBPNF9EUTQxWkxFZ1N5VFFhOW0tVE9ZYUdfY1I2RW9ucVRNWWM1OUhR?oc=5",
-          "pubDate": "2026-08-21T00:50:30.000Z",
+          "title": "Gobierno De la Espriella derogó circulares laborales de Petro, ¿Se pierden derechos de trabajadores?",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcjd6Sl92VFh1Sm5ibzNLV2pscnBfeEtWSHR6S2xob21PcUJ4RnVwUUtDczlwUmZFU0NxX0E2RV9GQzJRV1NxN0dQa3FxRGR5Wi1sTVloLUhvYmY3UmFha2g3bVVtdDI4OWdXbGRlSmpBc1dDb3FteElUbjB3bU1YeE9Paml3MHl3Zm41ejVMUG9HVEk2UkJhUDYzcGUxTk5pOTY2SGNOWnZ1ekVnTXZrRF9WaTNLTlJ0alktRUVQU0tIUENrdU01NjYxNDbSAeABQVVfeXFMTUJSS0VyMVdhWWE1Y2xEMkJGcXQ5OHZ1SHFyMkRIV1Z2R2l2LXM3X0dkSzFWTVVfeHQ5eEllc05HYmluMTRrV0tCLVh0cjIwUjFVN1VGWHZpOGRaNERHSXdLZFIxbFloaE9QY1IxbmJSc2dwN3pIYkdQbGZTck81UV9HMEI5Sm01NjVqQjJLM1VrQWw1TWF1LTJWY085eHhxSmludGhJYnlCRlY0Z2x3eFRHVXdoZGNRandLbkExREtHMDdmZTJUTGZIMXFKY3VWUXNRYlQtczM3WlNTWWNCc1A?oc=5",
+          "pubDate": "2026-08-21T23:47:09.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "El Grupo Bolívar y Davivienda donarán $110.000 millones para recuperación del país tras terremoto",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUWw2c0hWLUlnUEVMcXJQYmZtRlAyaURtMDNwa2lmQWFsdEJLbXM0aEF3RFlpUDZjNnVfMXJLQ3BwVnk0VFVEdWpoaEZNajF3ckktYXByTmV4VzE1OHR1YkdsTkZ3aS0ydEpOTGxfWDVsT0JuRV9pZ3hnTmcyQzJPbXc4dlczNmZzUGFaTGZaeW5ldG9Ld2RmVGtCS1QwX21oR2pYaUFNeDRTTWVTY2FDMVpMVkRHU3BHVmpNcmg3Tnk3a3pOZGlnMXFn0gHeAUFVX3lxTE81QzUtSzd2OGd5TUdNZXRpR2VXb2E0SlVfQVZXYTUtUkIxanZMTWduY052VVZhWmpBY01XYkVNUEhkZ0JxZm9OOVdHRHpxd1N5a0cxV2FGc3ZMdmlqRWxCNVNCWWNCQXR6eXZtN2lINDNIcldfeFgxQ2ZpeEdBX0VBNm1IQ0xoSEdNT05VLTEzTWx2c3JRSC1Ibjk2TjFieGhoaFBqUWpUM3ZFM2ZMd3hiby1fdDRQNE5zTlRqM0x3ZDgxTXNteUZ2Uk9XUjRnb0p4ZWswakswNGNDRW5Sdw?oc=5",
-          "pubDate": "2026-08-21T00:05:26.000Z",
+          "title": "Falleció víctima de sicariato que había sido lesionado con arma de fuego en el barrio Los Alpes",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQ01Pb2RfVk5Pc0JvdnBHb1h6SFhjeldVVEp4UFpfQ3pXVHFtR1dnMU4tSnFYellaQmZiN1ROMTJtcW14b0MwcXY3YzV3QnpmaXI0ZVQyZ2M2dXNRMm9qeUhTN05kOFM4cUhkVkY4Y0dFNHpBSkJ2cnZESnhrZ2Q1b3B6a3RQckVrTkk3NU5XLTFYZWJ2Z1Etb3U0UFpyQnNocmpNZUxqN2FORUN1bjNqVmduU3JJblBwQW8tNUppT3FKQ3dWRWJvOW1n0gHeAUFVX3lxTFBBMFQ0Q1dpWE14WjIzMnpfWkx6ZGl6TDVNcEduLTZtaWxqZ2tqQ1NGV2JONk1jZEFiZVlyV2VIb015ZVhCUGRwZ3RxNDlub2VUelY2R3ZCMFR3STZwNDVHSjk0UkhRclp6MGVJWXVUbEltWUd1VEV1NHk3ZVNJUDBzZGhzOVZSUV9oZ3NIZGFaLV9hWWJtNTBybUpwNXBJdHF0dXBZU3F3dFV4Y0FwLUFfMGhST1NBeWVTLTdrbGc2SmwxdmJtWmFLWnRuWFh3Rmd2cl83ZVQ0YkVpbmh0Zw?oc=5",
+          "pubDate": "2026-08-21T21:45:30.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Diagnóstico de la economía criminal: así fue el Foro Internacional de economías criminales",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZkpiMVlRdlFiUWlOdUJDLWR3cnFHMk5BckEwa3JSbmExRzBTcTRuRV93OVlETEQ1TTBOcjd1akRoWXBPT0dOdExSU2tSbkw1YWFJcmh3Ry0yQWNGM1lzY1liVnlTcWVrSFVOMExaLXo1dFlBbFpyajR0VE9VQU4yVnlmLWdDMFdLWlVPQ2U4ME15Q3ZZLVRfMFZmTkJOQjZDWUozSWRpOVdzeThtcTdpS2VpRHd0VUVBdGprc0lnd2lLcFRBRnfSAdoBQVVfeXFMTTRvd01pTGswemhVRHhZTzhESWdnU0FaSVRmZ0pHOHlwSEZldi1yT29GWUxtdVFCeUw0VENuaXd5Qm4yMk9ZVHpQRXVMUWVWdUlOUFoyWTBjZjVaTTljYWNHX2R6OXRXWjlZWi1WYXEtRDBzd3dIcERkNmpDVXNNeVVUNV83cFpsT05EZmFIZ0tqTzR4bXFBZVlRc0RzX21lUFdXT21lOHFKR2ZaT244TlhIbmNpckVZeWVhWXJDRDAzaW9jTlFkTENScmdLZXdqa0ZsMFI1M0ExSXc?oc=5",
-          "pubDate": "2026-08-21T00:20:28.000Z",
+          "title": "Presunto responsable del crimen de su compañera sentimental en Bolívar fue enviado a la cárcel",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ0FUSEM2SzNpZmZEVTJ2dWpnWmZuaFJ6UEstTXNWUE1aNE5aY1o2QUhiQ0FPcGpyWTNxcmRPd1JsODVXNWZYc3E5VjVpNk9sZFRFSGM2MDV3X0YzY0dMMlFSVnlvMkY5bXV1blJZMlEtb2M1N01SUklzUm5nNnR4ZGlveF9yZWJ2SzBFQnZCdi1XOU43U19CMWlIM1JienRJQTFhV2dHVGFISVpaLXptSG9fYm9oVFJDQ0NBM2RrTWNJV0g0amw2d9IB3AFBVV95cUxOQVp2NWpvZFowVjBiaXpDWVd6VTFHZ043MFgwOGczWEJ2YkNVdW5pS3FoeU1ydVlHUW9ZN1dtOVZVekZIR2FhcnRVSE9Ld054a0prZFZ6a2ZoTWJ3SE9TaVZBT1dqSTdfTEpTaTh3ZDJKYVFOQktNUFNiMG10Qi1sNG9LNVBjUGFzT1FtY3pIYV9fZGdnWXVPaXVETjRfMFQtdUY0dWxzQllrNF96TVAwZHhoNnV2NEtpZVdBSGFOZEh6TGdsdDZQcWtIZEZab2dQX0p5NERsRU1ScVpB?oc=5",
+          "pubDate": "2026-08-21T21:03:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "JEP revela detalles de los falsos positivos en Boyacá",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUnBlTzUtZUFhZUxIajVMNTVzS2NuT1pnRXdsRWdYalpXVndESE9RUE1WRGNiZzNOZS1ueFdRN0JIQTI1eFJsMDlveGtHOEZ1OWV3UWtmWFktemJiWGRvSjdwWnJFRHRwbC1aYVcyb1lPRThzUUJ5OGgzcjhNMUlJUDNJa3ZWSDNBblEyWFE3c0d3Z9IBpgFBVV95cUxNd2t3OXo1Sk9TOWlzaUNHNWlrWWdFa011VFFlSmdJNWk2YU83TnRxUndmZjROcFhneG1wUEp5bnN1Wm9xYjVhOHFhdXI1ZkJEQ3lBSHd0cFgxdFFUUGZ5NEo0T2dzRDlLRUJGSkxyOWRzTW0yNHJXVkxNc0s5cXdBSkF3ejU2Q2FxT1Y0QUFyUjE0eFFRR0E5aHpFLVh0a1VxNldjQXN3?oc=5",
-          "pubDate": "2026-08-20T23:51:04.000Z",
+          "title": "Buscan frenar el grave impacto ambiental que afecta a la Ciénaga de la Virgen",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ0k5M3hhNUVPam1NOTRzZnVQeDJvQUNxUjdONXktZjc1Vzh0dkd5dldaaDBzbk5aQnppUVVEWGJLZjkwTmFrUDlrX3l6a0dKdXJaQmY1SzhqMDE1dzZzMV8wXzBrb2tuTWZXTTJEdDhqOXI2ekV1c1p5Q2tjMzB3eV9BOUFIaVJPUzJnTnhfQlJWVU9YNU1DemNseFZrNnJ0WVc2dGM2LXR0RndwWVNPX0tn0gHGAUFVX3lxTFBSc3EyVTM4Qi12MFExQ0VlNlh3d1dKRDM5QU04UHNEQ0JFQm92QWJLR1VlcFphNHh0UWNLOGlSa3R6eXJlc0c1NmNtQ3BmRW9KazhJNHlfRmF1cTRFY2ZVQUIyQURPNlAyUEJoRVdKN1NtTTVtZkFHNmVoTTFVVkhjOVN4MzMwYm9jakZaeWVaY18xd25mektpZzhlemxKNW9XN2hmWFBDYjExaUJzWGpUU1BsQmV1RUptdmhwUzBhZk9OaGlPZw?oc=5",
+          "pubDate": "2026-08-21T20:52:34.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Estos son los generales que saldrían del Ejército tras la conformación de la nueva cúpula militar",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRFlCOVZINFdZZmZINm81TWpfb1ducmxVN2trMnJJcFpvdFVPejZVaFR3Rmp2OWN5OWtQVC1iTEFUS2dWb0lHRTB6cHo2X01MVVQ4RElpd3ppRUpIRmFSS0J5T3d3b2pyb0MwSnpfSGdfWlRqMWNTM05xNWpPNXVDUWtHYkVrVVhiZldCd0N3UGNDcHdsMzAxVnlkTHpIWUdCSDY2Zkx6cnpnU1dqOEhDcDZWeULSAcgBQVVfeXFMUFRjcnYyMFVlbmxvdGE1aDRnSlZmMFowSDRTcVEzZDRJa2NfVUpiamlNMFV6bDY4ck12WjBSZzBmM1FCQkVBai1kNFZWRml3c1RDelRyMGtERnduOGQwVEUxV2E5MUxIM3g1TDdCVm5iZE9YdUpEeS1pVEpIVjJ6UW1hNE96Ylh2VFo0ZG5pZDFqZ3RTa01vTHpCLTBPOWVQYmh6MVpjekJnTXZnTU1CbmdGSWx6aGZMY2w1UTBCbU5MOFo3VDFpLXI?oc=5",
-          "pubDate": "2026-08-21T00:05:26.000Z",
+          "title": "Lula y Trump sostienen llamada telefónica para conversar sobre aranceles",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSTdQZnluZTAxc3ViM21GMFA3YXFRaWZEMWFnQU1WdDlKWmdWS0J4WUZJNVZVd2xjbUpjRHQtRXBtVUtnZXY4eFh0UXpEQWtrS0hOdTQ5eUlfUzN3Y1Qtakx0WXBBc1lsTUEtb1JYN1UtVUNTSzR0blR3ZDh6T3pfYnM4SUNpcjVCQllGWGQtRXJKNnBNeDROZk5lcmxCSE41NzdUMXJWbFFGa0XSAb8BQVVfeXFMT0hhTmNHOXNRdWFFdDVQWXA5RU1YS0ZZWjFmZnEyMnZyTFpSc2MtWVNxVTk2M3pRZ0YzZk5LVVVYQ3FKdG1MSWMtRE12SFhkWDM2M3RpTzNHWEZYU3pOLXhYSFk1cTNWSE1FdXE4dzZ4ZWpsd01xbUtoajd0U25vTTdfaTFQZV96a3VmZ1BfRkhwNzFqSmdnYnhIM0JLVW5rWlVtQWpwRkZUeVFjR0U3ZlFvQkdNMlV2X1g0blpRSk0?oc=5",
+          "pubDate": "2026-08-21T20:45:40.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Con más de 150 dosis de marihuana fue capturado un hombre en el barrio Nueva Colombia de Magangué",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWFBQX0ZVSkZjbHotY3RPNTdEcm15TFlJM0RieDVGMGRnbkJiRFg5QmtBS3hIcEgxanJNMDVMRC1EMkFTQk1OY1Y3bzJlYVVnM196S0Ytc2dHVmh4X0ZnNEFfNEZ6elZVOHBUQ3F4Wkg0dXJNZC1HSGNmZVRqUmlzNkJEdVNsQmE4NF93TndoV1FUY09hYVJseEJJR1dvdTZib1dhU0hTRlp3eGtvanpDM3Axa1Ewd1BqOFpEcFN3Wk1nSHM4S3FsSkhmekXSAeABQVVfeXFMUEZaZXZNN3RzSTRwc08xdWF2ZUktVXdIcHdhY2tZSHgzazZJSVVxSnNOM0NzZmZXd0FkdWtnZTNfUVJ0N1hBeEdPV3pWdHBLLU1FM0FpVEpjY1JBQkp6VDhnRjNpWi1uMmU3bm9PbHlodGVIWmJ2cVgzdWZaQXNCVUZDRnQ3Q001QVVXLU04WWUwS0c0dnY3QnNpNzNLUHIwOUJwcVo0WTIwdklKQllVMGNwRHZaSzlUOTVxZ2ZhNHdKa2cyNDVmQWhnVlFLMHpjMDBld2o0dzd2M3ZhbDQwdjQ?oc=5",
-          "pubDate": "2026-08-21T08:41:49.000Z",
+          "title": "Habla la ex vicepresidenta Francia Márquez",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcVhPMmRfSnlnYXB3RHZtYXdDSnNpeFlocHV4Z2lkNUJLZ213bmd0UkNlSWRKay15X3FXc1A0bndSX0dCRm82bVhvZWRtWjdiNVdkQjk4Q2FSUWxyOXBWM2dmamdjUzVmQXlteGVRUDVCLTNBSjI0UEdBcFhNeWdqVV9n0gGWAUFVX3lxTFBsYmZqd2VxbWpJS0wyYmNTR0w4cFRIMWdpTHBteUItRXRIaDhSSC1Oek90V2hZMlhCWWZ0VV9VSk9pS2VXN1RsdXAxZlBoRXlFY01lQzdrQ3BSYU4wQTlBYW5rT1ZRby1yY3M1eVVNeHp6eHNQVUhfcHhseUtKUER5MElRejJJRWtMYUNXV24yRk4tcnhkdw?oc=5",
+          "pubDate": "2026-08-21T19:52:56.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -287,46 +270,24 @@
       "color": "grey",
       "items": [
         {
-          "title": "🚨 Trata de personas en Colombia: los desafíos para proteger los derechos humanos 🚨",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd3lOVEVIU0JmbEtkNUxCN2dQMklLOGZaZ2pfbV9CTHRFTlR3Zkc5c3FTQWtKVWNuYWMwcDhWcV9uQVdkNXZOSWtZZFNJVXBKa1RVbGdhQzZ6SVZaVEtxaHpzM1M4QjVJOGJVWDRRMFhNQVNFYnkxaWt3SWQyMXU3TlNaNWk5SWxKWERtNTRMRkZteUxlTmhYa2UwZ0tDdnRnaFpfd1VCWTVxeWYyNUVLeGRTRGRzRFUyVHprRFhQNkpoSjlYQjhidUZtWDhldEk?oc=5",
-          "pubDate": "2026-08-20T21:15:44.000Z",
+          "title": "Donald Trump indica que \"suena bien\" intervenir Colombia; EEUU administraría Venezuela temporalmente; Informe de inteligencia alertó sobre operaciones de grupos armados en la frontera colombo - venezolana: Noticiero de La FM",
+          "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxQREhwS3JVcThRdUxwOE9YQUI3T1pTVnFuM1NaYkFpSjU3V3FkMWFLaTY2NHJrMjZBWWVvejFrVjN6UFo0Qm9kcEx6T3hLNzFTcUZpOC1CMUR4U0Jwa0E1dzc0UkFNY2VCSXpqcTVweFZOVUU0eXhjUEFyR2E4QXdmZF9jWTZOcTZaQmdTS2VYbnFSU1JOS25sVWlQd2xmNk1YQ3N1cWlkTjJ6SHl1czhHR3FBVGQzaWRBeTh2UnpJT2UwNXVPUkQyd0U5UVJ5cW10dUVjc3UzeUJGXzlrR2FGNE9SNDd1MzNqNEZYWFV4MmpKRXU2S0psMi1YTl9nZ0FUNnNuRmJyakVHN2ZIam9mM3RXaElXd3dPUTNyU1NkMURCbHJTRTZtb0lRSmRwS2NhcHFLc1NvQ1Jacng2a3poYUVrNEg3ZmlqNlVFUkI1SnVnWTRLQVFvTWNMNkQ1NEotNS15aGoxRW9GRWpCV0tJVUdTS2tnOEFDNFAxcmRFMWMzbTEtQU45MlJR?oc=5",
+          "pubDate": "2026-08-22T08:42:55.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Carlos Antonio Vélez y sus Palabras Mayores del 20 de agosto de 2026",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaFpfYmNkcXVYcG1BbU81TUtFbmQ1eDNISGdBMjIyd1F0RHcyVTVjYTREcWhHZUpyV3NGTktRb2FaUU9rTlFGWHNSYXg4MXRZRFBUbmVGZlE2RmFfLU5qTlJuekFsaV9NeEJGQ1hCRjQtQU5lNGFLYTFITnJqXzVGTWh6bWt6ak1QYXdVLXBNa2N1WGtHa2ZYZWtkT0hLMTZLWUtoZTNlOXRFcWh4al84OGs3eXlVVlRHdEJLaDJYYlk?oc=5",
-          "pubDate": "2026-08-20T21:20:23.000Z",
+          "title": "Trágico fallecimiento del cantante Yeison Jiménez, vacancia judicial termina formalmente hoy y entrevista exclusiva con el expresidente Álvaro Uribe: Noticiero de La FM",
+          "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOaXBuaUd0djl3VGdhLWFuM2RZdkliWkRoaFVXVmQyTGhURmxWdDgxdE0yNG5HdWNydGdxYzdkLXpudUR1Q3g3Q0xMWGVFZ3hPN3JYejNMemxROVk4OS15QUNVTHd0NkhFa1piMHdKN1ZXYzFMUWtfQjc1U1lJVlVYMU82SWl0RUk3NFR6aTJiOFZZc1h4bzIwcjJkblB1R0xHLWF0S2R1WDIxRlE1R0V0ZVdtQjZNSnU5NDFCWmlkOFpGSDd6MzVkSXFzVGJ6ZXdnd0psbUFTU08tZ216dHJNZ3JfakxOV0szQ1VOVmZNdlRQY1h3cURNZW80RWF1TFBCdXE3STl6ODlENngtWl9TNmZNcDk1X1ZUWV80VURMM09Gdk45dzlRTnlQUWtpbmZSbHJrbHA3QlBwYWJaaFlFbzBMSzVqdw?oc=5",
+          "pubDate": "2026-08-22T05:39:45.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "¿Cómo saber si un edificio es sismorresistente?: Esto dice la ley en Colombia",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTThtOTBFSWFGby1zNHVPYm1WUkp6SEVfMjktSHBZQTRGVjk3dVdORVE1R0RNenZ2Yi10cmttcGJxSkROUUhYb0hYVmlVOW1jTGk0WUs0WTNheHg1XzRPaEUwanBKZDBmVmFpaDZPOVBXV1pqb2sycjVKMVc4emsyLW9xRzJ3VkpSbV9yck56VmRULUZNNmROVmg0OEtYVmNKSnlURl9DY1F0bGZUbzZUU18wcw?oc=5",
-          "pubDate": "2026-08-20T07:37:44.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "¿Qué vehículos NO tendrán que pagar peajes durante la emergencia del terremoto en Colombia?",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX0dfOFNhWEF4MUs0VjM2TmhPaVFfUW80RUNPUzVZRGZWVmtjeFNxRDN6NUhjRUd6aERaTXN0WGdGTnFpTWR4X0xMVHU4andZbE9PdGtzaXpYZ2I1ZWxkci1vbkRqZ25XT09PM2VGVnA0WFZWOHNmSE5MRndBcklwdFROdlBqUTFNU3lDdlRrZDV5SWZ4QmkzeDJJZnc2Zld4SU5fVU1tRXVNdGI3TDhOenBkOFNjMkNwMjI4LTMweDJDaXFOajdF?oc=5",
-          "pubDate": "2026-08-20T07:35:44.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Nuevos cierres en la carrera Séptima de Bogotá: ¿Qué desvíos podrán tomar los conductores?",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXdTN1pfQXFsQ0MwUUhSRHg4TnVVVjJSMGVIbkN3SGVhS0JNSk1vLXhnbktDUlZ3TzhGTm9EdGhUbjVxN3VqMzY2QlM4YTZUU3RrYXNaNnV0ZEJiaUJtRExzS19mdGt5czREMzZzREdGZDRqbUxaY2dEeGVKT1lNTEE4bjF3VVFlbTZzajBMNmdTaUxuNXNBWGItaVRuTFoxVWtseUVuS0U3M0F5akhyb2RSOUxFOHhHSlJFVkZkNk9vWnZV?oc=5",
-          "pubDate": "2026-08-20T14:44:03.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
-        },
-        {
-          "title": "Cámara de Comercio de Cali inicia censo empresarial tras el terremoto: así pueden reportar los daños y afectaciones",
-          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxORUhUVHpEMEdpa3JablVTTTdCZGs4cTFVaTJFX1lVbndyODNtdkVnejdWRXpjOXRrekk5bnhtMzNKTzNNU1A2eXRKS3hTUzJKNm9vWGxtNjd6RHJOSDkzVkFhLVliZVFtRVBtMXdkV2N1cjRDMy12QVRTWVlSblVaRmlsNDJMQV9ySl9WSWtNOXhxMjhHUXpaSEZxRGZ5MnBGSUVKekgzbXJmbXUyVFNJNzlxMmdjUko0Q2hvRU5YNGtPOENLSnFJUEFlS0owckE3RWNWVHV6VlIteDdwcE1mLWNpX3M4aVZiMmg5SzQ4ZXZTbDZFaVJNNUM1aVk3LVh4VUZiX0VSeDBHX2VGSzFsbkRQOA?oc=5",
-          "pubDate": "2026-08-20T08:16:58.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Tierra de Sueños: Colombia acoge el Primer Foro Colombiano del Algodón: fomentando la cultura algodonera desde la semilla hasta la moda",
+          "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQYVM4cmRBY3Z4SG1vODRObHZoYjFIU19DeG1lbmVTSXhsWnV6NkhxT2N3V3E3OWRqU2hKTzBTN2xyNk1XRzRKUU9GLWxiTTNJamhfTW5tTmM4U0FQUjlWVW5mRUYtQnN4UmpYaW15b0FNcGQwNzhkSVhDWmc2TndKZjliSHFzMG1Td0RDN1UyUGxEdlpnTVlWSEVCLWdyTG9aMjZRSy0wZmJ3bExUSUhzekN3NDFMaWEtSGJCYTdzbGxLMXBYN2NYcHlJOVlhNzJFZzhBc1FSODZVcUxGMTFzTm1yZDZPcmMyQ1FDb1F5RmVtcEl1WFlEMlJ4eDhVQmU0YS1FQmlzX1haanJzSlNCSmZzTkFtVTg?oc=5",
+          "pubDate": "2026-08-22T08:09:57.000Z",
+          "snippet": null
         }
       ]
     },
@@ -335,23 +296,21 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Emergencia económica por el terremoto: ABC de las medidas que podrá adoptar el Gobierno Nacional",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPaFJueUF0MEJaTUtVRHBranppVXJua2hocG9kdjVqUTJWRXd2bWlvUi11dkhyRFhnVWt6OFY0ZVkxTXdZRVplSkJUZDBabEo0N25CTmdPMGh5WnJsSnYwYTgwNGp2VnVnTjJRVlJoeVB5ejB0Z2FraEk5N0sxcXBWWW9XTUZ4N19iRzZpZVVPN0U2Q0w0NkYxUGNobkNFeHdpbXMtUE5qT3dCUXFLLVhNN0F2dFh5LXI5NnJiaHQwQUdBdUVxV0wtQmNYb1p0aXR6dUNnUEpjeUQ2VGlSczNz0gHkAUFVX3lxTE5YZDRSZkY0UUpFcDNMdGl6Wm1QMDR2VGJRYnNBcGpvTU1TMl9yUXVPZjNNYWRzd0VBNnFKdEVkQmVhLThKY0hCZjE4Q1NhOG9xSnpya2wtTFhQbWltV1B3X252cnl1SEFzOVdkRHBtUHUwbHJHWVNybWJPRVMzZW5wWnFPOEJsRk5aZ1hTWm9QaENUYVpoNHNTNDZ1amhoWmVJOHhkQTFlbzRfa3BPcFQ5YVFENG9naVdFRGJYcmgxaGc3MURyUmswV244LVhmVmkzalVmdHd0eVVCOW12eGpmMENYUw?oc=5",
-          "pubDate": "2026-08-20T10:00:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Datos e informes financieros sobre Mapnova Sas",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TVkJzVEJDdUpMb192amp5Y1p1MC1vck1YVmM4UUlCX0R1eGxCMVRETHR2MWJVQVkxaEEzN2tWRHlOTkJsSUdjUHhTOWw2SmFaUTFyRmtRNy1fMkk?oc=5",
+          "pubDate": "2026-08-22T06:15:09.000Z",
+          "snippet": null
         },
         {
-          "title": "Banco de Bogotá desembolsó más de $5 billones para financiar a las pymes del país en 12 meses",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbzNldjRSVWp6YUIwZktfaUJrbVB4aEZoNDdPcEVQRllHZHdZMVdCTEk1Tm5fck85dUtFejJnNE9OZW1vX3JlVVZvMWg0QXppREhYbmw1UHFiNlFueXYwaUoxcUMwNWJUUExWcU10OW10cDFHNE5Vam9wVGp3eTIwenBfcGkxWWw3cElZYm1OZUR0VF9Hcy00RmJtVXlhOE50Mk9DLW1EZGRPdm5pNlZXaWNTb1h5NHJTb1Vvc1o0Y0JITWhNYWRzQzJ5QXdscllUTWstWXFza2FLdG900gHiAUFVX3lxTFBFUXZHQVVGUXBwaGYxYzB2SUxPRzVtWFZubEl0NjFaWUNlWk5MakxldkE1UTVxOUpMaUNneUhFWXdZbXh2bjlfX0ZTYXpEaEdhM1ZNdDV3OUpMMmVfU3E1WUUxSmlmVjBMUE51dVBJNUFCV3d0Yk5IN2N4UFU0bG1xV2E1eHZ0cWdlZHlEWS1IcVpONlpTZEhpTFpRMF9BSmxFbWtYd1BkelpGV2xWY0RMOFBudzVlS1d2NUZKOXF4VURKMzBSZVBDR3NUejNmbjNlT1Y0eGNMY2tHb1owODlTaUE?oc=5",
-          "pubDate": "2026-08-20T23:37:02.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Datos e informes financieros sobre Inversiones Tuscalusa S A S",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1OTGRxdmxuUWduSTBEZkhJMk0zemtWWTBjTERIZWtBY2IyTVZsb1BXWFR4ZC1tcl9PSG9rVmdnbGN4S19tZUI4QmdDMVVMNkVQUHM5QkdDMnZWMWpLSHdtSHAyS29PcjhobjBzaXpR?oc=5",
+          "pubDate": "2026-08-22T06:15:02.000Z",
+          "snippet": null
         },
         {
-          "title": "Magma entra a vehículos híbridos, eléctricos y Reev",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTEdXVGttaHE4Ym9wZkx0SzFoWkgyY3hobVdZVTYxQ2lydS0waFlrbHNEc185SUV1NzBRcEZ6RzJHeGMybVpLU1ZkS25SN2I5TVdRSEtla1pycWltdE5CYnlDMktmMmdZczJJN1FCNHlZWXV0a2s4WTRldTFfTXBVcVZDQktUYTZ3d0o5ZHQydlhsNXUwM3BkME5oN0tCNnJOM2xmTXRfOWjSAagBQVVfeXFMUExHV1RrbWhxOGJvcGZMdEsxaFpIMmN4aG1XWVU2MUNpcnUtMGhZa2xzRHNfOUlFdTcwUXBGekcyR3hjMm1aS1NWZEtuUjdiOU1XUUhLZWtacnFpbXROQmJ5QzJLZjJnWXMySTdRQjR5WVl1dGtrOFk0ZXUxX01wVXFWQ0JLVGE2d3dKOWR0MnZYbDV1MDNwZDBOaDdLQjZyTjNsZk10Xzlo?oc=5",
-          "pubDate": "2026-08-21T02:26:14.000Z",
+          "title": "Datos e informes financieros sobre Suarez Herreros Inmobiliaria Sas",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53Y2ZiU2N2Qld4emV0ZV9sdUxjaUpnRDdkRU9xOU9qMVc3aGJVUTJianp2X0tLQlNRWVZ0RTlSNmlyUXpLUUZCS01pTzRjbFhYa0ZjZmVWV2c1UVQ0Y3MwOHBGWmw0UlVfTkVIWmVfNGozcmpkNXI0?oc=5",
+          "pubDate": "2026-08-22T06:15:02.000Z",
           "snippet": null
         }
       ]

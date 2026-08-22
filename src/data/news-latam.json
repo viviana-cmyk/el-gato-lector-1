@@ -1,21 +1,16 @@
 {
-  "generatedAt": "2026-08-21T10:31:31.746Z",
+  "generatedAt": "2026-08-22T10:24:37.926Z",
   "outlets": [
     {
       "name": "G1 (Brasil)",
       "color": "green",
       "items": [
         {
-          "title": "VÍDEO: Ladrón usa vara para 'pescar' y hurtar encomiendas dejadas en la puerta de empresa en MG",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbnA5Q0ktTy1FRDc2NDhqck9GS3UweHB0bEFvRU1GWEh2NmEwRXpmeGVPNXo0T3F3cHVxV0oyQjB1YmYtQ2JLYkJCSXJJTHBxR1BRa2FlbjlXcnNaeGFrMWQ1WDdzMVVsZVpQOXNvOXVpTkxrVDlFZHdWbTY1cDRKRHVTNjNxY1NkS09qY0R0Q25xZkpLMTFvZnRLZlB3SWs2MEctTDJ4M0QxcUVuTzRPUC1sSnQzV0JrdTF1ZEJ0VE9BYWtUODMwZUJkZmJOLVgxYWZSOURZTWc2SlRRQVZqOVdTbk51Ty1Tazl30gH6AUFVX3lxTE5PV3RHX2hUZlBYSkZWQzhMekJQZlpHZlVUTzE3anRpNmhVek5NQnE4STlndDIzNXBsZHFhVlZ5aEVLWkJfbWJJNFZDRW5iZzE2dnhCX20yWGNjUlhOWjJvVEl1UDZ6REVUYmczOWVDeXJHVHRNc3ZnaFl2NEVvVkgwTGlFdlJPQ0FkUFhpYjZ4cHBjcEM3MzRveW8yR0NaRVJRN3lGazZOdXJUYjRraHF6MnZHcG9tZkNtazVLeGRzem5zUGd3bm13Y2RzdERFUlM0QkhSRW9OS3QzNU1GUnZFdDJSYUZFYTc0UDBOSUdfY2IxemZybWFrSHc?oc=5",
-          "pubDate": "2026-08-19T08:03:05.000Z",
-          "snippet": null
-        },
-        {
-          "title": "Hombre es asesinado a tiros en el Loteo Recife en Petrolina",
+          "title": "Hombre es asesinado a tiros en el Loteamiento Recife en Petrolina",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSE9fQjVxRGw0VkhDT3dxQUJaeWllOW9GRDFNZ0lTelZCSlp2bWZlSUd2Zm9RekJlaUF2MmF0NTNwSk1NZHcxMUJ1TFlDQS04RUUyOTRwNmpZVkdCc0lTdlp1N0Y4RE5fblBKQmtsSXlNTDRScUFNUGtGUXlDcUVGLUMzLW5PYVpMVFVUOTlZWWlTYThSLW1iWjU2U2MtekdqdWFfOVd6VWdGdm9MVjFKUjlkMXFIODJJQXR5WDln0gHMAUFVX3lxTE1HZ092ejZISFlFRDhRMUU0bVlBQ21xMTNIY2FxY3NXamhYOHJWZjBvUlpJSGV3UWlvYi1Ccl9pTFhjOGtKMkx0RjNjUTV3N1hiM1N6WEhiUWhHWmhYZndSOTRHOWV3SDFlcC04Q0JTbXQyWUFfZFhjRS1EOWROZHMtNXgzWVZTMVVwdTlpalh5d1lsSXlfWW55UkpWaFc2R1ZRZmo2a1NrNy1wUFk0cVBCRERMREpnbWdTeDliM3JTYjlzTnhUbGlMVEdXRA?oc=5",
           "pubDate": "2026-08-17T13:24:54.000Z",
-          "snippet": null
+          "snippet": null,
+          "_priority": "ALTA"
         }
       ]
     },
@@ -24,24 +19,25 @@
       "color": "sky",
       "items": [
         {
+          "title": "Expectativa mundial: Trump anunció la importación de 300.000 toneladas de carne sin aranceles",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSmh6X0FBakYya2dISklKdFNRSzBmNnBjRWdsTFdkckZScTluRHZqUFpvTTkwQkpLSTcwR2lGRERpcFBZZ01fX21xTW1zZU5mYjYtVDlOdVowMGlfZWVHZGZzV3JIV1oyNFpyWlBzV1VyZHdKUVZUZ1NzYUNhd2VoWGQzY005OVYwQXUzeUt5RlFwdU1xSGxUMzhYWDROemhWajVkRmxoSGEtaVBiTHh5ekp4U1pwbThldGJMNzV5Q3JnR0QyTXdwZy1Fai13UHVRNG1JWkNQM3gwWV8xZFAzcHlXdw?oc=5",
+          "pubDate": "2026-08-21T22:08:00.000Z",
+          "snippet": null,
+          "_priority": "ALTA"
+        },
+        {
           "title": "“Súper Niño”: adelantan que el fenómeno será uno de los más fuertes desde 1950 y dónde ya hay riesgos",
           "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSFJ4cHVRblJmWlN1eVdrWXJBTUp4NjduOWNUaUx2SUxiRXZWYTc2NThNeGNiTFR3aVNaR21hVURGbTNNa1duM0JKOXlnajRwUjZmTFJHbFl5WF9xYWszaGxZbThrSERfa2syRm5ULW9nTmZqeWNlQWJnNF83cDhXNGFFYjgtSTU1cjJBdEgteFEtSEtPTmNPdFVDeVZqMmg3R2I4Qk1IU2pVSk04UUJBamN2OFRLcTNvMFdpZlR2VGp5YlBFa3NCSGd6UlBESURNRlR2VXVFMWNXTnNWSHVOMDB6enl4WmpwMEE?oc=5",
-          "pubDate": "2026-08-20T23:34:00.000Z",
+          "pubDate": "2026-08-21T22:08:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "El Big Bang en miniatura: científicos logran recrear el inicio del cosmos en un laboratorio",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOM1BjUXVYWHNVQUJpUjZCVkpXT3lOMlNNNnZDbTVQckZlRjFpZUJEbExWX3FsT2gycjgwU0lhNVZ4RE5BRnVRX0l1TW5QeGJnUDNld1VmUHFpcFN5Y0stZnB6T1BXbXdKVzZQNVRpeGFlNTVpaEVEZGVRdnhxUVZFWlZjeV9hVHI1NndFTUI0bkVBcEQyRDVrZHpOdmplV25tLUtOaTNxT0ZzbGhDYlEwZUYwLVg5cXh5M0tvd1FoMEpiQm94TnhBMDA5NGlGRktfb3Q3S1pR?oc=5",
-          "pubDate": "2026-08-21T09:22:00.000Z",
+          "title": "Debe casi $16.000 millones: Lácteos Verónica se presentó en concurso de acreedores luego de meses muy difíciles",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPQ19Pek1RaHZLeHdtcHFfTUpTVlJHQUxlTU1RU0JzZU1kTGtXZDF0azBuRExjRGU5NmtldC1yS09QRkhuSFlUckpvcDhwcTdncWpfcnpJNDg4VkVUamVaQ2NIekdxU2kwU2dVZzl1Z2N4SHBuYlVsTE51cXMyVGtTeS1nVzlKRVF5bHZ3QWt5NUl1RUhMdUl6M2dtRUdkX2hZQUpteFpmXzZDMy1qUjhMeVc3Z0ZfX1hhWUpEQVk4UjNLaUNEOHpBZV90RldrbDBoX2Jtak9DQk1kblE1SDk1SmxCTjJTQXFicHc?oc=5",
+          "pubDate": "2026-08-22T09:34:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
-        },
-        {
-          "title": "Noticias de Cine",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jM2FQY01CZ2c3VkNwNXpJX2lOaVZRUzdPTERLTjdRQ3hZcEFQQ1REQm9zR2R3Z3VOczVnZnJTRmp3UzRWUFdMMEhLdXlwbkhXSk81akFHaVE0dw?oc=5",
-          "pubDate": "2026-08-21T07:24:20.000Z",
-          "snippet": null
         }
       ]
     },
@@ -50,23 +46,23 @@
       "color": "rose",
       "items": [
         {
-          "title": "Terremoto en Perú deja tres heridos y daños en infraestructura",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcWFMTDdfYmdrc0JfdVdldXBfTFZSMEF6MDZabnBWQ2J5MUJNS1BhX2pORVNGSlg4ZEZWQWFmMUYtbUtncG9DMEY4eU11dDAwa1hTVEJ6eXVJWHVIMy1yZ0NwTE00YTNpcUFMNWJMUVhtczlOZldxMXRRVmFTWGRQUFBtaTM1dFhSY244aUhkWndZQdIBpgFBVV95cUxOU0NZRDFTVHZlLUVtU3Z1TWtqbVVodHFHV0oxWjlUYzBwanp4SlFYOEJNVFVSRDRsSl9zT2dTdEQzV3o3LW0wS0x1M0licWszQW9wMy1xbjhPRTUtM3NFTUt0UVE3ajNhZ2lYMWNUNy1icjVFS09ETEpkVWxEVUR3UGZfWlBnUElXNlhJOGJFUG0zak1VRVJXVnJfTTQ3aVpKTU9ENDhR?oc=5",
-          "pubDate": "2026-08-21T02:55:00.000Z",
+          "title": "EU dice que Cártel de Sinaloa no podría operar sin ayuda de funcionarios corruptos",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNSEZpcjJ2NUtjckVTTWNRSi1wOVlJeDA3cEhadzFFVjNiMWFsdlBDa05ER3VYSE93U3JiN2ZJQ004Sy1XeTVyWk82Q0JZb2NmM29jRndYRjdLMDJxVHFMMU1PWmRQbmVVSUpocXBZZ0xXVEt0UHVJc0NiQ2JBTnpiMmJURzU0SXlKcGViZmFsV245U3dkR1lZQk4xb1JSY1ZBTHBMTGtEN243aVI0TjF5T3k1UVlwMVhCSml1VjczSVU5T1lWQzZOOXBvbGxKQ0dpZ0NTSXVCMnhlbUVHOVhWaXdQdDQ0a1p2NktBaENOVnVrRThEWi1UOdIBjAJBVV95cUxQOGlWdDlweHBNN2tOMUtyVFpFQkFOQTdna0JaZ2c1WVcyQmdJU0FvWTNOX2t3UlUwenA5VlVvN0RTMlJ3TFlrMF96eWpnUkQwSXFrekFHTGdqNmxpREdaQ2JRa2tLblEzUkdyYmV5b0xsWFk2OHNfb1NHRTBqRWtkQnh1bjVfYkxfaW1sNUpUNm9BUm9kMDBSUGVDSWxyR3lSOWpucFRlOUxzZDAyc1U4U1N3Tzdjd1hyTVhYUEYwVklycnI5Y1ZEMkliRzlYZ1J3a296WmNlZ0YxbzRsazhqWmFBQU0zVmwwOTNNUkVfRTdOV3NNNEZuV1VRc21aQ2NEcHRvMmlXUGlBelJo?oc=5",
+          "pubDate": "2026-08-21T23:40:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Quedan suspendidas 2.6 millones de líneas con terminación \"0\" por no vincular datos",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOeEpKSGJRemtjSjFtMkRqZTlOTzRMd19TM0ZfOVo1QmJJUWhUSUlXcnk1NHFoUWpaNXhoUFI5RmRqblNOWjhFUXlWV1Z4SkFFalJ0ZF9PVklSUnVUUlZ6N05uRVpDcmEwYkZ5R2Q1bjV6d2ZhYmJoaExSRlNpSzVoSEoyLWdXMDZxYUVzRWZ5bGxBaFI2cFdoWVZFQTNTc1F2c01VZjJwZGl6MmIwejNVa2QwTE1OazM1eFNwbl94cXNDMld5MjBHemZfTUZWMUFvSEVCYnhQTTBMSS0yQy1CMTJETDdpTW96c2lIbnFGMUdFTVF20gGIAkFVX3lxTFB3WlVyWkpXNTVET3dEeU1fMkdiRTdaaVlwbk5Rc2FpRjA1NVpMVVdaOHlOMVdxZkZlZjh1OTNKMktUU1VLSjVsSXdkZDM5T2RTRjF5RTEtSnE4Uk1qcG84T3JOYmltLWUxY1N5bVIxQk9iMlVtb3lzV19ic0gyNzJpd2x1U3JYRUUxOFU3MFhrTHg3N1dwRjBPcTNvZy1CLUVob2UyNHpFX1UxYk84akQ0UUVIUDNreU9fMHFHOE1jSWJWdlFvZ3JfOUlWSjlJa0V2dm51aXctQlpGX2lmdVZjTDZuWEcxcG1kVE1zQVlwcTZPOEk4WXRucG1uaHI2WTBhUlMtcE5ZWQ?oc=5",
-          "pubDate": "2026-08-20T23:58:00.000Z",
+          "title": "Morena se deslinda del regreso de Rocha Moya a gubernatura de Sinaloa; es una decisión personal, afirma",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSlp4Z1dUVVBVQkZzaVpObG1sNEFZRWxCa1pYaTJaRFI4cFgxa1ZMUkhFLUlzaWEtMGNNY2JHblpOcjQ2NVI2UXM4WndySXlhOHNIdHBOSkZoVGV1bWtYRHFuN203UHRyaEdHRHJVUEVPVkFmYjNOdm56THVvUlNZaHBDay1kcXNqQmtlQW5KZDNSREs5d1VCY25JNlRuSC1NRFlIak41cGwxcHk3dExOb3VFd1RDenBOZFUtamthUGgzckR6dHVjR01TWDNYbm1Wa2dmUURUTdIB6wFBVV95cUxQOFFMVnlaWWlSMndrY0xiUTBmUzNCUFIza3BTOUU5Vm95dGJMQVFESnlmOWdUZHQ1UEhIYjlhbEFLZjBXVENQckNkdU5reVhYSDRjRC1YV1VLcWFoVGttRVBBUUREamhjOUY3d1hfa25xSWNEX1p1aWYzYWR4eEUzbVlYR2U1NEltdWRVLU9jZ0J4ZFhaaHQteFVnaXhRNVBkdjVNVlBfbHlpRUQ0Q3loNlc3UGF6bmhNeFpTSmZ1TGNEN0tlakpFaGpDcUNycFJSQXdZUWN3eG5GT3FMUll6a3d5SWZwU3JiQmgw?oc=5",
+          "pubDate": "2026-08-21T23:16:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "La ASF investiga contrato del examen fallido de la UNAM; da 10 días para responder requerimientos",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZXhyMTlKOUoxTC1nQmFNMjA4S1MyUlBEVjhRZ2p5bW1DTHVuUmNuMmctNllWRTc3ZHB5R0tVaEZPTUxJSk1oLXhReVFUaE83S1pyT01aUTRucDN2QnRwdjNzc3c1Wk1kUTdoWTNrNnJyb3hTZGNOdmN2YndnZ3Frc0d3Z3JyamZVdlZQd0RTZE1xZHFpTk5ZRjBnN05Vc2RIV3M1WVg0UV96blRBV2poVklhQ3lDYVAyUzZiU3VXbkR0bTAwb09tbFdwLXBvT3hs0gHkAUFVX3lxTE01akpSWkU1eUdEWFg1OVROQUgxOGpOWVlrdExmVjJkQjk2TlVtbDRTQnE0Y0JfTkhPWXlsUlFLX0pjMEVrU0JSSnhfNnlud1lKWFN0enpuRy1Ba2p5cVQ5bWtsLTNtWFJBMEVTeXVpZmxScDJwZ1g3Rkw0NzRIYk1NdE1UUVhZZHVFMDY5bm96TENkNzVObGhtN2IwWUc5dUxrek90UEZyV0xhTHIzWkctX1NBT184a0lad1c5T01MZXNtLWlrcExQakd4RTkyRHdLZ3VmQ04xd21QWXRmcFJzYkJyMQ?oc=5",
-          "pubDate": "2026-08-20T19:32:00.000Z",
+          "title": "Portada impresa del 22 de agosto de 2026",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdjZicFhFVXpHQ2l0V2dpRDBUcDk3My1rdHRnMElWY19NRFd5MkxHRW81VGdESWNxMHZPaEhSeTdzV0VwZ2xsWTc3QW5lc0R6MjJZWXlWalZSZm04a0JtSk5HWHlvbGUtMjRhbGlFZy1lQk9lRllmVHhJVS1CbHhfMEdVQmJjcXR1aHJFREhKTWxMdw?oc=5",
+          "pubDate": "2026-08-22T10:00:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -77,25 +73,22 @@
       "color": "peach",
       "items": [
         {
-          "title": "Alcalde de Parinacochas pide apoyo nacional y regional tras sismo de magnitud 7.2 en Ayacucho",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOT0FCM193MW42bXVITzV4OE1CMy1uX1dLQ2ZTbVZpb3F1elBEZDg0SFphUjFiOTZlUnFHSEVjRmFCV2hIcnhrZ2twb1JqV0FhcHJVdENNVmFJWVBjVFBCdFpGMVhRTTV5YUY4UDZXTi14Y0Z5YTJzc0FMNldNQk1IeDdfWHdoclNOdW9ERGNrbmczaVR0S0dja2tpTl9WOFJrVkxyV2hBZDVZZDhXNVlObjlQT19ndHBhRTRXWlNlY1Vid2xqaUZmYWRUZ1NCUnducnBtUUVIU1A3THNYWGc?oc=5",
-          "pubDate": "2026-08-20T18:47:28.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Lye Town vs Lichfield City (-) resumen 22/08/2026 - FA Cup 2026/2027",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQS2dEUW1XVGM5SHhSSmxFRTdIdGJKR0VWa2k4blMzSkdyYzEyd3g4NXA5RXdrYWNXeHd4c3l1a29aS2pvUHBKR1V3QVJJMXlPR3RySWlIbVF2dVE1U3JtRnoxNHUwak5kOTVsZGNTWEd1ZW45c0RVOEppN29ycGZVQUFDRjhnTVdYRVE?oc=5",
+          "pubDate": "2026-08-22T05:08:16.000Z",
+          "snippet": null
         },
         {
-          "title": "Temblor en Colombia EN VIVO hoy, 20 de agosto - hora exacta, magnitud y dónde fue el epicentro del último sismo, según SGC",
-          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPTEJ0SnpKZ1UzVGxQT2JyeWlkSzJMaU1qNDJaQmlHNDkzcTg2SFRlYllHdDYtWmV5SzRBTEd2cFNaUzhIR0JvRmxkNUh1OVpXSHVWSWVHN2ZMbUFjZzc3ZFRMeDBNYXMwcnNnVjgxc1QyS3pIbUJlMkFzYkdVeF96TmF3NldiY0lGaHNvaWVhM3NBMEJpOTZ2R1lyZUhacEJESTMxdVNqWm41VDRXSXRRY1QxbkxRblh0VU85cmZ3Vm1DZVFvMXZ5d1pPa3NuR2hFVnVndU1mVS1pNWxBZklRenZKZlByekhKUUdVOGNiXzRHTlBuQnR6WkV2YjF5eDVwRnl2QmtNeThKaXN4Mkp2MkNB?oc=5",
-          "pubDate": "2026-08-21T00:30:00.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Biggleswade Town vs Tilbury (-) resumen 22/08/2026 - FA Cup 2026/2027",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOW5zZ1N2dDRZUTR5WFZfS3NockVDYU40REllbUpZTHRocHFIM2x3YmwtYVUybzR4bVhubTJHZ0F4YVZOLS0yaE1sMEdtRm9mNU9tQ0JkRjA5ak1fZ1ZTMkxISldUcGpOenFHNlhRLWJJVTQ4YnlEQ1FjbzJqeG4ta1NfWlVKdTdqeTBF?oc=5",
+          "pubDate": "2026-08-22T05:07:57.000Z",
+          "snippet": null
         },
         {
-          "title": "Southern Copper contempla invertir más de US$8.200 millones en Perú al 2033: estos son sus cuatro grandes proyectos",
-          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOSmVlTzVwcncxcjY0bW9MLU50Nk5LdVpSejVjekZxbXktaFZUQUN2TTVnOWtkQ2E4WWU5azZtS2Iza191UzhjY2NienpwS3V1WlI3UzhqOWJtNlRDMlZfNFJ1c3ljaV9lS2dNSXEyRENaOTE0YkFNakdSRkRkTF85T3JCbGdJMVU1TTRhdDh4TGFNRHNBODNhVjFEdl9JS1pTSEtkRllKZTdScUFNV1NFd3huY1k1cTZFcWdiWTZrWlE1Qml3OGxDUHV6SHJxckJhTm0ybTMtSUVNR2FjaTBsSlVCMUFsNjdVS25QaDhOVklvR2V2c0NaeVJucGRhVzRHOXJXSHFVQ01ZVjJzb3c?oc=5",
-          "pubDate": "2026-08-20T23:32:41.000Z",
-          "snippet": null,
-          "_priority": "ALTA"
+          "title": "Ware vs Leverstock Green (-) resumen 22/08/2026 - FA Cup 2026/2027",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMG5yM25XR2lHZmZJeDlzYXI0b1FaU2p1akpDemtTZXNWSjI5U212VGdlZlp6N2VWWjRCQ2VLeS0yNXVwT2dRY0pNY0UyX0FjZVR3akVIZlZVYkMwWTJLdUFaZ1JOWGo0MzM0Um94bUFYMHloNWVwblFld0tpMUlZbi1GRGU4eDA?oc=5",
+          "pubDate": "2026-08-22T05:07:57.000Z",
+          "snippet": null
         }
       ]
     },
@@ -104,23 +97,23 @@
       "color": "blue",
       "items": [
         {
-          "title": "Van Klaveren señala que continuidad de candidatura de Bachelet a la ONU debería evaluarse si nuevo “straw poll” confirma escenario adverso",
-          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZVJkR1VJQUpsWW93bVc4MUxtQmhUZ21ZXzgwQlM5T0p4SVpQeHRCOGJzWEk0YmRPa2JWMThGVkcySk1mYlNSdExQMFhSeHh0TzdsN2I5VXVxNnhOUzYtbDdPcnRzYlFZYjVpSExyQ1Z3TFdieXhKay0xeTZhTmctSlJLaFZCYnVhZHBqT05UaTNLU2UwOW5SYXhaOS1OZ3hMN3JWcjJJUlFlS3ZsQW5KQUdoUVJZTkl5NjVqbHpUWEE2aVpPbE5zU0YwaTdQZWhzWUxxR2dYek9MN2ZMVXNtWVh0aDhXV1hoQ28xMEpITzI2LWx0OEY1RnByUk5Bdk4tRV9BOTB6bUxhdXZN0gGuAkFVX3lxTE03dG5QVW5VZXA0Qm42V1JSNm1EZ3ZYcU5SYXE2OHFReE5NZm44OGJGTER4Q25xUDBkT1NLZlgwRTItcWY5Sm4wN0dOUU8tTXNmdnd2RjJ5RFYwVXgzbXJxVG5QbEF4cWc4aHVFQ1NYWG5HU1hiS1ptazBuYjdEb2p2cjlndFk0aHpmUlJLOG1ydl9GZU1PU2VtaXdTVlR2VWJ6V0ZHcWI0N1VSMkFoOVNTT0FSQVR3TE5zMS1Fc1ZoazIwWjdvVklxSXJ2bWR0NE0zRnF2VEtBTTE4SFNzOXk3Q2pydmpydmtjc1VHUEl1WTVQSjNpSVRaVERTTWc4NzJFV2xwQUJTdzBaRFJiWFFfa2pCNlpHVGw4TDZVekoydVNLZ2VzYnJ4R0JKLWNn?oc=5",
-          "pubDate": "2026-08-21T03:10:08.000Z",
+          "title": "Ubicado con cooperación internacional: así cayó el joven de 22 años sospechoso de las amenazas a universidades",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcnA0MEtabHQ2UWFxdnVHMnhCcVdHZzg4Ul9nSUR3S2IyVElnRjFJR0tOdk43aWgxSEFRZVp3YVo5Z1ZXV1pGWkt1NkpIT1ZnNUZQMHhlTHctMEhNOGNrOGRYazhiUGlRWkxBem1zdU44Z1Q2NVhqOG5RMkRQd3JtV0tBSTlZYXdDd2FxeEJOb3J1eXg0c05aUDVuQlBHNkNLR2ktaGgxNTg3MHlSYzI4R3RpUEN2TWlqMWZQeVFFMXg1NUtwVWcxMEZyWVFMcUl1M0hkbjhGZWhvWUcxY3Z4UGFpRmxiQXZo0gGKAkFVX3lxTFA3SG5POVYzMWxLMmtZV1d2dlVDeGFlZmdKeDV2cU5SX3p1MUFfaW8zOFhGNXJ1cnlsV0s5bExhY3AtYTJsMTFmWmpaYXd2ODZKM3VfamtET0h5NnVFVFpPU1hheTQ2RDZrUThnLVZETVZfbGJWTW5xVGdLdlZqMEpHckhlWnkyVUhramc4Z0hJNUxZMUFHbjdqOU12NnhFNE5XZE0xWWY1UTN1dUJLZjA5Rl9vYlN1UHRRbWpLNnpVUWc1emRDVDNZaXNlTElpb0Vzb1dpdTR2N3VOQWo1UWc2Q1ZwbWgwNzN4R21LLWJteXBBeXRMdmd4U2tsWVFrc1NKMGFKaXhKVVF3?oc=5",
+          "pubDate": "2026-08-22T02:16:41.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Jara embiste contra Kast desde Montevideo: “Nos quedamos cortos en los temores que podían haber de un gobierno de ultraderecha”",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQZzhUV2tEcGo3anpVTHRudVpMNDNhdjBwMTY3b1pKSmFuUE44TnVMcEF3V1kzRjl6VlYtUTFoWHQ4MV9LemNGU3ZtVnJGdVlIMm41TVVtNkRmUVl3RG9hTm5jTWx4dERuNFpwby0xTklMLWg1dm5RNUdMTnRjNS1mdWdPV2NvX0lROGxMY1d6TEppbE8xYXUzelZkX3laY1pnSFFJaTNKU3VNNXoxbUlwN1NDTjdqV3pFOG10X29LNU5tc2p0dkk5UXZUT05SWXNXSnJzQ1BILXhlS29uQmdWR0lRam5uR1czRHljS0RXc1BzTHFZQlJHTjFmTWTSAZ4CQVVfeXFMT2tWNXQ2V2MtWmQ2UWV6OUdfMVdUeGZINDYtVS1PaEpMakpvQU9hX184X2dpUURScmg4MUpNcnZvSlNqZFNPM0xNZjB5a2xtTDNBb1I0QUZvalJieTNrMnU0YVNqaXFxVGpGM3o2dVpacTVESmFyb083eDM4UXFjNGFzZHExNHpFZTJHZkFqbkQwZDB4RloxMWlsNkdIRmdxVWx3VEo2OUpRVlpnVTlzbS1KdkhmaHhOclBBSmdZNzJWbmtnT0xXSXRMX19WNkNzMWNCeUtSX0ZyeHpVX1dBb3Zjdmp6aU80bThIaktCSDlvWWNWd19LYU5jbGZYOEJhZldpXzM3LTBYd21USFJaSDRHNEpFaTVhbGttc3hsQQ?oc=5",
-          "pubDate": "2026-08-20T21:26:40.000Z",
+          "title": "El escándalo del tenis suma un nuevo capítulo: Tribunal Electoral de la Región Metropolitana confirma inhabilidad de Kegevic",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTVc3S0ZYRm1LeGd2QVpLVDVXTGtiZEhrV2NlSF9TNmFBcmV2S2hrWE5oQ1RxQncxU0lubE1aalZsSTFMNzM5MmtvZmE4WTJ2cTIyUlBuanlJdkhBMmZtNEk4NnJ6OUNrSEc1djVaUllZc2ItOVBwYlBFQk1mdlpvdkh4NFJBTzNWdm9XRFBqSTVVeFBnUDVsUzhObThXT0xJczJId2pTWUtjZFBielVlYnl6Y3VZcmFucEdTdlNNSXhYLUdObGVIUkRtRHRxSVhHejVRRThoRWZzMlpFbXF1ajJuQ3IzdU3SAYgCQVVfeXFMTzg1NEN2NHBVWFlBRS1xRV8tNGFpYjZ2OGxDeEhValJMMm1VTVg4aUtHNkU1dUNFejVhZkNmVE5kVkdJWkM2OG5FUVBxRnItYkJOQUtxZG1RcXIxcVI1TVptOTkxS01TOEw1ZmU4ZndTaUZ5ZWZCTjROd056Tl96bWxxUG94M25pb2pLMjNyUGVGS3VGalBEWkNnY0xabUwtMTQ0QWRqMmRtR0Q1a0VXeTNid25GdUk1M3l2SHVGTjljZmg4aVRVT01aX2pMUk9lMDl0ZjRuNU1nRDExbTltbHVpSnIwSTFKQWV2SDl1dTBMM3hhd2cwbWVfWkxCVTZHTkFVaXJOdE5O?oc=5",
+          "pubDate": "2026-08-21T19:50:09.000Z",
           "snippet": null,
-          "_priority": "ALTA"
+          "_priority": "DEPORTES"
         },
         {
-          "title": "Liga de Quito de Gustavo Álvarez y Fernando Cornejo se mete entre los ocho mejores de la Copa Libertadores",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPb1kxME1JMHlhdHZ4Qk5BRklnUkRkR0g1c0tjRGFtemZoSWFoLTR1Uk1fcWJIRDZFWVEyNHVPUkZlNnM4cW1DTnNabGdjS0JwT1puaWtDNFBHZ2FmNjNTVWk3T3QwVDBiZXFEa3lBeVBRZXhtN0cxc3h1UF9NX1RCdXVKU3RGVTJQUS1ISlV0dUpKMHBERnJxQVRwX3ZiQ0lhVXctV29WQTZncVFwOUZDeXF1LUpvWWRSem14U2dudldqaE1aY1dmN2psRzhIR3B0bVZ4TzYtd0N5eTZYYk16OS1Mdlo2cTdsTnfSAYsCQVVfeXFMTUJSRDJ4MElGUmR6WWdocmJjN0ZHcHhZVkNBcVRUMWk3NVBOT01rOVFzSGFFRGNEYkp6NnNPM2ttei1qSkhOdjRYVEtiUzUyUEktVFpNd0dtekV2Zk9hZDFNV0NZUHcxVXFnanFFdkZMd2FRaFdwUFJkNG9oWFJGMnFWdGlmX1czSnp5VllKN2hNR1JOX3hfQ01rR0JJd0MzT2VUUXZGVU1wOFVXMHlSUExGUzh4eEQ0VUVNMEJYRFhOa0VOUml2c3RFTi1UNmFGWmpNdm5GWDFhanVjeGh4RUE2LW1ZTU5QbDgwQW5mQlJVUng3c3pvUnlpQjdIU01vWkM2OE9aekFnRkFJ?oc=5",
-          "pubDate": "2026-08-21T01:19:07.000Z",
+          "title": "Audax Italiano y La Calera muestran poca osadía y se quedan con un empate que no les sirve",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdjExX3BaWGFnZTlyNGUtVFhEb2tGSFJkQ0N1MjJIMGkyV2FHeW95YTlGcVdHRWcyWWJ1VTRzWEt2bGgtRnh1ZmxaeUUzdjlqSXhwN2xrT2ZwZHA0eTdRS3pWZ1VTV0pBU01NY2lRMGlxaTBvZUlZUXc0RWprVlhGSWJIRkwxdU00R3dCa0FYLU9DbDJsbEtqOTFmd21rNFBjcDBnNVVuNzRoVmdGRHE2bXhWazFRcTM5YWhhM0pidWZubk9HeXU3Y29ZdFAzbHpidG5rMtIB9gFBVV95cUxNeWxNblVwQVVKeGFqZzVKUzhXNVVCNE9xUnFjdG0ydWhtY2hjVzk5d2Z1cUEtdktIU1ExMGtDUVFjZ2M5VzIzdURzaUN5QnhhWjRkcXVESUNuQmRZN0pVSFBFNFZCcFZJdTJXYXN0RkJWT0RWRjNuSUprbTdxaTFPejB6U2VWcnFuTGdqSV84NHVyLVQ3MlN5X2M4SEhjZ1FfRFVrdVZneGE4NkpuaHFpLTNkQXJlSWZXOUNBVDRldFZRQ0pyNDhRM3RlZDNQb21QVnlZVWZiRHpVa2piWG1mQlh2cnRfZVd3QVdXU3dfX3hxMEs4R2c?oc=5",
+          "pubDate": "2026-08-22T02:57:09.000Z",
           "snippet": null,
           "_priority": "DEPORTES"
         }
@@ -131,23 +124,23 @@
       "color": "yellow",
       "items": [
         {
-          "title": "Fuerte sismo en Perú de magnitud 7.2 sacudió la región de Ayacucho",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQd0VBUWFsdGY5bVp1NnRkd1NGTF92Wkk4d0VUMmVRVFFUdGU0bDFwN0x0ZGIwR29PVmMzdGJFZE1OdmpRZHppM1NKSjdiUjdRNDRfLXIxUGhaSDdWemRma3RxeThJX3JnaU9Ucjllem4zMVNqcHVtM0dKRmcxSV9GV285alJHLThNeUk5NHdGeFRYd2VQcjQ2Q3BhT011YVlUTHpVVTRYLVlycWR1ZWxj?oc=5",
-          "pubDate": "2026-08-20T18:40:29.000Z",
+          "title": "Deudas estarán menos tiempo en el buró de crédito en Ecuador",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSUpVdzJxWllMdWZzVVRMQ2JUWVVwSzh6Rk5ZNlE4Q3h2NTNySjg5eFZzT2VJZ3RYVzJnZGs5Uk1NWUhEN0w4TWhzZENlbXo1MTNxU2diSEZjeUlmRUlRbV9pZEIxUFZZU0JQNTZSQUFPNmQ1cHpOZWYzWWh6WENCV0U4SVVaNHltNERkMWl4N3Q3TlZhRndfcnh5UjE?oc=5",
+          "pubDate": "2026-08-21T23:58:51.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Gran operativo en Quito deja detenidos, droga e incautación de armas",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZldCRk02TmpTTjc0a2R2VWlkOXJFeE1COVVHRmpYQXA1dURNT2ZWQ0lycUtKWUhqQnZiYzB3by1EVE9HelhmMTM5NEpRYjJzWnpKM1Y3c2Raa25qanRkNm0xeEZjTVVWOVFHN2hlai1NLVByOGdxSDAwYnpweXlaMk9DLXFxYlBBWHJPUk9yVTVzTUlDTUdwV2RZMzYzcUFEVWpWRmtFaDVSZHVOZEk3UGhmVGo5S2c?oc=5",
-          "pubDate": "2026-08-21T01:16:07.000Z",
+          "title": "Policía clausura bocaminas de minería ilegal en Azuay en Ponce Enríquez",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQl9sd09QdUVVZ0VkY3JMWGxPN1NKRTBoa2xrLUNuUV9XQk9VQXpUeDAyVTB6ZzNKOEhSalZZZTlUQkxSc1pkS2V1NmVGUmRWOGRBLVJ1TU1KSEFKcGV0Q3B4WnVKU1d0dXZQc042dmd5WE5sYUttYXBKTHI3cUVWVVJKTTN2Um9wSi1lTXFQY252S2t5WjNaazhCUmFVQ2gtc2RGVkJVanNONWpVUDBobHZWT0tjaGNwa1V1Ug?oc=5",
+          "pubDate": "2026-08-21T20:53:21.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "EE.UU. sanciona a una red de narcotráfico con base en Ecuador y bloquea 10 buques pesqueros",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVlpXZlpVYWpFd3hoQ3liQno1UUlCaVU4MnphbzlBcHgydVRTZkN1bnJQVHZ1VTMyUldIOWZ0R1ZjVHZBcWRMekpZVmQ5VkNrZkJ1SjNGZU1ESFRBOFRCRzFuWTl3Q0NkRTdPQm9Sekx1UThITmY3dWxaY2dkbnROTFNhejRZWFVDMFMwajNNRFRLcXNIZXdlSXRLeVA0M3ZyX3hxd25yMVJPR0R2QThLaFZtdlJ5TUxhcXlkN1YtRVRQYk1BcTZ3V2FHeGI2ZEw3dXo1YnJn?oc=5",
-          "pubDate": "2026-08-20T20:45:46.000Z",
+          "title": "Cinco jóvenes denuncian robo con escopolamina en Quito",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOXhMeDhRQXhmdUpqaUpZQ1ZSTFA0b2ZDWkF0MURFTlZjTURCVTN5enJZNFpScmNCaVlydlRvbWsxWnI3Zk5JeWc3S3FiV1doWmM0T3lyVUZSVFhUdm5wblA5bFlNRzJLNTNUVUphWXRMYW8zTDh0T25yWXBzdWlVWWk4MW9oZjA5QkladVVpLXRpSlZHa1BKcDBmMTg?oc=5",
+          "pubDate": "2026-08-21T18:31:22.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -158,25 +151,25 @@
       "color": "mint",
       "items": [
         {
-          "title": "Asunción se maneja “a la bartola”",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTUI4Y2RPcURZNXM2cGpYeS14eEtQdlNiel8tbVZMc2Jrbk1pTHRMZXVGcXZsRnRIdFZMTVRQMy1VZS1ldFpwaXJkeE5GcjFMMlNzUjR1UWVYb3lzeWdKMTJweFE4UHNEdXI1elFtZ3VSQkt0X2EyUmpXWlNrY19YTkdYNE9IUEM2RzQtQnVQS1paWjhCRGpZ0gGrAUFVX3lxTFBUYjNhZ1dJRG15OGVuOExWWm1MVGZtcHJQel9aVDdzV3pZOFFzdkF3VXhhNVRxN2hRQ01STUZlSnB0TVRYVkJqbC1RaUEwR015bFpRazh4X0lZZWZoSGk1MG94dUQ1T05GTGloeV9TeldPZ2RrbTdIMWpNeWJnbFpXSHB6Y252THBiLU5JM3JCWU1XSkp3RmpGaW16SXIzNVB0VkxuWUFnOFhPMA?oc=5",
-          "pubDate": "2026-08-21T04:14:47.000Z",
+          "title": "Parlamento de Venezuela aprueba ley para impulsar la construcción de vivienda tras sismos",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMGZHcDZ4UzFtSnJfYi1kRDh4dUo5b2E4dHpldmZ6LUs5YkVCcDRmQUVZMy1mT2lFQUlxcFZTZUJKMXRyUFBSMnk0bkV6ZUxHYUJDMXFnSndJSXFFS093QXZkaDl5TXhGblM0bTNsSUdUMjFTLURjZkdOZUhZWHVtX1VyM3FnQUxSa2VQbXNoZV84TWJESGdEend4bzN1RFFrV0U4OE1jcm5OMFVNU1VmdDl6ZFlhRUhaMEhaNWtxZDBHcVkyaXpXREYyNS1icWk4T0NSVGVZVdIB6wFBVV95cUxON0NrbUNoLW5FVEpsWkRLZ2dUcHJuRWVNNnlxM1Z4WllicTlGdTRacnI0TlBwS2pSNUxHR05KM0otc0kxbmZrRElMaUxxQTIxaXJZb1phSmVPd0JCMzl6NjlHQTk1MlAtSldjM3R2U2hPTFhPRDZaTG10dWVFNFg0clJ2Z0dXSWh0aFlTZnFjN3ZBTWZKc0NJZ2JUYmJuaTVPNC1aZ3dEcGw2MHZWeURvTC1BdkZHZUFqeldpUEdVYy1HdDQ0Rnhkclp4MEJEQnU4a2xzblFsSFhtLVkxT1FLckV4anliS2NSVmRR?oc=5",
+          "pubDate": "2026-08-21T23:26:33.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Elecciones: Camilo Pérez presenta su plan para Asunción con foco en Artigas, seguridad y el Centro Histórico",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPOHgzYVlncHl1ajcyNWdNSzNidzlnajdaZ1g1a0RYbFJCd1VaNnYzUFVYUGFKM1cwTlJCTEdxMzA3VUl3ZGZ6dW5fQmwtRWhNU0dLNVNLLTJORENIM2c5V3ZMZzNCVkM2cXlmR2FROXg0dnhxd2thM1lGY0ZQOTBXRWx6ZEdfZFJrR2RGQ2xCMTBhTnNVR0djc29NMHg5NlU2TzhkLUtFU1c3RHBTNUk0bnBqQ0xZanZBelREdzg1dDYyMmdqZTRIdkJvTjh1SDk4LVhucGU1TW55bzhUVDhOVmpUN1jSAfgBQVVfeXFMTm00bGZudjUtUnBmXzQ2LXM3YU9DRzRZRG1yNDExck16N0UtaVJndlJsU3cxNGhwWU5yRFJ0NXdsSGVjZVhMRzRYdENWZWRzYjVoU011RUwtakhMN0dicUE2cUtrRmJnQXNyVHc2dDlndV96eXpQTG5Ec2YwYlUwdEV3V3U4bEt1ekF0VktLSnRESlBrdHV0QThYREFtMjAwbUxfT0loT19Gckt2djJJajhJVV83VWNlZEp1d291MlpkRGItaFFjaDF3ZWt2Y2FwQ28wMi0xU2YzRDdsWnlxcTZuZWZyR09uajBmZVZsemkxQUE3c3RuN1A?oc=5",
-          "pubDate": "2026-08-20T23:57:26.000Z",
+          "title": "Soja: US$ 1.020 millones más en divisas y dos millones más de toneladas",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ1ltY3VpU2psTm9raEVldWhXMFAyT3BDVjRHcHhYS09STW9wekdOVUt4b3pfSHRnUkxxMFdlMklxTDd5UDUyTno3RmVnYzl4R01YaHBXY1VuTmxLS1FBdElWMG1GaV80c2Z5bXRob0p3REs0OUxRVTVJS3dYeGRfM2MxYTVOVnJQZXkwcHliOVd4VEtYQ2ptYWZpeVM1aEZhQjBqc0VpQ2xjNmJCQkt0bW1peURZRDJUcVczQ1lXMNIB0wFBVV95cUxQejJXWENpMWJZelRyc0lENVp6SXFMUkNQUl9oeXowcC1kaU9Ddzk2cVE0WWFnczFwc3lrOUZoamQtVkJVc21fQXlZWEd6SVpVX0tMZnViZXVqZHllWWtFUU9zZGVtN0FBOXRuYTNfbndqQzh5bENVLXR4aTdNSlhfWTBKMzR3VkI4eGQ2MGFoc21LeWRjalBTSTVTRzRVclZTWGRMd3M1Vy1NYlFHbUVRanowLURSbW43MVFncTRHa1hTYXBXU1lTVlFlbzhQTUdOYXNz?oc=5",
+          "pubDate": "2026-08-22T04:17:57.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Pupitres chinos: desestiman denuncia contra titular de Itaipú y Filizzola denuncia pacto de impunidad",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMldVRzZwWWg2RnNXdy1DZHZRWDZTeFVHbDhxbjZOcDZKenhOSHJZQTBHT25uX0tiUnVUeVZFbUxLRWZPak5VS3ZBQm1DOVpQX2VFaVZ3cDZaVTJwZnJGdHF0QU92TEdTUFFMUVcyNTh0ZzFWb0FlRDR6c19UWFNZZGNiT2t3ZXlITk1ZXzVNd3RHSVp2dlpiT19OWjFVWHpodEJYZjlDWTUzWURxaUxkbXg4RzhsRTdGcW4wY0t3WTNKbjZjY1lxMlV1THE1eVlhS19NeEx1M1hoTWktUF800gHzAUFVX3lxTE5XdDJEVk85b0dVdFZvclhtN0RNZk1HNDhvRHdVbTVvbEtWS0hsOGFEZEZfMVphaHNIUldKUDdVcWtOQ2ptQW1RUndlR3pOcTJDR1Y4RklQM2dmMGROR01xNFRKTEZUMHdFSEZOQXhEcEZYT2M4ZmgtXzBYaHdYc2d3aEhqd2ZRSXMyMUt6bjAtSDJUN0x5TnU2Y2xiM2FRODkzTU81a2w3TUdsS2c5ZmVEdzlVQ3RzaC1fTnRqSkdydTlzdW9wTEEzM3ZfWENoYW1aUmhuM0ctRldCamh4ampRS2ZMSUpxczVDSkxETWhNWTRGdw?oc=5",
-          "pubDate": "2026-08-20T21:24:40.000Z",
+          "title": "Olimpia y Cerro van a la pulseada semifinal de ida por la Premium",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdzh3MXpwVk11Yjd1R2UycG1mU0tYdDhSTnJ2bEFhWDJvRTU0dmJhTmQzUFFHYUxoeUlpbGhFTEpUVTRxdHRYMkdTcGkza294YzlkbHlQVEZYeS1SbVBBb1NJUnFrc25ydHp0dEw5SWpyWFJxRTd2ZU9EY0psbGNrdDdUeW93UllrcF9WcWVkc2tNRnl2TXZia0NDSTMyMjM5NkJaVXFuOURfak83YUJ6dTNkXzV5dTZpWGN2b2Fnb1DSAdQBQVVfeXFMTmlJc25oM3MxSVlBTWJjWlV1UjJ6XzlwUm9ZNTlrZDJ0T1RZLWlhTllaUldzbTNYMFJNVHFzbGxGby1ubXpsNzBFa01wRmxXcmp2eG8tNzBReE1OX1EzTmRjYmptMkt2bHBkOGNtYmVkSXhCNk1GaTNraHZVTXVyeUUxdTBVN2FlbkdIZTBYbXExd0RGbU1HZzNzZkRRcVNVR05FcV9xTERjaENuWnYzdFUwam53MWp3T3JIX0NtOFRVR3VHdHpZTXZ1aDJQUTRzT1VhdXc?oc=5",
+          "pubDate": "2026-08-22T00:51:02.000Z",
           "snippet": null,
-          "_priority": "ALTA"
+          "_priority": "DEPORTES"
         }
       ]
     },
@@ -185,23 +178,23 @@
       "color": "slate",
       "items": [
         {
-          "title": "Al menos 13 muertos y siete heridos por un derrumbe en una mina en el suroeste de Colombia",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVDZhM2VlWkUtUWRnOElkNUFCQzZDX3c4R0dlbUF0eUEyOTd5MDNVV0dGSzhqYk9WYzJLaDRtVFJrNkhNSHJqZ3JKQmg5dk9kMm5QTUU0eGQxX0gxd3lrTk9saGktOVhITllXSTdwREx5dzlsd3I0Q3BmTzl1NXNvV1dHb01ZSEMxbk1XTzJTbkdVZWRfLXlPVEtIZllybGhobEdGRWVSTzl1WEppWkxzR3ppeHZkWE0?oc=5",
-          "pubDate": "2026-08-20T17:10:15.000Z",
+          "title": "Quién es Kevin Morotto: cuatro homicidios bajo investigación, tres emboscadas y una disputa por el oeste",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRjY1WnJYTFktektjdS0zbEVLbWhOMDV6THY3djJPakZXbllSSDdsMmp4eXZVbzVsTnJrNjRLMnduN2doTGt4NVdCWUd4RE5MTXVXRmtVbk93YjBWcnllYmVkMGpteGtUdXNYZjFaM0RRR0tEcWxaU2Q1ZGRrd09NblVYN09QNkMxcmxuam9tRllZOS1UVjRkMlRoWlU5OFJHd0JOWXNFVzk2YWdycnNTbmhtaWRJOEVhRXZqREJ6S2JNSF81UldicWRhbEUwZmVQT05OTlRWVlNfRm8zSFJWT29OYjBXZw?oc=5",
+          "pubDate": "2026-08-22T07:03:29.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "¿Llegó la hora de la tijera? Proponen involucrar a privados, desregular mercados, cerrar algunas empresas estatales y más",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORjZDY0owbWNwaWppemJ2VXN3WWpVcFduVjg0Y2YwWHdndTR2R1JNX3M1dWhHeG41cTc2b0ZxRlRiVzFEc2FRV1B5Nm1FYVBxVUx3YmNOQU10VFpCVS1sRUVSRzhxNmgtY2EyRWVUXzR5VTBpTWsxM3JFd29NaEpLd2JZSDVNOXVHTDRsRGtiQnYyUXFkREVLTFdqOUpIT0N0NmpVc1M5MjRSVFdKYlZ2dmsydkRIQQ?oc=5",
-          "pubDate": "2026-08-21T08:59:29.000Z",
+          "title": "Así fue la detención de Kevin Morotto, investigado por cuatro homicidios y sobreviviente de tres atentados",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPVkRXZ0NDZXUwZTdSY2c0c3F2a1l0NjNzRnhPNmwtbXZIQTJVSWRYNHNqV2M0NGZ0Z0ZmbE9fbk9lWURrTS1SWmlGSExscmFPR0hvUGNYUlRRYVJMQWFqdFRfaXhEZGtHd0NzMkNNOEJZVlByLU5jc2MzRVg3VkFNV3k4NlVRazc1WDNYRWNwczU2T2V0R2RwY29odTJrNUNXYmNFSF9fRVpKUXBxR1NYMFpWQ2ZueUhibXM3dVRHUzk3QUJtNHN4ZVV1MnNpQVhlX2FrdTA4MFJjTmE5UVQ0WWtyenMyY29hMlE?oc=5",
+          "pubDate": "2026-08-21T18:53:58.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Crecidas en Cerro Largo y Treinta y Tres dejan más de 1.600 desplazados y casi 200 evacuados",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaWxudU1wYThZRS1wVUhpTFUyY2JNRElDTHZDUEttX0NlaEs4TTRYNWUxTW5FMHFsWkxGUXRpMWZTY2dTaHhaTlVxTFd0dVVSQzJfNWtIY3YtWkJRZnNDNTlWUnZja01VYUtiLTJlRm43R0JuV3hiTER3aGpYc0F1V3kzYi1vRVBCU3pFWXgxSTBEclBMNWg1RmJrT2dKOWJUNWZZN19ZMXpZX2hBaV9EOFBCandVckIwNi1ld3ZxelJ5UGk1dVk4LUZUMlZwRE5XTUxXSFBR?oc=5",
-          "pubDate": "2026-08-20T21:52:43.000Z",
+          "title": "En medio de denuncias por irregularidades en licitación del INDA, Melgar pierde respaldo en Torre Ejecutiva",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQT3B2d1huLWdnVEhGSTJVWExFRjhaTTk4NkN0VWpNUTFCRkxiaUt1YVZMaGlBb21tT0VNNF9ocTZSOXR5TG1vVTNyS0Qta3Uyemdsb3hBQzlyZUVuSHI5dlczYmoxZVdKQXVhWU9xUjA3a09RU3dfZlNXT19jRmlTT29tTWt0Vm1VNEZ3SVNuTktwQ0ZVYWVGWTd6eGJPQ2JFdWtNdDA0M2oyN3MtRENRVmNmYmdvcWtmUTQtSDRZOUxoZzhwYVljTXYwQk5CUTJ3QzV0alZtV0dURjFwOWxCUHVLSmp4TlZv?oc=5",
+          "pubDate": "2026-08-21T19:06:40.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -211,6 +204,12 @@
       "name": "La Razón (Bolivia)",
       "color": "cream",
       "items": [
+        {
+          "title": "21 de agosto del 2026 - La Razón",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WQ0htY2pLY0l2ZHdwX1Y3Tmw0N3dUeTBVcFdYVVdyQkszb25CTW5kQ1hNTE0xNlRfTkowY0ZtR1dQWVVQNmJLZUUzX2EtR25vWHRGbGE4Ty1tODhJaU9tWFVWM01SLWJaLUc3VWhJYkRGUmdHNnhHMFR3cU5yZw?oc=5",
+          "pubDate": "2026-08-21T04:10:53.000Z",
+          "snippet": null
+        },
         {
           "title": "20 de agosto del 2026 - La Razón",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wTjRfMmJBbU9MSHMtVVdLXzZsUlQyN3B6VGg3Rk1VajEzakFHUlZaVHFoeUZWX3Y0RmdPa0pwMDBwZjE1a0hweHFEdVZaempCaC11Q0NZdnlMcjdyVkdOSjFYWWxZVVVpVUtycEpkc1lUVGNZdXNURkZCemo1UQ?oc=5",
@@ -222,12 +221,6 @@
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5IYjRuSFF6TkFXQzk1dTFybHFzSEZHUzNGbzI5UzVGNVJaUGJ5RlRtTUpyOWFZV3dyQ3czMjVpcEx2WFF3NkxJXzhveDhzekpNTlh0eVNweklUMDhiQzlKQTBtMDFjWFl2dEdKMzVEMFBEemRlU1R6VlNKVmtudw?oc=5",
           "pubDate": "2026-08-19T05:51:25.000Z",
           "snippet": null
-        },
-        {
-          "title": "WINE FEST 2026",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vRnVPaE5pSkJVOGRqQXFlaWU3cV9NN05rY3drTzBHVW92Y1dHc1o4czJSZFZfZkhveXNuMDMtdmpoWTlNUHBLODhiYzNuMFNaVGRKLU5KQldZLVV1LVE?oc=5",
-          "pubDate": "2026-08-18T17:10:41.000Z",
-          "snippet": null
         }
       ]
     },
@@ -236,23 +229,23 @@
       "color": "grey",
       "items": [
         {
-          "title": "Estados Unidos impone nuevas sanciones a funcionarios y empresas estatales de Cuba",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMDVVWXVzT1YzcWRUcVVHeFJ2Uzc3WE1TZl9va0VMXzNwMUNualF3Uno4M1dBaDhFcXQyckhiTk5zSzdRTHRrUFlSVlgwcDJOWC01aV9wX0N0algtdi15UGtfSXo1RnZ0YkVZRzlZVm1pQWxkQkhfUWVNbTduM0ExdmdvSGZpVlc2WjBrQlVvM1Z6T2dTa0VwNU1kNERSd0hLWTRsRTlqNzNCb09Cd1lxZXRoZXFoUHctRGc?oc=5",
-          "pubDate": "2026-08-20T22:55:53.000Z",
+          "title": "Gabriel Boric pide coherencia en la política y asegura que Maduro \"se había robado las elecciones\"",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWmprU0ZsZXNCTmhkMTdnc19CZFVpUkpjcjI0UWNmYUhXU1RneURieFdTai0tZUstYmVnSXJxclpiSDZkTUNDSkVrRmZwTUpiMERjTVR6azZSbGNtV1F1Ri1yblVfanFFQ0dSc3dmRFY5QzMyYjJYU1NoWVE3ZDNnN3JQOElyNHBQbnh0eDRSYV8wMWNlUGJldGRZTTNCQmhmWFVkSUVVTkNxWlFUWlBqRXlKYjRneUtlWFh1OUVlMnZjZmR1MmZ6c2VkTHU?oc=5",
+          "pubDate": "2026-08-21T20:21:25.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Israel disparó contra vehículo en el que viajaba la niña Hind Rajab",
-          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOVXhuaWVvdmNFZl83MVlybkYzc0FMaEJ0VXhRd2ZQcXJETDBCdGJYN2tVYWwtdjdvcVJfUEY5TGt2Tzg3ejFFYkNwY25vbjk1dHFaSlZ4S2d0QnJEeENGVWJiZC1OdDVJWHowTHFuLW14Nmc5al9qMjhQLW01dGZ3Tng2cGJJcVZzVVJsRjNtWFFDSFFpVmZBZGdwemZDVkdGUno1Y25sOWpybGFjVnVNWktxLWxiYkZwWkFEZGpJY0swZnNqZXlWRHVua29fSXVXNldYMGxZOW1HX0UteGdnaEdrLUJyZk5Dd19lcGgwbXZ2dnVIZWVSWnpfa1g0LXR2blY3ZnFlZHdtZw?oc=5",
-          "pubDate": "2026-08-20T16:41:26.000Z",
+          "title": "AN nombra a Steve Hanke asesor económico con miras a dolarizar",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRHhqTVVFTnhfVkI4MU9pTThoZldLUnZqM0dRSmZxUUk1ajU0QXFjWXFpMzJNdEhrQ2E0S0tqdmw5UFZzbE5pTm91RjJUVzRpcFBzNGxTaGowd0lyUXZBV2hBS3NLeW1BWHVUUW9xd3ctX0NkZkROaW9Ecllraml2aGl6Sml6NGQwNklCYTN2VUVmOGpoU2I2bGlQZC11T3BKNm9pQUVEcWtlZko5YTVRT2dyWklVZGdaSmVmdjlVdXlfWEtpWndTSW56MA?oc=5",
+          "pubDate": "2026-08-21T15:26:50.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "OSV contabiliza 71 muertes y 92 lesionados por arrollamiento durante primer semestre de 2026",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYlllRUR4QjNubnNldlZrdGsya2MtUjhFNU9nZ2tENXViU01XUlhhaHE3YnBmZ05QZldOYXZ0a2pfYy1xSmw5VUdmUWtNaVhZWTJ1cGN2ajBsUkJQbFlMRVFEN1kzVGVoVmUxZm8zVnFzSnRmbFV4Q0xXU3FfczZCSVJGTk9ERzFacFdyYmxKQ25zcF9tSV9HNEo2eEh3VTI0WFVHbkVXYTZGQ1JINHNmQ3BLNW9qZHdKR2Q0M0FlVnA2NkFwdFV3?oc=5",
-          "pubDate": "2026-08-20T17:50:50.000Z",
+          "title": "Condenan a 30 años de cárcel a exconcejal del estado Aragua por el asesinato de su expareja",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaDktWGVjcmtvWXpSM2huR3UxbFVsVGVBU3ZBRXcwb1NfdUtsZnN0NVhKcTQyTXYxUXpJS1laNDNGejFnVjZsVi1ZVk9VTGZxT0I1U01CYWNfWFR3N3VENXZKaGhuSU1SNnFfRFFGUFg3cjZDY3FIcF8yamRJZXRheFp5SHYwX0REOXBzdHRMbzkyLXlDOEJJbnM1d0VaNUg3SzNsTElTS2ZEYkdoY19uWG5DeXF2Q05ZZnFuMUZWengyTkJtZUE?oc=5",
+          "pubDate": "2026-08-21T22:19:50.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
@@ -263,23 +256,23 @@
       "color": "teal",
       "items": [
         {
-          "title": "Trump espera reunirse con Kim Jong Un a finales de este año",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZDd2NGVjdlVaYWk4Z0pPSWJYbnlqQlkxVk41aXVBMm94el9zTTVhc1BrdW5TRHNjS05XdHY0cXdqM2hJd2JrSkpMNk9yU3VTcFYxd09CZ2Nza19ZUFRWMEZMRks5X2FpRDF6T0JxeXJlTEhPSDNRMmZEN2NnczR0VENaUUxLUURnZmdYcTNLcmxZZjRpMTJOOG1kd0ZpbzBzSERhXw?oc=5",
-          "pubDate": "2026-08-21T06:05:00.000Z",
+          "title": "Avión militar de Estados Unidos sobrevuela el estrecho de Taiwán y China monitorea su recorrido",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcGRrRVdyc05jMm5UX2F3b2l3Yk94ZzJuRHdtNkFtRjNiaXFUNkJiaXhNQk8zZjhTdGFNZUxMLTkyWFlmbWppWTJ1d0lxckY3WTVINUlIVWRaZ0poZmlxOU0ydTFQaGlUM3ZtRFZ6cVRjaEJSSjQtQUpuSExZamVtYm5manNTZ00tSU54bl9BYXJ3aDdLeVo4c1Iwc254Z1N2cUM3UmhKQ21ad2JGcURhR085LWpoRGNOUkYxMllXVVItanNKVHkwODVpV0xValAtTURBOVBCd181VjRr?oc=5",
+          "pubDate": "2026-08-22T03:40:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "Nueve comisionados de la postuladora a contralor se resisten a escuchar a los observadores sociales",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbTV1LXJYMWVWMGhjR2FXdXJfR2JJNUNzRDIySFhOQUd1WEdVZVhZamxEMXRmaGd5NE9UNEF5cUwzbXFLeGdoR09kN1FWeldHQTRQeGpSQV9pSmJHWlZ5aTV3Mm54bWliaDJNa0NobHMwRjlrWld2TlU3aHEyY2VFMDhYcjRHT0JIWnZmeXNIN2Q5WUlpT2FoTzc5eVBYeTRkcl9OdDZScmRjNF9BcUpLUHprT0ZodjlkcUg4ZDhYbTh2V3JoUDM3enlDbV83ZlQ2d2RGajJ3QXJKSWRHR2lBMA?oc=5",
-          "pubDate": "2026-08-21T06:01:00.000Z",
+          "title": "Brasil y Estados Unidos retoman negociaciones por aranceles tras conversación entre Lula y Trump",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMmYtN3BBY0Y5MkNwYURuX3BXMjZXRF8xd0czS0tYeFM2eHhJTmlPX0lPa0FjZWI1YzhobnNwX1JZb1F0Q0F0LWhjaVF5dk95cmU1ODlBOVcwampRNldGOVFCeGZZdGxrRGJrZmRDbTY5ektrWHRCd3dCMF9UN1NvdWY2Yk01aHlLenZpaGhzdk5VNkZhUk9rRkRqTnAwblBCTGRGMldjU2N6WF9Pdk80aDVsVEtsbDRkRTdFSGJjaS1NTGJKTll3dExIc21MaWNKMEZmX3ZUSFRGNFU3Nmc?oc=5",
+          "pubDate": "2026-08-22T01:12:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         },
         {
-          "title": "PNC anuncia despliegue de seguridad tras ataques e intimidaciones contra comercios en Escuintla",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdEttM1hDdTJRVkwxYUdvSFlTUmZzWS12bE9uVGEzMTZ0QXliSkExT2kzRHFlWkdGM1FxNWx1S3o1Ukt1T3hEbnp0V0J3ZUM4ZFNiOUFIeE1JWEtUaDZHMUVVN1JaSGZVQl9XVmJFcVNTUEhFYWhwRkttX2R4S2QxQnNvaHkwWEJkV29nVEd1TFVncnVXNTlmd3dBbC1JMDRLaUR6dXppc3hfbjlmQ2JTZlhWVEE5TlhpMHBUTGdGN3RSMXFnZlpnN3c1aEhLNlMxODVhc3JodTROa1dCTWhYakNB?oc=5",
-          "pubDate": "2026-08-20T21:50:00.000Z",
+          "title": "Estados Unidos busca organizar cumbre económica con El Salvador para fortalecer relaciones",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNE5vS0R6Sms4b2ZmV09QNVo2WGdoTU5pTjd2TjdRT21oNTZYZHQwbGNyVkFZUFlOY2ptV0hpUmFybi12SXRHaE1CdzdfeG4wWTIwT0I1X2ZpdnBWdXBtNEF3Qm1Gc3hMZHFsQXQyeUFFTDhmeDNhLUxGdDF1UlZ3aHU5X3JSS3JyeHpua1ZObS1zTzgzT0hhZXpobWExNTBjUnc5NTVaVHAwd2JDTHFfX3cyQm5SeVBnN3AwYlo5WkFtNHpRNFp6MEN3bnFwcDZqX1Z4Q0N3?oc=5",
+          "pubDate": "2026-08-22T04:58:00.000Z",
           "snippet": null,
           "_priority": "ALTA"
         }
